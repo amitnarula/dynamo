@@ -1,0 +1,1874 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<questions>
+  <question>
+    <id>7a7b58797a8b4a69810693890b322191</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Nicknamed ‘Nuclear Wintour’ by {blank} fraternity, Anna Wintour is a popular figure in the glamour world. Born on the 3rd of November, 1949, Wintour is the editor-in-chief of American vogue since 1988. Wintour is a firm {blank} of the democratic party and has {blank} several fundraisers as a contribution to Barack Obama’s presidential runs in 2008 and 2012.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>glamour</o1>
+          <o2>showbiz</o2>
+          <o3>fashion</o3>
+		  <o4>sports</o4>
+        </blank>
+        <blank>
+         <o1>fan</o1>
+          <o2>supporter</o2>
+          <o3>critic</o3>
+		  <o4>planner</o4>
+        </blank>
+        <blank>
+          <o1>organized</o1>
+          <o2>arranged</o2>
+          <o3>deputed</o3>
+		  <o4>conducted</o4>
+        </blank>
+      </blanks>
+      <answer>2|1|0</answer>
+    </template>
+  </question>
+  <question>
+    <id>936bdd3d10e34d94ad158057a740b568</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Taking selfies has become all the rage these days. Whether someone is {blank} or up in the sky, it is imperative to go for a click. Sometimes, the experience itself does not {blank}  as much as capturing that moment in the camera does. In a famous book titled Selfish, reality TV star Kim Kardashian handpicked her collection of selfies. Famous show host Ellen Degeneres’ famous Oscar selfie that {blank} stars like Meryl Streep, Brad Pitt and Jennifer Lawrence is one of the most re-tweeted images of all times.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>on rope</o1>
+          <o2>underwater</o2>
+          <o3>in a room</o3>
+        </blank>
+        <blank>
+          <o1>worth</o1>
+          <o2>matter</o2>
+          <o3>price</o3>
+        </blank>
+        <blank>
+          <o1>excluded</o1>
+          <o2>contained</o2>
+          <o3>included</o3>
+        </blank>	
+		</blanks>		
+      <answer>1|1|2</answer>
+	  
+    </template>
+  </question>  
+   <question>
+    <id>8432707c59a94b9aa9b302b9b5a4847a</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>With well over a year since its disappearance, Malaysian Airlines aircraft 370’s mystery is still {blank} in people’s minds. On March 8th 2014, in the wee hours of the day, a Malaysian aircraft carrying 239 {blank} disappeared from the radar after changing its {blank} considerably in the air. The initial set of news that surfaced declared that the plane crashed into the South China Sea, however despite extensive search {blank} in the Java Sea, Gulf of Thailand and Indian Ocean, there has been no trace of the plane debris. The ill-fated aircraft, which was carrying a majority of Chinese passengers from Kuala Lumpur to Beijing, was finally declared by Malaysian government on 29th January 2015 as an accident with no survivors. However, in the absence of {blank} confirmation, no definite declaration has been made yet.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>hurt</o1>
+          <o2>new</o2>
+          <o3>fresh</o3>		
+        </blank>
+        <blank>
+          <o1>cargo</o1>
+          <o2>crew</o2>
+          <o3>passengers</o3>
+        </blank>
+        <blank>
+          <o1>altitude</o1>
+          <o2>aptitude</o2>
+          <o3>fleet</o3>
+        </blank>
+		<blank>
+          <o1>associations</o1>
+          <o2>arrangement</o2>
+          <o3>operations</o3>
+        </blank>
+		<blank>
+          <o1>clerical</o1>
+          <o2>official</o2>
+          <o3>government</o3>
+        </blank>
+	 </blanks>
+      <answer>2|2|0|2|1</answer>
+    </template>
+  </question>
+    <question>
+    <id>a37a530a16604bd0b3f23b4e06d4c805</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The trip to Paris {blank} me many things, but one in particular. We all live in our version of comfort {blank} . It could be our fear of being alone in public, or simply the fear of the unknown. {blank}, the magic only happens when you step out of your comfort zone. I'm really glad that I took this trip as it taught me that the key to our {blank} lies within us. Thanks to the city of love, I learnt the true meaning of wanderlust.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>explained</o1>
+          <o2>taught</o2>
+          <o3>directed</o3>
+		  <o4>created</o4>
+        </blank>
+        <blank>
+          <o1>phase</o1>
+          <o2>aura</o2>
+          <o3>zone</o3>
+		  <o4>method</o4>
+        </blank>
+		<blank>
+          <o1>Albeit</o1>
+          <o2>Though</o2>
+          <o3>However</o3>
+		  <o4>Clearly</o4>
+        </blank>
+		<blank>
+          <o1>love</o1>
+          <o2>pain</o2>
+          <o3>ecstasy</o3>
+		  <o4>happiness</o4>
+        </blank>
+	 </blanks>
+      <answer>1|2|2|3</answer>
+    </template>
+  </question>
+  <question>
+    <id>59f7772aa4074367bd149650924cef61</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The first iPhone was released on June 29th, 2007 by Apple Inc. after three years of research by a team of 1000 Apple employees.  The Apple CEO Steve Jobs wanted to revolutionize the smartphones market by {blank} everyone’s focus from tablet to something more multi-tasking and wholesome. Apple joined hands with AT&amp;T mobility and on January 9th 2007, Jobs {blank} the first iPhone at a Macworld convention. After an overwhelming response to the first generation iPhone release in the US, the product was released in UK, Germany and France, followed by other 22 more countries with the onset of 2008. The {blank} years witnessed a major demand in the smart phones arena with Apple emerging as the {blank} market leader. Apple Inc.’s ensuing releases included iPhone 3G, 3GS, 4, 4S, 5, 5C, 5S and most recently iPhone 6 and 6 Plus, which led Apple to become the most valuable brand on Forbes’ list with a total market cap of US$ 741.8 billion. Under the leadership of CEO Timothy Cook, iPhone’s latest phones 6S and 6S Plus are presumed for a release in the last quarter of 2015.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>digressing</o1>
+          <o2>polarizing</o2>
+          <o3>differing</o3>
+		  <o4>emancipating</o4>
+        </blank>
+        <blank>
+          <o1>introduced</o1>
+          <o2>dedicated</o2>
+          <o3>directed</o3>
+		  <o4>unveiled</o4>
+        </blank>
+		<blank>
+          <o1>simultaneous</o1>
+          <o2>instant</o2>
+          <o3>subsequent</o3>
+		  <o4>chronological</o4>
+        </blank>
+		<blank>
+          <o1>uncontested</o1>
+          <o2>unanimous</o2>
+          <o3>undisputed</o3>
+		  <o4>astonishing</o4>
+        </blank>
+	 </blanks>
+      <answer>0|3|1|1</answer>
+    </template>
+  </question>
+  <question>
+    <id>ac4af43a3aad4cec9f7218c685719a29</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>Sabrina Taylor is a woman of{blank} talents. After completing her Masters in Business Administration in 2009, she took up {blank} work in South East Asia and taught underprivileged children in countries like Laos, Vietnam, Thailand and Malaysia. During this one year, she finally came to {blank} with her real passion – travel. Today, Sabrina works for an NGO associated with the upliftment of women who face domestic {blank} and takes time out for herself every 4 months to travel to a new destination. Sabrina’s life is a constant reminder that every dream is valid and that the {blank} to real happiness lies with no one but {blank}.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>volunteer</o1>
+          <o2>many</o2>
+          <o3>key</o3>
+          <o4>terms</o4>
+          <o5>abuse</o5>
+          <o6>love</o6>
+		  <o7>source</o7>
+		  <o8>ourselves</o8>
+		  <o9>progressive</o9>
+		  <o10>know</o10>
+        </blank>
+      </blanks>
+      <answer>1|0|3|4|6|7</answer>
+    </template>
+  </question> 
+    <question>
+    <id>b5fde18c6a1f4520a78a1f62d21d4dfe</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>Popular for its blue {blank} and delectable {blank}, the once summer retreat of the British is now the second most visited city in France, known as Nice. The gateway to cote d’Azur in French Riviera, Nice is {blank} not just for the scenic beauty but also for the culture, food, museums and beaches. Often called the {blank} of the rich and the famous, Nice is truly a must-visit place for travelers across the globe.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>coastline</o1>
+          <o2>cuisine</o2>
+          <o3>sky</o3>
+          <o4>popular</o4>
+          <o5>destination</o5>
+		  <o6>spot</o6>
+       </blank>
+      </blanks>
+      <answer>0|4|3|5</answer>
+    </template>
+  </question>  
+     <question>
+    <id>f7af8340bdca48bf82736b136a575d74</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>Following his win in the Best Actor {blank} for Forest Gump in 1994, Tom Hanks became the only actor in history to have won an Academy award for two {blank} years. Hanks’ first win came in 1993 for Philadelphia, a drama in which he {blank} the role of Andrew Beckett, an AIDS victim who died fighting the {blank} and injustice done by his employers, eventually winning the multi-million dollar {blank} for several punitive damages. Hanks has three more nominations in the same category for Big (1988), Saving Private Ryan (1999) and Cast Away (2000).</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>category</o1>
+          <o2>consecutive</o2>
+          <o3>portrayed</o3>
+          <o4>smiles</o4>
+          <o5>discrimination</o5>
+          <o6>acted</o6>
+		  <o7>lawsuit</o7>
+        </blank>
+      </blanks>
+      <answer>0|1|2|4|6</answer>
+    </template>
+  </question> 
+       <question>
+    <id>bffb3ed7ba554173b97cd4656c8ce1b5</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>A mirage is an {blank} illusion that is produced due to extraordinary atmospheric {blank}. In deserts, images such as sheets of water or of distant objects can be {blank}. This is caused by the bending of a ray of light or {blank}while passing through different layers of air having different densities.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>optical</o1>
+          <o2>ocular</o2>
+          <o3>conditions</o3>
+          <o4>environment</o4>
+          <o5>seen</o5>
+          <o6>noticed</o6>
+		  <o7>refraction</o7>
+		  <o8>reflection</o8>
+        </blank>
+      </blanks>
+      <answer>0|2|4|6</answer>
+    </template>
+  </question>
+ <question>
+    <id>9765b13da399478c93878c9c16a52f4b</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Arrange the options.</description>
+      <title></title>
+      <options>
+        <o0>One student told me that he went to bed around three and woke up each morning at seven; he could afford that much rest because he had learned to supplement his full day of work by studying in his sleep.</o0>
+        <o1>As he was falling asleep he would narrate a math question or a presentation topic to himself; he would then sometimes dream about it, and after he woke up, the question might have been solved.</o1>
+        <o2>I would go back to my hotel at around 11 p.m each night, and after waking up, I would see my mailbox full of replies.</o2>
+        <o3>Last year, I went to Columbia University to observe the youth who is going to run our country in a few decades.</o3>
+		<o4>Faculty members gave me the names of couple of students, and I sent them e-mails, inviting them out to lunch or dinner in small groups.</o4>
+      </options>
+      <answer>3|4|2|0|1</answer>
+    </template>
+  </question>
+   <question>
+    <id>662fa5aa1be74b28844a46112f62f93d</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Arrange the options.</description>
+      <title></title>
+      <options>
+        <o0>The length of one-degree arc would be less near the equatorial latitudes than at the poles.</o0>
+        <o1>However, the question of ‘how much more’ was yet to be established. One way of doing it is to determine the length of the arc along a chosen longitude or meridian at one-degree latitude separation.</o1>
+        <o2>It was generally known that the earth was not a sphere but an ‘oblate spheroid’, more curved at the equator and flat at the poles.</o2>
+        <o3>This fact was then established in the 1730s by French survey expeditions.</o3>
+		<o4>In the late 18th century, one of the unsettled scientific questions was the exact nature of the shape of the Earth.</o4>		
+      </options>
+      <answer>4|2|1|0|3</answer>
+    </template>
+  </question>
+   <question>
+    <id>a6b266ea99224b37b7f80ad9ca6125fc</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Arrange the options.</description>
+      <title></title>
+      <options>
+        <o0>This productive capacity varies in each case. In order to destroy the enemy’s productive capacity, one needs to burn his fields, or destroy the factories that are located in the cities.</o0>
+        <o1>In the present era of information, by destroying the information infrastructure, one can devastate the enemy’s productive capacity.</o1>
+        <o2>The purpose of the military is to defend the nation and be prepared to face its enemy.</o2>
+        <o3>The idea is to destroy the enemy’s productive capacity depending upon the economic foundation.</o3>
+	</options>
+      <answer>2|3|0|1</answer>
+    </template>
+  </question>
+ <question>
+    <id>9fe1053dcaae449f9e41b2b9bdd016fe</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the question by selecting all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Shining like a true gem in the Indonesian archipelago is the mesmerizing island of Bali. To the local Balinese people, this beautiful island is the center of the spiritual universe. With over 84% of Hindu population, Bali is famous for its culture, medicine and beautiful beaches. However, the true visitor delights are its cuisine and multi-specialty spas. The traditional Balinese massage centers around the holistic treatment involving techniques like reflexology, acupressure and aromatherapy. In addition, one can enjoy many skin and hair care services offered in almost all spas and resorts at very reasonable prices. Bali is more than just a beach destination. In the northern region of the island, quaint towns like Ubud and Singaraja offer a cool haven in the foothills. Further north is the beautiful Kintamani village which is a doorway to one of Bali's most popular destinations, Mount Batur. This active volcano is perfect for hikers who look forward to the mystic sunrise after an exhausting yet worthwhile all night trek. Bali has something or the other in store for everyone. There are many reasons why it is considered more than just a honeymoon destination. Whether you are a solo traveler or a part of a travel group, Bali has an array of attractions that draw millions of visitors every year to its long stretch of beaches, lush green mountains and beautiful rivers.</description>
+      <title>Which techniques are involved in a traditional Balinese massage?</title>
+      <options>
+        <o0>Circular pressure</o0>
+        <o1>Reflexology &amp; acupressure</o1>
+        <o2>Kneading</o2>
+        <o3>Aromatherapy</o3>
+      </options>
+      <picture></picture>
+      <answer>1|3</answer>
+    </template>
+  </question>
+   <question>
+    <id>ed6fdd75464944589d2526a22d00e133</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the question by selecting all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Secret is not a privilege, it’s a punishment, a constant source of fear and paranoia. Life was taking another turn for me. I had no other option but to play along, do what it asked me to do and so I decided to move ahead instead of staying back, helpless and dejected. The people I was leaving behind will never understand why I chose to stop being a part of their lives; where I came from, where I went and why did I come so close if I had to drift apart. I just left them with a myriad of questions that will perhaps never be answered in their lives. Maintaining a permanent distance was not a choice but a compulsion for me. Very soon it will be another town, another set of lies, more people will come in, only to be pushed away and I will have to leave before anyone gets to know. So that's my destiny. It was a surprisingly bright day as opposed to the otherwise usual damp weather the city of Cardiff is famous for. I woke up early as I didn't want to miss the 8:15 bus to the new office. It’s an interesting thing, online interview; you can practically apply from anywhere and get selected, get an offer, give your consent to it and head towards your future, just with a click of the mouse. I was supposed to meet Chelsea, my workplace mentor for the first day in office. I was understandably worried and nervous about going to a new office, meeting new people. My concern was not about them being nice to me, but over-friendly and affectionate. It seems like that's what puts me through trouble most of the times.</description>
+      <title>What was the protagonist’s primary fear about being in new office?</title>
+      <options>
+        <o0>facing hostility</o0>
+        <o1>experiencing over-friendly behavior from others</o1>
+        <o2>meeting her mentor</o2>
+        <o3>over-friendly and affectionate approach from colleagues</o3>
+      </options>
+      <picture></picture>
+      <answer>1|3</answer>
+    </template>
+  </question>   
+  <question>
+    <id>3d85b22792ef41f4bb2035f513fabe0b</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:59</attemptTime>
+    <template>
+      <description>The 2015 edition of The Championships at Wimbledon witnessed the continued dominance of two of the sport’s biggest stars, Novak Djokovic and Serena Williams. Both Williams and Djokovic are ranked No.1 in the world and are enjoying one of the best seasons of their careers. For Serena in particular, the 2015 season turned out to be extremely fruitful with only one loss coming at the hands of defending Wimbledon champion Petra Kvitova. With a win at Wimbledon, Serena completed an elusive second Serena Slam, holding all four grand slam titles at the same time. For Novak Djokovic, it was a sweet return to the winner’s circle, having lost the French Open final to Swiss Stanislas Wawrinka a month ago. In women’s doubles, India’s Sania Mirza paired with former World No.1 Martina Hingis to win an epic final against the Russian pair of Ekaterina Makarova and Elena Vesnina. The mixed doubles final saw another Indian star Leander Paes re-establish his supremacy when he claimed the title with Martina Hingis, for whom the second title at the All England lawn tennis Club was a remarkable addition to an already successful fortnight.</description>
+      <title>Why is the 2015 season so special for Serena Williams?</title>
+      <options>
+        <o0>Because she claimed her first Serena Slam</o0>
+        <o1>Because she reclaimed the No.1 spot in WTA rankings</o1>
+        <o2>Because she has suffered only one loss so far and holds all four majors at the moment</o2>
+        <o3>Because she won every tournament she entered in 2015</o3>
+      </options>
+      <picture></picture>
+      <answer>2</answer>
+    </template>
+  </question>
+    <question>
+    <id>8610c6cd867b4f74b8fc908bd8c56d19</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:59</attemptTime>
+    <template>
+      <description>The sudden and tragic demise of Gianni Versace left the fashion fraternity shocked. On the unfortunate morning of 15th July 1997, while returning from his morning walk at his Miami residence, Versace was killed by Andrew Cunanan, a serial killer. Eight days after killing Versace, Cunanan shot himself to death. Friends to celebrities and royalty alike, Versace’s burial and service was attended by numerous such personalities including Late Princess Diana and Sir Elton John. Almost 50% of Gianni Versace’s wealth was inherited by his niece Allegra Versace, whereas Donatella Versace, Allegra’s mother became the head of design. Versace joined the fashion industry at the age of 26 in 1972 and soon after, was recognized for his work by big players like Complice, who signed a contract with Versace to design their lace and leather creations. Versace followed in his success well and had his first men’s fashion show presented after which he opened his first boutique in Milan. Versace is also known to have lent his work to some of Hollywood’s most successful ventures like Showgirls (1995), Hard to Kill (1990) and Once upon a crime (1992).</description>
+      <title>Who was the sole inheritor (heir) to Gianni Versace’s wealth at the time of his demise?</title>
+      <options>
+        <o0>Allegra Versace</o0>
+        <o1>Donatella Versace</o1>
+        <o2>Andrew Cunanan</o2>
+        <o3>None of the above</o3>
+      </options>
+      <picture></picture>
+      <answer>3</answer>
+    </template>
+  </question>
+      <question>
+    <id>f25b6424ad414f33a9ea69117129b868</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:59</attemptTime>
+    <template>
+      <description>When we look back, it seems that US attitude toward nuclear war was absolutely silly. Kids hiding under desks, bomb shelters beneath homes, and massive retaliation are some of the memories from those turbulent times. However, it seems that we were probably right to be anxious about the Soviets and their will to use the bomb. In the 60’s, Soviet leader Kruschev offered to move missiles to Cuba. The possibility of Nuclear war was, in fact, on the cards and, no matter how frivolous it may seem now, it was better  to be prepared than to be destroyed.</description>
+      <title>With which of the following statements would the author most likely agree?</title>
+      <options>
+        <o0> Nuclear war is a larger problem now than it was in the 60’s </o0>
+        <o1> Kruschev would never actually use a nuclear weapon </o1>
+        <o2> The US was prepared for all-out nuclear war in the 60’s </o2>
+        <o3> The US took the threat of nuclear war seriously in the 60’s </o3>
+        <o4> Cuba would not have launched a nuclear attack </o4>		
+      </options>
+      <picture></picture>
+      <answer>3</answer>
+    </template>
+  </question>  
+----------------------------------------------------------------------------------------------------------------------------
+ <question>
+    <id>180515098de943aab83d585485f9be5b</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:59</attemptTime>
+    <template>
+      <description>The 2015 edition of The Championships at Wimbledon witnessed the continued dominance of two of the sport’s biggest stars, Novak Djokovic and Serena Williams. Both Williams and Djokovic are ranked No.1 in the world and are enjoying one of the best seasons of their careers. For Serena in particular, the 2015 season turned out to be extremely fruitful with only one loss coming at the hands of defending Wimbledon champion Petra Kvitova. With a win at Wimbledon, Serena completed an elusive second Serena Slam, holding all four grand slam titles at the same time. For Novak Djokovic, it was a sweet return to the winner’s circle, having lost the French Open final to Swiss Stanislas Wawrinka a month ago. In women’s doubles, India’s Sania Mirza paired with former World No.1 Martina Hingis to win an epic final against the Russian pair of Ekaterina Makarova and Elena Vesnina. The mixed doubles final saw another Indian star Leander Paes re-establish his supremacy when he claimed the title with Martina Hingis, for whom the second title at the All England lawn tennis Club was a remarkable addition to an already successful fortnight.</description>
+      <title>What is the name of the venue of the annual Championships?</title>
+      <options>
+        <o0>Wimbledon</o0>
+        <o1>All England Lawn Tennis Club</o1>
+        <o2>Roland Garros</o2>
+        <o3>London</o3>
+      </options>
+      <picture></picture>
+      <answer>1</answer>
+    </template>
+  </question>
+    <question>
+    <id>602986f9790e4a439bfa2221174e4254</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:59</attemptTime>
+    <template>
+      <description>To the world, Abraham Lincoln is known as one of the most popular and revered presidents of The United States of America. However, to me, he will always remain an epitome of persistence and integrity. Best remembered for being responsible for the abolition of slavery, Lincoln faced a series of failures before becoming the 16th president of The United States of America in 1861. His political struggle started in 1838 when he sought to be the speaker of the state legislature but lost. A couple of years later, Lincoln decided to become an elector but tasted defeat once again. He ran for congress several times in the subsequent years but failed miserably. In 1854, Lincoln ran for the senate of the United States but once again, failed to clear the election process. After another unsuccessful attempt for nomination of Vice-presidential candidature at his party’s national convention, Lincoln ran for senate in 1858, and despite losing, was finally elected as the President of the USA two years later. His story is a lesson to those who give up prolonged personal battles by simply crediting luck and fate for success in life.</description>
+      <title>Abraham Lincoln is mostly remembered for__________</title>
+      <options>
+        <o0>epitome of persistence</o0>
+        <o1>abolition of slavery</o1>
+        <o2>16th president of the USA</o2>
+        <o3>repeated failures</o3>		
+      </options>
+      <picture></picture>
+      <answer>1</answer>
+    </template>
+  </question>
+    <question>
+    <id>64d9130606f94783ae7a655a18047d62</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:59</attemptTime>
+    <template>
+      <description>There is a saying, "Beauty lies in the eye of the beholder". It is probably true as beauty is a concept with a fleeting definition. However, beauty differs from culture to culture For example: some African cultures find women with large noses very attractive, while in the West people favour the  quintessential blond. Those who try to impose beauty typically come up short - ask Hitler how his Aryan race is doing these days. The fact is  that beauty is something to be appreciated and not understood.</description>
+      <title>Which of the following examples corresponds to the "blond" ?</title>
+      <options>
+        <o0>introspective beauty</o0>
+        <o1>conflicting perceptions</o1>
+        <o2>archetypal perceptions</o2>
+        <o3>introverted personality</o3>	
+      </options>
+      <picture></picture>
+      <answer>2</answer>
+    </template>
+  </question>
+ <question>
+    <id>5dcc0d921f6d4100bc1e5bf2376c42f4</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the question by selecting all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Secret is not a privilege, it’s a punishment, a constant source of fear and paranoia. Life was taking another turn for me. I had no other option but to play along, do what it asked me to do and so I decided to move ahead instead of staying back, helpless and dejected. The people I was leaving behind will never understand why I chose to stop being a part of their lives; where I came from, where I went and why did I come so close if I had to drift apart. I just left them with a myriad of questions that will perhaps never be answered in their lives. Maintaining a permanent distance was not a choice but a compulsion for me.{newline} Very soon it will be another town, another set of lies, more people will come in, only to be pushed away and I will have to leave before anyone gets to know. So that's my destiny.{newline} It was a surprisingly bright day as opposed to the otherwise usual damp weather the city of Cardiff is famous for. I woke up early as I didn't want to miss the 8:15 bus to the new office. It’s an interesting thing, online interview; you can practically apply from anywhere and get selected, get an offer, give your consent to it and head towards your future, just with a click of the mouse.{newline} I was supposed to meet Chelsea, my workplace mentor for the first day in office. I was understandably worried and nervous about going to a new office, meeting new people. My concern was not about them being nice to me, but over-friendly and affectionate. It seems like that's what puts me through trouble most of the times.</description>
+      <title>According to the author of this excerpt, secret is a</title>
+      <options>
+        <o0>Constant source of fear and paranoia</o0>
+        <o1>Punishment</o1>
+        <o2>Privilege and punishment</o2>
+        <o3>Fear</o3>
+      </options>
+      <picture></picture>
+      <answer>0|1</answer>
+    </template>
+  </question>
+   <question>
+    <id>fdf6f896ace94e6a9a57430471953095</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the question by selecting all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Bats are the only mammals that can fly. The bat’s wing resembles the human hand anatomically. It has elongated fingers and a wing membrane stretched in between. Bats make approximately one fourth of all mammal species on earth as there are around 1000 bat species that can be found all across the world. Bats mostly consume insects and therefore share a large part of natural pest control. Apart from insect consuming bats, there are also fruit-eating bats, nectar-eating bats, fish-eating bats, carnivorous bats that prey on small mammals and perhaps the blood-sucking vampire bats of South America. While some bats are high in number, others are dangerously low and are declining day by day. Bats are found almost everywhere in the world except the Polar regions and extreme deserts. These bats have a high level of sense of hearing. They emit sounds that bounce off of objects in their path, sending echoes back to the bats. From these echoes, the bats can determine how far the object is, its size, how fast is it travelling and even its texture, all in just few seconds. In order to survive the winter, some species of bat migrate; some hibernate whereas some go into torpor that can last from few hours to a few months. The gestation duration for bats is 40 days to 6 months on an average and they mostly litter one pup.</description>
+      <title>What all aspects have been mentioned in the passage by the author?</title>
+      <options>
+       <o0>Reproduction</o0>
+        <o1>Overwintering</o1>
+        <o2>Behaviour</o2>
+        <o3>Diet and Population</o3>
+		<o4>Size</o4>
+		<o5>Lifespan</o5>
+      </options>
+      <picture></picture>
+      <answer>0|1|2|3</answer>
+    </template>
+  </question>  
+   <question>
+    <id>5e3382fd13284ed9a4dc16fc8bd2c2e3</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Arrange the options.</description>
+      <title></title>
+      <options>
+        <o0>Since then, intelligence tests have been mostly used to separate dull children in school from average or bright children, so that special education can be provided to the dull ones.</o0>
+        <o1>Intelligence is measured as intelligence quotient, and these tests are developed to indicate what an average child of a certain age can do: For instance, what a preschooler can answer, but a toddler cannot.</o1>
+        <o2>Intelligence can be measured by various tests.</o2>
+        <o3>Hence, intelligence tests are very useful for each age group.</o3>
+		<o4>Binet was the first one to develop the first set of such tests in order to find children who needed special attention in school.</o4>
+      </options>
+      <answer>2|4||0|1|3</answer>
+    </template>
+  </question>
+   <question>
+    <id>cd6a83a8ec2547f2ab03a4d843dfb3fd</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Arrange the options.</description>
+      <title></title>
+      <options>
+        <o0>The reasons for studying English abroad and the choice of location differ from each individual.</o0>
+        <o1>The five most popular destinations are the U.S, Britain, Australia, New Zealand and Canada.</o1>
+        <o2>A study shows that the country of choice depends to a large extent on economic factors.</o2>
+        <o3>More than a million international students around the world are engaged in studying English language in a predominantly English speaking country.</o3>
+      </options>
+      <answer>3|1|0|2</answer>
+    </template>
+  </question>
+   <question>
+    <id>17d6a1bc01a24974aaaa8a8ee409b394</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Arrange the options.</description>
+      <title></title>
+      <options>
+        <o0>Honestly, by then, it had all become completely irrelevant.</o0>
+        <o1>My friends not only discarded the entire idea of me going abroad on a 3 month long trip, they also alleged me of being extremely reckless in handling my own life."You're behaving like a teenager" one of them said. "Life's not a party. Grow up, go out and find a job."</o1>
+        <o2>I had already learnt the very essence of life, its uncertainty and unpredictability.</o2>
+        <o3>I no longer wished to conform to the social settings that completely streamlined one’s vision and approach towards exploring unchartered territories.</o3>
+	 </options>
+      <answer>3|2|0|1</answer>
+    </template>
+  </question>
+    <question>
+    <id>ade8ea1921e34258895c21143922582e</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>Love is free from the {blank} of race, religion, age and gender. In a recent {blank} ruling, the U.S. law has made same sex marriages legal across all 50 {blank}. Such was the impact of this {blank} that people the world over showed their appreciation and support through victory marches, rallies and social media outlets. After France in 2013, the United States of America is the {blank} developed nation to have made the same-sex marital union legal.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>times</o1>
+          <o2>latest</o2>
+          <o3>boundaries</o3>
+          <o4>states</o4>
+          <o5>decision</o5>
+          <o6>mandate</o6>
+		  <o7>groundbreaking</o7>
+        </blank>
+      </blanks>
+      <answer>2|6|3|4|1</answer>
+    </template>
+  </question>  
+     <question>
+    <id>d78d12c541a344dabf22187730b2bc3c</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>Ayung river in the island of Bali is popular for many {blank} such as river rafting and kayaking, but the real attraction is the stone {blank} done on either sides of the river's banks. Flowing through the dense rainforest of northern region of the island, Ayung river is a prime place of interest for tourists who visit Ubud, the cultural {blank} of Bali. Many tour operators provide day tours to Ayung river and the package includes lunch, pick up and drop off besides help from the {blank} trainers and the rafting gear.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>carvings</o1>
+          <o2>activities</o2>
+          <o3>pelting</o3>
+          <o4>capital</o4>
+          <o5>tradition</o5>
+          <o6>experienced</o6>
+        </blank>
+      </blanks>
+      <answer>1|2|3|5</answer>
+    </template>
+  </question> 
+       <question>
+    <id>2325e70dd552412d970cdec74778b9e7</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>The earth is made of crust, mantle and core. The crust of the Earth is a thin {blank} layer which is {blank} into nine large and twelve smaller plates {blank} tectonic plates which float on the mantle. They move relative to {blank}. The sudden movement of these plates causes an earthquake.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>outermost</o1>
+          <o2>outer</o2>
+          <o3>broken</o3>
+          <o4>made</o4>
+          <o5>called</o5>
+          <o6>known</o6>
+		  <o7>each other</o7>
+		  <o8>one another</o8>
+        </blank>
+      </blanks>
+      <answer>0|2|4|6</answer>
+    </template>
+  </question> 
+       <question>
+    <id>c5944f1a2f46473b817c566cd0f1ff6a</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>The Olympic Games were one of the most important festivals of the Greeks. The games were held in {blank} of the King of their Gods, Zeus. The Olympic Games were first started in 776 B.C. Athletes from Asia, Syria, Egypt and Sicily participated in the games. These games were held every four years and helped in {blank} the city states of Greece. The Olympic flag contains five interlocking rings on a white background. They {blank} the five continents and stand for friendship. It was created by Pierre de Coubertin in 1914.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>honour</o1>
+          <o2>tribute</o2>
+          <o3>merging</o3>
+          <o4>unifying</o4>
+          <o5>symbolise</o5>
+          <o6>indicate</o6>
+		  <o7>combine</o7>
+        </blank>
+      </blanks>
+      <answer>0|3|4</answer>
+    </template>
+  </question> 
+ <question>
+    <id>ca6c1c4911014acc98dbe9b88268a634</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Renowned Somalian model Iman Mohamed Abdulmajid, {blank} known as Iman, turned 60 this year. {blank} of IMAN cosmetics, Iman came to prominence much earlier, in 1976, by an American photographer Peter Beard who helped her, land her first major {blank} with Vogue. She has played a muse to several designers including Gianni Versace, Donna Karen and Yves Saint-Laurent. Iman also tried her hands in acting and {blank} in several films like No way out, Surrender and Star Trek IV :The Undiscovered Country. Iman is married to British musician David Bowie.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>notoriously </o1>
+          <o2>popularly</o2>
+          <o3>fondly</o3>
+		</blank>
+        <blank>
+         <o1>Discoverer</o1>
+          <o2>Founder</o2>
+          <o3>Maker</o3>
+        </blank>
+        <blank>
+          <o1>topic</o1>
+          <o2>work</o2>
+          <o3>assignment</o3>
+        </blank>
+		<blank>
+          <o1>danced</o1>
+          <o2>modeled</o2>
+          <o3>featured</o3>
+        </blank>
+      </blanks>
+      <answer>1|1|2|2</answer>
+    </template>
+  </question>
+  <question>
+    <id>87f67364d9494bcbb541a990eada6dce</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Polka dots are a major fashion fad these days. From renowned {blank} and fashion models to celebrities, everyone seems to be in love with the trend this summer. The best way to {blank} a polka dotted top or blouse is by wearing it with white colored jeggings or palazzo pants. As far as the footwear is concerned, it is best to choose something from the stiletto family – pencil, kitten, block; the heel {blank} could be anything but a few inches added to your silhouette will definitely accentuate your look for the day. Carry a golden envelope {blank} or white handbag to complete your look and turn heads your way wherever you go.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>wrestlers</o1>
+          <o2>animals</o2>
+          <o3>actresses</o3>
+        </blank>
+        <blank>
+          <o1>stitch</o1>
+          <o2>cover</o2>
+          <o3>team</o3>
+        </blank>
+        <blank>
+          <o1>ways</o1>
+          <o2>option</o2>
+          <o3>type</o3>
+        </blank>
+        <blank>
+          <o1>suitcase</o1>
+          <o2>laptop sleeve</o2>
+          <o3>clutch</o3>
+        </blank>
+	</blanks>		
+      <answer>2|2|2|2</answer>
+    </template>
+  </question>  
+   <question>
+    <id>99068927ea41491b834acf74cc6aabb9</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Benjamin James Levy, an Israeli restaurant owner on Petchburi Street, has been living in Bangkok for almost 6 years and in this time, has {blank} a successful business in the tourist hub of the nation. Benny, as he was fondly called by everyone, explained to me how I can use my language and {blank} skills to my advantage and become a maitre 'd in one of the high end restaurants. Although I had my doubts about making {blank} for the citizens of the world, I wasted no time in applying in a series of hotels. Finally, I heard from the owner of a popular food joint, who asked me to be dressed in a {blank} Thai attire for a 5-hour shift, ending at 11:00 in the night.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>mastered</o1>
+          <o2>discovered</o2>
+          <o3>created</o3>
+		  <o4>established</o4>
+        </blank>
+        <blank>
+          <o1>technical</o1>
+          <o2>crafty</o2>
+          <o3>bewitching</o3>
+		  <o4>soft</o4>
+        </blank>
+        <blank>
+          <o1>shifts</o1>
+          <o2>arrangements</o2>
+          <o3>reservations</o3>
+		  <o4>slots</o4>
+        </blank>
+		<blank>
+          <o1>cultural</o1>
+          <o2>traditional</o2>
+          <o3>indigenous</o3>
+		  <o4>massive</o4>
+        </blank>		
+	 </blanks>
+      <answer>3|3|2|1</answer>
+    </template>
+  </question>
+    <question>
+    <id>16ffcf93021340c4bcad1f9919dff94a</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Some people are immortalized for the work they do and a few others are hard to be forgotten for their fortunes on the face of the {blank}. Evidently, there are a handful of those too who are simply remembered for their sustenance of sheer trauma and violence. One such name, now synonymous with the {blank}, is Anne Frank. Born on 12th June 1929 to a Jewish family in Germany, Frank lived the last few years of her short life maintaining a diary, documenting each and every chronicle in a careful yet {blank} manner. Frank’s diary was turned into a book and was released by Otto Frank, the only surviving member of the Frank family, in 1947. Although Anne Frank did not survive to witness the stunning and overpowering reception of her work, it has been, time and again, admired by people like Hillary Rodham Clinton, and Nelson Mandela who went ahead and credited Frank for helping him draw {blank} from her struggles with Nazism to find the strength to face his own against apartheid.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>globe</o1>
+          <o2>country</o2>
+          <o3>nation</o3>
+		  <o4>Earth</o4>
+        </blank>
+        <blank>
+          <o1>genocide</o1>
+          <o2>extermination</o2>
+          <o3>massacre</o3>
+		  <o4>holocaust</o4>
+        </blank>
+		<blank>
+          <o1>sensationalizing</o1>
+          <o2>scandalous</o2>
+          <o3>appalling</o3>
+		  <o4>heartwarming</o4>
+        </blank>
+		<blank>
+          <o1>finances</o1>
+          <o2>instances</o2>
+          <o3>coincidences</o3>
+		  <o4>inspiration</o4>
+        </blank>
+	 </blanks>
+      <answer>3|3|3|3</answer>
+    </template>
+  </question>
+  <question>
+    <id>9115371115424ef288bf83e4a4cee12d</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>There is an important number in geometry. A triangle is the {blank} form in construction. A triangle {blank} the base of three dimensional pyramid. It is considered the {blank} stable and strongest {blank} all the shapes. Triangle {blank} innumerable {blank}in science and everyday life.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>stronger</o1>
+          <o2>strong</o2>
+          <o3>strongest</o3>		 
+        </blank>
+        <blank>
+          <o1>form</o1>
+          <o2>formed</o2>
+          <o3>forms</o3>		 
+        </blank>
+		<blank>
+          <o1>more</o1>
+          <o2>most</o2>
+          <o3>much</o3>
+        </blank>
+		<blank>
+          <o1>in</o1>
+          <o2>of</o2>
+          <o3>off</o3>
+        </blank>
+		<blank>
+          <o1>had</o1>
+          <o2>has</o2>
+          <o3>have been</o3>
+        </blank>
+		<blank>
+          <o1>uses</o1>
+          <o2>use</o2>
+          <o3>used</o3>
+        </blank>
+	 </blanks>
+      <answer>2|2|1|1|1|0</answer>
+    </template>
+  </question>  
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+  <question>
+    <id>54f5996cbf05495a9cae11cd2ad28b72</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Wintour has {blank} in sports and is often cited enjoying tennis matches featuring the likes of Roger Federer and Serena Williams. In 2003, one of Wintour’s personal assistants Lauren Weisberger {blank} a book of her memoirs titled, The Devil Wears Prada, which garnered international {blank} and popularity. In 2006, the book was made into a movie with the same title and Meryl Streep played the central role, eventually fetching an Oscar nomination and Golden Globe win. Wintour {blank} the film’s New York premiere, dressed in Prada.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>love</o1>
+          <o2>passion</o2>
+          <o3>interest</o3>
+		  <o4>motion</o4>
+        </blank>
+        <blank>
+         <o1>directed</o1>
+          <o2>edited</o2>
+          <o3>finalised</o3>
+		  <o4>released</o4>
+        </blank>
+        <blank>
+          <o1>notoriety</o1>
+          <o2>acclaim</o2>
+          <o3>disdain</o3>
+		  <o4>love</o4>
+        </blank>
+		 <blank>
+          <o1>followed</o1>
+          <o2>appeared</o2>
+          <o3>attended</o3>
+		  <o4>seen</o4>
+        </blank>
+      </blanks>
+      <answer>1|3|1|2</answer>
+    </template>
+  </question>
+  <question>
+    <id>f5f9f92c77d342709baf62031bce6230</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Yes, the average person {blank} learn to develop his {blank} her psychic skills. While we often hear what people must be “gifted” to been psychic, nearly the one who learns the right principles and works on it could develop {blank} perpetual skill.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>can</o1>
+          <o2>will</o2>
+          <o3>have</o3>
+        </blank>
+        <blank>
+          <o1>and</o1>
+          <o2>or</o2>
+          <o3>but</o3>
+        </blank>
+        <blank>
+          <o1>that</o1>
+          <o2>this</o2>
+          <o3>those</o3>
+        </blank>
+</blanks>		
+      <answer>0|1|1</answer>
+    </template>
+  </question>  
+   <question>
+    <id>41850701d85d473e81d69ed7efc9454d</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Perhaps the {blank} common interpretation of dog’s behavior is the myth that when a dog wags its tail, it is happy and friendly {blank} some wags are associated with happiness, {blank} can mean fear, insecurity and warning that if you approach, you are {blank} to be bit.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>most</o1>
+          <o2>more</o2>
+          <o3>much</o3>		
+        </blank>
+        <blank>
+          <o1>since</o1>
+          <o2>while</o2>
+          <o3>furthermore</o3>
+        </blank>
+        <blank>
+          <o1>others</o1>
+          <o2>anothers</o2>
+          <o3>anyone</o3>
+        </blank>
+		<blank>
+          <o1>seem</o1>
+          <o2>likely</o2>
+          <o3>apt</o3>
+        </blank>		
+	 </blanks>
+      <answer>0|1|0|1</answer>
+    </template>
+  </question>
+    <question>
+    <id>d7092f1bbad34df3942ed063f472d424</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>A teacher’s job is the {blank} of {blank} professions. It is also the most responsible one since he/she is the one {blank} moulds the children and {blank} them future citizens. So only those {blank} can contribute {blank} making the students good human being and intelligent should take up the job.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>noble</o1>
+          <o2>nobler</o2>
+          <o3>noblest</o3>
+        </blank>
+        <blank>
+          <o1>all</o1>
+          <o2>some</o2>
+          <o3>many</o3>
+        </blank>
+		<blank>
+          <o1>who</o1>
+          <o2>which</o2>
+          <o3>when</o3>
+        </blank>
+		<blank>
+          <o1>make</o1>
+          <o2>makes</o2>
+          <o3>will make</o3>
+        </blank>
+		<blank>
+          <o1>who</o1>
+          <o2>which</o2>
+          <o3>where</o3>
+        </blank>
+		<blank>
+          <o1>in</o1>
+          <o2>to</o2>
+          <o3>of</o3>
+        </blank>
+	 </blanks>
+      <answer>2|0|0|1|0|0</answer>
+    </template>
+  </question>
+  <question>
+    <id>dce80ddbd54e441585b1963a9f8995db</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The Great Pyramid at Giza is the only surviving {blank} wonder of the ancient world. These pyramids are the tombs of their ancient rulers, the Pharaos. Tombs were important to the ancient Egyptians as they believed {blank} in “life after death”. The funeral was elaborate {blank} and the body was mummified to prepare it for the afterlife journey to heaven. The ancient Egyptian took 20 years to build the Great Pyramid. It was built using 2 million blocks of stones each weighing nearly two tonnes.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>famous</o1>
+          <o2>unknown</o2>
+          <o3>surviving</o3>
+        </blank>
+        <blank>
+          <o1>wished</o1>
+          <o2>estimated</o2>
+          <o3>believed</o3>
+        </blank>
+		<blank>
+          <o1>elaborate</o1>
+          <o2>unadorned</o2>
+          <o3>complex</o3>
+        </blank>		
+	 </blanks>
+      <answer>2|2|0</answer>
+    </template>
+  </question>
+    <question>
+    <id>10e36b536fd44146840f104f03019251</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The ozone layer is a layer of the ozone gas that is present in our atmosphere {blank}. The ozone present in this layer absorbs the harmful ultraviolet radiations from the Sun and does not allow them to reach the Earth’s surface. These rays can adversely {blank} affect the various life forms on Earth. Recently, a gap has been found in the layer of ozone enveloping {blank} the Earth. This gap or hole has been formed due to chemicals known as chlorofluorocarbons (CFC). These chemicals were widely used in refrigerators, air conditioners and aerosol cans. The gap in the ozone layer may take many years to fill.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>biosphere</o1>
+          <o2>atmosphere</o2>
+          <o3>environment</o3>
+        </blank>
+        <blank>
+          <o1>mildly</o1>
+          <o2>placidly</o2>
+          <o3>adversely</o3>
+        </blank>
+		<blank>
+          <o1>enveloping</o1>
+          <o2>pervasive</o2>
+          <o3>containing</o3>
+        </blank>		
+	 </blanks>
+      <answer>1|2|0</answer>
+    </template>
+  </question>
+  <question>
+    <id>aac4579cd104465e9b9a31b9664dcc22</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>Today {blank} students are concerned about money and fashion. {blank} are not concerned about the country. {blank} wants to join the army or become police officers. I think students should think about the condition of {blank} own country and work for its improvement. This task is by no means a mean task.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>there</o1>
+          <o2>no one</o2>
+          <o3>their</o3>
+          <o4>own</o4>
+          <o5>the</o5>
+          <o6>an</o6>
+		  <o7>someone</o7>
+		  <o8>they</o8>
+        </blank>
+      </blanks>
+      <answer>4|7|1|2</answer>
+    </template>
+  </question> 
+    <question>
+    <id>2cd1ee4c582540af87480b65d270b64c</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>A group of hunters went to the jungle for hunting near the city. The arrow {blank} the deer and it {blank} back into the dense forest. The hunters {blank} after it but {blank} not catch it. They got disappointed as they had to {blank} empty handed and finally decided to go back to the city.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>return</o1>
+          <o2>can</o2>
+          <o3>hit</o3>
+          <o4>rushed</o4>
+          <o5>ran</o5>
+		  <o6>came</o6>
+		  <o7>walked</o7>
+		  <o8>went</o8>
+		  <o9>stuck</o9>
+		  <o10>could</o10>
+       </blank>
+      </blanks>
+      <answer>2|3|4|9|0</answer>
+    </template>
+  </question>  
+     <question>
+    <id>92d8c0e6552140fcbcb63d9f4881db6b</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>The passengers of Double Decker bus were {blank} when a highly sophisticated time device was {blank} fitted at the roof top. The startling discovery was {blank} by a student passenger while keeping his luggage at the roof. His hue and cry was {blank} by the bus conductor. But the driver was forced to halt the bus when the student raised an alarm again at the Bus Terminal. The police was informed immediately and the bus got vacated. The timer was removed by a bomb disposal squad. According to the Police chief, no explosive was found with the timer. He suspected that it was {blank} by a pro-rebellion outfit.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>done</o1>
+          <o2>ignored</o2>
+          <o3>seen</o3>
+          <o4>handled</o4>
+          <o5>concluded</o5>
+		  <o6>found</o6>
+		  <o7>fitted</o7>
+		  <o8>gripped</o8>
+		  <o9>made</o9>
+        </blank>
+      </blanks>
+      <answer>7|5|8|1|6</answer>
+    </template>
+  </question> 
+       <question>
+    <id>d2039a718da0458988561746352f237a</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>The epicentre of the quake is the location on the surface of the Earth that is {blank} the focal point of an earthquake. From this point the waves of the earthquake {blank} outward like the ripples in a pond when a stone is thrown in. The {blank} of an earthquake is measured on the Richter scale.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>above</o1>
+          <o2>over</o2>
+          <o3>radiate</o3>
+          <o4>exude</o4>
+          <o5>intensity</o5>
+          <o6>density</o6>
+		  <o7>velocity</o7>
+        </blank>
+      </blanks>
+      <answer>0|2|4</answer>
+    </template>
+  </question>
+       <question>
+    <id>a9d63d5d85e84629892cb8a3cdcbeb9b</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>Pate was found in the early years of Islam with the {blank} of Arabian immigrants. The Portuguese visitors were sociable who {blank} with the people of Pate for the multi-colored silk cloth which became well-known and also introduced gun powder which enabled wells to be easily {blank}. Many Portuguese merchants settled and married in the town, but as Portugal tightened its hold and imposed taxes, relations {blank}. During the Portugese period, Pate’s harbor had started to silt up and the town began to use Lamu’s, which created {blank}.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>arrival</o1>
+          <o2>upcoming</o2>
+          <o3>traded</o3>
+          <o4>deal</o4>
+          <o5>excavated</o5>
+		  <o6>earthed</o6>
+		  <o7>deteriorated</o7>
+		  <o8>depreciated</o8>
+		  <o9>hassles</o9>
+		  <o10>nuisance</o10>
+        </blank>
+      </blanks>
+      <answer>0|2|4|6|8</answer>
+    </template>
+  </question>
+ <question>
+    <id>9e213986d3c147a2ae8148253c3f85a4</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Arrange the options.</description>
+      <title></title>
+      <options>
+        <o0>Apart from this, parents should take part in children's morning and nightly teeth cleaning rituals, and teach them how to take care of their teeth.</o0>
+        <o1>Parents should also include fruits and dairy in youngsters' school lunches as fruit will satisfy their craving for sweets and provide healthy nutrients, while dairy products such as milk and cheese will help strengthen their bones and teeth.</o1>
+        <o2>They should make their kids eat healthy food at home, such as fruits, vegetables, whole grains, dairy products and protein.</o2>
+        <o3>Parents can take several steps to make sure their kids maintain healthy dental habits.</o3>
+		<o4>Natural food has lower amount of sugar than processed food and hence does less damage to teeth.</o4>
+      </options>
+      <answer>3|2|4|1|0</answer>
+    </template>
+  </question>
+   <question>
+    <id>f97f306af1294166bab8c148fc63a76a</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Arrange the options.</description>
+      <title></title>
+      <options>
+        <o0>It’s the world famous tango dance and soccer that make Argentina one of the most popular and loved South American countries.</o0>
+        <o1>The capital of Argentina, Buenos Aires is a major tourist attraction and is the gateway to many other destinations like Iguazo National park, Ushuaia and Mendoza.</o1>
+        <o2>Buenos Aires is popularly known the Paris of South America.</o2>
+        <o3>Interestingly, it is neither the breathtaking natural surroundings nor the architecture that put Argentina on the world map.</o3>
+      </options>
+      <answer>2|1|3|0</answer>
+    </template>
+  </question>
+   <question>
+    <id>301e9e9a2f7f4e5497ff61e10d2395ff</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Arrange the options.</description>
+      <title></title>
+      <options>
+        <o0>Driven by the unshakable conviction, Cooper decides to be a part of the mission and sets course for interstellar expedition.</o0>
+        <o1>Set in the near future, the movie is a tale of former NASA astronaut Cooper, who lives with his two children and his father-in-law in his farm house.</o1>
+        <o2>Affected by crop blight, the human life on earth is fast approaching its end.</o2>
+        <o3>Uncovering the world of possibilities surrounding interplanetary travel is Christopher Nolan’s most recent movie release Interstellar.</o3>
+		<o4>Cooper is explained how he has been chosen by future humans to pilot the manned mission to another galaxy in search of a new home for the remaining inhabitants of earth.</o4>
+		<o5>This is when Cooper and his daughter stumble upon the world’s best kept secret, a NASA operated installation.</o5>
+	</options>
+      <answer>3|1|5|2|4|0</answer>
+    </template>
+  </question>
+ <question>
+    <id>ec1435e412714830bb2b8f9bb21c52fe</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the question by selecting all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>For centuries, the Incan citadel of Machu Picchu has been the center of curiosity around the world. Built in the 15th century in current day Peru, Machu Picchu is not only a UNESCO world heritage site but also one of the seven wonders of the modern world. Located at the height of 2430 meters above sea level, the ruins of Machu Picchu are one of the most visited tourist attractions in South America. It is believed that the city of Machu Picchu was abandoned by its residents after a smallpox outbreak and remained lost for over three centuries before Hiram Bingham rediscovered it in 1911. During the Millennium project that started in 2000 to choose the seven wonders of the modern world, the Peruvian ministry of tourism made tremendous efforts to encourage the media and citizens to vote for Machu Picchu which eventually resulted in its selection over architectural wonders like Eiffel Tower and Statue of Liberty. In a measure to lessen the severity of tourist impact on the citadel, the Peruvian government implemented tougher entrance rules from July 2011, allowing only 2500 visitors per day. Despite the restrictions, Machu Picchu continues to attract hordes of people every year and remains one of the most photographed sites in the world.</description>
+      <title>Machu Picchu is considered as :</title>
+      <options>
+        <o0>one of the most photographed sites in the world  </o0>
+        <o1>The most popular of the seven wonders of the world </o1>
+        <o2>one of the most visited place in South America </o2>
+        <o3>one of the most visited places in the world.</o3>
+      </options>
+      <picture></picture>
+      <answer>0|2</answer>
+    </template>
+  </question>
+   <question>
+    <id>35446711d73943a4b51c5c6b8c42e587</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the question by selecting all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Pate island is the largest island in the Lamu Archipelago. This island is located in the Indian Ocean close to the northern coast of Kenya. It lies between the towns of Lamu and Kiunga. This island is not very far from Lamu and is completely unaffected by tourism as people rarely visit it. One thing that deters travelers is the limited transport on the island. This island has some of the most impressive ruins and other places on the coast that are memorable. The water supply on this island is unpredictable and briny. Therefore, it is advisable for visitors to take water along. There are few small shops on the island which demands most islanders to live on home produced food and staples from Lamu. Mosquitoes and flies are a serious menace on Pete especially during rainy days. People carry mosquito repellents during the day.</description>
+      <title>Which of the statements are true for Pate island?</title>
+      <options>
+        <o0>The people of Pate Island get highly affected with mosquito related diseases.</o0>
+        <o1>The water supply that is available on this island is very salty.</o1>
+        <o2>The transport available on this island is limited. Hence, attracts many tourists.</o2>
+        <o3>Most islanders live on home produced food and staples from Lamu.</o3>
+		<o4>Mosquitoes are a serious threat for the people on this island.</o4>
+      </options>
+      <picture></picture>
+      <answer>1|3|4</answer>
+    </template>
+  </question>   
+  <question>
+    <id>c46669185d0a46138a44bd2eafc22c87</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:59</attemptTime>
+    <template>
+      <description>Ever since the news of its successful launch in November, 2013 spread across the world, ISRO’s mars orbiter mission called Mangalyaan has been a subject of curiosity. The Indian Space research organization announced in 2008 that it has conceptualized its first inter-planetary mission, which eventually got its funding from the Indian Government in 2012. Mangalyaan began orbiting Mars from September 24th 2014 and has since sent many valuable pieces of information including several pictures describing the planet’s mineralogy, morphology and topography. With this feat, ISRO has become the fourth space agency to enter Mars’ orbit after the Soviet Space program, NASA and European Space agency.</description>
+      <title>How many Space research agencies have successfully entered Mars orbit?</title>
+      <options>
+        <o0>1</o0>
+        <o1>3</o1>
+        <o2>4</o2>
+        <o3>5</o3>
+      </options>
+      <picture></picture>
+      <answer>2</answer>
+    </template>
+  </question>
+    <question>
+    <id>e4abc444c4e44f3fa5a051c5a46a4f8f</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:59</attemptTime>
+    <template>
+      <description>Cryonics or cryopreservation is a medical procedure where humans or animals pronounced medically dead are preserved under extremely low temperatures with hope that in future, with progressive technology and medical advancements, their resuscitation will be possible. The concept came into existence in 1962 when Robert Ettinger suggested the preservation of humans in order to make the effects of clinical death reversible in the future. The idea was further supported by Evan Cooper who founded the Life Extension Society two years later to promote cryopreservation. The most popular case of cryonics is of baseball player Ted Williams, whose children decided to cryopreserve his remains. Other notable people include James Bedford, Thomas K. Donaldson and John-Henry Williams. So far, more than 270 people have undergone cryopreservation.</description>
+      <title>What does the concept of Cryonics entail?</title>
+      <options>
+        <o0>Preservation of humans declared medically dead under extremely low temperatures</o0>
+        <o1>Preservation of humans as an alternative to Euthanasia</o1>
+        <o2>Resuscitation of humans</o2>
+        <o3>Medical procedure to preserve human organs under extremely low temperature</o3>
+      </options>
+      <picture></picture>
+      <answer>0</answer>
+    </template>
+  </question>
+      <question>
+    <id>a278e12d7d844171b3e4ca03fe908bcb</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:59</attemptTime>
+    <template>
+      <description>If you ask a modern astrophysicist, he will tell you that the future of physics is found in string theory. If you ask the same physicist to justify how string theory works, he will undoubtedly come up short.  String theory is one of those hyped-up, overrated movies that are endlessly promoted and may flop. It’s a great idea on paper, but it is still a theory. There are many logical inconsistencies that exist with string theory. Just take what “experts” say with a grain of salt.</description>
+      <title>What is the main idea of this passage?</title>
+      <options>
+        <o0> Superstring theory has yet to mature. </o0>
+        <o1> In science, there are many questions to be asked but few are answered. </o1>
+        <o2> Science is hyped-up and overrated </o2>
+        <o3> Superstring theory is fundamentally flawed </o3>
+        <o4> Superstring theory is only a theory </o4>		
+      </options>
+      <picture></picture>
+      <answer>4</answer>
+    </template>
+  </question> 
+  <question>
+    <id>4b00e121d80c46ee8096b52888b886e5</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description> In a puppet show, the man {blank} the strings in his hands. He {blank} his fingers with great dexterity. The puppet {blank} to be live. The man is able to build up a story. People are deeply engrossed in the show and they really {blank} like learning this art which is not easy to learn.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>reads</o1>
+          <o2>ties</o2>
+          <o3>seems</o3>
+          <o4>feel</o4>
+          <o5>holds</o5>
+          <o6>moves</o6>
+		  <o7>teach</o7>
+        </blank>
+      </blanks>
+      <answer>4|5|2|3</answer>
+    </template>
+  </question> 
+    <question>
+    <id>fe375c2289ac435ab935783dc9e8f82f</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description> The purpose of the water in the engine of a car is to keep the engine cool. If the engine {blank} too hot, it {blank} . If it gets too cold, it does not {blank} well. The water circulates around the engine, where it collects heat from the burning of the petrol.  Then it  {blank} through the radiator, where it  loses heat to the air. In an efficient engine, this process {blank} the temperature of the water a few degrees below boiling point . At this temperature, the engine {blank} its best performance.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>circulates</o1>
+          <o2>passes</o2>
+          <o3>stops</o3>
+          <o4>keeps</o4>
+          <o5>collects</o5>
+          <o6>gets</o6>
+		  <o7>gives</o7>
+		  <o8>run</o8>
+		  <o9>loses</o9>
+        </blank>
+      </blanks>
+      <answer>5|2|7|1|3|6</answer>
+    </template>
+  </question>  
+     <question>
+    <id>46a0fcab7a2240ccb0965f2d94e9975b</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>There are many strange plants in this world. Out of these strange plants, we all know that there are flesh eating plants as well. These {blank} plants can be found in areas where the soil has very {blank} nutrients. These are called carnivorous as they trap insects and arthropods, {blank} digestive juices, dissolve the prey and {blank} most of their nutrients from this process. There are five basic trapping {blank} found in these plants namely pitfall traps, fly paper traps, snap traps, bladder traps and lobster pot traps. </description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>herbivorous</o1>
+          <o2>carnivorous</o2>
+          <o3>less</o3>
+          <o4>little </o4>
+          <o5>derive</o5>
+          <o6>eat</o6>
+		  <o7>methods</o7>
+		  <o8>ways</o8>
+		  <o9>mechanism</o9>
+		  <o10>produce</o10>
+        </blank>
+      </blanks>
+      <answer>1|3|9|4|8</answer>
+    </template>
+  </question> 
+       <question>
+    <id>9f731db247c1402fbaaecc2fec6b12dd</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>Utricularia, also known as bladderworts, is a {blank} of carnivorous plants that has around 220 species. They occur in fresh water and wet soil as terrestrial or aquatic species and are mainly {blank} in every continent except Antarctica. They are the only carnivorous plants that make use of bladder traps. These species have very small and large traps that help to catch only {blank} and large prey like water fleas and small tadpoles.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>genus</o1>
+          <o2>sorts off</o2>
+          <o3>found</o3>
+          <o4>discovered</o4>
+          <o5>minute</o5>
+          <o6>little</o6>
+        </blank>
+      </blanks>
+      <answer>0|2|4</answer>
+    </template>
+  </question> 
+       <question>
+    <id>3f864be9b43040538bc95179e833c59e</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description>In the aesthetic life, one is ruled by passion. In the ethical life, one is ruled by societal {blank}. In the religious life, one is ruled by total faith in God. One can never be truly free, and this causes boredom, anxiety, and despair. True faith doesn’t lead to freedom, but it {blank} the psychological effects of human existence. The only way to make life worthwhile is to embrace faith in God, and that faith necessarily involves accepting the {blank} willingly and enthusiastically. One has faith in God, but one cannot believe in God. We believe in things that we can prove, but we can only have faith in things that are beyond our understanding. For example, we believe in gravity as we have proof of gravity. Faith requires {blank}, and thus we can have faith in God because God is beyond logic, beyond proof, and beyond reason. There’s no {blank} evidence for God, but this is exactly what allows people to have faith in him.</description>
+      <title></title>
+      <blanks>
+        <blank>
+         <o1>regulations</o1>
+          <o2>relieves</o2>
+          <o3>mitigate</o3>
+          <o4>absurd</o4>
+          <o5>uncertainty</o5>
+          <o6>hesitation</o6>
+		  <o7>methods</o7>
+		  <o8>rational</o8>
+		  <o9>logical</o9>
+		  <o10>norm</o10>
+		  <o11>obligations</o11>
+        </blank>
+      </blanks>
+      <answer>0|1|3|4|7</answer>
+    </template>
+  </question>  
+  <question>
+    <id>2c8ba79542b5453792a1d88b2269ce66</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the question by selecting all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>The squirrels are furry- tailed animals with large black eyes and rounded ears. The word squirrel comes from the Greek word skia, which means ‘shadow’ and oura, which means ‘tail’. Thus, the term means shadow-tailed and best describes squirrels as they use their tail to shade their whole body. These squirrels communicate with each other through scent marking and vocalisation. There are over 265 species of squirrel worldwide. The smallest squirrel is around 10 cm long whereas the largest is a massive 3 feet long. When this animal feels that it is in danger, it either remains motionless or runs to a nearby tree and climb to safety. Squirrels are one of the very few wild animals which eat out of a person’s hand. They are a symbol for preparation, thriftiness and trust. These are considered intelligent creatures which plan ahead in order to survive the challenging winter months in colder regions such as U.K. They store seeds and nuts at various locations and return to them throughout the colder months in order to maintain their energy levels when the food is scarce.</description>
+      <title>Facts that are true for squirrels:</title>
+      <options>
+        <o0>To ensure the availability of food during scarcity, the squirrels store nuts at various locations.</o0>
+        <o1>Is a credulous animal.</o1>
+        <o2>The origin of the term comes from an Italian word.</o2>
+        <o3>The size of the squirrels is generally same.</o3>
+        <o4>Squirrels are generally fearful animals which get scared easily.</o4>
+      </options>
+      <picture></picture>
+      <answer>0|1</answer>
+    </template>
+  </question>
+   <question>
+    <id>21886084d1594a62bef66c7a67b7d9c5</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the question by selecting all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>The word Switzerland originated from Schwyz, one of the three founder cantons. It is a federation of twenty six states that are also called cantons and four linguistic regions: German speaking, French speaking, Italian speaking and Roman speaking. This diversity raises the question of a national culture a recurring issue.{newline} Switzerland is a transition point between northern and southern Europe and between German and Latin cultures. It is characterized by The Jura mountains,densely urbanized plateau and the Alps range. Bern is the capital and is located in the center of the country.{newline} The population of Switzerland has increased more than fourfold since 1815, when the borders were established. Though the birthrate in this country has been decreasing since the end of the nineteenth century, immigration plays a vital role in increasing the population. Earlier there was a long tradition of emigration, but because of its rapid economic development, Switzerland became an immigration destination. Today it has one of the highest rates of foreigners in Europe.The people of Swiss are very religious. People rarely work on Sundays as they consider it a holy day. Most of the drugstores, supermarkets and banks are closed on Sunday.{newline} The Swiss people are formal people who never call their acquaintances by their first names. “Herr” and “Monsieur” are more frequently used to call or greet acquaintances. The Swiss people love punctuality and hence it is important to be on time to parties, business meetings and churches. That is why the tourists sometimes face problems as the trains never wait for late arrivers.</description>
+      <title>In addition, we all know that Switzerland is a land of watches.</title>
+      <options>
+       <o0>Identification</o0>
+        <o1>Location and Geography.</o1>
+        <o2>Demography</o2>
+        <o3>People</o3>
+      </options>
+      <picture></picture>
+      <answer>1|2</answer>
+    </template>
+  </question>   
+  <question>
+    <id>dd2baac47ac541609be04ac356b5cb28</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Arrange the options.</description>
+      <title></title>
+      <options>
+        <o0>However, it was not until high school that they began dating each other.</o0>
+        <o1>He is a patient, well-behaved country boy from Midwest.</o1>
+        <o2>Chris and Angelina have known each other since secondary school.</o2>
+        <o3>Despite their differences, both Chris and Angelina are deeply in love and are planning to start married life in a couple of years.</o3>
+		<o4>She, on the other hand, spent her early childhood in Los Angeles and is an outgoing, vivacious girl who believes in taking big risks in life.</o4>
+      </options>
+      <answer>2|0|1|4|3</answer>
+    </template>
+  </question>
+   <question>
+    <id>e51fa0cc1bd8465e9299a778b25ababe</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Arrange the options.</description>
+      <title></title>
+      <options>
+        <o0>A two time Academy Award winner, Clooney first came to prominence in mid 90s for his role of a pediatrician in popular series ER.</o0>
+        <o1>His humanitarian work in earthquake affected Haiti and Darfur has been hailed by people the world over.</o1>
+        <o2>He gained international fame and recognition for his work in movies like Intolerable Cruelty, Confessions of a dangerous mind and Syriana, for which he won an Oscar in the best supporting actor category.</o2>
+        <o3>George Clooney is a man of many talents.</o3>		
+      </options>
+      <answer>3|0|2|1</answer>
+    </template>
+  </question>
+    <question>
+    <id>bd65842a0d5a42b09d2e7f1bee27820f</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Arrange the options.</description>
+      <title></title>
+      <options>
+        <o0>Hits like Papa don’t preach, Like a virgin and Into the Groove only consolidated her position at the top.</o0>
+        <o1>Born on August 16, 1958 in Bay City, Michiganto Italian immigrants Joan and Tony Ciccone, Madonna moved to New York City in 1978 and found her way into the music industry as a backup singer to disco artist Patrick Hernandez.</o1>
+        <o2>With over 300 million records sold worldwide, Madonna is listed by Guinness World Records as the best-selling female artist of all times.</o2>
+        <o3>Known to many as the Queen of Pop, Madonna Louise Ciccone is a multi-Grammy award winning American singer and entertainer.</o3>
+        <o4>She also tried her luck in the movie industry and fetched the title role of Argentinean Eva Peron in 1996 hit Evita.</o4>			
+        <o5>Her debut single, ‘Everyday’ released in 1982 to surprisingly positive response and paved way for the singer to reach the zenith.</o5>	
+	  </options>
+      <answer>3|1|5|0|4|2</answer>
+    </template>
+  </question>
+ <question>
+    <id>465e788d3124467ab31e913178b6b682</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:59</attemptTime>
+    <template>
+      <description>When renowned Olympian and reality TV star Bruce Jenner (now Caitlyn Jenner) decided to come out as a pre-operative transgendered woman, a series of extreme reactions took the internet and media by storm. Jenner, parent to the popular Kardashian-Jenner siblings, was diagnosed with Gender Identity disorder, much earlier in life but kept her true identity a secret until 2015, when she declared her gender identity crisis during an interview with Diane Sawyer.{newline} Big names and organizations such as Barack Obama and ESPY’s applauded Jenner’s courage. In its June 2015 issue, Vanity Fair put Jenner on the cover and introduced Caitlyn Jenner to the world.{newline} Although Jenner completely identifies herself as a woman, she does not plan to undergo the sex reassignment surgery.{newline} Caitlyn Jenner’s story is a saga of grit, courage and willingness to live life on one’s own terms. She is a true inspiration to many young trans people across the world who are still dealing with issues such as bullying, acceptance and ostracism.</description>
+      <title>What does Caitlyn Jenner identify herself as –</title>
+      <options>
+        <o0>Homosexual </o0>
+        <o1>Transgender woman</o1>
+        <o2>Transphobic</o2>
+        <o3>Transvestite</o3>
+      </options>
+      <picture></picture>
+      <answer>1</answer>
+    </template>
+  </question>
+    <question>
+    <id>0be28de660524559ab2598b5d041b0a9</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:59</attemptTime>
+    <template>
+      <description>Civilization dawned when early man learnt how to produce heat energy by burning wood. Much later, the first industrial revolution was based on the production of steam by burning coal. Then steam was used (as it still is) to produce electricity. In this century, great use has been made of oil and natural gas, and in the last 25 years, the use of atomic reactors has provided another source of energy.{newline} But none of these fuels (except wood) is renewable. When they have been used, they cannot be replaced. Oil and natural gas may be finished by the year 2000; coal a century or two later and even atomic fuels are not inexhaustible. All of them, moreover, produce pollution of different kinds and amounts, and many people are concerned about the safety of the reactors. But solar energy- energy from the Sun- is non polluting and inexhaustible. What we have to do now is to find out how to make use of it.</description>
+      <title>Choose the alternative which best summarises the topic of each paragraph:</title>
+      <options>
+        <o0>Energy and civilization</o0>
+        <o1>Sources of energy</o1>
+        <o2>Historical development of energy sources</o2>
+        <o3>Energy and history</o3>
+      </options>
+      <picture></picture>
+      <answer>2</answer>
+    </template>
+  </question>  
+ <question>
+    <id>6c99dd22184644338addf99999819059</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:59</attemptTime>
+    <template>
+      <description>The squirrels are furry- tailed animals with large black eyes and rounded ears. The word squirrel comes from the Greek word skia, which means ‘shadow’ and oura, which means ‘tail’. Thus, the term means shadow-tailed and best describes squirrels as they use their tail to shade their whole body. These squirrels communicate with each other through scent marking and vocalisation. There are over 265 species of squirrel worldwide. The smallest squirrel is around 10 cm long whereas the largest is a massive 3 feet long. When this animal feels that it is in danger, it either remains motionless or runs to a nearby tree and climb to safety. Squirrels are one of the very few wild animals which eat out of a person’s hand. Squirrels are also very trusting animals.</description>
+      <title>Which of the statement is true for a squirrel?</title>
+      <options>
+        <o0>Squirrels are gullible</o0>
+        <o1>Tail employed for glooming</o1>
+        <o2>Learn to communicate through scent marking and vocalisation</o2>
+      </options>
+      <picture></picture>
+      <answer>0</answer>
+    </template>
+  </question>  
+  <question>
+    <id>87cdb4c8bb7a432aa6710fa30a5fc7d2</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Insomnia refers to sleep disorder that is {blank} by difficulty falling or staying asleep. The symptoms of insomnia are difficulty falling {blank}, waking up often during the night and having trouble going back to sleep, feeling tired upon waking. Some people {blank} insomnia if they consume caffeine, especially during the evening hours. Evidence of a risk during pregnancy is {blank}. Some authorities propose that pregnant women should limit the consumption of coffee to two cups per day or less. Caffeine is considered an addictive drug as it produces a mild form of drug dependence associated with {blank} symptoms such as sleepiness, headache, and irritability. This happens when an individual stops using caffeine after repeated daily intake. Excessive intake of caffeine leads to increased blood pressure and heart rate, increased urine output.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>characterized</o1>
+          <o2>meant</o2>
+          <o3>referred</o3>
+        </blank>
+        <blank>
+          <o1>sleepy</o1>
+          <o2>asleep</o2>
+          <o3>sick</o3>
+        </blank>
+        <blank>
+          <o1>feel</o1>
+          <o2>experience</o2>
+          <o3>judge</o3>
+        </blank>
+		 <blank>
+          <o1>dangerous</o1>
+          <o2>formless</o2>
+          <o3>equivocal</o3>
+        </blank>
+		 <blank>
+          <o1>unsual</o1>
+          <o2>weird</o2>
+          <o3>withdrawal</o3>
+        </blank>
+      </blanks>
+      <answer>0|1|1|2|2</answer>
+    </template>
+  </question>
+  <question>
+    <id>23a018ecb30d4fd49ec35eafa848c319</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>It is not tough to differentiate between a hare and a rabbit. There are many differences as well as similarities between the two. Hare is generally large in size having {blank} hind legs and long ears. The skulls of the both are also different. The hare change color from grayish brown in summer to white in winter whereas the rabbit’s fur coat remains same in color throughout the year. Both rabbits and hares breed {blank}, bearing four to eight litters each year. Although hares and rabbits are {blank} by hunters as a game for both food and fur, they are also {blank} to farmers and gardeners. They can destroy crops and trees.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>long</o1>
+          <o2>stretched</o2>
+          <o3>extended</o3>
+        </blank>
+        <blank>
+          <o1>profuse</o1>
+          <o2>meanly</o2>
+          <o3>prolifically</o3>
+        </blank>
+        <blank>
+          <o1>required</o1>
+          <o2>hunted</o2>
+          <o3>kill</o3>
+        </blank>
+		 <blank>
+          <o1>vermin</o1>
+          <o2>parasites</o2>
+          <o3>fleas</o3>
+        </blank>
+      </blanks>
+      <answer>0|2|1|0</answer>
+    </template>
+  </question>  
+   <question>
+    <id>b4e0f3483c274c7f8279431b651d11d0</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>We are losing earth’s greatest biological treasures: Rainforests those once covered 14% of the earth’s land surface; now they cover a {blank} 6%. It took over millions of years to turn rainforests into an {blank} beautiful and complex environment they are today; but sadly, it has taken only a century of human {blank} to destroy what nature designed to last forever. This {blank} deforestation brings with it many ugly consequences-air and water pollution, soil erosion, malaria epidemics, the release of carbon dioxide into the atmosphere, and the loss of biodiversity through {blank} of plants and animals: the fewer rainforests mean less rain, less oxygen for us to breath, and an increased threat from global warming.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>mere</o1>
+          <o2>merely</o2>
+          <o3>purely</o3>
+        </blank>
+        <blank>
+          <o1>amazing</o1>
+          <o2>incredibly</o2>
+          <o3>extreme</o3>
+        </blank>
+        <blank>
+          <o1>intervene</o1>
+          <o2>interfere</o2>
+          <o3>intervention</o3>
+        </blank>
+		 <blank>
+          <o1>massive</o1>
+          <o2>bid</o2>
+          <o3>substantial</o3>
+        </blank>
+		 <blank>
+          <o1>extinct</o1>
+          <o2>extinction</o2>
+          <o3>extension</o3>
+        </blank>
+      </blanks>
+      <answer>0|1|2|0|1</answer>
+    </template>
+  </question>
+    <question>
+    <id>0aca5edd0cbf4b4099b8cc847b6634ce</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The difference between a canoe and kayak can be quite confusing for people who are new to water sports. Canoes and kayaks are both lightweight boats {blank} and controlled by people using paddles, but each boat is unique in its own way. Both are used for recreation, water sports, fishing and travelling. However, when we try to distinguish one from the other, there are few {blank} differences to look at. Canoes and Kayaks are {blank} by letters and numbers. The letter refers to the type of boat being used, and the number refers to the number of paddlers in the boat. A typical canoe with one paddler would be defined as C1, however a canoe with two paddlers would be defined as C2. In the recreational boating world, canoes tend to be the “pickup truck” whereas Kayak tends to be a sports car {blank} speaking which means canoes are versatile, practical and easily manageable. Kayaks, on the other hand, carry less people and can usually travel faster than canoes.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>thrust</o1>
+          <o2>propelled</o2>
+          <o3>shoving</o3>
+        </blank>
+        <blank>
+          <o1>key</o1>
+          <o2>main</o2>
+          <o3>find</o3>
+        </blank>
+        <blank>
+          <o1>classified</o1>
+          <o2>divided</o2>
+          <o3>opened</o3>
+        </blank>
+		 <blank>
+          <o1>hypothetically</o1>
+          <o2>symbolically</o2>
+          <o3>metaphorically</o3>
+        </blank>
+      </blanks>
+      <answer>1|0|0|2</answer>
+    </template>
+  </question>
+   <question>
+    <id>189371a873084e3b907e2a1bec5b7a90</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>California was {blank} by a Spanish navigator, Juan Podriquez Cabrillo in 1542, but its first Spanish mission was not established until 1769.California became a U.S territory in 1847 when Mexico surrendered it to John C. Fremont. By 1964, California {blank} New York to become the most {blank} state. It is because more immigrants settle in California than any other state. California has leading industries that include agriculture, manufacturing( machinery, transportation equipment and electronic equipment), bio technology, and tourism. The principal natural {blank} include timber, cement, petroleum and natural gas. California is a western U.S state that stretches from the Mexican border along the Pacific for nearly 900 miles. It is known for its cliff-lined beaches, redwood forest, mountains, farmland and desert. The two famous cities are Los Angeles and San Francisco. The capital of California is Sacramento. California is the most wonderful place to visit because of its beautiful nature and {blank} weather. Death Valley, Mt. Whitney, Lassen Peak, Yosemite National Park, Disneyland, Hollywood, The Golden Gate Bridge, Sequoia National Park, San Simeone State Park and Point Reyes National Seashore are some of the exciting places to visit in California.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>cited</o1>
+          <o2>sighted</o2>
+          <o3>discovered</o3>
+        </blank>
+        <blank>
+          <o1>agreed</o1>
+          <o2>crossed</o2>
+          <o3>surpassed</o3>
+        </blank>
+        <blank>
+          <o1>populous</o1>
+          <o2>well known</o2>
+          <o3>popular</o3>
+        </blank>
+		 <blank>
+          <o1>gas</o1>
+          <o2>resources</o2>
+          <o3>reserves</o3>
+        </blank>
+		<blank>
+          <o1>different</o1>
+          <o2>varied</o2>
+          <o3>diverse</o3>
+        </blank>
+      </blanks>
+      <answer>1|2|0|1|2</answer>
+    </template>
+  </question>  
+</questions>

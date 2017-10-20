@@ -1,0 +1,1557 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<questions>
+  <question>
+    <id>611a90bdf4434466861abf49d839b1ea</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_AND_WRITE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>1.1 UFR - SST - MOD.tpm</media>
+      <delay>1</delay>
+      <answer></answer>
+      <maxWordCount>70</maxWordCount>
+	  <transcript>Woman, the so called fair sex is the noblest creation of God. Pious, polite, submissive, god fearing and self sacrificing, this superb creation of God has a major role to play on this earth. Woman has rightly been eulogized by all the great men of all ages and all religions. During the Rig Vedic period, her status was at par with men but she gained respect and reverence. No Yajna, no prayer, no ceremony was considered complete without her. Sita and Gargi have epitomized the role of women in socio-economic affairs of the Indian society in ancient times. But with advent of the Muslim rule in India, Indian women lost their status as well as respect. They were treated as a commodity, precious enough to be kept in safe custody. Muslims started purdah system, child marriage, female infanticide, sati pratha and other evils. Throughout the medieval period, the condition of women remained pitiable. In the 19th century great social leaders like Raja Ram Mohan Roy and Mahatma Gandhi thought of uplifting the status of women in Indian society and made strenuous efforts for emancipation of women. The two world wars and the India’s struggle for independence gave a new dimension to the liberation movement of women where in modern times, the women is at par with men and is enjoying all the rights and privileges.</transcript>
+    </template>
+  </question>
+   <question>
+    <id>0afc5fe7974049c4957047c75bef1497</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_AND_WRITE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>1.2 UFR - SST - MOD.tpm</media>
+      <delay>1</delay>
+      <answer></answer>
+      <maxWordCount>70</maxWordCount>
+	  <transcript>Stress is the feeling of being under too much mental or emotional pressure. Pressure turns into stress when you are unable to cope up with work, relationships and money problems. People have different ways of reacting to stress, so a situation that feels stressful to one person may be motivating to someone else. And, when you feel stressed, it can get in the way of sorting out these demands, or can even affect everything you do. Stress can affect how you feel, think, behave and how your body works. You can come to know if you are in stress by common signs like sleeping problems, sweating, loss of appetite and difficulty in concentrating. You may also feel anxious, irritable or low in self esteem. Losing temper, drinking more are also some signs of stress. You may also experience headaches, muscle tension or pain, or dizziness. Stress causes a surge of hormones in your body that are released to enable you to deal with pressures or threats. Once the pressure or threat has passed, your stress hormone levels will usually return to normal. However, if you're constantly under stress, these hormones will remain in your body, leading to the symptoms of stress.</transcript>
+    </template>
+  </question>   
+ <question>
+    <id>e2a308d673dd40349e06fbdbe2945772</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_MULTI_SELECT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>Lingri is also known as</title>
+      <media>1.1 UFR - MCMA - MOD.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>pteridiaceae</o0>
+        <o1>linger</o1>
+        <o2>lungdu</o2>
+        <o3>pteridium accuilinum</o3>
+      </options>
+      <answer>1|2</answer>
+	  <transcript>Nature is full of millions of plants. Thousands of them have been identified and studied by scientists in details. Millions of them yet remain to be identified and studied. Lingri is one such plant of the main type “ferns” which has been identified but not studied in sufficient detail. Locally named as lingri or lingar or lungdu , belongs to the fern family pteridiaceae of Himalayan ferns. Its specific name is pteridium acquilinum.</transcript>
+    </template>
+  </question>  
+   <question>
+    <id>ef09cb5ca2f74c09aad5ea3b16a50595</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_MULTI_SELECT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>What are the advantages and disadvantages of Giraffes stature?</title>
+      <media>1.2 IMR - MCMA.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>Taller than many humans</o0>
+        <o1>Roam in small groups</o1>
+        <o2>Pluck tasty morsels</o2>
+        <o3>Sharp look out for predators</o3>
+        <o4>Dangerous to drink water from a hole</o4>
+		<o5>Giving birth by standing up</o5>
+      </options>
+      <answer>0|1|2|3|4|5</answer>
+	  <transcript>Giraffes are the world's tallest mammals because of  their towering legs and long necks. A giraffe's legs alone are taller than many humans—about 6 feet. These long legs allow giraffes to run as fast as 35 miles an hour over short distances and cruise comfortably at 10 miles an hour over longer distances. Generally, these fascinating animals roam the open grasslands in small groups of about half a dozen. Bulls sometimes battle one another by butting their long necks and heads. Such contests aren't usually dangerous and end when one animal submits and walks away. Giraffes use their height to good advantage and browse on leaves and buds in treetops . It’s long which is  21-inch helps them pluck tasty morsels from branches that they eat most of the time and, like cows, regurgitate food and chew it as cud. A giraffe eats hundreds of pounds of leaves each week and travels miles to find enough food. The giraffe's height also helps it to keep a sharp lookout for predators across the wide expanse of the African savanna. It’s stature can be a disadvantage as well—it is difficult and dangerous for a giraffe to drink at a water hole. To do so they must spread their legs and bend down in an awkward position that makes them vulnerable to predators like Africa's big cats. Giraffes only need to drink once every several days; they get most of their water from the luscious plants they eat. Female giraffes give birth standing up. Their young endure a rather rude welcome into the world by falling more than 5 feet  to the ground at birth. These infants can stand in half an hour and run with their mothers an incredible ten hours after birth. Giraffes have beautiful spotted coats. While no two individuals have exactly the same pattern, giraffes from the same area appear similar.</transcript>
+    </template>
+  </question> 
+ <question>
+    <id>71df3cb4a53d47d6b2573b699581c638</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Students should be encouraged to read English newspapers and to listen to the radio or to watch television as an {blank} to the work they do in school, and whenever possible one or two hours of class time should be set {blank} each week for news paper study. Though this may present a difficulty for students studying abroad, it is {blank} valuable for them, since they lack the advantage of an English environment as an {blank} to their studies.</description>
+      <title></title>
+      <media>1.1 EMR - FB.tpm</media>
+      <delay>8</delay>
+      <answer>adjunct|aside|||particularly|||aid</answer>
+    </template>
+  </question>
+ <question>
+    <id>00ac2c16a478493abe84c574dde540cf</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Students at advanced level should, in any case, be encouraged to develop a healthy {blank} of “rules” until they have had an {blank} to measure them against the facts of English as they find it. Research projects are a valuable {blank} in developing student’s critical {blank} of what English is really like. Provided the teacher gives the necessary {blank} for investigation, students can be asked to examine modern written English of various registers and styles.</description>
+      <title></title>
+      <media>1.2 CFR - FB.tpm</media>
+      <delay>8</delay>
+      <answer>skepticism|opportunity|||aid|||awareness|||framework</answer>
+    </template>
+  </question>  
+ <question>
+    <id>f56977adc9ee4b57b72e0af08980e2f4</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Graphology is the analysis of the physical {blank} and patterns of handwriting purporting to be able to identify the writer. It studies the amount of pressure which one {blank} while writing and hence reveals one's emotional state. The {blank} between words reveals the state of mind whereas margins indicate the sense of proportion. The speed of writing shows the amount of {blank} a person has whereas the style of writing shows the sharpness of mind. The slope and size of handwriting tells the degree of affection and power of concentration. The {blank} strokes reveal how generous a person is. Capital letters and small letters reflect once personal taste and mental development.</description>
+      <title></title>
+      <media>1.3 UFS - FB.tpm</media>
+      <delay>8</delay>
+      <answer>characteristics|exert|||spacing|||energy|||terminal</answer>
+    </template>
+  </question> 
+   <question>
+    <id>22ed2b7d999e4b9f89c3f4bcec6d1502</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>1.1 BMS - HCS.tpm</media>
+      <delay>7</delay>
+      <options>
+        <o0>Archaeologists, people who study material remains such as fossil relics, artefacts, bio-facts or eco-facts, and monuments of past human life, are facing a lot of problems in today’s world – dealing with looting of artefacts, lack of public interest, opposition to the excavation or human artefacts etc.</o0>
+        <o1>Archaeology, which also refers to anthropology and palaeontology, involves various sub-disciplines such as marine archaeology, archaeoastronomy and various other scientific techniques that have been developed to aid archaeological investigation.</o1>
+        <o2>Archaeologists sole focus on studying the prehistory of human beings, which includes 99% of the human past starting from Palaeolithic until the advent of literacy, has helped us understand culture history to reconstructing past life ways to documenting and explaining changes in human societies over a period of time.</o2>
+        <o3>Archaeology, which is considered as a strict humanities branch, relies on cross-disciplinary research, a study developed out of antiquarianism in Europe during the 19th century, to study human prehistory and history.</o3>
+      </options>
+      <answer>0</answer>
+	  <transcript>Archaeology refers to a science that deals with past human life and activities by studying the bones, tools, etc of ancient people. In simple words, it is the scientific study of material remains such as fossil relics, artifacts, biofacts or ecofacts, cultural landscapes and monuments of past human life. Archaeology can be considered both a social science and a branch of humanities. Archaeologists study human prehistory and history, from the development of the first stone tools at Lomekwi, Eastern Africa up until recent decades. Archaeology also refers to anthropology and is distinct from paleontology. It is particularly important for learning about prehistoric societies, for whom there may be no written records to study. Prehistory includes over 99% of the human past, from the Paleolithic until the advent of literacy in societies across the world. This study has various goals starting from understanding culture history to reconstructing past life ways to documenting and explaining changes in human societies over a period of time. Therefore, surveying , excavation and eventually analysis of data collected to learn more about the past include this discipline. Broadly, archaeology relies on cross- disciplinary research. This study developed out of antiquarianism in Europe during the 19th century, and has become a discipline practiced across the world since then. Various specific sub-disciplines of archaeology have developed that includes marine archaeology, archaeoastronomy and various other scientific techniques that have been developed to aid archaeological investigation. Nonetheless, in today’s world, archaeologists face many problems, such as dealing with looting of artifacts, lack of public interest, opposition to the excavation of human remains etc.</transcript>
+    </template>
+  </question>
+   <question>
+    <id>48920be509f240e48ed7b5cff0309a28</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>1.2 UFS - HCS.tpm</media>
+      <delay>7</delay>
+      <options>
+        <o0>Increasing contamination in sea, ocean and river water endangers not only the aquatic animals but also the terrestrial animals and therefore the entire world. This is because the food chain is highly dependent on the aquatic animals.</o0>
+        <o1>Increasing contamination of sea and ocean water has endangered the aquatic animals the most. Terrestrial and amphibious animals can get oxygen from multiple sources like land or water, however aquatic animals can get oxygen only from water.</o1>
+        <o2>All aquatic animals have the same respiratory system, which is very different from the respiratory system of terrestrial animals. They breathe through their gills and cannot breathe on ground.</o2>
+		<o3>Our inability to understand the highly complex aquatic life, because of lack of research in the field, is the biggest reason why aquatic life is trapped in a dangerous situations only.</o3>
+      </options>
+      <answer>0</answer>
+	  <transcript>There is a world inside water that contains many animals called aquatic animals. These animals live a life completely different from terrestrial animals .Their respiratory system is different as it has a provision to breathe inside water but not on the ground or land area. Each animal inside water has different respiratory system. Few animals breathe through their gills while few breathe directly through their skins. These aquatic animals cannot breathe on ground like normal living beings that live on earth cannot breathe inside water. However, amphibious animals that live on ground as well as inside water have provision to breathe both inside the water as well as on the ground. Aquatic life has an immense importance in this world because the food chain is highly dependent on them. Therefore, it is important to keep a good balance of their life. If sea water and ocean water are polluted then it affects the aquatic life. Many aquatic animals face death because of polluted water. As water is the only source of oxygen they have, if this source is polluted then for sure it will affect their life. Therefore, with increasing contamination in water and spilling of oils in seas, this aquatic life is trapped in danger situations. Aquatic life is too complex hence it requires a huge research to understand the life cycle of aquatic animals.  Many animals are not defined yet and there are many new species that are born each day and not named yet. These animals have added colors to the environment which has added beauty to the nature. Nature is nothing without aquatic life and if aquatic life is disturbed then the colors of this nature may get stolen.</transcript>
+    </template>
+  </question>  
+  <question>
+    <id>6f5e37cf5bfd4fcaa33bdb5edc320ff2</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>What is the best title for this para?</title>
+      <media>1.1 UFS - MCSA.tpm</media>
+      <delay>5</delay>
+      <options>
+        <o0>Evolution of movies over a period of 50 years</o0>
+        <o1>The changing role of media</o1>
+        <o2>The ways in which the media affects society’s political views </o2>
+        <o3>Roots of media censorship</o3>
+      </options>
+      <answer>3</answer>
+	  <transcript>Censorship in the media has always been an extremely important issue for all. In the 1950’s movies and television programs had to conform to the codes that imposed strict standards of propriety. Couples were shown sleeping in separate rooms, and the concept of verbal profanity or nudity was never heard of. Later, in the 1960’s and 70’s the media derelict/ abandoned the codes in favour of more pragmatic depiction of relationships in everyday life. The filmmakers were able to express more openly. The Rolling Stones thought of changing their lyrics from “let’s spend the night together” to “let’s spend some time together”. But this idea seemed unlikely by the end of the decade. However, in the mid 80’s, a period of conservative reaction occurred which turned the cycle around. Song lyrics began to be censored. Warning labels were attached to the album covers mentioning that some of the language might be offensive to the consumer. The unfortunate part is that people blame media for societal problems without realizing that media is the one who puts light to the problems that already exist. Hopefully, our reactions will break free of all previous patterns soon.</transcript>
+    </template>
+  </question>
+  <question>
+    <id>7a36cb99579f4d99b459ccb57330f0ea</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>What does the word "Embargo" mean?</title>
+      <media>1.2 UMS - MCSA.tpm</media>
+      <delay>5</delay>
+      <options>
+        <o0>an official ban on commercial trade</o0>
+        <o1>process of garnishing</o1>
+        <o2>measures for healthy food</o2>
+        <o3>license used for trading</o3>
+      </options>
+      <answer>0</answer>
+	  <transcript>Embargos are generally done with good intentions but can sometimes have negative consequences. The embargos on Cuban sugar and cheese made from unpasteurized milk lead to hurting Americans in the long run. As the leading producer of sugar in the world, Cuba exports 3 million tons a year. Americans get their sugar from Hawaii and California which only produce 1 million ton of sugar. As a result, processed food like soda and candy is made with corn syrup instead of pricey sugar. Sugar is more expensive in the U.S as compared to other countries because of embargo. Cheese made from unpasteurized milk is illegal in the U.S. However, the American cheese industry is encouraging the FDA to take a strong stand and view this cheese as a huge health risk. Some companies argue that this cheese carries bacteria but Europeans eat cheese made from unpasteurized milk yet they are fine. The reason could be that when American Cheese Companies pasteurize cheese, it takes a long time to get to the table whereas in Europe they eat cheese shortly after it’s made. If the FDA decides to enforce this embargo, some of the best cheeses in the supermarket like parmigiano, reggiano and other expensive block cheeses will disappear and vanish from the shelves. It still needs to be decided if the loss is worth it.</transcript>
+    </template>
+  </question>  
+  <question>
+    <id>ac3fda38e8054889a2269d6d2eb6ed89</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_SELECT_MISSING_WORD</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording on human evolution. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>1.1 GFR - SMW.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>Eve</o0>
+        <o1>human</o1>
+        <o2>evolution</o2>
+       </options>
+      <answer>0</answer>
+	  <transcript>It is certain that the Adam and Eve theories have given a new dimension to the subject of human evolution. Actually the subject of evolution was considered a strong hold of anthropologists and paleontologist and after the inclusion of molecular biologists and geneticists in the field; new dimensions have been included in the subject. Despite opposition by traditional anthropologist, scientists are beginning to recognize these new dimensions as more accurate and perfect. Let us hope that within a few years we should be able to learn the exact details of Adam and _______</transcript>
+    </template>
+  </question>
+  <question>
+    <id>fab4a4fb7d6c4daaaa4a934260ea7536</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_SELECT_MISSING_WORD</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording on physical activities. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>1.2 BMS - SMW.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>stress free</o0>
+        <o1>feel warmer</o1>
+        <o2>healthier</o2>
+		<o3>feel tired</o3>
+         </options>
+      <answer>1</answer>
+	 <transcript>People who do regular activity have a lower risk of many chronic diseases, such as heart disease, type 2 diabetes, stroke, and some cancers. Physical activity can also boost self-esteem, mood, sleep quality and energy, as well as reduce your risk of stress and depression. To stay healthy, adults should try to be more active and should aim a minimum of 150 minutes of physical activity over a week through various activities. People should start walking or cycling instead of using a car to commute.  Taking part in activities such as sports and exercise makes a person even healthier as it increases your heart rate and you tend to breathe faster and _____________.</transcript> 
+    </template>
+  </question>
+  <question>
+    <id>5aa9fa5bd29b4130a72f661f19f56192</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_AND_HIGHLIGHT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>A pair of scissors is a two-layered cutting instrument used for cutting cloth, paper, leather and similar metals. It consists of two blades which meet and cut as the handles at their ends close. These blades are contradicted by a rivet or screw located between the handles and blades wherein rivet also forms the pivot for the movement of the blades. Both the blades must be accurately tempered to equal degrees of hardness and velocity. If the scissors are to cut well, the blades should touch in two places only- at the point and at a single spot along it, which is where the cutting takes place. They are made to twist or curve towards one another when completely closed, the points of the blades should touch. In order to sharpen the scissors, each blade is passed lightly across a winding wheel to restore the sharpness of the edge-angle.</description>
+      <title></title>
+      <media>1.1 UMS - HIW.tpm</media>
+      <delay>8</delay>
+      <answer>bladed|connected|elasticity|joint|grinding</answer>
+      <maxWordCount></maxWordCount>
+    </template>
+  </question>  
+  <question>
+    <id>a72f5fb6bc5d41798baa5cf8e4fdea1f</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_AND_HIGHLIGHT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>From the 1880’s, new minds of advertising began to influence the press. Such men as Lord Northcliffe saw how advertising could be made to lead to decreased revenue for his papers. Such revenue would make it possible to cut the price of the papers and so crease the circulation (the number of papers sold each day). The results of this product altered the whole character of the press. The typical nineteenth century newspaper tried to attract income under advertising, but it was not dependant on it; but in the twentieth century, half a paper’s revenue may come from advertising.</description>
+      <title></title>
+      <media>1.2 CFR - HIW.tpm</media>
+      <delay>8</delay>
+      <answer>kinds|increased|policy|from</answer>
+      <maxWordCount></maxWordCount>
+    </template>
+  </question>   
+ <question>
+    <id>22d4b16ab714400e8e0edf628620cc6c</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>1.1 GFR - WRD.tpm</media>
+      <delay>7</delay>
+      <answer>Research in basic sciences and technology should be funded by the government.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>
+ <question>
+    <id>a21dcd1b609c4e848f883204e77f664f</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>1.2 CFR - WRD.tpm</media>
+      <delay>7</delay>
+      <answer>Litterbins are mysteriously vanishing from the northern village in England.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>
+ <question>
+    <id>3db6c7215baa422793ab459e3d30f17c</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>1.3 UMS - WRD.tpm</media>
+      <delay>7</delay>
+      <answer>Spruce is a slow-growing pine.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question> 
+<question>
+    <id>0f61168857a34b2e8113d59fcb416265</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_AND_WRITE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>2.1 IMR - SST.tpm</media>
+      <delay>1</delay>
+      <answer></answer>
+      <maxWordCount>70</maxWordCount>
+	  <transcript>There is no reason to believe that there are fundamental differences between the East and the West. Human beings are basically the same everywhere. The differences, which undoubtedly are significant, are related to external and social conditions. East and West are relative terms. They are geographical expressions and not cultural types. The differences among countries like China, India and Japan are quite as significant as those among European or American countries. These differences are of specific cultural patterns with distinctive beliefs and habits developed in different regions in relative isolation from one another. There were periods when China and India were pre-eminent in cultural affairs, others when Western nations became dominant. For the last four centuries, western nations aided by scientific development have dominated the East. The World has now reached a stage of intercommunication. All societies are becoming industrialized and new sets of values are springing up. If we are to live together in peace, we must develop international co-operation and understanding.</transcript>
+    </template>
+  </question>
+   <question>
+    <id>ced5cfeba6c34e1aa2f7970a3a9fbf18</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_AND_WRITE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>2.2 UFR - SST - Mod.tpm</media>
+      <delay>1</delay>
+      <answer></answer>
+      <maxWordCount>70</maxWordCount>
+	  <transcript>Since 1976, OWL has ignited the curiosities of kids between 9 and 13 years. OWL continues to give children an access to new information by  highlighting elements of science, technology, engineering, art, and math that encourages kids to discover, explore, engage, and inspire. Unusual for its intended age group, it is loved by both girls and boys, identifying the core of what really matters to given age group of kids and relaying it with a signature honesty, intelligence, and humour. It is loaded with quizzes, comics, cool tech news, expert interviews, ground-breaking discoveries and innovations, futuristic inventions and hands-on-building, book and movie reviews, reader art and advice, contests and much more. Curriculum experts ensure that the content complements the work that the kids are doing at school, giving OWL readers the confidence and ability to be successful in their studies. Inspiring young minds for more than 35 years, this magazine continues to inform and inspire preteens looking to engage with the world they live in.</transcript>
+    </template>
+  </question>    
+ <question>
+    <id>8f886e27d923486ebc1d1d6aabddd0f7</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_MULTI_SELECT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>What are the factors that affect diversity of Flora?</title>
+      <media>2.1 BMS - MCMA.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>Biodiversity</o0>
+        <o1>Bionetwork</o1>
+        <o2>Clamminess</o2>
+        <o3>Rainfall</o3>
+		<o4>Fauna</o4>
+		<o5>Cactus</o5>
+		<o6>Grassland</o6>
+      </options>
+      <answer>0|1|2|3|4|5|6</answer>
+	  <transcript>Natural Vegetation and Wildlife: The naturally growing plant without human aid is called natural vegetation. The vegetation which has been left undisturbed by humans for a long time is called virgin vegetation. Now, let’s see what Flora and Fauna is all about. Plant species of a particular region or period are called flora. Animal species of a particular region or period are called fauna. Let’s talk more on the factors which affect the diversity of flora. Land: Natural vegetation is directly and indirectly affected by land. Nature of land influences the type of vegetation. If the land is level and fertile, it is mainly used for farming. If the land is uneven, grassland and woodlands develop over it. Soil: Different types of soil are fit for different types of vegetation. For example, sandy soil is fit for cactus and thorny bushes, while wet and marshy soil is fit for mangrove vegetation. Temperature and Humidity: Temperature and humidity also determine the character and extent of vegetation. An area with high temperature and high humidity supports evergreen forest, while an area with high temperature and low humidity supports thorny bushes. Sunlight: The duration of sunlight is called photoperiod. Photoperiod depends on latitude, altitude, season and duration of the day. Trees grow faster in summer because of longer photoperiod. Precipitation: If an area gets heavy rainfall, it is suitable for the growth of dense vegetation. Whereas, an area with scanty rainfall is suitable for thorny bushes. Ecosystem: All the plants and animals in an area are interdependent on each other. The plants and animals along with their physical environment make the ecosystem.</transcript>
+    </template>
+  </question>  
+   <question>
+    <id>80e9ed393d6b4ceeb37a93f0bffee538</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_MULTI_SELECT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>What does the author reveal about "Democracy" in this passage?</title>
+      <media>2.2 UFR - MCMA - Mod.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>protection of human rights</o0>
+        <o1>citizens cannot vote for lawmakers</o1>
+        <o2>representative government does not make laws</o2>
+        <o3>rudiments of social equality</o3>
+        <o4>increasing population lead to indirect democracy</o4>
+      </options>
+      <answer>0|3</answer>
+	  <transcript>The term democracy originated from the Greek word dēmokratía “meaning “rule of the people”. It is composed of two words dêmos "people" and krátos "power" or "rule", True democracy means direct rule by the people. Democracy can be found in a modern town meeting in many small towns in Europe. All citizens aged twenty-one or over may vote. They not only vote for officials, but they also get together to vote on local laws. In the cities, voters cast ballots for officials who jointly make the laws. This system is known as representative or indirect democracy. There is no problem of distance to travel, but it is difficult to run a meeting with hundreds of thousands of citizens. Representation of voters in making law is a major problem in state or national governments. The number of citizens and the distances to travel make representative government the most practical way to make laws. Democracy consists of four key elements: 1)	a political system for choosing and replacing the government through free and fair elections. 2)	the active participation of the people ,as citizens, in politics 3)	protection of human rights of all citizens 4)	a rule of law which applies equally to all citizens</transcript>
+    </template>
+  </question>
+ <question>
+    <id>4063683bb22e4805953d69890a33d4d1</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>In the emerging world scenario, interior decoration has become a passion and a {blank} for healthy living. The art of planting in small pots with its branches neatly {blank} gives rise to small neat structures of plant. These plants are easy to grow indoors as long as they have soil, air, light and water. Plants can be grown in the house all year round. Of late {blank} have attracted the attention of one and all. {blank} say that bonsai are ornamental trees or shrubs grown in a pot and artificially prevented from reaching their normal size. The Japanese {blank} in bonsai and ikebana. The latter flowers are displayed according to strict rules.</description>
+      <title></title>
+      <media>2.1 UMS - FB.tpm</media>
+      <delay>8</delay>
+      <answer>dictum |trimmed |||Bonsai |||Botanists |||specialized </answer>
+    </template>
+  </question>
+ <question>
+    <id>6af4f4a140244f98be46691ceaaffa77</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The conventional view about the origin of man holds that {blank} or manlike creatures began to evolve from ape-like ancestors in Africa about four millions years ago. These {blank} called Australopithecenes took about two millions years to develop to Homo habilis. Homo {blank} evolved about 1.5 million years ago and migrated to Europe and Asia. About 2,00,000 years ago, the Homo sapiens appeared on earth but did not look like what they look today. From this species about 1,00,000 years ago, the Neanderthal man developed and spread throughout Europe, Africa and the Middle East. It was only 40,000 years ago that the fully developed man appeared on Earth. Until recently the {blank} theories of modern man were {blank} by biologists who spent most of their time studying fossils or remains of skulls. It was only in the mid-nineties that molecular biologists were attracted towards skulls and fossils. And it was then that the {blank} theory about the origin of man was challenged.</description>
+      <title></title>
+      <media>2.2 GFR - FB.tpm</media>
+      <delay>8</delay>
+      <answer>hominids |creatures |||erectus |||evolutionary |||propagated |||conventional </answer>
+    </template>
+  </question>
+<question>
+    <id>3a3e7f4a656e41c0a8409b8a363d502d</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The Crisis that we are facing is not a material or an economic one. Neither is it an intellectual crisis. It is a {blank} and spiritual crisis. We have mastered the forces of nature. We can produce food from inexhaustible plant life of the sea. Power released from the atom and drawn from the sun and the stars can lift from the backs of men, the burdens they have borne for centuries. We have discovered remedies for deadly {blank} of the body and mind. By harnessing new energies, we can raise human well-being to undreamt of levels. We can produce enough material goods to provide for all the people of the world. The old causes of war – hunger, {blank} and hopelessness need not be there. As men are freed from the battle of physical existence, they will press forward in their struggle against ignorance, suspicion, malice and hatred. Our intellectual achievements are unparalleled. In spite of these possibilities of material abundance and intellectual power, peace is in {blank}, it is due to the cussedness in human nature which still persists, a moral blindness, a spiritual affliction which we are unable to overcome. Not only has the atom been split in our time but also our minds, hearts and conscience are rent asunder.</description>
+      <title></title>
+      <media>2.3 CFR - FB.tpm</media>
+      <delay>8</delay>
+      <answer>moral|diseases|||poverty|||peril</answer>
+    </template>
+  </question>  
+  <question>
+    <id>a8dc74f9ee1e4179a07039e237f24113</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>2.1 UMS - HCS.tpm</media>
+      <delay>7</delay>
+      <options>
+        <o0>It is very difficult to differentiate between a hare and a rabbit. They both are of almost similar physical appearances with only difference being a black mark on the fur of a hare. Their lifestyle habits are not very different either. However, a hare eats more hard food like bark, buds and rind as compared to a rabbit that goes for soft food.</o0>
+        <o1>Despite the similarities in the physical appearances of a rabbit and a hare, the two are distinctly different in their lifestyles. A rabbit can easily be domesticated, on the contrary, a hare cannot be domesticated. However, they both like to live in societies to stay close and feel guarded.</o1>
+        <o2>There are similarities and differences between a hare and a rabbit. As compared to a rabbit, a hare is larger and faster, has longer feet and ears, has a black marking on their fur, is blind and hairless young. It can’t be domesticated, lives alone, and eats hard food like bark, buds, rind etc. However, they both have similar sized tail.</o2>
+        <o3>A hare and a rabbit are very similar apart from their physical appearances. A hare is larger and faster, has longer feet and ears, has a black marking on its fur, has blind and hairless young. However, their lifestyle and eating habits are pretty much the same and make it difficult to differentiate the two.</o3>
+	  </options>
+      <answer>2</answer>
+	  <transcript>People sometimes are not able to differentiate between Hare and Rabbit. However, there are many differences as well as similarities that we would discuss today in this session. To start with, lets talk about the differences in the physical features of hares and rabbits that will give a clear picture of distinction. Hares are generally larger and faster than rabbits. Hares have longer feet and ears as compared to rabbits. There is always a black marking on the fur of hares. The young ones that are born are blind and hairless in case of rabbits, whereas hares are generally born with hair and are able to see. This feature helps them to fend for themselves very quickly after birth. Both rabbits and hares have short tails whereas hares have very long and strong hind legs, more so than rabbits. Now, let’s discuss the lifestyle and behaviour of both. Rabbits are often kept as pets whereas hares are never domesticated. Rabbits generally live underground in burrows or warrens, while hares live in simple nests above the ground. Rabbits are considered very social animals that live in colonies. However, hares live most of the time by themselves. If we talk about food, rabbits prefer eating soft stems, grass or vegetables. Hares eat more hard food like bark, buds, rind, shoots and small twigs.</transcript>
+    </template>
+  </question>
+   <question>
+    <id>ebdf4642903741edb2bdd84e0b885406</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>2.2 CFR - HCS.tpm</media>
+      <delay>7</delay>
+      <options>
+        <o0>Pharaohs, the crown and headdress wearing kings of ancient Egypt during the period 3150BC to 30BC, were considered mortal rulers. They never let the kingship go out of the families and therefore married their daughter or husbands to retain it within a single dynasty</o0>
+        <o1>The throne of the ancient Egypt, during the period 3150BC to 30BC, was ruled by Pharaohs for 30+ dynasties. The fact that the thronewas inherited by the eldest son of the king or by the husband of the only daughter, ensured that there was no competition for the succession and prevented any murder, pandemonium or mysterious disappearance. </o1>
+        <o2>Family members of Pharaohs, god kings and rulers of ancient Egypt from 3150BC to 30BC, often intermarried with their daughters and brothers to ensure that the throne remains in the family. Despite the murders, pandemonium and mysterious disappearances of the royal family members, the intermarriages helped to witness not more than 10 dynasties.</o2>
+        <o3>The murders, pandemonium or mysterious disappearances of the family members of Pharaoh, ruler and king of ancient Egypt during 3150BC to 30BC, explains the fact that 170 rulers ruled the nation for a period of 300 years. Intermarriages of royal family members with daughters and brothers, to retain the throne within the family, could not stop the nation to witness 30+ dynasties.</o3>
+	  </options>
+      <answer>3</answer>
+	  <transcript>The word Pharaoh refers to the title of the ancient Egyptian kings. It also means the “great house” and refers to royal palace. They were the god kings who ruled between 3150 B.C and 30 B.C. The ancient Egyptian pharaohs were both divine deities and mortal rulers. There were around 30+ dynasties in ancient Egyptian history. During a span of 300 years, around 170 rulers reigned over the great land of Egypt. Inheritance of the throne of Egypt was usually passed from a father to his eldest son whereas in many cases this line of kingship was interrupted by murder, pandemonium and mysterious disappearances. Also, if the only heir was a woman, her husband could become the next Pharaoh. Each time a new family took control of the throne, a new kingdom began in the history of the nation. Therefore, the rulers often intermarried with daughters, brothers to ensure that the throne remains within the family. Pharaoh used to show his/her kingship by wearing a crown or headdress with the uraeus (cobra) over the forehead. Sometimes, she/he had a bull’s tail coming from his/her belt to show personal power and also wore a false beard which was a sign of divinity.</transcript>
+    </template>
+  </question>  
+  <question>
+    <id>fb9bf342d21f47088df69c3f36b0f351</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>Which of the following statements would most weaken the author’s position?</title>
+      <media>2.1 UMS - MCSA.tpm</media>
+      <delay>5</delay>
+      <options>
+        <o0>Not all fish that live in rivers of the Amazon are carnivorous.</o0>
+        <o1>Many species of fish in the Pacific and Indian Oceans are even faster and have even sharper teeth than silver ripfish.</o1>
+        <o2>The silver ripfish has many more reflective scales than its competitors, making it easy for its prey to see and avoid.</o2>
+        <o3>The silver ripfish consumes more calories per day than any other carnivorous fish in the Amazon.</o3>
+		<o4>Birds rarely fly close enough to the water’s surface for the silver ripfish’s leaping ability to be useful.</o4>
+      </options>
+      <answer>2</answer>
+	  <transcript>From the point of view of a passenger ship, the Amazon River may seem absolutely serene, but there is all together a different story beneath the water surface. Numerous species of carnivorous fish dwell in the shallows of the Amazon. All are fearful, but silver ripfish is considered the best equipped predator. The silver ripfish’s huge, powerful jaws and razor-sharp teeth can instantly tear up not only other fish but also birds and small mammals unfortunate enough to stride into the river. Silver ripfish is capable of swimming faster than many speedboats, and can also leap out of the water to attack low-flying prey.</transcript>
+    </template>
+  </question>
+  <question>
+    <id>b92e902b8fc24ed2abbd8ba96a1946a9</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>The phrase "path of the wind" in the passage is closest in meaning to</title>
+      <media>2.2 BMS - MCSA.tpm</media>
+      <delay>5</delay>
+      <options>
+        <o0>wind strength</o0>
+        <o1>wind variation</o1>
+        <o2>wind direction</o2>
+        <o3>wind phenomenon</o3>
+      </options>
+      <answer>2</answer>
+	  <transcript>The Coriolis Force:It has always been assumed that icebergs follow the path of the wind. However, in the early part of the twentieth century, the Norwegian scientist and polar explorer Fridtjof Nansen noted that this was not true. Instead icebergs tend to move to the right side of the direction in which the wind blows. V. W. Ekman, one of the students of Nansen, showed that the rotation of the Earth leading to an inertial force known as the Coriolis force was responsible for this phenomenon. He further verified that in the Northern Hemisphere the deflection was toward the right of the prevailing wind, and in the Southern Hemisphere the deflection was toward the left. The icebergs observed by Nansen were moved by ocean currents that also moved at an angle to the prevailing wind.</transcript>
+    </template>
+  </question> 
+<!--   <question>
+    <id>b085ab4716d746cabb6d3eac5cb62b17</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>What can be inferred about the different sources of energy?</title>
+      <media></media>
+      <delay>5</delay>
+      <options>
+        <o0>We rely too much on fossil fuels and nuclear fission.</o0>
+        <o1>Renewable energy releases a lot of carbon dioxide into the atmosphere.</o1>
+        <o2>Energy from OTEC is provided directly by the sun and wind.</o2>
+        <o3>Energy forms other than OTEC do not have important benefits.</o3>
+      </options>
+      <answer>0</answer>
+	  <transcript>Ocean Thermal Energy Conversion (OTEC) is a marine renewable energy technology that harnesses the solar energy absorbed by the oceans to generate electric power. The sun’s heat warms the surface water a lot more than the deep ocean water, which creates the ocean’s naturally available temperature gradient, thermal energy. The ocean cover more than 70% of earth’s surface and capture a large part of the sun’s heat in the upper layers, making them the world’s largest solar collectors and energy storage system. Utilizing just a small portion of this energy, can cover the global energy need. Hence, the OTEC system is potentially an important source of clean, renewable energy, which could significantly reduce our reliance on fossil fuels and nuclear fission. Unlike other forms of renewable energy, such as those provided directly by the sun and wind, OTEC plants can generate power 24 hours per day, 365 days per year. Furthermore, the design of this technology avoids any significant release of carbon dioxide into the atmosphere. OTEC can offer other important benefits apart from power production. Aquaculture is one of them. Minerals can also be extracted from the pumped seawater economically. Freshwater for drinking and irrigation is another by-product. This is an advantage in regions where freshwater is limited. The fact that OTEC could produce energy that would allow us to reduce our use of fossil fuels and nuclear fission implies that the author thinks we rely too much on these non renewable kinds.</transcript>
+    </template>
+  </question>  -->  
+  <question>
+    <id>bca52db6ec464ec0afd6f5077a135391</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_SELECT_MISSING_WORD</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording on human evolution. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>2.1 GFR - SMW.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>hampered </o0>
+        <o1>achieved</o1>
+        <o2>conflicted</o2>
+        </options>
+      <answer>1</answer>
+	  <transcript>Happiness, after all, is an inner state of mind. It is little dependent on outside environment. Happiness has very little to do, for instance, with whether you are rich or not rich. Some of the most miserable persons I have come across in my life are the rich people. It is true that poverty makes one miserable in a very acute way. But my point is that it is not wealth but co- ordination of one’s thought and action which removes inner conflicts. It is in that way that integration of personality is ___________</transcript>
+    </template>
+  </question>
+  <question>
+    <id>2f2232c0e135477bab6f9d251175c561</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_SELECT_MISSING_WORD</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording on human evolution. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>2.2 BMS - SMW.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>scientists</o0>
+        <o1>sceptical investigators</o1>
+        <o2>naval officers</o2>
+        <o3>pilots</o3>
+      </options>
+      <answer>1</answer>
+	  <transcript>The Bermuda Triangle also known as Devil’s triangle is a triangular area in the Atlantic Ocean bounded by Miami, Bermuda, and Puerto Rico. It’s first appearance was in 1492. Many people believe that people, ships, and planes have mysteriously vanished in this area. Some trace the mystery back to the time of Columbus. Bermuda Triangle estimates more than 50 ships and 20 planes to go down in this year. Many people think Bermuda Triangle is made of Evil extraterrestrial, residue crystals from Atlantis, evil humans with anti-gravity devices or other weird technologies, and vile vortices. Weather, bad luck, pirates, explosive cargoes, incompetent navigators, and other natural and human causes are favourites among __________________.</transcript>
+    </template>
+  </question>
+  <question>
+    <id>9aa90d04c9034470ad913fe00fb3cc1f</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_AND_HIGHLIGHT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Nearly the whole of India south of the great plant is occupied by a  plateau. Generally, the western edge is higher than the southern, so that the general slope of the surface is from north to south. The western edge of the plateau, or tableland, stands up high  above sea level and is known as the Western Ghats. Thus the Western Ghats are very difficult from the ranges which make up the mountain: they are actually only the western aid of the plateau. In the same way the eastern edge of the plateau forms the Eastern Ghats. The Eastern Ghats are intervened by a number of deep river valleys where the rivers have cut their courses on their way to the sea.</description>
+      <title></title>
+      <media>2.1 BMS - HIW.tpm</media>
+      <delay>8</delay>
+      <answer>plant|southern|north|south|difficult|aid|intervened </answer>
+      <maxWordCount></maxWordCount>
+    </template>
+  </question>  
+  <question>
+    <id>4285d1e812ee491691861a1fd4228c1c</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_AND_HIGHLIGHT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Grand Canyon national park was created in 1919. The north and south rims are connected by cemented road and by a trans-canyon trail. Scenic drives and trails lead to all imperative features. Campgrounds and a wide range of accommodations are available on both the north 2500m and south rim 2134 m. There are more than 1,50,000 visitors monthly. The famous mule ride into the canyon has increasing competition from the advantageous scenic rides down the river in motorboats or inflatable rafts. Pueblo and cliff-dweller ruins, with accompanying article, are numerous, indicating prehistoric occupation, and living on reservations nearby are 5 Indian tribes.</description>
+      <title></title>
+      <media>2.2 UMS - HIW.tpm</media>
+      <delay>8</delay>
+      <answer>cemented|imperative|monthly|advantageous|article</answer>
+      <maxWordCount></maxWordCount>
+    </template>
+  </question>
+  <question>
+    <id>3d8405bd6b694826a9eebd20d3193e4f</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_AND_HIGHLIGHT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Inside the mountain wall and forming a great arc from the Arabian Sea to the Bay of Bengal is one of the main important plains in the world, the Indo-Gangetic Plain. It occupies north of the sub-continent, having a breadth of about 320 Kilometers and a width of 240 to 320 Kilometers. This great plain consists of three great rivers and their streams. In the west, is the river Indus with its four tributaries, joining together with the main stream. In the east is the river Ganga, which flows south-eastwards towards the Bay of Bengal, being joined by its strong tributaries and large streams. Before reaching the sea it is joined by another mighty river, the Brahmaputra.</description>
+      <title></title>
+      <media>2.3 UFS - HIW.tpm</media>
+      <delay>8</delay>
+      <answer>main|breadth|streams|towards</answer>
+      <maxWordCount></maxWordCount>
+    </template>
+  </question>   
+<question>
+    <id>1c13dd8ee8ad48bb9db1b986a5b8de11</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>2.1 CFR - WD.tpm</media>
+      <delay>7</delay>
+      <answer>If music be the food of love, play on.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>
+  <question>
+    <id>fea3b92d507b418b988da4fe1f9ac6f9</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>2.2 GFR - WD.tpm</media>
+      <delay>7</delay>
+      <answer>Let the rivers not burn.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>
+ <question>
+    <id>eab42d767547441fbd8e2a9443d09f97</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>2.3 EMR - WD.tpm</media>
+      <delay>7</delay>
+      <answer>Life is nothing more than survival for humans.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>
+ <question>
+    <id>0372501f1ef2455895826c4563e5e71a</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>2.4 BMS - WD.tpm</media>
+      <delay>7</delay>
+      <answer>His delight knows no bounds.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question> 
+<question>
+    <id>abd2c6ec423a40adbd57fb508d322479</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_AND_WRITE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>3.1 BMS - SST.tpm</media>
+      <delay>1</delay>
+      <answer></answer>
+      <maxWordCount>70</maxWordCount>
+	  <transcript>Inactivity is often described as “silent killer”. The study shows that sedentary behaviour such as sitting or lying down for long hours is bad for health. Not only one should try to raise his activity levels, but one should also reduce the amount of time spent sitting down.  Few examples of sedentary behaviour include watching TV, working on a computer, driving for long hours, reading books or listening to music. These activities tend to increase the risk of many chronic diseases such as heart disease, stroke, diabetes, weight gain and obesity. In earlier times, people were more active through work and manual labour, but today we have found ways of integrating activities into our daily lives. People of all ages need to reduce their sedentary behaviour by standing up and move frequently which means that we should think of increasing the types of activities that suit our lifestyle and can easily be included in our day routine. Even if  you hit your weekly activity target you may still  be at risk of ill health if you spend the rest of the time sitting or lying down. So, you need to plan your day-to-day activities wisely.</transcript>
+    </template>
+  </question>
+   <question>
+    <id>267b173b35cc4e7e8f35e21b6f0fcc12</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_AND_WRITE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>3.2 CFR - SST.tpm</media>
+      <delay>1</delay>
+      <answer></answer>
+      <maxWordCount>70</maxWordCount>
+	  <transcript>A lot of hoopla surrounded the book release upon the revelation that the writer drew inspiration from real life experiences and used the book as her personal way of getting back at people involved. However, after reading this amazing piece of work, my perception about both the author, Lauren Weisberger and her inspiration changed multifold. The story begins on a very usual note, a law graduate comes to the city of dreams, New York to make it big in the publishing industry and sends out letters everywhere, hoping to get an opportunity. She finds one in Elias Clarke's offer to be a junior assistant to the ultimate Diva of women's fashion, Miranda Priestly, the brutal, in-your-face editor-in-chief of Runway, fashion magazine. Andrea Sachs, the central character finds it increasingly difficult to meet the unreasonable expectations of her demanding boss and in the process, becomes a glam-doll from a Plane-Jane of Midwest. Not only does she ignore her room-mate Lily, but also her longtime boyfriend Alex, who has been downsized to just an acquaintance now. Soon, Andrea is forced to choose between what's beneficial and what's right and chooses the former in her first attempt to take up an assignment with Miranda on a trip to Paris. While on the trip, she realizes the true intentions of her boss and the cold, harsh reality of the glamour world, thereby stranding Miranda, right before an important press junket. As a result of her outburst, she acquires a celebrity status. Overall, the book is an honest revelation of the 'mantra to successful, stress-free life' and about how balancing your personal life with professional demands is imperative to sustain a long rewarding career.</transcript>
+    </template>
+  </question>    
+<!--    <question>
+    <id>1ab57020502a4292990bce7b28c0293d</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_AND_WRITE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media></media>
+      <delay>1</delay>
+      <answer></answer>
+      <maxWordCount>70</maxWordCount>
+	  <transcript>The Green Revolution has significantly increased the amount of crops produced per acre of land.  It also describes the changes in agricultural practices which started in Mexico in the 1940s. New varieties of wheat were developed that were disease-resistant and were produced in high quantities. Mexico was able to produce more wheat than was needed by its own citizens because of which it became an exporter of wheat by the 1960s. Prior to this, the country had imported almost half of its wheat supply. The technologies soon spread worldwide. India , which was close to a mass famine in the early 1960s, was able to become one of the world’s leading rice produces with help from Mexico, who developed a new variety of rice. There have been criticisms of the Green Revolution. Firstly, the increased amount of food production has led to overpopulation worldwide. Secondly, places like Africa have not significantly benefited from it. Despite these criticisms, the Green Revolution has forever changed the way agriculture is conducted worldwide, benefited people of many nations in need of increased food production.</transcript>
+    </template>
+  </question> -->
+ <question>
+    <id>92379dd95f704338b115bab999498891</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_MULTI_SELECT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>From the options given below, in what aspects a Tortoise and turtle differentiated?</title>
+      <media>3.1 IMR - MCMA.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>repltile</o0>
+        <o1>habitat</o1>
+        <o2>claws</o2>
+        <o3>shell</o3>
+        <o4>size</o4>
+		<o5>eating habits</o5>
+      </options>
+      <answer>1|3|5</answer>
+	  <transcript>Tortoises and turtles are both reptiles that belong to the order of Testudines. Turtles and tortoises are differentiated by their habitat. A tortoise dwells on land whereas a turtle dwells in water. Tortoises are generally found in Asia, Africa and some parts of America whereas Turtles are generally found in Africa and America. The shells of Tortoises are heavier as compared to the shells of turtle. The feet of tortoise are short and sturdy with bent legs whereas turtle have webbed feet with long claws. Tortoises are mostly herbivores whereas turtles are omnivores that eat fruits, veggies, leafy vegetation and meat. Tortoises live longer as compared to turtles. The longest living turtle is 86 years whereas 326 years for a tortoise.</transcript>
+    </template>
+  </question>  
+   <question>
+    <id>30db788b11bb47899a96d55346f3dc5a</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_MULTI_SELECT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>Which cities/towns are parts of northern region of Bali? </title>
+      <media>3.2 CFR - MCMA.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>Sanur and Kuta</o0>
+        <o1>Kintamani and Singaraja</o1>
+        <o2>Ubud</o2>
+        <o3>Legian and Seminyak</o3>
+      </options>
+      <answer>1|2</answer>
+	  <transcript>Shining like a true gem in the Indonesian archipelago is the mesmerizing island of Bali. To the local Balinese people, this beautiful island is the center of the spiritual universe. With over 84% of Hindu population, Bali is famous for its culture, medicine and beautiful beaches. However, the true visitor delights are its cuisine and multi-speciality spas. The traditional Balinese massage centers around the holistic treatment involving techniques like reflexology, acupressure and aromatherapy. In addition, one can enjoy the many skin and haircare services offered in almost all spas and resorts at very reasonable prices. Bali is more than just a beach destination. In the northern region of the island, quaint towns like Ubud and Singaraja offer a cool haven in the foothills. Further north is the beautiful Kintamani village which is a doorway to one of Bali's most popular destinations, Mount Batur. This active volcano is perfect for hikers who look forward to the mystic sunrise after an exhausting yet worthwhile all night trek. Bali has something or the other in store for everyone. There are many reasons why it is considered more than just a honeymoon destination. Whether you are a solo traveler or a part of a travel group, Bali has an array of attractions that draw millions of visitors every year to its long stretch of beaches, lush green mountains and beautiful rivers.</transcript>
+    </template>
+  </question>
+   <question>
+    <id>d1d604d0631c4e75898ae7a611b09cd8</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_MULTI_SELECT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>What does Michael do with Hannah’s savings from the life sentence?</title>
+      <media>3.3 UFS - MCMA.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>He keeps the savings for personal use  </o0>
+        <o1>He donates the money to charity</o1>
+        <o2>He donates the money for the betterment of Jewish educational facilities</o2>
+        <o3>He gives the money to refugee camps </o3>
+      </options>
+      <answer>1|2</answer>
+	  <transcript>Based on the real life events, The Reader is an Academy Award film by ace director Anthony Minghella. Featuring Minghella’s favourite Ralph Fiennes and renowned actress Kate Winslet, the movie is a real life story of a German woman who was responsible to shortlist the Jews at an concentration camp during WWII. The film revolves around its protagonists, Hannah Schmitz (Kate Winslet) and a much younger German boy Michael Berg (David Kross / Ralph Fiennes) who falls in love with her while still a teenager. The film takes an interesting twist when their summer romance is over and Schmitz is later convicted in a 1966 trial for letting over 300 women die in Church fire when she was posted as an SS guard.The film is a heartwarming tale of pure love between Hannah and Michael, who later begins sending Audio tapes of Hannah’s favourite books in prison in order for a then-illiterate Hannah to learn the language. At the day of Hannah’s release from the prison, she learns of all the atrocities she was indirectly responsible for through one of the books she happens to read and takes her own life in her prison cell. Upon learning the same, Michael (Ralph Fiennes) gives Hannah’s savings from the prison towards the betterment of the educational facilities of underprivileged Jewish people. Not only did Winslet win her first Academy Award for the portrayal of Hannah Schmitz after six nominations in acting categories between 1996 and 2007, she also fetched wins at the BAFTA awards, Golden Globe and Screen Actors Guild Awards for essaying the same role.</transcript>
+    </template>
+  </question>
+ <question>
+    <id>cd7e9ffea1ab4d2a9411b569678f86c2</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Happy is the man who acquires the habit of reading when he is young. He has {blank} a life-long source of pleasure, instruction and inspiration. So long as he has his {blank} books, he need never feel lonely. He always has a pleasant occupation of {blank} moments, so that he need never feel bored. He is the {blank} of wealth more precious than gold. Ruskin calls books, “Kings Treasures” – {blank} filled, not with gold and silver and precious stones but with riches much more valuable than these - knowledge, noble thoughts and high ideals. Poor indeed is the man who does not read, and empty is his life.</description>
+      <title></title>
+      <media>3.1 IMR - FB.tpm</media>
+      <delay>8</delay>
+      <answer>secured |beloved |||leisure |||possessor |||treasuries</answer>
+    </template>
+  </question>
+ <question>
+    <id>e3b84137518a4907929e4b2bd2e80579</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Patriotism, which means the love for the land of one’s birth, is indeed a noble {blank}. If a man’s heart does not “burn” in him when he returns from a {blank} land to his native country, he cannot be said to {blank} a patriotic soul. In modern times, the words have been so misused that it serves to conceal the most selfish aims and narrow {blank}. We must, therefore, distinguish between true and false patriotism.</description>
+      <title></title>
+      <media>3.2 UFR - FB - MOD.tpm</media>
+      <delay>8</delay>
+      <answer>virtue|foreign|||possess|||passions</answer>
+    </template>
+  </question>  
+ <question>
+    <id>1fd78626992c42259aecfda2f69466ec</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>A valley is a lower {blank} between hills or mountain that have been cut by rivers, but in cold areas, many have been {blank} or changed in other ways by the action of glaciers. They usually run {blank} to the hills on either side of them, but some cut through the hills. A valley is always changing its shape. Sometimes, it may deepen its bed and {blank} from its walls may be brought down by the action of rain, frost and winds. They can be young, {blank} or old. A young valley is narrow; a more mature one is deep but open; and an old one is very wide, with a wide river bed and very {blank} slopes.</description>
+      <title></title>
+      <media>3.3 EMR - FB.tpm</media>
+      <delay>8</delay>
+      <answer>area|deepened|||parallel|||material|||mature|||gentle</answer>
+    </template>
+  </question> 
+   <question>
+    <id>acfd71279c034d68b9681382aadc03c3</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>3.1 UFS - HCS.tpm</media>
+      <delay>7</delay>
+      <options>
+        <o0>Teaching, defined as the act of giving lessons on a subject to people in a class, can be easily interchanged with learning which can be described as a process or sense of acquiring knowledge through study.</o0>
+        <o1>Learning, defined as a process or sense of acquiring knowledge through study, is similar to teaching in the sense that both additionally provide knowledge on discipline and behavior, acquisition of information, skills and values.</o1>
+        <o2>One key difference between teaching and learning is that the former is a process that is delivered by someone to an individual or to a set of people. Whereas, the latter is a process that is initiated by an individual or a set of people for themselves.</o2>
+        <o3>Teaching, defined as the act of giving lessons on a subject to people in a class, is different from learning only in the sense that teaching can only be in a formal setting where a teacher teaches the students various things based on different subjects.</o3>
+      </options>
+      <answer>2</answer>
+	  <transcript>There is a difference between teaching and learning. These two terms cannot be interchanged. Teaching is defined as the act of giving lessons on a subject to people in a class. For example, a teacher teaches students in a class. Teaching can be either formal or informal. Formal education takes place in school where the teacher teaches the student various things based on subjects like mathematics, science, language, geography, arts, history etc. Apart from academic knowledge, teaching also provides knowledge on discipline and behavior. Learning is defined as a process or sense of acquiring knowledge through study. For example, a student who wishes to broaden his understanding of various concepts related to various fields learns from a teacher. Learning not only denotes the acquisition of information but also skills, behavior and values.</transcript>
+    </template>
+  </question>
+   <question>
+    <id>8e40b0521ad0461491f1a0e496bb9c9c</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>3.2 EFR - HCS.tpm</media>
+      <delay>7</delay>
+      <options>
+        <o0>A crown wore by a pharaoh symbolized power over a particular region. The white and red crowns were for occasions that concerned only upper and lower Egypt. Atef crown, a white crown decorated with Ostrich feathers and topped by a small sun disc, was worn for battles and some ceremonies. A blue crown was worn while performing religious rituals.</o0>
+        <o1>To show his/ her kingship, a Pharaoh used different symbols like a headdress, crown, cartouche, false beard, and bull’s tail. Although the symbols were worn during some rituals but any symbol was not specific to a ritual and can be worn for other rituals or occasions as well.</o1>
+        <o2>A pharaoh’s power and kingship was usually displayed by the symbols he wore during different occasions. The combination of a crown and false beard symbolized the control over a particular region or different occasions such as battles, while attending upper and lower Egypt, religious rituals etc.</o2>
+       <o3>A Pharaoh used different symbols to show his/ her kingship. A crown symbolized control over a particular region, a bull’s tail coming from a pharaoh’s belt showed personal power, and a false beard was a sign of divinity.</o3>
+	   </options>
+      <answer>3</answer>
+	  <transcript>There are some symbols used by the Pharaoh to show his/her kingship. A pharaoh wearing a crown or headdress with the uraeus(cobra) over the forehead, a bull’s tail coming from a pharaoh’s belt to show personal power and wearing a false beard which is a sign of divinity are also considered symbols of kingship. The crown symbolizes control over a particular region. The white and red crowns were usually worn by Pharaoh’s on occasions that concerned only Upper and Lower Egypt. Blue crown was generally worn by them in battle and during some ceremonies. Double crown was a combination of Red and White Crowns, with the white crown inside the Red crown. Cartouche is a loop of rope with a knot on one end that contained some of the pharaoh’s names in inscriptions. Atef crown was a white crown that was decorated with ostrich feathers and topped by a small sun disc which Pharaohs used to wear while performing religious rituals.</transcript>
+    </template>
+  </question>
+  <question>
+    <id>8bcc2eb4f8294cc9acb3c4c362a9ee07</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>The word "viable" in the lecture is closest in meaning to</title>
+      <media>3.1 EMR - MCSA.tpm</media>
+      <delay>5</delay>
+      <options>
+        <o0>clever</o0>
+        <o1>feasible</o1>
+        <o2>optimistic</o2>
+        <o3>convenient</o3>
+      </options>
+      <answer>1</answer>
+	  <transcript>Ocean Energy Systems: The oceans have in recent years been seen as a potential source of energy. These are huge reservoirs of renewable energy, which have yet to be properly harnessed. It has been estimated that during the second decade of this century, ocean energy sources will generate more than 1,000 megawatts of electricity, which will be enough to power a million homes in the industrialized world. Several technologies have been developed for exploiting these resources among which ocean thermal energy conversion (OTEC) is one of the most promising. Experimental OTEC plants have been built using different operating principles, although no large-scale commercially viable plant has been launched as yet.</transcript>
+    </template>
+  </question>
+  <question>
+    <id>70c976d3c1744b7a8283d61115cc3506</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>Where does the color of blood come from?</title>
+      <media>3.2 BFS - MCSA.tpm</media>
+      <delay>5</delay>
+      <options>
+        <o0>WBC</o0>
+        <o1>Platelets</o1>
+        <o2>RBC</o2>
+        <o3>Oxygen</o3>
+      </options>
+      <answer>2</answer>
+	  <transcript>Blood that flows through our body carries oxygen and nutrients to all parts of the body. It also carries carbon dioxide and waste matter from the cells. Blood is made of plasma, red blood corpuscles (RBC), white blood corpuscles (WBC) and platelets. The blood gets its color from the RBC’s, the main component of blood. There are almost 35 trillion RBC’s in the blood. An average adult has about 5 litres of blood in his body. The blood constitutes 7 percent of the total body weight.</transcript>
+    </template>
+  </question>
+   <question>
+    <id>cee00c9e591e45fd9a6620a86e853271</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>Which theory claims the Earth to be at the centre of solar system?</title>
+      <media>3.3 UMS - MCSA.tpm</media>
+      <delay>5</delay>
+      <options>
+        <o0>Heliocentric Theory</o0>
+        <o1>Geocentric Theory</o1>
+        <o2>Geoterrapinism Theory</o2>
+        <o3>Geologic Theory</o3>
+      </options>
+      <answer>1</answer>
+	  <transcript>Galileo Galilei was an Italian astronomer, mathematician, physicist and philosopher. Galileo was a strong supporter of the Heliocentric theory proposed by Copernicus which states that the Sun is at the centre of the solar system. The Catholic Church rejected this theory saying that there was no concrete proof and that it was against the Scriptures. The church supported the geocentric theory according to which the Earth is at the centre of the solar system. Galileo was condemned by the Church and put under house arrest.</transcript>
+    </template>
+  </question>
+  <question>
+    <id>8c23d12344574a76b90e47c13cfcac66</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_SELECT_MISSING_WORD</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording on exploitation of natural resources. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>3.1 GFR - SMW.tpm</media>
+      <delay>7</delay>
+      <options>
+        <o0>air</o0>
+        <o1>environment</o1>
+        <o2>water</o2>
+        <o3>pollution </o3>
+      </options>
+      <answer>1</answer>
+	  <transcript>During recent years, the exploitation of Nature has been so rapid as never before. Not just the exploitation of the natural resources, even production requires processing of raw materials in various products. In the initial stages of industrialization, waste products – whether of air, water or solid forms- were so little in quantity that the environment could easily absorb them. However, now industrialization is taking place at such a rapid pace and the population is increasing so fast, that the environment finds it difficult to cope with their wastes. These wastes is thrown into the environment in there pollution are capable of producing all kinds of ill effects. Therefore, it is necessary to treat these waste materials adequately before releasing them into the ________ </transcript>
+	  </template>
+  </question>
+<!--    <question>
+    <id>80ce10a9060f404d83c2036fdeda0abb</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_SELECT_MISSING_WORD</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording on music. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media></media>
+      <delay>7</delay>
+      <options>
+        <o0>dance</o0>
+        <o1>melody</o1>
+        <o2>healing effects</o2>
+        <o3>sounding effects</o3>
+      </options>
+      <answer>3</answer>
+	  <transcript>Music is an art form whose medium is sound. Generally, a song is considered as the smallest stand alone part of music, especially when involving singing in it. The common elements of music are pitch, range, rhythm, harmony and tempo. It may be extremely challenging to define music, but definitely to many, it is the soul of surviving. Technically speaking, it ranges from strictly organized compositions to improvisational ones. “Fusion music” if we talk about is considered  a piece of performing art where  two genres of music are beautifully blended and harmonized in ways that give different dimensions altogether. To many people, in many cultures, music is an important part of their of life. Nowadays, music therapy is gaining great momentum due to its soothing and ____________.</transcript>
+    </template>
+  </question>  -->  
+    <question>
+    <id>ca1e02384bd84b0c95f80858cc11c8d6</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_SELECT_MISSING_WORD</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording on constellations. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>3.3 UFS - SMW.tpm</media>
+      <delay>7</delay>
+      <options>
+        <o0>tradition</o0>
+        <o1>God</o1>
+        <o2>characters</o2>
+        <o3>mythology</o3>
+      </options>
+      <answer>3</answer>
+	  <transcript>Constellations are a group of stars that appear to form a pattern. Most constellations were named in Greeks and Romans. The constellations were named after animals and mythological characters that they appeared to resemble. For example, the constellation Leo was named after a lion, Pisces after two fishes. Constellations Andromeda, Cassiopeia, Orion and Perseus were named after heroines and heroes in Greek ____________.</transcript>
+    </template>
+  </question>
+   <question>
+    <id>1fdbbca14daf49f89a812ec6a8657d64</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_AND_HIGHLIGHT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The Nobel Prize: Since 1901, the Nobel Prize has been given worldwide yearly. This award is considered the most reputed and the highest form of international recognition of intellectual assessment in the field of physics, chemistry, medicine, literature and peace. The prize consists of a medal, a personal diploma bearing a citation, and a sum of money which depends on the income of the Nobel Foundation. Initially, more than three prize winners could share a Nobel Prize, although this was never practiced. However in 1968, the number of prize winners was limited to only three.</description>
+      <title></title>
+      <media>3.1 EMR - HIW.tpm</media>
+      <delay>8</delay>
+      <answer>yearly|reputed|assessment|limited</answer>
+      <maxWordCount></maxWordCount>
+	  <transcript></transcript>
+    </template>
+  </question>  
+  <question>
+    <id>c81b11c3c7224f74b21e802635d89d7e</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_AND_HIGHLIGHT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Turtles and tortoises are differentiated by their habits. Turtles live in water and tortoises live on land. Turtles have round shells and are black, brown or dark green in color. They do not have teeth but have a hard edged peak to cut the food. Tortoises have high doomed brown, black or yellow colored shells.</description>
+      <title></title>
+      <media>3.2 UFS - HIW.tpm</media>
+      <delay>8</delay>
+      <answer>habits|round|peak|doomed</answer>
+      <maxWordCount></maxWordCount>
+    </template>
+  </question>  
+   <question>
+    <id>a5276f01219c4bfca1a7cab75fcc5654</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_AND_HIGHLIGHT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Snakes are cold blooded amphibians that developed from lizards about 100 million years ago. There are about 2700 types of snakes. Their eyes are covered with clear, translucent eyelids that are joined together and help to keep their eyes open at all times. They have a pronged tongue with which they sense odours and send the message to a special organ in their mouth.</description>
+      <title></title>
+      <media>3.3 UMS - HIW.tpm</media>
+      <delay>8</delay>
+      <answer>amphibians|types|translucent|pronged</answer>
+      <maxWordCount></maxWordCount>
+    </template>
+  </question>
+<question>
+    <id>134d0a673b444b8c906055842e7903d8</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>3.1 UFR - WD - MOD.tpm</media>
+      <delay>7</delay>
+      <answer>Gossip is the art of putting two and two together to make five.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>  
+ <question>
+    <id>4201dd38664f45588896bd17e1a5315d</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>3.2 CFR - WD.tpm</media>
+      <delay>7</delay>
+      <answer>ATM’s have revolutionized banking and made life easier.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>
+ <question>
+    <id>19c2d5a1e721493d81608915d29731a5</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>3.3 EMR - RS.tpm</media>
+      <delay>7</delay>
+      <answer>After physiological needs are satisfied a man thinks about his safety.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>
+ <question>
+    <id>47473cc1a67941f4b5b3992ad7d4fc86</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>3.4 BMS - WD.tpm</media>
+      <delay>7</delay>
+      <answer>Complex technology has resulted in complex societal setup.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question> 
+ <question>
+    <id>13c6664f99094df9ba15292d4b83d9c5</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_AND_WRITE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>4.1 UMS - SST.tpm</media>
+      <delay>1</delay>
+      <answer></answer>
+      <maxWordCount>70</maxWordCount>
+	  <transcript>Communication is defined as the act or an instance of communicating; the imparting or exchange of information, ideas, or feelings. It involves the transfer of information from one person or group to others. It is an integral part of everyone’s life. Communication, like spices, comes in a variety of types. While having a variety is nice, it is important to know which one to use and at what time in order to maximize your success, much like preparing the meal. The four most common types of communication are interpersonal, non verbal, written and oral communication. One of the most important- if not the most important forms of communication a manager will engage in on a daily basis is interpersonal communication. It is defined as communication between  small groups or individuals, typically in a face-to-face setting where participants engage in a minimally restricted dialogue with each other. Non verbal communication is anything besides words, such as gestures, actions, facial expressions, body language and other aspects of your physical appearance. Oral communication describes any type of interaction that makes use of spoken words, and is an integral part of the business world. The types of oral communication commonly used within an organisation include staff meetings, personal discussions, presentations, telephone discourse and informal conversation. Written communication refers to messages that are transmitted to receivers in writing. Immediacy, economical feasibility, efficiency and accuracy are the various advantages of written communication.</transcript>
+    </template>
+  </question>
+   <question>
+    <id>1e5b8ff445664d08865328d241adf347</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_AND_WRITE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>4.2 CFR - SST.tpm</media>
+      <delay>1</delay>
+      <answer></answer>
+      <maxWordCount>70</maxWordCount>
+	  <transcript></transcript>
+    </template>
+  </question>    
+  <question>
+    <id>a7f418999ccf4690ac07e3a8fffa41bc</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_MULTI_SELECT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>What all aspects have been mentioned in the passage by the author?</title>
+      <media>4.1 BFS - MCMA.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>Reproduction</o0>
+        <o1>Overwintering</o1>
+        <o2>Behaviour</o2>
+        <o3>Diet and Population</o3>
+        <o4>Size</o4>
+		<o5>Lifespan</o5>
+      </options>
+      <answer>0|1|3|5</answer>
+	  <transcript>The term democracy originated from the Greek word dēmokratía “meaning “rule of the people”. It is composed of two words dêmos "people" and krátos "power" or "rule", True democracy means direct rule by the people. Democracy can be found in a modern town meeting in many small towns in Europe. All citizens aged twenty-one or over may vote. They not only vote for officials, but they also get together to vote on local laws. In the cities, voters cast ballots for officials who jointly make the laws. This system is known as representative or indirect democracy. There is no problem of distance to travel, but it is difficult to run a meeting with hundreds of thousands of citizens. Representation of voters in making law is a major problem in state or national governments. The number of citizens and the distances to travel make representative government the most practical way to make laws. Democracy consists of four key elements:  1)	a political system for choosing and replacing the government through free and fair elections. 2)	the active participation of the people ,as citizens, in politics 3)	protection of human rights of all citizens 4)	a rule of law which applies equally to all citizens</transcript>
+    </template>
+  </question>  
+   <question>
+    <id>57dc71e3b6264df8a3aa3849921b00ee</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_MULTI_SELECT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>What primary efforts have been taken to lessen the severity of tourism impact on Machu Picchu?</title>
+      <media>4.2 UFS - MCMA.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>More than 2000 visitors per day have been allowed in Machu Picchu.</o0>
+        <o1>Peruvian ministry had taken measures to include it as the world heritage site</o1>
+        <o2>Tougher entrance rules have been implemented</o2>
+        <o3>Inclusion in one of the seven wonders of the world has made it less prone to climactic severity</o3>
+      </options>
+      <answer>0|2</answer>
+	  <transcript>For centuries, the Incan citadel of Machu Picchu has been the center of curiosity around the world. Built in the 15th century in current day Peru, Machu Picchu is not only a UNESCO world heritage site but also one of the seven wonders of the modern world. Located at the height of 2430 meters above sea level, the ruins of Machu Picchu are one of the most visited tourist attractions in South America. It is believed that the city of Machu Picchu was abandoned by its residents after a smallpox outbreak and remained lost for over three centuries before Hiram Bingham rediscovered it in 1911. During the Millennium project that started in 2000 to choose the seven wonders of the modern world, the Peruvian ministry of tourism made tremendous efforts to encourage the media and citizens to vote for Machu Picchu which eventually resulted in its selection over architectural wonders like Eiffel Tower and Statue of Liberty. In a measure to lessen the severity of tourist impact on the citadel, the Peruvian government implemented tougher entrance rules from July 2011, allowing only 2500 visitors per day. Despite the restrictions, Machu Picchu continues to attract hordes of people every year and remains one of the most photographed sites in the world.</transcript>
+    </template>
+  </question>  
+ <question>
+    <id>15bf605116aa4efbbcba113f52daf0a9</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Now that the mammoth is {blank}, the elephant is the largest of all animals living and the strongest. It is the strange looking animal, with its thick legs, huge sides and back, large {blank} ears, small tail, little eyes, long white {blank}, and, above all comma its long nose, called the trunk. The trunk is the elephant’s {blank} feature, and it puts it various uses. It draws up water by its trunk, and can {blank} it all over its body like a shower bath; and with it, it picks leaves from the trees and put them into its mouth. In fact, its trunk serves the elephant as a long arm and hand. Elephants look very {blank} and heavy, and yet they can move very quickly when they like.</description>
+      <title></title>
+      <media>4.1 UMS - FB.tpm</media>
+      <delay>8</delay>
+      <answer>extinct |hanging  |||tusks |||peculiar  |||squirt |||clumsy </answer>
+    </template>
+  </question>
+ <question>
+    <id>c8fea2245f3b4d41ac45e2ce0be43f95</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Forest has an important place in the living {blank}. With the recent developments, man began changing the forest land as per its convenience and started {blank} use of resources. He exploited these forests for his own luxuries which causes imbalance in an {blank}. {newline} Deforestation means cutting or felling of trees by man for his own purposes which leads to the {blank} of forest area and degradation of quality of environment. According to United Nation Environment Programme, two ninety million hectares of land had been deforested after World War II. If this continues at the same rate, environment will be {blank} fully.</description>
+      <title></title>
+      <media>4.2 CFR - FB.tpm</media>
+      <delay>8</delay>
+      <answer>organisms|indiscriminate |||ecosystem|||reduction |||disturbed</answer>
+    </template>
+  </question>  
+ <question>
+    <id>95a5a1e303654255bf47301ec0422877</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>From the rock record of the canyon a large part of geologic history is {blank} more clearly than in any other place in the world. Two stories are very clearly presented: (1) the building of the earth’s crust featuring the kind, origin and age of exposed rocks, and (2) the cutting of the canyon, a story of {blank}. Furthermore, all the processes of earth building are exemplified:  sub mergence, {blank} uplift, folding and faulting and erosion.  Extending from the river into Bryce canyon in the north, there is exposed a 23,000ft. cross section of {blank} rocks from old to recent in normal sequence.</description>
+      <title></title>
+      <media>4.3 BFS - FB.tpm</media>
+      <delay>8</delay>
+      <answer>revealed |erosion|||deposition|||sedimentary </answer>
+    </template>
+  </question> 
+   <question>
+    <id>41876ccae9cf4bc0afc26666ce010521</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>4.1 BFS - HCS.tpm</media>
+      <delay>7</delay>
+      <options>
+        <o0>According to Kierkegaard, in order to avert despair one must have total faith in God, which requires intense personal commitment and dedication towards self-analysis. He also believes that one has an immortal self, or soul, that goes on forever even after ones death.</o0>
+        <o1>Kierkegaard believes that the only way to escape the three major human psychic problems – boredom, anxiety and despair – is by having a total faith in God. There are other ways of getting a relief from them but those will only be temporary in nature.</o1>
+        <o2>There are multiple ways of averting boredom such as pursuing a passion, watching a good play, or having a stimulating conversation. However, Kierkegaard believes that the relief from these actions is only momentarily and to achieve a permanent solution, one needs to have a complete faith in God.</o2>
+       </options>
+      <answer>0</answer>
+	  <transcript>Kierkegaard spends most of his time on writing about the three major problems of human psyche. These problems are boredom, anxiety and despair. If a person doesn’t get stimulated, he gets bored, either physically or mentally. Passion, a good play, or a stimulating conversation might provide relief from boredom, but this relief is momentary and hence, does not last long. A healthy human must find out ways to avert boredom. Anxiety is caused by conflicts between one’s ethical duty and one’s religious duty. Like boredom, anxiety must be escaped for a person to be happy. Finally, despair is a result of the tension between the finite and the infinite. Humans are not only frightened of dying, but also frightened of existing forever. Kierkegaard believed that one not only dies but also has an immortal self, or soul, that goes on forever. Boredom and anxiety can be lessened in various ways. But the only way to escape despair is to have total faith in God. Faith in God not only means attending church regularly or behaving obediently, it also requires intense personal commitment and dedication towards self analysis. Kierkegaard believed that having total faith in God is an extremely important and difficult way of escaping despair.</transcript>
+    </template>
+  </question>
+   <question>
+    <id>eb2837a331014422b8420254446ebb3c</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>4.2 UFS - HCS.tpm</media>
+      <delay>7</delay>
+      <options>
+        <o0>The two ways of maximizing enjoyment – repetition and recollection – are contrasting in nature. Almost always, repeating the same event is more enjoyable than recalling a pleasant occurrence.</o0>
+        <o1>Repeating an enjoyable experience seldom materializes in the actual event. However, it can be cultivated along with the imagination to enhance one’s day to day aesthetic pleasure.</o1>
+        <o2>People want to repeat original pleasure, but the original pleasure is often lost in the repeating. An unplanned repetition is truly an aesthetic pleasure, while a planned repetition is a comfortable one but not an exciting one because it is just a recollection of past event.</o2>
+	   </options>
+      <answer>2</answer>
+	  <transcript>The Pleasures of Repetition and Recollection: There are two contrasting ways of maximizing enjoyment: repetition and recollection. Repetition serves many purposes. First, people want to repeat enjoyable experiences, but the original pleasure is often lost in the repeating. This is because they expect that things will be same the second time as the first time. The pleasure of expectation clouds the fact that the original experience wasn’t undertaken with a specific idea of the joy it would cause. Repetition produces powerful feelings only when the experience occurs unplanned. In such case, the pleasure might even be overstated at the sudden reappearance of happy memories. In other words, it is known as recollection. When the pleasure is a planned repetition, it is a comfortable pleasure, but not an exciting one. When repetition offers the joy of anticipation, it seldom materializes in the actual event – recollection offers the joy of remembering a particularly happy event. Recollection can be cultivated along with the imagination to enhance one’s day to day aesthetic pleasure. Recalling a pleasant occurrence is often more enjoyable than repeating the same event. Just like remembering and recalling various Christmas of your childhood is often more pleasant than Christmas in adulthood. Unplanned repetition is truly an aesthetic pleasure, while planned repetition affords more ethical pleasures than aesthetic ones.</transcript>
+    </template>
+  </question>
+  <question>
+    <id>c77780a15e87406d9ca2b67a36f79e12</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>What condition allowed people to learn specialized skills?</title>
+      <media>4.1 IMR - MCSA.tpm</media>
+      <delay>5</delay>
+      <options>
+        <o0>The ability to migrate</o0>
+        <o1>The growth of population</o1>
+        <o2>The surplus of farm products</o2>
+        <o3>The spread of settlements</o3>
+      </options>
+      <answer>2</answer>
+	  <transcript>Neolithic Agriculture Development: The commencement of agriculture and the domestication of animals for human consumption are perhaps considered the most important economic revolution in human history that occurred in the Neolithic period starting around 10,000 years ago. People started relying on a more consistent and much increased food supply. As a result, larger population could be supported and people could settle in one place without the need to migrate in search of food supplies. The crops and animals surplus meant that not all the population needed to dedicate their time and energy to farming; some could now learn specialized skills such as crafts or trade. The building of permanent settlements where skills could be developed resulted in the growth of towns. But several thousand years elapsed between the beginnings of agriculture and the rise of what we call civilization.</transcript>
+    </template>
+  </question>
+  <question>
+    <id>dc9298ba8f41409ab8e941ac489ff0d8</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>Who did the Indo-Swiss pair of Sania Mirza and Martina Hingis beat at Wimbledon women’s final?</title>
+      <media>4.2 BMS - MCSA.tpm</media>
+      <delay>5</delay>
+      <options>
+        <o0>Stanislas Wawrinka and Ekaterina Makarova</o0>
+        <o1>Petra Kvitova and Elena Vesnina</o1>
+        <o2>Elena Vesnina and Ekaterina Makarova</o2>
+        <o3>Novak Djokovic and Stanislas Wawrinka</o3>
+      </options>
+      <answer>2</answer>
+	  <transcript>The 2015 edition of The Championships at Wimbledon witnessed the continued dominance of two of the sport’s biggest stars, Novak Djokovic and Serena Williams. Both Williams and Djokovic are ranked No.1 in the world and are enjoying one of the best seasons of their careers. For Serena in particular, the 2015 season turned out to be extremely fruitful with only one loss coming at the hands of defending Wimbledon champion Petra Kvitova. With a win at Wimbledon, Serena completed an elusive second Serena Slam, holding all four grand slam titles at the same time. For Novak Djokovic, it was a sweet return to the winner’s circle, having lost the French Open final to Swiss Stanislas Wawrinka a month ago. In women’s doubles, India’s Sania Mirza paired with former World No.1 Martina Hingis to win an epic final against the Russian pair of Ekaterina Makarova and Elena Vesnina. The mixed doubles final saw another Indian star Leander Paes re-establish his supremacy when he claimed the title with Martina Hingis, for whom the second title at the All England lawn tennis Club was a remarkable addition to an already successful fortnight.</transcript>
+    </template>
+  </question>
+   <question>
+    <id>bd4bd318aeaa4611918bd5666aa8ec95</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>When did Versace present his first ever menswear collection?</title>
+      <media>4.3 UFS - MCSA.tpm</media>
+      <delay>5</delay>
+      <options>
+        <o0>At the age of 26</o0>
+        <o1>In 1972</o1>
+        <o2>Soon after being discovered by Complice</o2>
+        <o3>In 1982</o3>
+      </options>
+      <answer>2</answer>
+	  <transcript>The sudden and tragic demise of Gianni Versace left the fashion fraternity shocked. On the unfortunate morning of 15th July 1997, while returning from his morning walk at his Miami residence, Versace was killed by Andrew Cunanan, a serial killer. Eight days after killing Versace, Cunanan shot himself to death. Friends to celebrities and royalty alike, Versace’s burial and service was attended by numerous such personalities including Late Princess Diana and Sir Elton John. Almost 50% of Gianni Versace’s wealth was inherited by his niece Allegra Versace, whereas Donatella Versace, Allegra’s mother became the head of design. Versace joined the fashion industry at the age of 26 in 1972 and soon after, was recognized for his work by big players like Complice, who signed a contract with Versace to design their lace and leather creations. Versace followed in his success well and had his first men’s fashion show presented after which he opened his first boutique in Milan. Versace is also known to have lent his work to some of Hollywood’s most successful ventures like Showgirls (1995), Hard to Kill (1990) and Once upon a crime (1992).</transcript>
+    </template>
+  </question>
+  <question>
+    <id>c188075674f244a3816207f994b2fccc</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_SELECT_MISSING_WORD</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording on exploitation of natural resources. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>4.1 BFS - SMW.tpm</media>
+      <delay>7</delay>
+      <options>
+        <o0>oxygen</o0>
+        <o1>nitrogen</o1>
+        <o2>bacteria</o2>
+      </options>
+      <answer>1</answer>
+	  <transcript>There are plants that survive by eating insects. These plants are called carnivorous plants. Venus fly trap, pitcher plant, butterwort, etc. are all carnivorous plants. They trap and capture insects and digest them to get nutrients. These plants are mostly found in wet and marshy soils that are low on _________________.</transcript>
+	  </template>
+  </question>
+   <question>
+    <id>e9c70190b5db4ef19a96765bcf6bdd8c</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_SELECT_MISSING_WORD</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording on exploitation of natural resources. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>4.2 BMS - SMW.tpm</media>
+      <delay>7</delay>
+      <options>
+        <o0>effective method</o0>
+        <o1>mindful effort</o1>
+        <o2>unconscious effort</o2>
+      </options>
+      <answer>2</answer>
+	  <transcript>Let’s talk about the difference between teaching and learning. Teaching is defined as the act of giving knowledge on various subjects to a class or pupils. Learning is defined as acquiring knowledge on subjects, skills, behaviour and values. Teaching is performed by a teacher whereas learning is performed by a student. Teaching does not take place throughout a person’s life whereas learning is a process that takes place throughout an individual’s lifespan. Teaching is a conscious effort whereas learning can be both  conscious and _______________.</transcript>
+    </template>
+  </question> 
+   <question>
+    <id>ba9c3ab969e24e08a03b1d12090e9f53</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_AND_HIGHLIGHT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>In 4000 B.C, constellations were a part of the historical record in Mesopotamian cluster. Four hundred years later Eudoxus of Cnidus wrote around 43 constellations which survive today. Though Eudoxus’s original work was lost, it was kept live by Aratus in a poem called Phaenomena. The study of celestial objects is an earliest one. Knowledge of the sun, moon and stars, and their associated mythology, was passes from one generation to other but only few conclusive records of prehistoric observations survive. </description>
+      <title></title>
+      <media>4.1 BMS - HIW.tpm</media>
+      <delay>8</delay>
+      <answer>cluster|live|earliest|other</answer>
+      <maxWordCount></maxWordCount>
+	  <transcript></transcript>
+    </template>
+  </question>  
+  <question>
+    <id>2ed9f74978fb4142aa61324d45cff12a</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_AND_HIGHLIGHT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The stars do not fall from the sky. In the golden days the meteoroids were called ‘falling stars’. Meteoroids are small pieces of metallic debris. Many of them are very small but large meteoroids have also been found.  Some of these meteoroids, which enter the Earth’s atmosphere, turn up. Meteoroids appear as bright sticks of light with a glowing tail and are known as ‘shooting stars’ or ‘falling stars’.</description>
+      <title></title>
+      <media>4.2 UFS - HIW.tpm</media>
+      <delay>8</delay>
+      <answer>golden|Many|turn|sticks</answer>
+      <maxWordCount></maxWordCount>
+    </template>
+  </question>   
+<question>
+    <id>069f3796ada440d482eca0a3f1620aab</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>4.1 UFS - WD.tpm</media>
+      <delay>7</delay>
+      <answer>They will always dance to your tune.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>  
+ <question>
+    <id>d2f97da254354f01b187a5699e6619ba</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>4.2 CFR - WD.tpm</media>
+      <delay>7</delay>
+      <answer>Let the trees not be our ghosts.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>
+ <question>
+    <id>db30e8650b9142ccbfc021fd94360d4e</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>4.3 EMR - WD.tpm</media>
+      <delay>7</delay>
+      <answer>Each employee is an important part of the organization.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>
+ <question>
+    <id>7c0b9f76a90d4cc4a42813d384402d7a</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>4.4 GFR - WD.tpm</media>
+      <delay>7</delay>
+      <answer>Cancer is one offshoot of smoking.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>
+</questions>

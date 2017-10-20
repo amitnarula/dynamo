@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<practiceSets>
+  <practiceSet>
+    <id>abf2b37f406f44d5bc56c90314c1fd7c</id>
+    <name>Practice Set 1</name>
+    <description>Practice Set 1</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:57:00</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>89e5ed3d303847b48535195f410d564a</id>
+    <name>Practice Set 2</name>
+    <description>Practice Set 2</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>a540452272644faab9254ea73290cb9d</id>
+    <name>Practice Set 3</name>
+    <description>Practice Set 3</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
+  </practiceSet>
+  <!--New tests 25022017-->
+  <!--<practiceSet>
+    <id>15E6DD788F1446648F80E2E457370E3B</id>
+    <name>Practice Set 1</name>
+    <description>Practice Set 1</description>
+    <practiceSetAttemptTime>READING-CUSTOM</practiceSetAttemptTime>
+    --><!--Format READING-hh:mm:ss,WRITING-hh:mm:ss,SPEAKING-hh:mm:ss,LISTENING-hh:mm:ss
+      Ommitting hh:mm:ss or (00:00:00) leads to no practice set overall timer at all
+      CUSTOM goes with formula  (Number of questions + 2 minutes)
+      Provides practice set overall attempt time to user, In such situation other local attempt time is ignored
+    --><!--
+  </practiceSet>
+  <practiceSet>
+    <id>F3D5DAD425FD4774BD729815AB59A0DA</id>
+    <name>Practice Set 2</name>
+    <description>Practice Set 2</description>
+    <practiceSetAttemptTime>READING</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>37417A975C1941F192140E2C3B1CD3AF</id>
+    <name>Practice Set 3</name>
+    <description>Practice Set 3</description>
+    <practiceSetAttemptTime>READING</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>F11031E655954434A167527918F9FCB3</id>
+    <name>Practice Set 4</name>
+    <description>Practice Set 4</description>
+    <practiceSetAttemptTime>READING</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>F11031E655954434A167527918F9FCB4</id>
+    <name>Practice Set 5</name>
+    <description>Practice Set 5</description>
+    <practiceSetAttemptTime>READING</practiceSetAttemptTime>
+  </practiceSet>-->
+
+  <practiceSet>
+    <id>39d265f15f41481891312961d73f01bf</id>
+    <name>Practice Set 4</name>
+    <description>Practice Set 4</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:57:00</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>dffc4ce9224b4f05b2d81e9a523be1d7</id>
+    <name>Practice Set 5</name>
+    <description>Practice Set 5</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:57:00</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>e8c3b7b66171443e874f972f432c4103</id>
+    <name>Practice Set 6</name>
+    <description>Practice Set 6</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>a2dc026da5a84119be23ddaab151b4fc</id>
+    <name>Practice Set 7</name>
+    <description>Practice Set 7</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>76866578defd49e5be08b21dd869e474</id>
+    <name>Practice Set 8</name>
+    <description>Practice Set 8</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>abf2b37f406f44d5bc56c90314c1f77c</id>
+    <name>Practice Set 9</name>
+    <description>Practice Set 9</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>fc23cb5566904f8a98ee2bbf17a08f47</id>
+    <name>Practice Set 10</name>
+    <description>Practice Set 10</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
+  </practiceSet>
+  
+
+</practiceSets>

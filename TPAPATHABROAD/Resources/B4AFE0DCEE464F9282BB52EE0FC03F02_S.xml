@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<practiceSets>
+  <practiceSet>
+    <id>e46cd0282a75410a87f70800fb101ffd</id>
+    <name>Mock Test 1</name>
+    <description>Mock Test 1</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:57:00</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>3db6c7215baa422783ab459e3d30f17c</id>
+    <name>Mock Test 2</name>
+    <description>Mock Test 2</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>5f0ddb8a83f04b5f9684f293f1be47aa</id>
+    <name>Mock Test 3</name>
+    <description>Mock Test 3</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>a7fec3f9448d4e6cb8a59784bbb2a1df</id>
+    <name>Mock Test 4</name>
+    <description>Mock Test 4</description>
+    <practiceSetAttemptTime>READING</practiceSetAttemptTime>
+  </practiceSet>
+
+  <!--<practiceSet>
+    <id>abf2b37f406f44d5bc56c90314c1fd7c</id>
+    <name>Mock Test 1</name>
+    <description>Mock Test 1</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:57:00</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>89e5ed3d303847b48535195f410d564a</id>
+    <name>Mock Test 2</name>
+    <description>Mock Test 2</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>a540452272644faab9254ea73290cb9d</id>
+    <name>Mock Test 3</name>
+    <description>Mock Test 3</description>
+    <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
+  </practiceSet>-->
+  
+  <!--<practiceSet>
+    <id>15E6DD788F1446648F80E2E457370E3B</id>
+    <name>Practice Set 1</name>
+    <description>Practice Set 1</description>
+    <practiceSetAttemptTime>READING-CUSTOM</practiceSetAttemptTime>
+    --><!--Format READING-hh:mm:ss,WRITING-hh:mm:ss,SPEAKING-hh:mm:ss,LISTENING-hh:mm:ss
+      Ommitting hh:mm:ss or (00:00:00) leads to no practice set overall timer at all
+      CUSTOM goes with formula  (Number of questions + 2 minutes)
+      Provides practice set overall attempt time to user, In such situation other local attempt time is ignored
+    --><!--
+  </practiceSet>
+  <practiceSet>
+    <id>F3D5DAD425FD4774BD729815AB59A0DA</id>
+    <name>Practice Set 2</name>
+    <description>Practice Set 2</description>
+    <practiceSetAttemptTime>READING</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>37417A975C1941F192140E2C3B1CD3AF</id>
+    <name>Practice Set 3</name>
+    <description>Practice Set 3</description>
+    <practiceSetAttemptTime>READING</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>F11031E655954434A167527918F9FCB3</id>
+    <name>Practice Set 4</name>
+    <description>Practice Set 4</description>
+    <practiceSetAttemptTime>READING</practiceSetAttemptTime>
+  </practiceSet>
+  <practiceSet>
+    <id>F11031E655954434A167527918F9FCB4</id>
+    <name>Practice Set 5</name>
+    <description>Practice Set 5</description>
+    <practiceSetAttemptTime>READING</practiceSetAttemptTime>
+  </practiceSet>-->
+ 
+</practiceSets>

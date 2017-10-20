@@ -1,0 +1,2938 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<questions>
+  <question>
+    <id>d8840a7e47794d1c84c06b18a3060ee0</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Attachment Parenting can sometimes result in excellent personality development of an individual. It has been observed in many cases that such children show traits of compassion, concern and humility in most social settings. However, this form of parenting demands high level of patience and dedication in the absence of involvement from support network.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>d8840a7e47794d1c84c06b18a3060ee0</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>58df924e2382407daff943e4f97c7eb6</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible. You have 35 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>In the ever changing world of instant gratification, the value of emotional intelligence is on an all time decrease. The emphasis given to materialistic pleasures has shown the exit door to people placing value on a phlegmatic approach.</description>
+      <title></title>
+      <delay>35</delay>
+      <recordingTime>35</recordingTime>
+      <beep>true</beep>
+      <output>58df924e2382407daff943e4f97c7eb6</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>709d75f941b54c10a01d6b4bbd89cd58</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Cutting through a high plateau of northern Arizona, in the United States, the Colorado River has formed a very deep chasm about 200 miles long and from four to eighteen miles wide. The dangerous current of this river and the astonishing shapes into which it has cut the rocks have made the Grand Canyon an object of awe and wonder.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>709d75f941b54c10a01d6b4bbd89cd58</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>1e93cdcad8fe45d7800d5252c46b49c1</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible. You have 35 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Such is the impact of white rhinoceros conservation that the remaining four rhinos left on the face of earth are guarded by gunmen day and night. The recent death of a female rhinoceros at a zoo in Czech Republic was even more precarious.</description>
+      <title></title>
+      <delay>35</delay>
+      <recordingTime>35</recordingTime>
+      <beep>true</beep>
+      <output>1e93cdcad8fe45d7800d5252c46b49c1</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>670b097b4b9b42329c0560155c8aebef</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>In an attempt to yank people out of their houses in order to socialize, the latest Manhattan project has created an activity calendar. The first phase involves the patrons in activities like midnight hiking, early morning picnics at Central Park and mass play dates for young parents to allow them to include their children in the same exercise.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>670b097b4b9b42329c0560155c8aebef</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>866f1d9ac105496f8b0509bc0fb8bed4</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>In 2013, Angelina Jolie became one of the first known celebrities to bring to notice the role of voluntary mastectomy in reducing the chances of breast cancer in women. In an interview, Jolie impressed in her honest revelation of the preventive surgery, to spread awareness about the BRCA gene mutation and its effects.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>866f1d9ac105496f8b0509bc0fb8bed4</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question> 
+    <question>
+    <id>3621231955af4a7d8354c948b1d06108</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>2</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>3621231955af4a7d8354c948b1d06108</output>
+      <audio>1.1 AFR - RS.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Print Media is the best option for advertisement.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>dd43defb80bc426a8fef0ebf8859c666</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>2</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>dd43defb80bc426a8fef0ebf8859c666</output>
+      <audio>1.2 UFR - RS - MOD.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Mr. Smith attended a seminar in Australia on global warming last month.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>99c7c5f39b02468bafdd40153512ed94</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>2</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>99c7c5f39b02468bafdd40153512ed94</output>
+      <audio>1.3 CFR - RS.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Finance students will take their test on Monday.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>72d85438f8a0435894c6fe94425e7312</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>72d85438f8a0435894c6fe94425e7312</output>
+      <audio>1.4 EMR - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The teacher was very happy to see his students arriving early for the class.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>da5ebbe6faff4f37b62684141ca78396</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>da5ebbe6faff4f37b62684141ca78396</output>
+      <audio>1.5 UFR - RS - MOD.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Natural gas is an end product of soil recovery.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>9b7e40c32f4b4b05b412533af8a566be</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>9b7e40c32f4b4b05b412533af8a566be</output>
+      <audio>1.6 BMS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Delegation of authority is an important instrument for effective management.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>87f870037b234413b06b10b6d06ee6b7</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>87f870037b234413b06b10b6d06ee6b7</output>
+      <audio>1.7 UFS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Humans are consuming more natural resources than the earth can produce.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>a3d924515b4b455fb0522304b7535907</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>a3d924515b4b455fb0522304b7535907</output>
+      <audio>1.8 EMR - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Education is an important part of one’s life. Easy (Male - European)</transcript>
+    </template>
+  </question>
+      <question>
+    <id>fb482558a0524d6c83a06a9a078cd3a2</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>fb482558a0524d6c83a06a9a078cd3a2</output>
+      <audio>1.9 BMS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The two students talked in undertones.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>7da8f139adcb4a87b391f43a3816e46e</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>7da8f139adcb4a87b391f43a3816e46e</output>
+      <audio>1.10 CFR - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The fire in the forest was devastating.</transcript>
+    </template>
+  </question>
+ <question>
+    <id>3ba210f104bb4e6490fcd6b939c678fc</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>3ba210f104bb4e6490fcd6b939c678fc</output>
+      <audio>1.11 UFS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The Queen Elizabeth sailed from Southampton to New York late night making her maiden voyage.</transcript>
+    </template>
+  </question> 
+  <question>
+    <id>483520d1945248d3b03e891fbfadfcb3</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>483520d1945248d3b03e891fbfadfcb3</output>
+      <picture>first1.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+    <question>
+    <id>a19b0e932354450987f53dd2c1b377bf</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>a19b0e932354450987f53dd2c1b377bf</output>
+      <picture>second2.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>5bc031e9f5d849ea99644d2cd3bddea4</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>5bc031e9f5d849ea99644d2cd3bddea4</output>
+      <picture>third2.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>b80d851c503949e69c166c4cd96bd4e5</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>b80d851c503949e69c166c4cd96bd4e5</output>
+      <picture>fourth2.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>e3ff2c7c713a4c87a43e309d7f562831</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>e3ff2c7c713a4c87a43e309d7f562831</output>
+      <picture>fifth2.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>11891b702d99487fbf59b3d0568f2c5a</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>11891b702d99487fbf59b3d0568f2c5a</output>
+      <picture>sixth2.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>46fa3664f5674d078510767bb7411111</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>46fa3664f5674d078510767bb7411111</output>
+      <picture></picture>
+      <audio>1.1 GFR - RL.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The state of Rajasthan is in the north-west of India, and running through it from north- east to south- west is a ridge of very old rocks, which form the Aravalli Range. To the north-west of this Range the area is very dry, and it falls gradually towards the Indus Valley. This very large area between the Aravalli Range and the plain forms the Thar Desert. Its annual rainfall is very low, usually less than 250 mm. Moreover, it is very irregular, and falls mainly during sudden storms. Although this figure is higher than in the Indus Valley, there are no large rivers which can be used for irrigation. Because of this, it remains a sandy wasteland, with bare hills and waterless valleys. The ground is often completely bare of vegetation, though in some places a few bushes or plants can be seen. The desert has only a very few inhabitants. Sometimes a village is started where, for a time, there is a little water and some millet can be grown. But when the water runs out, the villagers have to leave and move somewhere else. Some people own camels, which they use to carry on trading in the region, but travelling across the desert has always been made difficult by the lack of water. In spite of this, there are some towns: Jaisalmer is an important centre for such trading routes, and Bikaner is famous for the goods which it makes from the camel hair and cotton.</transcript>
+    </template>
+  </question>
+    <question>
+    <id>f2206b360a464d8ca40763dca4ab1754</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>f2206b360a464d8ca40763dca4ab1754</output>
+      <picture></picture>
+      <audio>1.2 UFR - RL - MOD.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Water Pollution: Over two third of Earth's surface is covered by water ; less than a third is taken up by land. As Earth's population continues to grow, people are putting ever-increasing pressure on the planet's water resources. Our oceans, rivers, and other water bodies are being "squeezed" by human activities—not so they take up less room, but so their quality is reduced. Poorer water quality means water pollution. With billions of people on the planet, disposing of sewage waste is a major problem. The population of Britain produces around 300 million gallons of sewage every day. Some of it still pumped untreated into the sea through long pipes. Sewage contains all kinds of other chemicals. When people are sick with viruses, the sewage they produce carries viruses into the environment. It is possible to catch illnesses such as hepatitis, typhoid, and cholera from river and sea water. Farms often use large amounts of herbicides and pesticides, both of which are toxic pollutants. These substances are particularly dangerous to life in rivers, streams and lakes, where toxic substances can be built up over a period of time. Farms also frequently use large amount of chemical fertilizers that are washed into the waterways and damage the water supply and the life within it. Fertilizers can increase the amount of nitrates and phosphates in the water.</transcript>
+    </template>
+  </question>
+    <question>
+    <id>b798f1d8f12043a492028efe3bb2ca51</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>b798f1d8f12043a492028efe3bb2ca51</output>
+      <picture></picture>
+      <audio>1.3 CFR - RL.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>THE MEASUREMENT OF ASTRONOMICAL DISTANCES: The measurement of astronomical distances seems like a conjuring trick: they are so enormous that they fill us with astonishment. How can men know how far away the stars are? Yet like a conjuring trick it all seems very obvious when we know how it is done. The methods of measurement are indeed very ordinary. Perhaps the most important is essentially the method that the driver of a car uses at night to judge the distance of an approaching car. If the other car’s headlights are very bright, he judges that it is; close; if they are rather dim, he decides that is far away. But if the other cars headlights are especially bright or especially dim, the estimated distance will be wrong. A correct judgement therefore depends on knowing how bright normal headlights would be at some standard distance-say, 100 meters. Now if we tried to use just any stars as ‘headlights’ for determining astronomical distances, we should immediately run into serious trouble , because the true brightness’s of the stars vary very much more than those of the headlights of cars. Hence, if the headlight’ method is employed , only those stars must be used whose true brightness’s are accurately known. Stars like the sun could be used but these would have two big disadvantages. First, the Sun is not very bright, so it is not easy to see other stars of the same kind when they are far away. And second , a great deal of searching would have to be done to pick out these particular stars. Both these disadvantages are overcome, however, by using stars known as RR Lyrae* as ‘headlights’. Their true brightness’s are all about 100 times greater than the Sun, and they also have a characteristic type of oscillation which allows them to be detected easily. Thus to measure the distance of  an RR Lyrae star, it is first photographed  for a fixed period of time. Its apparent brightness can then be estimated from the degree to which it affects the photographic plate. From this figure and its known true brightness, the distance of the star can then be calculated. The calculation requires the use of the optic law which states that the apparent intensity of any source of light decreases as the inverse square of its distance.</transcript>
+    </template>
+  </question>  
+    <question>
+    <id>0a82dc4e35ed49eaa07bed0e22fd5b56</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>0a82dc4e35ed49eaa07bed0e22fd5b56</output>
+      <picture></picture>
+      <audio>1.1 GFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Which punctuation do you use in the end of a sentence? Answer: Full stop </transcript>
+    </template>
+  </question>
+      <question>
+    <id>2897fc7f7aae4e5fb4c633af354fa947</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>2897fc7f7aae4e5fb4c633af354fa947</output>
+      <picture></picture>
+      <audio>1.2 UFS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>A study of ancient things is called __________ Answer: Archaeology</transcript>
+    </template>
+  </question>
+      <question>
+    <id>490d24378da84fcdb3eca04b0476abf0</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>490d24378da84fcdb3eca04b0476abf0</output>
+      <picture>asq1.tpi</picture>
+      <audio>1.3 UMS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Who is the immediate boss of Software Manager? Answer: Director Manufacturing </transcript>
+    </template>
+  </question>
+      <question>
+    <id>c8d857779e1341169d60ed35058756b6</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>c8d857779e1341169d60ed35058756b6</output>
+      <picture></picture>
+      <audio>1.4 CFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Practice of having one wife or husbands is called __________. Answer: Monogamy</transcript>
+    </template>
+  </question>
+      <question>
+    <id>9e7dc8676a4a4c2fb721f56d06ac9fe7</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>9e7dc8676a4a4c2fb721f56d06ac9fe7</output>
+      <picture></picture>
+      <audio>1.5 GFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What are animals who can live in both land and water called? Answer: Amphibian</transcript>
+    </template>
+  </question>
+      <question>
+    <id>aac6e9a0ce5c47f4bc4eed83c3ae1bcf</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>aac6e9a0ce5c47f4bc4eed83c3ae1bcf</output>
+      <picture></picture>
+      <audio>1.6 UFR - ASQ - MOD.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What is the native language of one’s country called? Answer: Mother tongue</transcript>
+    </template>
+  </question>  
+    <question>
+    <id>5fb6da071c164541b45ad7c55806bd8d</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>5fb6da071c164541b45ad7c55806bd8d</output>
+      <picture></picture>
+      <audio>1.7 EMR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What is a paper written by hand called? Answer: Manuscript</transcript>
+    </template>
+  </question> 
+        <question>
+    <id>33fb8d51ce4a414c908d45cd7788e1be</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>33fb8d51ce4a414c908d45cd7788e1be</output>
+      <picture></picture>
+      <audio>1.8 UFR - ASQ - MOD.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What is the white color robe worn by medical students called?  Answer: Lab Coat</transcript>
+    </template>
+  </question> 
+        <question>
+    <id>e46c09c4560b4e28a9891383173b513c</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>e46c09c4560b4e28a9891383173b513c</output>
+      <picture></picture>
+      <audio>1.9 BMS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What instrument is used for controlling electricity? Answer: Stablizer</transcript>
+    </template>
+  </question>   
+         <question>
+    <id>28bc467f8ebe41f58a5951054a0892c0</id>
+    <practiceSet>e46cd0282a75410a87f70800fb101ffd</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>28bc467f8ebe41f58a5951054a0892c0</output>
+      <picture></picture>
+      <audio>1.10 GFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Which planet is famous as Red planet? Answer: Mars</transcript>
+    </template>
+  </question> 
+  <question>
+    <id>a8773a9061ee497caedecea265590d04</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Exhibitions and fairs are generally organized by trade association &amp; serve to enhance the industry’s prestige and goodwill and to improve contacts with potential customers. They are more specialized in their appeal and organized with the intention of doing business rather than merely improving public relations especially if the fair is an international one.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>a8773a9061ee497caedecea265590d04</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>7d3707c0d36f45afb895a217060107c6</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Web conferencing offers the opportunity for modernizing the affairs of the video cum computer conferencing. In this conferencing, the participants can listen by phone &amp; simultaneously see visuals through their web-browser. As an organizer, one can control what the participants see, keeping everyone on the same page and can use drawing tools of emphasis points.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>7d3707c0d36f45afb895a217060107c6</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>e56342f03adb46f3a5081c2b7d896deb</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Plant and animal life on one rim differs somewhat from that on the other as is shown by a comparison of the Kaibab white- tailed squirrel of the north rim with the Albert gray –tailed squirrel of the south rim. These are regarded as different varieties developing in a mutual isolation.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>e56342f03adb46f3a5081c2b7d896deb</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>67dc7f5b690743f792e90323d22adb2a</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Advertising creates a steady demand for the products of a manufacturer. It arouses interest and desire to purchase. A manufacturer can build up loyalty for his brand through repeated advertisements. Brand loyalty ensures repeat sales and enables the firm to face competition. Advertising also creates new customer &amp; widens the market for a product.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>67dc7f5b690743f792e90323d22adb2a</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>9ad246d314864534aaf17fdfb06c0534</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Every country wants to be a super power of the world. It is possible only through economic development of the nation. For this purpose a lot of funds are required through different sources. Income tax is a very important direct tax and significant source of revenue of the government.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>9ad246d314864534aaf17fdfb06c0534</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>d7357d32f9b94b03bbe8d14fa8f07b22</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible. You have 35 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Personal attributes that enable someone to interact effectively and harmoniously with other people are called Soft Skills. It does not have a formal evaluation system and can only be reflected in an employee’s attitude, productivity, inter-personal relationship &amp; loyalty towards the organization.</description>
+      <title></title>
+      <delay>35</delay>
+      <recordingTime>35</recordingTime>
+      <beep>true</beep>
+      <output>d7357d32f9b94b03bbe8d14fa8f07b22</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question> 
+    <question>
+    <id>b5aea6859c484095be47f5518d4b3bb2</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The Professor entered the class room with great happiness as he was asked to deliver a lecture on teenagers. He said, he firmly believed unless children were trained properly from a very early age, they would develop faults of character that would later become fixable so firmly that they could not be rooted out.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>b5aea6859c484095be47f5518d4b3bb2</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question> 
+    <question>
+    <id>b07e051cb9074d04b1db08bbc64b5ed6</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>2</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>b07e051cb9074d04b1db08bbc64b5ed6</output>
+      <audio>2.1 UFR - RS - Mod.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Paul is working as a technical engineer in an MNC.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>bd1441c7a626491490bae362785e77b3</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>2</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>bd1441c7a626491490bae362785e77b3</output>
+      <audio>2.2 UMS - RS.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Tsunami caused major damage in many areas of Japan. </transcript>
+    </template>
+  </question>
+      <question>
+    <id>78e714863a90427fb08745acdaf535a1</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>2</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>78e714863a90427fb08745acdaf535a1</output>
+      <audio>2.3 GFR - RS.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Natural habitat destruction is the gravest threat to the wild life.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>aac409b3014443a8b81de0a291404dc4</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>aac409b3014443a8b81de0a291404dc4</output>
+      <audio>2.4 CFR - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Children under the age of fourteen are not allowed into the cinema unless they are accompanied by an adult.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>b6e4e0cd77ab456da93a40b13626d16f</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>b6e4e0cd77ab456da93a40b13626d16f</output>
+      <audio>2.5 BMS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Origin of universe is explained by the Big Bang Theory.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>1651a8dc968a400d992b6e831ec435e0</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>1651a8dc968a400d992b6e831ec435e0</output>
+      <audio>2.6 GFR - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The government has been making efforts to eradicate unemployment.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>f2efa5e0718d4b02809646c4fb989693</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>f2efa5e0718d4b02809646c4fb989693</output>
+      <audio>2.7 EMR - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Print Media is the best option for advertisement.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>257bab2164874a8694526cc72600705c</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>257bab2164874a8694526cc72600705c</output>
+      <audio>2.8 CFR - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The laughter that came in abundance yesterday will make an appearance every day.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>286b50c8971649c4a7bb13929e2bce5a</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>286b50c8971649c4a7bb13929e2bce5a</output>
+      <audio>2.9 BFS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The university students go for swimming once a week. </transcript>
+    </template>
+  </question>
+      <question>
+    <id>c5d546f740ea468cba867137f7809129</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>c5d546f740ea468cba867137f7809129</output>
+      <audio>2.10 UFR - RS - Mod.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The cacophony of the gala was overwhelming for most people.</transcript>
+    </template>
+  </question>
+  <question>
+    <id>4081b14c2a4e4152a9ac3c8226ca34d8</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>4081b14c2a4e4152a9ac3c8226ca34d8</output>
+      <picture>first2.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+    <question>
+    <id>6604141511c149b587d0fc1ea5e250fc</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>6604141511c149b587d0fc1ea5e250fc</output>
+      <picture>second3.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>6932b9e7ba6447bd85d80dbbe6ed05a7</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>6932b9e7ba6447bd85d80dbbe6ed05a7</output>
+      <picture>third3.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>8b16650c5ee04db692824dee360cb6b5</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>8b16650c5ee04db692824dee360cb6b5</output>
+      <picture>nwfourth31.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>5f8c690205eb48aa937f71e3c634c190</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>5f8c690205eb48aa937f71e3c634c190</output>
+      <picture>fifth3nw.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>5dfbb2d638d54a87b41eb9400058e0ae</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>5dfbb2d638d54a87b41eb9400058e0ae</output>
+      <picture>sixth3nw.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>767ae965730644a3ac231fd21fc21c75</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>767ae965730644a3ac231fd21fc21c75</output>
+      <picture></picture>
+      <audio>2.1 CFR - RL.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The trees are great donors, they keep giving their services whether in the form of fruits, flowers, medicines, herbs or shelter selflessly and we the gainers gain non ending things from them thanklessly and cut them for our greed of one or the other things. Trees are priceless… They never demand anything from us in return of their services, even then we don’t care. Trees work endlessly without a second’s break. They absorb the most harmful carbon dioxide gas and in return provide us the pure oxygen which is our life which indirectly helps in slowing down the global warming effect. Trees cool hot days and keep warm at nights. Deforestation is normal these days, thus creating many environmental problems such as it can lead to environmental imbalance, pollution, global warming, soil erosion etc. The forest cover of the whole world has drastically depleted over a period of time owing to the human needs and activities. It is the time to save them for our own future otherwise one day will come when it will become very difficult in the treeless polluted disease causing country. One acre of forest absorbs six tons of carbon dioxide and puts out four tons of oxygen. This is enough to meet the annual needs of 18 people. -U.S. Department of Agriculture.</transcript>
+    </template>
+  </question>
+    <question>
+    <id>a26d387f2ee74342b5530c51da74b809</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>a26d387f2ee74342b5530c51da74b809</output>
+      <picture></picture>
+      <audio>2.2 IMR - RL.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Barter system: Before there was money, there was barter. In barter, people exchange goods and services directly in exchange of goods and services offered by others. An individual possessing a material object of value, such as an animal, a measure of grain or farmed produce, could exchange that object for another object perceived to have equivalent value. In ancient history, all forms of goods were used in barter. Items include amber, beads, eggs, chicken, corn, rice, hoes, ivory, leather, pigs and even oxen. The list goes on. However, barter was a rather cumbersome form of trade and an ineffective way to exchange goods and services. The capacity to carry out ideal transactions is severely hampered and restricted since it is dependent on a coincidence of “wants” from both parties. The person who has a chicken to barter for some beads may not find a person with the beads who is looking for a chicken. There is no common medium of exchange in which tradable commodities can be converted into or a standardized system of value applied to those commodities. Imagine getting paid in chickens, pigs or oxen today. Try exchanging the pigs or the ox for a train ticket home or food at the supermarket. It would be utter chaos. As civilization grows, the barter system became too clumsy and was discarded in favor of other forms of currency.</transcript>
+    </template>
+  </question>
+    <question>
+    <id>8c283c990d7b4ab79700f4146fed7a86</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>8c283c990d7b4ab79700f4146fed7a86</output>
+      <picture></picture>
+      <audio>2.3 UFR - RL.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>BOOMERANGS: Probably the most interesting of the various weapons of  savages is the boomerang of the native Australians. The reason is its apparently paradoxical behaviour. Simple as it looks, it is credited with mysterious , and indeed almost miraculous , properties. Why? Because it is said to be able to describe wonderful curves in the air; to hit an object aimed at (a bird, say) and return to the thrower; to fly round a tree and return on the other side; to come back, circle round the thrower and fall behind him. Now whether the original Australian boomerangs can do all this, or even part of it, is questionable. Their boomerangs are almost roughly curved sticks, effective as missiles, but certainly not  able to do all that they are said to do. Many travellers to Australia have decided that the returning boomerang does not exist, but this is certainly not so. Boomerangs can be made that will perform all except one of these feats: they cannot be made to hit the target and return to the hunter, unless the hit is so slight that it does not affect the course of the implement. There are many types of Boomerang but the best is probably the following. A thin piece of hard tough wood is left flat on one side but rounded on the other. It has sharpened edges, rounded ends, and is bent in the middle in its own plane at about 120 degree. The length is 2-2 ½ feet, the greatest thickness ½ inch, and the greatest breadth 1 ½ inches. It can be steamed and bent to the required angle, or made from two pieces of wood joined together, but the former is preferable. This boomerang is held in one hand and thrown horizontally (or nearly so) in such a way that it rotates rapidly. Now consider the effect of the sides of the boomerang. We make one side flat and the other round. If we throw this type in such a way that the rounded side is uppermost, it will rise much more easily. It has considerable lifting power, even when it is moving horizontally without any angle of inclination to its line of flight.</transcript>
+    </template>
+  </question>
+<!--     <question>
+    <id>35790364a96b4e6d8d137a5f65227f60</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>35790364a96b4e6d8d137a5f65227f60</output>
+      <picture></picture>
+      <audio>2.3 UFR - RL.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Good Morning students! Today, I am going to talk about a very special experience of my life that not only changed the way I looked at things but also helped me go through a complete metamorphosis, eventually turning me into the person that I am today. I sometimes imagined my life as a nomad. Beyond the fears and inhibitions of abandoning a career I worked so hard for, it was my reluctance to see a possible happy and secure future, very unlikely from the usual pattern. I still remember the day my manager suddenly stopped assigning me work. When I inquired, I was told to go and wait in the conference room. Every moment spent waiting for someone to walk in was tough and scary. In those few moments, I imagined every possible positive and negative outcome of the meeting. Finally, the production head and the manager entered the room and broke the news. I was being fired for being an overpaid employee as a measure of cost cutting by the company. Suddenly, my world came crashing down. Since I was living by myself, away from family; it was all the more difficult for me to imagine a life without job and financial security. The reason of termination by them was that they no longer had funds to allow me to continue my tenure in the organization. They offered me two months of salary as compensation and wished me a bright future ahead. The Team manager seemed like a demon to me. Throughout my way back from work, I kept thinking of the worst possible scenarios. A little later, I realized I was done imagining the worst. The two months of salary was enough for me to arrange air tickets, 3 months visa and basic food and survival necessities. I had decided to stay in Bali for 3 months, find work in various restaurants, hotels and resorts for my survival on the paradise island.</transcript>
+    </template>
+  </question> -->   
+    <question>
+    <id>10e0bf11e5174eb298e1068f7944338e</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>10e0bf11e5174eb298e1068f7944338e</output>
+      <picture></picture>
+      <audio>2.1 CFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Which fan is used for ventilation? Answer: Exhaust fan</transcript>
+    </template>
+  </question>
+      <question>
+    <id>d75729f7c7b546369504dd0b93e7537a</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>d75729f7c7b546369504dd0b93e7537a</output>
+      <picture></picture>
+      <audio>2.2 UMS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>One who looks on the dark side of things is called _________. Answer: Pessimist</transcript>
+    </template>
+  </question>
+      <question>
+    <id>ea2f118723ee4d92b63b8dc39aefb42e</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>ea2f118723ee4d92b63b8dc39aefb42e</output>
+      <picture></picture>
+      <audio>2.3 GFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What do you call a person who works for free? Answer: Volunteer</transcript>
+    </template>
+  </question>
+      <question>
+    <id>896c51f94b3e4e9ab2194655aa0d155a</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>896c51f94b3e4e9ab2194655aa0d155a</output>
+      <picture></picture>
+      <audio>2.4 UFS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What is the study of handwriting called? Answer: Graphology</transcript>
+    </template>
+  </question>
+      <question>
+    <id>dccdf5845c164eb6a6b9ab9f79d42ef0</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>dccdf5845c164eb6a6b9ab9f79d42ef0</output>
+      <picture></picture>
+      <audio>2.5 UFR - ASQ - Mod.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>One who eats too much is called __________. Answer: Glutton</transcript>
+    </template>
+  </question>
+      <question>
+    <id>b184cf2e2f764156aef78a1b36dc2127</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>b184cf2e2f764156aef78a1b36dc2127</output>
+      <picture></picture>
+      <audio>2.6 BFS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The science that studies insects is called ___________. Answer: Entomology</transcript>
+    </template>
+  </question>  
+    <question>
+    <id>25e4b865cd17427697b0cc21c20d21c1</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>25e4b865cd17427697b0cc21c20d21c1</output>
+      <picture></picture>
+      <audio>2.7 GFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What do you call a person who can speak two languages? Answer: Bilingual</transcript>
+    </template>
+  </question> 
+        <question>
+    <id>4cd461e85be14e5b89b6d71c3f40e259</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>4cd461e85be14e5b89b6d71c3f40e259</output>
+      <picture>asq3.tpi</picture>
+      <audio>2.8 GFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What instrument is used for controlling electricity? Answer: Stabilizer</transcript>
+    </template>
+  </question> 
+        <question>
+    <id>447b8906cd4f4965afe83b0c0b904972</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>447b8906cd4f4965afe83b0c0b904972</output>
+      <picture>asq4.tpi</picture>
+      <audio>2.9 BFS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Who will be the speaker for Digital Core Goniometry? Answer: Justin Arnold</transcript>
+    </template>
+  </question>   
+         <question>
+    <id>375ea9084c524897b4752908d3387397</id>
+    <practiceSet>3db6c7215baa422783ab459e3d30f17c</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>375ea9084c524897b4752908d3387397</output>
+      <picture></picture>
+      <audio>2.10 UFR - ASQ- Mod.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The study of man is called ________________. Answer: Anthropology</transcript>
+    </template>
+  </question>
+ <question>
+    <id>6e1cbd427f134c3c81b3432775fe442f</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Toxic substances polluting the water finally affect human health. Some metals such as lead, mercury and cadmium cause different types of diseases. Mercury dumped into water is transferred into water soluble methyl mercury by bacterial action. People in Japan suffered from numbness of body parts, vision and hearing problems &amp; abnormal mental behavior.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>6e1cbd427f134c3c81b3432775fe442f</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>e704757daba94d1fb007fb535eb92033</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The meaning of vocational education is to impart some training through education with the help of which a student is able to undertake some profession and earn his living. The secondary education should be completely vocational because usually it has been seen that maximum number of students fail to continue their education after secondary school education.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>e704757daba94d1fb007fb535eb92033</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>111fe1b35e4648328f1bc9d83208c00e</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible. You have 35 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Three out of four foreign delegates who were selected for the important conference in Barcelona backed out at the last minute, citing personal issues. The only available executive showed tremendous promise, interest, and involvement and subsequently delivered to the highest level.</description>
+      <title></title>
+      <delay>35</delay>
+      <recordingTime>35</recordingTime>
+      <beep>true</beep>
+      <output>111fe1b35e4648328f1bc9d83208c00e</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>fddce3428e7a4f13b95c907249d944ed</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Queens’ college was the second royal foundation at Cambridge. King’s college was the first. The former is distinguished from the college of the same name at Oxford in a certain respect. It owes its foundation to two queens. One was Margaret. She was the wife of Henry the Sixth. The other was Elizabeth. She was the wife of Edward the Forth.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>fddce3428e7a4f13b95c907249d944ed</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>15d4007104a34128b8539edf966bf34d</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Cheap, plentiful gas is likely to make climate change worse, affecting the quality of life in the bigger society. Although natural gas is considerably cleaner than petrol, it’s not completely clean and was always meant to be a ‘bridge’ fuel, between fossil fuels and new carbon forms of energy. Easy access to natural gas reduces the economic arguments for developing those clean energy alternatives.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>15d4007104a34128b8539edf966bf34d</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>ceef8d8a26f2447e88ef04379aeec078</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible. You have 35 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>All communication areas are significant as each area represents a system that operates within a broader system of destination management, and contributes to its overall efficiency. However, each area of communication has its own characteristics and the knowledge of these characteristics ultimately helps in establishing an efficient communication pattern.</description>
+      <title></title>
+      <delay>35</delay>
+      <recordingTime>35</recordingTime>
+      <beep>true</beep>
+      <output>ceef8d8a26f2447e88ef04379aeec078</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question> 
+  <!-- </question> --> 
+    <question>
+    <id>aeca0e0036fd4531b1344b9aec033f60</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>2</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>aeca0e0036fd4531b1344b9aec033f60</output>
+      <audio>3.1 CFR - RS.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Work is divided and then assigned to various experts.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>dfb0ef6344244dc7840969d8ccb81498</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>2</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>dfb0ef6344244dc7840969d8ccb81498</output>
+      <audio>3.2 UFS - RS.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Formalities and documentation requirements for small companies should be simplified.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>46b047ca3f7e482e977d09a5e91d0d1b</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>2</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>46b047ca3f7e482e977d09a5e91d0d1b</output>
+      <audio>3.3 UMS - RS.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>He missed a lot of his home work through his absence from school.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>215a22f551474c61b520f89182915ff2</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>215a22f551474c61b520f89182915ff2</output>
+      <audio>3.4 UFR - RS - MOD.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Education is an important part of one’s life.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>f44da7cae9e84f2481a999d4d1453555</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>f44da7cae9e84f2481a999d4d1453555</output>
+      <audio>3.5 UFR - RS - MOD.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The staff at the organization is expected to meet the quality standards.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>7f9297616a594ee78dc57744d951e1b7</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>7f9297616a594ee78dc57744d951e1b7</output>
+      <audio>3.6 IMR - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The code of conduct is being violated time and again.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>a2ef9cd2f6744b4ea2d6cc478cd5d0c8</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>a2ef9cd2f6744b4ea2d6cc478cd5d0c8</output>
+      <audio>3.7 EMR - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Only a limited number of types of fungi are eatable.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>5c897244b9cf41f6828d9c1537c2f816</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>5c897244b9cf41f6828d9c1537c2f816</output>
+      <audio>3.8 UFS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The young students were discussing the subject in a lively manner.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>854c7dff433d49be83f498ec7dfc11bd</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>854c7dff433d49be83f498ec7dfc11bd</output>
+      <audio>3.9 UMS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The school children got nervous when the head master tripped over his gown.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>296d49ed57cd4ad794ecc7c8bf7dc13f</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>296d49ed57cd4ad794ecc7c8bf7dc13f</output>
+      <audio>3.10 CFR - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>He wanted him to have the best possible chance of a good career.</transcript>
+    </template>
+  </question>
+        <question>
+    <id>174996dba2f246bb8979a14b67ede92b</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>174996dba2f246bb8979a14b67ede92b</output>
+      <audio>3.11 BFS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Teachers wanted more nursery schools to be set up.</transcript>
+    </template>
+  </question>
+         <question>
+    <id>0ffa3a99b2cd42739f257250d867817f</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>0ffa3a99b2cd42739f257250d867817f</output>
+      <audio>3.12 UMS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>You will get to meet your loved ones a little more often.</transcript>
+    </template>
+  </question>
+  <question>
+    <id>bdfd107344574ad4a1c549d6ba297e0a</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>bdfd107344574ad4a1c549d6ba297e0a</output>
+      <picture>first3.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+    <question>
+    <id>f933da56d1f74ab2a3281ebb2e9f81c1</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>f933da56d1f74ab2a3281ebb2e9f81c1</output>
+      <picture>second4.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>f17fd4cceeb74848a6aeec61e3bd780d</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>f17fd4cceeb74848a6aeec61e3bd780d</output>
+      <picture>third4.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>17c83a379f61401cb198d12700af767a</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>17c83a379f61401cb198d12700af767a</output>
+      <picture>nfourth048k.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>3e85d7cf8ac343abbe0533b5dac9f492</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>3e85d7cf8ac343abbe0533b5dac9f492</output>
+      <picture>fifth4.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>c14eb7b201c84a29baf328859a004134</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>c14eb7b201c84a29baf328859a004134</output>
+      <picture>nwsixth254.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>8596773383334289ac640679921e55fd</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>8596773383334289ac640679921e55fd</output>
+      <picture></picture>
+      <audio>3.1 EMR - RL - MOD.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Disparity among sharing of resources: There is big divide in the world as North and South, the more developed countries and less developed countries, the haves and the have not’s. The more developed countries have only 22% of world’s population, but they use 88% of its natural resources, 73% of its energy and command 85% of its income. In turn, they contribute a very big proportion to its pollution. These countries include USA, Canada, Japan, Australia, New Zealand and Western European Countries. The less developed countries on the other hand, have very low or moderate industrial growth, have 78% of the world’s population and use about 12% of natural resources and 27% of energy. Their income is merely 15% of global income. the gap between the two is increasing with time due to sharp increase in population in the less developed countries  The rich have grown richer while the poor have stayed poor or gone even poorer. Thus, the solution to this problem is to have more equitable distribution of resources and wealth. We cannot expect the poor countries to stop growth in order to check pollution because development brings employment and the main problem of these countries is to tackle poverty. A global consensus has to be reached for more balanced distribution of the basic resources like safe drinking water, food, fuel etc.</transcript>
+    </template>
+  </question>
+    <question>
+    <id>c217540d17ce4671a9266fd0045b2156</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>c217540d17ce4671a9266fd0045b2156</output>
+      <picture></picture>
+      <audio>3.2 UFS - RL.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Having a role model is healthy and helps serve as an inspiration to a child. Importance of role models in a child’s life is that they can help a child aim high and work to achieve goals. But it is important that a child chooses a good role model, a person who has overcome adversity in his own life. A role model does not have to be someone famous. It could be a Little League Coach, a grandparent, teacher, or neighbour. Often a person who actually interacts with a child makes a better role model than a sports or movie star. A role model can have a positive impact upon a child's life in various ways. When we are growing up we look to our role models for inspiration and use this as a blueprint for how we should behave when we’re older. What all makes someone a role model? Is it only the characteristics they have or the behavior or their success? Role models show passion for their work and have the capacity to infect others with their passion. Role models live their values in the world. Children admire people who act in ways that support their beliefs.  It helps them understand how their own values are part of who they are and how they might seek fulfilling roles as adults. Children develop as the result of many experiences and relationships. Role models play an important role in inspiring kids to learn, overcome obstacles, and understand that positive values can be lived each day. Whether you are a parent, grandparent, aunt, uncle, teacher, civic leader, clergy member, sports coach, after-school program leader, or a person who just happens into a child’s life, you have the ability to inspire!</transcript>
+    </template>
+  </question>
+    <question>
+    <id>9157cd432a57482da304c949eb6872ca</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>9157cd432a57482da304c949eb6872ca</output>
+      <picture></picture>
+      <audio>3.3 IMR - RL.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The word Pharaoh refers to the title of the ancient Egyptian kings. It also means the “great house” and refers to royal palace. They were the god kings who ruled between 3150 B.C and 30 B.C. The ancient Egyptian pharaohs were both divine deities and mortal rulers. There were around 30+ dynasties in ancient Egyptian history. During a span of 300 years, around 170 rulers reigned over the great land of Egypt. Inheritance of the throne of Egypt was usually passed from a father to his eldest son whereas in many cases this line of kingship was interrupted by murder, pandemonium and mysterious disappearances. Also, if the only heir was a woman, her husband could become the next Pharaoh. Each time a new family took control of the throne, a new kingdom began in the history of the nation. Therefore, the rulers often intermarried with daughters, brothers to ensure that the throne remains within the family. Pharaoh used to show his/her kingship by wearing a crown or headdress with the uraeus (cobra) over the forehead. Sometimes, she/he had a bull’s tail coming from his/her belt to show personal power and also wore a false beard which was a sign of divinity.</transcript>
+    </template>
+  </question>    
+    <question>
+    <id>e98c951b32584b539627ccde3cc293e5</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>e98c951b32584b539627ccde3cc293e5</output>
+      <picture></picture>
+      <audio>3.1 UFR - ASQ - MOD.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What do we call writer of an unauthorized book? Answer: Anonymous</transcript>
+    </template>
+  </question>
+      <question>
+    <id>4551ebf242f44768984686b09df102c1</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>4551ebf242f44768984686b09df102c1</output>
+      <picture></picture>
+      <audio>3.2 GFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What is the native language of one’s country called? Answer: Mother tongue</transcript>
+    </template>
+  </question>
+      <question>
+    <id>f94642cafd0c4626bfa0769301c53305</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>f94642cafd0c4626bfa0769301c53305</output>
+      <picture>asq5.tpi</picture>
+      <audio>3.3 BMS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Which trend is shown in the diagram? Answer: Downward Trend </transcript>
+    </template>
+  </question>
+      <question>
+    <id>3db003cd94634ca18e82c5a09b02be45</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>3db003cd94634ca18e82c5a09b02be45</output>
+      <picture></picture>
+      <audio>3.4 UMS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What is the color of water, blue or colorless? Answer: colorless</transcript>
+    </template>
+  </question>
+      <question>
+    <id>8bd41218f44543b3982428431a99c28c</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>8bd41218f44543b3982428431a99c28c</output>
+      <picture></picture>
+      <audio>3.5 GFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>One who thinks only of himself is called ____________. Answer: Egoist</transcript>
+    </template>
+  </question>
+      <question>
+    <id>f90e724b6b9645aa89a7eb95641be0cb</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>f90e724b6b9645aa89a7eb95641be0cb</output>
+      <picture></picture>
+      <audio>3.6 UFS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What do we call a person who deals with skin diseases? Answer: Dermatologist</transcript>
+    </template>
+  </question>  
+    <question>
+    <id>977e117febb041daae12f5a2f7c5d422</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>977e117febb041daae12f5a2f7c5d422</output>
+      <picture>asq2.tpi</picture>
+      <audio>3.7 UFS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What was the daily earning of women in 2010? Answer: $28.4</transcript>
+    </template>
+  </question> 
+        <question>
+    <id>6507ec796b5a4dcfb0801859d330ba02</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>6507ec796b5a4dcfb0801859d330ba02</output>
+      <picture></picture>
+      <audio>3.8 GFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What is the white color robe worn by medical students called? Answer: Lab Coat</transcript>
+    </template>
+  </question> 
+        <question>
+    <id>a39858cbfffb4e0fa6010b6e2b2ddc67</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>a39858cbfffb4e0fa6010b6e2b2ddc67</output>
+      <picture></picture>
+      <audio>3.9 UFR - ASQ - MOD.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What do we call a person who collects coins? Answer: Numismatist</transcript>
+    </template>
+  </question>   
+         <question>
+    <id>a60425c53d434c06a791732c3a91895f</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>a60425c53d434c06a791732c3a91895f</output>
+      <picture></picture>
+      <audio>3.10 EMR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>With what instrument can we measure earthquake? Answer: Seismograph</transcript>
+    </template>
+  </question>
+      <question>
+    <id>3b2b4592397b44df89dfbd778fcd9d59</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>3b2b4592397b44df89dfbd778fcd9d59</output>
+      <picture></picture>
+      <audio>3.11 GFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What is a paper written by hand called? Answer: Manuscript</transcript>
+    </template>
+  </question>
+        <question>
+    <id>625b184751bf4bc28e57fd166b41529b</id>
+    <practiceSet>5f0ddb8a83f04b5f9684f293f1be47aa</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>625b184751bf4bc28e57fd166b41529b</output>
+      <picture>asq6.tpi</picture>
+      <audio>3.12 UMS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>How many sides does octagon have? Answer: Eight</transcript>
+    </template>
+  </question>
+   <question>
+    <id>0c50305e185f42ecb551120f77c135bd</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible. You have 35 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Bats are winged mammals. They are the only mammals that can fly. They are also called nocturnal animals. They vary in size from mega bats to micro bats. The largest bats are the flying foxes found in Africa, India, Australia and Malaysia</description>
+      <title></title>
+      <delay>35</delay>
+      <recordingTime>35</recordingTime>
+      <beep>true</beep>
+      <output>0c50305e185f42ecb551120f77c135bd</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>1215ff258497485d9eb7962c51428ce6</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Social media and social networking seems to play an important role in people’s lives around the world. Sitting behind a computer communicating with cyber friends can be easy and fun but can weaken a person's verbal communication skills. There are not just negative impacts on communication but there are some positive impacts on communication as well through social media.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>1215ff258497485d9eb7962c51428ce6</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>b16f9ff44e1249248fda99ef22ce8a73</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Ms. Green was untrained for office work. Bearing this in mind, one thing was surprising. She coped most efficiently with all her duties as personal secretary to the chairman. This had been her position in the firm since 1950 when she came to London. Her intention of coming was to become a fashion model.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>b16f9ff44e1249248fda99ef22ce8a73</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>5395fd624fae4126a114edae5113e5ae</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The South Choir Aisle of Peterborough Cathedral contains some very fine marble effigies of former abbots of the monastery. It is also the site of the tomb of Mary, Queen of Scots. Her body rested beneath the choir for twenty five years. In 1612, it was removed to Westminster by order of her son, James the First.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>5395fd624fae4126a114edae5113e5ae</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>e130eda76d604a98b99220b12b35535f</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Very little armour has survived from a time earlier than the fifteenth century. This is a sad fact. Mail was particularly liable to destruction. It was even cutup for other uses. Fortunately, much of the enriched armour of the sixteenth century has been preserved. It owes its preservation to its artistic quality and personal associations. </description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>e130eda76d604a98b99220b12b35535f</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>85bae45a59254bd98f19ff3dfd3f009e</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>British Railways came into being in 1948. This happened on the nationalization of rail transport. The labour government  did this. Previously, railways in Britain were run privately. They were run in four main networks. There was the London Midland and Scottish Railway another was the Southern railway. The great Western railway was third and last was the London and north Eastern Railway.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>85bae45a59254bd98f19ff3dfd3f009e</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question> 
+  <!-- </question>  -->
+    <question>
+    <id>85f3cea14b1448f99eb1362ca0cd8df3</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>2</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>85f3cea14b1448f99eb1362ca0cd8df3</output>
+      <audio>4.1 CFR - RS - MOD.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The teacher left her students as she was feeling very depressed.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>c3a695689e034f71b828dc6bdc3eaad0</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>2</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>c3a695689e034f71b828dc6bdc3eaad0</output>
+      <audio>4.2 BFS - RS.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Emergency situations call for immediate work cease.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>382e6b8ebd134c1db815cc67a5ab34aa</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>2</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>382e6b8ebd134c1db815cc67a5ab34aa</output>
+      <audio>4.3 CFR - RS.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Complex technology has resulted in complex societal setup.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>00d5fb9fc4ce47ff99557c96f747212d</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>00d5fb9fc4ce47ff99557c96f747212d</output>
+      <audio>4.4 GFR - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The chancellor has now decided to introduce measures that will stimulate the economy.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>c00e53855cc14963a3be109a1d2b6353</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>c00e53855cc14963a3be109a1d2b6353</output>
+      <audio>4.5 BFS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The school has now moved to a new premise in the Whales.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>30941c99736e4d40877484a52a02ea92</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>30941c99736e4d40877484a52a02ea92</output>
+      <audio>4.6 UFR - RS - MOD.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>By pretending to be ignorant of the rules, he managed to escape from being punished.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>d52c23b4a87746ff95c3a174f2b69954</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>d52c23b4a87746ff95c3a174f2b69954</output>
+      <audio>4.7 CFR - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Emphasis on syllables makes all the difference in the world.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>9b031ab5b499422ca32f606e7093ae79</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>9b031ab5b499422ca32f606e7093ae79</output>
+      <audio>4.8 UMS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The train suddenly stopped with a jerk.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>398fd4ea16af484cbda519a2e0e37456</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>398fd4ea16af484cbda519a2e0e37456</output>
+      <audio>4.9 BMS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Luckily, we retraced our steps and were able to find our way back.</transcript>
+    </template>
+  </question>
+      <question>
+    <id>e9eac0a359904397b39d71d51c8d4d2a</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>e9eac0a359904397b39d71d51c8d4d2a</output>
+      <audio>4.10 UFR - RS - MOD.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>He missed a lot of his home work through his absence from school.</transcript>
+    </template>
+  </question>
+        <question>
+    <id>8afa25e79c334ae7bf7f7d4d3d3a25a2</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>8afa25e79c334ae7bf7f7d4d3d3a25a2</output>
+      <audio>4.11 UFS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Family and extended family have gone back, making promises to meet again soon.</transcript>
+    </template>
+  </question>
+         <question>
+    <id>b87f027832a8434b8e2211933fb469e2</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>3</delay>
+      <recordingTime>15</recordingTime>
+      <beep>false</beep>
+      <output>b87f027832a8434b8e2211933fb469e2</output>
+      <audio>4.12 BMS - RS.tpm</audio>
+      <audioDelay>2</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>More than ten points shall be discussed in the conference.</transcript>
+    </template>
+  </question>
+  <question>
+    <id>379ee9afbaad486bb0f8f07c10fb6245</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>379ee9afbaad486bb0f8f07c10fb6245</output>
+      <picture>first4.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+    <question>
+    <id>518dae2c1e574952a0ce1556972a30fe</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>518dae2c1e574952a0ce1556972a30fe</output>
+      <picture>second5.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>7e813433fd6d496cb6202a1ebc723c72</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>7e813433fd6d496cb6202a1ebc723c72</output>
+      <picture>third5.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>faabac6feeb84a228c0327b1ab12c49c</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>faabac6feeb84a228c0327b1ab12c49c</output>
+      <picture>fourth5.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>2cdf95aa1f244967a284883a483b661e</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>2cdf95aa1f244967a284883a483b661e</output>
+      <picture>fifth5.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+      <question>
+    <id>979e067bb9b2442aab3e89ca18e344a0</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_LOOK</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>25</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>979e067bb9b2442aab3e89ca18e344a0</output>
+      <picture>sixth6.tpi</picture>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>
+  <question>
+    <id>ef013a1bdb764f4d86742803d282ac58</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>ef013a1bdb764f4d86742803d282ac58</output>
+      <picture></picture>
+      <audio>4.1 UFS - RL.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Today, we can speak to people around the world almost anytime and anywhere. It wasn't like this before and it was made possible in part by cell phones. This is how cell phones came in picture. The Detroit Police Department began using mobile radios in their police cars. They used them to talk between cars, but it didn't work very well. The government used most radio frequencies for itself, but the air waves were still clogged up. By the 1940's most government agencies, as well as the rich people, had mobile radios. They used them while they were on the go to talk to others. A car phone service was opened between Boston and New York, but this service was a failure, too. The second attempt at car phones was a success. The equipment was large and heavy, but it worked, and that was an improvement over the past. AT &amp; T proposed splitting phone service into different areas across the cities. These areas were called "cells".  Dr. Martin Cooper invented a portable hand-held phone that didn't need to be powered through a car. He was the first person to make a mobile phone call. It took ten years for Dr. Cooper’s technology to become available to the public. The first public cell phones were put out by Motorola with a new design where the mouth piece flipped over the top of the keypad. It was the first flip phone. Developers in Europe came up with a way to send written messages over the phone. It was called texting. The smart phone could send/ receive emails, messages, but it didn't have a speaker or microphone which further needed a headset to work. A company called Sanyo made a phone that could snap pictures Later, Apple released its first I-phone and it changed the cellular industry. It featured a touch screen and allowed users to do almost anything they could do from a home computer, which basically changed the way people lived.</transcript>
+    </template>
+  </question>
+    <question>
+    <id>f2b46c4d071941d3acbab9ca49ed3fa9</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>f2b46c4d071941d3acbab9ca49ed3fa9</output>
+      <picture></picture>
+      <audio>4.2 CFR - RL.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Fruits provide many essential nutrients that a human needs. They are naturally low in calories, sodium and fat with zero cholesterol. Fruits include the following nutrients: a.	Potassium – It helps in combating high blood pressure which is a risk factor for heart disease. It may also reduce the risk of developing kidney stones and help to decrease bone loss. b.Dietary fiber – It helps reduce blood cholesterol levels and may lower risk of heart disease, obesity and type 2diabetes and is also important for proper bowel function. c.	Vitamin C – It is important for growth and repair of all body tissues and keeps teeth and gums healthy. It provides antioxidant defense against infection and disease. d.	Foliate (folic acid) – It Helps the body form red blood cells and helps in reducing the risk of birth defects. Fiber-rich fruit satisfies your hunger with fewer calories, helping you to maintain a healthy body weight. Fruits are a source of phytonutrients or compounds that naturally occur only in plants and are associated with a wide range of potential health benefits. Phytonutrients work synergistically with the vitamins, minerals and fiber in whole fruits to help reduce disease risk.</transcript>
+    </template>
+  </question>
+    <question>
+    <id>1247d706554148e29af5066ffe983df2</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>1247d706554148e29af5066ffe983df2</output>
+      <picture></picture>
+      <audio>4.3 UFS - RL.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Renowned American writer Elizabeth Gilbert is famous the world over for her best-selling memoir “ EAT PRAY LOVE”. Gilbert's life witnessed complete metamorphosis soon after she embarked on a year long journey to Italy, India and Bali. In her own words, the experience in each of these countries helped her understand the importance of different aspects of life. Gilbert's anecdotes from Italy describe how 'pleasure' in its purest form can be found in the simplest things of life. During her four months in Italy, Gilbert visited various places, each of which had its own significance. Her time in Naples allowed her to understand the pleasures of pure indulgence. From her constant visits to the delectable Pizzerias to her time spent on the beautiful streets of Rome, Gilbert understood how one's life needs to be appreciated. There are a few things India is known for across the globe. Besides the Taj Mahal, Kamasutra and Yoga, this beautiful South Asian country draws attention for its centuries-old spirituality. Gilbert, fresh off her pleasures in Italy, arrived in India in search of the same spirituality which she had heard of at a Yoga retreat back in New York.  The Ashram life is an experience of selfless devotion and meditation, all of which pave the road to Nirvana. When you have experienced both pleasure and spirituality in its purest form, it is crucial to learn to strike a balance between both. So, Gilbert's next destination had to be a place where she could understand how she can effectively connect and disconnect with the worldly pleasures in order to find the true meaning of healthy and balanced life. So she chose a place famous beyond the beaches, culture and spirituality; Bali. What she found there though was more than what she went there for. She learnt that it is the strength of positivity that helps one to get past the negative experiences in life and overcome the fears to find true love and happiness. Eat Pray Love is a collection of memoirs that transcends the barriers of age, religion and race to allow an individual to discover the true meaning of love, pleasure, spirituality and balance in life.</transcript>
+    </template>
+  </question>
+<!--     <question>
+    <id>b5c33a8a40b04c9cbf8839029c77b542</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>b5c33a8a40b04c9cbf8839029c77b542</output>
+      <picture></picture>
+      <audio></audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>The technology innovation system is a concept within the scientific field of innovation studies. Innovation may be termed as an alteration of an existing dynamic to upgrade a particular function. Innovations and technology always go hand in hand as both are seen to be complementing each other. The concept of a technological innovation system was introduced as a part of a wider theoretical school called the innovation system approach, with a target to benefit all the nations in the long run. Recently, researchers with the Jet Propulsion Laboratory (JPL) in Pasadena, California have developed a device, the size of a small carry bag, that detect micro-waves to detect human heart beats in piles of rubbles which can be extremely helpful for a search operation to detect humans following natural disasters such as earthquakes. Though such inventions are relatively new, but as it has been said previously, this revolution will be incredible in helping the entire society as a whole.</transcript>
+    </template>
+  </question>  --> 
+    <question>
+    <id>57cc6a0008354ba5827636ed203bf59d</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>57cc6a0008354ba5827636ed203bf59d</output>
+      <picture>asq7.tpi</picture>
+      <audio>4.1 BMS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Who has straight black hair? Answer: Daughter &amp; Son</transcript>
+    </template>
+  </question>
+      <question>
+    <id>97cc723900ca4c9e90ca8b2c46e29a9c</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>97cc723900ca4c9e90ca8b2c46e29a9c</output>
+      <picture></picture>
+      <audio>4.2 GFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>A doctor who treats kidney diseases is called……. Answer: Nephologist</transcript>
+    </template>
+  </question>
+      <question>
+    <id>e0b1c5f1955044e0bb1ec88cc90d530e</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>e0b1c5f1955044e0bb1ec88cc90d530e</output>
+      <picture></picture>
+      <audio>4.3 UFR - ASQ - MOD.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>A life history written by oneself is called _________________. Answer: Autobiography</transcript>
+    </template>
+  </question>
+      <question>
+    <id>1e97b67ff92b4141ab9fc7d5d739edfd</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>1e97b67ff92b4141ab9fc7d5d739edfd</output>
+      <picture>asq8.tpi</picture>
+      <audio>4.4 UMS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What is this symbol used for? Answer: Wheel Chair</transcript>
+    </template>
+  </question>
+      <question>
+    <id>f9bba22c6c7942489d4a6aa6a47450d5</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>f9bba22c6c7942489d4a6aa6a47450d5</output>
+      <picture></picture>
+      <audio>4.5 GFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>One who is present everywhere is called _________________. Answer: Omnipresent</transcript>
+    </template>
+  </question>
+      <question>
+    <id>643bee24b2bc4291a8e06a31be0aded7</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>643bee24b2bc4291a8e06a31be0aded7</output>
+      <picture></picture>
+      <audio>4.6 EMR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>What do you call a person who is deprived of sleep? Answer: Insomniac</transcript>
+    </template>
+  </question>  
+    <question>
+    <id>3ea9dd38d474482c917cd8e20757dd85</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>3ea9dd38d474482c917cd8e20757dd85</output>
+      <picture>asq9.tpi</picture>
+      <audio>4.7 UFS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>According to the graph which country has the highest growth rate in terms of population Answer: Nigeria </transcript>
+    </template>
+  </question> 
+        <question>
+    <id>7ad8a69b635b46deb1836d2f5d4fd6f4</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>7ad8a69b635b46deb1836d2f5d4fd6f4</output>
+      <picture></picture>
+      <audio>4.8 GFR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Which galaxy are we living in? Answer: Milkyway</transcript>
+    </template>
+  </question> 
+        <question>
+    <id>7c869b0aea2a49629c75672001cb18cf</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>7c869b0aea2a49629c75672001cb18cf</output>
+      <picture></picture>
+      <audio>4.9 EMR - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>One who hates mankind is called _________________. Answer: Misanthrope</transcript>
+    </template>
+  </question>   
+         <question>
+    <id>991468dd2ac7456e8632dbcc5de32498</id>
+    <practiceSet>a7fec3f9448d4e6cb8a59784bbb2a1df</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>991468dd2ac7456e8632dbcc5de32498</output>
+      <picture>asq10.tpi</picture>
+      <audio>4.10 BMS - ASQ.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+	  <transcript>Locate the direction of computer lab. Answer: South East</transcript>
+    </template>
+  </question>  
+</questions>
