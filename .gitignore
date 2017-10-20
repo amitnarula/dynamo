@@ -21,8 +21,6 @@ _ReSharper*/
 
 #Customized as per dynamo
 *.msi
-*.tpi
-*.tpm
 ENHAVO.DEMO
 Resources.DEMO
 
