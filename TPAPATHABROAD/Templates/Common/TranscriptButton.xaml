@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="TPA.Templates.Common.TranscriptButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="60" d:DesignWidth="250">
+    <Grid Width="250">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="18*" />
+            <RowDefinition Height="42*" />
+        </Grid.RowDefinitions>
+        <MediaElement HorizontalAlignment="Left" Height="70" Name="medAudio" LoadedBehavior="Manual"  VerticalAlignment="Top" Width="200" RenderTransformOrigin="0.007,-0.561" MediaEnded="medAudio_MediaEnded" Grid.RowSpan="2" />
+
+        <Label Content="Prompt" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,3,189,13"></Label>
+        <Button HorizontalAlignment="Right" Margin="0,0,70,10"  VerticalAlignment="Center" Width="Auto" Height="30" Name="btnPromptAudioRecording" Click="btnPromptAudioRecording_Click" Grid.Row="1" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#EFEFEF" Offset="0" />
+                    <GradientStop Color="#CDCDCD" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.Template>
+                <ControlTemplate>
+                    <Border BorderThickness="1" Padding="3" CornerRadius="10" Background="{TemplateBinding Background}" BorderBrush="#CDCDCD">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Audio Recording" x:Name="txtBlkLegend" VerticalAlignment="Center"></TextBlock>
+                            <Image Source="../../Templates/Images/play.png" x:Name="imgLegend"></Image>
+                        </StackPanel>
+                    </Border>
+
+                </ControlTemplate>
+
+
+            </Button.Template>
+
+
+        </Button>
+        <Button HorizontalAlignment="Center" Margin="185,0,5,12"  VerticalAlignment="Center" Width="Auto" Height="30" Name="btnTranscript" Click="btnTranscript_Click" Grid.Row="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#EFEFEF" Offset="0" />
+                    <GradientStop Color="#CDCDCD" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.Template>
+                <ControlTemplate>
+                    <Border BorderThickness="1" Padding="3" CornerRadius="10" Background="{TemplateBinding Background}" BorderBrush="#CDCDCD">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Transcript" x:Name="txtBlkLegend" VerticalAlignment="Center"></TextBlock>
+                            
+                        </StackPanel>
+                    </Border>
+
+                </ControlTemplate>
+
+
+            </Button.Template>
+
+
+        </Button>
+        <Label Visibility="Collapsed" Content="Sample Response" FontWeight="Bold" Grid.RowSpan="2" Height="28" HorizontalAlignment="Center" Margin="0,0,0,30" FontSize="10" Name="lblLegend" VerticalAlignment="Top" />
+
+    </Grid>
+</UserControl>

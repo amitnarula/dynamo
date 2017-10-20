@@ -1,0 +1,29 @@
+﻿<UserControl
+    xmlns:my="clr-namespace:TPA.Templates.Common"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Common="clr-namespace:TPA.Templates.Common" x:Class="TPA.Templates.Speaking.LookListenAndSpeak" 
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="68*" />
+            <RowDefinition Height="124*" />
+            <RowDefinition Height="243*" />
+            <RowDefinition Height="65*" />
+        </Grid.RowDefinitions>
+        <Image Name="imgDisplay" Grid.Row="1" Grid.RowSpan="2" Loaded="imgDisplay_Loaded" Height="300" Width="500" Margin="10,0,0,106" HorizontalAlignment="Left" />
+        <Common:AudioPlayer x:Name="audioPlayer" HorizontalAlignment="Center"  VerticalAlignment="Top" Grid.Row="1" Margin="214,0,250,0" />
+        <Common:AudioRecorder HorizontalAlignment="Center"  x:Name="audioRecorder" VerticalAlignment="Top" Grid.Row="2" Margin="212,0,246,0" />
+        <Common:SmallAudioPlayer x:Name="audioCorrectAnswer" HorizontalAlignment="Right"  VerticalAlignment="Bottom" Grid.Row="2" Margin="0,0,0,62" Visibility="Hidden" Grid.RowSpan="2" />
+        <Common:SmallAudioPlayer x:Name="audioUserAnswer" HorizontalAlignment="Right" Legend="Your Response"  VerticalAlignment="Bottom" Grid.Row="2" Margin="0,0,200,62" Grid.RowSpan="2" />
+        <Common:TranscriptButton x:Name="transcriptButton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.Row="2" Grid.RowSpan="2"  Margin="0,0,0,62"/>
+        <!--200 right-->
+
+        <Common:PreviousNext x:Name="prevNext" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Grid.Row="3" />
+        <my:BreadCrumb HorizontalAlignment="Stretch" x:Name="breadCrumb" VerticalAlignment="Top" Width="Auto" Height="Auto" />
+        <TextBlock Height="Auto" HorizontalAlignment="Stretch" Margin="40,35,40,0" Name="txtBlkInstruction" Text="Instruction goes here" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" TextWrapping="Wrap" />
+    </Grid>
+</UserControl>

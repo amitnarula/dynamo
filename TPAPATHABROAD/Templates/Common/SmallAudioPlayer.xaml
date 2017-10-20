@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="TPA.Templates.Common.SmallAudioPlayer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="60" d:DesignWidth="150" Loaded="UserControl_Loaded_1">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="18*" />
+            <RowDefinition Height="42*" />
+        </Grid.RowDefinitions>
+        <MediaElement HorizontalAlignment="Left" Height="70" Name="medAudio" LoadedBehavior="Manual"  VerticalAlignment="Top" Width="200" RenderTransformOrigin="0.007,-0.561" MediaEnded="medAudio_MediaEnded" Grid.RowSpan="2" />
+        
+        <Button HorizontalAlignment="Right" Margin="0,0,10,10"  VerticalAlignment="Bottom" Width="Auto" Height="30" Name="btnPlayStop" Click="btnPlayStop_Click" Grid.Row="1" >
+            
+
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#EFEFEF" Offset="0" />
+                    <GradientStop Color="#CDCDCD" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.Template>
+                <ControlTemplate>
+                    <Border BorderThickness="1" Padding="3" CornerRadius="10" Background="{TemplateBinding Background}" BorderBrush="#CDCDCD">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Play" x:Name="txtBlkLegend" VerticalAlignment="Center"></TextBlock>
+                            <Image Source="../../Templates/Images/play.png" x:Name="imgLegend"></Image>
+                        </StackPanel>
+                    </Border>
+                    
+                </ControlTemplate>
+                
+                
+            </Button.Template>
+            
+        </Button>
+        <Label Content="[Legend]" Visibility="Collapsed" FontWeight="Bold" Grid.RowSpan="2" Height="28" HorizontalAlignment="Center" Margin="0,0,0,30" FontSize="10" Name="lblLegend" VerticalAlignment="Top" />
+    </Grid>
+</UserControl>

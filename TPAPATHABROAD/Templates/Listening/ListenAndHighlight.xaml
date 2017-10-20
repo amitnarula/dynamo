@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="TPA.Templates.Listening.ListenAndHighlight"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="600" xmlns:my="clr-namespace:TPA.Templates.Common">
+    <Grid>
+        <my:AudioPlayer HorizontalAlignment="Center" Margin="0,150,0,0" x:Name="audioPlayer" VerticalAlignment="Top" />
+        <TextBlock Name="txtBlockQuestionDescription" FontSize="14"  HorizontalAlignment="Stretch" TextWrapping="Wrap" Margin="40,0,70,71" VerticalAlignment="Bottom" Height="188" MouseDown="txtBlockQuestionDescription_MouseDown" />
+        <my:PreviousNext x:Name="prevNext" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Grid.Row="1" />
+        <my:BreadCrumb HorizontalAlignment="Stretch" x:Name="breadCrumb" VerticalAlignment="Top" Width="Auto" Height="Auto" />
+        <TextBlock Height="Auto" HorizontalAlignment="Stretch" Margin="40,40,40,0" Name="txtBlkInstruction" Text="Instruction goes here" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" TextWrapping="Wrap" />
+    </Grid>
+</UserControl>

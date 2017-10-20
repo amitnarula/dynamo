@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="TPA.Templates.Common.SmallAudioPlayer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="60" d:DesignWidth="150" Loaded="UserControl_Loaded_1">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="18*" />
+            <RowDefinition Height="42*" />
+        </Grid.RowDefinitions>
+        <MediaElement HorizontalAlignment="Left" Height="70" Name="medAudio" LoadedBehavior="Manual"  VerticalAlignment="Top" Width="200" RenderTransformOrigin="0.007,-0.561" MediaEnded="medAudio_MediaEnded" Grid.RowSpan="2" />
+        <Button Content="Play" BorderBrush="#FF8BC7EA"  Background="#FF8BC7EA" Foreground="#FF00609C" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"  VerticalAlignment="Bottom" Width="75" Height="30" Name="btnPlayStop" Click="btnPlayStop_Click" Grid.Row="1" />
+        <Label Content="[Legend]" FontWeight="Bold" Grid.RowSpan="2" Height="28" HorizontalAlignment="Center" Margin="0,0,0,30" FontSize="10" Name="lblLegend" VerticalAlignment="Top" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TPA">
+</Property><Property Name="Solution File" Value="E:\Development\TPA_Room\Build25012016\TPA\TPA.sln">
+</Property><Property Name="Date" Value="15 June 2016">
+</Property><Property Name="Time" Value="01:11">
+</Property></Properties><Event ErrorLevel="0" Project="TPAPanacea" Source="TPAPANACEA\TPAPanacea.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="TPAPanacea" Source="TPAPANACEA\TPAPanacea.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="TPALM" Source="TPALM\TPALM.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="TPALM" Source="TPALM\TPALM.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="TPALMUI" Source="TPALMUI\TPALMUI.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="TPALMUI" Source="TPALMUI\TPALMUI.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="TPACORE" Source="TPACORE\TPACORE.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="TPACORE" Source="TPACORE\TPACORE.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="TPABACKUP" Source="TPABACKUP\TPABACKUP.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="TPABACKUP" Source="TPABACKUP\TPABACKUP.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="TPAMED" Source="TPAMED\TPAMED\TPAMED.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="TPAMED" Source="TPAMED\TPAMED\TPAMED.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="TPAPathAbroad" Source="TPAPathAbroad\TPAPathAbroad.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="TPAPathAbroad" Source="TPAPathAbroad\TPAPathAbroad.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="2" Project="TPAPanacea" Source="TPAPANACEA\TPAPanacea.csproj" Description="Unable to read the project file 'TPAPanacea.csproj'. &#xA;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets(132,9): The attribute &quot;Returns&quot; in element &lt;Target&gt; is unrecognized.">
+</Event><Event ErrorLevel="2" Project="TPALM" Source="TPALM\TPALM.csproj" Description="Unable to read the project file 'TPALM.csproj'. &#xA;E:\Development\TPA_Room\Build25012016\TPA\TPALM\TPALM.csproj: The tools version &quot;12.0&quot; is unrecognized.">
+</Event><Event ErrorLevel="2" Project="TPALMUI" Source="TPALMUI\TPALMUI.csproj" Description="Unable to read the project file 'TPALMUI.csproj'. &#xA;E:\Development\TPA_Room\Build25012016\TPA\TPALMUI\TPALMUI.csproj: The tools version &quot;12.0&quot; is unrecognized.">
+</Event><Event ErrorLevel="2" Project="TPACORE" Source="TPACORE\TPACORE.csproj" Description="Unable to read the project file 'TPACORE.csproj'. &#xA;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets(132,9): The attribute &quot;Returns&quot; in element &lt;Target&gt; is unrecognized.">
+</Event><Event ErrorLevel="2" Project="TPAMED" Source="TPAMED\TPAMED\TPAMED.csproj" Description="Unable to read the project file 'TPAMED.csproj'. &#xA;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets(132,9): The attribute &quot;Returns&quot; in element &lt;Target&gt; is unrecognized.">
+</Event><Event ErrorLevel="2" Project="TPAPathAbroad" Source="TPAPathAbroad\TPAPathAbroad.csproj" Description="Unable to read the project file 'TPAPathAbroad.csproj'. &#xA;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets(132,9): The attribute &quot;Returns&quot; in element &lt;Target&gt; is unrecognized.">
+</Event><Event ErrorLevel="0" Project="" Source="TPA.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TPA.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,76 @@
+﻿<UserControl x:Class="TPA.Templates.Common.Practice"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="600">
+
+    <Grid>
+
+        <Label x:Name="lblTitlePractice" Content="PTE Academic Mock Test Series" HorizontalAlignment="Center" Margin="0,8,0,0" VerticalAlignment="Top" Foreground="#FF00609C" FontSize="20" FontWeight="Bold"/>
+        <ListBox x:Name="practiceSetListBox" Background="Transparent" BorderBrush="Transparent" Margin="0,49,0,50">
+            
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <TextBlock.BitmapEffect>
+                            <DropShadowBitmapEffect ShadowDepth="10"
+                                Color="Gray" />
+                        </TextBlock.BitmapEffect>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,20,0" Background="#F2EFDE" Width="220" Height="330">
+                        
+                        <StackPanel Orientation="Vertical" Margin="0,10,0,0" HorizontalAlignment="Center">
+                            <Label Content="{Binding Name}" Foreground="#000000"  FontSize="16" HorizontalAlignment="Center" Margin="0,0,20,0"></Label>
+                            <Button Name="btnSpeaking" IsEnabled="{Binding SpeakingEnabled}"  HorizontalAlignment="Stretch" Width="190" Style="{DynamicResource RoundedMediumButtonStyle}" BorderBrush="#D83F32"  Content="Speaking" Click="btnItem_Click" Margin="15,10">
+                                <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                     <GradientStop Color="#FFC2C2" Offset="0" />
+                                     <GradientStop Color="#BD0000" Offset="1" />
+                                </LinearGradientBrush></Button.Background>
+                
+            
+                            </Button>
+                            <Button Name="btnWriting" IsEnabled="{Binding WritingEnabled}" Width="190"  HorizontalAlignment="Stretch" Style="{DynamicResource RoundedMediumButtonStyle}" BorderBrush="#6906CA"  Content="Writing" Click="btnItem_Click"  Margin="15,10">
+                                 <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                     <GradientStop Color="#F5EBFE" Offset="0" />
+                                     <GradientStop Color="#47048B" Offset="1" />
+                                </LinearGradientBrush></Button.Background>
+                            </Button>
+                            <Button Name="btnReading" IsEnabled="{Binding ReadingEnabled}" Width="190"  HorizontalAlignment="Stretch" Style="{DynamicResource RoundedMediumButtonStyle}"   Content="Reading" Click="btnItem_Click"  Margin="15,10">
+                                <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                     <GradientStop Color="#E1E2F5" Offset="0" />
+                                     <GradientStop Color="#2A307A" Offset="1" />
+                                </LinearGradientBrush></Button.Background>
+                            </Button>
+                            <Button Name="btnListening" IsEnabled="{Binding ListeningEnabled}" Width="190"  HorizontalAlignment="Stretch" Style="{DynamicResource RoundedMediumButtonStyle}" BorderBrush="#159F5B"   Content="Listening"  Click="btnItem_Click"  Margin="15,10">
+                                <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                     <GradientStop Color="#DBFAEB" Offset="0" />
+                                     <GradientStop Color="#107E47" Offset="1" />
+                                </LinearGradientBrush></Button.Background>
+                            </Button>
+
+                        </StackPanel>
+                    </StackPanel>
+                    </TextBlock>
+
+
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button x:Name="btnBackToMainMenu" Click="btnBackToMainMenu_Click"  VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,5" Style="{DynamicResource ResourceKey=RoundedSmallButtonStyle}" Content="Back to main menu" Width="160">
+            
+        </Button>
+
+    </Grid>
+
+</UserControl>

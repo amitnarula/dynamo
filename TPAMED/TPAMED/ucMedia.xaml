@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="TPAMED.ucMediaElement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Image Height="150" HorizontalAlignment="Left" Margin="12,12,0,0" Name="imgRandom" Stretch="Fill" VerticalAlignment="Top" Width="200" />
+        <MediaElement Height="120" HorizontalAlignment="Left" Margin="12,168,0,0" Name="medEleRandom" VerticalAlignment="Top" Width="200" />
+    </Grid>
+</UserControl>

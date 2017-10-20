@@ -1,0 +1,12 @@
+﻿<Window x:Class="TPAPathAbroad.Templates.Common.Dialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Common Dialog" Height="200" BorderThickness="2" BorderBrush="#9D1247"  Width="350" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen" WindowStyle="None" ShowInTaskbar="False" Loaded="Window_Loaded">
+    <Grid>
+        <Button x:Name="btnClose" Background="#9D1247" BorderBrush="#9D1247" Style="{DynamicResource ResourceKey=RoundedSmallButtonStyle}"  Foreground="White" FontWeight="Bold" Content="Cancel" Width="100" Click="btnClose_Click" Margin="219,115,0,12" HorizontalAlignment="Left"></Button>
+        <Button x:Name="btnOk" Background="#9D1247" BorderBrush="#9D1247" Style="{DynamicResource ResourceKey=RoundedSmallButtonStyle}" Foreground="White" FontWeight="Bold" Content="OK" Width="100" Click="btnOk_Click" Margin="115,115,0,12" HorizontalAlignment="Left"></Button>
+
+        <TextBlock Height="30" Background="#9D1247" Foreground="#FFFFFF"  TextAlignment="Center" HorizontalAlignment="Stretch" Name="txtBlkTitle" Text="Title" FontSize="16" FontWeight="Bold" VerticalAlignment="Top" />
+        <TextBlock Height="80" HorizontalAlignment="Stretch" FontSize="15"  Name="txtBlkContent" Text="Content" TextWrapping="Wrap" VerticalAlignment="Top" Margin="5,36,5,0" />
+    </Grid>
+</Window>

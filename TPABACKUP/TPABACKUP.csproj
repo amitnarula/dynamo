@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0623836F-6B0E-4B90-B481-ED6F14EA5E0D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TPABACKUP</RootNamespace>
+    <AssemblyName>TPABACKUP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CoreFramework\AnswerManager.cs" />
+    <Compile Include="CoreFramework\CommonUtilities.cs" />
+    <Compile Include="CoreFramework\CurrentState.cs" />
+    <Compile Include="CoreFramework\DataEncryptionManager.cs" />
+    <Compile Include="CoreFramework\FileReader.cs" />
+    <Compile Include="CoreFramework\FileWriter.cs" />
+    <Compile Include="CoreFramework\ISwitchable.cs" />
+    <Compile Include="CoreFramework\MediaReader.cs" />
+    <Compile Include="CoreFramework\QuestionProcessors.cs" />
+    <Compile Include="CoreFramework\Switcher.cs" />
+    <Compile Include="CoreFramework\TPACache.cs" />
+    <Compile Include="CoreFramework\TPAInstaller.cs" />
+    <Compile Include="CoreFramework\TPAInstaller.Designer.cs">
+      <DependentUpon>TPAInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\FillInTheBlanksQuestion.cs" />
+    <Compile Include="Entities\FillInTheBlanksWithOptionsQuestion.cs" />
+    <Compile Include="Entities\ListenAndFillInBlanksQuestion.cs" />
+    <Compile Include="Entities\ListenAndHighlightQuestion.cs" />
+    <Compile Include="Entities\ListenAndWriteQuestion.cs" />
+    <Compile Include="Entities\ListenMultiChoiceQuestion.cs" />
+    <Compile Include="Entities\ListenMultiSelectQuestion.cs" />
+    <Compile Include="Entities\LookSpeakListenQuestion.cs" />
+    <Compile Include="Entities\MultiChoiceMultiAnswerQuestion.cs" />
+    <Compile Include="Entities\MultiChoiceSingleAnswerQuestion.cs" />
+    <Compile Include="Entities\Option.cs" />
+    <Compile Include="Entities\PracticeSet.cs" />
+    <Compile Include="Entities\Question.cs" />
+    <Compile Include="Entities\QuestionBase.cs" />
+    <Compile Include="Entities\ReorderQuestion.cs" />
+    <Compile Include="Entities\SpeakListenQuestion.cs" />
+    <Compile Include="Entities\SpeakLookQuestion.cs" />
+    <Compile Include="Entities\SpeakReadQuestion.cs" />
+    <Compile Include="Entities\SummarizeTextQuestion.cs" />
+    <Compile Include="Entities\WriteEssayQuestion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,314 @@
+﻿<Application x:Class="TPA.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <Application.Resources>
+        <sys:String x:Key="BASE_GUID">B4AFE0DCEE464F9282BB52EE0FC03F02</sys:String>
+        <sys:String x:Key="APP_NAME">PAS</sys:String><!--Path abroad Solution app name alias-->
+        <sys:String x:Key="COMPANY_TITLE">Path Abroad</sys:String>
+        <sys:String x:Key="COPYRIGHT">© Copyright Path Abroad Solutions. All rights reserved.</sys:String>
+        <sys:String x:Key="PRACTICE_SET_TITLE">Path Abroad - PTE Academic Mock Tests</sys:String>
+        <Style x:Key="RoundedButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontSize" Value="26"></Setter>
+            <Setter Property="ClipToBounds" Value="True"></Setter>
+            <Setter Property="Width" Value="300"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+            <Setter Property="Foreground" Value="#FFFFFF"></Setter>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#05559B" Offset="0" />
+                        <GradientStop Color="#8BC7EA" Offset="1" />
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <!--<Setter Property="FontWeight" Value="Bold"></Setter>-->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button" >
+
+
+                        <Border x:Name="border" CornerRadius="30" Background="{TemplateBinding Background}" BorderBrush="#FF0F67AF" BorderThickness="2" Padding="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            
+                        </Border>
+                        
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+
+                                <!-- Below are three property settings that occur when the 
+         condition is met (user mouses over button).  -->
+                                <!-- Change the color of the outer rectangle when user 
+         mouses over it. -->
+                                <Setter Property ="Border.Background" TargetName="border"
+      Value="#4086BF" />
+                                <Setter Property="Border.Cursor" TargetName="border" Value="Hand"></Setter>
+
+                                <!-- Sets the glass opacity to 1, therefore, the 
+         glass "appears" when user mouses over it. -->
+                                <!--<Setter Property="Rectangle.Opacity" Value="1" TargetName="glassCube" />-->
+
+                                <!-- Makes the text slightly blurry as though you 
+         were looking at it through blurry glass. -->
+                                <!--<Setter Property="ContentPresenter.BitmapEffect" 
+      TargetName="myContentPresenter">
+                                    <Setter.Value>
+                                        <BlurBitmapEffect Radius="1" />
+                                    </Setter.Value>
+                                </Setter>-->
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+
+                                <Setter Property ="Border.Background" TargetName="border"
+      Value="#FF0F67AF" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+        <Style x:Key="RoundedSmallButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="ClipToBounds" Value="True"></Setter>
+            <Setter Property="Width" Value="140"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+            <!--<Setter Property="FontWeight" Value="Bold"></Setter>-->
+            <Setter Property="Background">
+                <Setter.Value>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#E1E2F5" Offset="0" />
+                            <GradientStop Color="#353D9C" Offset="1" />
+                        </LinearGradientBrush>
+                    
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderBrush" Value="#353D9C"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button" >
+
+
+                        <Border x:Name="border" CornerRadius="15" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="2" Padding="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            
+                        </Border>
+                        
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+
+                                <!-- Below are three property settings that occur when the 
+         condition is met (user mouses over button).  -->
+                                <!-- Change the color of the outer rectangle when user 
+         mouses over it. -->
+                                <Setter Property ="Border.Background" TargetName="border"
+      Value="#5279B9" />
+                                <Setter Property="Border.Cursor" TargetName="border" Value="Hand"></Setter>
+
+                                <!-- Sets the glass opacity to 1, therefore, the 
+         glass "appears" when user mouses over it. -->
+                                <!--<Setter Property="Rectangle.Opacity" Value="1" TargetName="glassCube" />-->
+
+                                <!-- Makes the text slightly blurry as though you 
+         were looking at it through blurry glass. -->
+                                <!--<Setter Property="ContentPresenter.BitmapEffect" 
+      TargetName="myContentPresenter">
+                                    <Setter.Value>
+                                        <BlurBitmapEffect Radius="1" />
+                                    </Setter.Value>
+                                </Setter>-->
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+
+                                <Setter Property ="Border.Background" TargetName="border"
+      Value="#353D9C" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+
+                                <Setter Property ="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                            <GradientStop Color="#CDCDCD" Offset="0" />
+                                            <GradientStop Color="#F0F0F0" Offset="1" />
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="Foreground" Value="#000000"></Setter>
+                                <Setter Property="BorderBrush" TargetName="border"  Value="#FF0F67AF"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+        <Style x:Key="RoundedSmallPlayerButton" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="ClipToBounds" Value="True"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+            <!--<Setter Property="FontWeight" Value="Bold"></Setter>-->
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#CDCDCD" Offset="0" />
+                        <GradientStop Color="#EBEBEB" Offset="1" />
+                    </LinearGradientBrush>
+
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderBrush" Value="#353D9C"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button" >
+
+
+                        <Border x:Name="border" CornerRadius="15" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="2" Padding="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+
+                                <!-- Below are three property settings that occur when the 
+         condition is met (user mouses over button).  -->
+                                <!-- Change the color of the outer rectangle when user 
+         mouses over it. -->
+                                <Setter Property ="Border.Background" TargetName="border"
+      Value="#5279B9" />
+                                <Setter Property="Border.Cursor" TargetName="border" Value="Hand"></Setter>
+
+                                <!-- Sets the glass opacity to 1, therefore, the 
+         glass "appears" when user mouses over it. -->
+                                <!--<Setter Property="Rectangle.Opacity" Value="1" TargetName="glassCube" />-->
+
+                                <!-- Makes the text slightly blurry as though you 
+         were looking at it through blurry glass. -->
+                                <!--<Setter Property="ContentPresenter.BitmapEffect" 
+      TargetName="myContentPresenter">
+                                    <Setter.Value>
+                                        <BlurBitmapEffect Radius="1" />
+                                    </Setter.Value>
+                                </Setter>-->
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+
+                                <Setter Property ="Border.Background" TargetName="border"
+      Value="#353D9C" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+
+                                <Setter Property ="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                            <GradientStop Color="#CDCDCD" Offset="0" />
+                                            <GradientStop Color="#F0F0F0" Offset="1" />
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="Foreground" Value="#000000"></Setter>
+                                <Setter Property="BorderBrush" TargetName="border"  Value="#FF0F67AF"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+        <Style x:Key="RoundedMediumButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="#FFFFFF"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="ClipToBounds" Value="True"></Setter>
+            <Setter Property="Width" Value="180"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <!--<Setter Property="FontWeight" Value="Bold"></Setter>-->
+            <Setter Property="Background" Value="#353D9C"></Setter>
+            
+            <Setter Property="BorderBrush" Value="#353D9C"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button" >
+
+
+                        <Border x:Name="border" CornerRadius="15" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="2" Padding="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+
+                                <!-- Below are three property settings that occur when the 
+         condition is met (user mouses over button).  -->
+                                <!-- Change the color of the outer rectangle when user 
+         mouses over it. -->
+                                <Setter Property ="Border.Background" TargetName="border"
+      Value="#00609C" />
+                                <Setter Property="Border.Cursor" TargetName="border" Value="Hand"></Setter>
+                                <Setter Property="Foreground" Value="#FFFFFF"></Setter>
+                                <Setter Property="Border.BorderBrush" TargetName="border" Value="#00609C"></Setter>
+                                    <!-- Sets the glass opacity to 1, therefore, the 
+         glass "appears" when user mouses over it. -->
+                                <!--<Setter Property="Rectangle.Opacity" Value="1" TargetName="glassCube" />-->
+
+                                <!-- Makes the text slightly blurry as though you 
+         were looking at it through blurry glass. -->
+                                <!--<Setter Property="ContentPresenter.BitmapEffect" 
+      TargetName="myContentPresenter">
+                                    <Setter.Value>
+                                        <BlurBitmapEffect Radius="1" />
+                                    </Setter.Value>
+                                </Setter>-->
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+
+                                <Setter Property ="Border.Background" TargetName="border"
+      Value="#353D9C" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+
+                                <Setter Property ="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                            <GradientStop Color="#05559B" Offset="0" />
+                                            <GradientStop Color="#8BC7EA" Offset="1" />
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="BorderBrush" TargetName="border"  Value="#FF0F67AF"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+        <Style x:Key="RoundedMediumButtonStyle_1" TargetType="{x:Type Button}" BasedOn="{StaticResource ResourceKey=RoundedMediumButtonStyle}">
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="ClipToBounds" Value="True"></Setter>
+            <Setter Property="Width" Value="180"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Background" Value="#ffffff"></Setter>
+
+        </Style>
+        <Style x:Key="RoundedXXSmallButtonStyle" TargetType="{x:Type Button}" BasedOn="{StaticResource ResourceKey=RoundedSmallButtonStyle}">
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontSize" Value="13"></Setter>
+            <Setter Property="ClipToBounds" Value="True"></Setter>
+            <Setter Property="Width" Value="120"></Setter>
+            <Setter Property="Height" Value="25"></Setter>
+            <!--<Setter Property="FontWeight" Value="Bold"></Setter>-->
+        </Style>
+    </Application.Resources>
+</Application>

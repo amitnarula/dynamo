@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="TPA.Templates.Common.BreadCrumb"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="42" d:DesignWidth="500" Height="38" Loaded="UserControl_Loaded_1" Background="#FF00609C">
+    <Grid Height="38">
+        <Label Content="Breadcrumb" Visibility="Hidden" FontWeight="Bold" FontSize="14" Foreground="#FF8BC7EA" Name="lblLegend" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Center"></Label>
+        <TextBlock Name="txtLegend" FontWeight="Bold" FontSize="12.5" Foreground="#FFFFFF" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top"></TextBlock>
+        <Rectangle Height="8.5" Margin="0" Name="rectBar" Fill="#C5DAEC" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" />
+    </Grid>
+</UserControl>

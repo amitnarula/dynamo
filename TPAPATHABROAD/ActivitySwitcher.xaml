@@ -1,0 +1,38 @@
+﻿<Window x:Class="TPA.ActivitySwitcher"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PTE" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" ResizeMode="NoResize" WindowStyle="None" xmlns:my="clr-namespace:TPA.Templates.Common" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Width="950" Height="600" BorderBrush="#FF0F67AF" BorderThickness="1.5">
+    <!--<Window.Background>
+        <LinearGradientBrush EndPoint="0.598,0.91" StartPoint="-0.39,-0.476">
+            <GradientStop Color="#FF8BC7EA"/>
+            <GradientStop Color="White" Offset="1"/>
+            <GradientStop Color="#FFB0D9F0" Offset="0.571"/>
+            <GradientStop Color="#FFB3DAF0" Offset="0.357"/>
+            <GradientStop Color="#FFB9DDF1" Offset="0.752"/>
+        </LinearGradientBrush>
+    </Window.Background>-->
+    <Grid x:Name="contentGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35*" />
+            <RowDefinition Height="520*" />
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/TPAPathAbroad;component/Templates/Images/bg.jpg"/>
+        </Grid.Background>
+        <my:ContentControl HorizontalAlignment="Stretch" Margin="0,1,0,31" x:Name="content" Grid.Row="1" />
+        <Rectangle Fill="#FF0F67AF" Stroke="#8bc7ea" VerticalAlignment="Bottom" Height="34" Grid.Row="1">
+            
+        </Rectangle>
+        <TextBlock Margin="8,0,207.5,8" VerticalAlignment="Bottom" Name="txtBlockStatus" Height="17" Text="© Copyright Company Inc. All rights reserved." TextWrapping="Wrap" FontWeight="Bold" FontSize="10.667" Foreground="#FFFFFF" Grid.Row="1" />
+        <Button HorizontalAlignment="Right" Name="btnClose"  Margin="0,4,5,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnClose_Click" Panel.ZIndex="1">
+            <Image Width="30" Height="30" Source="Templates/Images/close.png" Stretch="Fill"/>
+        </Button>
+        <Button HorizontalAlignment="Right" Name="btnHome" Margin="0,4,67,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnHome_Click" Panel.ZIndex="1">
+            <Image Width="30" Height="30" Source="Templates/Images/home.png" Stretch="Fill"/>
+        </Button>
+        <Button HorizontalAlignment="Right" Name="btnMinimize" Margin="0,4,36,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnMinimize_Click" Panel.ZIndex="1">
+            <Image Width="30" Height="30" Source="Templates/Images/min.png" Stretch="Fill"/>
+        </Button>
+        <TextBlock Padding="8,6,0,0"  Name="txtBlockAppTitle" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Text="Path Abroad Solutions" TextWrapping="Wrap" FontWeight="Bold" FontSize="20" Foreground="#FFFFFF" Grid.Row="0" Panel.ZIndex="0"><TextBlock.Background><LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5"><GradientStop Color="#FF0F67AF" Offset="0" /><GradientStop Color="White" Offset="1" /></LinearGradientBrush></TextBlock.Background></TextBlock>
+    </Grid>
+</Window>

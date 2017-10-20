@@ -1,0 +1,29 @@
+Thumbs.db
+#Ignore files build by Visual Studio
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+
+#Customized as per dynamo
+*.msi
+*.tpi
+*.tpm
+ENHAVO
+ENHAVO.DEMO
+Resources.DEMO
+Resources

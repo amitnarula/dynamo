@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="LicenseManagerModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="LicenseManagerModelStoreContainer">
+          <EntitySet Name="LicenseKeys" EntityType="LicenseManagerModel.Store.LicenseKeys" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PaymentCodes" EntityType="LicenseManagerModel.Store.PaymentCodes" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_LicenseKeys_PaymentCodes" Association="LicenseManagerModel.Store.FK_LicenseKeys_PaymentCodes">
+            <End Role="PaymentCodes" EntitySet="PaymentCodes" />
+            <End Role="LicenseKeys" EntitySet="LicenseKeys" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="LicenseKeys">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="KeyCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="MachineCode" Type="nvarchar" Nullable="false" MaxLength="10" />
+          <Property Name="CreatedOn" Type="datetime" Nullable="false" />
+          <Property Name="IsExhausted" Type="bit" Nullable="false" />
+          <Property Name="ProductUID" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="PaymentCodeId" Type="bigint" />
+          <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Lastname" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="PaymentCodes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Code" Type="nvarchar" Nullable="false" MaxLength="15" />
+          <Property Name="IsExhausted" Type="bit" Nullable="false" />
+          <Property Name="ValidityDays" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_LicenseKeys_PaymentCodes">
+          <End Role="PaymentCodes" Type="LicenseManagerModel.Store.PaymentCodes" Multiplicity="0..1" />
+          <End Role="LicenseKeys" Type="LicenseManagerModel.Store.LicenseKeys" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PaymentCodes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LicenseKeys">
+              <PropertyRef Name="PaymentCodeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LicenseManagerModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="LicenseManagerEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="LicenseKeys" EntityType="LicenseManagerModel.LicenseKey" />
+          <EntitySet Name="PaymentCodes" EntityType="LicenseManagerModel.PaymentCode" />
+          <AssociationSet Name="FK_LicenseKeys_PaymentCodes" Association="LicenseManagerModel.FK_LicenseKeys_PaymentCodes">
+            <End Role="PaymentCode" EntitySet="PaymentCodes" />
+            <End Role="LicenseKey" EntitySet="LicenseKeys" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="LicenseKey">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KeyCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MachineCode" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="IsExhausted" Type="Boolean" Nullable="false" />
+          <Property Name="ProductUID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int64" Name="PaymentCodeId" />
+          <NavigationProperty Name="PaymentCode" Relationship="LicenseManagerModel.FK_LicenseKeys_PaymentCodes" FromRole="LicenseKey" ToRole="PaymentCode" />
+          <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Lastname" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Email" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="PaymentCode">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Code" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsExhausted" Nullable="false" />
+          <Property Name="ValidityDays" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="LicenseKeys" Relationship="LicenseManagerModel.FK_LicenseKeys_PaymentCodes" FromRole="PaymentCode" ToRole="LicenseKey" />
+        </EntityType>
+        <Association Name="FK_LicenseKeys_PaymentCodes">
+          <End Type="LicenseManagerModel.PaymentCode" Role="PaymentCode" Multiplicity="0..1" />
+          <End Type="LicenseManagerModel.LicenseKey" Role="LicenseKey" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PaymentCode">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LicenseKey">
+              <PropertyRef Name="PaymentCodeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LicenseManagerModelStoreContainer" CdmEntityContainer="LicenseManagerEntities">
+          <EntitySetMapping Name="LicenseKeys">
+            <EntityTypeMapping TypeName="LicenseManagerModel.LicenseKey">
+              <MappingFragment StoreEntitySet="LicenseKeys">
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Lastname" ColumnName="Lastname" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="PaymentCodeId" ColumnName="PaymentCodeId" />
+                <ScalarProperty Name="ProductUID" ColumnName="ProductUID" />
+                <ScalarProperty Name="IsExhausted" ColumnName="IsExhausted" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="MachineCode" ColumnName="MachineCode" />
+                <ScalarProperty Name="KeyCode" ColumnName="KeyCode" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PaymentCodes">
+            <EntityTypeMapping TypeName="LicenseManagerModel.PaymentCode">
+              <MappingFragment StoreEntitySet="PaymentCodes">
+                <ScalarProperty Name="ValidityDays" ColumnName="ValidityDays" />
+                <ScalarProperty Name="IsExhausted" ColumnName="IsExhausted" />
+                <ScalarProperty Name="Code" ColumnName="Code" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="LicenseManager">
+        <EntityTypeShape EntityType="LicenseManagerModel.LicenseKey" Width="1.5" PointX="0.75" PointY="0.75" Height="2.172587890625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LicenseManagerModel.PaymentCode" Width="1.5" PointX="3.375" PointY="0.75" Height="1.5956835937499996" />
+        <AssociationConnector Association="LicenseManagerModel.FK_LicenseKeys_PaymentCodes" >
+          <ConnectorPoint PointX="3.375" PointY="1.7401432291666672" />
+          <ConnectorPoint PointX="2.25" PointY="1.7401432291666672" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,49 @@
+﻿<UserControl xmlns:my="clr-namespace:TPA.Templates.Common"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop" xmlns:Common="clr-namespace:TPA.Templates.Common" x:Class="TPA.Templates.Reading.Reorder" 
+             mc:Ignorable="d" 
+             Name="ucReorder"
+             d:DesignHeight="300" d:DesignWidth="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="291*" />
+            <ColumnDefinition Width="20*" />
+            <ColumnDefinition Width="289*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="54*" />
+            <RowDefinition Height="54*" />
+            <RowDefinition Height="67*" />
+            <RowDefinition Height="125*" />
+        </Grid.RowDefinitions>
+        <TextBlock Height="Auto" HorizontalAlignment="Stretch" Margin="30,38,34,0" Name="txtBlkInstruction" Text="Instruction goes here" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" TextWrapping="Wrap"  Grid.ColumnSpan="3" Grid.RowSpan="2" />
+        <ListBox SelectionMode="Extended" BorderBrush="#FF00609C" BorderThickness="1" HorizontalAlignment="Left"  x:Name="lstSource" 
+    		dd:DragDrop.IsDragSource="False" Padding="10" Margin="100,12,0,80" Width="330"  dd:DragDrop.IsDropTarget="False" Grid.Row="1" Grid.RowSpan="3">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Background="#FF00609C" Height="Auto" Margin="0,0,0,5" >
+                        <TextBlock TextWrapping="Wrap" Text="{Binding Name}" Foreground="White" Width="290" Margin="2,2,2,2" Padding="2"  HorizontalAlignment="Stretch" VerticalAlignment="Center" FontSize="14"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Common:PreviousNext x:Name="prevNext" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Grid.Row="3" Grid.ColumnSpan="3" />
+        <my:BreadCrumb HorizontalAlignment="Stretch" x:Name="breadCrumb" VerticalAlignment="Top" Width="Auto" Height="Auto" Grid.ColumnSpan="3" />
+        <ListBox BorderBrush="#FF00609C" BorderThickness="1" dd:DragDrop.IsDragSource="False"  dd:DragDrop.IsDropTarget="False" HorizontalAlignment="Right" Margin="19,12,100,80" Name="lstTarget" Padding="10" SelectionMode="Extended" Width="330" Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="2">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Background="#FF00609C" Height="Auto" Margin="0,0,0,5">
+                        <TextBlock FontSize="14" Foreground="White" HorizontalAlignment="Stretch" Margin="2,2,2,2" Padding="2" Text="{Binding Name}" TextWrapping="Wrap" VerticalAlignment="Center" Width="290" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Background="#FF8BC7EA" BorderBrush="#FF8BC7EA" FontWeight="Bold" Foreground="#FF00609C" Content="&gt;" Click="btnToRight_Click" Grid.Row="2" Height="23" HorizontalAlignment="Center" Margin="264,0,261,0" Name="btnToRight" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="3" />
+        <Button Background="#FF8BC7EA" BorderBrush="#FF8BC7EA"  FontWeight="Bold" Foreground="#FF00609C" Content="&lt;" Click="btnToLeft_Click" Height="23" HorizontalAlignment="Center" Margin="264,44,261,0" Name="btnToLeft" VerticalAlignment="Top" Width="75" Grid.Row="2" Grid.ColumnSpan="3" />
+        <Button Background="#FF8BC7EA" BorderBrush="#FF8BC7EA"  FontWeight="Bold" Foreground="#FF00609C" Content="Move up" Click="btnToUp_Click"  Height="23" HorizontalAlignment="Right" Margin="208,0,20,0" Name="btnToUp" VerticalAlignment="Top" Width="75" Grid.Column="2" Grid.Row="2" />
+        <Button Background="#FF8BC7EA" BorderBrush="#FF8BC7EA"  FontWeight="Bold" Foreground="#FF00609C" Content="Move down" Click="btnToDown_Click" Height="23" HorizontalAlignment="Right" Margin="208,44,20,0" Name="btnToDown" VerticalAlignment="Top" Width="75" Grid.Column="2" Grid.Row="2" />
+    </Grid>
+</UserControl>
