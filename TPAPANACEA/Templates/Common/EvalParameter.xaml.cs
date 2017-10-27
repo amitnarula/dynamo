@@ -19,12 +19,12 @@ namespace TPAPanacea.Templates.Common
     /// </summary>
     public partial class EvalParameter : UserControl
     {
-        public string ParamName { get; set; }
+        public string ParamName { get { return lblParamName.Content.ToString(); } set { lblParamName.Content = value; } }
         public string ParamMax { get; set; }
         public string ParamMin { get; set; }
         public string Type { get; set; }
 
-        public string ParamScore { get; set; }
+        public string ParamScore { get { return txtEvaluatedMarks.Text; } set { txtEvaluatedMarks.Text = value; } }
 
         public EvalParameter()
         {
@@ -37,6 +37,34 @@ namespace TPAPanacea.Templates.Common
             lblOutOf.Content = "/" + ParamMax;
             lblParamName.Content = ParamName;
             txtEvaluatedMarks.Text = ParamScore;
+        }
+
+        public bool ValidateParameterInput()
+        {
+            //validate type and values
+            int valueResult = 0;
+            decimal decimalValueResult = 0;
+            switch (Type)
+            {
+                case "int":
+                    if (!int.TryParse(ParamScore, out valueResult) || valueResult > Convert.ToInt32(ParamMax))
+                    {
+                        System.Windows.Forms.MessageBox.Show("Invalid value for parameter :"+ParamName);
+                        return false;
+                    }
+                    break;
+                case "decimal":
+                    if (!decimal.TryParse(ParamScore, out decimalValueResult) || decimalValueResult > Convert.ToDecimal(ParamMax))
+                    {
+                        System.Windows.Forms.MessageBox.Show("Invalid value for parameter:"+ParamName);
+                        return false;
+                    }
+                    break;
+
+                default:
+                    throw new ArgumentException("Invalid type of parameter");
+            }
+            return true;
         }
     }
 }

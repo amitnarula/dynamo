@@ -51,17 +51,24 @@ namespace TPAPanacea.Templates.Common
         private void btnSaveResults_Click(object sender, RoutedEventArgs e)
         {
             List<EvaluationResult> result = new List<EvaluationResult>();
-            
-            foreach (var item in Parameters)
-            {
-                result.Add(new EvaluationResult()
-                {
-                    ParamMaxScore = item.Max,
-                    ParamName = item.Name,
-                    ParamScore = "3" //default value is a must here
-                });
-            }
 
+            foreach (UIElement item in stkParams.Children)
+            {
+                EvalParameter param = item as EvalParameter;
+                if (param.ValidateParameterInput())
+                {
+                    result.Add(new EvaluationResult()
+                    {
+                        ParamMaxScore = param.ParamMax,
+                        ParamName = param.ParamName,
+                        ParamScore = param.ParamScore
+                    });
+                }
+                else
+                    break;
+
+            }
+            
             EvaluationManager.Evaluate(QuestionId, result);
         }
     }

@@ -292,7 +292,7 @@ namespace TPA.Templates.Common
                 new TPACORE.Entities.EvaluationParameter() {
                     Max ="5",
                     Min ="0",
-                    Type="int",
+                    Type="decimal",
                     Name="Content"
                 },
                 new TPACORE.Entities.EvaluationParameter() {
