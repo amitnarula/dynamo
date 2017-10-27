@@ -9,6 +9,7 @@ namespace TPA.CoreFramework
     public class TPACache
     {
         private const string CURRENT_STATE_KEY = "CURRENT_STATE";
+        public static string LOGIN_KEY = "LOGIN_KEY";
         private static ObjectCache cache = MemoryCache.Default;
         public static void SetItem(string key, object value, TimeSpan tsOffset)
         {

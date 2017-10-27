@@ -15,6 +15,7 @@ using TPA.Entities;
 using TPA.CoreFramework;
 using WinForms = System.Windows.Forms;
 using System.Windows.Threading;
+using TPAPanacea.Templates.Common;
 
 namespace TPA.Templates.Common
 {
@@ -90,6 +91,10 @@ namespace TPA.Templates.Common
                 return "TIME_OUT";
             else
                 return AttemptTime.ToString();
+        }
+        public void SwitchToEvaluationMode()
+        {
+            btnEvaluate.Visibility = Visibility.Visible;
         }
 
         void timer_Tick(object sender, EventArgs e)
@@ -195,6 +200,7 @@ namespace TPA.Templates.Common
                     QuestionContext.DelayTime : TimeSpan.Zero;
                 
                 btnYourResponse.Visibility = Visibility.Hidden;
+                btnEvaluate.Visibility = Visibility.Hidden;
 
                 if (this.CurrentQuestionIndex == 0)
                 {
@@ -218,6 +224,11 @@ namespace TPA.Templates.Common
 
                     if (QuestionContext.CurrentQuestionType != QuestionType.SPEAKING) //Your response button is not available
                         btnYourResponse.Visibility = Visibility.Visible;
+
+                    ///var loginStatus = TPACache.GetItem(TPACache.LOGIN_KEY);
+                    ///if (loginStatus != null && (CurrentQuestionType == QuestionType.SPEAKING || CurrentQuestionType == QuestionType.WRITING))
+                        btnEvaluate.Visibility = Visibility.Visible;
+
                 }
 
                 if (this.CurrentMode == Mode.TIME_OUT)
@@ -273,6 +284,32 @@ namespace TPA.Templates.Common
                 YourResponseClicked(this, eventArgs);
         }
 
+        private void btnEvaluate_Click(object sender, RoutedEventArgs e)
+        {
+            Evaluate evaluate = new Evaluate();
+            evaluate.QuestionId = QuestionContext.Id;
+            evaluate.Parameters = new List<TPACORE.Entities.EvaluationParameter>() {
+                new TPACORE.Entities.EvaluationParameter() {
+                    Max ="5",
+                    Min ="0",
+                    Type="int",
+                    Name="Content"
+                },
+                new TPACORE.Entities.EvaluationParameter() {
+                    Max ="5",
+                    Min ="0",
+                    Type="int",
+                    Name="Form"
+                },
+                new TPACORE.Entities.EvaluationParameter() {
+                    Max ="5",
+                    Min ="0",
+                    Type="int",
+                    Name="Vocabulary"
+                }
+            };
+            evaluate.ShowDialog();
+        }
     }
 
     public class YourResponseEventArgs : EventArgs

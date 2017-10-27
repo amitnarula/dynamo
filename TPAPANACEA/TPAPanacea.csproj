@@ -120,7 +120,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>PANICO.ico</ApplicationIcon>
@@ -228,11 +228,20 @@
     <Compile Include="Templates\Common\ContentControl.xaml.cs">
       <DependentUpon>ContentControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Templates\Common\EvalParameter.xaml.cs">
+      <DependentUpon>EvalParameter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Common\Evaluate.xaml.cs">
+      <DependentUpon>Evaluate.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Templates\Common\HomePanacia.xaml.cs">
       <DependentUpon>HomePanacia.xaml</DependentUpon>
     </Compile>
     <Compile Include="Templates\Common\Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Common\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
     <Compile Include="Templates\Common\Practice.xaml.cs">
       <DependentUpon>Practice.xaml</DependentUpon>
@@ -338,11 +347,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Templates\Common\EvalParameter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Templates\Common\Evaluate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Templates\Common\HomePanacia.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Templates\Common\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Templates\Common\Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -463,6 +484,7 @@
     <Content Include="Resources\beep.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Templates\Images\login.png" />
     <EmbeddedResource Include="Resources\B4AFE0DCEE464F9282BB52EE0FC03F02_QL.xml" />
     <EmbeddedResource Include="Resources\B4AFE0DCEE464F9282BB52EE0FC03F02_QR.xml" />
     <EmbeddedResource Include="Resources\B4AFE0DCEE464F9282BB52EE0FC03F02_QS.xml" />
@@ -2075,9 +2097,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\ENHAVO\T10HIW1audio34.tpm">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\ENHAVO\T10HIW2audio35">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\ENHAVO\T10HIW2audio35.tpm">

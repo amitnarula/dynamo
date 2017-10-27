@@ -12,19 +12,22 @@
         </LinearGradientBrush>
     </Window.Background>-->
     <Grid>
-        <my:ContentControl HorizontalAlignment="Stretch" Margin="0,42,0,31" x:Name="content" />
+        <my:ContentControl HorizontalAlignment="Stretch" Margin="-5,34,5,39" x:Name="content" />
         <Rectangle Fill="#8bc7ea" Stroke="#8bc7ea" VerticalAlignment="Bottom" Height="34"/>
         <TextBlock Margin="8,0,207.5,8" VerticalAlignment="Bottom" Name="txtBlockStatus" Height="17" Text="© Copyright Company Inc. All rights reserved." TextWrapping="Wrap" FontWeight="Bold" FontSize="10.667" Foreground="#FF2179AF"/>
         <Button HorizontalAlignment="Right" Name="btnClose"  Margin="0,4,5,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnClose_Click">
             <Image Width="30" Height="30" Source="Templates/Images/close.png" Stretch="Fill"/>
         </Button>
-        <Button HorizontalAlignment="Right" Name="btnHome" Margin="0,4,67,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnHome_Click">
+        <Button HorizontalAlignment="Right" Name="btnHome" Margin="0,4,97,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnHome_Click">
             <Image Width="30" Height="30" Source="Templates/Images/home.png" Stretch="Fill"/>
+        </Button>
+        <Button HorizontalAlignment="Right" Name="btnLogin" Margin="0,4,67,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnLogin_Click">
+            <Image Width="30" Height="30" Source="Templates/Images/login.png" Stretch="Fill"/>
         </Button>
         <Button HorizontalAlignment="Right" Name="btnMinimize" Margin="0,4,36,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnMinimize_Click">
             <Image Width="30" Height="30" Source="Templates/Images/min.png" Stretch="Fill"/>
         </Button>
-        <TextBlock Margin="8,8,105,0" Name="txtBlockAppTitle" VerticalAlignment="Top" Height="28" Text="Path Abroad Solutions" TextWrapping="Wrap" FontWeight="Bold" FontSize="16.667" Foreground="#FF2179AF"/>
+        <TextBlock Margin="8,8,131,0" Name="txtBlockAppTitle" VerticalAlignment="Top" Height="28" Text="Path Abroad Solutions" TextWrapping="Wrap" FontWeight="Bold" FontSize="16.667" Foreground="#FF2179AF"/>
 
     </Grid>
 </Window>

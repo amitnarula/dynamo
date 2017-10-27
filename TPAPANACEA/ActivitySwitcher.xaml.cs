@@ -13,6 +13,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using TPA.CoreFramework;
 using TPA.Templates.Common;
+using TPAPanacea.Templates.Common;
 using WinForm = System.Windows.Forms;
 
 namespace TPA
@@ -103,5 +104,25 @@ namespace TPA
             this.WindowState = WindowState.Minimized;
         }
 
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            var loginResult = TPACache.GetItem(TPACache.LOGIN_KEY);
+            if (loginResult != null)
+            {
+                var result = System.Windows.Forms.MessageBox.Show("Welcome Teacher, you are already logged in. Please press OK to logout", "Logout", System.Windows.Forms.MessageBoxButtons.OKCancel,
+                         System.Windows.Forms.MessageBoxIcon.Information, System.Windows.Forms.MessageBoxDefaultButton.Button1);
+                if (result == System.Windows.Forms.DialogResult.OK)
+                {
+                    //perform logout
+                    TPACache.RemoveItem(TPACache.LOGIN_KEY);
+                }
+            }
+            else
+            {
+                //Open login page
+                Login lgn = new Login();
+                lgn.ShowDialog();
+            }
+        }
     }
 }

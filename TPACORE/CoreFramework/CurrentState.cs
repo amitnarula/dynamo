@@ -13,4 +13,16 @@ namespace TPA.CoreFramework
         public QuestionType QuestionType { get; set; }
         
     }
+
+    public enum LoginStatus
+    {
+        OK,
+        Failed,
+        SessionExpired
+    }
+
+    public class LoginState
+    {
+        public LoginStatus CurrentStatus { get; set; } 
+    }
 }
