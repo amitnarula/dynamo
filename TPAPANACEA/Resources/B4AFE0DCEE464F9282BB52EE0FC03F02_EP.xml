@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<evalParams>
+  <template>
+    <key>SUMMARIZE_TEXT</key>
+    <params>Content,int,0,3|Form,decimal,0,2|Grammer,int,0,2|Vocabulary,int,0,5</params>
+  </template>
+  <template>
+    <key>WRITE_ESSAY</key>
+    <params>Content,int,0,3|Grammer,int,0,2</params>
+  </template>
+</evalParams>

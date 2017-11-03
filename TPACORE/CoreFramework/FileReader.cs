@@ -43,6 +43,9 @@ namespace TPA.CoreFramework
                 case FileType.QUESTION_TITLES:
                     baseGuidPracticeSetFileName = baseGuid.Append("_QT.xml").ToString();
                     break;
+                case FileType.EVALUATION_PARAMETER:
+                    baseGuidPracticeSetFileName = baseGuid.Append("_EP.xml").ToString();
+                    break;
                 default:
                     break;
             }
@@ -67,7 +70,8 @@ namespace TPA.CoreFramework
             QUESTION_WRITING,
             QUESTION_LISTENING,
             QUESTION_SPEAKING,
-            QUESTION_TITLES
+            QUESTION_TITLES,
+            EVALUATION_PARAMETER
         }
 
         public static void ProvideWriteAccessToFolder(string folder, bool hideFolder)

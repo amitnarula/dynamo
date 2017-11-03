@@ -16,6 +16,7 @@ using TPA.CoreFramework;
 using WinForms = System.Windows.Forms;
 using System.Windows.Threading;
 using TPAPanacea.Templates.Common;
+using System.Data;
 
 namespace TPA.Templates.Common
 {
@@ -28,7 +29,7 @@ namespace TPA.Templates.Common
         private DispatcherTimer delayTimer;
         private string CurrentPracticeSetId { get; set; }
         private QuestionType CurrentQuestionType { get; set; }
-        private bool IsPreviousQuestionSelected{get;set;}
+        private bool IsPreviousQuestionSelected { get; set; }
         private int CurrentQuestionIndex { get; set; }
         private int TotalQuestionsCount { get; set; }
         private Mode CurrentMode { get; set; }
@@ -36,11 +37,13 @@ namespace TPA.Templates.Common
         public string UserAnswer { get; set; }
         public TimeSpan DelayTimer { get; set; }
         private bool IsTimeOut { get; set; }
-        
-        
+
+
         private TimeSpan AttemptTime { get; set; }
         private AttemptTimeType AttemptTimeType { get; set; }
-        
+
+        public string QuestionTemplateKey { get; set; }
+
         public delegate void PrevNextEventHandler(object sender, EventArgs e);
         public event PrevNextEventHandler PrevNextClicked;
 
@@ -108,7 +111,7 @@ namespace TPA.Templates.Common
             {
                 WinForms.MessageBox.Show("Timeout, Please press OK for next question");
 
-                object currentSender = (btnSubmit.Visibility==Visibility.Hidden) ? btnNext : btnSubmit; //Taking care of next/submit scenarios
+                object currentSender = (btnSubmit.Visibility == Visibility.Hidden) ? btnNext : btnSubmit; //Taking care of next/submit scenarios
                 IsTimeOut = true;
                 btnNextPrevious_Click(currentSender, null);
 
@@ -129,18 +132,18 @@ namespace TPA.Templates.Common
 
             //Next/Previous button click question button click raise event
             OnPrevNextClicked(e);
-            if(btnSender.Name=="btnNext" || btnSender.Name=="btnSubmit" || btnSender.Name == "btnSaveAndExit")
+            if (btnSender.Name == "btnNext" || btnSender.Name == "btnSubmit" || btnSender.Name == "btnSaveAndExit")
             {
                 if (btnSender.Name == "btnSubmit")
                 {
-                    WinForms.DialogResult result= WinForms.MessageBox.Show("Thanks for your attempt, Your answers are now saved, Press OK to go back to Home");
+                    WinForms.DialogResult result = WinForms.MessageBox.Show("Thanks for your attempt, Your answers are now saved, Press OK to go back to Home");
                     if (result == WinForms.DialogResult.OK)
                     {
                         Switcher.Switch(new HomePanacia());
                         //Switcher.Switch(new Home());
                         return;
                     }
-                    
+
                 }
                 else if (btnSender.Name == "btnSaveAndExit")
                 {
@@ -148,7 +151,7 @@ namespace TPA.Templates.Common
                     if (result == WinForms.DialogResult.OK)
                     {
                         //Save state here
-                        TPACache.SetItem(CurrentPracticeSetId+CurrentQuestionType.ToString(), new CurrentState()
+                        TPACache.SetItem(CurrentPracticeSetId + CurrentQuestionType.ToString(), new CurrentState()
                         {
                             QuestionIndex = CurrentQuestionIndex,
                             PracticeSetId = CurrentPracticeSetId,
@@ -160,10 +163,10 @@ namespace TPA.Templates.Common
                         return;
                     }
                 }
-                
+
                 questionState.IsNextQuestionSelected = true;
                 questionState.IsPreviousQuestionSelected = false;
-            
+
             }
             else
             {
@@ -182,7 +185,7 @@ namespace TPA.Templates.Common
 
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
-            
+
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
@@ -198,7 +201,7 @@ namespace TPA.Templates.Common
                 this.AttemptTimeType = QuestionContext.AttemptTimeType;
                 this.DelayTimer = QuestionContext.AttemptTimeType == AttemptTimeType.INDIVIDUAL_QUESTION ?
                     QuestionContext.DelayTime : TimeSpan.Zero;
-                
+
                 btnYourResponse.Visibility = Visibility.Hidden;
                 btnEvaluate.Visibility = Visibility.Hidden;
 
@@ -212,7 +215,7 @@ namespace TPA.Templates.Common
                     btnNext.Visibility = Visibility.Hidden;
                     btnSubmit.Visibility = Visibility.Visible;
 
-                    if (this.CurrentMode == Mode.ANSWER_KEY || this.CurrentMode==Mode.TIME_OUT)
+                    if (this.CurrentMode == Mode.ANSWER_KEY || this.CurrentMode == Mode.TIME_OUT)
                     {
                         btnSubmit.IsEnabled = false; //Submit should be disabled when its an answer key or timeout mode
                     }
@@ -227,7 +230,7 @@ namespace TPA.Templates.Common
 
                     ///var loginStatus = TPACache.GetItem(TPACache.LOGIN_KEY);
                     ///if (loginStatus != null && (CurrentQuestionType == QuestionType.SPEAKING || CurrentQuestionType == QuestionType.WRITING))
-                        btnEvaluate.Visibility = Visibility.Visible;
+                    btnEvaluate.Visibility = Visibility.Visible;
 
                 }
 
@@ -235,7 +238,7 @@ namespace TPA.Templates.Common
                     IsTimeOut = true; // set is time out true if question mode is already timeout mode
 
                 lblTimer.Content = "Time left : " + AttemptTime.ToString();
-                
+
                 if (this.AttemptTime != TimeSpan.Zero && CurrentMode == Mode.QUESTION) //Some value for timestamp exists
                 {
                     delayTimer.Start();
@@ -263,7 +266,7 @@ namespace TPA.Templates.Common
             if (btnYourResponse.Content.ToString().Equals("Your Response"))
             {
                 btnYourResponse.Content = "Correct Answer";
-                if(!QuestionContext.UserAnswers.Any())
+                if (!QuestionContext.UserAnswers.Any())
                     WinForms.MessageBox.Show("Looks like you didn't attempt this question.");
                 eventArgs.ShowYourAnswer = true;
             }
@@ -288,29 +291,30 @@ namespace TPA.Templates.Common
         {
             Evaluate evaluate = new Evaluate();
             evaluate.QuestionId = QuestionContext.Id;
-            evaluate.Parameters = new List<TPACORE.Entities.EvaluationParameter>() {
-                new TPACORE.Entities.EvaluationParameter() {
-                    Max ="5",
-                    Min ="0",
-                    Type="decimal",
-                    Name="Content"
-                },
-                new TPACORE.Entities.EvaluationParameter() {
-                    Max ="5",
-                    Min ="0",
-                    Type="int",
-                    Name="Form"
-                },
-                new TPACORE.Entities.EvaluationParameter() {
-                    Max ="5",
-                    Min ="0",
-                    Type="int",
-                    Name="Vocabulary"
+            DataSet ds = FileReader.ReadFile(FileReader.FileType.EVALUATION_PARAMETER);
+            DataRow[] parameters = ds.Tables["template"].Select("key='" + this.QuestionTemplateKey + "'");
+
+            DataRow drowParam = parameters[0];
+            if (drowParam != null)
+            {
+                var evalParams = Convert.ToString(drowParam["params"]).Split('|');
+                evaluate.Parameters = new List<TPACORE.Entities.EvaluationParameter>();
+                foreach (var prm in evalParams)
+                {
+                    var evalParam = prm.Split(',');
+                    evaluate.Parameters.Add(new TPACORE.Entities.EvaluationParameter() {
+                        Max = evalParam[3],
+                        Min = evalParam[2],
+                        Name = evalParam[0],
+                        Type = evalParam[1]
+                    });
                 }
+
             };
             evaluate.ShowDialog();
         }
     }
+    
 
     public class YourResponseEventArgs : EventArgs
     {

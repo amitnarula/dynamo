@@ -53,6 +53,7 @@ namespace TPA.Templates.Writing
             prevNext.QuestionContext = question;
             prevNext.PrevNextClicked += previousNext_PrevNextClicked;
             prevNext.YourResponseClicked+=prevNext_YourResponseClicked;
+            prevNext.QuestionTemplateKey = question.QuestionTemplate;
             
             breadCrumb.PracticeSetId = question.CurrentPracticeSetId;
             breadCrumb.QuestionTemplate = (QuestionTemplates)Enum.Parse(typeof(QuestionTemplates), question.QuestionTemplate);

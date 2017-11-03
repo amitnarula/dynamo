@@ -7,32 +7,7 @@
   <title>
     <titleKey>WRITE_ESSAY</titleKey>
     <value>Write essay</value>
-    <EvaluationParams>
-      <param>
-        <name>Content</name>
-        <maxPoint>3</maxPoint>
-        <type>int</type>
-        <minPoint>0</minPoint>
-      </param>
-      <param>
-        <name>Form</name>
-        <maxPoint>2</maxPoint>
-        <type>decimal</type>
-        <minPoint>0</minPoint>
-      </param>
-      <param>
-        <name>Grammer</name>
-        <maxPoint>2</maxPoint>
-        <type>int</type>
-        <minPoint>0</minPoint>
-      </param>
-      <param>
-        <name>Vocabulary</name>
-        <maxPoint>2</maxPoint>
-        <type>int</type>
-        <minPoint>0</minPoint>
-      </param>
-    </EvaluationParams>
+    
   </title>
   <title>
     <titleKey>SUMMARIZE_TEXT</titleKey>

@@ -41,7 +41,8 @@ namespace TPAPanacea.Templates.Common
                 ep.ParamMax = item.Max;
                 ep.ParamMin = item.Min;
                 ep.Type = item.Type;
-                ep.ParamScore = savedResults != null ? savedResults.Where(x => x.ParamName.Equals(ep.ParamName, StringComparison.InvariantCultureIgnoreCase)).SingleOrDefault().ParamScore : string.Empty;
+                var parameterScore = savedResults != null ? savedResults.Where(x => x.ParamName.Equals(ep.ParamName, StringComparison.InvariantCultureIgnoreCase)).SingleOrDefault() : null;
+                ep.ParamScore = parameterScore != null ? parameterScore.ParamScore.ToString() : null;
                 stkParams.Children.Add(ep);
 
             }
