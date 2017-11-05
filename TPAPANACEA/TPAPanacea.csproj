@@ -484,9 +484,6 @@
     <Content Include="Data\Logs\appStart.log">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Logs\appLogs.log">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Data\Temp\25f7808a-bc50-4857-8e4e-76b8713ff215\info.md">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -2077,9 +2074,6 @@
     <Content Include="Data\ENHAVO\T10HIW1audio34.tpm">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\ENHAVO\T10HIW2audio35">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Data\ENHAVO\T10HIW2audio35.tpm">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -2219,6 +2213,7 @@
     <Content Include="Data\Temp\ade9eacf-c059-4803-a005-3e38d9292b58\info.md">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Logs\appStart.log" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
