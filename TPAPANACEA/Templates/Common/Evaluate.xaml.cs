@@ -69,8 +69,12 @@ namespace TPAPanacea.Templates.Common
                     break;
 
             }
-            
-            EvaluationManager.Evaluate(QuestionId, result);
+            if (result.Count == stkParams.Children.Count) //if all the params are there successfully
+            {
+                EvaluationManager.Evaluate(QuestionId, result);
+                System.Windows.Forms.MessageBox.Show("Evaluation successful");
+                this.Close();
+            }
         }
     }
 }

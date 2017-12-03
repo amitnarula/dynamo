@@ -8,6 +8,6 @@
         Title="Evaluate" Height="300" Width="300">
     <Grid>
         <StackPanel Name="stkParams" Orientation="Vertical"></StackPanel>
-        <Button Name="btnSaveResults" Content="Save" Margin="0,247,0,0" Click="btnSaveResults_Click"></Button>
+        <Button Name="btnSaveResults" Content="Save" Margin="0,227,0,0" Click="btnSaveResults_Click"></Button>
     </Grid>
 </Window>
