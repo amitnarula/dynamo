@@ -8,4 +8,8 @@
     <key>WRITE_ESSAY</key>
     <params>Content,int,0,3|Grammer,int,0,2</params>
   </template>
+  <template>
+    <key>LISTEN_AND_WRITE</key>
+    <params>Content,int,0,3|Form,int,0,2|Grammer,int,0,2|Vocabulary,int,0,5</params>
+  </template>
 </evalParams>

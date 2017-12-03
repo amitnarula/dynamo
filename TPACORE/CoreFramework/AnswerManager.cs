@@ -7,6 +7,7 @@ using System.Text;
 using TPA.Entities;
 using System.Security.Cryptography;
 using CryptoXML;
+using TPACORE.CoreFramework;
 
 namespace TPA.CoreFramework
 {
@@ -94,6 +95,8 @@ namespace TPA.CoreFramework
                 xmlEncryptor.WriteEncryptedXML(dsPracticeSetTime, practiceSetTimeOutputFilename);
 
             }
+            
+            EvaluationManager.Evaluate(questionBase, answer); //Evaluation manager logging results
             
         }
 

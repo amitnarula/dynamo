@@ -15,6 +15,7 @@ using TPA.CoreFramework;
 using TPA.Entities;
 using TPA.Templates.Common;
 using System.Collections.ObjectModel;
+using TPACORE.CoreFramework;
 
 namespace TPA.Templates.Reading
 {
@@ -92,7 +93,7 @@ namespace TPA.Templates.Reading
         void prevNext_PrevNextClicked(object sender, EventArgs e)
         {
             string userAnswer = question.Options.Where(_ => _.IsSelected).Select(_ => _.Id).SingleOrDefault();
-            AnswerManager.LogAnswer(question, userAnswer,prevNext.GetAttemptTimeLeft());
+            AnswerManager.LogAnswer(question, userAnswer, prevNext.GetAttemptTimeLeft());
         }
 
         private void radOption_Click(object sender, RoutedEventArgs e)
