@@ -252,6 +252,9 @@
     <Compile Include="Templates\Common\QuestionSwitcher.xaml.cs">
       <DependentUpon>QuestionSwitcher.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Templates\Common\Results.xaml.cs">
+      <DependentUpon>Results.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Templates\Common\SmallAudioPlayer.xaml.cs">
       <DependentUpon>SmallAudioPlayer.xaml</DependentUpon>
     </Compile>
@@ -376,6 +379,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Templates\Common\QuestionSwitcher.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Templates\Common\Results.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

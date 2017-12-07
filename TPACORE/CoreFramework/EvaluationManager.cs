@@ -5,6 +5,7 @@ using System.Data;
 using System.IO;
 using System.Linq;
 using System.Text;
+using TPA.CoreFramework;
 using TPA.Entities;
 using TPACORE.Entities;
 
@@ -15,10 +16,10 @@ namespace TPACORE.CoreFramework
         private const string phrase = "myKey123";
         static string baseOutputDirectory = System.IO.Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory) + "//Data//Temp//";
 
-        public static void Evaluate(string questionId, List<EvaluationResult> result)
+        public static void Evaluate(QuestionBase questionContext, List<EvaluationResult> result)
         {
             var xmlEncryptor = new XMLEncryptor(phrase, phrase);
-            string evalOutputFilename = questionId + "_eval.xml";
+            string evalOutputFilename = questionContext.Id + "_" + questionContext.CurrentPracticeSetId + "_" + questionContext.CurrentQuestionType.ToString() + "_" + questionContext.QuestionTemplate + "_eval.xml";
             string evalOutputFilepath = baseOutputDirectory + evalOutputFilename;
 
             DataSet dsEval = new DataSet("evalDs");
@@ -47,7 +48,7 @@ namespace TPACORE.CoreFramework
             if (questionContext.CurrentQuestionType == QuestionType.READING || questionContext.CurrentQuestionType == QuestionType.LISTENING)
             {
                 var xmlEncryptor = new XMLEncryptor(phrase, phrase);
-                string evalOutputFilename = questionContext.Id + "_" + questionContext.CurrentPracticeSetId + "_" + questionContext.CurrentQuestionType.ToString() + "_eval.xml";
+                string evalOutputFilename = questionContext.Id + "_" + questionContext.CurrentPracticeSetId + "_" + questionContext.CurrentQuestionType.ToString() + "_" + questionContext.QuestionTemplate + "_eval.xml";
                 string evalOutputFilepath = baseOutputDirectory + evalOutputFilename;
 
                 DataSet dsEval = new DataSet("evalDs");
@@ -105,8 +106,28 @@ namespace TPACORE.CoreFramework
                         }
                         break;
                     case QuestionTemplates.LISTEN_AND_HIGHLIGHT:
+                        {
+                            int correct = 0;
+                            for (int count = 0; count < questionContext.CorrectAnswers.Length; count++)
+                            {
+                                if(questionContext.CorrectAnswers[count] == userAnswer.Split('|')[count])
+                                {
+                                    correct++;
+                                }
+                            }
+                            result = correct;
+
+                        }
                         break;
                     case QuestionTemplates.LISTEN_AND_DICTATE:
+                        {
+                            if (questionContext.CorrectAnswers[0] == userAnswer)
+                            {
+                                result = 1;
+                            }
+                            else
+                                result = 0;
+                        }
                         break;
                     default:
                         break;
@@ -122,11 +143,52 @@ namespace TPACORE.CoreFramework
             }
         }
 
-        public static List<EvaluationResult> GetResult(string questionId)
+        public int GetAttempatedPointsByQuestionType(string practiceSetId, QuestionTemplates questionType, QuestionType type)
+        {
+            string[] files = Directory.GetFiles(baseOutputDirectory, "*_" + practiceSetId + "_" + type.ToString() + "_" + questionType.ToString() + "_eval.xml");
+            var xmlEncryptor = new XMLEncryptor(phrase, phrase);
+            int attempted = 0;
+            foreach (var file in files)
+            {
+                if(File.Exists(file))
+                {
+                    DataSet dsResult = xmlEncryptor.ReadEncryptedXML(file);
+
+                    if(dsResult!=null)
+                    {
+                        var dt = dsResult.Tables[0];
+                        if(dt!=null)
+                        {
+                            string evaluation = Convert.ToString(dt.Rows[0]["evalDc"]);
+
+                            if (evaluation.IndexOf(';') > 0)
+                            {
+                                //parameterized questions
+                                string[] evalArr = evaluation.Split(';');
+                                foreach (var item in evalArr)
+                                {
+                                    attempted += Convert.ToInt32(item.Split('=')[1]);
+                                }
+
+                            }
+                            else
+                            {
+                                //simple questions
+                                attempted += Convert.ToInt32(evaluation);
+                            }
+                        }
+                    }
+                }   
+            }
+            return attempted;
+
+        }
+
+        public static List<EvaluationResult> GetResult(QuestionBase question)
         {
             var xmlEncryptor = new XMLEncryptor(phrase, phrase);
             List<EvaluationResult> result = null;
-            string resultFileName = questionId + "_eval.xml";
+            string resultFileName = question.Id + "_" + question.CurrentPracticeSetId + "_" + question.CurrentQuestionType.ToString() + "_" + question.QuestionTemplate  + "_eval.xml";
             string resultFilepath = baseOutputDirectory + resultFileName;
 
             if (File.Exists(resultFilepath))
@@ -146,18 +208,52 @@ namespace TPACORE.CoreFramework
                         evalResult = Convert.ToString(dtResult.Rows[0]["evalDc"]).Split(new char[] { ';' },StringSplitOptions.RemoveEmptyEntries);
 
                 }
-
-                foreach (var item in evalResult)
+                if (evalResult.Count() > 1)
                 {
-                    result.Add(new EvaluationResult()
+                    foreach (var item in evalResult)
                     {
-                        ParamName = item.Split('=')[0],
-                        ParamScore = item.Split('=')[1]
-                    });
+                        result.Add(new EvaluationResult()
+                        {
+                            ParamName = item.Split('=')[0],
+                            ParamScore = item.Split('=')[1]
+                        });
+                    }
                 }
+                
             }
 
             return result;
         }
+                private static int NumberOfQuestionsByType(string practiceSetId, FileReader.FileType fileType, QuestionTemplates questionType)
+        {
+            DataSet dsQuestions = FileReader.ReadFile(fileType);
+            DataRow[] dRows = dsQuestions.Tables["question"].Select("practiceSet='" + practiceSetId + "'");
+            return dRows.Select(x => Convert.ToString(x["type"]) == questionType.ToString()).Count();
+        }
+        public int PointsByType(DataSet dsEvalParams, QuestionTemplates questionType)
+        {
+            int total = 0;
+            DataRow[] dRows = dsEvalParams.Tables["template"].Select("key='" + questionType.ToString() + "'");
+            DataRow dRow = dRows[0];
+            if (dRows != null)
+            {
+                var evalParams = Convert.ToString(dRow["params"]).Split('|');
+                foreach (var prm in evalParams)
+                {
+                    var evalParam = prm.Split(',');
+
+                    total += Convert.ToInt32(evalParam[3]);
+
+                }
+
+            }
+            return total;
+        }
+
+        public int GetTotalPointsByType(DataSet dsEvalParams, QuestionTemplates questionType, FileReader.FileType fileType, string practiceSetId)
+        {
+            return NumberOfQuestionsByType(practiceSetId, fileType, questionType) * PointsByType(dsEvalParams, questionType);
+        }
+
     }
 }

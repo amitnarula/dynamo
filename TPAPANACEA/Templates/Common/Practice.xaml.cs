@@ -89,7 +89,7 @@ namespace TPA.Templates.Common
             Previous
         }
 
-        private void LoadPracticeSets(NextPrevious load,int pageSize=3)
+        private void LoadPracticeSets(NextPrevious load,int pageSize=5)
         {
             DataSet dsPracticeSets = FileReader.ReadFile(FileReader.FileType.PRACTICE_SET);
 
@@ -106,13 +106,18 @@ namespace TPA.Templates.Common
             int take = pageSize * (PageIndex + 1);
             int skip = pageSize * PageIndex;
 
-            if (take >= totalPracticeSets)
-                btnNext.IsEnabled = false;
-            else if (take == pageSize)
+            if (PageIndex == 0)
                 btnPrevious.IsEnabled = false;
             else
+                btnPrevious.IsEnabled = true;
+            
+            if (take >= totalPracticeSets)
             {
-                btnNext.IsEnabled = btnPrevious.IsEnabled = true;
+                btnNext.IsEnabled = false;
+            }
+            else
+            {
+                btnNext.IsEnabled  = true;
             }
 
             List<PracticeSet> lstPracticeSet = new List<PracticeSet>();

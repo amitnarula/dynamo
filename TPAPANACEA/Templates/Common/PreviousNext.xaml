@@ -21,5 +21,7 @@
         <Button Background="#FF8BC7EA" BorderBrush="#FF8BC7EA" Content="Save and Exit" FontWeight="Bold" Foreground="#FF00609C" Height="23" HorizontalAlignment="Right" Margin="0,21,173,21" Name="btnSaveAndExit" VerticalAlignment="Center" Width="100" Grid.Column="2" Click="btnNextPrevious_Click" />
         <Button Background="#FF8BC7EA" BorderBrush="#FF8BC7EA" Content="Your Response" FontWeight="Bold" Foreground="#FF00609C" Height="23" HorizontalAlignment="Right" Margin="0,21,279,21" Name="btnYourResponse" VerticalAlignment="Center" Width="100" Grid.Column="2" Click="btnYourResponse_Click" />
         <Button Background="#FF8BC7EA" BorderBrush="#FF8BC7EA" Content="Evaluate" FontWeight="Bold" Foreground="#FF00609C" Height="23" HorizontalAlignment="Right" Margin="0,21,385,21" Name="btnEvaluate" VerticalAlignment="Center" Width="100" Grid.Column="1" Click="btnEvaluate_Click" Grid.ColumnSpan="2" />
+        <Button Background="#FF8BC7EA" BorderBrush="#FF8BC7EA" Content="Results" FontWeight="Bold" Foreground="#FF00609C" Height="23" HorizontalAlignment="Right" Margin="0,21,66,21" Name="btnResults" VerticalAlignment="Center" Width="100" Grid.Column="1" Click="btnResults_Click" />
+
     </Grid>
 </UserControl>

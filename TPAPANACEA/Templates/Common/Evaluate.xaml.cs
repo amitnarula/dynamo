@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using TPA.Entities;
 using TPACORE.CoreFramework;
 using TPACORE.Entities;
 
@@ -20,7 +21,7 @@ namespace TPAPanacea.Templates.Common
     /// </summary>
     public partial class Evaluate : Window
     {
-        public string QuestionId { get; set; }
+        public QuestionBase QuestionContext { get; set; }
 
         public List<EvaluationParameter> Parameters { get; set; }
 
@@ -32,7 +33,7 @@ namespace TPAPanacea.Templates.Common
 
         private void Evaluate_Loaded(object sender, RoutedEventArgs e)
         {
-            var savedResults = EvaluationManager.GetResult(QuestionId);
+            var savedResults = EvaluationManager.GetResult(QuestionContext);
 
             foreach (var item in Parameters)
             {
@@ -71,7 +72,7 @@ namespace TPAPanacea.Templates.Common
             }
             if (result.Count == stkParams.Children.Count) //if all the params are there successfully
             {
-                EvaluationManager.Evaluate(QuestionId, result);
+                EvaluationManager.Evaluate(QuestionContext, result);
                 System.Windows.Forms.MessageBox.Show("Evaluation successful");
                 this.Close();
             }

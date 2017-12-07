@@ -229,8 +229,13 @@ namespace TPA.Templates.Common
                         btnYourResponse.Visibility = Visibility.Visible;
 
                     ///var loginStatus = TPACache.GetItem(TPACache.LOGIN_KEY);
-                    ///if (loginStatus != null && (CurrentQuestionType == QuestionType.SPEAKING || CurrentQuestionType == QuestionType.WRITING))
-                    btnEvaluate.Visibility = Visibility.Visible;
+                    if ((CurrentQuestionType == QuestionType.SPEAKING 
+                        || CurrentQuestionType == QuestionType.WRITING 
+                        || QuestionContext.QuestionTemplate == QuestionTemplates.LISTEN_AND_WRITE.ToString()
+                        || QuestionContext.QuestionTemplate != QuestionTemplates.SPEAK_ANSWER_SHORT_QUESTION.ToString()))
+                        btnEvaluate.Visibility = Visibility.Visible;
+                    else
+                        btnEvaluate.Visibility = Visibility.Hidden;
 
                 }
 
@@ -290,7 +295,7 @@ namespace TPA.Templates.Common
         private void btnEvaluate_Click(object sender, RoutedEventArgs e)
         {
             Evaluate evaluate = new Evaluate();
-            evaluate.QuestionId = QuestionContext.Id;
+            evaluate.QuestionContext = QuestionContext;
             DataSet ds = FileReader.ReadFile(FileReader.FileType.EVALUATION_PARAMETER);
             DataRow[] parameters = ds.Tables["template"].Select("key='" + this.QuestionTemplateKey + "'");
 
@@ -313,8 +318,13 @@ namespace TPA.Templates.Common
             };
             evaluate.ShowDialog();
         }
+
+        private void btnResults_Click(object sender, RoutedEventArgs e)
+        {
+            new Results().ShowDialog();
+        }
     }
-    
+
 
     public class YourResponseEventArgs : EventArgs
     {
