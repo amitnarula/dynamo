@@ -232,7 +232,7 @@ namespace TPA.Templates.Common
                     if ((CurrentQuestionType == QuestionType.SPEAKING 
                         || CurrentQuestionType == QuestionType.WRITING 
                         || QuestionContext.QuestionTemplate == QuestionTemplates.LISTEN_AND_WRITE.ToString()
-                        || QuestionContext.QuestionTemplate != QuestionTemplates.SPEAK_ANSWER_SHORT_QUESTION.ToString()))
+                        && QuestionContext.QuestionTemplate != QuestionTemplates.SPEAK_ANSWER_SHORT_QUESTION.ToString()))
                         btnEvaluate.Visibility = Visibility.Visible;
                     else
                         btnEvaluate.Visibility = Visibility.Hidden;
@@ -297,7 +297,7 @@ namespace TPA.Templates.Common
             Evaluate evaluate = new Evaluate();
             evaluate.QuestionContext = QuestionContext;
             DataSet ds = FileReader.ReadFile(FileReader.FileType.EVALUATION_PARAMETER);
-            DataRow[] parameters = ds.Tables["template"].Select("key='" + this.QuestionTemplateKey + "'");
+            DataRow[] parameters = ds.Tables["template"].Select("key='" + QuestionContext.QuestionTemplate + "'");
 
             DataRow drowParam = parameters[0];
             if (drowParam != null)
