@@ -90,17 +90,31 @@ namespace TPACORE.CoreFramework
                             result = correct;
                         }
                         break;
-                    case QuestionTemplates.REORDER:
+                    case QuestionTemplates.REORDER://logic required
                         {
                             int correct = 0;
+
+                            List<string> correctPair = new List<string>();
+                            List<string> userAnswerPair = new List<string>();
+
                             for (int count = 0; count < questionContext.CorrectAnswers.Length; count++)
                             {
-                                if (questionContext.CorrectAnswers[count] == userAnswer.Split('|')[count] &&
-                                    questionContext.CorrectAnswers[count + 1] == userAnswer.Split('|')[count + 1])
+                                int currentIndex = count;
+                                int nextIndex = count == questionContext.CorrectAnswers.Length - 1 ? 0 : count + 1;
+
+                                correctPair.Add(questionContext.CorrectAnswers[currentIndex] + "," 
+                                    + questionContext.CorrectAnswers[nextIndex]);
+
+                                var userAnswerSplitArr = userAnswer.Split(new char[]{'|'},StringSplitOptions.RemoveEmptyEntries);
+                                userAnswerPair.Add(userAnswerSplitArr[currentIndex] + "," + userAnswerSplitArr[nextIndex]);
+                            }
+
+                            foreach (var item in correctPair)
+                            {
+                                if(userAnswerPair.Contains(item))
                                 {
                                     correct++;
                                 }
-
                             }
                             result = correct;
                         }
@@ -119,14 +133,21 @@ namespace TPACORE.CoreFramework
 
                         }
                         break;
-                    case QuestionTemplates.LISTEN_AND_DICTATE:
+                    case QuestionTemplates.LISTEN_AND_DICTATE://logic required
                         {
-                            if (questionContext.CorrectAnswers[0] == userAnswer)
+                            var splitChars = new char[]{ ' '};
+                            var correctWords = questionContext.CorrectAnswers[0].Split(splitChars,
+                                StringSplitOptions.RemoveEmptyEntries);
+                            var userAnswerWords = userAnswer.Split(splitChars,
+                                StringSplitOptions.RemoveEmptyEntries); //split by spaces
+                            int correct =0;
+                            foreach (var userWord in userAnswerWords)
                             {
-                                result = 1;
+                                if (correctWords.Contains(userWord))
+                                    correct++;
                             }
-                            else
-                                result = 0;
+
+                            result = correct;
                         }
                         break;
                     default:
@@ -164,7 +185,7 @@ namespace TPACORE.CoreFramework
                             if (evaluation.IndexOf(';') > 0)
                             {
                                 //parameterized questions
-                                string[] evalArr = evaluation.Split(';');
+                                string[] evalArr = evaluation.Split(new char[]{';'},StringSplitOptions.RemoveEmptyEntries);
                                 foreach (var item in evalArr)
                                 {
                                     attempted += Convert.ToInt32(item.Split('=')[1]);
@@ -224,12 +245,31 @@ namespace TPACORE.CoreFramework
 
             return result;
         }
-                private static int NumberOfQuestionsByType(string practiceSetId, FileReader.FileType fileType, QuestionTemplates questionType)
+        private static int NumberOfQuestionsByType(string practiceSetId, FileReader.FileType fileType, QuestionTemplates questionType)
         {
             DataSet dsQuestions = FileReader.ReadFile(fileType);
             DataRow[] dRows = dsQuestions.Tables["question"].Select("practiceSet='" + practiceSetId + "'");
-            return dRows.Select(x => Convert.ToString(x["type"]) == questionType.ToString()).Count();
+            return dRows.Where(x => Convert.ToString(x["type"]) == questionType.ToString()).Count();
         }
+        private static int TotalPointsByFileType(FileReader.FileType fileType, QuestionTemplates template, string practiceSetId)
+        {
+            DataSet dsQuestions = FileReader.ReadFile(fileType);
+            DataRow[] dRows = dsQuestions.Tables["question"].Select("practiceSet='" + practiceSetId + "'");
+            var rowsFiltered = dRows.Where(x => Convert.ToString(x["type"]) == template.ToString()).ToList();
+
+            var points = 0;
+            foreach (var row in rowsFiltered)
+            {
+                int questionId = Convert.ToInt32(row["question_Id"]);
+                DataRow questionTemplateRow = dsQuestions.Tables["template"].Select("question_Id=" + questionId).FirstOrDefault();
+
+                string correctAnswer = Convert.ToString(questionTemplateRow["answer"]);
+                points += correctAnswer.Split(new char[] { '|', ' ' }, StringSplitOptions.RemoveEmptyEntries).Count();
+            }
+            return points;
+
+        }
+
         public int PointsByType(DataSet dsEvalParams, QuestionTemplates questionType)
         {
             int total = 0;
@@ -252,7 +292,16 @@ namespace TPACORE.CoreFramework
 
         public int GetTotalPointsByType(DataSet dsEvalParams, QuestionTemplates questionType, FileReader.FileType fileType, string practiceSetId)
         {
-            return NumberOfQuestionsByType(practiceSetId, fileType, questionType) * PointsByType(dsEvalParams, questionType);
+            if (fileType == FileReader.FileType.QUESTION_WRITING
+                || fileType == FileReader.FileType.QUESTION_SPEAKING
+            || questionType == QuestionTemplates.LISTEN_AND_WRITE)
+            {
+                var numberOfQuestions = NumberOfQuestionsByType(practiceSetId, fileType, questionType);
+                if (numberOfQuestions == 0)
+                    return 0;
+                return numberOfQuestions * PointsByType(dsEvalParams, questionType);
+            }
+            return TotalPointsByFileType(fileType, questionType, practiceSetId);
         }
 
     }

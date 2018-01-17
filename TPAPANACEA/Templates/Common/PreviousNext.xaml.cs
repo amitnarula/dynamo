@@ -319,10 +319,6 @@ namespace TPA.Templates.Common
             evaluate.ShowDialog();
         }
 
-        private void btnResults_Click(object sender, RoutedEventArgs e)
-        {
-            new Results().ShowDialog();
-        }
     }
 
 

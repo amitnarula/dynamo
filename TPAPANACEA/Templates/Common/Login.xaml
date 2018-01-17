@@ -5,16 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TPAPanacea.Templates.Common"
         mc:Ignorable="d"
-        Title="Login" Height="169.49" Width="250" WindowStartupLocation="CenterScreen" ShowInTaskbar="False" WindowStyle="None">
+        Title="Evaluation Login" Height="264" Width="407" WindowStartupLocation="CenterScreen"  ShowInTaskbar="False" WindowStyle="None" Topmost="False" Background="#20B2AA" AllowsTransparency="False" ResizeMode="NoResize">
     <Grid>
-
-        <Label x:Name="lblUsername" Content="Username" HorizontalAlignment="Left" Margin="27,42,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.539,0.033" Height="26" Width="63"/>
-        <Label x:Name="lblPassword" Content="Password" HorizontalAlignment="Left" Margin="30,82,0,0" VerticalAlignment="Top" Height="26" Width="60"/>
-        <TextBox x:Name="txtUsername" MaxLength="15" HorizontalAlignment="Left" Height="23" Margin="95,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <PasswordBox x:Name="passwordBox" MaxLength="10" HorizontalAlignment="Left" Height="23" Margin="95,85,0,0" VerticalAlignment="Top" Width="120" />
-        <Button x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="60,123,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="btnLogin_Click"/>
-        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="140,123,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="btnCancel_Click"/>
-        <Label x:Name="lblHead" Content="Login" HorizontalAlignment="Left" Margin="95,0,0,0" VerticalAlignment="Top" Height="28" Width="54"/>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="89*" />
+            <ColumnDefinition Width="241*" />
+        </Grid.ColumnDefinitions>
+        <Label FontSize="14" FontWeight="Bold" x:Name="lblUsername" Content="Username" HorizontalAlignment="Right" Margin="0,58,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.539,0.033" Height="34" Width="77" />
+        <Label FontSize="14" FontWeight="Bold" x:Name="lblPassword" Content="Password" HorizontalAlignment="Right" Margin="0,108,0,0" VerticalAlignment="Top" Height="30" Width="77" />
+        <TextBox x:Name="txtUsername" FontSize="14" MaxLength="15" HorizontalAlignment="Left" Height="34" Margin="20,58,47,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175" Grid.Column="1" />
+        <PasswordBox x:Name="passwordBox" FontSize="14" MaxLength="10" HorizontalAlignment="Left" Height="34" Margin="20,106,0,0" VerticalAlignment="Top" Width="175" Grid.Column="1" />
+        <Button FontSize="14" FontWeight="Bold" Background="Teal" Foreground="White" x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="20,162,0,0" VerticalAlignment="Top" Width="87" Height="36" Click="btnLogin_Click" Grid.Column="1" />
+        <Button FontSize="14" FontWeight="Bold" Background="Teal" Foreground="White" x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="113,162,0,0" VerticalAlignment="Top" Width="82" Height="36" Click="btnCancel_Click" Grid.Column="1" />
+        <Rectangle Grid.ColumnSpan="2" Height="47" HorizontalAlignment="Stretch" Name="rctHead" Stroke="#008080" VerticalAlignment="Top" Fill="Teal"   />
+        <Label Content="Evaluation Login" FontSize="14" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Height="28" HorizontalAlignment="Center" Margin="0,10,0,0" Name="lblHead" VerticalAlignment="Top" />
     </Grid>
 </Window>

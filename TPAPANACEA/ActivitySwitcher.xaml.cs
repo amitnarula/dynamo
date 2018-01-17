@@ -124,5 +124,10 @@ namespace TPA
                 lgn.ShowDialog();
             }
         }
+
+        private void btnResult_Click(object sender, RoutedEventArgs e)
+        {
+            new Results().Show();
+        }
     }
 }

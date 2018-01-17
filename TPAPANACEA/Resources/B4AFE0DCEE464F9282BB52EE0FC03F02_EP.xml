@@ -10,7 +10,7 @@
   </template>
   <template>
     <key>LISTEN_AND_WRITE</key>
-    <params>Content,int,0,3|Form,int,0,2|Grammer,int,0,2|Vocabulary,int,0,5</params>
+    <params>Content,int,0,3|Form,int,0,2|Grammer,int,0,2|Vocabulary,int,0,5|Spelling,int,0,2</params>
   </template>
   <template>
     <key>SPEAK_LISTEN</key>
@@ -28,4 +28,10 @@
     <key>LOOK_SPEAK_LISTEN</key>
     <params>Oral Fluency,int,0,3|Punctuation,int,0,2|Content,int,0,2</params>
   </template>
+  <template>
+    <key>SPEAK_ANSWER_SHORT_QUESTION</key>
+    <params>Correct/Incorrect,int,0,1</params>
+  </template>
+
+  
 </evalParams>

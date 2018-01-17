@@ -4,14 +4,17 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:TPAPanacea.Templates.Common"
-             mc:Ignorable="d" 
-             d:DesignHeight="50" d:DesignWidth="300" Height="50" Width="300">
+             mc:Ignorable="d" Height="70" Width="350">
     <Grid>
-        <StackPanel Orientation="Horizontal" Margin="0,0,0,23">
-            <Label Name="lblParamName" Content="ParamName"></Label>
-            <TextBox Name="txtEvaluatedMarks" Width="122"></TextBox>
-            <Label Name="lblOutOf"></Label>
-        </StackPanel>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="142*" />
+            <ColumnDefinition Width="141*" />
+            <ColumnDefinition Width="67*" />
+        </Grid.ColumnDefinitions>
+        <Label Margin="10,18" HorizontalAlignment="Left"  Name="lblParamName" FontSize="14" FontWeight="Bold" Content="ParamName" Height="35" Width="98"></Label>
+        <TextBox HorizontalAlignment="Right" Name="txtEvaluatedMarks" FontSize="14" FontWeight="Bold" Width="141" Height="34" Grid.Column="1" Margin="0,18"></TextBox>
+        <Label Name="lblOutOf" FontSize="14" FontWeight="Bold" Grid.Column="2" Height="35"></Label>
+        
        
     </Grid>
 </UserControl>

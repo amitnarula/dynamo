@@ -5,9 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TPAPanacea.Templates.Common"
         mc:Ignorable="d"
-        Title="Evaluate" Height="300" Width="300">
+        Title="Evaluate" Height="500" Width="370" WindowStartupLocation="CenterScreen"  ShowInTaskbar="False" WindowStyle="None" Topmost="False" Background="#20B2AA" AllowsTransparency="False" ResizeMode="NoResize">
     <Grid>
-        <StackPanel Name="stkParams" Orientation="Vertical"></StackPanel>
-        <Button Name="btnSaveResults" Content="Save" Margin="0,227,0,0" Click="btnSaveResults_Click"></Button>
+        
+        <Rectangle Fill="Teal" HorizontalAlignment="Stretch" Height="44" VerticalAlignment="Top" Name="rectHead" Stroke="Teal" Margin="0,0,0,0" />
+        <StackPanel Name="stkParams" Margin="0,50,0,0" HorizontalAlignment="Stretch" Orientation="Vertical">
+            
+        </StackPanel>
+        <Button Name="btnSaveResults" FontSize="14" FontWeight="Bold" Background="#339933" Foreground="White" Content="Evaluate" VerticalAlignment="Bottom" Click="btnSaveResults_Click" Height="42"></Button>
+        <Label Content="Evaluation Process" FontSize="14" FontWeight="Bold" Foreground="White" Height="28" HorizontalAlignment="Center" Margin="0,10,0,0" Name="lblHead" VerticalAlignment="Top"  />
     </Grid>
 </Window>

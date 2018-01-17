@@ -18,7 +18,7 @@ namespace TPA
 	/// </summary>
 	public partial class SplashPanacia : Window
 	{
-        int interval = 1;
+        int interval = 0;
         #if debug
             interval = 0; 
         else

@@ -5,15 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TPAPanacea.Templates.Common"
         mc:Ignorable="d"
-        Title="Results" Height="500" Width="500" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" Topmost="True" ResizeMode="NoResize" WindowStyle="SingleBorderWindow">
+        Title="Results" Height="500" Width="500" WindowStartupLocation="CenterScreen"  ShowInTaskbar="False" WindowStyle="None" Topmost="False" Background="#20B2AA" AllowsTransparency="False" ResizeMode="NoResize">
     <Grid>
-        
-        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="409,441,0,0" VerticalAlignment="Top" Width="75" Click="btnCancel_Click"/>
-        <ComboBox x:Name="cmbPracticeSet" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="141" Height="19"/>
-        <Button x:Name="btnLoadResult" Content="Load Result" HorizontalAlignment="Left" Margin="156,10,0,0" VerticalAlignment="Top" Width="75" Click="btnLoadResult_Click"/>
-        <Label x:Name="lblWritingResult" Content="Label" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblSpeakingResult" Content="Label" HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top"/>
-
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="96*" />
+            <ColumnDefinition Width="382*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="98*" />
+            <RowDefinition Height="363*" />
+        </Grid.RowDefinitions>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Stretch"    Click="btnCancel_Click" FontSize="14" FontWeight="Bold" Background="#D54D34" Foreground="White"  VerticalAlignment="Bottom" Height="42" Grid.Row="1" Grid.ColumnSpan="2" />
+        <ComboBox x:Name="cmbPracticeSet" HorizontalAlignment="Center" Margin="43,42,139,0" FontWeight="Bold"  VerticalAlignment="Center" Width="200" Height="30" Grid.Column="1" SelectionChanged="cmbPracticeSet_SelectionChanged" />
+        <Label FontSize="14" FontWeight="Bold" x:Name="lblWritingResult" Content="Writing scores loading..." HorizontalAlignment="Left" Margin="0,14,0,0" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" />
+        <Label FontSize="14" FontWeight="Bold" x:Name="lblSpeakingResult" Content="Speaking scores loading..." HorizontalAlignment="Left" Margin="0,63,0,0" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" />
+        <Label FontSize="14" FontWeight="Bold" Content="Reading scores loading..." HorizontalAlignment="Left" Margin="0,113,0,0" Name="lblReadingResult" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" />
+        <Label FontSize="14" FontWeight="Bold" Content="Listening scores loading..." HorizontalAlignment="Left" Margin="0,161,0,0" Name="lblListeningResult" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" />
+        <Rectangle Fill="Teal"  Height="45" HorizontalAlignment="Stretch" Name="rctHead" Stroke="Teal" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+        <Label Content="Score card : Practice set wise" FontSize="14" FontWeight="Bold" Foreground="White" Height="28" HorizontalAlignment="Center" Margin="44,10,140,0" Name="lblHead" VerticalAlignment="Top" Grid.Column="1" />
     </Grid>
 </Window>
