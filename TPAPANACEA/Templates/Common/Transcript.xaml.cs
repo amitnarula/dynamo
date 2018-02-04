@@ -26,6 +26,7 @@ namespace TPA.Templates.Common
         public string[] TranscriptAnswserArray { get; set; }
         public int ID { get; set; }
         public bool HighlightAnswer { get; set; }
+        public bool RenderBlanks { get; set; }
 
         public Transcript()
         {
@@ -49,6 +50,7 @@ namespace TPA.Templates.Common
             if (!string.IsNullOrEmpty(matchValue))
             {
                 lblFrom.Content = matchValue + ":";
+                lblFrom.FontWeight = FontWeights.Bold;
 
                 Content = Content.Replace(match.Value, string.Empty);
             }

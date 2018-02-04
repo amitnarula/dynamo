@@ -42,7 +42,8 @@ namespace TPA.Templates.Listening
                 answerArray = question.UserAnswers;
             }
 
-            string[] splitDescriptionNewLines = question.Description.Trim().Split(new string[] { "{newline}" }, StringSplitOptions.RemoveEmptyEntries);
+            //Temporary fix
+            string[] splitDescriptionNewLines = question.Description.Replace("{newline}",string.Empty).Trim().Split(new string[] { "{newline}" }, StringSplitOptions.RemoveEmptyEntries);
 
             for (int count = 0; count < splitDescriptionNewLines.Length; count++)
             {
@@ -52,7 +53,7 @@ namespace TPA.Templates.Listening
                 transcript.Mode = question.Mode;
                 transcript.Content = splitDescriptionNewLines[count];
                 dynamicContent.Children.Add(transcript);
-                dynamicContent.Children.Add(new StackPanel() { Orientation = Orientation.Horizontal });
+                //dynamicContent.Children.Add(new StackPanel() { Orientation = Orientation.Horizontal });
             }
 
             for (int count = 0; count < splitDescriptionNewLines.Length; count++)
@@ -122,11 +123,12 @@ namespace TPA.Templates.Listening
         {
             string[] answerArray = e.ShowYourAnswer ? question.UserAnswers : question.CorrectAnswers;
 
-            string[] splitDescriptionNewLines = question.Description.Trim().Split(new string[] { "{newline}" }, StringSplitOptions.RemoveEmptyEntries);
+            string[] splitDescriptionNewLines = question.Description.Replace("{newline}",string.Empty).Trim().Split(new string[] { "{newline}" }, StringSplitOptions.RemoveEmptyEntries);
 
             for (int count = 0; count < splitDescriptionNewLines.Length; count++)
             {
                 Transcript transcript = dynamicContent.Children[count] as Transcript;
+                transcript.ID = count;
                 transcript.TranscriptAnswserArray = answerArray;
                 transcript.Mode = question.Mode;
                 transcript.Content = splitDescriptionNewLines[count];
