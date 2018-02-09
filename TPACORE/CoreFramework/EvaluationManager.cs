@@ -164,7 +164,7 @@ namespace TPACORE.CoreFramework
             }
         }
 
-        public int GetAttempatedPointsByQuestionType(string practiceSetId, QuestionTemplates questionType, QuestionType type)
+        public int GetAttempatedPointsByQuestionType(string practiceSetId, QuestionTemplates questionType, QuestionType type , string specificParameter="")
         {
             string[] files = Directory.GetFiles(baseOutputDirectory, "*_" + practiceSetId + "_" + type.ToString() + "_" + questionType.ToString() + "_eval.xml");
             var xmlEncryptor = new XMLEncryptor(phrase, phrase);
@@ -188,6 +188,17 @@ namespace TPACORE.CoreFramework
                                 string[] evalArr = evaluation.Split(new char[]{';'},StringSplitOptions.RemoveEmptyEntries);
                                 foreach (var item in evalArr)
                                 {
+                                    if (!string.IsNullOrEmpty(specificParameter))
+                                    {
+                                        if (item.Split('=')[0].Equals(specificParameter, StringComparison.InvariantCultureIgnoreCase))
+                                        {
+                                            attempted += Convert.ToInt32(item.Split('=')[1]);
+                                            break;
+                                        }
+                                        continue;
+
+                                    }
+
                                     attempted += Convert.ToInt32(item.Split('=')[1]);
                                 }
 
@@ -270,7 +281,7 @@ namespace TPACORE.CoreFramework
 
         }
 
-        public int PointsByType(DataSet dsEvalParams, QuestionTemplates questionType)
+        public int PointsByType(DataSet dsEvalParams, QuestionTemplates questionType, string specificParameter)
         {
             int total = 0;
             DataRow[] dRows = dsEvalParams.Tables["template"].Select("key='" + questionType.ToString() + "'");
@@ -278,19 +289,26 @@ namespace TPACORE.CoreFramework
             if (dRows != null)
             {
                 var evalParams = Convert.ToString(dRow["params"]).Split('|');
-                foreach (var prm in evalParams)
+
+                if (string.IsNullOrEmpty(specificParameter))
                 {
-                    var evalParam = prm.Split(',');
+                    foreach (var prm in evalParams)
+                    {
+                        var evalParam = prm.Split(',');
+                        total += Convert.ToInt32(evalParam[3]);
 
-                    total += Convert.ToInt32(evalParam[3]);
-
+                    }
+                }
+                else
+                {
+                    total = Convert.ToInt32(evalParams.SingleOrDefault(x => x.Contains(specificParameter)).Split(',')[3]); //get only specific parameter score    
                 }
 
             }
             return total;
         }
 
-        public int GetTotalPointsByType(DataSet dsEvalParams, QuestionTemplates questionType, FileReader.FileType fileType, string practiceSetId)
+        public int GetTotalPointsByType(DataSet dsEvalParams, QuestionTemplates questionType, FileReader.FileType fileType, string practiceSetId, string specificParameter="")
         {
             if (fileType == FileReader.FileType.QUESTION_WRITING
                 || fileType == FileReader.FileType.QUESTION_SPEAKING
@@ -299,7 +317,7 @@ namespace TPACORE.CoreFramework
                 var numberOfQuestions = NumberOfQuestionsByType(practiceSetId, fileType, questionType);
                 if (numberOfQuestions == 0)
                     return 0;
-                return numberOfQuestions * PointsByType(dsEvalParams, questionType);
+                return numberOfQuestions * PointsByType(dsEvalParams, questionType, specificParameter);
             }
             return TotalPointsByFileType(fileType, questionType, practiceSetId);
         }

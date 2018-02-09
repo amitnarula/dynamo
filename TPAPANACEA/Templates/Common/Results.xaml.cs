@@ -51,9 +51,7 @@ namespace TPAPanacea.Templates.Common
             {
                 var selectedPracticeSetId = ((ComboBoxItem)(cmbPracticeSet.SelectedItem)).Tag.ToString();
                 var evalManager = new EvaluationManager();
-
-                //EvaluationManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.MULTI_CHOICE_MULTIPLE_ANSWER, QuestionType.READING);
-
+                
                 DataSet dsEvalParams = FileReader.ReadFile(FileReader.FileType.EVALUATION_PARAMETER);
 
                 //Speaking
@@ -62,6 +60,7 @@ namespace TPAPanacea.Templates.Common
                 + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SPEAK_LOOK, FileReader.FileType.QUESTION_SPEAKING, selectedPracticeSetId)
                 + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LOOK_SPEAK_LISTEN, FileReader.FileType.QUESTION_SPEAKING, selectedPracticeSetId)
                 + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SPEAK_LISTEN, FileReader.FileType.QUESTION_SPEAKING, selectedPracticeSetId);
+                
                 //Speaking attempted
                 int totalSpeakingAttempted = evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SPEAK_ANSWER_SHORT_QUESTION, QuestionType.SPEAKING)
                     + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SPEAK_READ, QuestionType.SPEAKING)
@@ -69,13 +68,32 @@ namespace TPAPanacea.Templates.Common
                     + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LOOK_SPEAK_LISTEN, QuestionType.SPEAKING)
                     + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SPEAK_LISTEN, QuestionType.SPEAKING);
 
-
-                lblSpeakingResult.Content = string.Format("Speaking score : {0} out of {1} {2}/90"
-                    , totalSpeakingAttempted, 
-                    totalSpeaking,
-                    (((float)totalSpeakingAttempted) / totalSpeaking) * 90);
+                lblSpeakingResult.Content = string.Format("Speaking score : {0} out of 90",
+                    ((((float)totalSpeakingAttempted) / totalSpeaking) * 90).ToString("0")); //Speaking evaluation
 
 
+                //Writing
+                int totalWriting = evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SUMMARIZE_TEXT, FileReader.FileType.QUESTION_WRITING, selectedPracticeSetId)
+                + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.WRITE_ESSAY, FileReader.FileType.QUESTION_WRITING, selectedPracticeSetId);
+
+                //Writing attempted
+                int totalWritingAttempted = evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SUMMARIZE_TEXT, QuestionType.WRITING)
+                    + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.WRITE_ESSAY, QuestionType.WRITING);
+
+                int totalWritingIntegrated = totalWriting
+               + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.FILL_IN_BLANKS, FileReader.FileType.QUESTION_READING, selectedPracticeSetId)
+               + ((evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_AND_WRITE, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId)
+               + (evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_AND_FILL_BLANKS, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId) / 2)
+               + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_AND_DICTATE, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId)));
+
+                int totalWritingIntegratedAttempted = totalWritingAttempted + 
+                    (evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.FILL_IN_BLANKS, QuestionType.READING)
+                    + (evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_WRITE, QuestionType.LISTENING)
+                    + (evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_FILL_BLANKS, QuestionType.LISTENING) / 2)
+                    + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_DICTATE, QuestionType.LISTENING)));
+                
+                lblWritingResult.Content = string.Format("Writing score : {0} out of 90", ((((float)totalWritingIntegratedAttempted) / totalWritingIntegrated) * 90).ToString("0"));
+                
                 //Reading
                 int totalReading = evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.FILL_IN_BLANK_WITH_OPTIONS, FileReader.FileType.QUESTION_READING, selectedPracticeSetId)
                     + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.FILL_IN_BLANKS, FileReader.FileType.QUESTION_READING, selectedPracticeSetId)
@@ -91,6 +109,8 @@ namespace TPAPanacea.Templates.Common
 
                 lblReadingResult.Content = string.Format("Reading score : {0} out of {1}", totalReadingAttempted, totalReading);
 
+
+                //Listening
                 int totalListening = evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_AND_DICTATE, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId)
                     + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_AND_FILL_BLANKS, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId)
                     + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_AND_HIGHLIGHT, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId)
@@ -99,6 +119,11 @@ namespace TPAPanacea.Templates.Common
                     + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_MULTI_SELECT, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId)
                     + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_SELECT_MISSING_WORD, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId)
                 + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_AND_WRITE, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId);
+
+                int totalListeningIntegrated = totalListening
+                    + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SPEAK_ANSWER_SHORT_QUESTION, FileReader.FileType.QUESTION_SPEAKING, selectedPracticeSetId)
+                    + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LOOK_SPEAK_LISTEN, FileReader.FileType.QUESTION_SPEAKING, selectedPracticeSetId,"Content")
+                + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SPEAK_LISTEN, FileReader.FileType.QUESTION_SPEAKING, selectedPracticeSetId,"Content");
 
 
                 int totalListeningAttempted = evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_DICTATE, QuestionType.LISTENING)
@@ -109,26 +134,13 @@ namespace TPAPanacea.Templates.Common
                     + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_MULTI_SELECT, QuestionType.LISTENING)
                     + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_SELECT_MISSING_WORD, QuestionType.LISTENING)
                     + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_WRITE, QuestionType.LISTENING);
+
+                int totalListeningAttemptedIntegrated = totalListeningAttempted
+                    + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LOOK_SPEAK_LISTEN, QuestionType.SPEAKING, "Content")
+                    + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SPEAK_LISTEN, QuestionType.SPEAKING, "Content");
+                
                 lblListeningResult.Content = string.Format("Listening score : {0} out of {1}", totalListeningAttempted, totalListening);
-
-                //Writing
-                int totalWriting = evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SUMMARIZE_TEXT, FileReader.FileType.QUESTION_WRITING, selectedPracticeSetId)
-                + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.WRITE_ESSAY, FileReader.FileType.QUESTION_WRITING, selectedPracticeSetId);
-                //Writing attempted
-                int totalWritingAttempted = evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SUMMARIZE_TEXT, QuestionType.WRITING)
-                    + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.WRITE_ESSAY, QuestionType.WRITING);
-
-                lblWritingResult.Content = string.Format("Writing score : {0} out of {1}", totalWritingAttempted, totalWriting);
-
-                int totalWritingIntegrated = totalWriting
-                    + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.FILL_IN_BLANK_WITH_OPTIONS, FileReader.FileType.QUESTION_READING, selectedPracticeSetId)
-                    + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_AND_WRITE, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId)
-                    + (evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_FILL_BLANKS, QuestionType.LISTENING) / 2)
-                    + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_DICTATE, QuestionType.LISTENING);
-
-
-                int totalSpeakingIntegrated = totalSpeaking;
-                int totalListeningIntegrated = 0;
+                
 
             }
             catch (Exception)
