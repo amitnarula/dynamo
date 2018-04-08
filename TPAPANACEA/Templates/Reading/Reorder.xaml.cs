@@ -101,7 +101,8 @@ namespace TPA.Templates.Reading
             breadCrumb.PracticeSetId = question.CurrentPracticeSetId;
             breadCrumb.QuestionTemplate = (QuestionTemplates)Enum.Parse(typeof(QuestionTemplates), question.QuestionTemplate);
             breadCrumb.QuestionType = QuestionType.READING;
-            itemCount = SourceItems.Count;
+            //itemCount = SourceItems.Count;
+            itemCount = question.Options.Count;
         }
 
         void prevNext_YourResponseClicked(object sender, Common.YourResponseEventArgs e)

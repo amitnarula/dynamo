@@ -2,31 +2,31 @@
 <evalParams>
   <template>
     <key>SUMMARIZE_TEXT</key>
-    <params>Content,int,0,3|Form,decimal,0,2|Grammer,int,0,2|Vocabulary,int,0,5</params>
+    <params>Content,decimal,0,2|Form,int,0,1|Vocabulary,decimal,0,2|Grammer,decimal,0,2</params>
   </template>
   <template>
     <key>WRITE_ESSAY</key>
-    <params>Content,int,0,3|Form,decimal,0,2|Grammer,int,0,2|Vocabulary,int,0,5|Spelling,int,0,5|Structure,int,0,5|Linguistic range,int,0,5</params>
+    <params>Content,decimal,0,3|Form,int,0,2|Structure,decimal,0,2|Grammer,decimal,0,2|Linguistic range,decimal,0,2|Vocabulary,decimal,0,2|Spelling,decimal,0,2</params>
   </template>
   <template>
     <key>LISTEN_AND_WRITE</key>
-    <params>Content,int,0,3|Form,int,0,2|Grammer,int,0,2|Vocabulary,int,0,5|Spelling,int,0,2</params>
+    <params>Content,decimal,0,2|Form,int,0,2|Grammer,decimal,0,2|Vocabulary,decimal,0,2|Spelling,int,0,2</params>
   </template>
   <template>
     <key>SPEAK_LISTEN</key>
-    <params>Oral Fluency,int,0,3|Punctuation,int,0,2|Content,int,0,2</params>
+    <params>Content,int,0,3|Pronunciation,decimal,0,5|Oral Fluency,decimal,0,5</params>
   </template>
   <template>
     <key>SPEAK_LOOK</key>
-    <params>Oral Fluency,int,0,3|Punctuation,int,0,2|Content,int,0,2</params>
+    <params>Content,decimal,0,5|Pronunciation,decimal,0,5|Oral Fluency,decimal,0,5</params>
   </template>
   <template>
     <key>SPEAK_READ</key>
-    <params>Oral Fluency,int,0,3|Punctuation,int,0,2|Content,int,0,2</params>
+    <params>Content,decimal,0,5|Pronunciation,decimal,0,5|Oral Fluency,decimal,0,5</params>
   </template>
   <template>
     <key>LOOK_SPEAK_LISTEN</key>
-    <params>Oral Fluency,int,0,3|Punctuation,int,0,2|Content,int,0,2</params>
+    <params>Content,decimal,0,5|Pronunciation,decimal,0,5|Oral Fluency,decimal,0,5</params>
   </template>
   <template>
     <key>SPEAK_ANSWER_SHORT_QUESTION</key>

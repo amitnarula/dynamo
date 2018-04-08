@@ -11,7 +11,7 @@
             <ColumnDefinition Width="141*" />
             <ColumnDefinition Width="67*" />
         </Grid.ColumnDefinitions>
-        <Label Margin="10,18" HorizontalAlignment="Left"  Name="lblParamName" FontSize="14" FontWeight="Bold" Content="ParamName" Height="35" Width="98"></Label>
+        <Label Margin="10,18" HorizontalAlignment="Left"  Name="lblParamName" FontSize="14" FontWeight="Bold" Content="ParamName" Height="35" Width="130"></Label>
         <TextBox HorizontalAlignment="Right" Name="txtEvaluatedMarks" FontSize="14" FontWeight="Bold" Width="141" Height="34" Grid.Column="1" Margin="0,18"></TextBox>
         <Label Name="lblOutOf" FontSize="14" FontWeight="Bold" Grid.Column="2" Height="35"></Label>
         

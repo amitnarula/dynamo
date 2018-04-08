@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-             d:DesignHeight="65" d:DesignWidth="850" Loaded="UserControl_Loaded" Background="#FF2179AF" Unloaded="UserControl_Unloaded">
+             d:DesignHeight="65" d:DesignWidth="1250" Loaded="UserControl_Loaded" Background="#FF2179AF" Unloaded="UserControl_Unloaded">
     <Grid Loaded="Grid_Loaded">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="140*" />
@@ -17,10 +17,11 @@
         <Button Content="Previous" BorderBrush="#FF8BC7EA"  Background="#FF8BC7EA" Foreground="#FF00609C" FontWeight="Bold" Height="23" HorizontalAlignment="Right" Margin="133,21,92,21" Name="btnPrevious" VerticalAlignment="Center" Width="75" Click="btnNextPrevious_Click" Grid.Column="2" />
         <Label Content="lblItemCount" Height="28" HorizontalAlignment="Left" Name="lblItemCount" VerticalAlignment="Center" Foreground="#FF8BC7EA" FontSize="14" FontWeight="Bold" Margin="12,16,0,20" Width="128" />
         <Label Content="Timer" Height="28" HorizontalAlignment="Left" Name="lblTimer" VerticalAlignment="Center" Foreground="#FF8BC7EA" FontSize="14" FontWeight="Bold" Margin="0,16,0,20" Width="160" Grid.Column="1" />
+        <Label Content="Points" Height="28" HorizontalAlignment="Left" Name="lblPoints" VerticalAlignment="Center" Foreground="#FF8BC7EA" FontSize="14" FontWeight="Bold" Margin="0,16,0,20" Width="400" Visibility="Collapsed" Grid.Column="1" />
 
         <Button Background="#FF8BC7EA" BorderBrush="#FF8BC7EA" Content="Save and Exit" FontWeight="Bold" Foreground="#FF00609C" Height="23" HorizontalAlignment="Right" Margin="0,21,173,21" Name="btnSaveAndExit" VerticalAlignment="Center" Width="100" Grid.Column="2" Click="btnNextPrevious_Click" />
         <Button Background="#FF8BC7EA" BorderBrush="#FF8BC7EA" Content="Your Response" FontWeight="Bold" Foreground="#FF00609C" Height="23" HorizontalAlignment="Right" Margin="0,21,279,21" Name="btnYourResponse" VerticalAlignment="Center" Width="100" Grid.Column="2" Click="btnYourResponse_Click" />
         <Button Background="#FF8BC7EA" BorderBrush="#FF8BC7EA" Content="Evaluate" FontWeight="Bold" Foreground="#FF00609C" Height="23" HorizontalAlignment="Right" Margin="0,21,385,21" Name="btnEvaluate" VerticalAlignment="Center" Width="100" Grid.Column="1" Click="btnEvaluate_Click" Grid.ColumnSpan="2" />
-
+        
     </Grid>
 </UserControl>

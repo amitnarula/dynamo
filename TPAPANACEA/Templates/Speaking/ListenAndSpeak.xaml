@@ -15,9 +15,9 @@
         </Grid.RowDefinitions>
         <Common:AudioPlayer x:Name="audioPlayer" HorizontalAlignment="Center"  VerticalAlignment="Top" Grid.Row="1" />
         <Common:AudioRecorder HorizontalAlignment="Center"  x:Name="audioRecorder" VerticalAlignment="Top" Grid.Row="2"/>
-        <Common:SmallAudioPlayer x:Name="audioCorrectAnswer" Visibility="Hidden" HorizontalAlignment="Right"  VerticalAlignment="Bottom" Grid.Row="2" Margin="0,0,0,62" />
+        <Common:SmallAudioPlayer x:Name="audioCorrectAnswer" Visibility="Visible" Legend="Correct Answer" HorizontalAlignment="Right"  VerticalAlignment="Bottom" Grid.Row="2" Margin="0,0,125,62" />
         <Common:TranscriptButton x:Name="transcriptButton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.Row="2" Margin="0,0,0,62"/>
-        <Common:SmallAudioPlayer x:Name="audioUserAnswer" HorizontalAlignment="Right" Legend="Your Response"  VerticalAlignment="Bottom" Grid.Row="3" Grid.Column="1" Margin="0,0,200,62" />
+        <Common:SmallAudioPlayer x:Name="audioUserAnswer" HorizontalAlignment="Right" Legend="Your Response"  VerticalAlignment="Bottom" Grid.Row="3" Grid.Column="1" Margin="0,0,300,62" />
 
         <Common:PreviousNext x:Name="prevNext" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Grid.Row="2" />
         <my:BreadCrumb HorizontalAlignment="Stretch" x:Name="breadCrumb" VerticalAlignment="Top" Width="Auto" Height="Auto" />

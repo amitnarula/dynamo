@@ -43,7 +43,10 @@ namespace TPAPanacea.Templates.Common
                 ep.ParamMin = item.Min;
                 ep.Type = item.Type;
                 var parameterScore = savedResults != null ? savedResults.Where(x => x.ParamName.Equals(ep.ParamName, StringComparison.InvariantCultureIgnoreCase)).SingleOrDefault() : null;
-                ep.ParamScore = parameterScore != null ? parameterScore.ParamScore.ToString() : null;
+
+                //it should be blank when opened by the teacher as suggested by the change
+                //ep.ParamScore = parameterScore != null ? parameterScore.ParamScore.ToString() : null;
+
                 stkParams.Children.Add(ep);
 
             }
@@ -70,8 +73,19 @@ namespace TPAPanacea.Templates.Common
                     break;
 
             }
+
             if (result.Count == stkParams.Children.Count) //if all the params are there successfully
             {
+                //if content parameter is 0, rest parameter score is also 0
+                if (result.Any(x => (x.ParamName.Equals("content", StringComparison.InvariantCultureIgnoreCase)
+                    || (x.ParamName.Equals("form", StringComparison.InvariantCultureIgnoreCase))) && x.ParamScore == "0"))
+                {
+                    result.ForEach((x) =>
+                    {
+                        x.ParamScore = "0";
+                    });
+                }
+
                 EvaluationManager.Evaluate(QuestionContext, result);
                 System.Windows.Forms.MessageBox.Show("Evaluation successful");
                 this.Close();

@@ -17,6 +17,7 @@ using WinForms = System.Windows.Forms;
 using System.Windows.Threading;
 using TPAPanacea.Templates.Common;
 using System.Data;
+using TPACORE.CoreFramework;
 
 namespace TPA.Templates.Common
 {
@@ -229,13 +230,20 @@ namespace TPA.Templates.Common
                         btnYourResponse.Visibility = Visibility.Visible;
 
                     ///var loginStatus = TPACache.GetItem(TPACache.LOGIN_KEY);
-                    if ((CurrentQuestionType == QuestionType.SPEAKING 
-                        || CurrentQuestionType == QuestionType.WRITING 
+                    if ((CurrentQuestionType == QuestionType.SPEAKING
+                        || CurrentQuestionType == QuestionType.WRITING
                         || QuestionContext.QuestionTemplate == QuestionTemplates.LISTEN_AND_WRITE.ToString()
                         && QuestionContext.QuestionTemplate != QuestionTemplates.SPEAK_ANSWER_SHORT_QUESTION.ToString()))
                         btnEvaluate.Visibility = Visibility.Visible;
                     else
+                    {
                         btnEvaluate.Visibility = Visibility.Hidden;
+                        lblPoints.Visibility = Visibility.Visible;
+                        var result = EvaluationManager.GetResult(QuestionContext);
+                        lblPoints.Content = string.Format("Maximum Points : {0}      Points Obtained: {1}",
+                            QuestionContext.CorrectAnswers.Count(), 
+                            (result != null && result.Any() ? result.First().ParamScore : "0"));
+                    }
 
                 }
 

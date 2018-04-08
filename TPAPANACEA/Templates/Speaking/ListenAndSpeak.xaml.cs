@@ -49,7 +49,9 @@ namespace TPA.Templates.Speaking
                 string[] correctAnswers = question.CorrectAnswers;
                 //audioCorrectAnswer.Visibility = Visibility.Visible;
 
-                audioCorrectAnswer.Media = MediaReader.GetMediaPath(correctAnswers[0] + ".mp3","SPK");//TODO Temporary
+                //audioCorrectAnswer.Media = MediaReader.GetMediaPath(correctAnswers[0] + ".mp3","SPK");//TODO Temporary previous
+                audioCorrectAnswer.Media = MediaReader.GetMediaPath(correctAnswers[0], "SPK");//TODO Temporary
+                
                 audioCorrectAnswer.PlayStopClicked += 
                     new Common.SmallAudioPlayer.PlayStopEventHandler(audioCorrectAnswer_PlayStopClicked);
 

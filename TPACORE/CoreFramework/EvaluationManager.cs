@@ -251,6 +251,13 @@ namespace TPACORE.CoreFramework
                         });
                     }
                 }
+                else if (evalResult.Count() == 1) //not a parameter based question
+                {
+                    result.Add(new EvaluationResult() { 
+                        ParamName="SINGLE",
+                        ParamScore=evalResult[0]
+                    });
+                }
                 
             }
 

@@ -23,6 +23,7 @@ namespace TPAPanacea.Templates.Common
         public string ParamMax { get; set; }
         public string ParamMin { get; set; }
         public string Type { get; set; }
+        private const int MaxNumberOfDecimalPlaces = 2;
 
         public string ParamScore { get { return txtEvaluatedMarks.Text; } set { txtEvaluatedMarks.Text = value; } }
 
@@ -54,10 +55,14 @@ namespace TPAPanacea.Templates.Common
                     }
                     break;
                 case "decimal":
-                    if (!decimal.TryParse(ParamScore, out decimalValueResult) || decimalValueResult > Convert.ToDecimal(ParamMax))
+                    if (!decimal.TryParse(ParamScore, out decimalValueResult) 
+                        || decimalValueResult > Convert.ToDecimal(ParamMax)
+                        || !CheckNumberOfDecimalPlaces(decimalValueResult))
                     {
-                        System.Windows.Forms.MessageBox.Show("Invalid value for parameter:"+ParamName);
-                        return false;
+                        
+                            System.Windows.Forms.MessageBox.Show("Invalid value for parameter:" + ParamName);
+                            return false;
+                        
                     }
                     break;
 
@@ -66,5 +71,18 @@ namespace TPAPanacea.Templates.Common
             }
             return true;
         }
+
+        private bool CheckNumberOfDecimalPlaces(decimal value)
+        {
+            string decimalValueResultString = Convert.ToString(value);
+
+            if (decimalValueResultString.IndexOf(".") > 0 && decimalValueResultString.Substring(decimalValueResultString.IndexOf(".")).Length > MaxNumberOfDecimalPlaces)
+            {
+                return false;
+            }
+
+            return true;
+        }
     }
+    
 }
