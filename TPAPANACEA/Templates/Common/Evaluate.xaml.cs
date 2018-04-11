@@ -91,5 +91,10 @@ namespace TPAPanacea.Templates.Common
                 this.Close();
             }
         }
+
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

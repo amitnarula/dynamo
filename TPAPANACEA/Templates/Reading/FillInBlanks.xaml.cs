@@ -141,6 +141,7 @@ namespace TPA.Templates.Reading
         void prevNext_YourResponseClicked(object sender, Common.YourResponseEventArgs e)
         {
             string[] answers = e.ShowYourAnswer ? question.UserAnswers : question.CorrectAnswers;
+            string[] correctAnswers = question.CorrectAnswers;
             if (answers.Any())
             {
                 //Populating list of comboboxes from inlines , 14 May 2016
@@ -158,6 +159,18 @@ namespace TPA.Templates.Reading
                     {
                         //List<ComboBox> lstComboBoxes = dynamicContent.Children.OfType<ComboBox>().ToList(); 14 May 2016
                         var selectedItem = Options.Where(_ => _.Id == answers[count]).FirstOrDefault();
+
+                        if (answers[count] != correctAnswers[count] && e.ShowYourAnswer)
+                        {
+                            lstComboBoxes[count].Foreground = Brushes.Red; //wrong answers should be in red color
+                        }
+                        else if (answers[count] == correctAnswers[count] && e.ShowYourAnswer) //right options be in green color
+                        {
+                            lstComboBoxes[count].Foreground = Brushes.Green;
+                        }
+                        else
+                            lstComboBoxes[count].Foreground = Brushes.Black; //default is black color
+
                         lstComboBoxes[count].SelectedItem = selectedItem;
                     }
 

@@ -6,7 +6,7 @@
              xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop" xmlns:Common="clr-namespace:TPA.Templates.Common" x:Class="TPA.Templates.Reading.Reorder" 
              mc:Ignorable="d" 
              Name="ucReorder"
-             d:DesignHeight="300" d:DesignWidth="900">
+             d:DesignHeight="400" d:DesignWidth="900">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="291*" />
@@ -24,7 +24,7 @@
     		dd:DragDrop.IsDragSource="False" Padding="10" Margin="100,12,0,80" Width="330"  dd:DragDrop.IsDropTarget="False" Grid.Row="1" Grid.RowSpan="3">
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <Grid Background="#FF00609C" Height="Auto" Margin="0,0,0,5" >
+                    <Grid x:Name="grdSource" Background="{Binding OptionBackgroundColor}" Height="Auto" Margin="0,0,0,5" >
                         <TextBlock TextWrapping="Wrap" Text="{Binding Name}" Foreground="White" Width="290" Margin="2,2,2,2" Padding="2"  HorizontalAlignment="Stretch" VerticalAlignment="Center" FontSize="14"/>
                     </Grid>
                 </DataTemplate>
@@ -35,7 +35,7 @@
         <ListBox BorderBrush="#FF00609C" BorderThickness="1" dd:DragDrop.IsDragSource="False"  dd:DragDrop.IsDropTarget="False" HorizontalAlignment="Right" Margin="19,12,100,80" Name="lstTarget" Padding="10" SelectionMode="Extended" Width="330" Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="2">
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <Grid Background="#FF00609C" Height="Auto" Margin="0,0,0,5">
+                    <Grid Background="{Binding OptionBackgroundColor}" Height="Auto" Margin="0,0,0,5">
                         <TextBlock FontSize="14" Foreground="White" HorizontalAlignment="Stretch" Margin="2,2,2,2" Padding="2" Text="{Binding Name}" TextWrapping="Wrap" VerticalAlignment="Center" Width="290" />
                     </Grid>
                 </DataTemplate>

@@ -12,7 +12,8 @@
         <StackPanel Name="stkParams" Margin="0,50,0,0" HorizontalAlignment="Stretch" Orientation="Vertical">
             
         </StackPanel>
-        <Button Name="btnSaveResults" FontSize="14" FontWeight="Bold" Background="#339933" Foreground="White" Content="Submit" VerticalAlignment="Bottom" Click="btnSaveResults_Click" Height="42"></Button>
+        <Button Name="btnSaveResults" HorizontalAlignment="Left" Margin="90,0,0,5" FontSize="14" FontWeight="Bold" Background="#339933" Foreground="White" Content="Submit" VerticalAlignment="Bottom" Click="btnSaveResults_Click" Width="100" Height="42"></Button>
+        <Button Name="btnCancel" HorizontalAlignment="Right" Margin="0,0,90,5" FontSize="14" FontWeight="Bold" Background="#E8556E" Foreground="White" Content="Cancel" VerticalAlignment="Bottom" Click="btnCancel_Click" Width="100" Height="42"></Button>
         <Label Content="Evaluation Process" FontSize="14" FontWeight="Bold" Foreground="White" Height="28" HorizontalAlignment="Center" Margin="0,10,0,0" Name="lblHead" VerticalAlignment="Top"  />
     </Grid>
 </Window>

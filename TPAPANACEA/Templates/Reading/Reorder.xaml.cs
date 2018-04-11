@@ -23,6 +23,7 @@ namespace TPA.Templates.Reading
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public Brush OptionBackgroundColor { get; set; } = new SolidColorBrush(Color.FromRgb(0,96,156));
     }
 
     /// <summary>
@@ -41,6 +42,27 @@ namespace TPA.Templates.Reading
             SourceItems = new ObservableCollection<ReorderItem>();
             TargetItems = new ObservableCollection<ReorderItem>();
 
+            this.Loaded += Reorder_Loaded;
+
+        }
+
+        private void Reorder_Loaded(object sender, RoutedEventArgs e)
+        {
+            //foreach (var item in lstSource.Items)
+            //{
+            //    var _Container = lstSource.ItemContainerGenerator
+            //        .ContainerFromItem(item);
+                
+            //    var _Children = AllChildren(_Container);
+
+            //    var grdSource = _Children
+            //        // only interested in TextBoxes
+            //        .OfType<Grid>()
+            //        // only interested in FirstName
+            //        .First(x => x.Name.Equals("grdSource"));
+
+            //    grdSource.Background = Brushes.Aqua;
+            //}
         }
 
         public void UtilizeState(object state)
@@ -103,11 +125,38 @@ namespace TPA.Templates.Reading
             breadCrumb.QuestionType = QuestionType.READING;
             //itemCount = SourceItems.Count;
             itemCount = question.Options.Count;
+            
+        }
+
+        private List<DependencyObject> GetAllParents(DependencyObject obj)
+        {
+            var lst = new List<DependencyObject>();
+            var parent = VisualTreeHelper.GetParent(obj);
+            while (parent != null)
+            {
+                lst.Add(parent);
+                parent = VisualTreeHelper.GetParent(parent);
+            }
+            return lst;
+        }
+
+        private List<Control> AllChildren(DependencyObject parent)
+        {
+            var _List = new List<Control>();
+            for (int i = 0; i < VisualTreeHelper.GetChildrenCount(parent); i++)
+            {
+                var _Child = VisualTreeHelper.GetChild(parent, i);
+                if (_Child is Control)
+                    _List.Add(_Child as Control);
+                _List.AddRange(AllChildren(_Child));
+            }
+            return _List;
         }
 
         void prevNext_YourResponseClicked(object sender, Common.YourResponseEventArgs e)
         {
             string[] answers = e.ShowYourAnswer ? question.UserAnswers : null;
+            string[] correctAnswers = question.CorrectAnswers;
             if (answers == null || !answers.Any())
             {
                 lstSource.ItemsSource = null;
@@ -122,6 +171,12 @@ namespace TPA.Templates.Reading
                 ReorderItem reorderItem = new ReorderItem();
                 reorderItem.Id = Convert.ToInt32(answers[count]);
                 reorderItem.Name = question.Options.Where(_ => _.Id == answers[count]).Select(_ => _.OptionText).SingleOrDefault();
+
+                if (answers[count] != correctAnswers[count])
+                    reorderItem.OptionBackgroundColor = new SolidColorBrush(Color.FromRgb(232,85,110)); //correct option 
+                else if (answers[count] == correctAnswers[count])
+                    reorderItem.OptionBackgroundColor = new SolidColorBrush(Color.FromRgb(35,155,57)); //wrong option
+
                 AnswerItems.Add(reorderItem);
 
             }

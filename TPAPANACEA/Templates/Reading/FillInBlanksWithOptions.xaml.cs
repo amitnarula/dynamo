@@ -126,6 +126,7 @@ namespace TPA.Templates.Reading
         void prevNext_YourResponseClicked(object sender, Common.YourResponseEventArgs e)
         {
             string[] answers = e.ShowYourAnswer ? question.UserAnswers : question.CorrectAnswers;
+            string[] correctAnswers = question.CorrectAnswers;
             if (answers.Any())
             {
                 //List<ComboBox> lstComboBoxes = dynamicContent.Children.OfType<ComboBox>().ToList(); 14 May 2016 inline changes
@@ -139,6 +140,13 @@ namespace TPA.Templates.Reading
                         string selectedItem = question.Options[count].Where(_ => _.Id == answers[count])
                             .Select(_ => _.OptionText).FirstOrDefault();
                         cmbBox.SelectedValue = selectedItem;
+
+                        if (answers[count] != correctAnswers[count] && e.ShowYourAnswer)
+                            cmbBox.Foreground = Brushes.Red; //wrong options should be in red color
+                        else if (answers[count] == correctAnswers[count] && e.ShowYourAnswer)
+                            cmbBox.Foreground = Brushes.Green; //right options in green color
+                        else
+                            cmbBox.Foreground = Brushes.Black; //default in black color
 
                     }
                     
