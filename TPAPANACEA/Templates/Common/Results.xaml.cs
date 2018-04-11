@@ -107,7 +107,34 @@ namespace TPAPanacea.Templates.Common
                     + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.MULTI_CHOICE_SINGLE_ANSWER, QuestionType.READING)
                     + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.REORDER, QuestionType.READING);
 
-                lblReadingResult.Content = string.Format("Reading score : {0} out of {1}", totalReadingAttempted, totalReading);
+
+                int totalReadingIntegrated = totalReading
+                    + (
+                    (evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SPEAK_READ, FileReader.FileType.QUESTION_SPEAKING, selectedPracticeSetId, "Content")
+                    / totalSpeaking) * 90
+                    +
+                    (evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SUMMARIZE_TEXT, FileReader.FileType.QUESTION_WRITING, selectedPracticeSetId, "Content")
+                    + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SUMMARIZE_TEXT, FileReader.FileType.QUESTION_WRITING, selectedPracticeSetId, "Grammer")
+                    )
+                    + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_HIGHLIGHT_CORRECT_SUMMARY, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId)
+                    + (evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_AND_HIGHLIGHT, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId) / 2)
+                    );
+
+                int totalReadingAttemptedIntegrated = totalReadingAttempted
+                    +
+                    (
+                    (evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SPEAK_READ, QuestionType.SPEAKING, "Content") / totalSpeaking) * 90
+                    +
+                    (
+                    evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SUMMARIZE_TEXT, QuestionType.WRITING, "Content")
+                    + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SUMMARIZE_TEXT, QuestionType.WRITING, "Grammer")
+                    )
+                    + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_HIGHLIGHT, QuestionType.LISTENING)
+                    + (evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_HIGHLIGHT, QuestionType.LISTENING) / 2)
+                    );
+
+
+                lblReadingResult.Content = string.Format("Reading score : {0} out of 90", ((((float)totalReadingAttemptedIntegrated) / totalReadingIntegrated) * 90).ToString("0"));
 
 
                 //Listening
@@ -139,8 +166,8 @@ namespace TPAPanacea.Templates.Common
                     + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LOOK_SPEAK_LISTEN, QuestionType.SPEAKING, "Content")
                     + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SPEAK_LISTEN, QuestionType.SPEAKING, "Content");
                 
-                lblListeningResult.Content = string.Format("Listening score : {0} out of {1}", totalListeningAttempted, totalListening);
-                
+                lblListeningResult.Content = string.Format("Listening score : {0} out of 90", ((((float)totalListeningAttemptedIntegrated) / totalListeningIntegrated) * 90).ToString("0"));
+
 
             }
             catch (Exception)
