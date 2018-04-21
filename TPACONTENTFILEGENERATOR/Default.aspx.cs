@@ -146,7 +146,7 @@ public partial class _Default : System.Web.UI.Page
             sb.Append(string.Format("<recordingTime>{0}</recordingTime>", dynamicControl.RecordingTime));
             sb.Append(string.Format("<output>{0}</output>", questionId));
             sb.Append(string.Format("<answer>{0}</answer>", "sampleresponse"));
-            sb.Append(string.Format("<beep>{0}</beep>", "true"));
+            sb.Append(string.Format("<beep>{0}</beep>", dynamicControl.AddBeep));
 
             if (ddlTemplates.SelectedValue == "SPEAK_LOOK")
             {
@@ -179,6 +179,7 @@ public partial class _Default : System.Web.UI.Page
         XDocument doc = XDocument.Parse(sb.ToString());
         //File.WriteAllText(Server.MapPath(string.Format("~/data/{0}.xml", questionId + "_" + ddlModule.SelectedValue)), doc.ToString());
 
+        //download as xml
         string attachment = string.Format("attachment; filename={0}.xml",ddlModule.SelectedValue+"_"+"_"+ddlPracticeSets.SelectedItem.Text+"_"+ questionId);
         Response.ClearContent();
         Response.ContentType = "application/xml";
@@ -188,6 +189,6 @@ public partial class _Default : System.Web.UI.Page
 
         ResetTemplateGenerator();
 
-        //download as xml
+        
     }
 }

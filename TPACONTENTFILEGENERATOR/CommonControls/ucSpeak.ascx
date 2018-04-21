@@ -18,6 +18,11 @@
         </td>
     </tr>
     <tr>
+        <td>Beep:</td>
+        <td>
+            <asp:CheckBox Text="" ID="chkBeep" Checked="true" runat="server" /></td>
+    </tr>
+    <tr>
         <td>
             <asp:Label ID="lblPicture" Text="Picture (Filename)" runat="server" Visible="false" />
             

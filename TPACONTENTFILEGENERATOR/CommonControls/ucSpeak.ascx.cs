@@ -16,6 +16,7 @@ public partial class CommonControls_ucSpeak : BaseUserControl
     public bool ShowPictureBox { get; set; }
     public bool ShowAudioBox { get; set; }
     public bool ShowTranscriptBox { get; set; }
+    public bool AddBeep { get { return chkBeep.Checked; } }
 
     protected void Page_Load(object sender, EventArgs e)
     {
