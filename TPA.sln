@@ -48,6 +48,26 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPAPathAbroad", "TPAPathAbr
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PathAbroad", "PATHABROADSETUP\PathAbroad.vdproj", "{AC449E18-DD70-4AFC-AD0E-DECCC339BEA8}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TPACONTENTFILEGENERATOR", "TPACONTENTFILEGENERATOR\", "{EA7F28AB-4382-4504-948E-528247BAD5EB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/TPACONTENTFILEGENERATOR"
+		Debug.AspNetCompiler.PhysicalPath = "TPACONTENTFILEGENERATOR\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TPACONTENTFILEGENERATOR\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/TPACONTENTFILEGENERATOR"
+		Release.AspNetCompiler.PhysicalPath = "TPACONTENTFILEGENERATOR\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TPACONTENTFILEGENERATOR\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50451"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -205,6 +225,20 @@ Global
 		{AC449E18-DD70-4AFC-AD0E-DECCC339BEA8}.Release|Mixed Platforms.ActiveCfg = Release
 		{AC449E18-DD70-4AFC-AD0E-DECCC339BEA8}.Release|x64.ActiveCfg = Release
 		{AC449E18-DD70-4AFC-AD0E-DECCC339BEA8}.Release|x86.ActiveCfg = Release
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Debug|Itanium.ActiveCfg = Debug|Any CPU
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Release|Itanium.ActiveCfg = Debug|Any CPU
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Release|x64.ActiveCfg = Debug|Any CPU
+		{EA7F28AB-4382-4504-948E-528247BAD5EB}.Release|x86.ActiveCfg = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

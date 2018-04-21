@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<titles>
+  
+  <title>
+    <titleKey>WRITE_ESSAY</titleKey>
+    <value>Writing : Write essay</value>
+    
+  </title>
+  <title>
+    <titleKey>SUMMARIZE_TEXT</titleKey>
+    <value>Writing : Summarize written text</value>
+  </title>
+  <title>
+    <titleKey>MULTI_CHOICE_SINGLE_ANSWER</titleKey>
+    <value>Reading : Multiple-choice, choose single answer</value>
+  </title>
+  <title>
+    <titleKey>MULTI_CHOICE_MULTIPLE_ANSWER</titleKey>
+    <value>Reading : Multiple-choice, choose multiple answer</value>
+  </title>
+  <title>
+    <titleKey>FILL_IN_BLANK_WITH_OPTIONS</titleKey>
+    <value>Reading : Reading and writing: Fill in the blanks</value>
+  </title>
+  <title>
+    <titleKey>REORDER</titleKey>
+    <value>Reading : Re-order paragraphs</value>
+  </title>
+  <title>
+    <titleKey>FILL_IN_BLANKS</titleKey>
+    <value>Reading: Fill in the blanks</value>
+  </title>
+  <title>
+    <titleKey>LISTEN_MULTI_CHOICE</titleKey>
+    <value>Listening : Multiple choice, choose single answer</value>
+  </title>
+  <title>
+    <titleKey>LISTEN_MULTI_SELECT</titleKey>
+    <value>Listening : Multiple choice, choose multiple answers</value>
+  </title>
+  <title>
+    <titleKey>LISTEN_AND_WRITE</titleKey>
+    <value>Listening : Summarize spoken text</value>
+  </title>
+  <title>
+    <titleKey>LISTEN_AND_FILL_BLANKS</titleKey>
+    <value>Listening : Fill in the blanks</value>
+  </title>
+  <title>
+    <titleKey>SPEAK_LISTEN</titleKey>
+    <value>Speaking : Repeat sentence</value>
+  </title>
+  <title>
+    <titleKey>LOOK_SPEAK_LISTEN</titleKey>
+    <value>Speaking : Re-tell lecture</value>
+  </title>
+  <title>
+    <titleKey>SPEAK_LOOK</titleKey>
+    <value>Speaking : Describe image</value>
+  </title>
+  <title>
+    <titleKey>SPEAK_READ</titleKey>
+    <value>Speaking : Read aloud</value>
+  </title>
+  <title>
+    <titleKey>SPEAK_ANSWER_SHORT_QUESTION</titleKey>
+    <value>Seaking : Answer short question</value>
+  </title>
+  <title>
+    <titleKey>LISTEN_AND_HIGHLIGHT</titleKey>
+    <value>Listening : Highlight incorrect words</value>
+  </title>
+  
+  <title>
+    <titleKey>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</titleKey>
+    <value>Listening : Highlight correct summary</value>
+  </title>
+  <title>
+    <titleKey>LISTEN_SELECT_MISSING_WORD</titleKey>
+    <value>Listening : Select missing word</value>
+  </title>
+  <title>
+    <titleKey>LISTEN_AND_DICTATE</titleKey>
+    <value>Listening : Write from dictation</value>
+  </title>
+</titles>
