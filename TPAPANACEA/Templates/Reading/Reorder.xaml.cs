@@ -21,9 +21,15 @@ namespace TPA.Templates.Reading
 {
     public class ReorderItem
     {
+
+        public ReorderItem()
+        {
+           OptionBackgroundColor = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromRgb(0, 96, 156));
+        }
+
         public int Id { get; set; }
         public string Name { get; set; }
-        public Brush OptionBackgroundColor { get; set; } = new SolidColorBrush(Color.FromRgb(0,96,156));
+        public Brush OptionBackgroundColor { get; set; }
     }
 
     /// <summary>
