@@ -18,6 +18,7 @@ using System.Windows.Threading;
 using TPAPanacea.Templates.Common;
 using System.Data;
 using TPACORE.CoreFramework;
+using System.IO;
 
 namespace TPA.Templates.Common
 {
@@ -26,6 +27,8 @@ namespace TPA.Templates.Common
     /// </summary>
     public partial class PreviousNext : UserControl
     {
+        private static string baseOutputDirectory = System.IO.Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory) + "//Data//Temp//";
+        
         private DispatcherTimer timer;
         private DispatcherTimer delayTimer;
         private string CurrentPracticeSetId { get; set; }
@@ -140,6 +143,10 @@ namespace TPA.Templates.Common
                     WinForms.DialogResult result = WinForms.MessageBox.Show("Thanks for your attempt, Your answers are now saved, Press OK to go back to Home");
                     if (result == WinForms.DialogResult.OK)
                     {
+
+                        //log the submission of the practice set item
+                        File.Create(System.IO.Path.Combine(baseOutputDirectory, questionState.PracticeSetId + "_SUB_" + questionState.QuestionType.ToString()+".xml"));
+
                         Switcher.Switch(new HomePanacia());
                         //Switcher.Switch(new Home());
                         return;

@@ -124,7 +124,8 @@ namespace TPACORE.CoreFramework
                             int correct = 0;
                             for (int count = 0; count < questionContext.CorrectAnswers.Length; count++)
                             {
-                                if(questionContext.CorrectAnswers[count] == userAnswer.Split('|')[count])
+                                if(!string.IsNullOrEmpty(userAnswer) &&
+                                    questionContext.CorrectAnswers[count] == userAnswer.Split('|')[count])
                                 {
                                     correct++;
                                 }

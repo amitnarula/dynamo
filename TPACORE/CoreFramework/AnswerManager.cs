@@ -175,9 +175,44 @@ namespace TPA.CoreFramework
                 File.Delete(baseOutputDirectory + QuestionType.SPEAKING.ToString() + practiceSetId + "UNLCK.xml");
 
 
+            //Removing the SUB (submission file
+            string[] submissionFiles = new string[] {
+            Path.Combine(baseOutputDirectory,practiceSetId+"_SUB_"+QuestionType.READING.ToString()+".xml"),
+            Path.Combine(baseOutputDirectory,practiceSetId+"_SUB_"+QuestionType.SPEAKING.ToString()+".xml"),
+            Path.Combine(baseOutputDirectory,practiceSetId+"_SUB_"+QuestionType.WRITING.ToString()+".xml"),
+            Path.Combine(baseOutputDirectory,practiceSetId+"_SUB_"+QuestionType.LISTENING.ToString()+".xml")
+            };
+
+
+
+
+            foreach (var item in submissionFiles)
+            {
+                if (File.Exists(item) && ResolveFileTypeFromFileName(item) == fileType)
+                    File.Delete(item);
+            }
+
+
             //Clearing the cache
             TPACache.RemoveItem(practiceSetId + CommonUtilities.GetQuestionTypeByFileType(fileType).ToString());
 
+        }
+
+        private static FileReader.FileType ResolveFileTypeFromFileName(string fileName)
+        {
+            if (fileName.ToLower().Contains("reading"))
+                return FileReader.FileType.QUESTION_READING;
+
+            else if (fileName.ToLower().Contains("writing"))
+                return FileReader.FileType.QUESTION_WRITING;
+
+            else if (fileName.ToLower().Contains("speaking"))
+                return FileReader.FileType.QUESTION_SPEAKING;
+
+            else if (fileName.ToLower().Contains("listening"))
+                return FileReader.FileType.QUESTION_LISTENING;
+            else
+                throw new ArgumentException("filename");
         }
 
         public static Answer ReadAnswer(string practiceSetId, string questionId)
