@@ -4,6 +4,7 @@
 <%@ Register Src="~/CommonControls/ucWriting.ascx" TagPrefix="uc1" TagName="ucWriting" %>
 <%@ Register Src="~/CommonControls/ucSpeak.ascx" TagPrefix="uc1" TagName="ucSpeakRead" %>
 <%@ Register Src="~/CommonControls/ucListening.ascx" TagPrefix="uc1" TagName="ucListening" %>
+<%@ Register Src="~/CommonControls/ucReading.ascx" TagPrefix="uc1" TagName="ucReading" %>
 
 
 <!DOCTYPE html>

@@ -27,7 +27,23 @@ public partial class _Default : System.Web.UI.Page
 
     protected void Page_OnInit(object sender, EventArgs e)
     {
-        
+        //if (ddlModule.SelectedValue == "READING")
+        //{
+        //    CommonControls_ucReading dynamicControl = (CommonControls_ucReading)Page.LoadControl("~/commoncontrols/ucreading.ascx");
+        //    dynamicControl.OnGenerateOptionsClick += new CommonControls_ucReading.GenerateOptionsClick(dynamicControl_OnGenerateOptionsClick);
+
+        //    if (ddlTemplates.SelectedValue == "MULTI_CHOICE_MULTIPLE_ANSWER")
+        //    {
+        //        dynamicControl.Mode = "ReadingMultiSelect";
+
+        //    }
+        //    else if (ddlTemplates.SelectedValue == "MULTI_CHOICE_SINGLE_ANSWER")
+        //    {
+        //        dynamicControl.Mode = "ReadingMultiChoice";
+        //    }
+
+        //    pnlTemplateContent.Controls.Add(dynamicControl);
+        //}
     }
 
     protected void Page_Load(object sender, EventArgs e)
@@ -76,8 +92,36 @@ public partial class _Default : System.Web.UI.Page
             {
                 dynamicControl.ListenAndWrite = true;
             }
+
+            dynamicControl.ListenMultiSelect = true;
+            pnlTemplateContent.Controls.Add(dynamicControl);
+        }
+        else if (ddlModule.SelectedValue == "READING")
+        {
+            CommonControls_ucReading dynamicControl = (CommonControls_ucReading)Page.LoadControl("~/commoncontrols/ucreading.ascx");
+            dynamicControl.OnGenerateOptionsClick += new CommonControls_ucReading.GenerateOptionsClick(dynamicControl_OnGenerateOptionsClick);
+
+            if (ddlTemplates.SelectedValue == "MULTI_CHOICE_MULTIPLE_ANSWER")
+            {
+                dynamicControl.Mode = "ReadingMultiSelect";
+                
+            }
+            else if (ddlTemplates.SelectedValue == "MULTI_CHOICE_SINGLE_ANSWER")
+            {
+                dynamicControl.Mode = "ReadingMultiChoice";
+            }
+
+            pnlTemplateContent.Controls.Add(dynamicControl);
         }
 
+    }
+
+    void dynamicControl_OnGenerateOptionsClick(object sender, List<Option> options)
+    {
+        foreach (var item in options)
+        {
+            
+        }
     }
     protected void ddl_SelectedIndexChanged(object sender, EventArgs e)
     {
@@ -109,6 +153,7 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void btnGenerateTemplate_Click(object sender, EventArgs e)
     {
+        
         string questionId = Guid.NewGuid().ToString().Replace("-","").ToLower();
         StringBuilder sb = new StringBuilder();
         sb.Append("<question>");
@@ -166,7 +211,15 @@ public partial class _Default : System.Web.UI.Page
         else if (ddlModule.SelectedValue == "LISTENING")
         {
             var dynamicControl = pnlTemplateContent.FindControl("dynamicControl") as CommonControls_ucListening;
-            
+
+            if (ddlTemplates.SelectedValue == "LISTEN_MULTI_SELECT")
+            {
+                dynamicControl.ListenMultiSelect = true;    
+            }
+            else if (ddlTemplates.SelectedValue == "LISTEN_MULTI_CHOICE")
+            {
+                dynamicControl.ListenMultiChoice = true;
+            }
             
         }
         

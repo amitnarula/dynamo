@@ -65,7 +65,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TPACONTENTFILEGENERATOR", "
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "50451"
+		VWDPort = "51527"
 	EndProjectSection
 EndProject
 Global
