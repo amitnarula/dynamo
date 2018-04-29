@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class CommonControls_ucReading : BaseUserControl
+public partial class CommonControls_ucChoice : BaseUserControl
 {
     public List<Option> Options
     {
@@ -40,14 +40,14 @@ public partial class CommonControls_ucReading : BaseUserControl
                     CheckBox chkSelect=null;
                     RadioButton radSelect = null;
                     bool optionSelected = false;
-                    if (Mode == "ReadingMultiSelect")
+                    if (Mode == "MultiSelect")
                     {
                         chkSelect = (CheckBox)item.FindControl("chkSelectOption");
                         optionSelected = chkSelect.Checked;
 
 
                     }
-                    else if (Mode == "ReadingMultiChoice")
+                    else if (Mode == "MultiChoice")
                     {
                         radSelect = (RadioButton)item.FindControl("radBtnOption");
                         optionSelected = radSelect.Checked;
@@ -87,7 +87,7 @@ public partial class CommonControls_ucReading : BaseUserControl
     }
     protected void Page_PreRender(object sender, EventArgs e)
     {
-        if (Mode == "ReadingMultiChoice" ||  Mode=="ReadingMultiSelect")
+        if (Mode == "MultiChoice" ||  Mode=="MultiSelect")
         {
             pnlMultiChoiceOrSelect.Visible = true;
 
@@ -118,12 +118,12 @@ public partial class CommonControls_ucReading : BaseUserControl
         if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)
         {
 
-            if (Mode == "ReadingMultiChoice")
+            if (Mode == "MultiChoice")
             {
                 CheckBox chkOption = e.Item.FindControl("chkSelectOption") as CheckBox;
                 chkOption.Visible = false;
             }
-            else if (Mode == "ReadingMultiSelect")
+            else if (Mode == "MultiSelect")
             {
                 RadioButton radBxOption = e.Item.FindControl("radBtnOption") as RadioButton;
                 radBxOption.Visible = false;

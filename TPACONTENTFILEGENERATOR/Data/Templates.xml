@@ -47,6 +47,23 @@
     <value>Listening : Fill in the blanks</value>
   </title>
   <title>
+    <titleKey>LISTEN_AND_HIGHLIGHT</titleKey>
+    <value>Listening : Highlight incorrect words</value>
+  </title>
+
+  <title>
+    <titleKey>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</titleKey>
+    <value>Listening : Highlight correct summary</value>
+  </title>
+  <title>
+    <titleKey>LISTEN_SELECT_MISSING_WORD</titleKey>
+    <value>Listening : Select missing word</value>
+  </title>
+  <title>
+    <titleKey>LISTEN_AND_DICTATE</titleKey>
+    <value>Listening : Write from dictation</value>
+  </title>
+  <title>
     <titleKey>SPEAK_LISTEN</titleKey>
     <value>Speaking : Repeat sentence</value>
   </title>
@@ -66,21 +83,5 @@
     <titleKey>SPEAK_ANSWER_SHORT_QUESTION</titleKey>
     <value>Seaking : Answer short question</value>
   </title>
-  <title>
-    <titleKey>LISTEN_AND_HIGHLIGHT</titleKey>
-    <value>Listening : Highlight incorrect words</value>
-  </title>
   
-  <title>
-    <titleKey>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</titleKey>
-    <value>Listening : Highlight correct summary</value>
-  </title>
-  <title>
-    <titleKey>LISTEN_SELECT_MISSING_WORD</titleKey>
-    <value>Listening : Select missing word</value>
-  </title>
-  <title>
-    <titleKey>LISTEN_AND_DICTATE</titleKey>
-    <value>Listening : Write from dictation</value>
-  </title>
 </titles>
