@@ -130,10 +130,18 @@ public partial class _Default : System.Web.UI.Page
                 dynamicControl.ShowPictureBox = true;
 
             if (ddlTemplates.SelectedValue == "LOOK_SPEAK_LISTEN" || ddlTemplates.SelectedValue == "SPEAK_LISTEN")
+            {
                 dynamicControl.ShowAudioBox = true;
+                dynamicControl.ShowPictureBox = true;
+            }
 
             if (ddlTemplates.SelectedValue == "SPEAK_ANSWER_SHORT_QUESTION")
-                dynamicControl.ShowTranscriptBox = true;
+            {
+                dynamicControl.ShowAudioBox = true;
+                dynamicControl.ShowPictureBox = true;
+            }
+
+            dynamicControl.ShowTranscriptBox = true; //show transcript anyhow.
 
             if (pnlTemplateContent.FindControl("dynamicControl") == null)
                 pnlTemplateContent.Controls.Add(dynamicControl);
@@ -285,6 +293,9 @@ public partial class _Default : System.Web.UI.Page
     {
         pnlTemplateSelection.Visible = true;
         pnlQuestionTemplate.Visible = false;
+        pnlReadingReorder.Visible = false;
+        pnlListeningCommon.Visible = false;
+        
 
         ddlTemplates.SelectedIndex = 0;
         ddlPracticeSets.SelectedIndex = 0;
@@ -292,6 +303,7 @@ public partial class _Default : System.Web.UI.Page
 
         MultiChoiceOptions = null;
         FillInBlanksWithOptions = null;
+        
 
         ucQuestionCommon.Reset();
     }
@@ -347,9 +359,20 @@ public partial class _Default : System.Web.UI.Page
                 sb.Append(string.Format("<audio>{0}.tpm</audio>", dynamicControl.AudioFile));
                 sb.Append(string.Format("<audioDelay>{0}</audioDelay>", dynamicControl.AudioDelay));
 
+                if (ddlTemplates.SelectedValue == "LOOK_SPEAK_LISTEN")
+                    sb.Append(string.Format("<picture>{0}.tpi</picture>", dynamicControl.Picture));
+
             }
             if (ddlTemplates.SelectedValue == "SPEAK_ANSWER_SHORT_QUESTION")
-                sb.Append(string.Format("<transcript>{0}</transcript", dynamicControl.Transcript));
+            {
+                sb.Append(string.Format("<audio>{0}.tpm</audio>", dynamicControl.AudioFile));
+
+                if(!string.IsNullOrEmpty(dynamicControl.Picture))
+                    sb.Append(string.Format("<picture>{0}.tpi</picture>", dynamicControl.Picture));
+
+            }
+
+            sb.Append(string.Format("<transcript>{0}</transcript>", dynamicControl.Transcript)); //adding transcript anyhow for all speaking templates
         }
 
         else if (ddlModule.SelectedValue == "LISTENING")
