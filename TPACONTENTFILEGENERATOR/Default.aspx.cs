@@ -107,7 +107,11 @@ public partial class _Default : System.Web.UI.Page
         if (!IsPostBack)
         {
             BindTemplates();
+            //remove the controls on first page load
+            
         }
+
+        
 
         if (ddlTemplates.SelectedValue == "WRITE_ESSAY" || ddlTemplates.SelectedValue == "SUMMARIZE_TEXT")
         {
@@ -504,8 +508,8 @@ public partial class _Default : System.Web.UI.Page
         sb.Append(string.Format("</question>"));
 
 
-
-        XDocument doc = XDocument.Parse(sb.ToString());
+        //Normalize the string before creating the xml document.
+        XDocument doc = XDocument.Parse(sb.ToString().Replace("&", "&amp;"));
         //File.WriteAllText(Server.MapPath(string.Format("~/data/{0}.xml", questionId + "_" + ddlModule.SelectedValue)), doc.ToString());
 
         //download as xml

@@ -102,6 +102,7 @@ public partial class CommonControls_ucBlank : BaseUserControl
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        
+        if (!IsPostBack)
+            ViewState["blanks"] = null;
     }
 }
