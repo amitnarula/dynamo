@@ -31,17 +31,17 @@ public partial class CommonControls_ucBlank : BaseUserControl
 
     protected void btnGenerateAnswers_Click(object sender, EventArgs e)
     {
+        Blanks = ViewState["blanks"] as Dictionary<string,List<Option>>;
+
         foreach (RepeaterItem item in rptBlank.Items)
         {
             TextBox txtCorrectOption = item.FindControl("txtCorrectOption") as TextBox;
             Literal litBlank = item.FindControl("litBlankName") as Literal;
-
+            
             if (!string.IsNullOrEmpty(txtCorrectOption.Text))
             {
                 var correctIndex = Convert.ToInt32(txtCorrectOption.Text);
-
-                Blanks = ViewState["blanks"] as Dictionary<string, List<Option>>;
-
+                
                 var blank = Blanks[litBlank.Text];
 
                 blank[correctIndex].Selected = true;
@@ -104,5 +104,42 @@ public partial class CommonControls_ucBlank : BaseUserControl
     {
         if (!IsPostBack)
             ViewState["blanks"] = null;
+    }
+
+    protected void btnGenerateCopies_Click(object sender, EventArgs e)
+    {
+        Dictionary<string,List<Option>> blanks = ViewState["blanks"] as Dictionary<string, List<Option>>;
+
+        if(blanks!=null)
+        {
+            KeyValuePair<string,List<Option>> blank=  blanks.First(); //only first blank BLANK1 will be replicated
+            int numberOfCopies = 0;
+            
+            if (int.TryParse(txtNumberOfCopies.Text, out numberOfCopies))
+            {
+                List<Option> options = new List<Option>(blank.Value);
+
+                for (int count = 1; count <= numberOfCopies; count++)
+                {
+                    var copiedOptions = new List<Option>();
+
+                    for (int innerCount = 0; innerCount < options.Count; innerCount++)
+                    {
+                        copiedOptions.Add(new Option() {
+                            ID=innerCount,
+                            OptionText = options[count].OptionText,
+                            Selected=false
+                        });
+                    }
+
+                    blanks.Add("Blank" + (count + 1), copiedOptions);
+                }
+            }
+
+
+        }
+        ViewState["blanks"] = Blanks = blanks;
+
+        BindOptions();
     }
 }

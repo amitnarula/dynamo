@@ -79,5 +79,21 @@
     </table>
 </asp:Panel>
 <br />
+<table>
+    <tr>
+        <td>
+            Create the exact replica(s) of the Blank1
+
+        </td>
+
+    </tr>
+    <tr>
+        <td>Number of Copies:</td>
+        <td><asp:TextBox runat="server" ID="txtNumberOfCopies" /></td>
+        <td><asp:Button ID="btnGenerateCopies" Text="Generate Copies" runat="server" OnClick="btnGenerateCopies_Click"  /></td>
+    </tr>
+</table>
+
+<br />
 <asp:Button Text="Generate Correct Answers" ID="btnGenerateCorrectAnswers" OnClick="btnGenerateAnswers_Click" runat="server" />
 <br />
