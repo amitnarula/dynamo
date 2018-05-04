@@ -127,7 +127,7 @@ public partial class CommonControls_ucBlank : BaseUserControl
                     {
                         copiedOptions.Add(new Option() {
                             ID=innerCount,
-                            OptionText = options[count].OptionText,
+                            OptionText = options[innerCount].OptionText,
                             Selected=false
                         });
                     }
