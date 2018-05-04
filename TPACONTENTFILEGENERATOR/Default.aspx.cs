@@ -401,9 +401,20 @@ public partial class _Default : System.Web.UI.Page
             else if (ddlTemplates.SelectedValue == "LISTEN_SELECT_MISSING_WORD")
             {
                 sb.Append("<options>");
-                for (int count = 0; count < MultiChoiceOptions.Count; count++)
+                //for (int count = 0; count < MultiChoiceOptions.Count; count++)
+                //{
+                //    sb.Append(string.Format("<o{0}>{1}</o{0}>", count, MultiChoiceOptions[count].OptionText));
+                //}
+
+                KeyValuePair<string, List<Option>> blank = new KeyValuePair<string, List<Option>>();
+                if (FillInBlanksWithOptions != null)
                 {
-                    sb.Append(string.Format("<o{0}>{1}</o{0}>", count, MultiChoiceOptions[count].OptionText));
+                    blank = FillInBlanksWithOptions.First();
+                }
+
+                for (int count = 0; count < blank.Value.Count; count++)
+                {
+                    sb.Append(string.Format("<o{0}>{1}</o{0}>", count, blank.Value[count].OptionText));
                 }
 
                 sb.Append("</options>");
