@@ -59,7 +59,7 @@ namespace TPAMED
 
                 //File.Create("output\\" + fileName + ".tpa");
 
-                File.WriteAllText("output\\" + fileName + outputExtension, output);
+                File.WriteAllText("output\\" + fileName.Replace("–", "-") + outputExtension, output);
                 progressBar.Value += 1;
                 count++;
                 worker.ReportProgress(count);
@@ -81,7 +81,7 @@ namespace TPAMED
 
                 //File.Create("output\\" + fileName + ".tpa");
 
-                File.WriteAllText("output\\spk\\" + fileName + outputExtension, output);
+                File.WriteAllText("output\\spk\\" + fileName.Replace("–", "-") + outputExtension, output);
                 progressBar.Value += 1;
                 count++;
                 worker.ReportProgress(count);

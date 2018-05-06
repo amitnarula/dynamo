@@ -370,6 +370,7 @@ public partial class _Default : System.Web.UI.Page
             if (ddlTemplates.SelectedValue == "SPEAK_ANSWER_SHORT_QUESTION")
             {
                 sb.Append(string.Format("<audio>{0}.tpm</audio>", dynamicControl.AudioFile));
+                sb.Append(string.Format("<audioDelay>{0}</audioDelay>", dynamicControl.AudioDelay));
 
                 if(!string.IsNullOrEmpty(dynamicControl.Picture))
                     sb.Append(string.Format("<picture>{0}.tpi</picture>", dynamicControl.Picture));
@@ -420,7 +421,8 @@ public partial class _Default : System.Web.UI.Page
                 sb.Append("</options>");
                 sb.Append(string.Format("<answer>{0}</answer>", txtBoxAnswers.Text));
             }
-            else if (ddlTemplates.SelectedValue == "LISTEN_AND_WRITE")
+            else if (ddlTemplates.SelectedValue == "LISTEN_AND_WRITE" ||
+                ddlTemplates.SelectedValue == "LISTEN_AND_DICTATE")
             {
                 sb.Append(string.Format("<maxWordCount>{0}</maxWordCount>", txtMaxWordCount.Text));
                 sb.Append(string.Format("<answer>{0}</answer>", txtBoxAnswers.Text));
@@ -461,6 +463,7 @@ public partial class _Default : System.Web.UI.Page
                 }
 
                 sb.Append("</options>");
+                sb.Append("<picture></picture>");
                 sb.Append(string.Format("<answer>{0}</answer>", txtBoxAnswers.Text));
             }
             else if (ddlTemplates.SelectedValue == "FILL_IN_BLANK_WITH_OPTIONS" ||
@@ -520,7 +523,14 @@ public partial class _Default : System.Web.UI.Page
 
 
         //Normalize the string before creating the xml document.
-        XDocument doc = XDocument.Parse(sb.ToString().Replace("&", "&amp;"));
+        
+        //some replacers and normalizations to the string
+        sb = sb.Replace("&", "&amp;")
+            .Replace(".mp3", string.Empty)
+            .Replace(".jpg", string.Empty) //still mistake by writing .jpg or .mp3 to the file name problems.
+            .Replace("–", "-"); //long hyphen problems.
+
+        XDocument doc = XDocument.Parse(sb.ToString());
         //File.WriteAllText(Server.MapPath(string.Format("~/data/{0}.xml", questionId + "_" + ddlModule.SelectedValue)), doc.ToString());
 
         //download as xml
