@@ -1,0 +1,17 @@
+<question>
+    <id>87fd13e9a2194cae8036a3af0d025ed2</id>
+    <practiceSet>abf2b37f406f44d5bc56c90314c1fd7c</practiceSet>
+    <type>SPEAK_READ</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>"Our citizens are well aware of the fact that while the Grandview Symphony Orchestra was struggling to succeed, our city government promised annual funding to help support its programs. Last year, however, private contributions to the symphony increased by 200 percent and attendance at the symphony's concerts-in-the-park series doubled.</description>
+      <title></title>
+      <delay>40</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>87fd13e9a2194cae8036a3af0d025ed2</output>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>

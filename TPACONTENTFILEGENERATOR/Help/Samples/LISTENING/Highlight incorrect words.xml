@@ -1,0 +1,16 @@
+<question>
+    <id>8c23d6194bbf4f13a6bc9e1440099385</id>
+    <practiceSet>a540452272644faab9254ea73290cb9d</practiceSet>
+    <type>LISTEN_AND_HIGHLIGHT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The battles of Marathon and Tours are examples of how war has often determined the development of Western civilization. The basis of Western civilization was probably decided at the Battle of Marathon about 2,500 years ago. In the battle, a small number of Greek soldiers led by a famous Greek general defeated 100,000 invading Persians under the Persian king. Because the Greeks won, Greek ideas about many subjects matter and became the foundation of Western society. Whereas Marathon laid the basis of Western civilization, its start remained the same as a result of the Battle of Tours in A.D. 732. Before this battle, Muslim armies had taken control of a large number of countries, but they were stopped by a group of soldiers led by Charles Martel in France. If the Muslims had won at Tours, Islam might have become the major religion of West society.</description>
+      <title></title>
+      <media>T10HIW1audio34.tpm</media>
+      <delay>8</delay>
+      <answer>the|matter|start|west</answer>
+      <maxWordCount></maxWordCount>
+    </template>
+  </question>  

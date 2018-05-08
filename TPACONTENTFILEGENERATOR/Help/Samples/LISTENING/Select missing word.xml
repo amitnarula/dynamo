@@ -1,0 +1,22 @@
+<question>
+    <id>68676d41904548cb952324e8cb48fee2</id>
+    <practiceSet>39d265f15f41481891312961d73f01bf</practiceSet>
+    <type>LISTEN_SELECT_MISSING_WORD</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording on Diseases. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a recording on Diseases. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</description>
+      <title></title>
+      <media>Listening - Select missing word - Q13.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>sweating</o0>
+        <o1>malnutrition</o1>
+        <o2>sneezing</o2>
+        <o3>allergy</o3>
+      </options>
+      <answer>0</answer>
+      <transcript>Many diseases that doctors thought had almost disappeared are now making a comeback. Britain's National Health Service (NHS) has reported a serious rise in the number of people with diseases such as tuberculosis (TB), cholera, measles and whooping cough. An NHS spokesperson said that TB is now more common in England than it is in less developed countries such Rwanda, Iraq, and Guatemala. Tuberculosis is also increasing across the globe. In 2013, it killed 1.5 million people worldwide, and that number is rising. Tuberculosis largely affects very poor people. It is an infectious disease that affects the lungs. Its symptoms include bad coughs, fever, weight loss and sweating.</transcript>
+    </template>
+  </question>

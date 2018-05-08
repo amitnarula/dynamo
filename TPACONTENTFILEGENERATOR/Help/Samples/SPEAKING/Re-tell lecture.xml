@@ -1,0 +1,20 @@
+<question>
+    <id>2eb520f691f5478fa86a0c896bae9851</id>
+    <practiceSet>89e5ed3d303847b48535195f410d564a</practiceSet>
+    <type>LOOK_SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>10</delay>
+      <recordingTime>40</recordingTime>
+      <beep>true</beep>
+      <output>2eb520f691f5478fa86a0c896bae9851</output>
+      <picture></picture>
+      <audio>UN Warns About Demographic Shift - new.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+    </template>
+  </question>

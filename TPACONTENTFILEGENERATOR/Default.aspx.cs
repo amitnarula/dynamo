@@ -253,7 +253,7 @@ public partial class _Default : System.Web.UI.Page
         pnlQuestionTemplate.Visible = true;
 
         lblLegend.Text = ddlPracticeSets.SelectedItem.Text + " >> " + ddlModule.SelectedItem.Text + " >> " + ddlTemplates.SelectedItem.Text;
-
+        hypLnkHelpDocs.NavigateUrl = string.Format("{0}/help/howto/{1}.swf", HttpContext.Current.Request.ApplicationPath, ddlTemplates.SelectedItem.Text);
 
         if (ddlTemplates.SelectedValue == "REORDER")
         {
@@ -355,25 +355,25 @@ public partial class _Default : System.Web.UI.Page
 
             if (ddlTemplates.SelectedValue == "SPEAK_LOOK")
             {
-                sb.Append(string.Format("<picture>{0}.tpi</picture>", dynamicControl.Picture));
+                sb.Append(string.Format("<picture>{0}_{1}.tpi</picture>",ddlPracticeSets.SelectedItem.Text ,dynamicControl.Picture));
 
             }
             if (ddlTemplates.SelectedValue == "LOOK_SPEAK_LISTEN" || ddlTemplates.SelectedValue == "SPEAK_LISTEN")
             {
-                sb.Append(string.Format("<audio>{0}.tpm</audio>", dynamicControl.AudioFile));
+                sb.Append(string.Format("<audio>{0}_{1}.tpm</audio>", ddlPracticeSets.SelectedItem.Text, dynamicControl.AudioFile));
                 sb.Append(string.Format("<audioDelay>{0}</audioDelay>", dynamicControl.AudioDelay));
 
                 if (ddlTemplates.SelectedValue == "LOOK_SPEAK_LISTEN")
-                    sb.Append(string.Format("<picture>{0}.tpi</picture>", dynamicControl.Picture));
+                    sb.Append(string.Format("<picture>{0}_{1}.tpi</picture>", ddlPracticeSets.SelectedItem.Text, dynamicControl.Picture));
 
             }
             if (ddlTemplates.SelectedValue == "SPEAK_ANSWER_SHORT_QUESTION")
             {
-                sb.Append(string.Format("<audio>{0}.tpm</audio>", dynamicControl.AudioFile));
+                sb.Append(string.Format("<audio>{0}_{1}.tpm</audio>", ddlPracticeSets.SelectedItem.Text, dynamicControl.AudioFile));
                 sb.Append(string.Format("<audioDelay>{0}</audioDelay>", dynamicControl.AudioDelay));
 
                 if(!string.IsNullOrEmpty(dynamicControl.Picture))
-                    sb.Append(string.Format("<picture>{0}.tpi</picture>", dynamicControl.Picture));
+                    sb.Append(string.Format("<picture>{0}_{1}.tpi</picture>", ddlPracticeSets.SelectedItem.Text, dynamicControl.Picture));
 
             }
 
@@ -382,7 +382,7 @@ public partial class _Default : System.Web.UI.Page
 
         else if (ddlModule.SelectedValue == "LISTENING")
         {
-            sb.Append(string.Format("<media>{0}.tpm</media>", txtMediaFileName.Text));
+            sb.Append(string.Format("<media>{0}_{1}.tpm</media>", ddlPracticeSets.SelectedItem.Text, txtMediaFileName.Text));
             sb.Append(string.Format("<delay>{0}</delay>", txtDelayAudio.Text));
 
             if (ddlTemplates.SelectedValue == "LISTEN_MULTI_CHOICE" ||

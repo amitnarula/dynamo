@@ -1,0 +1,30 @@
+<question>
+    <id>f82c14f4bef948bf8ddf9a739575c458</id>
+    <practiceSet>abf2b37f406f44d5bc56c90314c1fd7c</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The Basset Hound appeared in France in the first part of the 16th century. The breed got its name from a French word "bas," which means "low." The rich, who had a strong {blank} for hunting, developed a breed {blank} animals in dense brush. The breed was recognized in 1885. However, it did not enter the ten top widely spread dogs in the US. No sooner than in the second half of the 20th century did Basset Hounds acquired popularity. Now, the breed is loved for its appearance and {blank} personality.</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>predilection</o1>
+          <o2>collaboration</o2>
+          <o3>temperance</o3>
+        </blank>
+        <blank>
+          <o1>guilty of violating</o1>
+          <o2>capable of pursuing</o2>
+          <o3>power of entitlement</o3>
+        </blank>
+        <blank>
+          <o1>amiable</o1>
+          <o2>despondent</o2>
+          <o3>mischievous</o3>
+        </blank>
+      </blanks>
+      <answer>0|1|0</answer>
+    </template>
+  </question>

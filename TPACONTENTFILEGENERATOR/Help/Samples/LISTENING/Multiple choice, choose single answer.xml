@@ -1,0 +1,22 @@
+<question>
+    <id>6dc430e6df26431e93f0e7a837212915</id>
+    <practiceSet>abf2b37f406f44d5bc56c90314c1fd7c</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>The researchers supported by the National Institute of Child Health ___.</title>
+      <media>T3MCSA1-audio31.tpm</media>
+      <delay>5</delay>
+      <options>
+        <o0>took care of women who're suffering from alcohol</o0>
+        <o1>have spent a lot of money on fertility</o1>
+        <o2>have been victims of infertility</o2>
+        <o3>said alcohol may affect women's fertility</o3>
+		<o4>have also worked for Harvard University</o4>
+      </options>
+      <answer>3</answer>
+    </template>
+  </question>

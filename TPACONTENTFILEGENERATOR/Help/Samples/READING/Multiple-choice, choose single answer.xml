@@ -1,0 +1,20 @@
+ <question>
+    <id>ffbc8a16865e44e8a8ad371c74f7e79f</id>
+    <practiceSet>abf2b37f406f44d5bc56c90314c1fd7c</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+    <attemptTime>00:00:59</attemptTime>
+    <template>
+      <description>In the Neolithic period, starting around 10,000 years ago, perhaps the most important economic revolution in human history occurred - the commencement of agriculture and the domestication of animals for human consumption. From this point in time, people could start to rely on a more consistent and much increased food supply. As a corollary of this, considerably larger populations could be supported and people could settle in one place without the need to migrate in search of food supplies. Equally important, the surpluses of crops and animals meant that not all the population needed to dedicate their time and energy to farming; some could now learn specialized skills such as crafts or trade. The building of permanent settlements where skills could be developed brought about the conditions necessary for the first growth of towns. But several thousand years elapsed between the beginnings of agriculture and the rise of what we call civilization about 6,000 years ago.</description>
+      <title>What condition allowed people to learn specialized skills?</title>
+      <options>
+        <o0>The ability to migrate</o0>
+        <o1>The growth of population</o1>
+        <o2>The surplus of farm products</o2>
+        <o3>The spread of settlements</o3>
+      </options>
+      <picture></picture>
+      <answer>2</answer>
+    </template>
+  </question>

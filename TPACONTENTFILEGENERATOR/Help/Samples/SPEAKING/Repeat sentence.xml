@@ -1,0 +1,20 @@
+<question>
+    <id>7fe6dd0455fb4beb95e37876187966b0</id>
+    <practiceSet>a540452272644faab9254ea73290cb9d</practiceSet>
+    <type>SPEAK_LISTEN</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+      <title></title>
+      <delay>2</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>7fe6dd0455fb4beb95e37876187966b0</output>
+      <audio>T10RS5audio6.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+      <transcript>She hired him as an interpreter because she had heard that he was the best.</transcript>
+    </template>
+  </question>

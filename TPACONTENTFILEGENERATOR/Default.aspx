@@ -62,6 +62,7 @@
         </asp:Panel>
         <asp:Panel runat="server" ID="pnlQuestionTemplate" Visible="false">
             <asp:Label runat="server" ID="lblLegend" Font-Bold="True" Font-Size="Medium"></asp:Label>
+            <asp:HyperLink ID="hypLnkHelpDocs" Text="Help" Target="_blank" runat="server" />
             <uc1:ucQuestionCommon runat="server" ID="ucQuestionCommon" />
             <asp:Panel runat="server" ID="pnlTemplateContent">
             </asp:Panel>

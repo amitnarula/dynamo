@@ -1,0 +1,15 @@
+<question>
+    <id>3aab02be0d3748ed98b480f1362610c6</id>
+    <practiceSet>a540452272644faab9254ea73290cb9d</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <attemptTime>00:10:00</attemptTime>
+    <delayTime>00:00:00</delayTime>
+    <template>
+      <description>Deforestation is occurring in Earth's forests on a massive scale, often resulting in damage to the quality of the land. Agriculture is the largest global driver of deforestation. Farmers cut forests to provide more room for planting crops or grazing livestock. Many small farmers will each clear a few acres by cutting down trees and burning them in a process known as “slash and burn” agriculture. To provide wood and paper products loggers cut down a large number of trees each year. Wildfires and overgrazing also prevent the growth of young trees.The quickest solution to deforestation would be to simply stop cutting down trees or to manage forest resources. Reforestation efforts are a vital way to undo some of the damage that has already been done. Reforestation has many positive effects on the environment. One of the most dramatic impacts is an increase of habitat for millions of organisms. Adding trees allows the forest to expand its canopy, which blocks the sun’s rays during the day and holds in warm air at night. Forest soils are moist, and protection by sun-blocking tree cover keeps them from drying out. Without this coverage plants and animals would experience extreme temperature swings that could be harmful.Reforestation also impacts climate change. Trees play an important role in absorbing the greenhouse gas, carbon dioxide that fuels global climate change - this is called carbon sequestration. Greenhouse gases trap heat from the sun in Earth's atmosphere, which can lead to global climate change. Adding trees can reduce the amount of carbon dioxide in the atmosphere.</description>
+      <title></title>
+      <answer></answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>

@@ -1,0 +1,20 @@
+<question>
+    <id>2349a9c985c2464c8f54332182500945</id>
+    <practiceSet>89e5ed3d303847b48535195f410d564a</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <attemptTime>00:02:00</attemptTime>
+    <template>
+      <description>Arrange the options.</description>
+      <title></title>
+      <options>
+        <o0>Although there is not yet a cure for the illness, there may be hope for a cure with a protein called nerve growth factor.</o0>
+        <o1>Alzheimer’s disease impairs a person’s ability to recall memories, both distant memories and memories as recent as a few hours before.</o1>
+        <o2>Using a group of rats with impaired memory, the scientists gave half of the rats doses of nerve growth factor while giving the other half a blood protein as a placebo, thus creating a control group.</o2>
+        <o3>Based on this relationship, scientists from the University of Lund in Sweden and the University of California at San Diego designed an experiment to test whether doses of nerve growth factor could reverse the effects of memory loss caused by Alzheimer’s.</o3>
+		<o4>The protein is produced by nerve cells in the same region of the brain where Alzheimer’s occurs.</o4>
+      </options>
+      <answer>1|0|4|3|2</answer>
+    </template>
+  </question>

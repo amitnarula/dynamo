@@ -1,0 +1,23 @@
+<question>
+    <id>9326bd6c834a46f087d4934cacb23966</id>
+    <practiceSet>abf2b37f406f44d5bc56c90314c1fd7c</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+    <attemptTime>00:01:00</attemptTime>
+    <template>
+      <description> Giant pandas are black-and-white Chinese bears that are on the verge of {blank}. These large, cuddly-looking mammals have a big head, a heavy body, rounded ears, and a short tail. Most bears' eyes have round pupils. The {blank} is the giant panda, whose pupils are vertical slits, like cats' eyes, these unusual eyes {blank} the Chinese to call the panda the "giant cat bear."</description>
+      <title></title>
+      <blanks>
+        <blank>
+          <o1>indication</o1>
+          <o2>speculation</o2>
+          <o3>inspired</o3>
+          <o4>predicted</o4>
+          <o5>exception</o5>
+          <o6>extinction</o6>
+        </blank>
+      </blanks>
+      <answer>5|4|2</answer>
+    </template>
+  </question> 

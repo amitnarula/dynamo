@@ -1,0 +1,16 @@
+<question>
+    <id>585c3c32f06c44f3b96ec9b7d576d0f1</id>
+    <practiceSet>a540452272644faab9254ea73290cb9d</practiceSet>
+    <type>LISTEN_AND_WRITE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>1. T14 S1 - audio23.tpm</media>
+      <delay>0</delay>
+      <answer></answer>
+      <maxWordCount>70</maxWordCount>
+    </template>
+  </question>

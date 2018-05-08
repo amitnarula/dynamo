@@ -1,0 +1,15 @@
+<question>
+    <id>5c74c93bb3554d7a8944d45dac559063</id>
+    <practiceSet>a540452272644faab9254ea73290cb9d</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Any sound scientific theory, whether of time or of any other {blank}, should in my opinion be based on the most workable philosophy of science: the positivist {blank} put forward by Karl Popper and others. According to this way of thinking, a scientific theory is a mathematical model that describes and {blank} the observations we make. A good theory will describe a large range of phenomena on the basis of a few simple postulates and will make definite predictions that can be {blank}. If one takes the positivist position, as I do, one cannot say what time actually is. All one can do is describe what has been found to be a very good {blank} model for time and say what {blank} it makes.</description>
+      <title></title>
+      <media>T13 B1audio26.tpm</media>
+      <delay>8</delay>
+      <answer>concept|approach|||codifies|||tested|||mathematical|||predictions</answer>
+    </template>
+  </question>

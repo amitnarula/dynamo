@@ -1,0 +1,22 @@
+<question>
+    <id>67c47f5c1f1547abbf4ec77f7dd6a932</id>
+    <practiceSet>39d265f15f41481891312961d73f01bf</practiceSet>
+    <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>Listening - Highlight Correct Summary - Q9.tpm</media>
+      <delay>7</delay>
+      <options>
+        <o0>Canada is the world’s second largest country occupying most of the northern North America which has been inhabited by aboriginal people, formed as a federal, semi-autonomous polity, it is bilingual and multicultural country, technologically advance and maintains diversified economy which is reliant upon natural resources and trade.</o0>
+        <o1>Canada occupies most of the northern North America, the lands have been inhabited for millennia by aboriginal peoples, it was formed as a federal, semi autonomous polity, having a long and simple relationship with United States.</o1>
+        <o2>Canada is a bilingual and multicultural country formed as a federal, semi autonomous polity, which is not technologically that advance. It maintains diversified economy that is dependent on natural resources and has a trade with United States; it doesn’t maintain any long relationship with United States because of complexity.</o2>
+        <o3>Canada is a bilingual and multicultural country which has been inhabited by aboriginal people million years ago, it is legally dependent on British parliament,  A federation now comprising ten provinces and three territories, Canada is a parliamentary democracy and a constitutional monarchy with Queen Elizabeth II as its head of state.</o3>
+      </options>
+      <answer>0</answer>
+      <transcript>Canada is a country occupying most of northern North America, extending from the Atlantic Ocean in the east to the Pacific Ocean in the west and northward into the Arctic Ocean. It is the world's second largest country by total area, and shares land borders with the United States to the south and northwest. The lands have been inhabited for millennia by aboriginal peoples. Beginning in the late 15th century, British and French expeditions explored and later settled the Atlantic coast. France ceded nearly all of its colonies in North America in 1763 after the Seven Years War. In 1867, with the union of three British North American colonies through Confederation, Canada was formed as a federal, semi-autonomous polity. This began an accretion of additional provinces and territories and a process of increasing autonomy from the United Kingdom, highlighted by the Statute of Westminster in 1931 and culminating in the Canada Act in 1982 which severed the vestiges of legal dependence on the British parliament. A federation now comprising ten provinces and three territories, Canada is a parliamentary democracy and a constitutional monarchy with Queen Elizabeth II as its head of state. It is a bilingual and multicultural country, with both English and French as official languages at the federal level. Technologically advanced and industrialized, Canada maintains a diversified economy that is heavily reliant upon its abundant natural resources and upon trade—particularly with the United States, with which Canada has had a long and complex relationship.</transcript>
+    </template>
+  </question>

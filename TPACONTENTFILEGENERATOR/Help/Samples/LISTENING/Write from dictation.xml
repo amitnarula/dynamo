@@ -1,0 +1,16 @@
+<question>
+    <id>11bdc7698b7846269063e751fd838abf</id>
+    <practiceSet>39d265f15f41481891312961d73f01bf</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>Listening - Write from dictation- Q17.tpm</media>
+      <delay>7</delay>
+      <answer>Annual premature European deaths caused by air pollution are estimated at 430,000.</answer>
+      <maxWordCount>100</maxWordCount>
+    </template>
+  </question>

@@ -1,0 +1,21 @@
+<question>
+    <id>0a82dc4e35ed49eaa07bed0e22fd5b56</id>
+    <practiceSet>abf2b37f406f44d5bc56c90314c1fd7c</practiceSet>
+    <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+    <itemType>SPEAKING</itemType>
+    <instruction>You will hear a question. Please give a simple and short answer. Often just one or a few words is enough.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <delay>1</delay>
+      <recordingTime>10</recordingTime>
+      <beep>false</beep>
+      <output>0a82dc4e35ed49eaa07bed0e22fd5b56</output>
+      <picture></picture>
+      <audio>1. 12665203.tpm</audio>
+      <audioDelay>3</audioDelay>
+      <answer>sampleresponse</answer>
+      <transcript>A paper written by hand is called as Handicraft or Manuscript? [Manuscript]</transcript>
+    </template>
+  </question>

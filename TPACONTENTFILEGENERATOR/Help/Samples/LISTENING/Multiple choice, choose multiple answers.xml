@@ -1,0 +1,21 @@
+<question>
+    <id>8f886e27d923486ebc1d1d6aabddd0f7</id>
+    <practiceSet>89e5ed3d303847b48535195f410d564a</practiceSet>
+    <type>LISTEN_MULTI_SELECT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>The main purpose of this passage is to</title>
+      <media>1. T1 MCMA 1 - audio27.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>determine which food chain is the most efficient</o0>
+        <o1>describe the food network among plants and animals</o1>
+        <o2>explain the process of photosynthesis in green plants </o2>
+        <o3>appeal to conservationists to protect endangered plant species</o3>
+      </options>
+      <answer>1|2</answer>
+    </template>
+  </question>  
