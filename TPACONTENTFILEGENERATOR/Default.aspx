@@ -23,16 +23,16 @@
                     </td>
                     <td>
                         <asp:DropDownList ID="ddlPracticeSets" runat="server">
-                            <asp:ListItem Text="Practice Set 1" Value="94fbb82b4fd1485eb61cc3c671da384d" />
-                            <asp:ListItem Text="Practice Set 2" Value="7fdd81499d6147a1b4a817e56db88024" />
+                            <%--<asp:ListItem Text="Practice Set 1" Value="94fbb82b4fd1485eb61cc3c671da384d" />
+                            <asp:ListItem Text="Practice Set 2" Value="7fdd81499d6147a1b4a817e56db88024" />--%>
                             <asp:ListItem Text="Practice Set 3" Value="88f631b360734b7da3b7c3e6151bd840" />
                             <asp:ListItem Text="Practice Set 4" Value="7b04cda952c144788c9d27aa2d5dc710" />
                             <asp:ListItem Text="Practice Set 5" Value="d9d885229cf64aceb84b19095b1ffd9c" />
-                            <asp:ListItem Text="Practice Set 6" Value="5dcbc550333c488996e65d41dad0bfe7" />
+                            <%--<asp:ListItem Text="Practice Set 6" Value="5dcbc550333c488996e65d41dad0bfe7" />
                             <asp:ListItem Text="Practice Set 7" Value="0b7002c915a441eebdb4448e4388ba5b" />
                             <asp:ListItem Text="Practice Set 8" Value="05424cf5c42745de8f6fdef719e5351b" />
                             <asp:ListItem Text="Practice Set 9" Value="db28642c43f44f048e0e1be5cf8984f6" />
-                            <asp:ListItem Text="Practice Set 10" Value="4e1a53fbe93d491289754abda2ea6984" />
+                            <asp:ListItem Text="Practice Set 10" Value="4e1a53fbe93d491289754abda2ea6984" />--%>
                         </asp:DropDownList>
                     </td>
                 </tr>
