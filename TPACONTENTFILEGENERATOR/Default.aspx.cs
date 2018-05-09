@@ -246,6 +246,13 @@ public partial class _Default : System.Web.UI.Page
         correctAnswerString = correctAnswerString.TrimEnd(new char[] { '|' });
         txtBoxAnswers.Text = correctAnswerString;
     }
+
+    private String GetHost()
+    {
+        var request = HttpContext.Current.Request;
+        return request.Url.Scheme + "://" + request.ServerVariables["HTTP_HOST"] + request.ApplicationPath;
+    }
+
     protected void ddl_SelectedIndexChanged(object sender, EventArgs e)
     {
 
@@ -253,7 +260,7 @@ public partial class _Default : System.Web.UI.Page
         pnlQuestionTemplate.Visible = true;
 
         lblLegend.Text = ddlPracticeSets.SelectedItem.Text + " >> " + ddlModule.SelectedItem.Text + " >> " + ddlTemplates.SelectedItem.Text;
-        hypLnkHelpDocs.NavigateUrl = string.Format("{0}/help/howto/{1}.swf", Request.ApplicationPath, ddlTemplates.SelectedItem.Text);
+        hypLnkHelpDocs.NavigateUrl = string.Format("{0}/help/howto/{1}.swf",GetHost(), ddlTemplates.SelectedItem.Text);
 
         if (ddlTemplates.SelectedValue == "REORDER")
         {
