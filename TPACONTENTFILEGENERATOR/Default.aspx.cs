@@ -253,7 +253,7 @@ public partial class _Default : System.Web.UI.Page
         pnlQuestionTemplate.Visible = true;
 
         lblLegend.Text = ddlPracticeSets.SelectedItem.Text + " >> " + ddlModule.SelectedItem.Text + " >> " + ddlTemplates.SelectedItem.Text;
-        hypLnkHelpDocs.NavigateUrl = string.Format("{0}/help/howto/{1}.swf", HttpContext.Current.Request.ApplicationPath, ddlTemplates.SelectedItem.Text);
+        hypLnkHelpDocs.NavigateUrl = string.Format("{0}/help/howto/{1}.swf", Request.ApplicationPath, ddlTemplates.SelectedItem.Text);
 
         if (ddlTemplates.SelectedValue == "REORDER")
         {
