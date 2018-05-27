@@ -178,14 +178,46 @@ namespace TPA.Templates.Reading
                 reorderItem.Id = Convert.ToInt32(answers[count]);
                 reorderItem.Name = question.Options.Where(_ => _.Id == answers[count]).Select(_ => _.OptionText).SingleOrDefault();
 
-                if (answers[count] != correctAnswers[count])
+                /*if (answers[count] != correctAnswers[count])
                     reorderItem.OptionBackgroundColor = new SolidColorBrush(Color.FromRgb(232,85,110)); //correct option 
                 else if (answers[count] == correctAnswers[count])
-                    reorderItem.OptionBackgroundColor = new SolidColorBrush(Color.FromRgb(35,155,57)); //wrong option
+                    reorderItem.OptionBackgroundColor = new SolidColorBrush(Color.FromRgb(35,155,57)); //wrong option*/
 
                 AnswerItems.Add(reorderItem);
 
             }
+
+            List<string> correctAnswerPair = new List<string>();
+            List<string> userAnswerPair = new List<string>();
+            for (int count = 0; count < correctAnswers.Length; count++)
+            {
+                int currentIndex = count;
+                int nextIndex = count == correctAnswers.Length - 1 ? 0 : count + 1;
+
+                correctAnswerPair.Add(correctAnswers[currentIndex] + "," + correctAnswers[nextIndex]);
+
+            }
+
+            correctAnswerPair = correctAnswerPair.Take(correctAnswerPair.Count - 1).ToList(); 
+            //Removing the cycle because of the last pair 1,2,3,4,5 -> 12,23,34,45 only 
+            //and excluding 51 combination
+            //as this is not required.//excluding last one to avoid cycle
+
+            for (int count = 0; count < AnswerItems.Count; count++)
+            {
+                int currentIndex = count;
+                int nextIndex = count == AnswerItems.Count - 1 ? 0 : count + 1;
+
+                string pair = AnswerItems[currentIndex].Id + "," + AnswerItems[nextIndex].Id;
+
+                if (correctAnswerPair.Any(x => x.Equals(pair)))
+                {
+                    AnswerItems[currentIndex].OptionBackgroundColor =
+                        AnswerItems[nextIndex].OptionBackgroundColor = new SolidColorBrush(Color.FromRgb(35, 155, 57));
+                }
+            }
+
+
             lstSource.IsEnabled = true;
             lstSource.BorderThickness = new Thickness(2);
             lstSource.ItemsSource = AnswerItems;

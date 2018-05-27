@@ -453,7 +453,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Panacea"
         "ProductCode" = "8:{D156F58E-F443-4F70-9E14-1F4000DF1C55}"
-        "PackageCode" = "8:{EBD5FFA1-F3B8-4E93-BD23-2DB12108DD1C}"
+        "PackageCode" = "8:{2E4CCFB5-B07E-4048-A851-DC992D39AC99}"
         "UpgradeCode" = "8:{71931957-B1B6-421B-8BCF-7311649C72D3}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

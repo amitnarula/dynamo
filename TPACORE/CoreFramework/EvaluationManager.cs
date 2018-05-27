@@ -8,6 +8,7 @@ using System.Text;
 using TPA.CoreFramework;
 using TPA.Entities;
 using TPACORE.Entities;
+using System.Collections;
 
 namespace TPACORE.CoreFramework
 {
@@ -109,6 +110,13 @@ namespace TPACORE.CoreFramework
                                 userAnswerPair.Add(userAnswerSplitArr[currentIndex] + "," + userAnswerSplitArr[nextIndex]);
                             }
 
+                            //Removing the cycle because of the last pair 1,2,3,4,5 -> 12,23,34,45 only 
+                            //and excluding 51 combination
+                            //as this is not required.
+
+                            correctPair = correctPair.Take(correctPair.Count - 1).ToList();
+                            userAnswerPair = userAnswerPair.Take(userAnswerPair.Count - 1).ToList();
+
                             foreach (var item in correctPair)
                             {
                                 if(userAnswerPair.Contains(item))
@@ -122,15 +130,35 @@ namespace TPACORE.CoreFramework
                     case QuestionTemplates.LISTEN_AND_HIGHLIGHT:
                         {
                             int correct = 0;
-                            for (int count = 0; count < questionContext.CorrectAnswers.Length; count++)
+
+
+                            foreach (var item in userAnswer.Split('|'))
                             {
-                                if(!string.IsNullOrEmpty(userAnswer) &&
-                                    questionContext.CorrectAnswers[count] == userAnswer.Split('|')[count])
+                                if (string.IsNullOrEmpty(item))
+                                    continue;
+
+                                int index = Convert.ToInt32(item);
+                                string[] descriptionArray = questionContext.Description.Split(new char[]{' '}
+                                    , StringSplitOptions.None);
+
+                                ArrayList descriptionArrayWithSpaces = new ArrayList();
+                                for (int count = 0; count < descriptionArray.Count(); count++)
                                 {
-                                    correct++;
+                                    descriptionArrayWithSpaces.Add(descriptionArray[count]);
+                                    descriptionArrayWithSpaces.Add(string.Empty);//padding each element with a space because
+                                    //at the time of rendering in the form of Run, these were added and accordingly
+                                    //indices are varied..
                                 }
+
+                                descriptionArray = descriptionArrayWithSpaces.ToArray(typeof(string)) as string[];
+
+                                if (questionContext.CorrectAnswers.Any(x =>
+                                    x.Equals(descriptionArray[index])))
+                                    correct++;
                             }
+
                             result = correct;
+
 
                         }
                         break;
