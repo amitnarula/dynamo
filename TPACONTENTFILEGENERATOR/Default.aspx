@@ -144,7 +144,7 @@
                         Correct Answers:
                     </td>
                     <td>
-                        <asp:TextBox runat="server" ID="txtBoxAnswers" ReadOnly="true" Width="150" />
+                        <asp:TextBox runat="server" ID="txtBoxAnswers" TextMode="MultiLine" Width="300" />
                     </td>
                 </tr>
             </table>
