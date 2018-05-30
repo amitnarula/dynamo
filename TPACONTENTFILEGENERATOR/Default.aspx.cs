@@ -510,8 +510,9 @@ public partial class _Default : System.Web.UI.Page
 
                     if (!string.IsNullOrEmpty(txtOption.Text))
                     {
-                        count += 1;
+                        
                         sb.Append(string.Format("<o{0}>{1}</o{0}>", count, txtOption.Text));
+                        count += 1;
 
                         correctAnswserString += txtOrder.Text;
                         correctAnswserString += "|";
