@@ -1,7 +1,7 @@
 <?xml version = "1.0"?>
 <questions>
-
-<question>
+  <!--TEST 1-->
+  <question>
   <id>84f955d0b52b42999fe1e2c8338e86d1</id>
   <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
   <type>FILL_IN_BLANKS</type>
@@ -523,6 +523,8 @@ The urge in Krishnappa Jagannath's mind was
     <answer>1</answer>
   </template>
 </question>
+<!--TEST 1 END-->  
+<!--TEST 2-->  
 <question>
   <id>71a6a6d4aa464e4ca7a1bbd5fd40e17e</id>
   <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
@@ -1040,4 +1042,1621 @@ Larry dropped me off here in the ATV three hours ago. He should be over halfway 
     <answer>1|3|0|2</answer>
   </template>
 </question>
+<!--TEST 2 END-->
+ 
+    <!--TEST 8-->
+    <question>
+      <id>6fa7aa30bb9b4b648b48e0865a86d3d2</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          Ever since humans have {blank} the earth, they have made use of various forms of communication. Generally, this expression of thoughts and feelings {blank} been in the form of oral speech. When there is a language barrier, communication is accomplished through sign language in which motions stand for letters, words and ideas. Tourists, the deaf, and the mute have had to {blank} to this form of expression. Many of these symbols of the whole words are very picturesque and exact and can be used internationally; spelling, however, cannot.
+          Body language {blank} ideas or thoughts by certain actions, either intentionally or unintentionally. A wink can be a way of flirting or indicating that the party is only joking. A nod {blank} approval,  while shaking the head indicates a negative reaction.
+        </description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q3</title>
+        <blanks>
+          <blank>
+            <o0>lived</o0>
+            <o1>inhabited</o1>
+            <o2>resided</o2>
+            <o3>dwelt</o3>
+          </blank>
+          <blank>
+            <o0>have</o0>
+            <o1>has</o1>
+            <o2>had</o2>
+            <o3>could have</o3>
+          </blank>
+          <blank>
+            <o0>resort</o0>
+            <o1>restore</o1>
+            <o2>resolve</o2>
+            <o3>reply</o3>
+          </blank>
+          <blank>
+            <o0>transforms</o0>
+            <o1>confronts</o1>
+            <o2>transmits</o2>
+            <o3>attains</o3>
+          </blank>
+          <blank>
+            <o0>signifies</o0>
+            <o1>applies</o1>
+            <o2>establishes</o2>
+            <o3>instills</o3>
+          </blank>
+        </blanks>
+        <answer>1|1|0|2|0</answer>
+      </template>
+    </question>
+    <question>
+      <id>015c5b6bfa07405ea057313f05e6277c</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>REORDER</type>
+      <itemType>READING</itemType>
+      <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description></description>
+        <title>Reading - Re-order Paragraphs - Q7</title>
+        <options>
+          <o0>Three years later, he earned a law degree from Duke University, where he was head of the student bar association and graduated near the top of his class.</o0>
+          <o1>He was the second of five sons of Francis Anthony Nixon (1878-1956), who struggled to earn a living running a grocery store and gas station, and his wife, Hannah Milhous Nixon (1885-1967).</o1>
+          <o2>He attended Whittier College, where he excelled as a debater and was elected president of the student body before graduating in 1934.</o2>
+          <o3>Richard Milhous Nixon was born on January 9, 1913, in Yorba Linda, California.</o3>
+        </options>
+        <answer>3|1|2|0</answer>
+      </template>
+    </question>
+    <question>
+      <id>20eb7e46eb4b43de96fb8ffea9435f93</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          A recent {blank} by scientists at the U.S. Geological Survey shows that strange animal behavior might help predict earthquakes. Investigators found such {blank} within a ten {blank} radius of the epicenter of a fairly recent quake. {blank} birds screeched and flew about wildly; dogs yelped and ran around uncontrollably.
+          Scientists believe that animals can perceive environmental changes several hours or even days before the mishap. Animals were {blank} as being restless for several weeks before a Tashkent, Uzbekistan, earthquake.
+          An hour before the disaster, domestic animals {blank} to go indoors and dogs howled and barked furiously. In 1960, an earthquake struck Agadir in Morocco. Survivors recall that stray animals, including dogs, were seen streaming out of town before the earthquake. In a safari zoo near San Francisco, llamas would not eat the evening before a 1979 quake, and they ran {blank} wildly all night.
+        </description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q1</title>
+        <blanks>
+          <blank>
+            <o0>research</o0>
+            <o1>investigation</o1>
+            <o2>studies</o2>
+            <o3>work</o3>
+          </blank>
+          <blank>
+            <o0>occurrences</o0>
+            <o1>occurrence</o1>
+            <o2>phenomenon</o2>
+            <o3>instance</o3>
+          </blank>
+          <blank>
+            <o0>kilometer</o0>
+            <o1>kilometers</o1>
+            <o2>fold</o2>
+            <o3>folds</o3>
+          </blank>
+          <blank>
+            <o0>Few</o0>
+            <o1>Some</o1>
+            <o2>A little</o2>
+            <o3>Many a</o3>
+          </blank>
+          <blank>
+            <o0>experienced</o0>
+            <o1>experimented</o1>
+            <o2>noted</o2>
+            <o3>founded</o3>
+          </blank>
+          <blank>
+            <o0>refused</o0>
+            <o1>were refused</o1>
+            <o2>refuse</o2>
+            <o3>had refused</o3>
+          </blank>
+          <blank>
+            <o0>aimlessly</o0>
+            <o1>out</o1>
+            <o2>about</o2>
+            <o3>down</o3>
+          </blank>
+        </blanks>
+        <answer>1|0|0|1|2|0|2</answer>
+      </template>
+    </question>
+    <question>
+      <id>23bbe685f4f14def844563e233aeb930</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>FILL_IN_BLANKS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          Mintel consumer intelligence {blank} the 2002 market for vegetarian foods, those that directly replace meat or other animal products, to be $1.5 billion. Note that this excludes traditional vegetarian foods such as produce, pasta, and rice. Mintel forecasts the market to nearly double by 2006 to $2.8 billion, with the highest growth coming from soymilk, especially refrigerated brands.
+          The food and drug administration's 1999 decision to allow manufacturers to include heart-healthy claims on foods that deliver at least 6.25 grams of soy protein per serving and are also low in saturated fat and cholesterol has spurred  {blank} interest in soymilk and other soy foods. A representative of manufacturer food tech international (veggie patch brand) reported that from 1998 to 1999, the percentage of  {blank} willing to try soy products jumped from 32% to 67%. Beliefs about soy's  {blank} in reducing the symptoms of menopause also attracted new consumers. A 2000 survey conducted by the united soybean board showed that the number of people eating soy products once a week or more was up to 27%. Forty-five percent of respondents had tried tofu, 41% had sampled veggie burgers, and 25% had experience with soymilk. Mintel estimates 2001 sales of frozen and refrigerated meat  {blank} in food stores at nearly $300 million, with soymilk sales nearing $250 million.
+        </description>
+        <title>Reading - Reading: Fill in the blanks - Q10</title>
+        <blanks>
+          <blank>
+            <o0>consumers</o0>
+            <o1>alternatives</o1>
+            <o2>clients</o2>
+            <o3>attracts</o3>
+            <o4>effectiveness</o4>
+            <o5>approximately</o5>
+            <o6>surprisingly</o6>
+            <o7>estimates</o7>
+          </blank>
+        </blanks>
+        <answer>7|6|0|4|1</answer>
+      </template>
+    </question>
+    <question>
+      <id>026aae869a6b4aa79c71f0d58a96d7e5</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          Drive down any highway, and you’ll see a perforation of {blank} restaurants -- most likely, if you travel long and far enough, you’ll see McDonald’s Golden Arches as well as signs for Burger King, Hardee’s and Wendy’s, the “big four” of burgers. Despite its name, though, Burger King has fallen short of {blank} the burger crown, unable to surpass market leader MacDonald’s No.1 sales status.
+          Always the bridesmaid and never the bride, Burger King remains No.2. Worse yet, Burger King {blank} a six-year 22% decline in customer traffic with its overall quality rating dropping while ratings for the other three contenders have increased. The decline {blank} to in consistent product quality and poor customer service. Although the chain tends to throw advertising dollars at the problem, an understanding of integrated Marketing Communications theory would suggest that internal management problems need to be rectified before a {blank}, long term strategy can be put in place.
+        </description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q4</title>
+        <blanks>
+          <blank>
+            <o0>group</o0>
+            <o1>sequence</o1>
+            <o2>chain</o2>
+            <o3>ownership</o3>
+          </blank>
+          <blank>
+            <o0>announcing</o0>
+            <o1>winning</o1>
+            <o2>achieving</o2>
+            <o3>claiming</o3>
+          </blank>
+          <blank>
+            <o0>experienced</o0>
+            <o1>has experienced</o1>
+            <o2>was experiencing</o2>
+            <o3>has been experiencing</o3>
+          </blank>
+          <blank>
+            <o0>attributed</o0>
+            <o1>attribute</o1>
+            <o2>consider</o2>
+            <o3>has been attributed</o3>
+          </blank>
+          <blank>
+            <o0>unified</o0>
+            <o1>separated</o1>
+            <o2>spilt</o2>
+            <o3>unify </o3>
+          </blank>
+        </blanks>
+        <answer>2|3|1|3|0</answer>
+      </template>
+    </question>
+    <question>
+      <id>4990ab5489734303b714cd381a23754d</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+      <itemType>READING</itemType>
+      <instruction>Read the text and answer the multiple-choice question by selecting all the correct response. More than one response is correct.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          Joseph Pulitzer was born in 1847 in Makó, Hungary. He emigrated to the United States when he was seventeen years old, and was naturalised on his twentieth birthday. He spent his career in journalism working in the mid-west and New York. From 1871 he was also the owner or part-owner of many newspapers. His most famous newspaper was the New York World (which many believe was the model for the Daily Planet of the Superman stories). The World campaigned against corruption, and exposed many scandals. It was also strong supporter of the rights of the working man.
+
+          In later life, Joseph Pulitzer collapsed from overwork, and lost his sight. He became dedicated to improving the quality of journalism in America, and donated $1 million to Columbia University to found a school of journalism. However, his most significant contribution was the establishment of the Pulitzer prizes in his will.
+
+          These prizes for excellence in journalism have been given every year since 1917 by Columbia University. Since 1942 there have been extra categories for press photography, and later still for criticism, feature writing and commentary. The prize was originally for $500, but today the winners of the prize receive a gold medal. However, the real value of the prize is that it confirms that the journalist who has received the award is the best American journalist of the year- a fact that is worth much more than $500 to the journalist and to the newspaper that employs him or her.
+        </description>
+        <title>Which of following options are correct related to the text? </title>
+        <options>
+          <o0>As well as writing for newspaper, Joseph Pulitzer was the boss of some newspapers</o0>
+          <o1>Joseph Pulitzer came to America because Hungary was being attacked by Austria</o1>
+          <o2>New York World probably provide a model for a famous fictional newspaper</o2>
+          <o3>Pulitzer became an American citizen in 1867</o3>
+          <o4>Joseph Pulitzer become a patriotic American</o4>
+        </options>
+        <picture></picture>
+        <answer>0|3</answer>
+      </template>
+    </question>
+    <question>
+      <id>62510993820a4632a89ab97c846c5757</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>REORDER</type>
+      <itemType>READING</itemType>
+      <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description></description>
+        <title>Reading - Re-order Paragraphs - Q6</title>
+        <options>
+          <o0>The hyena-like animal, Palaeonictis wingi, evolved from the size of a bear to the size of a coyote during a 200,000-year period.</o0>
+          <o1>Extinct carnivorous mammals shrank in size during a global warming event that occurred 55 million years ago, according to a new University of Florida study.</o1>
+          <o2>Following this global warming event, Earth’s temperature cooled and the animal evolved to a larger size.</o2>
+          <o3>Following this global warming event, Earth’s temperature cooled and the animal evolved to a larger size.</o3>
+          <o4>The study describes a new species that evolved to half the size of its ancestors during this period of global warming.</o4>
+        </options>
+        <answer>1|4|0|3|2</answer>
+      </template>
+    </question>
+    <question>
+      <id>b7dc6cbee0ad458a840808b4d88bbfea</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          In math education, the definition of “cooperative learning” is greater than the sum of these two words. Mark Reinholz describes peer-assisted reflection (PAR) in an introductory calculus class, {blank} students work together to attempt to solve a problem, {blank} on their work, conference with a peer, and revise and submit a final solution. PAR emphasizes problem-solving processes, including explanation and justification, similar to an inquiry-based science class. The PAR model {blank} peer interaction, with students analysing their peers' work in order to develop analytic skills that they can then apply to their own learning.
+          {blank} success through PAR was significant and comparable to similar active learning interventions in STEM (science, technology, engineering, and mathematics) courses. Most importantly, PAR resulted in students being {blank} likely to drop introductory calculus.
+        </description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q2</title>
+        <blanks>
+          <blank>
+            <o0>which</o0>
+            <o1>where</o1>
+            <o2>when</o2>
+            <o3>how</o3>
+          </blank>
+          <blank>
+            <o0>react</o0>
+            <o1>discuss</o1>
+            <o2>ponder</o2>
+            <o3>reflect</o3>
+          </blank>
+          <blank>
+            <o0>emphasizes</o0>
+            <o1>stresses</o1>
+            <o2>focuses</o2>
+            <o3>replicates</o3>
+          </blank>
+          <blank>
+            <o0>Student</o0>
+            <o1>Students</o1>
+            <o2>Student’s</o2>
+            <o3>Pupil</o3>
+          </blank>
+          <blank>
+            <o0>more</o0>
+            <o1>less</o1>
+            <o2>highly</o2>
+            <o3>highly</o3>
+          </blank>
+        </blanks>
+        <answer>1|3|1|2|1</answer>
+      </template>
+    </question>
+    <question>
+      <id>c0b59555edfe47728a7e5def036ee469</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>FILL_IN_BLANKS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          In the 250 years of its {blank} evolution, funerary violin moved from the formal to the personal. It is clear from the {blank} consciousness of the form that its role during the sixteenth and seventeenth centuries was largely heraldic, to exemplify, the continuity of the social structure. The few works that have survived from this period are often {blank} unemotional and at times overtly grandiose.
+          Nature is no longer an alien {blank} , but something immediately beautiful, an exuberant opus with space for us to join in. Bird melodies have always been called songs for a reason.
+        </description>
+        <title>Reading - Reading: Fill in the blanks - Q9</title>
+        <blanks>
+          <blank>
+            <o0>surprisingly  </o0>
+            <o1>enigma              </o1>
+            <o2>latest          </o2>
+            <o3>consciously        </o3>
+            <o4>active   </o4>
+            <o5>mysterious     </o5>
+            <o6>earliest</o6>
+          </blank>
+        </blanks>
+        <answer>4|6|0|1</answer>
+      </template>
+    </question>
+    <question>
+      <id>c7b54dc390d843198e749d219b931aca</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+      <itemType>READING</itemType>
+      <instruction>Read the text and answer the multiple-choice question by selecting all the correct response. More than one response is correct.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Nefertiti (ca. 1370 - ca. 1330 BC) was an Egyptian queen and the Great Royal Wife (chief consort) of Akhenaten, an Egyptian Pharaoh. Nefertiti and her husband were known for a religious revolution, in which they worshiped one god only, Aten, or the sun disc. Akhenaten and Nefertiti were responsible for the creation of a whole new religion which changed the ways of religion within Egypt. With her husband, she reigned at what was arguably the wealthiest period of Ancient Egypt. Some scholars believe that Nefertiti ruled briefly as Neferneferuaten after her husband’s death and before the accession of Tutankhamun, although this is a matter of ongoing debate.</description>
+        <title>Which of the following are true statements about Nefertiti?</title>
+        <options>
+          <o0>Nefertiti and her husband believed in a single deity.</o0>
+          <o1>Nefertiti is the most famous queen in Egypt’s history.</o1>
+          <o2>Nefertiti was an Egyptian Pharaoh.</o2>
+          <o3>Nefertiti ruled over Egypt during its most prosperous time.</o3>
+        </options>
+        <picture></picture>
+        <answer>0|3</answer>
+      </template>
+    </question>
+    <question>
+      <id>c2113ac0b83048a180ffc115d5b3d0ea</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+      <itemType>READING</itemType>
+      <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          The Turks and Caicos Islands are a multi-island archipelago at the southern tip of the Bahamas chain, approximately 550 miles south-east of Florida. The islands are an overseas territory of the United Kingdom although they exercise a high degree of local political autonomy. The economy of the islands rests mainly on tourism, with some contribution from offshore banking and fishing.
+          Primary schooling is divided into eight grades, with most pupils entering at the age of four years and leaving at twelve. After two kindergarten years, Grades 1-6 are covered by a graded curriculum in maths, language and science that increases in difficulty as pupils get older. There is little repetition and pupils are expected to progress through primary school in their age cohorts. At the end of primary schooling, pupils sit an examination that serves to stream them in the secondary setting. Primary and secondary school enrolment is virtually universal.
+          There are a total of ten government primary schools on the islands. Of these, seven are large enough to organize pupils into single grade classrooms. Pupils in these schools are generally grouped by age into mixed-ability classes. The remaining three schools, because of their small pupil numbers, operate with multigrade groupings. They serve communities with small populations whose children cannot travel to a neighbouring larger primary school. Pupils in these classes span up to three grade and age groups.
+          As far as classroom organization is concerned, the multigrade and monograde classrooms are similar in terms of the number of pupils and the general seating arrangements, with pupils in rows facing the blackboard. There is no evidence that the multigrade teachers operate in a particularly resource-poor environment in the Turks and Caicos Islands. This is in contract to studies conducted in other developing country contexts.
+        </description>
+        <title>According to the text, which of the following statements can be concluded about primary classes in the Turks and Caicos Islands?</title>
+        <options>
+          <o0>Multigrade classes are mostly found in smaller schools.</o0>
+          <o1>Most primary pupils are in multigrade classes.</o1>
+          <o2>Parents can choose to send their child to a multigrade school</o2>
+          <o3>Multigrade classes are for the youngest three grades</o3>
+        </options>
+        <picture></picture>
+        <answer>0</answer>
+      </template>
+    </question>
+    <question>
+      <id>ca8ba36faedb4071946bf7f060fef99b</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>REORDER</type>
+      <itemType>READING</itemType>
+      <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description></description>
+        <title>Reading - Re-order Paragraphs - Q8</title>
+        <options>
+          <o0>There were many advances in science and technology, discoveries in the new world, and changes in religion.</o0>
+          <o1>It represented a renewed interest in Greek and roman art and literature.</o1>
+          <o2>Artists across Europe improved on the ancient artists’ techniques as no other period had done.</o2>
+          <o3>The greatest achievements in art during this period were the perfection of depth perspective, use of colors, and effects of light and shadow.</o3>
+          <o4>The period commonly known as the renaissance (1400-1600) began in Florence, Italy.</o4>
+        </options>
+        <answer>4|1|3|2|0</answer>
+      </template>
+    </question>
+    <question>
+      <id>caf032dd44f445339be85a34ba54ebf4</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>FILL_IN_BLANKS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>In the fast-changing world of {blank} healthcare, the job of a doctor is more and more like the job of chief executive. The people who run hospitals and physicians’’  {blank}  don’t just need to know medicine. They must also be able to  {blank}  budgets, motivates a large and diverse staff and make difficult marketing and  {blank}  decisions.</description>
+        <title>Reading - Reading: Fill in the blanks - Q13</title>
+        <blanks>
+          <blank>
+            <o0>balance             </o0>
+            <o1>legal          </o1>
+            <o2>ancient          </o2>
+            <o3>practices             </o3>
+            <o4>exercise         </o4>
+            <o5>illegal         </o5>
+            <o6>modern</o6>
+          </blank>
+        </blanks>
+        <answer>6|3|0|1</answer>
+      </template>
+    </question>
+    <question>
+      <id>ce42984ed4ea4a82b4d5406b41e03950</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>FILL_IN_BLANKS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>‘Just-In-Time’ is a management philosophy and not a {blank}. It originally referred to the production of goods to meet customer {blank} exactly, in time, quality and quantity, {blank} the ‘customer’ is the final purchaser of the product or another process {blank} along the production line. </description>
+        <title>Reading - Reading: Fill in the blanks - Q11</title>
+        <blanks>
+          <blank>
+            <o0>demand            </o0>
+            <o1>further         </o1>
+            <o2>whether       </o2>
+            <o3>technology    </o3>
+            <o4>choice      </o4>
+            <o5>neither           </o5>
+            <o6>technique</o6>
+          </blank>
+        </blanks>
+        <answer>6|0|2|1</answer>
+      </template>
+    </question>
+    <question>
+      <id>1c4e3dc0ccde47f3b4a0f3c4d74b7f07</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+      <itemType>READING</itemType>
+      <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          When he was awarded an Honorary Degree by the University of Newcastle, even John Robertson himself must surely have looked back in wonder at his astonishing rise to success.
+          The year was 1910, and those assembled were to hear not only of his generosity to the University, which enabled it to contribute to the pioneering research into tropical diseases being carried out at that time, but also of his humanitarian work in southern Africa, where he was ahead of his time in improving the working conditions of local mine workers.
+          To those who knew John in his youth, it will have come as no surprise to hear of his success. He was now enjoying the rewards of the fierce determination, desire to succeed and extraordinary ability to acquire knowledge, which they had noticed in the young man.
+        </description>
+        <title>What does the reader of this text learn about John Robertson?</title>
+        <options>
+          <o0>He was born in Africa.</o0>
+          <o1>He studied medicine</o1>
+          <o2>He completed his degree in 1910.</o2>
+          <o3>He achieved success rapidly.</o3>
+        </options>
+        <picture></picture>
+        <answer>3</answer>
+      </template>
+    </question>
+    <question>
+      <id>3ef06114c34a4680a211378e5f2114e5</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+      <itemType>READING</itemType>
+      <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          The Turks and Caicos Islands are a multi-island archipelago at the southern tip of the Bahamas chain, approximately 550 miles south-east of Florida. The islands are an overseas territory of the United Kingdom although they exercise a high degree of local political autonomy. The economy of the islands rests mainly on tourism, with some contribution from offshore banking and fishing.
+          Primary schooling is divided into eight grades, with most pupils entering at the age of four years and leaving at twelve. After two kindergarten years, Grades 1-6 are covered by a graded curriculum in maths, language and science that increases in difficulty as pupils get older. There is little repetition and pupils are expected to progress through primary school in their age cohorts. At the end of primary schooling, pupils sit an examination that serves to stream them in the secondary setting. Primary and secondary school enrolment is virtually universal.
+          There are a total of ten government primary schools on the islands. Of these, seven are large enough to organize pupils into single grade classrooms. Pupils in these schools are generally grouped by age into mixed-ability classes. The remaining three schools, because of their small pupil numbers, operate with multigrade groupings. They serve communities with small populations whose children cannot travel to a neighbouring larger primary school. Pupils in these classes span up to three grade and age groups.
+          As far as classroom organization is concerned, the multigrade and monograde classrooms are similar in terms of the number of pupils and the general seating arrangements, with pupils in rows facing the blackboard. There is no evidence that the multigrade teachers operate in a particularly resource-poor environment in the Turks and Caicos Islands. This is in contract to studies conducted in other developing country contexts.
+        </description>
+        <title>According to the text, which of the following statements can be concluded about primary classes in the Turks and Caicos Islands?</title>
+        <options>
+          <o0>Multigrade classes are mostly found in smaller schools.</o0>
+          <o1>Most primary pupils are in multigrade classes.</o1>
+          <o2>Parents can choose to send their child to a multigrade school</o2>
+          <o3>Multigrade classes are for the youngest three grades</o3>
+        </options>
+        <picture></picture>
+        <answer>0</answer>
+      </template>
+    </question>
+    <question>
+      <id>3f2aa84e77574b5eac4abb33a0e74a35</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          Tourists who visit national parks and other protected areas in the United States hope to gain a respite from the sights and sounds of their {blank} lives. But evading human sound scapes isn’t easy. Many protected areas are surprisingly noisy, a new study finds, and that can interfere with more than just the peace and quiet visitors seek.
+          Noise generated by humans-including that from development activities, traffic and the {blank} of natural resources—threaten the survival of plant and animal species across the country, researchers report. “I was frankly shocked to learn how noisy humans have {blank} some of the most remote places on the continent,” says Charlie Zender,
+          an atmospheric physicist at the University of California, Irvine, who was not involved in the research.
+          To determine how much noise came from human activity, the researchers made a background noise model that eliminated all potential sounds created by people, such as aeroplane or car noises. The researchers then compared their estimates of wild soundscape noise levels to the NPS maps, allowing them to determine the extent {blank} which human-made sounds added to noise levels in the protected areas.
+          The researchers found that 63% of the protected areas were twice as loud as they should be. “So if you used to be able to hear a bird song at 100 feet [30 metres], now you could hear it at 50  feet,” Buxton says. Some areas were even louder: 21% were more than 10 times louder than background levels. In those regions, “you can only hear that bird at about {blank} feet”, she says.
+        </description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q5</title>
+        <blanks>
+          <blank>
+            <o0>everyday</o0>
+            <o1>every day</o1>
+            <o2>every-day</o2>
+            <o3>each day</o3>
+          </blank>
+          <blank>
+            <o0>removal</o0>
+            <o1>exertion</o1>
+            <o2>extraction</o2>
+            <o3>excerption</o3>
+          </blank>
+          <blank>
+            <o0>done</o0>
+            <o1>made</o1>
+            <o2>become</o2>
+            <o3>had</o3>
+          </blank>
+          <blank>
+            <o0>to</o0>
+            <o1>with</o1>
+            <o2>for</o2>
+            <o3>in</o3>
+          </blank>
+          <blank>
+            <o0>5</o0>
+            <o1>10</o1>
+            <o2>25</o2>
+            <o3>50</o3>
+          </blank>
+        </blanks>
+        <answer>0|2|1|0|1</answer>
+      </template>
+    </question>
+    <question>
+      <id>5bd58b0575144ca6a58cb9ac2886aff7</id>
+      <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+      <type>FILL_IN_BLANKS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          Stress is what you feel when you have to handle more than you are used to. When you are stressed, your body {blank} as though you are in danger. It makes {blank} that speed up your heart, make you breathe faster, and give you a burst of energy. This is called the fight-or-flight stress response. Some stress is normal and even useful. Stress can help if you need to work hard or react quickly. For example, it can help you win a race or finish an {blank}job on time.
+          but if stress happens too often or lasts too long, it can have bad effects. It can be linked to headaches, an upset stomach, back pain, and trouble sleeping. It can weaken your immune system, making it harder to fight off {blank}.
+        </description>
+        <title>Reading - Reading: Fill in the blanks - Q12</title>
+        <blanks>
+          <blank>
+            <o0>hormones         </o0>
+            <o1>illness      </o1>
+            <o2>necessary        </o2>
+            <o3>important        </o3>
+            <o4>disease          </o4>
+            <o5>responds         </o5>
+            <o6>genetic  </o6>
+          </blank>
+        </blanks>
+        <answer>5|0|3|4</answer>
+      </template>
+    </question>
+    <!--TEST 8 END-->
+
+    <!--TEST 9-->
+    <question>
+      <id>56ff7c778f2b43429b7eb7bedbb67993</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>FILL_IN_BLANKS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          The ocean floor is home to many unique communities of plants and animals. Most of these marine ecosystems are near the water surface, such as the Great Barrier Reef, a 2,000km long coral {blank} off the north eastern coast of Australia. Coral reefs, like nearly all complex living communities, depend on solar energy for growth. The sun’s energy, however, penetrates at most only about 300m below the surface of the water. The relatively shallow penetration of solar energy and the sinking of cold, sub-polar water combine to make most of the deep ocean floor a {blank} environment with
+          few life forms.
+          In 1977, scientists discovered hot springs at a depth of 2.5km, on the Galapagos Rift (spreading ridge) off the coast of Ecuador. This exciting discovery was not really a {blank}. Since the early 1970s, scientists had predicted that hot springs should be found at the active spreading centres along the mid-oceanic ridges, where magma, at temperatures over 1,000°C, presumably was being erupted to form new oceanic crust. More exciting, because it was totally {blank}, was the discovery of abundant and unusual sea life - giant tube worms, huge clams, and mussels - that {blank} around the hot springs.
+        </description>
+        <title>Reading - Reading: Fill in the blanks - Q16</title>
+        <blanks>
+          <blank>
+            <o0>frigid          </o0>
+            <o1>thrive               </o1>
+            <o2>amazed              </o2>
+            <o3>unexpected             </o3>
+            <o4>coldest           </o4>
+            <o5>passionate            </o5>
+            <o6>surprise             </o6>
+            <o7>formation</o7>
+          </blank>
+        </blanks>
+        <answer>7|0|6|3|1</answer>
+      </template>
+    </question>
+    <question>
+      <id>91ba1847931444bf9af9cf0976554df9</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>By 2025, government experts say, America’s skies will {blank} with three times as many planes, and not just the kind of traffic flying today. There will be thousands of tiny jets, seating six or fewer, at airliner {blank}, competing for space with remotely operated drones that need help avoiding midair collisions, and with {blank} operated rockets carrying satellites and tourists into space. </description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q2</title>
+        <blanks>
+          <blank>
+            <o0>retreat</o0>
+            <o1>lack</o1>
+            <o2>need</o2>
+            <o3>swarm</o3>
+          </blank>
+          <blank>
+            <o0>altitudes</o0>
+            <o1>lowness</o1>
+            <o2>depression</o2>
+            <o3>flat</o3>
+          </blank>
+          <blank>
+            <o0>commercially</o0>
+            <o1>profitable</o1>
+            <o2>rejection</o2>
+            <o3>disapproval</o3>
+          </blank>
+        </blanks>
+        <answer>3|0|0</answer>
+      </template>
+    </question>
+    <question>
+      <id>3059fa27cc1d45d7829d110ba5651e6d</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>REORDER</type>
+      <itemType>READING</itemType>
+      <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description></description>
+        <title>Reading - Re-order Paragraphs - Q11</title>
+        <options>
+          <o0>Sports and everyday life also includes fashion. This covers designing and making clothes, as well as buying them. </o0>
+          <o1>Sports and everyday life includes arts and crafts, customs, food, games, hobbies, interior design, and sports. It’s the category about the rest of our life.</o1>
+          <o2>This could include knitting, building models, making pottery, and gardening. Some of these arts and crafts could be decorative, functional, or both.</o2>
+          <o3>Content about arts and crafts begins with the kinds of things that we do around the home, in the yard and for hobbies. </o3>
+        </options>
+        <answer>1|3|2|0</answer>
+      </template>
+    </question>
+    <question>
+      <id>7665e0f5940c448db21ef5e9351b6953</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+      <itemType>READING</itemType>
+      <instruction>Read the text and answer the multiple-choice question by selecting all the correct response. More than one response is correct.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          To understand how iodine deficiency leads to goiter, it is necessary to look at the underlying physiology of the thyroid gland. The human thyroid gland is the only place in the body where iodine is stored, and it requires a daily supply of about 150 micrograms of iodine entering the body. When food or water is digested, the iodine it contains is either taken up by the thyroid or eliminated from the body through the kidneys into the urine. When supplies are low, the kidneys still eliminate iodine from the body so the capacity of the thyroid to preserve an adequate supply of raw material is threatened.
+
+          The thyroid gland consists of thousands of balls of cells, called thyroid vesicles, which enclose a space filled with a jellylike protein called thyroglobulin. These cells have an extraordinary ability to trap iodine from the bloodstream, and the efficiency of this trap can be increased if the amount of iodine in the blood circulation decreases. Once the iodine is trapped by the thyroid vesicles it passes into the thyroglobulin, where the actual manufacture of two kinds of thyroid hormones takes place. The hormones are stored here until they travel back through the thyroid vesicles to enter the bloodstream. The thyroid hormones are then taken to every part of the body where they influence the rate at which the chemical processes of every cell proceed. They have a {G:722}pervasive{/G} effect on the control of oxygen consumption and heat production of the whole body, and they are essential to the healthy growth of body and mind.
+
+          The thyroid tries to keep constant the amount of circulating thyroid hormone entering the cells of the body. When iodine supplies are low, the pituitary gland, a small pea-sized gland at the base of the brain, secretes a thyroid-stimulating hormone (TSH) that in turn regulates the power of the thyroid to trap iodine and increase the output of the thyroid. If the thyroid is continually stimulated by TSH, the cells get larger and eventually the whole gland enlarges with an increase in the number of its cells. The thyroid may have many temporary crises where iodine supplies are not adequate and where swelling is induced under the influence of TSH. A series of such incidents over a long period of time will eventually cause a large thyroid swelling since the gland does not always resume its previous size and shape.
+        </description>
+        <title>What happens when Thyroid is regularly revitalized by TSH?</title>
+        <options>
+          <o0>The circulation of blood decreases.</o0>
+          <o1>May go through temporary crisis where swelling is induced because of no adequate supply of iodine.</o1>
+          <o2>The size of glands grows because of an increase in cells.</o2>
+          <o3>the kidneys eliminate iodine and the capacity of the thyroid to preserve an adequate supply of raw material is threatened.</o3>
+          <o4>cells have an extraordinary ability to trap iodine from the bloodstream.</o4>
+        </options>
+        <picture></picture>
+        <answer>1|2</answer>
+      </template>
+    </question>
+    <question>
+      <id>349973204b034b3abcbcfe0045a355ea</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>FILL_IN_BLANKS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          For all his fame and celebration, William Shakespeare remains a {blank} figure with regards to personal history. There are just two primary {blank} for information on the bard: his works, and various legal and church documents that have {blank} from Elizabethan times. Naturally, there are many {blank} in this body of information, which tells us little about Shakespeare the man.
+        </description>
+        <title>Reading - Reading: Fill in the blanks - Q13</title>
+        <blanks>
+          <blank>
+            <o0>sources</o0>
+            <o1>survived           </o1>
+            <o2>freeze                     </o2>
+            <o3>gaps            </o3>
+            <o4>curiosity              </o4>
+            <o5>survive               </o5>
+            <o6>mysterious</o6>
+          </blank>
+        </blanks>
+        <answer>6|0|1|3</answer>
+      </template>
+    </question>
+    <question>
+      <id>aa2089bf677349bab0be47b6b5ada464</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          All approaches aim to increase blood flow to areas of tension and to release painful knots of muscle known as “trigger points”.  “Trigger points are tense areas of muscle that are almost {blank} contracting,” says Kippen. “The contraction causes pain, which in turn causes contraction, so you have a {blank} circle. This is what deep tissue massage aims to break.”
+          The way to do this, as I found out under Ogedengbe’s elbow, is to apply pressure to the point,
+          stopping the blood flow, and then to release, which causes the brain to flood the {blank} area with blood, encouraging the muscle to relax. At the same time, says Kippen, you can fool the tensed muscle into {blank} by applying pressure to a complementary one nearby. “If you cause any muscle to contract, its opposite will expand. So you try to trick the body into relaxing the muscle that is in spasm.”
+        </description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q4</title>
+        <blanks>
+          <blank>
+            <o0>constantly</o0>
+            <o1>regularly</o1>
+            <o2>continuously</o2>
+            <o3>rapidly </o3>
+          </blank>
+          <blank>
+            <o0>kindly</o0>
+            <o1>benevolent</o1>
+            <o2>beautifully</o2>
+            <o3>vicious</o3>
+          </blank>
+          <blank>
+            <o0>affects</o0>
+            <o1>has affected</o1>
+            <o2>affected</o2>
+            <o3>affecting</o3>
+          </blank>
+          <blank>
+            <o0>is relaxing</o0>
+            <o1>was relaxing</o1>
+            <o2>relaxing</o2>
+            <o3>relaxed</o3>
+          </blank>
+        </blanks>
+        <answer>0|3|2|2</answer>
+      </template>
+    </question>
+    <question>
+      <id>abcea93a59444dfbb3a16f68c8c95b59</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>FILL_IN_BLANKS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Richard Morris, head of the school of accounting at the University of NSW, which requires an {blank} score in the top 5 percent of students, says {blank} has been a problem since the late 1990s. “sometimes in the lectures we’ve only got about one third of students {blank} attending.” He said. “It definitely is a problem, if you don’t turn up to class you’re missing out on the whole richness of the {blank}: you don’t think a whole lot, you don’t {blank} in debates  with other students  or with your teachers.” It is not all gloom, said Professor John Dearn, a Pro Vice-Chancellor at the University of Canberra, who said the internet was {blank} the way students access and use information. “It is strange that despite all the evidence as to their ineffectiveness,{blank} lectures seem to persist in our university.”</description>
+        <title>Reading - Reading: Fill in the blanks - Q15</title>
+        <blanks>
+          <blank>
+            <o0>attendance              </o0>
+            <o1>transformed            </o1>
+            <o2>entrance     </o2>
+            <o3>experience        </o3>
+            <o4>transform      </o4>
+            <o5>transforming         </o5>
+            <o6>enrolled      </o6>
+            <o7>traditional   </o7>
+            <o8>register      </o8>
+            <o9>engage</o9>
+          </blank>
+        </blanks>
+        <answer>2|0|6|3|9|5|7</answer>
+      </template>
+    </question>
+    <question>
+      <id>b1cec332845d48b8814225e98df63535</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          Drive down any highway, and you’ll see a perforation of chain restaurants {blank} most likely, if you travel long and far enough, you’ll see McDonald’s golden arches as well as signs for Burger King, Hardee’s and Wendy’s, the “big four” of burgers. Despite its name, though, Burger King has fallen short of {blank} the burger crown, unable to {blank} market leader MacDonald’s no.1 sales status.
+          Always the bridesmaid and never the bride, burger king remains no.2. Worse yet, burger king has experienced a six-year 22% decline in customer traffic with its overall quality rating dropping while ratings for the other three {blank} have increased. The decline has been {blank} to in consistent product quality and poor customer service. Although the chain tends to throw advertising dollars at the problem, an {blank} of integrated marketing communications theory would suggest that internal management problems (19 ceos in 15 years) need to be {blank} before a unified, long term strategy can be put in place.
+        </description>
+        <title>Reading - Reading: Fill in the blanks - Q12</title>
+        <blanks>
+          <blank>
+            <o0>understanding</o0>
+            <o1>rectified</o1>
+            <o2>surpass</o2>
+            <o3>causing</o3>
+            <o4>contenders</o4>
+            <o5>understood</o5>
+            <o6>harmonize</o6>
+            <o7>claiming</o7>
+            <o8>attributed</o8>
+          </blank>
+          <blank>
+            <o0>understanding</o0>
+            <o1>rectified</o1>
+            <o2>surpass</o2>
+            <o3>causing</o3>
+            <o4>contenders</o4>
+            <o5>understood</o5>
+            <o6>harmonize</o6>
+            <o7>claiming</o7>
+            <o8>attributed</o8>
+          </blank>
+          <blank>
+            <o0>understanding</o0>
+            <o1>rectified</o1>
+            <o2>surpass</o2>
+            <o3>causing</o3>
+            <o4>contenders</o4>
+            <o5>understood</o5>
+            <o6>harmonize</o6>
+            <o7>claiming</o7>
+            <o8>attributed</o8>
+          </blank>
+          <blank>
+            <o0>understanding</o0>
+            <o1>rectified</o1>
+            <o2>surpass</o2>
+            <o3>causing</o3>
+            <o4>contenders</o4>
+            <o5>understood</o5>
+            <o6>harmonize</o6>
+            <o7>claiming</o7>
+            <o8>attributed</o8>
+          </blank>
+          <blank>
+            <o0>understanding</o0>
+            <o1>rectified</o1>
+            <o2>surpass</o2>
+            <o3>causing</o3>
+            <o4>contenders</o4>
+            <o5>understood</o5>
+            <o6>harmonize</o6>
+            <o7>claiming</o7>
+            <o8>attributed</o8>
+          </blank>
+          <blank>
+            <o0>understanding</o0>
+            <o1>rectified</o1>
+            <o2>surpass</o2>
+            <o3>causing</o3>
+            <o4>contenders</o4>
+            <o5>understood</o5>
+            <o6>harmonize</o6>
+            <o7>claiming</o7>
+            <o8>attributed</o8>
+          </blank>
+          <blank>
+            <o0>understanding</o0>
+            <o1>rectified</o1>
+            <o2>surpass</o2>
+            <o3>causing</o3>
+            <o4>contenders</o4>
+            <o5>understood</o5>
+            <o6>harmonize</o6>
+            <o7>claiming</o7>
+            <o8>attributed</o8>
+          </blank>
+        </blanks>
+        <answer>7|7|2|4|8|0|1</answer>
+      </template>
+    </question>
+    <question>
+      <id>d1b6197f03c5474da5fb55f36d75c30d</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>
+          When it comes to job-hunting, first impressions are {blank}. Remember, you are marketing a product - yourself - to a {blank} employer. The first thing the employer sees when greeting you is your attire; thus, you must make every effort to have the proper dress for the type of job you are seeking.
+          Will dressing properly get you the job? Of course not, but it will give you a {blank} edge and a positive first impression.
+          How should you dress? Dressing {blank} is always the safest route, but you should also try and do a little investigating of your prospective employer so that what you wear to the interview makes you look as though you fit in with the organization. If you overdress (which is rare but can happen) or under dress (the more likely scenario), the potential employer may feel that you don’t {blank} enough about the job.
+        </description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q3</title>
+        <blanks>
+          <blank>
+            <o0>critical</o0>
+            <o1>critically</o1>
+            <o2>unimportant</o2>
+            <o3>complimentary</o3>
+          </blank>
+          <blank>
+            <o0>major</o0>
+            <o1>potential</o1>
+            <o2>helpless</o2>
+            <o3>impossible</o3>
+          </blank>
+          <blank>
+            <o0>exorbitant</o0>
+            <o1>uncompetitive</o1>
+            <o2>competitive</o2>
+            <o3>competitive</o3>
+          </blank>
+          <blank>
+            <o0>conservatively</o0>
+            <o1>unconventionally</o1>
+            <o2>unusual</o2>
+            <o3>irregularly</o3>
+          </blank>
+          <blank>
+            <o0>careful</o0>
+            <o1>caring</o1>
+            <o2>carefully</o2>
+            <o3>care</o3>
+          </blank>
+        </blanks>
+        <answer>0|1|2|0|3</answer>
+      </template>
+    </question>
+    <question>
+      <id>d84dac7febe54e6594f986b2b9182d3e</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>REORDER</type>
+      <itemType>READING</itemType>
+      <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Reading - Re-order Paragraphs - Q10</description>
+        <title>Reading - Re-order Paragraphs - Q10</title>
+        <options>
+          <o0>Protein is essential for many bodily processes, including tissue building and repair. </o0>
+          <o1>Soy is one of the only exceptions of a complete vegetable protein.</o1>
+          <o2>A complete protein has all the nine essential amino acids necessary for dietary needs. </o2>
+          <o3>Most plant foods, however, are not complete proteins - they only have some of the amino acids. </o3>
+          <o4>Protein is made up of smaller components called amino acids.</o4>
+        </options>
+        <answer>4|0|2|3|1</answer>
+      </template>
+    </question>
+    <question>
+      <id>e63e57b8a58f4a0389a33f2668558612</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+      <itemType>READING</itemType>
+      <instruction>Read the text and answer the multiple-choice question by selecting  the correct response. Only one response is correct.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Every day millions of lights and computers are left on in deserted offices, apartments and houses. Environmental activists say that simply switching them off could cut Sydney’s greenhouse gas emissions by five percent over the next year. Per capita, Australia is one of the world’s largest producers of carbon dioxide and other gases that many scientists believe are helping to warm the earth’s atmosphere, causing climate change. Some experts warn higher temperatures could leave this nation of 20 million at the mercy of more severe droughts and devastating tropical cyclones.</description>
+        <title>One present indicator of climate change in Australia is…………</title>
+        <options>
+          <o0>environmental activists</o0>
+          <o1>gas emission</o1>
+          <o2>carbon dioxide</o2>
+          <o3>drought</o3>
+        </options>
+        <picture></picture>
+        <answer>1</answer>
+      </template>
+    </question>
+    <question>
+      <id>e470929cb72844fa9a4857a4d8642fcb</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Financing of Australian higher education {blank} dramatic change since the early 1970s.
+Although the Australian Government provided regular funding for universities from the late 1950s, in 1974 it assumed full responsibility for funding higher education - abolishing tuition fees with the intention of making university accessible to all Australians who had the ability and who wished to participate in higher education.
+Since the late 1980s there has been a move towards greater private contributions, {blank} student fees. In 1989, the Australian Government introduced the Higher Education Contribution Scheme (HECS) which included a loans scheme to help students finance their contributions. This {blank} universities to remain accessible to students by delaying their payments until they could afford to pay off their loans In 2002, the Australian Government introduced a scheme similar to HECS for postgraduate students - the Postgraduate Education Loan Scheme (PELS).
+Funding for higher education comes from various sources. This article examines the three main sources - Australian Government funding, student fees and charges, and HECS. {blank} the proportion of total revenue raised through HECS is relatively small, HECS payments are a {blank} component of students’ university costs, with many students carrying a HECS debt for several years after leaving university.
+        </description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q5</title>
+        <blanks>
+          <blank>
+            <o0>underwent</o0>
+            <o1>is undergone</o1>
+            <o2>have been undergoing</o2>
+            <o3>has undergone</o3>
+          </blank>
+          <blank>
+            <o0>consequently</o0>
+            <o1>however</o1>
+            <o2>particularly</o2>
+            <o3>while</o3>
+          </blank>
+          <blank>
+            <o0>has enabled</o0>
+            <o1>were enabled</o1>
+            <o2>enables</o2>
+            <o3>enabled</o3>
+          </blank>
+          <blank>
+            <o0>while</o0>
+            <o1>whereas</o1>
+            <o2>moreover</o2>
+            <o3>despite</o3>
+          </blank>
+          <blank>
+            <o0>insignificant</o0>
+            <o1>significantly</o1>
+            <o2>significant</o2>
+            <o3>unimportant</o3>
+          </blank>
+        </blanks>
+        <answer>3|2|3|0|2</answer>
+      </template>
+    </question>
+    <question>
+      <id>f4be84f3f95b41bead1b1d16ab636908</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+      <itemType>READING</itemType>
+      <instruction>Read the text and answer the multiple-choice question by selecting  the correct response. Only one response is correct.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>In the late 1980s and early 1990s some efforts were made to reduce farm subsidies. The most dramatic example was that of New Zealand, which scrapped most farm support in 1984. A study of the environmental effects, conducted in 1993, found that the end of fertiliser subsidies had been followed by a fall in fertiliser use (a fall compounded by the decline in world commodity prices, which cut farm incomes). The removal of subsidies also stopped land-clearing and over-stocking, which in the past had been the principal causes of erosion. Farms could cultivate varied crops. The one kind of subsidy whose removal appeared to have been bad for the environment was the subsidy to manage soil erosion.</description>
+        <title>Which one of the following increased in New Zealand after 1984?</title>
+        <options>
+          <o0>farm incomes</o0>
+          <o1>use of fertilizer</o1>
+          <o2>over-stocking</o2>
+          <o3>farm diversification</o3>
+        </options>
+        <picture></picture>
+        <answer>3</answer>
+      </template>
+    </question>
+    <question>
+      <id>0d018374bbdd4359b968cb48f5114324</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+      <itemType>READING</itemType>
+      <instruction>Read the text and answer the multiple-choice question by selecting all the correct response. More than one response is correct.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Exposure to high levels of noise can cause permanent hearing loss. Neither surgery nor a hearing aid can help correct this type of hearing loss. Short-term exposure to loud noise can also cause a temporary change in hearing (your ears may feel stuffed up) or a ringing in your ears (tinnitus). These short-term problems may go away within a few minutes or hours after leaving the noise. However, repeated exposures to loud noise can lead to permanent tinnitus and/or hearing loss.
+Loud noise can create physical and psychological stress, reduce productivity, interfere with communication and concentration, and contribute to workplace accidents and injuries by making it difficult to hear warning signals. The effects of noise-induced hearing loss can be profound, limiting your ability to hear high-frequency sounds, understand speech, and seriously impairing your ability to communicate.
+When sound waves enter the outer ear, the vibrations impact the ear drum and are transmitted to the middle and inner ear. In the middle ear, three small bones called the malleus (or hammer), the incus (or anvil), and the stapes (or stirrup) amplify and transmit the vibrations generated by the sound to the inner ear. The inner ear contains a snail-like structure called Cochlea which is filled with fluid and lined with cells with very fine hairs. These microscopic hairs move with the vibrations and convert the sound waves into nerve impulses-the result is the sounds we hear. Exposure to loud noise can destroy these hair cells and cause hearing loss!
+        </description>
+        <title> Which of the following statements about health can be supported by the text?</title>
+        <options>
+          <o0>Even after long exposure, the sound is unlikely to cause hearing loss.</o0>
+          <o1>The cochlea is responsible for the transfer of sound waves into nerve impulses.</o1>
+          <o2>Three small bones of outer ear -  malleus, incus, and stapes are attached like a chain to the tympanic membrane and convert sound waves.</o2>
+          <o3>Exposure to noise at work can harm worker’s health.</o3>
+        </options>
+        <picture></picture>
+        <answer>1|3</answer>
+      </template>
+    </question>
+    <question>
+      <id>2a24af140eda42d28cfccdd3e08bb821</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>It has been a year since I started writing my Graduate Journal column for Nature jobs, the past 12 months {blank} with fundamental changes and fundamental constants, both of which I’m glad to have experienced.
+When I enrolled in my master’s course at Oxford last year, I had come straight from medical school with the decision to leave clinical science for good. Thinking back, I realize that I didn’t put very much weight on this decision at the time. But today, I more clearly understand the consequences of leaving my {blank} profession. When I meet old friends who are now physicians and surgeons, I sense how our views on medical problems have diverged. They scrutinize the effects of disease and try to eliminate or {blank} them; I try to understand how they come about in the first place. I feel happier working on this side of the problem, although I do occasionally miss clinical work and seeing patients.
+However, when I think about the rate at which my medical skills and knowledge have dissipated, the years spent reading weighty medical textbooks, the hours spent at the bedside, I sometimes wonder if these years were partly a waste of time now that I am pursuing a research career.  Nonetheless, I know the {blank} of my medical education. It is easy to forget the importance of the biosciences when working with model organisms in basic research that seem to have nothing to do with a sick child or a suffering elderly person. Yet, I still have vivid memories of the cruel kaleidoscope of severe diseases and of how they can strike a human being. I hope to {blank} these memories as a guide in my current occupation.
+        </description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q1</title>
+        <blanks>
+          <blank>
+            <o0>marked</o0>
+            <o1>had marked</o1>
+            <o2>is marked</o2>
+            <o3>have been marked</o3>
+          </blank>
+          <blank>
+            <o0>duplicate</o0>
+            <o1>original</o1>
+            <o2>conventional</o2>
+            <o3>unimaginative</o3>
+          </blank>
+          <blank>
+            <o0>alleviate</o0>
+            <o1>severe</o1>
+            <o2>aggravate</o2>
+            <o3>solution</o3>
+          </blank>
+          <blank>
+            <o0>valuable</o0>
+            <o1>valuably</o1>
+            <o2>invaluable</o2>
+            <o3>value</o3>
+          </blank>
+          <blank>
+            <o0>discontinue</o0>
+            <o1>lost</o1>
+            <o2>abolish</o2>
+            <o3>retain</o3>
+          </blank>
+        </blanks>
+        <answer>3|1|0|3|3</answer>
+      </template>
+    </question>
+    <question>
+      <id>0007ee5d71034ff2a0c5f90156b41459</id>
+      <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+      <type>FILL_IN_BLANKS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Gas drilling on the Indonesian island of Java has {blank} a “mud volcano” that has killed 13 people and may render four square miles (ten square kilometers) of countryside uninhabitable for years.
+          In a report released on January 23, a team of British researchers says the deadly upwelling began when an exploratory gas well punched through a layer of rock 9,300 feet (2,800 meters) below the surface, allowing hot, high-pressure water to {blank}. The water carried mud to the surface; there it has spread across a region 2.5 miles (4 kilometres) in {blank} in the eight months since the eruption began.
+          The mud volcano is similar to a gusher or blowout, which occur in oil drilling when oil or gas squirt to the surface, the team says. This upwelling, however, spews out a volume of mud equivalent to a dozen Olympic swimming pools each day. Although the eruption isn’t as violent as a {blank} volcano, more than a dozen people died when a natural gas pipeline ruptured. The research team, who published their findings in the February issue of SGA today, also estimate that the volcano, called Lusi, will leave more than 11,00 people {blank} displaced.
+        </description>
+        <title>Reading - Reading: Fill in the blanks - Q14</title>
+        <blanks>
+          <blank>
+            <o0>permanently       </o0>
+            <o1>trigger           </o1>
+            <o2>triggered          </o2>
+            <o3>consequently            </o3>
+            <o4>conventional           </o4>
+            <o5>escape               </o5>
+            <o6>diameter       </o6>
+            <o7>conventionally</o7>
+          </blank>
+        </blanks>
+        <answer>2|5|6|4|0</answer>
+      </template>
+    </question>
+    <!--TEST 9 END-->
+
+    <!--TEST 4-->
+    <question>
+      <id>73d0e46abf444147ac67375c589bf5cc</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Infant mortality {blank} to deaths of young children, typically those less than one year of age. It {blank} by the infant mortality rate (IMR), which is the number of deaths of children under one year of age per 1000 live births.
+The {blank} causes of infant mortality are birth asphyxia, pneumonia, term birth complication, neonatal infection, diarrhea, malaria, measles and malnutrition. Many {blank} contribute to infant mortality, such as the mother's level of education, environmental conditions, and political and medical infrastructure. Improving sanitation, access to clean drinking water,  immunization  against  infectious diseases, and other public health measures can help reduce high rates of infant mortality.
+        </description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q15</title>
+        <blanks>
+          <blank>
+            <o0>points</o0>
+            <o1>refers</o1>
+            <o2>considers</o2>
+            <o3>introduces</o3>
+          </blank>
+          <blank>
+            <o0>is measured</o0>
+            <o1>measured</o1>
+            <o2>has been measured</o2>
+            <o3>can be measured</o3>
+          </blank>
+          <blank>
+            <o0>main</o0>
+            <o1>important</o1>
+            <o2>essential</o2>
+            <o3>leading </o3>
+          </blank>
+          <blank>
+            <o0>factors</o0>
+            <o1>assets</o1>
+            <o2>effects</o2>
+            <o3>principles</o3>
+          </blank>
+        </blanks>
+        <answer>1|0|3|0</answer>
+      </template>
+    </question>
+    <question>
+      <id>75d225337a0d4d2b99f5de3bb1f853a1</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>FILL_IN_BLANKS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>The Internet has many, if not all, the answers to the questions you may, when it comes to research papers. When searching for an {blank} macroeconomics topic for your next research paper using the Internet can help you find economic {blank}, videos and current events to inspire you. By searching {blank} sources like economic magazines, documentaries, or even the news—you can find fresh and interesting topics for your macroeconomics research paper.</description>
+        <title>Reading - Reading: Fill in the blanks - Q8</title>
+        <blanks>
+          <blank>
+            <o0>condition</o0>
+            <o1>funny</o1>
+            <o2>publications</o2>
+            <o3>respected</o3>
+            <o4>reputable</o4>
+            <o5>interesting</o5>
+          </blank>
+        </blanks>
+        <answer>5|2|4</answer>
+      </template>
+    </question>
+    <question>
+      <id>76da584b5e8a43e2836c724fd6b5fd68</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+      <itemType>READING</itemType>
+      <instruction>Read the text and answer the multiple-choice question by selecting all the correct response. More than one response is correct.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>One of the factors that keeps electric vehicles from wide adoption is range anxiety. Though battery technologies have come a long way in the last decade, with 100 miles on a charge being common and Teslas easily topping 200 miles, people still want to know they can take off on a family vacation or a weekend away. A French company has a cute solution to this problem: EP Tender, a generator housed in a little two-wheeled trailer pulled by your EV(electronic vehicle). It’s just over 4 feet long and over 400 pounds, which seems like a lot for an EV to pull. That might seem like a heavy piece of equipment to tow behind an EV, but the idea isn’t to tow a generator behind your car all day every day. It’s meant to be a range extender that owners can rent for longer trips. It’s even got a rack on top for your extra gear or vacation luggage. The company is also planning on making both gasoline-fueled and fuel-cell versions of the generator so drivers can choose between easy convenience and eco-friendliness. You’re probably wondering how you’d park this thing, but EP Tender has already thought of that and engineered their way out of the problem. The EV pulls into a parking space with the EP Tender and inches to spare. Then, to leave the space, the EP Tender deploys its secondary set of smaller wheels and lifts the larger rear wheels off the ground. They can then track with the car as it backs up. When the driver is ready to drive forward, the EP Tender puts its regular wheels down and lifts that secondary set up, and it’s ready to go. This wheel design is actually the subject of the EP Tender’s patent. </description>
+        <title>Which of the following statements are true about the EP Tender? </title>
+        <options>
+          <o0>It is designed so that users can tow it behind their car every day.</o0>
+          <o1>It has a patented wheel design that is used during parking.</o1>
+          <o2>It has two sets of wheels, one large and one small.</o2>
+          <o3>It has a gasoline-fuelled version meant for eco-friendliness</o3>
+          <o4>EP tender creates inconvenience at the time parking.</o4>
+        </options>
+        <picture></picture>
+        <answer>1|3</answer>
+      </template>
+    </question>
+    <question>
+      <id>77e5ccfcb75249409079d0b5b23a1b0b</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>REORDER</type>
+      <itemType>READING</itemType>
+      <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Reorder Paragraphs</description>
+        <title>Reading - Re-order Paragraphs - Q6</title>
+        <options>
+          <o0>The celebrations of economic recovery in Washington may be as premature as that “Mission Accomplished” banner hung on the USS Abraham Lincoln to hail the end of the Iraq war.</o0>
+          <o1>Meanwhile, in the real world, the struggles of families and communities continue unabated.</o1>
+          <o2>Washington responded to the favorable turn in economic news with enthusiasm.</o2>
+          <o3>The celebrations and high-fives up and down Pennsylvania Avenue are not to be found beyond the Beltway.</o3>
+          <o4>When the third quarter GDP showed growth of 7.2% and the monthly unemployment rate dipped to 6%, euphoria gripped the US capital.</o4>
+        </options>
+        <answer>4|2|3|1|0</answer>
+      </template>
+    </question>
+    <question>
+      <id>228cb93385c84dc2a8be282ad005e50b</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>REORDER</type>
+      <itemType>READING</itemType>
+      <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Reorder Paragraphs</description>
+        <title>Reading - Re-order Paragraphs - Q5</title>
+        <options>
+          <o0>To much of the Labour movement, it symbolises the brutality of the upper classes.</o0>
+          <o1>And to everybody watching, the current mess over foxhunting symbolises the government’s weakness.</o1>
+          <o2>To foxhunting’s supporters, Labour’s 1991 manifesto commitment to ban it symbolises the party’s metropolitan roots and hostility to the countryside.</o2>
+          <o3>Small issues sometimes have large symbolic power.</o3>
+          <o4>To those who enjoy thundering across the countryside in red coats after foxes, foxhunting symbolises the ancient roots of rural lives.</o4>
+        </options>
+        <answer>3|4|0|2|1</answer>
+      </template>
+    </question>
+    <question>
+      <id>891bf013ef144b0397e675e54bd1387e</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+      <itemType>READING</itemType>
+      <instruction>Read the text and answer the multiple-choice question by selecting all the correct response. More than one response is correct.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>When a placebo (saline solution) was given for the first time, it induced neither clinical benefit nor associated neuronal changes in the thalamus, a brain region known to be involved in PD. However, if repeated administrations of apomorphine were performed before placebo administration, a placebo was capable of increasing thalamus neuronal activity along with clinical improvement (reduction of muscle rigidity). Interestingly, the higher the previous administrations of apomorphine was, the larger the neuronal changes and the clinical improvement. When apomorphine was administered for 4 days in a row, the subsequent administration of a placebo induced a response that was as large as the one induced by apomorphine. These changes lasted for 24 hours. The researchers administered apomorphine, either 1, 2, 3 or 4 days before the surgical implantation of electrodes for deep brain stimulation, which is an effective treatment for PD. During surgery, they replaced apomorphine with a placebo and recorded from single neurons in the thalamus along with the assessment of muscle rigidity of the arm.
+Fabrizio Benedetti, from the Department of Neuroscience at University of Turin Medical School, Italy and first author of the study, explained, 'These findings show that is possible to teach neurons in the thalamus to respond to placebos, so that a placebo non-responder can be turned into a placebo responder. These findings may have profound implications and applications, because we can reduce drug intake by exploiting these learning mechanisms. Since this study shows that there is a memory for drug action, the alternate administration drug-placebo-drug- placebo etc. means people would need to take less medication but yet obtain the same clinical benefit.
+'If a placebo is given after four previous administrations of apomorphine, the placebo response can be as large as the drug response, and this effect lasts up to 24 hours. Therefore, a future challenge will be to see whether this effect can be extended beyond 24 hours.'
+        </description>
+        <title>Aim of the passage is:</title>
+        <options>
+          <o0>scientist have discovered a way to make neurons respond to a placebo.</o0>
+          <o1>a future challenge will be changed.</o1>
+          <o2>placebo can be effective as drug.</o2>
+          <o3>possible to teach neurons in the thalamus to respond to placebos.</o3>
+          <o4>neurons are responsible for placebo change.</o4>
+        </options>
+        <picture></picture>
+        <answer>0|2</answer>
+      </template>
+    </question>
+    <question>
+      <id>02658c8d90714421947b35f47000c48f</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>FILL_IN_BLANKS</type>
+      <itemType>READING</itemType>
+      <instruction></instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>The Verrazano-Narrows Bridge {blank} New York Harbor. It has done so for more than 50 years. But there is a {blank}. The name of the bridge is spelled wrong.
+          The bridge is named for Giovanni da Verrazzano. (Unlike the bridge, his name has two Zs.) He was an Italian explorer. In 1524, he was the first European to {blank} New York Harbor. The state office that controls the bridge has said the same thing about the name for years: We know it's wrong, but we're not changing it.
+          Changing the spelling would be {blank}. Signs, maps, and websites would all have to be changed. New York's Triborough Bridge was changed to Robert F. Kennedy Bridge in 2008. The change cost $4 million.
+        </description>
+        <title>Reading - Reading: Fill in the blanks - Q9</title>
+        <blanks>
+          <blank>
+            <o0>cheap</o0>
+            <o1>explore</o1>
+            <o2>crosses</o2>
+            <o3>invent</o3>
+            <o4>problem</o4>
+            <o5>concern</o5>
+            <o6>expensive</o6>
+            <o7>passes</o7>
+          </blank>
+        </blanks>
+        <answer>2|4|1|6</answer>
+      </template>
+    </question>
+    <question>
+      <id>a9f94c33f8bd42fbaf7668a7ff272109</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>In Timor-Leste, the majority of the country’s adults {blank} little or no schooling. The illiteracy rate nationally, according to the 2004 Census, was 46%, and was much {blank} among older people, women and people in rural areas. The paper analyses the context, origins and achievements of first twelve months of Timor-Leste’s national literacy campaign, which {blank} in the midst of the 2006 political violence by the previous FRETILIN-led government, supported by a team of Cuban technical advisers. It explores the way the political crisis and the literacy campaign {blank}, as powerful forces combined to undermine the radically egalitarian thrust of the campaign. It concludes that, unless the momentum of the campaign {blank} by the new AMP government which took power in June 2007, illiteracy will continue to undermine the prospects  for Timor-Leste’s independent development.</description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q14</title>
+        <blanks>
+          <blank>
+            <o0>have</o0>
+            <o1>had</o1>
+            <o2>have had</o2>
+            <o3>may have</o3>
+          </blank>
+          <blank>
+            <o0>higher</o0>
+            <o1>more</o1>
+            <o2>high</o2>
+            <o3>increasing</o3>
+          </blank>
+          <blank>
+            <o0>was launching</o0>
+            <o1>launched</o1>
+            <o2>was launched</o2>
+            <o3>had launched</o3>
+          </blank>
+          <blank>
+            <o0>interacted</o0>
+            <o1>conversed</o1>
+            <o2>introduced</o2>
+            <o3>emerged</o3>
+          </blank>
+          <blank>
+            <o0>is regaining</o0>
+            <o1>regains</o1>
+            <o2>is regained</o2>
+            <o3>may regain</o3>
+          </blank>
+        </blanks>
+        <answer>2|0|2|0|2</answer>
+      </template>
+    </question>
+    <question>
+      <id>a398cd4f9cbe45149af51e8c5a1a4971</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Environmentalists {blank} tread carefully when discussing zoning codes. We want the government to be able to use zoning codes to protect public health, ensure {blank} to public parks, and protect at least a few parcels of open space in a metro area. We want governments to be able to plan to make cities more walkable, greener, healthier places. So we respect and {blank} strong zoning codes. Yet the massive exclusionary zoning in many cities {blank} housing supply near cities, pushing up prices there and {blank} to urban sprawl, and the spread of new low-density neighborhoods in the fringes of urban areas.</description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q13</title>
+        <blanks>
+          <blank>
+            <o0>must</o0>
+            <o1>should</o1>
+            <o2>have to</o2>
+            <o3>may </o3>
+          </blank>
+          <blank>
+            <o0>excess</o0>
+            <o1>access</o1>
+            <o2>approach</o2>
+            <o3>consistency</o3>
+          </blank>
+          <blank>
+            <o0>care</o0>
+            <o1>consider</o1>
+            <o2>potentially</o2>
+            <o3>support</o3>
+          </blank>
+          <blank>
+            <o0>restrict</o0>
+            <o1>had restriction</o1>
+            <o2>has restricted</o2>
+            <o3>may restrict</o3>
+          </blank>
+          <blank>
+            <o0>contributing</o0>
+            <o1>contribution</o1>
+            <o2>may contribute</o2>
+            <o3>is contributing </o3>
+          </blank>
+        </blanks>
+        <answer>2|1|3|2|0</answer>
+      </template>
+    </question>
+    <question>
+      <id>aaf2a9c3a0da4d9eb2fd4567f5380dd9</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+      <itemType>READING</itemType>
+      <instruction>Read the text and answer the multiple-choice question by selecting  the correct response. Only one response is correct.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Data from the Pioneer spacecraft of NASA apparently prove the theory that the high surface temperature of Venus is due to an atmospheric greenhouse effect caused mainly by a blanket of carbon dioxide. Such a greenhouse effect is created when energy in the form of sunlight easily passes through a planet's atmosphere, warms its surface, and is converted to heat radiation that is then held in by the atmosphere from top to bottom. Venus has a relatively thin atmosphere like the Earth's, but Venus' atmosphere consists of more than ninety percent carbon dioxide, compared to less than four percent in that of the Earth. Because of its higher percentage of carbon dioxide, Venus' atmosphere traps much more heat radiation than does the Earth's. Thus, the Venus studies are believed to be important to the understanding of possible adverse effects on the Earth's agriculture that could result from the long-term use of fossil fuels, which add carbon dioxide to the atmosphere.</description>
+        <title>According to the passage, data from the Venus study can be used to ----.</title>
+        <options>
+          <o0>test the efficiency of the spacecraft sent to Venus by NASA.</o0>
+          <o1>predict future agricultural problems on Earth.</o1>
+          <o2>determine the topography and the surface characteristics of the Earth</o2>
+          <o3>study earth’s climatic changes.</o3>
+        </options>
+        <picture></picture>
+        <answer>1</answer>
+      </template>
+    </question>
+    <question>
+      <id>bdbfcf8f9be14bf6b20f0e4719109012</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Inflation {blank} when there is a sustained increase in the general price level. Traditionally high inflation rates {blank} to be damaging to an economy. High inflation creates uncertainty and can wipe away the value of savings. However, most Central Banks target an inflation rate of 2%, suggesting that low inflation can have various advantages to the economy. Some economists even argue we {blank} target a higher inflation rate during periods of economic {blank}.</description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q12</title>
+        <blanks>
+          <blank>
+            <o0>occurs</o0>
+            <o1>exists</o1>
+            <o2>was occurring</o2>
+            <o3>was existing</o3>
+          </blank>
+          <blank>
+            <o0>considered</o0>
+            <o1>are considering</o1>
+            <o2>are considered</o2>
+            <o3>were considered</o3>
+          </blank>
+          <blank>
+            <o0>may</o0>
+            <o1>can</o1>
+            <o2>should</o2>
+            <o3>would</o3>
+          </blank>
+          <blank>
+            <o0>stagnation</o0>
+            <o1>conditions</o1>
+            <o2>set back</o2>
+            <o3>crisis</o3>
+          </blank>
+        </blanks>
+        <answer>0|2|2|0</answer>
+      </template>
+    </question>
+    <question>
+      <id>bfb0bf9a1ef543e08dd5f385801862ff</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+      <itemType>READING</itemType>
+      <instruction>Read the text and answer the multiple-choice question by selecting  the correct response. Only one response is correct.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>The use of work animals began long before humankind started to practice agriculture. The use of animal power is now considered by many people to be archaic and inefficient. Yet, despite the more than 50 years spent promoting tractorization in developing countries, the development gap between industrialized-countries and those with weak, highly dependent economies has increased. Moreover, the use of current production models, which are more critically dependent on fossil fuel, cannot be considered universally feasible. Alternative energy sources such as the effective use of work animals must urgently be established. Animals not only provide the means by which millions of families make a living, but they also contribute to ecologically and socially acceptable production systems. Moreover, the efficiency of their energy inputs into crop production is higher than that of machines. The rational use of work animals has the potential to contribute, specifically, to the living conditions and security of small-scale subsistence farmers.</description>
+        <title>It is pointed out in the passage that supporting tractorization in developing countries ----.</title>
+        <options>
+          <o0>is not possible as the governments are not in favor of it</o0>
+          <o1>did not help them get closer to industrialized ones</o1>
+          <o2>was popular in relatively few countries fifty years ago</o2>
+          <o3>will make the living conditions better for everybody regardless of the sector</o3>
+        </options>
+        <picture></picture>
+        <answer>1</answer>
+      </template>
+    </question>
+    <question>
+      <id>e2e84bee58874f449868dea12b8075c2</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Henry James was the most {blank} of artists. His motive {blank} lay in the impulse to represent those things in life that {blank} his own interest and curiosity, and to such representation he roused himself, making no concession to “what the public wants.” Thus we must  take him on his own terms or not at all. But if we do take him on his own terms, we {blank} by a unique rendering of human motive and behavior in a series of the most interesting predicaments, a rendering which yields an intense intellectual pleasure and not infrequently touches even tragic depths. </description>
+        <title>Reading - Reading &amp; Writing: Fill in the blanks - Q11</title>
+        <blanks>
+          <blank>
+            <o0>judicious</o0>
+            <o1>conscientious</o1>
+            <o2>irresponsible</o2>
+            <o3>outspoken</o3>
+          </blank>
+          <blank>
+            <o0>of writing</o0>
+            <o1>written</o1>
+            <o2>for writing</o2>
+            <o3>to write</o3>
+          </blank>
+          <blank>
+            <o0>was confined</o0>
+            <o1>has confined</o1>
+            <o2>was confining</o2>
+            <o3>confined</o3>
+          </blank>
+          <blank>
+            <o0>were rewarded</o0>
+            <o1>are rewarded</o1>
+            <o2>have been rewarded</o2>
+            <o3>rewarded</o3>
+          </blank>
+        </blanks>
+        <answer>1|2|3|1</answer>
+      </template>
+    </question>
+    <question>
+      <id>2c1d475e69114f99bd84c25c0d6766d3</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>FILL_IN_BLANKS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>Well, the old tree of life idea {blank} talked about empires if you like, of plants, and animals, and things that we can see, {blank}. We put a great deal of emphasis on large organisms and the traditional distinction in biology between botany and zoology. What it really did was say 'that's all wrong - there's really only three major groups in life: there's the archaea, the bacteria, and the eukaryotes, which is all of this {blank} life; and so it kind of put humans into a small corner of the tree of life next to plants and whatever else. It kind of {blank} us again after being the centre of the universe.</description>
+        <title>Reading - Reading: Fill in the blanks - Q7</title>
+        <blanks>
+          <blank>
+            <o0>essentially</o0>
+            <o1>complicated</o1>
+            <o2>important</o2>
+            <o3>complex</o3>
+            <o4>basically</o4>
+            <o5>emphasis</o5>
+            <o6>distortion</o6>
+            <o7>squashes</o7>
+          </blank>
+        </blanks>
+        <answer>4|0|3|7</answer>
+      </template>
+    </question>
+    <question>
+      <id>5ab120ff1a814bc8841784beacf1adae</id>
+      <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+      <type>FILL_IN_BLANKS</type>
+      <itemType>READING</itemType>
+      <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+      <delayTime>00:00:00</delayTime>
+      <attemptTime>00:00:00</attemptTime>
+      <template>
+        <description>The {blank} paradigm in novel writing during the second half of the nineteenth century was no longer the Romantic idealism of the earlier part of the century. What took hold among the great novelists in Europe and America was a new {blank} to character and subject matter, a school of thought which later came to be known as Realism. On one level, Realism is {blank} what it sounds like. It is attention to detail, and an effort to {blank} the true nature of reality in a way that novelists had never attempted. There is the belief that the novel’s function is simply to report what happens, without comment or {blank}. Seemingly inconsequential elements gain the attention of the novel functioning in the realist mode.</description>
+        <title>Reading - Reading: Fill in the blanks - Q10</title>
+        <blanks>
+          <blank>
+            <o0>replicate</o0>
+            <o1>judgment</o1>
+            <o2>basically</o2>
+            <o3>approach</o3>
+            <o4>main</o4>
+            <o5>replicate</o5>
+            <o6>dominant</o6>
+            <o7>precisely</o7>
+          </blank>
+        </blanks>
+        <answer>6|3|7|0|1</answer>
+      </template>
+    </question>
+    <!--TEST 4 END-->
+  
 </questions>

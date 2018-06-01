@@ -1,5 +1,6 @@
 <?xml version = "1.0"?>
 <questions>
+<!--TEST 1-->
 <question>
   <id>fdae660df3d0425aafab39a7fd882be9</id>
   <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
@@ -66,8 +67,10 @@ It is widely argued that taking early action against climate change through miti
     <answer></answer>
   </template>
 </question>
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<question>
+<!--TEST 1 END-->
+  
+<!--TEST 2-->
+  <question>
   <id>ff270fd938b0447cbee2f1f735429e09</id>
   <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
   <type>SUMMARIZE_TEXT</type>
@@ -132,4 +135,196 @@ To what extent do you agree or disagree?</description>
     <answer></answer>
   </template>
 </question>
+<!--TEST 2 END-->
+  <!--TEST 4 -->
+  <question>
+    <id>400070868ea74232adcadfe0f0df3b12</id>
+    <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>Cycling is more environmentally friendly than other forms of transport. Why is it not popular in many places? And how to increase its popularity?</description>
+      <title>Writing - Essay Writing - Q3</title>
+      <maxWordCount>300</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <question>
+    <id>b89aa41a60194e54b72bf88b3b5a47e2</id>
+    <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>In many countries, governments are spending a large amount of money on improving internet access. Why is it happening and do you think it is the most appropriate use of government money?</description>
+      <title>Writing - Essay Writing - Q4</title>
+      <maxWordCount>300</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <question>
+    <id>2d277613cbb34b358be3123fc9e3e48e</id>
+    <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>Life begins and ends with two words: birth and death. People say live in a way that you feel the tingle of life all the time. There is an expression that when we had given birth we as babies were crying and others were laughing but we should live in a way that when we are dying we laugh and other's cry. But when I think about my life time and the happiest moments of my life I think I remember my childhood. The reason's are I didn't have any responsibilities, I felt secure and I had very close and good relationships.
+
+The first thing that makes a life happier is not having responsibilities. When someone is child, during the childhood that person doesn't have any responsibilities. Not about the future and not about the past. In grownup world you had a past that sometimes makes you responsible about the future or you have a present time that require you to take many actions about that. Such as taking care of others or paying for mortgage and other life necessities. In grownup life sometimes you work very hard to achieve a goal but you don't get the result and you fail on that.
+
+Another thing that makes life happier during the childhood is that most of the time parent's on that age take care of children. So children feel secure and free to spend their life the way they want. When someone is child their demands are limited so they feel they have what they want and that's a good feeling. When you become a grownup your needs become bigger and sometimes not possible to achieve.
+
+The third reason that childhood was the pleasant time of my childhood was because I had very good friends. Friendships in childhood are very close and not based on what you do or who you are. Its pure feeling that makes the friendship. I think all people when they remember their childhood find it as happiest period of their life time because when you don't feel stress and you feel secure that makes a life very happy.
+      </description>
+      <title>Writing - Summarize Written Text - Q1</title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Life begins and ends with two words: birth and death and live in a way that you feel the tingle of life all the time, however, the best way to make a life happier is not having responsibilities and another thing that makes life happier during the childhood is the care from the parent and the third reason that childhood is the pleasant one when you have friends, security plays the major role.</answer>
+    </template>
+  </question>
+  <question>
+    <id>0090b8e4150c415e979f33710ac65b1b</id>
+    <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>An important management principle is that when behavior is rewarded, it tends to be repeated. It follows that in many business enterprises, the approach to getting employees to work hard or improve productivity is to reward them with money or company stock. In addition, some enterprises use other forms of compensation such as special privileges or perhaps promotion or job reassignments or even company-paid luxury vacations and other bonuses in kind. All such rewards are usually tied in to some index of performance, which precisely calculates the relative amount of increased productivity.
+
+Whatever the type of reward given, managerial consultants point out that the promise of such incentives improves employee attitudes, motivation, and productivity. Typical business handbooks describing compensation methods advocate giving the greatest rewards to those who perform the best. For example, a well-known academic text on incentives points out that "the closer the link between job performance and rewards, the greater the motivational effect."
+Advocates of improving productivity through rewards tacitly accept that people are rather like physical bodies that require the application of some external motivating force to be set in motion. Furthermore, they argue that any such incentives must have a high perceived value to the employee and must also be perceived as within the reach of that person. If the productivity goal appears beyond the reach of the person striving for the reward, then the motivational effect will be lower and productivity may decline. But if the reward system is correctly structured, productivity experts argue, it is possible to persuade people to achieve remarkable results.
+      </description>
+      <title>Writing - Summarize Written Text - Q2</title>
+      <maxWordCount>100</maxWordCount>
+      <answer>An important management principle is that when some business enterprises reward their employees with money or company stock and some provide special privileges, whatever the type of reward is given, managerial consultants agree that such incentives improves employee attitudes, motivation, and productivity but productivity goal should be within reach as it will persuade people to achieve remarkable results otherwise it will demotivate them.</answer>
+    </template>
+  </question>
+  <!--TEST 4 END -->
+
+  <!--TEST 8-->
+  <question>
+    <id>6d54c6528ba54fe9894124d272f53c0c</id>
+    <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>From the conditions of frontier life came intellectual traits of profound importance. The work of travelers along each frontier from colonial days onward describe certain common traits, and these traits have while softening down, still persisted as survivals in the place of their origin, even when a higher social organization succeeded. The result is that to the frontier the American intellect owes its striking characteristics. That coarseness and strength combined with acuteness and acquisitiveness; that practical, inventive turn of mind, quick to find expedients; that masterful grasp of material things, lacking in the artistic but powerful to effect great ends; that restless, nervous energy; that dominant individualism, working for good and for evil, and withal that buoyancy and exuberance which comes with freedom—these are traits of the frontier, or traits called out elsewhere because of the existence of the frontier.</description>
+      <title>Writing - Summarize Written Text - Q1</title>
+      <maxWordCount>100</maxWordCount>
+      <answer>The work of the travelers had revealed the traits of the frontier life which survives even today and these traits highly influenced the American intellectuals.</answer>
+    </template>
+  </question>
+  <question>
+    <id>85fd515959ec480c9d8e608325ac10f1</id>
+    <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>At first, it was little more than a trickle. For a long time the Norman conquerors did not mix much with their Saxon subjects. There are plenty of indications of this; for the languages, too, moved side by side in parallel channels. The custom of having one name for a live beast grazing in the field and another for the same beast, when it is killed and cooked, is often supposed to be due to our English squeamishness and hypocrisy. Whether or not the survival of this custom through ten centuries is due to the national characteristics in question it would be hard to say, but they have certainly nothing to do with its origin.
+That is a much more blame-less affair. For the Saxon Neatherd who had spent a hard day tending his oxen, sheep, calves and swine, probably saw little enough of the beef, mutton, veal, pork and bacon, which were gobbled at night by his Norman masters. There is something a little pathetic, too, in the thought that the homely old word, stool, could be used to express any kind of seat, however magnificent, until it was, so to speak, hustled into the kitchen by the smart French chair. Even the police, however, continued to use the old word in the idiom ‘to fall between two stools’.
+      </description>
+      <title>Writing - Summarize Written Text - Q2</title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Answer: Norman and Saxon usage of English words has no relation with the origin of customs as differences are clearly visible in their usages for living and dead animals, moreover, particularly the usage of the word stool instead of chair. </answer>
+    </template>
+  </question>
+  <question>
+    <id>d6628fba56a84064858f5e00c5e077d0</id>
+    <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>Some people think that schools should select students according to their academic abilities, while others believe that it is better to have students with different abilities studying together. Discuss both views and state your own opinion.</description>
+      <title>Writing - Essay Writing - Q3</title>
+      <maxWordCount>300</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <!--TEST 8 END -->
+
+  <!--TEST 9-->
+  <question>
+    <id>242220cc353147549693dda9465a78ac</id>
+    <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>By the beginning of the 15th century, after a hundred years of construction, Florence Cathedral was still missing its dome. The building required an octagonal dome which would be higher and wider than any that had ever been built, with no external buttresses to keep it from spreading and falling under its own weight.
+
+The building of such a masonry dome posed many technical problems. Filippo Brunelleschi, who is now seen as a key figure in architecture and perhaps the first modern engineer, looked to the great dome of the Pantheon in Rome for solutions. The dome of the Pantheon is a single shell of concrete, the formula for which had long since been forgotten. Soil filled with silver coins had held the Pantheon dome aloft while its concrete set. This could not be the solution in the case of the Florence Cathedral dome, due to its size. Another possible solution, the use of scaffolding, was also impractical because there was not enough timber in the whole of the region of Tuscany.
+
+Brunelleschi would have to build the dome out of brick, due to its light weight compared to stone and being easier to form, and with nothing under it during construction. His eventual success can be attributed, in no small degree, to his technical and mathematical genius. Brunelleschi used more than four million bricks to create what is still the largest masonry dome in the world.
+      </description>
+      <title>Writing - Summarize Written Text - Q2</title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Florence Cathedral architecture wasn’t getting succeed to build a dome. On the other hand, Filippo Brunelleschi has built largest masonry dome in the world.</answer>
+    </template>
+  </question>
+  <question>
+    <id>6bf5a373a3ad4ce6ae384e2c8ae31bcb</id>
+    <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>In some countries around the world, voting is compulsory. Do you agree with the notion of compulsory voting? If voting is compulsory in a democratic society, what are some conclusions we can draw about the nature of democracy?</description>
+      <title>Writing - Essay Writing - Q3</title>
+      <maxWordCount>300</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <question>
+    <id>44aafe491a4345a4a235f3a3b3bda52f</id>
+    <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>Education is critical element of the prosperity(success) of any nation. The more educated the people of the country are, more successful their nation become.Support your point of view with reasons and / or examples from your own experience or observations?</description>
+      <title>Writing - Essay Writing - Q4</title>
+      <maxWordCount>300</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <question>
+    <id>63a30f49541c467aa21e5e8bca2712e0</id>
+    <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>Clients who can use art therapy may have a wide range of difficulties, disabilities or diagnoses. These include, for example, emotional, behavioral or mental health problems, learning or physical disabilities, life-limiting conditions, brain-injury or neurological conditions and physical illness. Art therapy may be provided for groups, or for individuals, depending on clients’ needs. It is not a recreational activity or an art lesson, although the sessions can be enjoyable. Clients do not need to have any previous experience or expertise in art. Art therapy is a mental health profession that uses the creative process of art making to improve and enhance the physical, mental and emotional well-being of individuals of all ages. It is based on the belief that the creative process involved in artistic self-expression helps people to resolve conflicts and problems, develop interpersonal skills, manage behavior, reduce stress, increase self-esteem and self-awareness, and achieve insight. Art therapy integrates the fields of human development, visual art (drawing, painting, sculpture, and other art forms), and the creative process with models of counseling and psychotherapy.</description>
+      <title>Writing - Summarize Written Text - Q1</title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Clients who can use art therapy may have a wide range of difficultiesWhich may include emotional, behavioral or mental health problems, or any disabilities, or neurological conditions, art therapy may be provided for groups, or for individuals as it enhances the physical, mental and emotional well-being of individuals of all ages and the creative process with models of counseling and psychotherapy are built.</answer>
+    </template>
+  </question>
+  <!--TEST 9 END -->
 </questions>
