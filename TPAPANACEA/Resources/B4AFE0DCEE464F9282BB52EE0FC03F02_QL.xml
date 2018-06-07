@@ -1,6 +1,6 @@
 <?xml version = "1.0"?>
 <questions>
-
+<!--TEST 1 -->
 <question>
   <id>298c23368748406aa14b2d071dad6049</id>
   <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
@@ -359,7 +359,8 @@ So I think in the next decade, the sciences and the humanity will come closer to
 	<answer>Which news item or movie should be recommended to people?</answer>
   </template>
 </question>
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<!--TEST 1 END-->
+<!--TEST 2-->
 <question>
   <id>349bc38d6f6a4a6ebabe880dddd2e278</id>
   <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
@@ -716,4 +717,1085 @@ That's why Dane's not alone. From technology start-ups like Buffer, to the hundr
 	<maxWordCount>100</maxWordCount>
   </template>
 </question>
+<!--TEST 2 END-->
+<!--TEST 4-->
+<question>
+  <id>82ceea486de248ec98c800fc69464dae</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Which of the statement is true as per the conversation?</description>
+    <title>Which of the statement is true as per the conversation?</title>
+    <media>Practice Set 4_Listening - Multiple choice, choose multiple answers - Q4.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>A.Somebody has stolen student’s car.</o0>
+      <o1>B.Student’s car was towed because he parked his car in faculty parking.</o1>
+      <o2>C.Student parked his car in faculty parking because handicapped parking area was far.</o2>
+      <o3>D.Student is irritated because he has to pay $150 of towing and parking.</o3>
+      <o4>E.There is no concession in the fine.</o4>
+    </options>
+    <answer>1|3</answer>
+  </template>
+</question>
+<question>
+  <id>95e347aa0ab24e1aa463615d48e9b756</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction>
+  <delayTime>00:00:05</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>What is true about fear in the given lecture?</description>
+    <title>What is true about fear in the given lecture?</title>
+    <media>Practice Set 4_Listening - Multiple choice, choose single answer - Q9.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>expands your views</o0>
+      <o1>It is self-realizing.</o1>
+      <o2>Leads to positive emotions.</o2>
+      <o3>Lulls you into action.</o3>
+    </options>
+    <answer>1</answer>
+  </template>
+</question>
+<question>
+  <id>795cd66be7cd492d8e880b4b1fd4b164</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</description>
+    <title>Listening - Write from dictation- Q17</title>
+    <media>Practice Set 4_Listening - Write from dictation- Q17.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>And it's really surprising, so drastically different.</answer>
+  </template>
+</question>
+<question>
+  <id>10109cff0da1437f818309ec8032f9fb</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:10</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>You will hear a recording. Click on paragraph that best relates to the recording.</description>
+    <title>Listening - Highlight Correct Summary - Q7</title>
+    <media>Practice Set 4_Listening - Highlight Correct Summary - Q7.tpm</media>
+    <delay>10</delay>
+    <options>
+      <o0>Wikipedia has replaced encyclopedia, the way Wikipedia is produced makes it special as it is created by its user.</o0>
+      <o1>As Britannica was no longer in business, so there was a question arising again and again that what's going to replace the encyclopedia.</o1>
+      <o2>The special about the Wikipedia is not its distribution. What's special about the Wikipedia is the way it's produced.</o2>
+      <o3>Wikipedia is in the era in which user-generated content and social networks became the dominant phenomenon.</o3>
+    </options>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>a10d93b551e140c98d137ce5d88d960e</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on Human Genome. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>This information was not provided in the question set {blank}.</description>
+    <title>Listening - Select missing word - Q11</title>
+    <media>Practice Set 4_Listening - Select missing word - Q11.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>persons</o0>
+      <o1>individuals</o1>
+      <o2>candidates</o2>
+      <o3>employees</o3>
+    </options>
+    <answer>1</answer>
+  </template>
+</question>
+<question>
+  <id>af03acb11dbe4f08a13015f95661f56c</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</description>
+    <title>Listening - Write from dictation- Q16</title>
+    <media>Practice Set 4_Listening - Write from dictation- Q16.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>And that’s an interesting difference between Britain and the rest Europe.</answer>
+  </template>
+</question>
+<question>
+  <id>c479bbc4b1014d0fb318b6cf7a7b99fe</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Billions of people around the world take dietary supplements in the trust that they will boost their health. New research casts doubt on the benefits of these pills and tablets. A new report from the American organization Consumer Reports (CR) found high health risks from
+supplements that included vitamins, probiotics, and weight loss pills. CR said the main problem with supplements is that they are largely unregulated. While medicinal drugs have to be tested for safety and effectiveness, dietary supplements need far less government approval in many countries. This means that consumers are largely in the darkness regarding the ingredients of the supplements and how the body will react to them.
+</description>
+    <title>Listening - Highlight Incorrect Words- Q14</title>
+    <media>Practice Set 4_Listening - Highlight Incorrect Words- Q14.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>Billions |trust |high |main |darkness </answer>
+  </template>
+</question>
+<question>
+  <id>d21b73d2d3194957a75324a73cba7c02</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:10</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>You will hear a recording. Click on paragraph that best relates to the recording.</description>
+    <title>Listening - Highlight Correct Summary - Q8</title>
+    <media>Practice Set 4_Listening - Highlight Correct Summary - Q8.tpm</media>
+    <delay>10</delay>
+    <options>
+      <o0>A.Misconceptions are not easily removed as students believe more in memorizing the things rather than understanding them, this assumptions they learn from their teachers.</o0>
+      <o1>B.Its not easy to understand Math and students who have this misconception can never understand the formulas and work upon them, they will memorize the formulas and will have assignments full of red correction marks.</o1>
+      <o2>C.Misconceptions about simple notions in arithmetic are not readily given up, it needs proper understanding. Children think that math is boring and they memorize the formulas, teachers should use real objects to make children understand Math.</o2>
+    </options>
+    <answer>2</answer>
+  </template>
+</question>
+<question>
+  <id>d747b02326d9433ab419d2a41f9eb796</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>What two main lines of thought a speaker is talking about Neanderthals existenve?</description>
+    <title>What two main lines of thought a speaker is talking about Neanderthals existenve?</title>
+    <media>Practice Set 4_Listening - Multiple choice, choose multiple answers - Q3.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>climatic changes because of an arrival of Cro-Magnon.</o0>
+      <o1>destroyed by Cro-Magnon or killed by disease.</o1>
+      <o2>Cro-Magnon genes may have become more dominant.</o2>
+      <o3>would have left their region once Cro-Magnon arrived.</o3>
+      <o4>had a battle with Cro-Magnon and most of them died or left the region.</o4>
+    </options>
+    <answer>1|2</answer>
+  </template>
+</question>
+<question>
+  <id>e7cffcc7d6b04a4e8bf35714059c50a0</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:10:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Summarize Spoken Text - Q1</title>
+    <media>Practice Set 4_Listening - Summarize Spoken Text - Q1.tpm</media>
+    <delay>10</delay>
+    <maxWordCount>70</maxWordCount>
+    <answer></answer>
+  </template>
+</question>
+<question>
+  <id>edcf82af51084eddb62281adcdb8016f</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</description>
+    <title>Listening - Write from dictation- Q15</title>
+    <media>Practice Set 4_Listening - Write from dictation- Q15.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>This is a work I made in 2014.</answer>
+  </template>
+</question>
+<question>
+  <id>f792bd10ee2940ceb503297cd2b0ec58</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:10:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Summarize Spoken Text - Q2</title>
+    <media>Practice Set 4_Listening - Summarize Spoken Text - Q2.tpm</media>
+    <delay>10</delay>
+    <maxWordCount>70</maxWordCount>
+    <answer></answer>
+  </template>
+</question>
+<question>
+  <id>1d4be3077b0147ce8cc914e215a1927d</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>New research shows that office employees and other people who sit down a lot more exercise for one hour a day. If they do this, they will increase their chances of living longer. Doctors have been telling us for a many time that sitting down all day will shorten our life. Researchers now say that sitting in a chair all day is as dangerous to our health as smoking or being overweight. Research on over one billion adults found that sitting for at least eight hours a day could increase the risk of dying early by up to 80 per cent. However, there is good news for those who sit at a desk all day. An hour's "brisk exercise" each day can cancel out the risk of an early death linked to sitting all day.</description>
+    <title>Listening - Highlight Incorrect Words- Q13</title>
+    <media>Practice Set 4_Listening - Highlight Incorrect Words- Q13.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>employees|more|many|billion|80</answer>
+  </template>
+</question>
+<question>
+  <id>2dff1447d3814404b4a40f93b2d9f375</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>We humans have been making war since before we were even fully human. And since then, we have gone from using stone and sinew to developing the most {blank} and devastating weapon systems imaginable. And to enable our warriors to use these weapons, we employ the most cutting-edge training methods. We are good at making war. And we are good at training our {blank} to fight.
+Yet, when we consider the experience of the modern-day combat {blank}, we begin to see that we have not been as good at preparing them to come home. Why is that? Well, our ancestors lived {blank} in conflict, and they fought right where they lived. So until only very recently in our evolutionary history, there was hardly a need to learn how to come home from war, because we never really did. But thankfully, today, most of humanity lives in far more peaceful societies, and when there is {blank}, we, especially in the United States, now have the technology to put our warriors through advanced training, drop them in to fight anywhere on the globe and when they're done, jet them back to peacetime {blank}.
+</description>
+    <title>Listening - Fill in the blanks - Q5</title>
+    <media>Practice Set 4_Listening - Fill in the blanks - Q5.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>sophisticated |warriors |veteran|immersed |conflict|suburbia</answer>
+  </template>
+</question>
+<question>
+  <id>4e6599322f8e4a8884fcc36654f263ed</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on Reality of space. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>This information was not provided {blank}.</description>
+    <title>Listening - Select missing word - Q12</title>
+    <media>Practice Set 4_Listening - Select missing word - Q12.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>debris</o0>
+      <o1>garbage</o1>
+      <o2>material</o2>
+      <o3>waste</o3>
+    </options>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>6c2ced0f62944c55a7cea9249bffb920</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction>
+  <delayTime>00:00:05</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>On what does a Professor emphasize to student on getting a grant?</description>
+    <title>On what does a Professor emphasize to student on getting a grant?</title>
+    <media>Practice Set 4_Listening - Multiple choice, choose single answer - Q10.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>more focused statistical analysis.</o0>
+      <o1>emphasizes on reference material.</o1>
+      <o2>submission of proposal after Friday.</o2>
+      <o3>Not to consult any statistician.</o3>
+    </options>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>40a83ccdf7ac41a9b281712e9a78cd23</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Finn: Dr Thore Bergman, who was the main author of the study, said that geladas make sounds which have "{blank}" - they have qualities which are like… speech. 
+Neil: And the interesting thing is - most monkeys and apes can only make the most basic noises because they don't have the {blank} required - that is they don't have the physical mouth and throat parts needed - to make more {blank} sounds.
+Finn: All other monkeys and apes can do is called {blank} - rapidly moving their jaws, lips and their tongues. 
+</description>
+    <title>Listening - Fill in the blanks - Q6</title>
+    <media>Practice Set 4_Listening - Fill in the blanks - Q6.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>speech-like properties|vocal anatomy|complex|lip smacking</answer>
+  </template>
+</question>
+
+<!--TEST 4 END-->
+<!--TEST 8-->
+<question>
+  <id>09ed7b22922f4a11a7987878ebb4bed1</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on law and order. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>This is what not provided in the question {blank}.</description>
+    <title>Listening - Select missing word - Q12</title>
+    <media>Practice Set 8_Listening - Select missing word - Q12.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>seriously</o0>
+      <o1>it better.</o1>
+      <o2>in time.</o2>
+      <o3>well organized.</o3>
+    </options>
+    <answer>1</answer>
+  </template>
+</question>
+<question>
+  <id>56a4b4d3f1ef46dd8700fcfd9878efd0</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Which statements are TRUE as per the given information:-</title>
+    <media>Practice Set 8_Listening - Multiple choice, choose multiple answers - Q3.tpm</media>
+    <delay>8</delay>
+     <options>
+      <o0>conscientiousness is very good predictor of life success.</o0>
+      <o1>conscientious people do not achieve success through audacious.</o1>
+      <o2>trait psychology aligns you along five dimensions</o2>
+      <o3>extroversion and agreeableness are both conducive.</o3>
+      <o4>‘N’ in OCEAN means neurotic individuals.</o4>
+    </options>
+    <answer></answer>
+  </template>
+</question>
+<question>
+  <id>847f036bf6cb401aa72c3aeab5e3a8ad</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:10</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Highlight Correct Summary - Q7</title>
+    <media>Practice Set 8_Listening - Highlight Correct Summary - Q7.tpm</media>
+    <delay>10</delay>
+    <options>
+      <o0>Latin America, a lot of populism, made the economies not go so well. They had not been more opposed to the United States for decades. Increasingly, they're coming back. We see that in Argentina. We see it with the openness in Cuba and Venezuela.</o0>
+      <o1>Latin America has made the economies not go so well and been more opposed to the United States for decades but now coming back and the only place moving in another direction is the unpopularity of Mexican president Peña Nieto, slipping away from the United States.</o1>
+      <o2>The only place you see that is moving in another direction is the popularity of Mexican president Peña Nieto. There you could actually see a slip away from the United States over the coming years.</o2>
+      <o3>The US election matters a lot to other countries like Mexican, Brazil, Venezuela. The only place you see that is moving in another direction is the unpopularity of Mexican president Peña Nieto.</o3>
+    </options>
+    <answer>1</answer>
+  </template>
+</question>
+<question>
+  <id>a2ae910313644e2f9413fd174cf5c612</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Which of the statements are TRUE in terms of dinosaurs:-</title>
+    <media>Practice Set 8_Listening - Multiple choice, choose multiple answers - Q4.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>Dinosaur  fossils are found only in Antarctica.</o0>
+      <o1>Dinosaurs still exist today in the line of birds.</o1>
+      <o2>Dinosaurs dominated terrestrial ecosystem until 65 million years ago.</o2>
+      <o3>The first dinosaur was recognized in the 20th century.</o3>
+      <o4>The winged pterosaurs are not the species of dinosaurs.</o4>
+    </options>
+    <answer>1|2</answer>
+  </template>
+</question>
+<question>
+  <id>a07be2a119a54df5b652d1a179049b66</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:10</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Highlight Correct Summary - Q8</title>
+    <media>Practice Set 8_Listening - Highlight Correct Summary - Q8.tpm</media>
+    <delay>10</delay>
+    <options>
+      <o0>There is nothing inevitable about the way we structured our society and economy right now. Ideas can and do change the world. And I think that especially in the past few years, it has become abundantly clear that we can stick to the status quo -- that we need new ideas.</o0>
+      <o1>The speaker believes in a future where the value of your work is not determined by the size of your paycheck, but by the amount of happiness you spread and the amount of meaning you give and the point of education is not to prepare you for another useless job but for a life well-lived.</o1>
+      <o2>There is nothing evitable about the way we structured our society and economy right now. Ideas can and do change the world, we all need to stabilize our worldview, because poverty is not a lack of character. Poverty is a lack of cash.</o2>
+      <o3>There is nothing inevitable about the way we structured our society and economy as Ideas can change the world. It’s about believing the future where the value of your work is not determined by the size of your paycheck, but by the amount of happiness. We all need to change worldview, because poverty is not a lack of character. Poverty is a lack of cash.</o3>
+    </options>
+    <answer>3</answer>
+  </template>
+</question>
+<question>
+  <id>a867cee0b8704ed5b5641f7e3ca787f2</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction>
+  <delayTime>00:00:05</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>From where is the maximum plastic coming?</title>
+    <media>Practice Set 8_Listening - Multiple choice, choose single answer - Q9.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>The developed countries.</o0>
+      <o1>Countries with extreme poverty.</o1>
+      <o2>Countries near ocean.</o2>
+      <o3>High-efficiency equipments.</o3>
+    </options>
+    <answer>1</answer>
+  </template>
+</question>
+<question>
+  <id>ab42d25a1f5b4906bf6627a850a697d2</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:10</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Highlight Correct Summary - Q7</title>
+    <media>Practice Set 8_Listening - Highlight Correct Summary - Q7.tpm</media>
+    <delay>10</delay>
+    <options>
+      <o0>Latin America, a lot of populism, made the economies not go so well. They had not been more opposed to the United States for decades. Increasingly, they're coming back. We see that in Argentina. We see it with the openness in Cuba and Venezuela.</o0>
+      <o1>Latin America has made the economies not go so well and been more opposed to the United States for decades but now coming back and the only place moving in another direction is the unpopularity of Mexican president Peña Nieto, slipping away from the United States.</o1>
+      <o2>The only place you see that is moving in another direction is the popularity of Mexican president Peña Nieto. There you could actually see a slip away from the United States over the coming years.</o2>
+      <o3>The US election matters a lot to other countries like Mexican, Brazil, Venezuela. The only place you see that is moving in another direction is the unpopularity of Mexican president Peña Nieto.</o3>
+    </options>
+    <answer>1</answer>
+  </template>
+</question>
+<question>
+  <id>d04eb33d131e40ebae5f82d5c0be2335</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Now, I think that if you ask people how attractive they think Jessica Parker or Portia de Rossi were, and you ask them to give them a score between one and four I reckon that they'd average out to have roughly the same score. But the way that people would vote would be very easy. So Portia's scores would all be clustered around the four because everybody agrees that she's very elegant, whereas Sarah Jessica Parker completely divides opinion. There'd be a huge spread in her scores. And actually it's this spread that counts. It's this spread that makes you more popular on an offline Internet dating website. So what that means then is that if some people think that you're attractive, you're actually better off having some other people think that you're a huge minger. That's much better than everybody just thinking that you're the cute girl next door.</description>
+    <title>Listening - Highlight Incorrect Words- Q14</title>
+    <media>Practice Set 8_Listening - Highlight Incorrect Words- Q14.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>think|four|easy|offline|huge</answer>
+  </template>
+</question>
+<question>
+  <id>d4d5fb2b4eb24f789fce85ffc67c4037</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Write from dictation- Q17</title>
+    <media>Practice Set 8_Listening - Write from dictation- Q17.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>The early work is more philosophical rather than experimental.</answer>
+  </template>
+</question>
+<question>
+  <id>d984eb50bc1347c7add548d2afc02034</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Write from dictation- Q16</title>
+    <media>Practice Set 8_Listening - Write from dictation- Q16.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>The economic books are at the back on the left.</answer>
+  </template>
+</question>
+<question>
+  <id>d62315f28ba549e4a1bfb3db1995fd8b</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on Women. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>This is the description which was not provided in the question {blank}.</description>
+    <title>Listening - Select missing word - Q11</title>
+    <media>Practice Set 8_Listening - Select missing word - Q11.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>local authority.</o0>
+      <o1>family.</o1>
+      <o2>government.</o2>
+      <o3>herself</o3>
+    </options>
+    <answer>2</answer>
+  </template>
+</question>
+<question>
+  <id>e3a07282f4e743ffb04ff023593963fc</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Write from dictation- Q18</title>
+    <media>Practice Set 8_Listening - Write from dictation- Q18.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>The early work is more experimental.</answer>
+  </template>
+</question>
+<question>
+  <id>0b150ee8f2514f86a9012e2f13b4bd8e</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction>
+  <delayTime>00:00:05</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>What are the views of the sociologist on ‘weak ties’ people?</title>
+    <media>Practice Set 8_Listening - Multiple choice, choose single answer - Q10.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>They are the ticket to new social world.</o0>
+      <o1>You cannot socialize with weak ties people.</o1>
+      <o2>Strong ties are more significant compared to weak ties.</o2>
+      <o3>The network of weak ties is  redundant.</o3>
+    </options>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>0beaf04c4c554da68b75ea32c8f74404</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>For black men, the {blank} is not just a place where you get your hair cut or your beard trimmed. No, it's much more than that. {blank}, the barbershop has been a safe haven for black men. It's a place where we go for friendship, {blank} and solace. It's a place where we go to get away from the stress of the grind of work and sometimes home life. It's a place where we don't have to worry about how we're being perceived by the outside world. It's a place where we don't feel threatened, or {blank}. It's a place of loyalty and trust. For that reason, it's one of the few places where we can {blank} be ourselves and just  talk. The talk, the shop talk, the conversation, that is the essence of the black barbershop.</description>
+    <title>Listening - Fill in the blanks - Q6</title>
+    <media>Practice Set 8_Listening - Fill in the blanks - Q6.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>barbershop |Historically|solidarity|threatening|fearlessly</answer>
+  </template>
+</question>
+<question>
+  <id>2c541f0e35174957af55f5608c5859fb</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>There are {blank} reasons why the Middle East has had {blank} such as it is. Right? One is because there was a {blank} to provide some level of military security by the US and allies. Number two, it was easy to take a lot of cheap money out of the ground because oil was {blank}. And number three was no matter how bad the leaders were, the populations were relatively {blank}. They didn't have the ability, and many didn't have the will to really rise up against.</description>
+    <title>Listening - Fill in the blanks - Q5</title>
+    <media>Practice Set 8_Listening - Fill in the blanks - Q5.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>three|stability|willingness|expensive|quiescent</answer>
+  </template>
+</question>
+<question>
+  <id>3c4d098df4444dcba31d9a2c4297b2bc</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Our scientists then use this to go back to another part of that tissue and do what's called electronic scanning micro-dissection. So the technician takes the instructions. They scribed along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope transcripts here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we rectify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a macro array.</description>
+    <title>Listening - Highlight Incorrect Words- Q13</title>
+    <media>Practice Set 8_Listening - Highlight Incorrect Words- Q13.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>part|electronic|scribed|transcripts|rectify|macroarray</answer>
+  </template>
+</question>
+<question>
+  <id>3d003cea8bd642c8874b5bb9c11bc4e0</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:10</delayTime>
+  <attemptTime>00:10:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Summarize Spoken Text - Q2</title>
+    <media>Practice Set 8_Listening - Summarize Spoken Text - Q2.tpm</media>
+    <delay>0</delay>
+    <maxWordCount>70</maxWordCount>
+    <answer>Americanization and globalization for the last several generations have been the same thing.  President Obama who gets the red carpet when  he goes down Air Force One, this makes him feel good and comfortable. During China trip, when world's leaders landed for the important meeting, there was no red carpet for leaders except Obama. This shows that when the leaders are all onstage, then the Americans are pulling their weight.</answer>
+  </template>
+</question>
+<question>
+  <id>06e92109e4464a6d95d36545cce5da0d</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Write from dictation- Q15</title>
+    <media>Practice Set 8_Listening - Write from dictation- Q15.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>The essay will be published once the research is finished.</answer>
+  </template>
+</question>
+<question>
+  <id>6c31487e8f8b4cdf9041a4e374f52307</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:10</delayTime>
+  <attemptTime>00:10:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Summarize Spoken Text - Q1</title>
+    <media>Practice Set 8_Listening - Summarize Spoken Text - Q1.tpm</media>
+    <delay>0</delay>
+    <maxWordCount>70</maxWordCount>
+    <answer>Humans have become an overwhelming force to determine the future living conditions on earth, there is a need to preserve it and our generation can do it. There is a need to manage global commons as our parents did. Firstly, recognize the global commons, then build the stewardship of the global commons into actions. The requirement is to change our cities, energy system, our production-consumption and food system.</answer>
+  </template>
+</question>
+
+<!--TEST 8 END-->
+
+<!--TEST 9-->
+<question>
+  <id>a5d8f7a9a81a48eab67972550040bc2d</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on Broadband. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.Track should start after 8 seconds.Once track is completed, status should change to "completed"
+</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Select missing word - Q11</title>
+    <media>Practice Set 9_Listening - Select missing word - Q11.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>desire</o0>
+      <o1>wish</o1>
+      <o2>options</o2>
+      <o3>choices</o3>
+    </options>
+    <answer>3</answer>
+	<transcript>After years of wrangling and debate and hemming and hawing, the federal communication commission finally decided to reclassify broadband, first of all as being fairly fast - basically the speed that lets you watch youtube videos - and that matters in terms of determining how much competition there is out there. If you classify broadband as being very slow, like DSL, then you can imagine that a lot of Americans have choices.</transcript>
+  </template>
+</question>
+<question>
+  <id>ac176d10ddb744348fb428ed37f31e56</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Write from dictation- Q16</title>
+    <media>Practice Set 9_Listening - Write from dictation- Q16.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>The decision was made with the support by several faculty members.</answer>
+  </template>
+</question>
+<question>
+  <id>af48a7fc3fb64abeacbb65157301b91d</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Afghanistan looks so different from here in America. I find that Americans see the {blank} in changes. I fear that these changes will not last much beyond the U.S. troops' {blank}. But when I am back in Afghanistan, when I see the students in my school and their parents who {blank} for them, who {blank} them, I see a promising future and lasting change.</description>
+    <title>Listening - Fill in the blanks - Q6</title>
+    <media>Practice Set 9_Listening - Fill in the blanks - Q6.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>fragility|withdrawal|advocate|encourage</answer>
+	<transcript>Afghanistan looks so different from here in America. I find that Americans see the fragility in changes. I fear that these changes will not last much beyond the U.S. troops' withdrawal. But when I am back in Afghanistan, when I see the students in my school and their parents who advocate for them, who encourage them, I see a promising future and lasting change.</transcript>
+  </template>
+</question>
+<question>
+  <id>c73c2cc1a648403e8d96df44f8e01076</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction>
+  <delayTime>00:00:05</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Which of the statement given below is “TRUE”?</description>
+    <title>Which of the statement given below is “TRUE”?</title>
+    <media>Practice Set 9_Listening - Multiple choice, choose single answer - Q10.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>We lose regenerative delta waves at young age.</o0>
+      <o1>long-burst brain waves in deep sleep and waking life are very different.</o1>
+      <o2>The main focus of the lecture is on non-regenerative sleep.</o2>
+      <o3>Long-burst waves are found when a person is in light sleep.</o3>
+    </options>
+    <answer>1</answer>
+	<transcript>Scientists are now starting to understand how not only the quantity but also the quality of sleep impacts our health and well-being. My research focuses on what many scientists believe is the most regenerative stage of sleep: deep sleep. We now know that generally speaking, there are three stages of sleep: light sleep, rapid eye movement or REM and deep sleep. We measure these stages by connecting electrodes to the scalp, chin and chest. In light sleep and REM, our brain waves are very similar to our brain waves in waking life. But our brain waves in deep sleep have these long-burst brain waves that are very different from our waking life brain waves. These long-burst brain waves are called delta waves. When we don't get the deep sleep we need, it inhibits our ability to learn and for our cells and bodies to recover. Deep sleep is how we convert all those interactions that we make during the day into our long-term memory and personalities. As we get older, we're more likely to lose these regenerative delta waves. So in way, deep sleep and delta waves are actually a marker for biological youth.</transcript>
+  </template>
+</question>
+<question>
+  <id>dff222e8c2164585a2f2267fb1c71a9b</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Write from dictation- Q18</title>
+    <media>Practice Set 9_Listening - Write from dictation- Q18.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>The curriculum is described in course syllabus.</answer>
+  </template>
+</question>
+<question>
+  <id>e72d64fa38004f80a7626f5107b3ca1d</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>I think the puzzle arises because of an {blank} assumption we make about value. We unwittingly assume that values like justice, beauty, kindness, are akin to scientific quantities, like length, mass and weight. Take any {blank} question not involving value, such as which of two suitcases is heavier. There are only three possibilities. The weight of one is greater, lesser or equal to the weight of the other. Properties like weight can be represented by real numbers -- one, two, three and so on -- and there are only three possible comparisons between any two real numbers. One number is greater, lesser, or equal to the other. Not so with values. As {blank} creatures, we tend to assume that scientific thinking holds the key to everything of importance in our world, but the world of value is different from the world of science. The stuff of the one world can be {blank} by real numbers. The stuff of the other world can't. We shouldn't assume that the world of is, of lengths and weights, has the same {blank} as the world of ought, of what we should do.</description>
+    <title>Listening - Fill in the blanks - Q5</title>
+    <media>Practice Set 9_Listening - Fill in the blanks - Q5.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>unreflective |comparative|post-enlightenment|quantified|structure</answer>
+	<transcript>I think the puzzle arises because of an unreflective assumption we make about value. We unwittingly assume that values like justice, beauty, kindness, are akin to scientific quantities, like length, mass and weight. Take any comparative question not involving value, such as which of two suitcases is heavier. There are only three possibilities. The weight of one is greater, lesser or equal to the weight of the other. Properties like weight can be represented by real numbers -- one, two, three and so on -- and there are only three possible comparisons between any two real numbers. One number is greater, lesser, or equal to the other. Not so with values. As post-enlightenment creatures, we tend to assume that scientific thinking holds the key to everything of importance in our world, but the world of value is different from the world of science. The stuff of the one world can be quantified by real numbers. The stuff of the other world can't. We shouldn't assume that the world of is, of lengths and weights, has the same structure as the world of ought, of what we should do.</transcript>
+  </template>
+</question>
+<question>
+  <id>e452ac2541964315ae4d377855b2a357</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction>
+  <delayTime>00:00:05</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>What is the purpose of the given paragraph?</description>
+    <title>What is the purpose of the given paragraph?</title>
+    <media>Practice Set 9_Listening - Multiple choice, choose single answer - Q9.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>to highlight the village.</o0>
+      <o1>changing the entire community into modernism.</o1>
+      <o2>providing safe and dignified space for expecting mothers.</o2>
+      <o3>increasing carbon footprints.</o3>
+    </options>
+    <answer>2</answer>
+	<transcript>In Malawi, with our team at MASS Design Group, we designed the Kasungu Maternity Waiting Village. This is a place women come to six weeks before their due dates. Here they receive prenatal care and train in nutrition and family planning. At the same time, they form a community with other expectant mothers and their families. The design of the of Kasungu Maternity Waiting Village borrows from the vernacular typologies of Malawi villages and is built using really simple materials and techniques. The earth blocks that we used were made from the same soil of this site. This reduces the carbon footprint of this building, but first and foremost, it provides a safe and dignified space for these expectant mothers.These examples show that architecture and design have the power and the agency to address complex problems. But more to point, that we can develop a model of effective solutions for our communities.</transcript>
+  </template>
+</question>
+<question>
+  <id>ea4777e913d14b868330250ae4592289</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.Track should start after 8 seconds. Once track is completed, status should change to "completed"</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Our scientists then use this to go back to another part of that tissue and do what's called electronic scanning micro-dissection. So the technician takes the instructions. They scribed along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope transcripts here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we rectify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a macro array.</description>
+    <title>Listening - Highlight Incorrect Words- Q13</title>
+    <media>Practice Set 9_Listening - Highlight Incorrect Words- Q13.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>part|electronic|scribed|transcripts|rectify|macroarray</answer>
+	<transcript>Our scientists then use this to go back to another piece of that tissue and do what's called laser scanning microdissection. So the technician takes the instructions. They scribe along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope slide here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we purify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a microarray.
+Our scientists then use this to go back to another part of that tissue and do what's called electronic scanning micro-dissection. So the technician takes the instructions. They scribed along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope transcripts here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we rectify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a macroarray.
+</transcript>
+  </template>
+</question>
+<question>
+  <id>f25bbf7f81894e05913c36f295684a55</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.Track should start after 8 seconds. Once track is completed, status should change to "completed"</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Now, I think that if you ask people how attractive they think Jessica Parker or Portia de Rossi were, and you ask them to give them a score between one and four I reckon that they'd average out to have roughly the same score. But the way that people would vote would be very easy. So Portia's scores would all be clustered around the four because everybody agrees that she's very elegant, whereas Sarah Jessica Parker completely divides opinion. There'd be a huge spread in her scores. And actually it's this spread that counts. It's this spread that makes you more popular on an offline Internet dating website. So what that means then is that if some people think that you're attractive, you're actually better off having some other people think that you're a huge minger. That's much better than everybody just thinking that you're the cute girl next door.</description>
+    <title>Listening - Highlight Incorrect Words- Q14</title>
+    <media>Practice Set 9_Listening - Highlight Incorrect Words- Q14.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>think|four|easy|elegant|offline|huge </answer>
+	<transcript>Now, I think that if you ask people how attractive they thought Jessica Parker or Portia de Rossi were, and you ask them to give them a score between one and five I reckon that they'd average out to have roughly the same score. But the way that people would vote would be very different. So Portia's scores would all be clustered around the four because everybody agrees that she's very beautiful, whereas Sarah Jessica Parker completely divides opinion. There'd be a huge spread in her scores. And actually it's this spread that counts. It's this spread that makes you more popular on an online Internet dating website. So what that means then is that if some people think that you're attractive, you're actually better off having some other people think that you're a massive minger. That's much better than everybody just thinking that you're the cute girl next door.Now, I think that if you ask people how attractive they think Jessica Parker or Portia de Rossi were, and you ask them to give them a score between one and four I reckon that they'd average out to have roughly the same score. But the way that people would vote would be very easy. So Portia's scores would all be clustered around the four because everybody agrees that she's very elegant, whereas Sarah Jessica Parker completely divides opinion. There'd be a huge spread in her scores. And actually it's this spread that counts. It's this spread that makes you more popular on an offline Internet dating website. So what that means then is that if some people think that you're attractive, you're actually better off having some other people think that you're a huge minger. That's much better than everybody just thinking that you're the cute girl next door.
+</transcript>
+  </template>
+</question>
+
+<question>
+  <id>0c1146f072e548558cb391e3ce61f88c</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:10</delayTime>
+  <attemptTime>00:10:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Summarize Spoken Text - Q1</title>
+    <media>Practice Set 9_Listening - Summarize Spoken Text - Q1.tpm</media>
+    <delay>10</delay>
+    <maxWordCount>70</maxWordCount>
+    <answer>The lecture is on reforming and commercializing the agricultural industries in Africa and in India. Commercialization is about the entire agricultural system but also means confronting the fact that we can no longer place the burden of growth on small-scale farmers. We can create the first successful models of the coexistence and success of small-scale farming alongside commercial agriculture. This will maximize probability of success in reaching your intended goal.</answer>
+	<transcript>We need to reform and commercialize the agricultural industries in Africa and in India.Now, by commercialization -- commercialization is not about commercial farming alone. Commercialization is about leveraging data to craft better policies, to improve infrastructure, to lower the transportation costs and to completely reform banking and insurance industries. Commercialization is about taking agriculture from too risky an endeavor to one where fortunes can be made. Commercialization is not about just farmers. Commercialization is about the entire agricultural system. But commercialization also means confronting the fact that we can no longer place the burden of growth on small-scale farmers alone, and accepting that commercial farms and the introduction of commercial farms could provide certain economies of scale that even small-scale farmers can leverage. It is not about small-scale farming or commercial agriculture, or big agriculture. We can create the first successful models of the coexistence and success of small-scale farming alongside commercial agriculture. This is because, for the first time ever, the most critical tool for success in the industry -- data and knowledge -- is becoming cheaper by the day. And very soon, it won't matter how much money you have or how big you are to make optimal decisions and maximize probability of success in reaching your intended goal.</transcript>
+  </template>
+</question>
+<question>
+  <id>1c237bd4bef94309908e1993d04d1987</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:10</delayTime>
+  <attemptTime>00:10:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Summarize Spoken Text - Q2</title>
+    <media>Practice Set 9_Listening - Summarize Spoken Text - Q2.tpm</media>
+    <delay>10</delay>
+    <maxWordCount>70</maxWordCount>
+    <answer>Caring for someone should be a choice and should be done without putting one's own well-being in the balance, what needed is a deep, societal, structural change which can only happen through a change in mindset. If carers around the world felt better recognized, it would not only improve their own well-being and sense of fulfillment, but would also improve the lives of those that they're caring for. </answer>
+	<transcript>Caring for someone should be a choice and should be done without putting one's own well-being in the balance. But to really put the care back into health care, what's needed is a deep, societal, structural change. And this can only happen through a change in mindset. And this can start today. Today, we can plant the seed for a change for millions of carers around the world.
+Here's what I want to suggest: when you go home today or to the office tomorrow morning, embrace a carer. Thank them, offer him or her a bit of help, maybe even volunteer as a carer yourself for a couple hours a week. If carers around the world felt better recognized, it would not only improve their own health and well-being and sense of fulfillment, but it would also improve the lives of those that they're caring for.
+Let's care more.</transcript>
+  </template>
+</question>
+<question>
+  <id>5c0f059b060a41aca3bb61d80f27130e</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on Technology. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.Track should start after 8 seconds.Once track is completed, status should change to "completed"</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Select missing word - Q12</title>
+    <media>Practice Set 9_Listening - Select missing word - Q12.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>what’s happening around us.</o0>
+      <o1>what’s happening in the world.</o1>
+      <o2>what’s around us.</o2>
+      <o3>from where to start.</o3>
+    </options>
+    <answer>1</answer>
+	<transcript>If we look back to a hundred years ago, we were talking about the Industrial Revolution – countries becoming economic powers, developing their businesses through the use of machines. Now the emphasis has shifted to information, and technology is a tool by which people can gain that information - be it through computers, on the Internet, or maybe over a mobile phone. And that’s what we’re talking about here: using technology as a tool to get access to information, to find out what’s happening in the world.</transcript>
+  </template>
+</question>
+<question>
+  <id>13b189b70a6649559aa005e9bddc7bd9</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:10</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Highlight Correct Summary - Q7</title>
+    <media>Practice Set 9_Listening - Highlight Correct Summary - Q7.tpm</media>
+    <delay>10</delay>
+    <options>
+      <o0>We're now in the fashion business, no matter what we do for a living, we're in the fashion business. And people in the fashion business know what it's not like to be in the fashion business -- they're used to it. The rest of us have to figure out how to think that way.</o0>
+      <o1>How to understand the fashion business a totally different sort of process that determines which ideas spreads or not. What marketers used to do is make average products for average people. That's what mass marketing is. The strategy is to market products to those people who they care and are obsessed with something, this spreads to the entire curve.</o1>
+      <o2>What marketers used to do is make average products for average people. That's what mass marketing is. Smooth out the edges; go for the center; that's the big market. They would ignore the geeks, and God forbid, the laggards. It was all about going for the center.</o2>
+      <o3>We're now in the fashion business, no matter what we do for a living, we're in the fashion business. And people in the fashion business know what it's not like to be in the fashion business -- they're used to it. The strategy we want to use is to market to those people who ignore the product rather market to those people who they care.</o3>
+    </options>
+    <answer>1</answer>
+	<transcript>We're now in the fashion business, no matter what we do for a living, we're in the fashion business. And people in the fashion business know what it's like to be in the fashion business -- they're used to it. The rest of us have to figure out how to think that way. How to understand that it's not about interrupting people with big full-page ads, or insisting on meetings with people. But it's a totally different sort of process that determines which ideas spread, and which ones don't. They sold a billion dollars' worth of Aeron chairs by reinventing what it meant to sell a chair. They turned a chair from something the purchasing department bought, to something that was a status symbol about where you sat at work. 
+What marketers used to do is make average products for average people. That's what mass marketing is. Smooth out the edges; go for the center; that's the big market. They would ignore the geeks, and God forbid, the laggards. It was all about going for the center. But in a world where the TV-industrial complex is broken, I don't think that's a strategy we want to use any more. I think the strategy we want to use is to not market to these people because they're really good at ignoring you. But market to these people because they care. These are the people who are obsessed with something. And when you talk to them, they'll listen, because they like listening -- it's about them. And if you're lucky, they'll tell their friends on the rest of the curve, and it'll spread. It'll spread to the entire curve.
+</transcript>
+  </template>
+</question>
+<question>
+  <id>46a85ae141a04d0180e24bec58aea941</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Write from dictation- Q17</title>
+    <media>Practice Set 9_Listening - Write from dictation- Q17.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>The new product failed due to a lack of demand.</answer>
+  </template>
+</question>
+<question>
+  <id>96efa1952d2f46ffb6c3357918a9ac83</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Which of the statements are TRUE in terms of dinosaurs:-</title>
+    <media>Practice Set 9_Listening - Multiple choice, choose multiple answers - Q4.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>Dinosaur  fossils are found only in Antarctica.</o0>
+      <o1>Dinosaurs still exist today in the line of birds.</o1>
+      <o2>Dinosaurs dominated terrestrial ecosystem until 65 million years ago.</o2>
+      <o3>The first dinosaur was recognized in the 20th century.</o3>
+      <o4>The winged pterosaurs are not the species of dinosaurs.</o4>
+    </options>
+    <answer>1|2</answer>
+	<transcript>Dinosaurs are vertebrates that range from reptile-like to bird-like. Dinosaurs dominated the terrestrial ecosystem for over 160 million years from around 230 million years ago until 65 million years ago, at the end of the Cretaceous period, when all non-avian dinosaurs became extinct. Dinosaurs still exist today in the line of birds (avian dinosaurs).
+Knowledge about dinosaurs comes from both fossil and non-fossil records, including fossilized bones, feces, trackways, gastroliths, feathers, impressions of skin, internal organs and soft tissues. Dinosaur remains have been found on every continent on Earth, including Antarctica. This shows that all land masses were at one time connected in a super continent, called Pangaea, due to the fact that numerous fossils of the same species have been found on completely different continents. Pangaea began to break up during the Triassic period around 230 million years ago.
+Since the first dinosaur was recognized in the 19th century, their mounted, fossilized skeletons have become major attractions at museums around the world. Dinosaurs have become a part of world culture and remain consistently popular, especially among children. They have been featured in best-selling books and blockbuster films such as Jurassic Park, and new discoveries are regularly covered by the media. The term is also used informally to describe any prehistoric reptile, such as the pelycosaur Dimetrodon, the winged pterosaurs, and the aquatic ichthyosaurs, plesiosaurs, and mosasaurs, though none of these are dinosaurs.
+</transcript>
+  </template>
+</question>
+<question>
+  <id>8976ad1b56164222a4dd47ce83881e82</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Write from dictation- Q15</title>
+    <media>Practice Set 9_Listening - Write from dictation- Q15.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>The dining hall will be under go renovation during the fall break.</answer>
+  </template>
+</question>
+<question>
+  <id>028952a86f17426db1444cf82f16d456</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:10</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Highlight Correct Summary - Q8</title>
+    <media>Practice Set 9_Listening - Highlight Correct Summary - Q8.tpm</media>
+    <delay>10</delay>
+    <options>
+      <o0>The speaker notices that when everyone at summer camp picked up five pieces of litter during they got a much cleaner camp. So he thought of applying that on the crowd sourced cleanup model to the entire planet? And that was the inspiration for Litterati. The vision is to create a litter-free world starting from Instagram which became artistic and approachable and more people participated.</o0>
+      <o1>This story starts with these two -- my kids. We were hiking in the Oakland woods when my daughter noticed a plastic tub of cat litter in a creek. She looked at me and said, "Daddy? That doesn't go there." It reminded me of summer camp. Our director stopped us from picking litter.</o1>
+      <o2>The vision is to create a litter-free world. Let me show you how it started. I took a picture of a cigarette using Instagram. Then I took another photo ... and another photo ... and another photo. And I noticed two things: one, litter became artistic and approachable; and two, at the end of a few days, I had 50 photos on my phone.</o2>
+      <o3>I had 50 photos on my phone and I had picked up each piece, and I realized that I was keeping a record of the positive impact I was having on the planet. That's 50 less things that you might see, or you might step on, or some bird might eat. So I started telling people what I was doing, and they started participating.</o3>
+    </options>
+    <answer>0</answer>
+	<transcript> This story starts with these two -- my kids. We were hiking in the Oakland woods when my daughter noticed a plastic tub of cat litter in a creek. She looked at me and said, "Daddy? That doesn't go there."When she said that, it reminded me of summer camp. On the morning of visiting day, right before they'd let our anxious parents come barreling through the gates, our camp director would say, "Quick! Everyone pick up five pieces of litter." You get a couple hundred kids each picking up five pieces, and pretty soon, you've got a much cleaner camp. So I thought, why not apply that crowd sourced cleanup model to the entire planet? And that was the inspiration for Litterati.The vision is to create a litter-free world. Let me show you how it started. I took a picture of a cigarette using Instagram. Then I took another photo ... and another photo ... and another photo. And I noticed two things: one, litter became artistic and approachable; and two, at the end of a few days, I had 50 photos on my phone and I had picked up each piece, and I realized that I was keeping a record of the positive impact I was having on the planet. That's 50 less things that you might see, or you might step on, or some bird might eat.So I started telling people what I was doing, and they started participating. </transcript>
+  </template>
+</question>
+
+<!--TEST 9-->
+
 </questions>

@@ -52,7 +52,8 @@ namespace TPAMED
                 string extension = Path.GetExtension(file);
                 string outputExtension = string.Empty;
 
-                if (extension.Equals(".mp3",StringComparison.InvariantCultureIgnoreCase))
+                if (extension.Equals(".mp3",StringComparison.InvariantCultureIgnoreCase)
+                    || extension.Equals(".wav", StringComparison.InvariantCultureIgnoreCase))
                     outputExtension = ".tpm";
                 else if (extension.Equals(".jpg", StringComparison.InvariantCultureIgnoreCase))
                     outputExtension = ".tpi";
@@ -74,7 +75,8 @@ namespace TPAMED
                 string extension = Path.GetExtension(file);
                 string outputExtension = string.Empty;
 
-                if (extension.Equals(".mp3", StringComparison.InvariantCultureIgnoreCase))
+                if (extension.Equals(".mp3", StringComparison.InvariantCultureIgnoreCase)
+                    || extension.Equals(".wav", StringComparison.InvariantCultureIgnoreCase))
                     outputExtension = ".tpm";
                 else if (extension.Equals(".jpg", StringComparison.InvariantCultureIgnoreCase))
                     outputExtension = ".tpi";

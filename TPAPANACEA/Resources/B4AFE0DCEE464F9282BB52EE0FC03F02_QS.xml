@@ -1,6 +1,6 @@
 <?xml version = "1.0"?>
 <questions>
-
+<!--TEST1-->
 <question>
   <id>aba271e9c5d846a6b4449d8c52ed9555</id>
   <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
@@ -871,6 +871,10 @@ Once track will be completed, recording will start after "1 second" for "10 seco
 Answer: Fruit</transcript>
   </template>
 </question> -->
+
+<!--TEST 1 END-->
+<!--TEST 2-->
+
 <question>
   <id>8f4542d42e194ae4830db61d91aa7dae</id>
   <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
@@ -1798,4 +1802,2797 @@ Once track will be completed, recording will start after "1 second" for "10 seco
 Answer: CN Tower located in Toronto, Canada.</transcript>
   </template>
 </question>
+<!--TEST 2 END -->
+<!--TEST 4-->
+
+<question>
+  <id>4f68f3069a4545f9bf2b952ddca615c9</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q32</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>4f68f3069a4545f9bf2b952ddca615c9</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Answer Short Question - Q32.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What would you call anything which is related to youth?
+Answer: Juvenile
+</transcript>
+  </template>
+</question>
+<question>
+  <id>4fbe6a046712472a90644229612c410b</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Speaking - Repeat Sentence - Q11</description>
+    <title>Speaking - Repeat Sentence - Q11</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>4fbe6a046712472a90644229612c410b</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Repeat Sentence - Q11.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>I need your answer by the end of the day.</transcript>
+  </template>
+</question>
+<question>
+  <id>7f10c35dc70f42f784efad5fefc7788b</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q24</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>7f10c35dc70f42f784efad5fefc7788b</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 4_Speaking - Describe Image - Q24.tpi</picture>
+    <transcript>The pie chart provides the total screen media time by platform among 0 to 8 years old and bar graph shows the time spent in each activity in a typical day. As per the pie chart, the total screen media time by platform is the highest of TV set, It is 74% followed with 13% Computer and 10% Video game players whereas cell/ipod/ iPad are the least with only 4%. 0-8 years old spent maximum on TV/Videos, its 1 hour 44 mins whereas 29 mins are spent on Reading/being read to and listening to music and 25  mins on computer or video games and the least on other computer activities. Overall, Tv is at the top as Screen media diet and the time spent with media.</transcript>
+  </template>
+</question>
+<question>
+  <id>8a8ae9c6e8704214b7ebb7cb0897c4ee</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Speaking - Repeat Sentence - Q14</description>
+    <title>Speaking - Repeat Sentence - Q14</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>8a8ae9c6e8704214b7ebb7cb0897c4ee</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Repeat Sentence - Q14.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>I have a lot of work to finish up before the end of the week.</transcript>
+  </template>
+</question>
+<question>
+  <id>8e9cde6346fc436bb9dd0516779d95f9</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Wind blowing parallel to the shore may create a net movement of water at 90 degrees away from the shore. Nutrient-rich deeper ocean water will upwell to take the place of the displaced water and thus profoundly influence the marine ecosystem.</description>
+    <title>Speaking - Read Aloud - Q6</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>8e9cde6346fc436bb9dd0516779d95f9</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>10af475fb2da41d9a00b87b30278287f</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Speaking - Repeat Sentence - Q15</description>
+    <title>Speaking - Repeat Sentence - Q15</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>10af475fb2da41d9a00b87b30278287f</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Repeat Sentence - Q15.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>I spend a few hours a day maintaining my website.</transcript>
+  </template>
+</question>
+<question>
+  <id>25d08490e4ce448bbbece29f5c956a34</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q31</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>25d08490e4ce448bbbece29f5c956a34</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Answer Short Question - Q31.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 4_Speaking - Answer Short Question - Q31.tpi</picture>
+    <transcript>Who uses logo given in the picture?
+Answer: Doctor
+</transcript>
+  </template>
+</question>
+<question>
+  <id>37e59b94bd244bfcad8646ad87ef2aa7</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q19</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>37e59b94bd244bfcad8646ad87ef2aa7</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 4_Speaking - Describe Image - Q19.tpi</picture>
+    <transcript>The line graph depicts the horse and tractor numbers in US from 1910 to 1960, in 1910, there were no tractors till 1920 but horses were at its peak with 4 million increased slightly till 1920 and after that there was a continuous downfall in horses as the data reached to approximately 5 million whereas the number tractors were increasing and by 1960 it was booming with about 5 millions in number. Overall, horses decreased in number whereas tractors inclined.</transcript>
+  </template>
+</question>
+<question>
+  <id>41d73ab66ef844c3b11c54071aeec69d</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Speaking - Repeat Sentence - Q13</description>
+    <title>Speaking - Repeat Sentence - Q13</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>41d73ab66ef844c3b11c54071aeec69d</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Repeat Sentence - Q13.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>As soon as I find it, I'll bring it over to your place.</transcript>
+  </template>
+</question>
+<question>
+  <id>53f7fe7dd3064ddc917cc16a59af1618</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Speaking - Repeat Sentence - Q16</description>
+    <title>Speaking - Repeat Sentence - Q16</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>53f7fe7dd3064ddc917cc16a59af1618</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Repeat Sentence - Q16.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>It took me more than two hours to translate a few pages of English.</transcript>
+  </template>
+</question>
+<question>
+  <id>58f9e3fdb0444d87922bade65c2d8912</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q40</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>58f9e3fdb0444d87922bade65c2d8912</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Answer Short Question - Q40.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What is a name given to a string of beads used for counting prayers?
+Rosary or Garland
+
+Answer: Rosary
+</transcript>
+  </template>
+</question>
+<question>
+  <id>497aa8d815b74747934db15afad940c0</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Speaking - Repeat Sentence - Q18</description>
+    <title>Speaking - Repeat Sentence - Q18</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>497aa8d815b74747934db15afad940c0</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Repeat Sentence - Q18.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The radio station came back on the air shortly after the storm.</transcript>
+  </template>
+</question>
+<question>
+  <id>692d4525f17e44b9a5276de5264bfe73</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Barbara Charline Jordan was born February 21, 1936, in her parents’ home in Houston. Her father, Benjamin Jordan, was a Baptist minister and warehouse clerk. Her mother Arlyne was a maid, housewife and church teacher.</description>
+    <title>Speaking - Read Aloud - Q7</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>692d4525f17e44b9a5276de5264bfe73</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>700eeba804c34db092982680b76504a6</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q33</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>700eeba804c34db092982680b76504a6</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Answer Short Question - Q33.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 4_Speaking - Answer Short Question - Q33.tpi</picture>
+    <transcript>Which dance is performed in the picture?
+Answer: Salsa
+</transcript>
+  </template>
+</question>
+<question>
+  <id>874be17010b3404799767822bded301d</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q22</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>874be17010b3404799767822bded301d</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 4_Speaking - Describe Image - Q22.tpi</picture>
+    <transcript>The pie chart explains about the browser usage on Wikimedia in October 2011. The maximum usage was of Internet Explorer with 34.2% followed with the utilization of firefox and Chrome which were 23.6% and 20.6% respectively whereas 11.2% of the people used safari and half of it showed interest in Opera and 1.9% preferred Android. Overall, at the highest were IE, Firefox and Chrome.</transcript>
+  </template>
+</question>
+<question>
+  <id>948d060f322f40faad1400ad5cccd4c2</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q34</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>948d060f322f40faad1400ad5cccd4c2</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Answer Short Question - Q34.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>Name the Australia animal with great leaping power?
+Answer:  Kangaroo
+</transcript>
+  </template>
+</question>
+<question>
+  <id>25894f4005ba4cbabfc04ed4077a5fda</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Speaking - Repeat Sentence - Q8</description>
+    <title>Speaking - Repeat Sentence - Q8</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>25894f4005ba4cbabfc04ed4077a5fda</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Repeat Sentence - Q8.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>I'd like you to put me back on the list.</transcript>
+  </template>
+</question>
+<question>
+  <id>43850b12f91a45afac975fe0414818f9</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LOOK_SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Retell Lecture - Q27</title>
+    <delay>10</delay>
+    <recordingTime>40</recordingTime>
+    <output>43850b12f91a45afac975fe0414818f9</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <audio>Practice Set 4_Speaking - Retell Lecture - Q27.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>The lecture is on icebergs having a distinct way of interacting with the environment and their experiences. Some cannot stay the harsh environment and crumble in a fit of dramatic passion. When iceberg  melts, it is releasing mineral-rich fresh water that nourishes many forms of life which leads to continuation of their path through the cycle of life.</transcript>
+  </template>
+</question>
+<question>
+  <id>a4791e844147488bb22d7b6c00ede11e</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q37</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>a4791e844147488bb22d7b6c00ede11e</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Answer Short Question - Q37.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 4_Speaking - Answer Short Question - Q37.tpi</picture>
+    <transcript>What is the name of the musical instrument given in the picture?
+Answer: Trumpet
+</transcript>
+  </template>
+</question>
+<question>
+  <id>aae88fc7da3f4d69a72bf5ec4c35787f</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Speaking - Repeat Sentence - Q9</description>
+    <title>Speaking - Repeat Sentence - Q9</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>aae88fc7da3f4d69a72bf5ec4c35787f</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Repeat Sentence - Q9.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>There is an urgent need for the local government to help the homeless.</transcript>
+  </template>
+</question>
+<question>
+  <id>b7c1a91834914ed2a488d6799afe5319</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Radon is a radioactive gas that is invisible and odorless. It forms during the decay of uranium-238, and in decaying; itself produces solid heavy metal radioactive particles of polonium, lead, and bismuth.</description>
+    <title>Speaking - Read Aloud - Q4</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>b7c1a91834914ed2a488d6799afe5319</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>b7855ce0559a4f15b91ec245ecd0f1b2</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Wise men and philosophers throughout the ages have disagreed on many things, but many are in unanimous agreement on one point: "We become what we think about." Ralph Waldo Emerson said, "A man is what he thinks about all day long." The Roman emperor Marcus Aurelius put it this way: "A man's life is what his thoughts make of it." In the Bible we find: "As a man thinks in his heart, so is he."</description>
+    <title>Speaking - Read Aloud - Q2</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>b7855ce0559a4f15b91ec245ecd0f1b2</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>c8d0e3ddfcf741bfad06bc4b472655a3</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q25</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>c8d0e3ddfcf741bfad06bc4b472655a3</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 4_Speaking - Describe Image - Q25.tpi</picture>
+    <transcript>The flowchart provides recruitment requisition, the first step is the selection criteria after that the job is advertised and once its advertised, the applications are received and segregated into categories A and B, category A has the applications of those who are suitable for the job and B are unsuitable, Category a candidates are assessed and once they clear assessment they have an interview and if cleared again go for an assessment then for the second round of interview, if selected then they get job offer otherwise the candidates who failed in an interview or an assessment receive the thankyou email or letter.</transcript>
+  </template>
+</question>
+<question>
+  <id>cb9aef90a0414b0bba24b5ff2053c7aa</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q29</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>cb9aef90a0414b0bba24b5ff2053c7aa</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Answer Short Question - Q29.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What would you call an animal living both on land in water?
+Answer: Amphibian
+</transcript>
+  </template>
+</question>
+<question>
+  <id>cc678d450cfa4f86941da95434e44ea8</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q30</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>cc678d450cfa4f86941da95434e44ea8</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Answer Short Question - Q30.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>Who is one who is unable to pay his debts? 
+	Answer: Indebt
+</transcript>
+  </template>
+</question>
+<question>
+  <id>d7ceb6373c3a43ea88e712e36efe925c</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q35</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>d7ceb6373c3a43ea88e712e36efe925c</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Answer Short Question - Q35.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 4_Speaking - Answer Short Question - Q35.tpi</picture>
+    <transcript>What is the name of the dish and name the cuisine of the same given in the picture?
+Answer:- Tacos and its Mexican.
+</transcript>
+  </template>
+</question>
+<question>
+  <id>d41b8bcf80e34565b678f0dabd4a19d0</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Speaking - Repeat Sentence - Q12</description>
+    <title>Speaking - Repeat Sentence - Q12</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>d41b8bcf80e34565b678f0dabd4a19d0</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Repeat Sentence - Q12.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The train had already left when they got to the station.</transcript>
+  </template>
+</question>
+<question>
+  <id>d9122a47430e424abd8d29076fef7092</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The University of the Rockies has been offering our Placement Abroad Services for prospective teachers since 1980. This program is sponsored by the University of the Rockies' Career Services Center.</description>
+    <title>Speaking - Read Aloud - Q5</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>d9122a47430e424abd8d29076fef7092</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>d6303138cbcd4227b9041efafa5a5606</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LOOK_SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Retell Lecture - Q27</title>
+    <delay>10</delay>
+    <recordingTime>40</recordingTime>
+    <output>d6303138cbcd4227b9041efafa5a5606</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <audio>Practice Set 4_Speaking - Retell Lecture - Q27.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>The lecture is on icebergs having a distinct way of interacting with the environment and their experiences. Some cannot stay the harsh environment and crumble in a fit of dramatic passion. When iceberg  melts, it is releasing mineral-rich fresh water that nourishes many forms of life which leads to continuation of their path through the cycle of life.</transcript>
+  </template>
+</question>
+<question>
+  <id>d021101476d74e12bf6d2f83ee840b4d</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Speaking - Repeat Sentence - Q17</description>
+    <title>Speaking - Repeat Sentence - Q17</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>d021101476d74e12bf6d2f83ee840b4d</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Repeat Sentence - Q17.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The radio station came back on the air shortly after the storm.</transcript>
+  </template>
+</question>
+<question>
+  <id>dd4371dd26d047c0a1f0df5c251fac3a</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q36</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>dd4371dd26d047c0a1f0df5c251fac3a</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Answer Short Question - Q36.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What are belongings to the middle ages known as?
+Answer: Medieval
+</transcript>
+  </template>
+</question>
+<question>
+  <id>dee9e58a6a604b1eae247e9a33209ef3</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q23</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>dee9e58a6a604b1eae247e9a33209ef3</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 4_Speaking - Describe Image - Q23.tpi</picture>
+    <transcript>The tabular chart shows the scoring of the seven students, the maximum score for each subject is given in brackets. Aman scored the highest 100 out of 150 in Maths, followed with 90 of Ayush and Sajal and 80 obtained by Rohit and Muskan whereas Tanvi and Tarun scored less but Tanvi was the second highest scorer in Chemistry with 75 out of 130, the maximum was of Aman and others marks were between 35 and 65. In Physics, Muskan and Ayush scored the maximum, 95 and 90 out of 120 respectively. Tarun was the least scorer in Maths, Chemistry and Physics but in other 3 subjects his score was between 77 and 80. Overall, performance of all the students was at the same platform with the minor difference.</transcript>
+  </template>
+</question>
+<question>
+  <id>e0bc2b0bbede42649e52f295d2357946</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q20</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>e0bc2b0bbede42649e52f295d2357946</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 4_Speaking - Describe Image - Q20.tpi</picture>
+    <transcript>As per the given bar chart the most surprising point is that the percentage of executives compared to other professions is the highest where students are the lowest with 1/4th of it, the percentage only 10. Politicians are at second position with 30% and athletes stood at 3rd position with 20%.</transcript>
+  </template>
+</question>
+<question>
+  <id>e4b4cd36fd3c46d38009c3656bcb195e</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Speaking - Repeat Sentence - Q10</description>
+    <title>Speaking - Repeat Sentence - Q10</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>e4b4cd36fd3c46d38009c3656bcb195e</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Repeat Sentence - Q10.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>He lived in a typical Japanese-style house.</transcript>
+  </template>
+</question>
+<question>
+  <id>e75927626b444cf7a81e0557b32bbab2</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q39</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>e75927626b444cf7a81e0557b32bbab2</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Answer Short Question - Q39.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What would you call a building used for keeping and feeding horses Stable or Kennel?
+Answer: Stable
+</transcript>
+  </template>
+</question>
+<question>
+  <id>eb9350b60f974a028e5ec7a650130a80</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q21</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>eb9350b60f974a028e5ec7a650130a80</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 4_Speaking - Describe Image - Q21.tpi</picture>
+    <transcript>The line graph provides the information on the income of four cafes in New York over the last year, the data is given month wise, Since January, the income from The Tea room was the highest  with 180,000 in March but had a fluctuation, leading to the least income which was near 50,000. On the other hand income from the cafes of Internet Express, Wi-Fi and Cafe cool showed the rise making them reach at the peak in December, Wi-Fi cafe showed a steep growth after September and was at the top by December with approx 190,000 of sales.</transcript>
+  </template>
+</question>
+<question>
+  <id>ed785e6624b140d295d5779a5faba962</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Geologists have shown that for about 80 percent of the past 2.5 million years, ice-age conditions have prevailed on the Earth's surface. During the past one million years, increased glacial conditions have run in cycles of approximately 100,000 years.</description>
+    <title>Speaking - Read Aloud - Q3</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>ed785e6624b140d295d5779a5faba962</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>f4f01acc41b8471ea9ff29e113458c99</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>
+Speaking - Answer Short Question - Q38
+</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>f4f01acc41b8471ea9ff29e113458c99</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Answer Short Question - Q38.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What would you call a medicine which induces sleep?
+Answer: Narcotic
+</transcript>
+  </template>
+</question>
+<question>
+  <id>fef99b355e1b487a85bce8450aad3e7d</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>LOOK_SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Retell Lecture - Q26</title>
+    <delay>10</delay>
+    <recordingTime>40</recordingTime>
+    <output>fef99b355e1b487a85bce8450aad3e7d</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <audio>Practice Set 4_Speaking - Retell Lecture - Q26.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 4_Speaking - Retell Lecture - Q26.tpi</picture>
+    <transcript>The lecture is on exploring and innovating what human does and in space exploration we're moving beyond the boundaries of Earth but we should remember that accountability for our environments never goes away. As there is  the low Earth and geostationary orbits because we keep on launching new satellites to replace the broken one  without thinking about the impact that the satellites have on the environment surrounding Earth.</transcript>
+  </template>
+</question>
+<question>
+  <id>0adbaa2167204066b2df3ad1814e9907</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q29</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>0adbaa2167204066b2df3ad1814e9907</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 4_Speaking - Answer Short Question - Q29.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What would you call an animal living both on land in water?
+Answer: Amphibian
+</transcript>
+  </template>
+</question>
+<question>
+  <id>0bf3f618685e4df4aa6e0c8758c8a9fd</id>
+  <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The theory invented by the Irvine group is really quite exotic. They start with the very reasonable premise that the possible new particle is something that is not described by existing theory. This makes sense because the possible new particle is very low mass and would have been discovered before if it were governed by known physics.</description>
+    <title>Speaking - Read Aloud - Q1</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>0bf3f618685e4df4aa6e0c8758c8a9fd</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+
+
+<!--TEST 4 END-->
+<!--TEST 8-->
+<question>
+  <id>5b75fd5e933d4ce9b4da104e065d1cec</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LOOK_SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Retell Lecture - Q26</title>
+    <delay>10</delay>
+    <recordingTime>40</recordingTime>
+    <output>5b75fd5e933d4ce9b4da104e065d1cec</output>
+    <answer>The speaker talks about Eldar Shafir, a professor at Princeton University whom he met  in Amsterdam to talk about his revolutionary new theory of poverty, which he can sum it up in just two words: scarcity mentality. The behavior of the people is different when they perceive scarcity. The poor are living in a context in which anyone would make dumb decisions. Poverty is not a lack of knowledge.</answer>
+    <beep>True</beep>
+    <audio>Practice Set 8_Speaking - Retell Lecture - Q26.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 8_Speaking - Retell Lecture - Q26.tpi</picture>
+    <transcript>A few months later, I heard that Eldar Shafir, a professor at Princeton University and one of the authors of this study, was coming over to Holland, where I live. So we met up in Amsterdam to talk about his revolutionary new theory of poverty. And I can sum it up in just two words: scarcity mentality. It turns out that people behave differently when they perceive a thing to be scarce. And what that thing is doesn't much matter -- whether it's not enough time, money or food.
+You all know this feeling, when you've got too much to do, or when you've put off breaking for lunch and your blood sugar takes a dive. This narrows your focus to your immediate lack -- to the sandwich you've got to have now, the meeting that's starting in five minutes or the bills that have to be paid tomorrow. So the long-term perspective goes out the window. You could compare it to a new computer that's running 10 heavy programs at once. It gets slower and slower, making errors. Eventually, it freezes -- not because it's a bad computer, but because it has too much to do at once. The poor have the same problem. They're not making dumb decisions because they are dumb, but because they're living in a context in which anyone would make dumb decisions.
+So suddenly I understood why so many of our anti-poverty programs don't work. Investments in education, for example, are often completely ineffective. Poverty is not a lack of knowledge. A recent analysis of 201 studies on the effectiveness of money-management training came to the conclusion that it has almost no effect at all.
+</transcript>
+  </template>
+</question>
+<question>
+  <id>7e5830bf61f74e05b94db07c95e5ae2b</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q15</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>7e5830bf61f74e05b94db07c95e5ae2b</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Repeat Sentence - Q15.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The history of movement is recorded by several writers.</transcript>
+  </template>
+</question>
+<question>
+  <id>8b23f830fa7a4cb1b78f9a36991a3f63</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>In 1907 a research institute was added to the Dehra Dun school, which became a breeding ground for British foresters whom later filled the ranks of the British Forestry Commission and university forestry departments.</description>
+    <title>Speaking - Read Aloud - Q7</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>8b23f830fa7a4cb1b78f9a36991a3f63</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>9c21bcf152524ad8b63240a9e0103abc</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The type of scientific forestry that reached Britain was an impoverished one because elements like village forests and even the most basic environmental and ecological considerations were ignored in favour of a limited number of fast growing species which resulted in an impoverishment of forest ecosystems.</description>
+    <title>Speaking - Read Aloud - Q4</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>9c21bcf152524ad8b63240a9e0103abc</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>9dd8bf1fed0246c0aa5edff626676b88</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Green power is a subset of renewable energy and represents those renewable energy resources and technologies that provide the highest environmental benefit. EPA defines green power as electricity produced from solar, wind, geothermal, biogas, eligible biomass, and low-impact small hydroelectric sources.</description>
+    <title>Speaking - Read Aloud - Q2</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>9dd8bf1fed0246c0aa5edff626676b88</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>17c78283258544c8be10f3ac79806d82</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Influence in the academic profession is derived from disciplinary foundations. A hierarchical structure of authority is not possible in colleges and universities given the autonomy and expert status of faculty with respect to disciplinary activities.</description>
+    <title>Speaking - Read Aloud - Q6</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>17c78283258544c8be10f3ac79806d82</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>39d36fce0e24479c9d57b82132a27d32</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q31</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>39d36fce0e24479c9d57b82132a27d32</output>
+    <answer>At what time the last train is leaving on Wednesday as per the given chart? 16.00</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Answer Short Question - Q31.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 8_Speaking - Answer Short Question - Q31.tpi</picture>
+    <transcript>At what time the last train is leaving on Wednesday as per the given chart? 16.00</transcript>
+  </template>
+</question>
+<question>
+  <id>46e12b23889d49cd9c0a8dda10f1377c</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q13</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>46e12b23889d49cd9c0a8dda10f1377c</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Repeat Sentence - Q13.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The key finding seemed to contradict our initial hypothesis.</transcript>
+  </template>
+</question>
+<question>
+  <id>68b527759c254067896fe605415377c2</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q16</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>68b527759c254067896fe605415377c2</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Repeat Sentence - Q16.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The guy is qualified to lead the groups into the mountain.</transcript>
+  </template>
+</question>
+<question>
+  <id>75e4e615dcca43b589ea853effd47b15</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LOOK_SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Retell Lecture - Q26</title>
+    <delay>10</delay>
+    <recordingTime>40</recordingTime>
+    <output>75e4e615dcca43b589ea853effd47b15</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <audio>Practice Set 8_Speaking - Retell Lecture - Q26.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 8_Speaking - Retell Lecture - Q26.tpi</picture>
+    <transcript>The speaker talks about Eldar Shafir, a professor at Princeton University whom he met  in Amsterdam to talk about his revolutionary new theory of poverty, which he can sum it up in just two words: scarcity mentality. The behavior of the people is different when they perceive scarcity. The poor are living in a context in which anyone would make dumb decisions. Poverty is not a lack of knowledge.</transcript>
+  </template>
+</question>
+<question>
+  <id>94a14efc15de4ae09320670ae0fd8c35</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q30</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>94a14efc15de4ae09320670ae0fd8c35</output>
+    <answer>What key mineral makes seawater different from fresh water? Salt</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Answer Short Question - Q30.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What key mineral makes seawater different from fresh water? Salt</transcript>
+  </template>
+</question>
+<question>
+  <id>182e36d6f9864bffa2d99fcf3cd62155</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q33</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>182e36d6f9864bffa2d99fcf3cd62155</output>
+    <answer>Which continent is highlighted in the given globe? North America</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Answer Short Question - Q33.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 8_Speaking - Answer Short Question - Q33.tpi</picture>
+    <transcript>Which continent is highlighted in the given globe? North America</transcript>
+  </template>
+</question>
+<question>
+  <id>203fc55d3fd6421794520fd67ab95a99</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q12</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>203fc55d3fd6421794520fd67ab95a99</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Repeat Sentence - Q12.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The leading companies have changed their policies after the reports were released.</transcript>
+  </template>
+</question>
+<question>
+  <id>3617d07a1ae5488fa9ba81673b35e1a3</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The banking sector in India is passing through a period of structural change under the combined impact of financial sector reforms, internal competition, changes in regulations, new technology, global competitive pressure and fast evolving strategic objectives of banks and their existing and potential competitors. </description>
+    <title>Speaking - Read Aloud - Q1</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>3617d07a1ae5488fa9ba81673b35e1a3</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>5880a870dd9c430ba4ce8c415361e85c</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Scotland had been the centre of forestry in Britain since at least the second half of the 18th century. It was around this time that plantation forestry became fashionable, stimulated by new tree species introduced from North America.</description>
+    <title>Speaking - Read Aloud - Q5</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>5880a870dd9c430ba4ce8c415361e85c</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>9337d1fc74944ab08d53df45c1c08234</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q39</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>9337d1fc74944ab08d53df45c1c08234</output>
+    <answer>When earth and universe come to same line what we call it? Horizon</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Answer Short Question - Q39.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>When earth and universe come to same line what we call it? Horizon</transcript>
+  </template>
+</question>
+<question>
+  <id>359179b4967e4c5992800b4e01c32f40</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q32</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>359179b4967e4c5992800b4e01c32f40</output>
+    <answer>What would you call the bird given in the picture? Kingfisher</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Answer Short Question - Q32.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 8_Speaking - Answer Short Question - Q32.tpi</picture>
+    <transcript>What would you call the bird given in the picture? Kingfisher</transcript>
+  </template>
+</question>
+<question>
+  <id>89817286e32e417cbeb7296e9a5a1718</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q38</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>89817286e32e417cbeb7296e9a5a1718</output>
+    <answer>What is the person doing? Withdrawing money</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Answer Short Question - Q38.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 8_Speaking - Answer Short Question - Q38.tpi</picture>
+    <transcript>What is the person doing? Withdrawing money</transcript>
+  </template>
+</question>
+<question>
+  <id>8273688320f74fb3b9fe9c9699891811</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q10</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>8273688320f74fb3b9fe9c9699891811</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Repeat Sentence - Q10.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The main concepts of these events were not yet fully understood.</transcript>
+  </template>
+</question>
+<question>
+  <id>a3aa2237b9d04476be26eca0b6361f38</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q19</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>a3aa2237b9d04476be26eca0b6361f38</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Repeat Sentence - Q19.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The final year will consist of four taught courses and one project.</transcript>
+  </template>
+</question>
+<question>
+  <id>aa2efb2cd9db4ff5b204d2f9eeee14dd</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q35</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>aa2efb2cd9db4ff5b204d2f9eeee14dd</output>
+    <answer>What does H2O stand for? Water</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Answer Short Question - Q35.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What does H2O stand for? Water</transcript>
+  </template>
+</question>
+<question>
+  <id>ae08a15536df426dbcc4d362dafc5aaa</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:25</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q22</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>ae08a15536df426dbcc4d362dafc5aaa</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 8_Speaking - Describe Image - Q22.tpi</picture>
+    <transcript>The proportion of students in each subject is given in the line graph from 1970 to 2010. In the starting of 1970 till 1975 the proportion of all was between 5% to 15% except engineering which remained at the lowest with incline to 18% by 2010, whereas the ration of computer science declined from 1980 to 2010 and was at 14% and the other sectors business, agriculture rose to 50% followed with Architecture and Physical Sciences. </transcript>
+  </template>
+</question>
+<question>
+  <id>b9db74c9f2124bd6950055efa8118caf</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q9</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>b9db74c9f2124bd6950055efa8118caf</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Repeat Sentence - Q9.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The massive accumulation of data is converted to a communicable argument.</transcript>
+  </template>
+</question>
+<question>
+  <id>b54f35b98eef40b68700056abcf7c4be</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:25</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q21</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>b54f35b98eef40b68700056abcf7c4be</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 8_Speaking - Describe Image - Q21.tpi</picture>
+    <transcript>The bar chart provides tweets per day for a week from 521 tweets on Monday, the figure rises to 669 by Wednesday and is again dropping to its least by Saturday and finally on Sunday there are 406 tweets. Overall, the fluctuation is noticed in the number of tweets.  </transcript>
+  </template>
+</question>
+<question>
+  <id>b731460258ed493ebc1c0412391ed509</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LOOK_SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Retell Lecture - Q27</title>
+    <delay>10</delay>
+    <recordingTime>40</recordingTime>
+    <output>b731460258ed493ebc1c0412391ed509</output>
+    <answer>The lecture is based on global food and agriculture surging demand surpasses the agricultural system's structural capacity to produce food. This means that supply can no longer keep up with demand despite exploding prices. People could starve and governments may fall.  The speaker realizes from the research data was being used to make critical decisions. This is how speaker started with the Gro Intelligence, its main motive is to empower decision-makers at every level and how how we can avoid a coming global food security crisis.</answer>
+    <beep>True</beep>
+    <audio>Practice Set 8_Speaking - Retell Lecture - Q27.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 8_Speaking - Retell Lecture - Q27.tpi</picture>
+    <transcript>We could have a tipping point in global food and agriculture if surging demand surpasses the agricultural system's structural capacity to produce food. This means at this point supply can no longer keep up with demand despite exploding prices, unless we can commit to some type of structural change. This time around, it won't be about stock markets and money. It's about people. People could starve and governments may fall. This question of at what point does supply struggle to keep up with surging demand is one that started off as an interest for me while I was trading and became an absolute obsession. It went from interest to obsession when I realized through my research how broken the system was and how very little data was being used to make such critical decisions. That's the point I decided to walk away from a career on Wall Street and start an entrepreneurial journey to start Gro Intelligence.
+At Gro, we focus on bringing this data and doing the work to make it actionable, to empower decision-makers at every level. But doing this work, we also realized that the world, not just world leaders, but businesses and citizens like every single person in this room, lacked an actionable guide on how we can avoid a coming global food security crisis. And so we built a model, leveraging the petabytes of data we sit on, and we solved for the tipping point.
+Now, no one knows we've been working on this problem and this is the first time that I'm sharing what we discovered. We discovered that the tipping point is actually a decade from now. We discovered that the world will be short 214 trillion calories by 2027. The world is not in a position to fill this gap.
+
+</transcript>
+  </template>
+</question>
+<question>
+  <id>beb79ca71b1646368e1a874207257b78</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q18</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>beb79ca71b1646368e1a874207257b78</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Repeat Sentence - Q18.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The first assignment is due on 14th of September.</transcript>
+  </template>
+</question>
+<question>
+  <id>c498ba79d1104b4cb1f27df4a050edc8</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q17</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>c498ba79d1104b4cb1f27df4a050edc8</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Repeat Sentence - Q17.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The following economic policy lecture has been cancelled.</transcript>
+  </template>
+</question>
+<question>
+  <id>ce0ecebec0ce4fc6ac81671bd4a41bd2</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q34</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>ce0ecebec0ce4fc6ac81671bd4a41bd2</output>
+    <answer>How many sides does nonagon have? Nine</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Answer Short Question - Q34.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>How many sides does nonagon have? Nine</transcript>
+  </template>
+</question>
+<question>
+  <id>d42f2009d62e49408fdc518599fabe35</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q29</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>d42f2009d62e49408fdc518599fabe35</output>
+    <answer>After more work, you will be exhausted or refreshed? Exhausted</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Answer Short Question - Q29.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>After more work, you will be exhausted or refreshed? Exhausted</transcript>
+  </template>
+</question>
+<question>
+  <id>d7382abaaf55493c9bb2bd2b9222f4a9</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:25</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q23</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>d7382abaaf55493c9bb2bd2b9222f4a9</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 8_Speaking - Describe Image - Q22.tpi</picture>
+    <transcript>The line graph depicts the quarterly GDP versus government spending. GDP has grown rapidly from year 1950 to 2010 as it reached to approximately 14000 billions of dollars in 2010 chained with 2005, initially it was at 2000 billion dollar in 1950 whereas the government spending as per the GDP showed a slight increase, it rose from about 500 in 1995 to 2500 billions of dollars by 2010.</transcript>
+  </template>
+</question>
+<question>
+  <id>d582745accd54949b93ac3303ba23760</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q14</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>d582745accd54949b93ac3303ba23760</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Repeat Sentence - Q14.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The importance of this event was not yet fully understood.</transcript>
+  </template>
+</question>
+<question>
+  <id>e532b000f4a6474eabb1c386b5d0577c</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q37</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>e532b000f4a6474eabb1c386b5d0577c</output>
+    <answer>What  it leads to, when two stones are rubbed? Fire</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Answer Short Question - Q37.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What  it leads to, when two stones are rubbed? Fire</transcript>
+  </template>
+</question>
+<question>
+  <id>ebbb937535194098bd9825fbf4d29102</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q40</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>ebbb937535194098bd9825fbf4d29102</output>
+    <answer>What is happening in the lab? Medical experiment</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Answer Short Question - Q40.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 8_Speaking - Answer Short Question - Q40.tpi</picture>
+    <transcript>What is happening in the lab? Medical experiment</transcript>
+  </template>
+</question>
+<question>
+  <id>ee8da8597f6f4980ad99d3f4fdab4122</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:25</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q24</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>ee8da8597f6f4980ad99d3f4fdab4122</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 8_Speaking - Describe Image - Q24.tpi</picture>
+    <transcript>The picture illustrates the test cricket played by two teams, in the picture it can be noticed that one batsman and a bowler are in action and four fielders along with the wicket keeper are located behind the batsman. There is one empire standing on the opposite side of the batsman who is going to hit the ball. The other batsman seems to be relaxed and is looking at the action of the bowler.</transcript>
+  </template>
+</question>
+<question>
+  <id>ef9a673478974c8cb68f4e646237dae4</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:25</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q20</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>ef9a673478974c8cb68f4e646237dae4</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 8_Speaking - Describe Image - Q20.tpi</picture>
+    <transcript>The pie chart provides the information on proportion of different island, the total is 13,940 Km2. Andros has 43% of the total proportion which is the highest as compared to other given islands which are between 4% and 13%.  The least proportion is of Acklins and Crooked Islands and Eleuthera.</transcript>
+  </template>
+</question>
+<question>
+  <id>efdee8bccbee49c8b9ff8505b7ebfb32</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>LOOK_SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Retell Lecture - Q28</title>
+    <delay>10</delay>
+    <recordingTime>40</recordingTime>
+    <output>efdee8bccbee49c8b9ff8505b7ebfb32</output>
+    <answer>There is always a hard choice person faces while choosing between two careers,  places to live or whom to marry and many more. Hard choices seem be agonizing, hand-wringing or  the gnashing of teeth. But speaker thinks that understanding hard choices uncovers a hidden power each of us possesses. Alternatives make the choices hard, alternative is better in some ways or other.</answer>
+    <beep>True</beep>
+    <audio>Practice Set 8_Speaking - Retell Lecture - Q28.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>Think of a hard choice you'll face in the near future. It might be between two careers -- artist and accountant -- or places to live -- the city or the country -- or even between two people to marry -- you could marry Betty or you could marry Lolita. Or it might be a choice about whether to have children, to have an ailing parent move in with you, to raise your child in a religion that your partner lives by but leaves you cold. Or whether to donate your life savings to charity.
+Chances are, the hard choice you thought of was something big, something momentous, something that matters to you. Hard choices seem to be occasions for agonizing, hand-wringing, the gnashing of teeth. But I think we've misunderstood hard choices and the role they play in our lives. Understanding hard choices uncovers a hidden power each of us possesses.
+What makes a choice hard is the way the alternatives relate. In any easy choice, one alternative is better than the other. In a hard choice, one alternative is better in some ways, the other alternative is better in other ways, and neither is better than the other overall. You agonize over whether to stay in your current job in the city or uproot your life for more challenging work in the country, because staying is better in some ways, moving is better in others, and neither is better than the other overall.</transcript>
+  </template>
+</question>
+<question>
+  <id>faed8baeee45495cbed0baa689fd1755</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q11</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>faed8baeee45495cbed0baa689fd1755</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Repeat Sentence - Q11.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The main concepts in this thesis were not new.</transcript>
+  </template>
+</question>
+<question>
+  <id>fe846646ce4e42caac60efc9ba527f47</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:03</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q8</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>fe846646ce4e42caac60efc9ba527f47</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Repeat Sentence - Q8.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The module of the work is more of a compositional style.</transcript>
+  </template>
+</question>
+<question>
+  <id>00b2923393654b6e8f6a67821a483e0d</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q36</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>00b2923393654b6e8f6a67821a483e0d</output>
+    <answer>For which game the given ball is used? Rugby</answer>
+    <beep>False</beep>
+    <audio>Practice Set 8_Speaking - Answer Short Question - Q36.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 8_Speaking - Answer Short Question - Q36.tpi</picture>
+    <transcript>For which game the given ball is used? Rugby</transcript>
+  </template>
+</question>
+<question>
+  <id>1afdca6ec8ac472f907f3fed192a91d2</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:25</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q25</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>1afdca6ec8ac472f907f3fed192a91d2</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 8_Speaking - Describe Image - Q25.tpi</picture>
+    <transcript>The flowchart gives the method of adding an article to Wikipedia. The first step involves the searching of an article on Wikipedia. If it’s not found then the related term is searched and if it’s there then redirection is created otherwise new article is developed. On the other hand, if article is on Wikipedia then there is a need of thinking of another term.</transcript>
+  </template>
+</question>
+<question>
+  <id>3f93ea0f578c4e26ba1ec16d2bcc6657</id>
+  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:40</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Marketing management employs tools from economics and competitive strategy to analyze the industry context in which the firm operates. These include Porter's five forces, analysis of strategic groups of competitors, value chain analysis and others.</description>
+    <title>Speaking - Read Aloud - Q3</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>3f93ea0f578c4e26ba1ec16d2bcc6657</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+
+<!-- TEST 8 END-->
+
+<!--TEST 9 -->
+<question>
+  <id>cbbea12eec434cb8bf5bd51b196a3f9b</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LOOK_SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</description>
+    <title>Speaking - Retell Lecture - Q26</title>
+    <delay>10</delay>
+    <recordingTime>40</recordingTime>
+    <output>cbbea12eec434cb8bf5bd51b196a3f9b</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <audio>Practice Set 9_Speaking - Retell Lecture - Q26.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>the Pan-African economy is booming. Combined GDP is already over two trillion dollars. This is a massive commercial and social opportunity, not a helpless continent. So why isn't there already something better? Around the world, automotive is quarter the manufacturing sector. But in Africa, it's generally been overlooked by carmakers, who are focused on larger, established markets and emerging economies like India and China. This lack of industrialization, which itself creates a vicious-cycle barrier to the emergence of industry, has caused the dependence on imports. There is a supply-demand disconnect, with the vast majority of automotive spending on the continent today, essentially funding an international network of car exporters instead of fueling the growth of local industry.
+It's entirely possible to solve this disconnect, though, starting with products that people actually want.</transcript>
+  </template>
+</question>
+<question>
+  <id>d80df3b25528499aa668e24f1c174328</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, recording will start after 25 seconds.
+Before the recording starts, there is a "beep sound".
+Time for recording will be 40 seconds.
+Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, recording will start after 25 seconds.
+Before the recording starts, there is a "beep sound".
+Time for recording will be 40 seconds.
+Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</description>
+    <title>Speaking - Describe Image - Q25</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>d80df3b25528499aa668e24f1c174328</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 9_Speaking - Describe Image - Q25.tpi</picture>
+    <transcript>The product line order backlog for Quantum Computer, Atom Synthesizer and Proton Cannon are provided in million US dollars. All the three showed fluctuating data, the maximum was of Quantum Computer, started from 60 million dollars on 1st Jan,2017, was at its highest till 9th  Jan and finally reached at 80 million dollars, whereas atom synthesizer reached to 70 million dollars after 13th Jan and even Proton Cannon had a hike on 21st Jan as compared to 9th Jan, the data doubled.</transcript>
+  </template>
+</question>
+<question>
+  <id>e87da9cfc7d44e80a71e22b97dd8539b</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+    <title>Speaking - Repeat Sentence - Q9</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>e87da9cfc7d44e80a71e22b97dd8539b</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Repeat Sentence - Q9.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The relevant resources are reserved in the library.</transcript>
+  </template>
+</question>
+<question>
+  <id>f1085b4b55254dcf804e948528f1758a</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</description>
+    <title>Speaking - Answer Short Question - Q37</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>f1085b4b55254dcf804e948528f1758a</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Answer Short Question - Q37.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What would call the study of disease? - pathology</transcript>
+  </template>
+</question>
+<question>
+  <id>fa97d2f057bc41bba1c4a836c341a987</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</description>
+    <title>Speaking - Answer Short Question - Q30</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>fa97d2f057bc41bba1c4a836c341a987</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Answer Short Question - Q30.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What would you call the belongings to the middle ages :- medieval</transcript>
+  </template>
+</question>
+<question>
+  <id>fe21af4758b94d8f8e867c3915bfd3d7</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Pedogenesis is studied as a branch of pedology, the study of soil in its natural environment. Other branches of pedology are the study of soil morphology, and soil classification. The study of pedogenesis is important to understanding soil distribution patterns in current and past geologic periods.</description>
+    <title>Speaking - Read Aloud - Q6</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>fe21af4758b94d8f8e867c3915bfd3d7</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript>Pedogenesis is studied as a branch of pedology, the study of soil in its natural environment. Other branches of pedology are the study of soil morphology, and soil classification. The study of pedogenesis is important to understanding soil distribution patterns in current and past geologic periods.</transcript>
+  </template>
+</question>
+<question>
+  <id>0daefbb9293a40b4881b5f04e86c9c21</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</description>
+    <title>Speaking - Answer Short Question - Q35</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>0daefbb9293a40b4881b5f04e86c9c21</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Answer Short Question - Q35.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>Which of these would probably be found in an office, a printer, a blanket or a nailbrush?
+Printer
+</transcript>
+  </template>
+</question>
+<question>
+  <id>1d88c854084e4ce08b301f3301c39f4c</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, recording will start after 25 seconds.
+Before the recording starts, there is a "beep sound".
+Time for recording will be 40 seconds.
+Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, recording will start after 25 seconds.
+Before the recording starts, there is a "beep sound".
+Time for recording will be 40 seconds.
+Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</description>
+    <title>Speaking - Describe Image - Q22</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>1d88c854084e4ce08b301f3301c39f4c</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 9_Speaking - Describe Image - Q22.tpi</picture>
+    <transcript>The bar graph provides the percentage of recipient benefitted by health area in Sydney, 2004, it informs about age pension and disability pension. In Sydney South West and South Easter Sydney and Illawara   the recipient who were benefitted with age pension were more, percentage was 73.3 and 64.9 respectively whereas disability pension provided was less than 7% in both the given areas.</transcript>
+  </template>
+</question>
+<question>
+  <id>1edb244a4f574de88f5b176d93f813b2</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</description>
+    <title>Speaking - Answer Short Question - Q31</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>1edb244a4f574de88f5b176d93f813b2</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Answer Short Question - Q31.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 9_Speaking - Answer Short Question - Q31.tpi</picture>
+    <transcript>What is given in the picture? logos</transcript>
+  </template>
+</question>
+<question>
+  <id>2b052753b7a1486c908e9b3a9b8320bf</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+    <title>Speaking - Repeat Sentence - Q12</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>2b052753b7a1486c908e9b3a9b8320bf</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Repeat Sentence - Q12.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The problem of postgraduate students is funding.</transcript>
+  </template>
+</question>
+<question>
+  <id>2ee9779e28c34ce086f9c9cda3ee8034</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</description>
+    <title>Speaking - Answer Short Question - Q33</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>2ee9779e28c34ce086f9c9cda3ee8034</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Answer Short Question - Q33.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What term is used for the amount of money you pay a landlord for living in their house or apartment? Rent</transcript>
+  </template>
+</question>
+<question>
+  <id>3e1562dc0fed433a8a9c5dff919a777e</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+    <title>Speaking - Repeat Sentence - Q11</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>3e1562dc0fed433a8a9c5dff919a777e</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Repeat Sentence - Q11.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The qualification will be assessed with criterion to approach.</transcript>
+  </template>
+</question>
+<question>
+  <id>4d1fa13e5aaf4d9081d859ee5b99c059</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, recording will start after 25 seconds.
+Before the recording starts, there is a "beep sound".
+Time for recording will be 40 seconds.
+Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, recording will start after 25 seconds.
+Before the recording starts, there is a "beep sound".
+Time for recording will be 40 seconds.
+Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</description>
+    <title>Speaking - Describe Image - Q23</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>4d1fa13e5aaf4d9081d859ee5b99c059</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 9_Speaking - Describe Image - Q23.tpi</picture>
+    <transcript>The bar graph depicts about the amount of environmental waste created and recycled. The total waste generated from 2000 to 2010 inclined continuously from 2 million to approximately to 3.3 millions. The waste generated remained the same and decreased to about 3 millions. The trash also inclined till 2010 from 1.7 to 2.5 and then dropped. On the other hand, in 2013 recycling rose compared to 2000 and the previous year.</transcript>
+  </template>
+</question>
+<question>
+  <id>05ff2ce5d74b435196ea046bc573e9be</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>A subsidy is a benefit given to an individual, business or institution, usually by the government. It is usually in the form of a cash payment or a tax reduction. The subsidy is typically given to remove some type of burden.</description>
+    <title>Speaking - Read Aloud - Q5</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>05ff2ce5d74b435196ea046bc573e9be</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript>A subsidy is a benefit given to an individual, business or institution, usually by the government. It is usually in the form of a cash payment or a tax reduction. The subsidy is typically given to remove some type of burden.</transcript>
+  </template>
+</question>
+<question>
+  <id>5f808efb342e4832ba1236c92e84f8ec</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LOOK_SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</description>
+    <title>Speaking - Retell Lecture - Q28</title>
+    <delay>10</delay>
+    <recordingTime>40</recordingTime>
+    <output>5f808efb342e4832ba1236c92e84f8ec</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <audio>Practice Set 9_Speaking - Retell Lecture - Q28.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 9_Speaking - Retell Lecture - Q28.tpi</picture>
+    <transcript>For as long as I remember, I've loved mathematics. Actually, it's not 100 percent true. I've loved mathematics for all but a two-week period in senior high school.
+I was top of my class, and we were about to start the Extension Maths course. I was really excited about this brand new topic coming up, complex numbers. I like complex. My teacher was priming us for the concepts with some questions about square roots. Square of nine -- three; square of 256 -- sixteen. Too easy. Then she asked the trick question: What about the square root of negative one? Of course, we were all over it -- "Come on, Miss! We all know you can't take the square root of a negative." "That's true in the real world," she said. "But in the complex world, the square root of negative one is the imaginary number i."
+That day, my entire mathematical world came crashing down on me.
+"Imaginary numbers? Seriously? But mathematics is a source of truth, please don't go abstract on me. I would have studied art if I wanted to play with imaginary numbers."
+"This is Extension Maths, let's get back with our program!" She didn't, and over the next couple of weeks, I reluctantly performed meaningless calculations, finding imaginary solutions to quadratic equations.
+But then something amazing happened. We began finding elegant solutions to real-world problems we previously had no answers to, starting with the complex world of imaginary numbers. So some mathematician 500 years ago decides to have some fun and make up these imaginary numbers, and because of that we can now derive these amazing identities with applications in the real world, in fields like electrical engineering. Wow! I gained a whole new level of appreciation for mathematics. And after my brief mistrust, I was now in love with the subject more than ever.
+</transcript>
+  </template>
+</question>
+<question>
+  <id>6a83776f073b48b6b6813718a2ff5031</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</description>
+    <title>Speaking - Answer Short Question - Q29</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>6a83776f073b48b6b6813718a2ff5031</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Answer Short Question - Q29.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What would you call the one for whom the money is the most important thing
+- Materialistic</transcript>
+  </template>
+</question>
+<question>
+  <id>7f125840601c48fda8d7e763c4461855</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+    <title>Speaking - Repeat Sentence - Q19</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>7f125840601c48fda8d7e763c4461855</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Repeat Sentence - Q19.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>Student's identification card will be issued by Monday or tomorrow.</transcript>
+  </template>
+</question>
+<question>
+  <id>9cfcc69516844a87894ffb0e1b718058</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</description>
+    <title>Speaking - Answer Short Question - Q40</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>9cfcc69516844a87894ffb0e1b718058</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Answer Short Question - Q40.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 9_Speaking - Answer Short Question - Q40.tpi</picture>
+    <transcript>What would you call the given picture? Igloo</transcript>
+  </template>
+</question>
+<question>
+  <id>15bb0c79f2e542459b5f819b03deb327</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+    <title>Speaking - Repeat Sentence - Q8</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>15bb0c79f2e542459b5f819b03deb327</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Repeat Sentence - Q8.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The most important process of farming is weeding.</transcript>
+  </template>
+</question>
+<question>
+  <id>21b5ed87a6da4c86aecbec1f63de1648</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</description>
+    <title>Speaking - Answer Short Question - Q34</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>21b5ed87a6da4c86aecbec1f63de1648</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Answer Short Question - Q34.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 9_Speaking - Answer Short Question - Q34.tpi</picture>
+    <transcript>Which game girls are playing? Volley Ball</transcript>
+  </template>
+</question>
+<question>
+  <id>92f4020d05b4433eb5a96b6a36335dce</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, recording will start after 25 seconds.
+Before the recording starts, there is a "beep sound".
+Time for recording will be 40 seconds.
+Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, recording will start after 25 seconds.
+Before the recording starts, there is a "beep sound".
+Time for recording will be 40 seconds.
+Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</description>
+    <title>Speaking - Describe Image - Q24</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>92f4020d05b4433eb5a96b6a36335dce</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 9_Speaking - Describe Image - Q24.tpi</picture>
+    <transcript>The line graph reveals the number of push-ups from Sunday till Saturday. On Sunday 26 push-ups are done was the highest then by Monday it dropped to 15 and again rose and then drops to 5, the fluctuation continues and finally on Saturday the total push-ups done are 20.</transcript>
+  </template>
+</question>
+<question>
+  <id>99be8d50a4e94c508567519cb8c934d0</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+    <title>Speaking - Repeat Sentence - Q13</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>99be8d50a4e94c508567519cb8c934d0</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Repeat Sentence - Q13.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The nearest automatic teller is in front of the anatomy labs.</transcript>
+  </template>
+</question>
+<question>
+  <id>770fb0ce9ed54f2ebf2674f11d3b4142</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, recording will start after 25 seconds.
+Before the recording starts, there is a "beep sound".
+Time for recording will be 40 seconds.
+Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, recording will start after 25 seconds.
+Before the recording starts, there is a "beep sound".
+Time for recording will be 40 seconds.
+Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</description>
+    <title>Speaking - Describe Image - Q21</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>770fb0ce9ed54f2ebf2674f11d3b4142</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 9_Speaking - Describe Image - Q21.tpi</picture>
+    <transcript>The pie chart illustrates, what is overall job satisfaction? Maximum of the people are somewhat satisfied and very satisfied. The percentage is 47% each for both. On the other hand, the people who are either very dissatisfied or somewhat dissatisfied and are indifferent are the least with less than 6%.</transcript>
+  </template>
+</question>
+<question>
+  <id>918a37a901224c8aacf1eb6b26225d25</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Codification refers to the condition whereby knowledge can be consolidated, or codified, into succinct and interdependent theoretical formulations. As a cognitive dimension, codification describes a field's body of knowledge as opposed to behavioral attributes of scholarly activity.</description>
+    <title>Speaking - Read Aloud - Q1</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>918a37a901224c8aacf1eb6b26225d25</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript>Codification refers to the condition whereby knowledge can be consolidated, or codified, into succinct and interdependent theoretical formulations. As a cognitive dimension, codification describes a field's body of knowledge as opposed to behavioral attributes of scholarly activity.</transcript>
+  </template>
+</question>
+<question>
+  <id>4248bf848a60457090c424a5014d1f5e</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+    <title>Speaking - Repeat Sentence - Q17</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>4248bf848a60457090c424a5014d1f5e</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Repeat Sentence - Q17.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>Teaching assistants will receive a monthly remuneration for housing.</transcript>
+  </template>
+</question>
+<question>
+  <id>5910f8fec3bc4fbe87e8a4cfb57db118</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+    <title>Speaking - Repeat Sentence - Q16</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>5910f8fec3bc4fbe87e8a4cfb57db118</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Repeat Sentence - Q16.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>Teaching assistants will receive monthly fees for housing.</transcript>
+  </template>
+</question>
+<question>
+  <id>6841c67f91f549d9af29d019c48abb5d</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Soils are more developed in areas with higher rainfall and more warmth. The rate of chemical weathering increases by 2-3 times when the temperature increases by 10 degrees Celsius. Climate also affects which organisms are present, affecting the soil chemically and physically.</description>
+    <title>Speaking - Read Aloud - Q7</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>6841c67f91f549d9af29d019c48abb5d</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript>Soils are more developed in areas with higher rainfall and more warmth. The rate of chemical weathering increases by 2-3 times when the temperature increases by 10 degrees Celsius. Climate also affects which organisms are present, affecting the soil chemically and physically.</transcript>
+  </template>
+</question>
+<question>
+  <id>7604c4f6cbcf440d958da7b7745d9be7</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The indicators of consensus in a field are absorption of the same technical literature, similar education and professional initiation, cohesiveness in the community that promotes relatively full communication and unanimous professional judgments on scientific matters, and a shared set of goals, including the training of successors.</description>
+    <title>Speaking - Read Aloud - Q2</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>7604c4f6cbcf440d958da7b7745d9be7</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript>The indicators of consensus in a field are absorption of the same technical literature, similar education and professional initiation, cohesiveness in the community that promotes relatively full communication and unanimous professional judgments on scientific matters, and a shared set of goals, including the training of successors.</transcript>
+  </template>
+</question>
+<question>
+  <id>7697c3f44d9843518e4153fdd78ca8b7</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LOOK_SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</description>
+    <title>Speaking - Retell Lecture - Q27</title>
+    <delay>10</delay>
+    <recordingTime>40</recordingTime>
+    <output>7697c3f44d9843518e4153fdd78ca8b7</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <audio>Practice Set 9_Speaking - Retell Lecture - Q27.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 9_Speaking - Retell Lecture - Q27.tpi</picture>
+    <transcript>I want to talk to you about the future of medicine. But before I do that, I want to talk a little bit about the past. Now, throughout much of the recent history of medicine, we've thought about illness and treatment in terms of a profoundly simple model. In fact, the model is so simple that you could summarize it in six words: have disease, take pill, kill something.
+Now, the reason for the dominance of this model is of course the antibiotic revolution. Many of you might not know this, but we happen to be celebrating the hundredth year of the introduction of antibiotics into the United States. But what you do know is that that introduction was nothing short of transformative. Here you had a chemical, either from the natural world or artificially synthesized in the laboratory, and it would course through your body, it would find its target, lock into its target -- a microbe or some part of a microbe -- and then turn off a lock and a key with exquisite deftness, exquisite specificity. And you would end up taking a previously fatal, lethal disease -- a pneumonia, syphilis, tuberculosis -- and transforming that into a curable, or treatable illness. You have a pneumonia, you take penicillin, you kill the microbe and you cure the disease.
+</transcript>
+  </template>
+</question>
+<question>
+  <id>21922cb53f0a464ba0e578d9cad4d7da</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+    <title>Speaking - Repeat Sentence - Q10</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>21922cb53f0a464ba0e578d9cad4d7da</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Repeat Sentence - Q10.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The relative humidity is the amount of moisture that the air can.</transcript>
+  </template>
+</question>
+<question>
+  <id>300620a6e1de4e01b8e881989dfbd5d1</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Modern colonization, frequently preceded by an era in which missionaries and traders were active, was largely exploitative, but it did not in the long run prove directly lucrative to the colonial power, because it involved a heavy drain on the treasury of the home government.</description>
+    <title>Speaking - Read Aloud - Q3</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>300620a6e1de4e01b8e881989dfbd5d1</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript>Modern colonization, frequently preceded by an era in which missionaries and traders were active, was largely exploitative, but it did not in the long run prove directly lucrative to the colonial power, because it involved a heavy drain on the treasury of the home government.</transcript>
+  </template>
+</question>
+<question>
+  <id>90608881613a4f77a4f303e9d4142efb</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</description>
+    <title>Speaking - Answer Short Question - Q38</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>90608881613a4f77a4f303e9d4142efb</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Answer Short Question - Q38.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>What studies the structure of earth, geology or geography? Geology</transcript>
+  </template>
+</question>
+<question>
+  <id>a6dc72a3124748df958c4b1f879197f1</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+    <title>Speaking - Repeat Sentence - Q15</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>a6dc72a3124748df958c4b1f879197f1</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Repeat Sentence - Q15.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>That we won’t have any struggle in the lab.</transcript>
+  </template>
+</question>
+<question>
+  <id>a529ae18e9b84543aa52bfc9ee5ed052</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</description>
+    <title>Speaking - Answer Short Question - Q32</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>a529ae18e9b84543aa52bfc9ee5ed052</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Answer Short Question - Q32.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>A cinema show which is held in the afternoons. :- Matinee</transcript>
+  </template>
+</question>
+<question>
+  <id>a66313920012421e97946c264dcbade7</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, recording will start after 25 seconds.
+Before the recording starts, there is a "beep sound".
+Time for recording will be 40 seconds.
+Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, recording will start after 25 seconds.
+Before the recording starts, there is a "beep sound".
+Time for recording will be 40 seconds.
+Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</description>
+    <title>Speaking - Describe Image - Q20</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>a66313920012421e97946c264dcbade7</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 9_Speaking - Describe Image - Q20.tpi</picture>
+    <transcript>Energy from the Sun reaches the Earth as heat and some is radiated into space, while some of it is trapped by greenhouse gases in the atmosphere and reflected back to Earth. This is a natural process, one of the main greenhouse gases is carbon dioxide, and extra quantity of this is released into the atmosphere.  Plants are serving to remove some of the carbon dioxide from the atmosphere by absorbing it through their leaves. </transcript>
+  </template>
+</question>
+<question>
+  <id>b2a63cfdac0b47148352718ac9e53eb5</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</description>
+    <title>Speaking - Answer Short Question - Q36</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>b2a63cfdac0b47148352718ac9e53eb5</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Answer Short Question - Q36.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 9_Speaking - Answer Short Question - Q36.tpi</picture>
+    <transcript>What would you call the given equipment in the picture? Microscope</transcript>
+  </template>
+</question>
+<question>
+  <id>b4341cfb5d0f403d96f30882b56838a9</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+    <title>Speaking - Repeat Sentence - Q14</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>b4341cfb5d0f403d96f30882b56838a9</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Repeat Sentence - Q14.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The  application process is longer than expected.</transcript>
+  </template>
+</question>
+<question>
+  <id>b7333b7d71d249179bf77300a9ce196a</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The merits of protectionism are the subject of fierce debate. Critics argue that over the long term, protectionism often hurts the people it is intended to protect by slowing economic growth and pushing up prices, making free trade a better alternative.</description>
+    <title>Speaking - Read Aloud - Q4</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>b7333b7d71d249179bf77300a9ce196a</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript>The merits of protectionism are the subject of fierce debate. Critics argue that over the long term, protectionism often hurts the people it is intended to protect by slowing economic growth and pushing up prices, making free trade a better alternative.</transcript>
+  </template>
+</question>
+<question>
+  <id>c7a15469ffb44c379ae40d83994407fc</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after 3 seconds.
+Before the recording starts, there is "No beep sound".
+Once track is completed, recording will start after 2 seconds.
+Time for recording will be 10 seconds.
+You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</description>
+    <title>Speaking - Repeat Sentence - Q18</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>c7a15469ffb44c379ae40d83994407fc</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Repeat Sentence - Q18.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>Successful applicants will work with a large team of researcher.</transcript>
+  </template>
+</question>
+<question>
+  <id>c7f0b9bc776c4a3ea7d650aa9d249563</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Once this template is on, track will start after "3 seconds".
+Once track will be completed, recording will start after "1 second" for "10 seconds" with "no beep sound".
+You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</description>
+    <title>Speaking - Answer Short Question - Q39</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>c7f0b9bc776c4a3ea7d650aa9d249563</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 9_Speaking - Answer Short Question - Q39.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 9_Speaking - Answer Short Question - Q39.tpi</picture>
+    <transcript>What are two girls doing? Looking at the PC.</transcript>
+  </template>
+</question>
+
+<!--TEST 9 END-->
+
 </questions>
