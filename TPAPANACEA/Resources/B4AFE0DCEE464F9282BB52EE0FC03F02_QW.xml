@@ -327,4 +327,80 @@ Brunelleschi would have to build the dome out of brick, due to its light weight 
     </template>
   </question>
   <!--TEST 9 END -->
+  
+  <!--TEST 5-->
+  <question>
+  <id>cca1f6c43b7c46c0becca6895fee53f6</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>WRITE_ESSAY</type>
+  <itemType>WRITING</itemType>
+  <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:20</attemptTime>
+  <template>
+    <description>A good sense of humor is one of the most important human qualities.
+
+Use specific reasons and examples to support your opinion.
+</description>
+    <title>Do you agree or disagree with the following statement?</title>
+    <maxWordCount>300</maxWordCount>
+    <answer></answer>
+  </template>
+</question>
+<question>
+  <id>4674c8cd6c2d417892985e21f671d1a4</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SUMMARIZE_TEXT</type>
+  <itemType>WRITING</itemType>
+  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:10</attemptTime>
+  <template>
+    <description>Much archaeological evidence supports the widely held view that the first people to migrate to the American continent entered through a land bridge, which at one time joined Eastern Asia with North America. This land bridge, known as Beringia, was a wide expanse of terrain that emerged from the ocean as the sea levels dropped due to widespread glaciation at the time of the last Ice Age. Groups of humans could have slowly migrated across the grassy tundra of Beringia, feeding on herds of animals or coastal marine life. At the time, much of North America including what is now Canada, would have been covered with thick ice sheets making further movement southward a physical impossibility. 
+At a later period, the ice receded and humans would have been able to traverse an ice-free corridor in a southerly direction, and gradually settle the vast uninhabited continent. The ending of the Ice Age also caused the ocean levels to rise, thus submerging Beringia and isolating the new migrants from peoples on the Asian side. During the next centuries the descendents of the pioneers who crossed Beringia gradually peopled the entire landmass of the Americas. This view of the origins of the first Americans is often known as the Clovis-first theory (named after the site in New Mexico where stone artifacts made by these settlers were first found). Many subsequent finds of Clovis tools demonstrate this culture's extensive penetration throughout the continent.</description>
+    <title>Writing - Summarize Written Text - Q3</title>
+    <maxWordCount>70</maxWordCount>
+    <answer>As per archaeological evidence the first people to migrate to the American continent entered through a land bridge, known as Beringia, emerged from the ocean as the sea levels dropped due to widespread glaciations at the time of the last Ice Age and during the next centuries the descendents of the pioneers who crossed Beringia gradually peopled the entire landmass of the Americas known as the Clovis-first theory.</answer>
+  </template>
+</question>
+<question>
+  <id>9ea2662b797b492c83f998334d640d1c</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SUMMARIZE_TEXT</type>
+  <itemType>WRITING</itemType>
+  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:10</attemptTime>
+  <template>
+    <description>Most researchers today agree that both nature and nurture play some part in the development of personality and in physical and mental well-being, although there is still a great deal of heated debate about how much is contributed by each. In the attempt to unravel the relative significance of the contributions of nature and nurture to human behavior and personality, researchers often conduct studies of the characteristics of identical (monozygotic) and fraternal (dizygotic) twins.
+
+It has been found that identical twins, who have an identical genetic makeup, often display very similar behavior and other character traits. This is true even for those identical twins who have been separated at birth and brought up in different family environments. In the classic twin study, researchers compare various characteristics of identical twins with fraternal twins. The latter group share 50 percent of their genetic makeup, just like non-twin siblings. If the identical twins display more similarities with regard to a particular characteristic than members of the fraternal or dizygotic group, then it is concluded that heredity plays a part in that behavior or feature of personality. The magnitude of the varying contributions of genetic factors and environmental factors can then be assessed.
+Advocates of twin studies argue that this research tool can be used to calculate the heritability of a huge range of medical conditions and psychological disorders, and also the heritability of traits like musical or mathematical understanding or other intellectual abilities.
+</description>
+    <title>Writing - Summarize Written Text - Q2</title>
+    <maxWordCount>70</maxWordCount>
+    <answer>Nature and nurture play some part in the development of personality and to unravel this researchers often conduct studies of the characteristics of identical and fraternal twins, identical twins display very similar behavior and other character traits and the latter group shares 50 percent of their genetic makeup, this research can be used to calculate the heritability medical and psychological disorders, and also the heritability traits.</answer>
+  </template>
+</question>
+<question>
+  <id>2e540a92dcc64100bfa3e2453a3bbf18</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SUMMARIZE_TEXT</type>
+  <itemType>WRITING</itemType>
+  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:10</attemptTime>
+  <template>
+    <description>Technology is available to exploit the potential energy formed by tides for the generation of electrical energy. The basic structure is a barrage or dam built across a river estuary or at the mouth of a bay. This dam is similar to that used in hydroelectric power plants built across flowing rivers. At regular intervals along the dam, gates and turbines are installed. When the tide is rising, the gates are opened. This allows water to flow into the area behind the barrage, raising the water level there. When the water has reached its highest level, the gates are closed. Then the tide drops on the seaward side, and this trapped water is several meters above the sea level. The gates are then opened, allowing the water to discharge out. The force of the flow turns the turbines and generates electricity. It is also possible to use tidal energy when the water flows in the other direction - through the gates into the estuary from the sea.
+
+In this way, four periods of energy production are possible every day, since coastal regions experience two high and two low tides in just over 24 hours. In order for practical amounts of electricity to be generated, the difference between high and low tides must be at least five meters. Tidal power is renewable, non-polluting, and contributes no greenhouse gases to the atmosphere. This kind of system can provide a useful energy supplement to other sources in an era of diminishing fossil fuel reserves.
+</description>
+    <title>Writing - Summarize Written Text - Q1</title>
+    <maxWordCount>70</maxWordCount>
+    <answer>The dam is built across a river estuary similar to that used in hydroelectric power plants built across flowing rivers to exploit the potential energy formed by tides for the generation of electrical energy because tidal power is renewable, non-polluting, and contributes no greenhouse gases to the atmosphere and provides useful energy supplement to other sources.</answer>
+  </template>
+</question>
+
+  <!--TEST 5 END-->
+  
 </questions>

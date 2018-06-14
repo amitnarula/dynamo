@@ -2636,4 +2636,503 @@ Changing the spelling would be {blank}. Signs, maps, and websites would all have
     </question>
     <!--TEST 4 END-->
   
+  <!--TEST 5-->
+  <question>
+    <id>c6b5a088b0a04506b436e8e9a03de33e</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>More than just the world's tallest building, Burj Khalifa is an {blank}  example of international cooperation, symbolic beacon of progress, and an emblem of the new, dynamic and {blank} Middle East.
+It is also tangible proof of Dubai's growing role in a changing world. In fewer than 30 years, this city {blank} itself from a regional centre to a global one. This success was not based on oil reserves, but on reserves of human talent, ingenuity and initiative. Burj Khalifa {blank} that vision.
+      </description>
+      <title>Reading - Reading &amp; Writing: Fill in the blanks - Q1</title>
+      <blanks>
+        <blank>
+          <o0>unremarkable</o0>
+          <o1>unprecedented</o1>
+          <o2></o2>
+          <o3>usual</o3>
+          <o4>conventional</o4>
+        </blank>
+        <blank>
+          <o0>blooming</o0>
+          <o1>appropriate</o1>
+          <o2>prosperous</o2>
+          <o3>destitute</o3>
+        </blank>
+        <blank>
+          <o0>has transformed</o0>
+          <o1>transformed</o1>
+          <o2>is transforming</o2>
+          <o3>will transform</o3>
+        </blank>
+        <blank>
+          <o0>exclude</o0>
+          <o1>exclude</o1>
+          <o2>embodies</o2>
+          <o3>codify</o3>
+        </blank>
+      </blanks>
+      <answer>1|2|1|2</answer>
+    </template>
+  </question>
+  <question>
+    <id>48fd51033a5b4f0b8af262dfd34dd7b6</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction></instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>It is a strange that, according to his position in life, an extravagant man is admired or despised. A successful businessman does nothing to increase his popularity by being careful with his money. He is expected to display his success, to have smart car, an expensive life, and to be lavish with his hospitality. If he is not so, he is considered mean and his reputation in business may even suffer in consequence. The paradox remains that if he had not been careful with his money in the first place, he would never have achieved his present wealth. Among the two income groups, a different set of values exists. The young clerk, who makes his wife a present of a new dress when he hadn’t paid his house rent, is condemned as extravagant. Carefulness with money to the point of meanness is applauded as a virtue. Nothing in his life is considered more worthy than paying his bills. The ideal wife for such a man separates her housekeeping money into joyless little piles- so much for rent, for food, for the children’s shoes; she is able to face the milkman with equanimity and never knows the guilt of buying something she can’t really afford. As for myself, I fall into neither of these categories. If I have money to spare, I can be extravagant, but when, as is usually the case, I am hard up, then I am the meanest man imaginable.</description>
+      <title>In the opinion of the writer, a successful businessman:</title>
+      <options>
+        <o0>is more popular if he appears to be doing nothing.</o0>
+        <o1>admired or despised</o1>
+        <o2>should not bother about his popularity.</o2>
+        <o3>must be extravagant before achieving success.</o3>
+        <o4>is expected to have expensive tastes.</o4>
+      </options>
+      <picture></picture>
+      <answer>1|4</answer>
+    </template>
+  </question>
+  <question>
+    <id>ae8f3578936c4e789a417376eb03f0af</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction></instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Maori are the tangata whenua, the {blank} people, of New Zealand. They came here more than 1000 years ago from their mythical Polynesian homeland of Hawaiki. Today Maori make up 14% of our population and their history, language and traditions are {blank} to New Zealand’s identity.
+As a visitor to New Zealand, you can experience Maori culture by {blank} a marae with an organised tour, watching a {blank} or weaving demonstration or learning about fascinating myths and legends from passionate Maori guides.
+      </description>
+      <title>Reading - Reading: Fill in the blanks - Q13</title>
+      <blanks>
+        <blank>
+          <o0>carving</o0>
+          <o1>indigenous</o1>
+          <o2>main</o2>
+          <o3>visiting</o3>
+          <o4>central</o4>
+          <o5>alien</o5>
+          <o6>shaping</o6>
+        </blank>
+      </blanks>
+      <answer>1|4|3|0</answer>
+    </template>
+  </question>
+  <question>
+    <id>8cf23939ada7461dbceb9f6e3922153e</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction></instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The Arabian Peninsula is {blank} in the continent of Asia and bounded by (clockwise) the Persian Gulf on the northeast, the Strait of Hormuz and the Gulf of Oman on the east, the Arabian Sea on the southeast and south, the Gulf of Aden on the south, the Bab-el-Mandeb strait on the southwest and the Red Sea, which is located on the southwest and west. The northern portion of the peninsula {blank} with the Syrian Desert with no clear border line, although the northern boundary of the Arabian Peninsula is {blank} considered to be the northern borders of Saudi Arabia and Kuwait.</description>
+      <title>Reading - Reading: Fill in the blanks - Q13</title>
+      <blanks>
+        <blank>
+          <o0>Blend</o0>
+          <o1>generally</o1>
+          <o2>located</o2>
+          <o3>merges</o3>
+          <o4>basically</o4>
+        </blank>
+      </blanks>
+      <answer>2|3|1</answer>
+    </template>
+  </question>
+  <question>
+    <id>a492d8e9cf4a4e8da3a217e2671d44cc</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction></instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Ice hockey, game {blank} two teams, each usually having six players, who wear skates and  {blank} - on an ice rink. The object is to  {blank}  a vulcanized rubber disk, the puck, past a goal line and into a net guarded by a goaltender, or goalie. With its speed and its  {blank} - physical contact, ice hockey has become one of the most popular of international sports. The game is an Olympic sport, and worldwide there are more than a million registered players performing regularly in leagues. It is  {blank}  Canada’s most popular game</description>
+      <title>Reading - Reading: Fill in the blanks - Q15</title>
+      <blanks>
+        <blank>
+          <o0>propel</o0>
+          <o1>competition</o1>
+          <o2>hinder</o2>
+          <o3>frequent</o3>
+          <o4>between</o4>
+          <o5>perhaps</o5>
+          <o6>compete</o6>
+          <o7>among </o7>
+        </blank>
+      </blanks>
+      <answer>4|6|0|3|5</answer>
+    </template>
+  </question>
+  <question>
+    <id>a6fe16dd52ac4a43bc5cc6b29ffe680c</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction></instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Archaeologists believe that the Aboriginals first came to the Australian {blank} around 45,000 years ago. Aboriginals themselves, however, {blank} their creation back to the Dreamtime, an era long past when the earth was first formed.
+Before the invasion, Aboriginal people lived {blank} Australia, although the highest population density was along the coast. Here, people seem to have moved {blank} between permanent settlements near the sea and others at the headwaters of the coast rivers.{blank} suggests that these communities managed their environment carefully to ensure a steady supply of food, bringing wild yams into gardens which they irrigated, for example, or building artificial dykes to extend the range of eels.
+      </description>
+      <title>Reading - Reading: Fill in the blanks - Q16</title>
+      <blanks>
+        <blank>
+          <o0>Evidence</o0>
+          <o1>trace</o1>
+          <o2>along</o2>
+          <o3>seasonally</o3>
+          <o4>continent</o4>
+          <o5>throughout</o5>
+          <o6>hardly</o6>
+          <o7>found</o7>
+        </blank>
+      </blanks>
+      <answer>4|1|5|3|0</answer>
+    </template>
+  </question>
+  <question>
+    <id>c3ad8548539e44f0a0d1fec8ed620612</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>FILL_IN_BLANKS</type>
+    <itemType>READING</itemType>
+    <instruction></instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The first modern Olympics {blank} in Athens, Greece, in 1896. In the opening ceremony, King Georgios I and a crowd of 60,000 spectators {blank} 280 participants from 13 nations (all male), who would compete in 43 events, including track and field, gymnastics, swimming, wrestling, cycling, tennis, weightlifting, shooting and fencing. All subsequent Olympiads have been {blank} even when no Games take place (as in 1916, during World War I, and in 1940 and 1944, during World War II). The official symbol of the modern Games is five interlocking colored rings, representing the continents of North and South America, Asia, Africa, Europe and Australia. The Olympic flag, {blank} this symbol on a white background, flew for the first time at the Antwerp Games in 1920.</description>
+      <title>Reading - Reading: Fill in the blanks - Q17</title>
+      <blanks>
+        <blank>
+          <o0>featuring</o0>
+          <o1>welcomed</o1>
+          <o2>were held</o2>
+          <o3>numbered</o3>
+          <o4>symbolizes</o4>
+          <o5>were held</o5>
+          <o6>organized</o6>
+        </blank>
+      </blanks>
+      <answer>2|1|3|0</answer>
+    </template>
+  </question>
+  <question>
+    <id>89d52ad8b3334d41a3097e9664609a38</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>On April 7, 1770, William Wordsworth was born in Cockermouth, Cumbria, England. Wordsworth’s mother died when he was eight—this experience shapes much of his later work. Wordsworth {blank}  Hawkshead Grammar School, where his love of poetry was firmly established and, it is believed, he made his first {blank} at verse. While he was at Hawkshead, Wordsworth’s father died leaving him and his four siblings orphans. After Hawkshead, Wordsworth studied at St. John’s College in Cambridge and before his final semester, he set out on a walking tour of Europe, an experience that {blank} both his poetry and his political sensibilities. While touring Europe, Wordsworth came into contact with the French Revolution. This experience as well as a subsequent period living in France, brought about Wordsworth’s interest and sympathy for the life, troubles, and speech of the “common man.” These issues {blank} to be of the utmost importance to Wordsworth’s work.</description>
+      <title>Reading - Reading &amp; Writing: Fill in the blanks - Q3</title>
+      <blanks>
+        <blank>
+          <o0>has attended</o0>
+          <o1>attended</o1>
+          <o2>must have attended</o2>
+          <o3>had attended</o3>
+        </blank>
+        <blank>
+          <o0>attempts</o0>
+          <o1>success</o1>
+          <o2>effort</o2>
+          <o3>design</o3>
+        </blank>
+        <blank>
+          <o0>may influence</o0>
+          <o1>could influence</o1>
+          <o2>had influenced</o2>
+          <o3>influenced</o3>
+        </blank>
+        <blank>
+          <o0>proving</o0>
+          <o1>will analyze</o1>
+          <o2>proved</o2>
+          <o3>analyzed</o3>
+        </blank>
+      </blanks>
+      <answer>1|0|3|2</answer>
+    </template>
+  </question>
+  <question>
+    <id>1e0c6d20e3094ba283a3fb5b0fe04a5b</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Pandas play a {blank} role in the bamboo forests where they roam by spreading seeds and facilitating growth of vegetation. In the Yangtze Basin where pandas live, the forests are home to a {blank} array of wildlife such as dwarf blue sheep, multicolored pheasants and other endangered species, including the golden monkey, takin and crested ibis.
+
+The panda’s habitat is at the geographic and economic heart of China, home to millions of people. By making this area more {blank}, we are also helping to increase the quality of life of local populations. Pandas bring huge {blank} benefits to local communities through ecotourism.</description>
+      <title>Reading - Reading &amp; Writing: Fill in the blanks - Q2</title>
+      <blanks>
+        <blank>
+          <o0>necessary</o0>
+          <o1>crucial</o1>
+          <o2>important</o2>
+          <o3>urgent</o3>
+        </blank>
+        <blank>
+          <o0>stunning</o0>
+          <o1>expecting</o1>
+          <o2>amazed</o2>
+          <o3>pretty</o3>
+        </blank>
+        <blank>
+          <o0>untenable</o0>
+          <o1>sustainable</o1>
+          <o2>changeable</o2>
+          <o3>satisfactory</o3>
+        </blank>
+        <blank>
+          <o0>growing</o0>
+          <o1>vegetation</o1>
+          <o2>economic</o2>
+          <o3>commercial</o3>
+        </blank>
+      </blanks>
+      <answer>1|0|1|2</answer>
+    </template>
+  </question>
+  <question>
+    <id>13fb978d631348b8a2f353c88b3e5c69</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction></instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Reading - Re-order Paragraphs - Q12</description>
+      <title>Reading - Re-order Paragraphs - Q12</title>
+      <options>
+        <o0>As officials, their vision of a country shouldn’t run too far beyond that of the local people with whom they have to deal.</o0>
+        <o1>Ambassadors have to choose their words.</o1>
+        <o2>To say what they feel they have to say, they appear to be denying or ignoring part of what they know.</o2>
+        <o3>So, with ambassadors as with other expatriates in black Africa, there appears at a first meeting a kind of ambivalence.</o3>
+        <o4>They do a specialized job and it is necessary for them to live ceremonial lives.</o4>
+      </options>
+      <answer>1|4|0|3|2</answer>
+    </template>
+  </question>
+  <question>
+    <id>c47ebf014810400f8e3d245b731e0c15</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>REORDER</type>
+    <itemType>READING</itemType>
+    <instruction></instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Reading - Re-order Paragraphs - Q11</description>
+      <title>Reading - Re-order Paragraphs - Q11</title>
+      <options>
+        <o0>Having a strategy is a matter of discipline.</o0>
+        <o1>It involves the configuration of a tailored value chain that enables a company to offer unique value.</o1>
+        <o2>It requires a strong focus on profitability and a willingness to make tough tradeoffs in choosing what not to do.</o2>
+        <o3>Strategy goes far beyond the pursuit of best practices.</o3>
+        <o4>A company must stay the course even during times of upheaval, while constantly improving and extending its distinctive positioning.
+        </o4>
+        <o5>When a company’s activities fit together as a self-reinforcing system, any competitor wishing to imitate a strategy must replicate the whole system.</o5>
+      </options>
+      <answer>0|2|4|3|1|5</answer>
+    </template>
+  </question>
+  <question>
+    <id>404f5f49fc6a49b58a46b5261a777391</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction></instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>He was that rare figure: a natural-born leader, tailored for greatness. When he was but a child his mother had whispered to him, "My son, you are a child of the dawn. You will be a man of glory, a great leader of your people." Sukarno never forgot those words. Liberating his land from 350 years of colonial rule, he moulded many disparate peoples into a nation that became the fifth most populous in the world, one of the richest of all in natural resources. He gave his people a language of their own, raised their literacy rate from six to above 55 percent, gave them an intense from pride in being Indonesians. He had monumental talents: an oratorical gift that could sway and charm, an abundance of that indefinable mystique called "charisma." Responding, his people gave him loyalty beyond love, reverence approaching god-worship.</description>
+      <title>It's stated in the passage that Sukarno ----.</title>
+      <options>
+        <o0>was the only child of his parents</o0>
+        <o1>built a nation out of separate communities</o1>
+        <o2>opposed giving his public their own language</o2>
+        <o3>couldn't liberate his land from colonial rule</o3>
+        <o4>became the fifth most popular leader in the world</o4>
+      </options>
+      <picture></picture>
+      <answer>0|1</answer>
+    </template>
+  </question>
+  <question>
+    <id>8e01b5198d2d42bfaa56a9b23acabead</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction></instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>The National Health Service of the country was set up in 1948 shortly after the end of the Second World War. Its aim is to provide free medical treatment for all patients who wish to take advantage of the service. However, it is still possible to obtain private medical treatment and in this case the doctor charges a fee. To say that the National Health Service is free is not entirely true. Every employed or self-employed person over sixteen years of age must put a stamp on an insurance card every week. This card is issued by a government department called the Department of Health and Social Security. The stamp costs money and the amount is constantly changing. Part of the cost of this stamp, in fact the greater part, is borne by the employer and it finances the National Health Service together with many other social security benefits.</description>
+      <title>The National Health Service ----.</title>
+      <options>
+        <o0>aims to provide free and private medical treatment without paying any money</o0>
+        <o1>pays the money of the stamps that patients should fit on the card</o1>
+        <o2>finances the fees the doctors' charge</o2>
+        <o3>is said to be completely free, however, it is not</o3>
+      </options>
+      <picture></picture>
+      <answer>3</answer>
+    </template>
+  </question>
+  <question>
+    <id>4568e25fb20f42f494369b9acb4757ac</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction></instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description> Same species, most of them insects, benefit increasingly from man 's activities. Modern, large-scale agriculture offers them a paradise. Crops are grown year after year in the same or nearby fields, helping insects populations to build up. Many of the worst pests are insect invaders from foreign countries that have left their natural enemies behind and so are as free as man himself from the check of nature's balance. Agricultural scientists try hard to find ways to check insect pests by tricks of cultivation. They import the ancient enemies of invading foreign insects and foster the resident enemies of invading foreign insects. </description>
+      <title>Some species that benefit from man's activities ----.</title>
+      <options>
+        <o0>are killed by modern techniques</o0>
+        <o1>have large populations because of modern agriculture.</o1>
+        <o2>have been used as a check of nature</o2>
+        <o3>cause a lot of damage in the harvest of in summer</o3>
+      </options>
+      <picture></picture>
+      <answer>1</answer>
+    </template>
+  </question>
+  <question>
+    <id>382144de292a4a7fac68315a3bf02371</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+    <itemType>READING</itemType>
+    <instruction></instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>All viruses are made up of two kinds of substance. First, all viruses contain proteins. Proteins are chemical substances that occur in all living creatures. A particle, or molecule, of a protein consists of a long chain of substances called amino acids. There are about 20 different kinds of amino acid in proteins. These can be arranged in any order on the protein chain. Different kinds of plant or animal contain proteins with different arrangements of amino acids. The protein generally forms the outer coat of a virus. This outer layer of protein encloses the second kind of substance found in all viruses - nucleic acid.</description>
+      <title>It is clear from the passage that ----.</title>
+      <options>
+        <o0>proteins are greatly damaged by viruses</o0>
+        <o1>the amount of proteins differs in each animal or plant</o1>
+        <o2>it is impossible to find a living thing with no proteins</o2>
+        <o3>few proteins are without amino acids.</o3>
+      </options>
+      <picture></picture>
+      <answer>2</answer>
+    </template>
+  </question>
+  <question>
+    <id>1e2a8c36733f4330bd964b00141113b4</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Romanticism was a {blank} movement that swept through virtually every country of Europe, the United States, and Latin America that lasted from about 1750 to 1870. However, the Romantic Movement did not reach France until the1820's. Romanticism's {blank} spirit was one of revolt against an established order of things-against precise rules, laws, dogmas, and formulas that characterized Classicism in general and late18th-century Neoclassicism in particular. It {blank} imagination over reason, emotions over logic, and intuition over science-making way for a vast body of literature of great sensibility and passion. In their choice of heroes, also, the romantic writers replaced the static universal types of classical 18th-century literature with more complex, {blank} characters. They became preoccupied with the genius, the hero, and the exceptional figure in general, and a focus on his passions and inner struggles and there was an/a {blank} on the examination of human personality and its moods and mental potentialities.</description>
+      <title>Reading - Reading &amp; Writing: Fill in the blanks - Q4</title>
+      <blanks>
+        <blank>
+          <o0>literary</o0>
+          <o1>ignorant</o1>
+          <o2>brainy</o2>
+          <o3>intelligent</o3>
+        </blank>
+        <blank>
+          <o0>main</o0>
+          <o1>highlighted</o1>
+          <o2>important</o2>
+          <o3>essential</o3>
+        </blank>
+        <blank>
+          <o0>was praised</o0>
+          <o1>is praised</o1>
+          <o2>praised</o2>
+          <o3>got praised</o3>
+        </blank>
+        <blank>
+          <o0>idiosyncratic</o0>
+          <o1>standardized</o1>
+          <o2>usual</o2>
+          <o3>boring</o3>
+        </blank>
+        <blank>
+          <o0>emphasis</o0>
+          <o1>secrecy</o1>
+          <o2>confusion</o2>
+          <o3>requirement </o3>
+        </blank>
+      </blanks>
+      <answer>0|3|2|0|0</answer>
+    </template>
+  </question>
+  <question>
+    <id>6115f25b7d9c4e8581d773042529ea78</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+    <itemType>READING</itemType>
+    <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>There is disagreement on how tigers came to be located where they are, though one popular theory is that all of these big cats {blank} in the cold areas of Siberia or Northern Asia. It is possible there was a southern movement of ice which forced the animals to make the move into China and Manchuria.
+At this point there {blank} a three-way split, with groups travelling to India, the Caspian Sea and South-East Asia. The third group would then have split once more, this time into two, with these animals continuing onto Burma, Malaysia and Indonesia, or Java, Sumatra and Bali.
+Early tiger fossils {blank} in Alaska which help add some credence to this theory.
+But this is only one of several ideas and many experts disagree with it, saying an animal originating from snowy Siberia would {blank} be in need of stripes for camouflage. The stripes strongly indicate tigers originated from areas of tall grasslands and forests where frequent fires probably occurred. At this time in history Siberia did not have those conditions.
+      </description>
+      <title>Reading - Reading &amp; Writing: Fill in the blanks - Q5</title>
+      <blanks>
+        <blank>
+          <o0>originated</o0>
+          <o1>were originated</o1>
+          <o2>existed</o2>
+          <o3>were existed</o3>
+        </blank>
+        <blank>
+          <o0>have been</o0>
+          <o1>would have been</o1>
+          <o2>had been</o2>
+          <o3>would had been</o3>
+        </blank>
+        <blank>
+          <o0>discovered</o0>
+          <o1>had discovered</o1>
+          <o2>were discovered</o2>
+          <o3>must be discovered</o3>
+        </blank>
+        <blank>
+          <o0>however</o0>
+          <o1>mainly</o1>
+          <o2>hardly</o2>
+          <o3>greatly</o3>
+        </blank>
+      </blanks>
+      <answer>0|1|2|2</answer>
+    </template>
+  </question>
+
+  <!--TEST 5 END-->
+  
 </questions>

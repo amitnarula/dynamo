@@ -58,13 +58,13 @@ namespace TPALMUI
             //Redirect to the url , payment, download license file
             if (CheckForInternetConnection())
             {
-                Process.Start(GetActivationUrl(CommonUtility.GetMachineCode(),CommonUtility.GetProductUID(),false));
+                Process.Start(GetActivationUrl(CommonUtility.GetMachineCode(),CommonUtility.GetProductUID(string.Empty),false));
             }
         }
 
         private void btnValidateLicenseFile_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("License file is valid?", CommonUtility.ValidateSoftware().ToString());
+            MessageBox.Show("License file is valid?", CommonUtility.ValidateSoftware(string.Empty).ToString());
             
         }
 
@@ -73,7 +73,7 @@ namespace TPALMUI
             //Redirect to the url , payment, download license file
             if (CheckForInternetConnection())
             {
-                Process.Start(GetActivationUrl(CommonUtility.GetMachineCode(), CommonUtility.GetProductUID(), true));
+                Process.Start(GetActivationUrl(CommonUtility.GetMachineCode(), CommonUtility.GetProductUID(string.Empty), true));
             }
         }
     }

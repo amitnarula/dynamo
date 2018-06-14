@@ -17,7 +17,7 @@ namespace TPALMUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            if (!CommonUtility.ValidateSoftware())
+            if (!CommonUtility.ValidateSoftware(string.Empty))
                 Application.Run(new frmActivate());
             else
                 Application.Run(new frmMain());

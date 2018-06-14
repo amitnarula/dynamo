@@ -1796,6 +1796,364 @@ Since the first dinosaur was recognized in the 19th century, their mounted, foss
   </template>
 </question>
 
-<!--TEST 9-->
+<!--TEST 9 END-->
+
+<!-- TEST 5-->
+<question>
+  <id>18e0eeced93b40f2bfa9aad78e048640</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Write from dictation- Q17</title>
+    <media>Practice Set 5_Listening - Write from dictation- Q17.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>However, he dropped out after one semester due to a lack of money.</answer>
+  </template>
+</question>
+<question>
+  <id>16a192400f4e48da988da54565f83d22</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Write from dictation- Q16</title>
+    <media>Practice Set 5_Listening - Write from dictation- Q16.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>The proposal as you have it seems, well, somewhat like comparing apples and oranges.</answer>
+  </template>
+</question>
+<question>
+  <id>8e6c2a783bfd4a5f9c27ba748730a607</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:07</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Write from dictation- Q15</title>
+    <media>Practice Set 5_Listening - Write from dictation- Q15.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>The senators and representatives are not the same people as the electors.</answer>
+  </template>
+</question>
+<question>
+  <id>c518f32e69274201a99a6fbf3cbb45e3</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>I want to talk about advantages of group decision-making. There's a lot of research on what I believe Irving Janis termed as groupthink. This term defines to the phenomenon of group members coming up with disastrous decisions. 
+
+One disadvantage of groups is that individuals may try to conform with what this person thinks are the feelings of the group as a whole. The decisions that are made when all members conform can be very rational. Now, if you think about it . . . when each individual is trying to conform, the result may be very unsatisfactory. Often, individuals who raise objections are ignored.
+</description>
+    <title>Listening - Highlight Incorrect Words- Q14</title>
+    <media>Practice Set 5_Listening - Highlight Incorrect Words- Q14.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>advantages |defines |rational|result </answer>
+  </template>
+</question>
+<question>
+  <id>2a0d73584ee343cc81dbe552caa5a46e</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>OK, up until now, we've been arguing the questions we as teachers construct for our students in order to motivate their thought process. But today, I want to look at the issue of asking questions from a different direction. Now, young children are full of queries. But once they're in the school system, the role reverses and the teacher becomes the primary questioner. Now, according to various studies, teachers ask between 300 and 400 questions a day in the average elementary school. Unfortunately, as children get older, they stop asking their own doubts.</description>
+    <title>Listening - Highlight Incorrect Words- Q13</title>
+    <media>Practice Set 5_Listening - Highlight Incorrect Words- Q13.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>arguing |motivate |queries|doubts</answer>
+  </template>
+</question>
+<question>
+  <id>b3121009814b411a887b82913ab044eb</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on Management Principle. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Select missing word - Q12</title>
+    <media>Practice Set 5_Listening - Select missing word - Q12.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>A.relationship</o0>
+      <o1>B.productivity</o1>
+      <o2>C.production</o2>
+      <o3>D.consumption</o3>
+    </options>
+    <answer>1</answer>
+  </template>
+</question>
+<question>
+  <id>8ef0a985c3124a48a43bee047f29bf13</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on . At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Select missing word - Q11</title>
+    <media>Practice Set 5_Listening - Select missing word - Q11.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>A.stronger buildings.</o0>
+      <o1>B.stronger relationships.</o1>
+      <o2>C.an individual.</o2>
+      <o3>D.Infrastructure</o3>
+    </options>
+    <answer>1</answer>
+  </template>
+</question>
+<question>
+  <id>b055166fdf7e4120bd06cbe0f641e9dc</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+  <delayTime>00:00:05</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Which statement is true about Cro-Magnon’s?</description>
+    <title>Which statement is true about Cro-Magnon’s?</title>
+    <media>Practice Set 5_Listening - Multiple choice, choose single answer - Q10.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>A.they were anatomically not similar to modern human.</o0>
+      <o1>B.their remains were found recently in Germany.</o1>
+      <o2>C.they existed before Neanderthals.</o2>
+      <o3>D.their body structure was identical to modern human.</o3>
+    </options>
+    <answer>3</answer>
+  </template>
+</question>
+<question>
+  <id>bd408f4db9b74483a30f78d3945c8165</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction>
+  <delayTime>00:00:05</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>What is the lecture about?</description>
+    <title>What is the lecture about?</title>
+    <media>Practice Set 5_Listening - Multiple choice, choose single answer - Q9.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>A.etiquettes of writing business emails.</o0>
+      <o1>B.focus is more on external mails.</o1>
+      <o2>C.how to write an email?</o2>
+      <o3>D.how to compete in this business world?</o3>
+    </options>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>eff590ad42594ee4899976dcc56e6ae1</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Listening - Highlight Correct Summary - Q8</description>
+    <title>Listening - Highlight Correct Summary - Q8</title>
+    <media>Practice Set 5_Listening - Highlight Correct Summary - Q8.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>A.To create the experience of sight, your brain references your conceptual understanding of the world, linking your brain to your sight. If you are asked to estimate the walking speed of a man in a video, for example, your answer will be different if you're told to think about cheetahs or turtles.</o0>
+      <o1>B.To create the experience of sight, your brain references your conceptual understanding of the world, other knowledge, your memories, opinions, emotions, mental attention. All of these things and far more are linked in your brain to your sight. These linkages work both ways, and usually occur subconsciously.</o1>
+      <o2>C.What you see is a complex mental construction of your own making, but you experience it passively as a direct representation of the world around you. You create your own reality, and you believe it. A hill appears steeper if you've just exercised, and a landmark appears farther away if you're wearing a heavy backpack.</o2>
+      <o3>D.To create the experience of sight, your brain references your conceptual understanding of the world, linking your brain to your sight. These linkages work both ways, and usually occur subconsciously. What you see is a complex mental construction of your own making,  you create your own reality, and you believe it.</o3>
+    </options>
+    <answer>3</answer>
+  </template>
+</question>
+<question>
+  <id>7e561789cc3640c6b61368d247db77f7</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Listening - Highlight Correct Summary - Q7</description>
+    <title>Listening - Highlight Correct Summary - Q7</title>
+    <media>Practice Set 5_Listening - Highlight Correct Summary - Q7.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>A.Men have better links- that's stronger connections- inside each half of the brain, so men are better at learning and performing a single task and  women have stronger connections between each side - the links are better going from one side to the other and she can be multi-tasking - that's doing several things at once.</o0>
+      <o1>B.Professor Heidi Johansen says that connections inside the brain are not permanently fixed, brain is very complex so you can’t make generalizations that men have better links- that's stronger connections- inside each half of the brain, so men can do one task at one time. But women have stronger connections between each side - the links are better going from one side to the other and she can be multi-tasking.</o1>
+      <o2>C.Professor Heidi Johansen-Berg from the University of Oxford says the connections inside the brain are not 'hard-wired': in other words, that means they are not permanently fixed and they keep changing.  She said the brain is very complex - so you can't make generalizations about it - generalizations are statements that are often true but based on a limited amount of information.</o2>
+      <o3>D.Men have better links- that's stronger connections- inside each half of the brain, so men are better at learning and can be a multi-tasking and  women have weaker connections between each side - the links are not going from one side to the other and she can perform single task only at one time.</o3>
+    </options>
+    <answer>1</answer>
+  </template>
+</question>
+<question>
+  <id>a37df9ffa5ce48b18abd0006532b4df6</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Rob: So let’s talk more about 'dark tourism'. The word 'dark' is used here because it relates to places that are connected with bad or sinister things or things that could be considered {blank} wrong. 
+
+Neil: It's strange to want to visit places like these.  There is what we call a morbid {blank} that's showing an interest in things connected with death and destruction.  And these kinds of trips are on the increase.
+
+Rob: Yes, there are organised tours to places like Ground Zero in New York, the killing fields in Cambodia and the nuclear power station in Chernobyl. 
+
+Neil: And there are the battlefields of World War I and II - and the top security prison of Alcatraz. 
+
+Rob: There are also plans to turn the disaster site of the Fukushima Daiichi nuclear power plant in Japan into a tourist destination - once the radiation is reduced. 
+
+Neil: But why do people want to visit these {blank} sites? Well I mentioned curiosity and a chance to learn about history - but sometimes people just feel {blank} to visit them. 
+
+Rob: But what about the ethics of dark tourism - is it wrong to make this trip? Are we not just exploiting - making money or cashing in on someone's suffering? 
+</description>
+    <title>Listening - Fill in the blanks - Q6</title>
+    <media>Practice Set 5_Listening - Fill in the blanks - Q6.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>morally|fascination|macabre|compelled</answer>
+  </template>
+</question>
+<question>
+  <id>07c9f31b18ff4477b1c57780b66d159e</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Either way, what we are driven to is this {blank} of the structure of industries, and that implies fundamental changes in how we think about strategy. It means, for example, that we need to think about {blank} as the curation of these kinds of horizontal structure, where things like business definition and even {blank} definition are actually the outcomes of strategy, not something that the strategy {blank}. It means, for example, we need to work out how to accommodate {blank} and competition simultaneously.</description>
+    <title>Listening - Fill in the blanks - Q5</title>
+    <media>Practice Set 5_Listening - Fill in the blanks - Q5.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>horizontalization|strategy|industry|presupposes|collaboration</answer>
+  </template>
+</question>
+<question>
+  <id>fab347ac92d14b53bb64932893ac45f2</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Which of the statement is true about cooking food as per the lecture?</title>
+    <media>Practice Set 5_Listening - Multiple choice, choose multiple answers - Q4.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>1.cooking classes.</o0>
+      <o1>2.knowledge of science.</o1>
+      <o2>3.new aesthetics.</o2>
+      <o3>4.reading books.</o3>
+      <o4>5.envisioning cooking</o4>
+    </options>
+    <answer>1|4</answer>
+  </template>
+</question>
+<question>
+  <id>9b5d9eaae9194d569007b4f926a327d0</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>What is the requirement of applying for the job?</description>
+    <title>What is the requirement of applying for the job?</title>
+    <media>Practice Set 5_Listening - Multiple choice, choose multiple answers - Q3.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>A.experience in teaching</o0>
+      <o1>B.student teaching</o1>
+      <o2>C.may be prize in competitions</o2>
+      <o3>D.good interview skills</o3>
+      <o4>E.would agree relocate</o4>
+    </options>
+    <answer>0|2</answer>
+  </template>
+</question>
+<question>
+  <id>6221a7ba7fb14a079ca0a594f20c88ae</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:10</delayTime>
+  <attemptTime>00:10:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Summarize Spoken Text - Q2</title>
+    <media>Practice Set 5_Listening - Summarize Spoken Text - Q2.tpm</media>
+    <delay>10</delay>
+    <maxWordCount>70</maxWordCount>
+    <answer>Science starts with observation, but there is a need to identify the patterns and signatures which can otherwise be dismissed or isolated. Western Australia had a problem with shark attacks over the last three years and it is escalating worldwide. Shark Attack Mitigation Systems and University of Western Australia Oceans Institute collaboratively made an announcement to reduce the risk of shark attack based on the science of what sharks can see.</answer>
+  </template>
+</question>
+<question>
+  <id>d517a1d7b08e49b0921bb5e6a5b4176e</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:10</delayTime>
+  <attemptTime>00:10:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Listening - Summarize Spoken Text - Q1</title>
+    <media>Practice Set 5_Listening - Summarize Spoken Text - Q1.tpm</media>
+    <delay>10</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer>The lecture is based on difference between building houses in Britain and the rest Europe, in the UK, houses are sold according to the number of bedrooms they have. Elsewhere, people pay more attention to the measurement of the floor space. According to research, lack of space causes dissatisfaction and frustration among the people, so the design of your house can make a difference.</answer>
+  </template>
+</question>
+
+<!--TEST 5 END-->
+
+
+
 
 </questions>

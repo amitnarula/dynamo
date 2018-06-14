@@ -4595,4 +4595,842 @@ You will hear a question. Please give a simple and short answer.  Often just one
 
 <!--TEST 9 END-->
 
+<!-- TEST 5-->
+<question>
+  <id>e33f7b6e15044302a66ddb7bdfa235ca</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q29</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>e33f7b6e15044302a66ddb7bdfa235ca</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Answer Short Question - Q29.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>What would you call a boy or girl between the ages of 13 and 19?
+Answer : Teenager
+</transcript>
+  </template>
+</question>
+<question>
+  <id>8a49567a501244e390f1a3b4e22542de</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q25</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>8a49567a501244e390f1a3b4e22542de</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 5_Speaking - Describe Image - Q25.tpi</picture>
+    <transcript>The vertical bar graph reveals about the amount of sugar in certain foods, chocolate bar has 33.2% of sugar, which is the highest amount comparative to others, its followed with 30.3% in chocolate cake, 28.9% in soda and 21.4% in ice cream. On the other hand, the sugar in crackers, peanut butter and ketchup is between 8.8 to 11.8%. Overall, it is clear from the graph that ketchup has the least sugar with 1/4th of the Chocolate bar which has the maximum sugar.</transcript>
+  </template>
+</question>
+<question>
+  <id>216aefdb796b46d2a7681aa43de92451</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q24</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>216aefdb796b46d2a7681aa43de92451</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 5_Speaking - Describe Image - Q24.tpi</picture>
+    <transcript>The sales by region of Product X, Y and Z are explained in 3 different Pie Charts. As per the analysis of the data, North America and Europe had the highest sale of product X and Y, the data was approximately 35% and 25% respectively whereas the sale of product Z was approximately 20% each in North America, South America and Australia, followed with Europe. However, the contribution in sales from Asia and Africa was the least as compared to others. </transcript>
+  </template>
+</question>
+<question>
+  <id>b43d865d75d24244b7c9a946e4c958ba</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q23</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>b43d865d75d24244b7c9a946e4c958ba</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 5_Speaking - Describe Image - Q23.tpi</picture>
+    <transcript>The bar graph elaborates the product sales by month from January till December, the sale was the highest in month of January with $82,000 which dropped to $20,000 by April and rose to $25,000 in May the sale was the lowest with $13,000. Further, it expanded to $ 72,000 in November but finally by December the sales of the product plunged to $65,000. Overall, there was a fluctuation in the sales of the product with the highest in January and lowest in May.</transcript>
+  </template>
+</question>
+<question>
+  <id>426b2fa3737b4fcf8fbdaa8806ce3153</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q22</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>426b2fa3737b4fcf8fbdaa8806ce3153</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 5_Speaking - Describe Image - Q22.tpi</picture>
+    <transcript>The recycling of plastic bottles and flasks include seven stages, in the first stage plastic bottles and flasks are collected and afterwards manual sorting is done, after manual sorting it goes for bailing and then crushing. Once the material is crushed, it is washed and regenerated and semi-finite product is produced and in the last stage the end product is ready to be used again.</transcript>
+  </template>
+</question>
+<question>
+  <id>b71cd7d3f31b45f2bf1f6bb8e51b41d7</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q21</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>b71cd7d3f31b45f2bf1f6bb8e51b41d7</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 5_Speaking - Describe Image - Q21.tpi</picture>
+    <transcript>The pie chart gives the ratio of men and women for morning, afternoon and evening classes. As per the data provided, the ratio of women is more comparative to men attending classes in morning, both pie chart and bar graph are illustrating that the women attending the morning classes are 70% whereas men are 30%, the percentage of women in afternoon class reduces to 60% and for evening classes the data found is 45% women and 55% men. Overall, it is clear from both bar and pie chart that women show more interest in morning classes and men are interested for evening classes.</transcript>
+  </template>
+</question>
+<question>
+  <id>5bbf6133079a4ca8b4311e085dd0abe0</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q20</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>5bbf6133079a4ca8b4311e085dd0abe0</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 5_Speaking - Describe Image - Q20.tpi</picture>
+    <transcript>As per the bar graph, the percentage of children who never used internet in bedroom were 20% whereas 26% children were from other rooms. The data of the kids who used internet less than once a week was 38% in their bedroom and 44% which was the highest one were using internet only in other rooms and who used 1 or 2 times a week were 22 and 18% respectively but the data for 3 to 4 times a week and daily was found to be less than 10%.</transcript>
+  </template>
+</question>
+<question>
+  <id>85bae002d7ec435db9c8b7ae5f5a6beb</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LOOK</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Describe Image - Q19</title>
+    <delay>25</delay>
+    <recordingTime>40</recordingTime>
+    <output>85bae002d7ec435db9c8b7ae5f5a6beb</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <picture>Practice Set 5_Speaking - Describe Image - Q19.tpi</picture>
+    <transcript>Average precipitation in millimeters is provided in the graph from January to October of two cities Acapulco and Amsterdam. In January the rainfall noticed in Amsterdam was approximately 70 mm whereas in Acapulco it was the lowest at about 10 mm, but in July a drastic incline to 200 mm was noticed in the precipitation which dropped to 150 mm by October in Acapulco whereas Amsterdam was at the same level approximately. Overall, Acapulco has more precipitation and is at the highest in month of July.</transcript>
+  </template>
+</question>
+<question>
+  <id>5dd1737a498648a1bb92a017757ca556</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q18</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>5dd1737a498648a1bb92a017757ca556</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Repeat Sentence - Q18.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>What about non-government organizations? Do you think they can help families in trouble?</transcript>
+  </template>
+</question>
+<question>
+  <id>be556d1e776f44dcb6e47aa56cf0b076</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q17</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>be556d1e776f44dcb6e47aa56cf0b076</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Repeat Sentence - Q17.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>Since he's lost his money, he couldn't go to the restaurant.</transcript>
+  </template>
+</question>
+<question>
+  <id>5089c639e0de458083b36f9c2d0c72a0</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q16</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>5089c639e0de458083b36f9c2d0c72a0</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Repeat Sentence - Q16.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>They worked hard for the test, however, they failed.</transcript>
+  </template>
+</question>
+<question>
+  <id>9ecdaf0d4ef747188d826d159f48f1ff</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q15</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>9ecdaf0d4ef747188d826d159f48f1ff</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Repeat Sentence - Q15.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>What has Sophia been doing for the past six months?</transcript>
+  </template>
+</question>
+<question>
+  <id>c3f377d2911c491dbc0bc2e4f552c9ca</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q14</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>c3f377d2911c491dbc0bc2e4f552c9ca</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Repeat Sentence - Q14.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>Does the government in your country help families that need help?</transcript>
+  </template>
+</question>
+<question>
+  <id>1172d8a95bf449838447b59b261ee039</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q13</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>1172d8a95bf449838447b59b261ee039</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Repeat Sentence - Q13.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>Her baby cannot fall asleep unless she stays in the room.</transcript>
+  </template>
+</question>
+<question>
+  <id>d7312db4d35b4fc499a5f3942807a7ce</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q12</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>d7312db4d35b4fc499a5f3942807a7ce</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Repeat Sentence - Q12.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>He looks very fit in spite of his age.</transcript>
+  </template>
+</question>
+<question>
+  <id>51fc3bec62204fb2a5b72c3b6582960f</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q11</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>51fc3bec62204fb2a5b72c3b6582960f</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Repeat Sentence - Q11.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>Do you know how to ride a snowboard?</transcript>
+  </template>
+</question>
+<question>
+  <id>867af0d11e5d4634acd16414c9398524</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q10</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>867af0d11e5d4634acd16414c9398524</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Repeat Sentence - Q10.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>The theories of global warming are being questioned.</transcript>
+  </template>
+</question>
+<question>
+  <id>31467ee8b2dd492b941901c2db3f5b15</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q9</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>31467ee8b2dd492b941901c2db3f5b15</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Repeat Sentence - Q9.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>We have the next event coming up soon.</transcript>
+  </template>
+</question>
+<question>
+  <id>4f119fbd955840c3aeb82dfd3ab4c590</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q8</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>4f119fbd955840c3aeb82dfd3ab4c590</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Repeat Sentence - Q8.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>We enjoy the slow pace of life. </transcript>
+  </template>
+</question>
+<question>
+  <id>02bfbb2b21b345608bfcb8e7d3f3211c</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a sentence. Please repeat the sentence exactly as you hear it. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Repeat Sentence - Q8</title>
+    <delay>02</delay>
+    <recordingTime>10</recordingTime>
+    <output>02bfbb2b21b345608bfcb8e7d3f3211c</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Repeat Sentence - Q8.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>We enjoy the slow pace of life. </transcript>
+  </template>
+</question>
+<question>
+  <id>63d0f8c2094c4960919fda2596350a1f</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Barbara Charline Jordan was born February 21, 1936, in her parents’ home in Houston. Her father, Benjamin Jordan, was a Baptist minister and warehouse clerk. Her mother Arlyne was a maid, housewife and church teacher.</description>
+    <title>Speaking - Read Aloud - Q7</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>63d0f8c2094c4960919fda2596350a1f</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>aff251e26e49416d942f7cda33809517</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Wind blowing parallel to the shore may create a net movement of water at 90 degrees away from the shore. Nutrient-rich deeper ocean water will up well to take the place of the displaced water and thus profoundly influence the marine ecosystem.</description>
+    <title>Speaking - Read Aloud - Q6</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>aff251e26e49416d942f7cda33809517</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>a8b226f22e0a45afb829b63c035a9033</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The University of the Rockies has been offering our Placement Abroad Services for prospective teachers since 1980. This program is sponsored by the University of the Rockies' Career Services Center.</description>
+    <title>Speaking - Read Aloud - Q5</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>a8b226f22e0a45afb829b63c035a9033</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>a83000428f2a4669baa4ae22e7259f45</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Radon is a radioactive gas that is invisible and odorless. It forms during the decay of uranium-238, and in decaying; itself produces solid heavy metal radioactive particles of polonium, lead, and bismuth.</description>
+    <title>Speaking - Read Aloud - Q4</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>a83000428f2a4669baa4ae22e7259f45</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>f60ae282bfb54672b9a69ba77aadc6c2</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Geologists have shown that for about 80 percent of the past 2.5 million years, ice-age conditions have prevailed on the Earth's surface. During the past one million years, increased glacial conditions have run in cycles of approximately 100,000 years.</description>
+    <title>Speaking - Read Aloud - Q3</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>f60ae282bfb54672b9a69ba77aadc6c2</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>fe4f4dc53e4a400dbe0ab7685911c0ba</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Wise men and philosophers throughout the ages have disagreed on many things, but many are in unanimous agreement on one point: "We become what we think about." Ralph Waldo Emerson said, "A man is what he thinks about all day long." The Roman emperor Marcus Aurelius put it this way: "A man's life is what his thoughts make of it." In the Bible we find: "As a man thinks in his heart, so is he."</description>
+    <title>Speaking - Read Aloud - Q2</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>fe4f4dc53e4a400dbe0ab7685911c0ba</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>b5109581a7ac4bad941a8658cc0f54b6</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_READ</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The theory invented by the Irvine group is really quite exotic. They start with the very reasonable premise that the possible new particle is something that is not described by existing theory. This makes sense because the possible new particle is very low mass and would have been discovered before if it were governed by known physics.</description>
+    <title>Speaking - Read Aloud - Q1</title>
+    <delay>40</delay>
+    <recordingTime>40</recordingTime>
+    <output>b5109581a7ac4bad941a8658cc0f54b6</output>
+    <answer>sampleresponse</answer>
+    <beep>True</beep>
+    <transcript></transcript>
+  </template>
+</question>
+<question>
+  <id>d7c9ddb783aa465db5e1d43dc5c48a74</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LOOK_SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Retell Lecture - Q26</title>
+    <delay>10</delay>
+    <recordingTime>40</recordingTime>
+    <output>d7c9ddb783aa465db5e1d43dc5c48a74</output>
+    <answer>The speaker defines an elector, a member of political party chosen in a given state. There are several electors and the number of electors in a state is equal to the number of U.S. Senators and U.S. Representatives in that state. There are two senators in each state, but the number of representatives depends on the population of the state.</answer>
+    <beep>True</beep>
+    <audio>Practice Set 5_Speaking - Retell Lecture - Q26.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 5_Speaking - Retell Lecture - Q26.tpi</picture>
+    <transcript>What is an elector? Well, an elector is a person - a member of a political party - who has been chosen by that party in a given state. OK, so this person, this elector, is pledged to his or her party's candidate for president. So in any state there are several electors. The number of electors in a state is equal to the number of U.S. Senators plus the number of U.S. Representatives in that state. Don't get confused here. The senators and representatives are not the same people as the electors. It's just that the numbers are the same. So . . . there are always two senators in each state, as you know, but the number of representatives depends on the population of the state. So a populous state has several representatives and a state without a lot of people will have only a few representatives.</transcript>
+  </template>
+</question>
+<question>
+  <id>e7908674e48e4c1a9008b25fb3be486b</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LOOK_SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Retell Lecture - Q28</title>
+    <delay>10</delay>
+    <recordingTime>40</recordingTime>
+    <output>e7908674e48e4c1a9008b25fb3be486b</output>
+    <answer>The speaker talks about the Arcus Center, the building that could break down traditional barriers between different groups and would create possibilities for meaningful conversations around social justice. The students wanted a place for cultural exchange where they can welcome the outside community. So the space was designed in the middle of the Arcus Center which has fireplace and a kitchen. The central space works for big social gatherings and a place to meet one-on-one for the  
+very first time, it’s like three-way intersection that encourages people to start a conversation. The building is made of cordwood masonry and is super low-tech, made for social activity.</answer>
+    <beep>True</beep>
+    <audio>Practice Set 5_Speaking - Retell Lecture - Q28.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture></picture>
+    <transcript>Recently, we were asked to design a center for social justice leadership called the Arcus Center. They asked us for a building that could break down traditional barriers between different groups and in doing so, create possibilities for meaningful conversations around social justice. The students wanted a place for cultural exchange. They thought a place for preparing food together could do that. And they wanted to be welcoming to the outside community. They thought a fireplace could draw people in and help start conversations. And everybody wanted the work of social justice to be visible to the outside world. There really wasn't a precedent for this kind of space, so we looked around the globe and found examples of community meeting houses. Community meeting houses are places where there's very specific relationships between people, like this one in Mali, where the elders gather. The low roof keeps everybody seated and at equal eye level. It's very egalitarian. I mean, you can't stand up and take over the meeting. You'd actually bump your head.
+In meeting houses, there's always a central space where you can sit around a circle and see each other. So we designed a space just like that right in the middle of the Arcus Center, and we anchored it with a fireplace and a kitchen. It's pretty hard to get a kitchen and a fireplace in a building like this with the building codes, but it was so important to the concept, we got it done. And now the central space works for big social gatherings and a place to meet one-on-one for the very first time. It's almost like this three-way intersection that encourages bumping into people and starting a conversation. Now you can always pass the kitchen and see something going on. You can sit by the fireplace and share stories. You can study together in big groups or in small ones, because the architecture sets up these opportunities.
+Even the construction is about building relationships. It's made of cordwood masonry, which is using logs the way you would use bricks. It's super low-tech and easy to do and anyone can do it — and that's the entire point. The act of making is a social activity.</transcript>
+  </template>
+</question>
+<question>
+  <id>ea85b8de70ae4dcf9b0e0c0b1e56c49a</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>LOOK_SPEAK_LISTEN</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Retell Lecture - Q27</title>
+    <delay>10</delay>
+    <recordingTime>40</recordingTime>
+    <output>ea85b8de70ae4dcf9b0e0c0b1e56c49a</output>
+    <answer>The images that come to our mind while thinking about climate change are retreating glaciers and polar bears adrift on icebergs not the giant insects and erupting volcanoes. Perhaps, we should start thinking about climate change on the same visceral level that we experience the air. Climate change reflects our decisions as individuals, as governments and as industries. The speaker says that along with changes in climate it still persists and may support a life which we may not recognize. The speaker emphasizes on the invisible changes of which humans are leaving a vibrant trace in the air.
+ </answer>
+    <beep>True</beep>
+    <audio>Practice Set 5_Speaking - Retell Lecture - Q27.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 5_Speaking - Retell Lecture - Q27.tpi</picture>
+    <transcript>When we think about climate change, we probably don't think about giant insects and erupting volcanoes or funny voices. The images that more readily come to mind are things like retreating glaciers and polar bears adrift on icebergs. We think about pie charts and column graphs and endless politicians talking to scientists wearing cardigans.
+But perhaps it's time we start thinking about climate change on the same visceral level that we experience the air. Like air, climate change is simultaneously at the scale of the molecule, the breath and the planet. It's immediate, vital and intimate, as well as being amorphous and cumbersome. And yet, it's so easily forgotten.
+Climate change is the collective self-portrait of humanity. It reflects our decisions as individuals, as governments and as industries. And if there's anything I've learned from looking at air, it's that even though it's changing, it persists. It may not support the kind of life that we'd recognize, but it will support something. And if we humans are such a vital part of that change, I think it's important that we can feel the discussion. Because even though it's invisible, humans are leaving a very vibrant trace in the air.</transcript>
+
+  </template>
+</question>
+<question>
+  <id>75999a449a0c4daa87d02a98d8e5123b</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q38</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>75999a449a0c4daa87d02a98d8e5123b</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Answer Short Question - Q38_notprovided.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 5_Speaking - Answer Short Question - Q38.tpi</picture>
+    <transcript>What would you call the area given in the picture?
+Answer: Harbour
+</transcript>
+  </template>
+</question>
+<question>
+  <id>5b27df57b6d94b44a8362195f0fa2f78</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q37</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>5b27df57b6d94b44a8362195f0fa2f78</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Answer Short Question - Q37.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>What would you call a water fit for drinking?
+Answer:- Potable
+</transcript>
+  </template>
+</question>
+<question>
+  <id>f6c5ddf7c0a5477f951370aa1f371465</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q36</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>f6c5ddf7c0a5477f951370aa1f371465</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Answer Short Question - Q36.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>What would you call a man who thinks only for himself?
+Answer: Egoistic
+</transcript>
+  </template>
+</question>
+<question>
+  <id>525de0dd87cd4e6b9b9686877ae8811c</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q35</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>525de0dd87cd4e6b9b9686877ae8811c</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Answer Short Question - Q35.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>Who is the one whose business is to find out criminals?
+Detective or Police
+
+Answer: Detective
+</transcript>
+  </template>
+</question>
+<question>
+  <id>be272d27b2ac4428a577fa9c8d6eadb9</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q34</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>be272d27b2ac4428a577fa9c8d6eadb9</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Answer Short Question - Q34.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 5_Speaking - Answer Short Question - Q34.tpi</picture>
+    <transcript>What would you call the pepper given in the picture?
+Answer: Jalapeno
+</transcript>
+  </template>
+</question>
+<question>
+  <id>be6dd514dd8e43a5a4e5413b500113bd</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q33</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>be6dd514dd8e43a5a4e5413b500113bd</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Answer Short Question - Q33.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 5_Speaking - Answer Short Question - Q33.tpi</picture>
+    <transcript>How many stages are involved in the recycling of the glass?
+Answer: 4 Stages
+</transcript>
+  </template>
+</question>
+<question>
+  <id>d2f486d3991f46ffb7e196aee8d91a1e</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q32</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>d2f486d3991f46ffb7e196aee8d91a1e</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Answer Short Question - Q32.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <picture>Practice Set 5_Speaking - Answer Short Question - Q32.tpi</picture>
+    <transcript>What are the players doing in the picture?
+Answer: Ice skating
+</transcript>
+  </template>
+</question>
+<question>
+  <id>ac5dc8a6be774ff5a884f49427a59940</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q31</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>ac5dc8a6be774ff5a884f49427a59940</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Answer Short Question - Q31.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>What would  you call Somebody who believes that all events are decided by fate?
+Answer : Fatalist
+</transcript>
+  </template>
+</question>
+<question>
+  <id>0949c54be9b34dd08c81b96675082909</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
+  <itemType>SPEAKING</itemType>
+  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Speaking - Answer Short Question - Q30</title>
+    <delay>01</delay>
+    <recordingTime>10</recordingTime>
+    <output>0949c54be9b34dd08c81b96675082909</output>
+    <answer>sampleresponse</answer>
+    <beep>False</beep>
+    <audio>Practice Set 5_Speaking - Answer Short Question - Q30.tpm</audio>
+    <audioDelay>03</audioDelay>
+    <transcript>What is a person, animal or plant that has lived in an area from the earliest known times called?
+Answer : Aborigines
+</transcript>
+  </template>
+</question>
+
+<!-- TEST 5 END-->
+
 </questions>
