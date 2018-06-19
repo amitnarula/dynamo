@@ -247,9 +247,23 @@ namespace TPA.Templates.Common
                         btnEvaluate.Visibility = Visibility.Hidden;
                         lblPoints.Visibility = Visibility.Visible;
                         var result = EvaluationManager.GetResult(QuestionContext);
-                        lblPoints.Content = string.Format("Maximum Points : {0}      Points Obtained: {1}",
-                            QuestionContext.CorrectAnswers.Count(), 
+
+                        int maximumPoints = QuestionContext.CorrectAnswers.Count();
+                        //Write from dictation, listen and dictate has different point calculation mechanism
+
+                        if (QuestionContext.QuestionTemplate == QuestionTemplates.LISTEN_AND_DICTATE.ToString())
+                        {
+                            var correctAnswser = QuestionContext.CorrectAnswers.SingleOrDefault();
+
+                            if (correctAnswser != null)
+                                maximumPoints = correctAnswser.Split(' ').Count();
+                        }
+
+                        lblPoints.Content = string.Format("Maximum Points : {0}      Points Obtained: {1}", maximumPoints, 
                             (result != null && result.Any() ? result.First().ParamScore : "0"));
+
+                        
+
                     }
 
                 }

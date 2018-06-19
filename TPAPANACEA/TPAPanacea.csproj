@@ -923,9 +923,6 @@
     <Content Include="Data\ENHAVO\Practice Set 4_Speaking - Describe Image - Q19.tpi">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\ENHAVO\Practice Set 4_Speaking - Describe Image - Q20.tpi">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Data\ENHAVO\Practice Set 4_Speaking - Describe Image - Q21.tpi">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -1593,6 +1590,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\ENHAVO\SPK\Practice Set 5_Speaking - Answer Short Question - Q38_notprovided.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 4_Speaking - Describe Image - Q20.tpi">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Data\Temp\9b6fca36-b3c9-44a1-b050-228532d08094\e03c7f34-7a7f-46cb-9f8f-a80cc51f827c\info.md" />

@@ -476,7 +476,7 @@ So yes, humans have always made {blank} . Decision makers and gatekeepers, in co
     <delay>8</delay>
     <maxWordCount>100</maxWordCount>
     <options></options>
-    <answer>fueled |lethal |biases|responsibilities </answer>
+    <answer>fueled|lethal|biases|responsibilities </answer>
   </template>
 </question>
 <question>
@@ -859,7 +859,7 @@ supplements that included vitamins, probiotics, and weight loss pills. CR said t
     <delay>8</delay>
     <maxWordCount>200</maxWordCount>
     <options></options>
-    <answer>Billions |trust |high |main |darkness </answer>
+    <answer>Billions|trust|high|main|darkness</answer>
   </template>
 </question>
 <question>
@@ -992,7 +992,7 @@ Yet, when we consider the experience of the modern-day combat {blank}, we begin 
     <delay>8</delay>
     <maxWordCount>200</maxWordCount>
     <options></options>
-    <answer>sophisticated |warriors |veteran|immersed |conflict|suburbia</answer>
+    <answer>sophisticated|warriors|veteran|immersed|conflict|suburbia</answer>
   </template>
 </question>
 <question>
@@ -1347,7 +1347,7 @@ Finn: All other monkeys and apes can do is called {blank} - rapidly moving their
     <delay>8</delay>
     <maxWordCount>200</maxWordCount>
     <options></options>
-    <answer>barbershop |Historically|solidarity|threatening|fearlessly</answer>
+    <answer>barbershop|Historically|solidarity|threatening|fearlessly</answer>
   </template>
 </question>
 <question>
@@ -1556,7 +1556,7 @@ Finn: All other monkeys and apes can do is called {blank} - rapidly moving their
     <delay>8</delay>
     <maxWordCount>200</maxWordCount>
     <options></options>
-    <answer>unreflective |comparative|post-enlightenment|quantified|structure</answer>
+    <answer>unreflective|comparative|post-enlightenment|quantified|structure</answer>
 	<transcript>I think the puzzle arises because of an unreflective assumption we make about value. We unwittingly assume that values like justice, beauty, kindness, are akin to scientific quantities, like length, mass and weight. Take any comparative question not involving value, such as which of two suitcases is heavier. There are only three possibilities. The weight of one is greater, lesser or equal to the weight of the other. Properties like weight can be represented by real numbers -- one, two, three and so on -- and there are only three possible comparisons between any two real numbers. One number is greater, lesser, or equal to the other. Not so with values. As post-enlightenment creatures, we tend to assume that scientific thinking holds the key to everything of importance in our world, but the world of value is different from the world of science. The stuff of the one world can be quantified by real numbers. The stuff of the other world can't. We shouldn't assume that the world of is, of lengths and weights, has the same structure as the world of ought, of what we should do.</transcript>
   </template>
 </question>
@@ -1868,7 +1868,7 @@ One disadvantage of groups is that individuals may try to conform with what this
     <delay>8</delay>
     <maxWordCount>200</maxWordCount>
     <options></options>
-    <answer>advantages |defines |rational|result </answer>
+    <answer>advantages|defines|rational|result </answer>
   </template>
 </question>
 <question>
@@ -1886,7 +1886,7 @@ One disadvantage of groups is that individuals may try to conform with what this
     <delay>8</delay>
     <maxWordCount>200</maxWordCount>
     <options></options>
-    <answer>arguing |motivate |queries|doubts</answer>
+    <answer>arguing|motivate|queries|doubts</answer>
   </template>
 </question>
 <question>

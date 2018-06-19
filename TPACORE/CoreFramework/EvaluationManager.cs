@@ -70,6 +70,11 @@ namespace TPACORE.CoreFramework
                                 result = 0;
                         break;
                     case QuestionTemplates.MULTI_CHOICE_MULTIPLE_ANSWER :
+                        {
+                            if (!string.IsNullOrEmpty(userAnswer))
+                                result = questionContext.CorrectAnswers.Count(x => userAnswer.Split('|').Contains(x));
+                        }
+                        break;
                     case QuestionTemplates.FILL_IN_BLANK_WITH_OPTIONS:
                     case QuestionTemplates.FILL_IN_BLANKS:
                     case QuestionTemplates.LISTEN_MULTI_SELECT:
@@ -82,7 +87,7 @@ namespace TPACORE.CoreFramework
                             {
                                 if (!string.IsNullOrEmpty(userAnswer))
                                 {
-                                    if (questionContext.CorrectAnswers[count] == userAnswer.Split('|')[count])
+                                    if (count < userAnswer.Split('|').Length && questionContext.CorrectAnswers[count] == userAnswer.Split('|')[count])
                                     {
                                         correct++;
                                     }

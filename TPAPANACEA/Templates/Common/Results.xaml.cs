@@ -177,7 +177,7 @@ namespace TPAPanacea.Templates.Common
                     / totalSpeaking) * 90
                     +
                     (evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SUMMARIZE_TEXT, FileReader.FileType.QUESTION_WRITING, selectedPracticeSetId, "Content")
-                    + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SUMMARIZE_TEXT, FileReader.FileType.QUESTION_WRITING, selectedPracticeSetId, "Grammer")
+                    + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SUMMARIZE_TEXT, FileReader.FileType.QUESTION_WRITING, selectedPracticeSetId, "Grammar")
                     )
                     + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_HIGHLIGHT_CORRECT_SUMMARY, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId)
                     + (evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_AND_HIGHLIGHT, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId) / 2)
@@ -190,7 +190,7 @@ namespace TPAPanacea.Templates.Common
                     +
                     (
                     evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SUMMARIZE_TEXT, QuestionType.WRITING, "Content")
-                    + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SUMMARIZE_TEXT, QuestionType.WRITING, "Grammer")
+                    + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SUMMARIZE_TEXT, QuestionType.WRITING, "Grammar")
                     )
                     + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_HIGHLIGHT, QuestionType.LISTENING)
                     + (evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_HIGHLIGHT, QuestionType.LISTENING) / 2)

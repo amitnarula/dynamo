@@ -55,7 +55,8 @@ namespace TPAMED
                 if (extension.Equals(".mp3",StringComparison.InvariantCultureIgnoreCase)
                     || extension.Equals(".wav", StringComparison.InvariantCultureIgnoreCase))
                     outputExtension = ".tpm";
-                else if (extension.Equals(".jpg", StringComparison.InvariantCultureIgnoreCase))
+                else if (extension.Equals(".jpg", StringComparison.InvariantCultureIgnoreCase)
+                    || extension.Equals(".png", StringComparison.InvariantCultureIgnoreCase))
                     outputExtension = ".tpi";
 
                 //File.Create("output\\" + fileName + ".tpa");
@@ -78,7 +79,8 @@ namespace TPAMED
                 if (extension.Equals(".mp3", StringComparison.InvariantCultureIgnoreCase)
                     || extension.Equals(".wav", StringComparison.InvariantCultureIgnoreCase))
                     outputExtension = ".tpm";
-                else if (extension.Equals(".jpg", StringComparison.InvariantCultureIgnoreCase))
+                else if (extension.Equals(".jpg", StringComparison.InvariantCultureIgnoreCase)
+                    || extension.Equals(".png", StringComparison.InvariantCultureIgnoreCase))
                     outputExtension = ".tpi";
 
                 //File.Create("output\\" + fileName + ".tpa");

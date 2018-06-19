@@ -47,7 +47,7 @@ namespace TPA.Templates.Reading
             InitializeComponent();
             SourceItems = new ObservableCollection<ReorderItem>();
             TargetItems = new ObservableCollection<ReorderItem>();
-
+            
             this.Loaded += Reorder_Loaded;
 
         }
@@ -177,6 +177,9 @@ namespace TPA.Templates.Reading
                 ReorderItem reorderItem = new ReorderItem();
                 reorderItem.Id = Convert.ToInt32(answers[count]);
                 reorderItem.Name = question.Options.Where(_ => _.Id == answers[count]).Select(_ => _.OptionText).SingleOrDefault();
+
+                //setting a default color for a wrong option as red so that later on it might be turned into green with correct pair
+                reorderItem.OptionBackgroundColor = new SolidColorBrush(Color.FromRgb(232, 85, 110));
 
                 /*if (answers[count] != correctAnswers[count])
                     reorderItem.OptionBackgroundColor = new SolidColorBrush(Color.FromRgb(232,85,110)); //correct option 
