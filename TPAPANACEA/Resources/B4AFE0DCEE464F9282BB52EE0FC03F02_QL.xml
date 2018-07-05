@@ -2153,7 +2153,1448 @@ Rob: But what about the ethics of dark tourism - is it wrong to make this trip? 
 
 <!--TEST 5 END-->
 
+  <!-- TEST 6-->
+  <question>
+    <id>1b47090b95474d93b61bd1d70ba876ea</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_AND_WRITE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>Practice Set 6_Listening - Summarize Spoken Text - Q1.tpm</media>
+      <delay>2</delay>
+      <maxWordCount>100</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <question>
+    <id>220710f52f5d422a9f5bc9c44fd85d05</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_AND_WRITE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>Practice Set 6_Listening - Summarize Spoken Text - Q2.tpm</media>
+      <delay>2</delay>
+      <maxWordCount>100</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <question>
+    <id>34ec45abada44e38a5500cef009ea1ae</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_MULTI_SELECT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>Which statement is ‘TRUE’ as per the lecture?</title>
+      <media>Practice Set 6_Listening - Multiple choice, choose multiple answers - Q3.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>Speaker was treasured as a daughter despite of being from remote area.</o0>
+        <o1>In Afghanistan, girls were provided free education.</o1>
+        <o2>The educated families were threatened by Taliban.</o2>
+        <o3>Speaker’s grandfather was disowned by the family for sending his daughter to school.</o3>
+        <o4>Speaker’s mother took early retirement to teach girls at home.</o4>
+      </options>
+      <answer>0|3|4</answer>
+    </template>
+  </question>
+  <question>
+    <id>0888152fa4be461b846699d0bbf9fcd9</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_MULTI_SELECT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>As per the survey in America:-</title>
+      <media>Practice Set 6_Listening - Multiple choice, choose multiple answers - Q4.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>Average of the choices as per the report were about  70 in a day.</o0>
+        <o1>The task taken by CEO’s was less compared to other employees.</o1>
+        <o2>Half of the decisions by CEOs were made in nine minutes or less.</o2>
+        <o3>Majority of the employees were not able to take decisions as required.</o3>
+        <o4>The average number of CEOs hesitated in making quick decisions.</o4>
+      </options>
+      <answer>0|2</answer>
+    </template>
+  </question>
+  <question>
+    <id>9a8d2af93f5c45d5a5acf67dd771dd9d</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>All of this choice has two effects, two negative effects on people. One effect, {blank} , is that it produces paralysis, rather than liberation. With so many options to choose from, people find it very difficult to choose at all. I'll give you one very {blank} example of this: a study that was done of investments in voluntary retirement plans. A colleague of mine got access to investment records from Vanguard, the {blank} mutual-fund company of about a million employees and about 2,000 different workplaces. And what she found is that for every 10 mutual funds the employer offered, rate of {blank} went down two percent. You offer 50 funds - 10 percent fewer employees {blank} than if you only offer five. Why? Because with 50 funds to choose from, it's so damn hard to decide which fund to choose, that you'll just put it off until tomorrow.</description>
+      <title></title>
+      <media>Practice Set 6_Listening - Fill in the blanks - Q5.tpm</media>
+      <delay>8</delay>
+      <maxWordCount>200</maxWordCount>
+      <options></options>
+      <answer>paradoxically|dramatic|gigantic|participation|participate</answer>
+    </template>
+  </question>
+  <question>
+    <id>930f382c61d54de08707e036a5f4e0a5</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_AND_FILL_BLANKS</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Now, you'll notice that the way I'm {blank} this is different from how I started, and that's intentional, because until now this problem has been quantified using mass: think kilograms, tons, {blank} , whatever your unit of choice is in mass. Why do we talk about food in terms of weight? Because it's easy. We can look at a photograph and determine {blank} on a ship by using a simple pocket calculator. We can weigh trucks, airplanes and oxcarts. But what we care about in food is {blank} value. Not all foods are created equal, even if they weigh the same. This I learned firsthand when I moved from {blank} to the US for university.</description>
+      <title></title>
+      <media>Practice Set 6_Listening - Fill in the blanks - Q6.tpm</media>
+      <delay>8</delay>
+      <maxWordCount>200</maxWordCount>
+      <options></options>
+      <answer>framing|hectograms|tonnage|nutritional|Ethiopia</answer>
+    </template>
+  </question>
+  <question>
+    <id>51dc78b584264a9588a1d262490efca5</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>Practice Set 6_Listening - Highlight Correct Summary - Q7.tpm</media>
+      <delay>10</delay>
+      <options>
+        <o0>Choices are influenced by our unconscious, by our community. We're often choosing by guessing, what would other people think about our choice? Because of this, people have now more and more problems that they are not choosing anything.</o0>
+        <o1>We convince ourselves that we made the right choice, choices are anxiety-provoking. They are linked to risks, losses. They are highly unpredictable. Because of this, people have now more and more problems that they are not choosing anything.</o1>
+        <o2>Choices are influenced by our unconscious and what others are choosing. Even, We choose what is socially accepted to we convince ourselves. Choices are anxiety-provoking, linked to risks, losses and are highly unpredictable, because of this, people have now more and more problems in choosing anything.</o2>
+        <o3>Choices are anxiety-provoking. They are linked to risks, losses. They are highly unpredictable. Now, because of this, people have now more and more problems that they are not choosing anything.</o3>
+      </options>
+      <answer>2</answer>
+    </template>
+  </question>
+  <question>
+    <id>0a5e24ae9cef43378bbdd53ee62cdf88</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>Practice Set 6_Listening - Highlight Correct Summary - Q8.tpm</media>
+      <delay>10</delay>
+      <options>
+        <o0>As per the speaker who left the management job and opted for teaching, IQ was not the only difference between her best and worst students as some of her strongest performers did not have stratospheric IQ, what is needed is a much better understanding of students and learning from a motivational perspective, from a psychological perspective.</o0>
+        <o1>Speaker left a very demanding job in management consulting for a job that was even more demanding: teaching. She went to teach seventh graders math in the New York City public schools. And like any teacher, made quizzes and tests. I gave out homework assignments. When the work came back, she calculated grades.</o1>
+        <o2>After several more years of teaching, lecturer came to the conclusion that what we need in education is a much better understanding of students and learning from a motivational perspective, from a psychological perspective.</o2>
+        <o3>IQ was not the only difference between best and worst students. Some of the strongest performers did not have stratospheric IQ scores.  The kinds of things you need to learn in seventh grade math, sure, they're hard. But these concepts are not impossible, and speaker was firmly convinced that every one of his students could learn the material if they worked hard and long enough.</o3>
+      </options>
+      <answer>0</answer>
+    </template>
+  </question>
+  <question>
+    <id>99b3349f25d24bb6973dd88b212eb18e</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>What should be done to maximize the welfare of the citizens?</title>
+      <media>Practice Set 6_Listening - Multiple choice, choose single answer - Q9.tpm</media>
+      <delay>5</delay>
+      <options>
+        <o0>The choices should be reduced.</o0>
+        <o1>More choices mean less freedom.</o1>
+        <o2>Freedom effects once life deeply.</o2>
+        <o3>more choice lead to more freedom.</o3>
+      </options>
+      <answer>3</answer>
+    </template>
+  </question>
+  <question>
+    <id>39ba0876080243af946d8dde37cd34d8</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_MULTI_CHOICE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title>Which is the important environment challenge ants have to face while interacting?</title>
+      <media>Practice Set 6_Listening - Multiple choice, choose single answer - Q10.tpm</media>
+      <delay>5</delay>
+      <options>
+        <o0>food</o0>
+        <o1>environmental</o1>
+        <o2>colony</o2>
+        <o3>foragers</o3>
+      </options>
+      <answer>1</answer>
+    </template>
+  </question>
+  <question>
+    <id>24a7daa638e341548e18e96b1795dc22</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_SELECT_MISSING_WORD</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording on Individual Freedom. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>Practice Set 6_Listening - Select missing word - Q11.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>environment</o0>
+        <o1>personality</o1>
+        <o2>lives</o2>
+        <o3>individuals</o3>
+      </options>
+      <answer>3</answer>
+    </template>
+  </question>
+  <question>
+    <id>13ad69f19a4641d5a5472537fd00568a</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_SELECT_MISSING_WORD</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording on Public Health. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>Practice Set 6_Listening - Select missing word - Q12.tpm</media>
+      <delay>8</delay>
+      <options>
+        <o0>successful way.</o0>
+        <o1>better way</o1>
+        <o2>incredible way</o2>
+        <o3>appropriate way.</o3>
+      </options>
+      <answer>0</answer>
+    </template>
+  </question>
+  <question>
+    <id>2a1037c1bf14423da3984b4a2b8ceef6</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_AND_HIGHLIGHT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>
+        I got my initial in writing and research as a surgical trainee, as someone who was a long ways away from become any kind of an expert at anything. So the natural question you ask then at that point is, how do I get good at what I'm trying to do? And it became a question of, how do we all get good at what we're trying to do?
+        It's easy enough to learn to get the skills, try to learn all the material you have to absorb at any task you're taking on. I had to think about how I sew and how I cut, but then also how I pick the right person to come to an operating room. And then in the middle of all this came this new context for thinking about what it meant to be worse.
+      </description>
+      <title></title>
+      <media>Practice Set 6_Listening - Highlight Incorrect Words- Q13.tpm</media>
+      <delay>8</delay>
+      <maxWordCount>200</maxWordCount>
+      <options></options>
+      <answer>initial|become|easy|middle|worse</answer>
+    </template>
+  </question>
+  <question>
+    <id>6b2dc087459d4eb0aaa89d06fbe5e9aa</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_AND_HIGHLIGHT</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description>Auto sales are rocketing, house sales are reasonable and employment is back above its pre-recessionary figures. But if we dig deeper we note that everything that was either the cause of or which exasperated the Great Recession remained with us today. For instance, too-big-to-fail and even to-big-to-jail banks are even larger. Sovereign debts are higher. In many cases startlingly so. Derivatives are a hundred trillion dollars higher than they were in 2007. Income and wealth equality are vastly higher today than six years ago.</description>
+      <title></title>
+      <media>Practice Set 6_Listening - Highlight Incorrect Words- Q14.tpm</media>
+      <delay>8</delay>
+      <maxWordCount>200</maxWordCount>
+      <options></options>
+      <answer>rocketing|figures|remained|larger|equality</answer>
+    </template>
+  </question>
+  <question>
+    <id>22bda852f8dd466880951f26cb9fef93</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>Practice Set 6_Listening - Write from dictation- Q15.tpm</media>
+      <delay>7</delay>
+      <maxWordCount>200</maxWordCount>
+      <answer>I was raised in a country that has been destroyed by decades of war.</answer>
+    </template>
+  </question>
+  <question>
+    <id>b8ca817bbbd64c59906a31436c2bec64</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>Practice Set 6_Listening - Write from dictation- Q16.tpm</media>
+      <delay>7</delay>
+      <maxWordCount>200</maxWordCount>
+      <answer>All this choice made it possible for me to do better.</answer>
+    </template>
+  </question>
+  <question>
+    <id>219b6b0a8394437a8b23ee64e8838dcd</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>Practice Set 6_Listening - Write from dictation- Q17.tpm</media>
+      <delay>7</delay>
+      <maxWordCount>200</maxWordCount>
+      <answer>This is why we should care about calories, not about mass.</answer>
+    </template>
+  </question>
+  <question>
+    <id>a813a780f2bb44f6aaa9e404671928d6</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>LISTEN_AND_DICTATE</type>
+    <itemType>LISTENING</itemType>
+    <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:00:00</attemptTime>
+    <template>
+      <description></description>
+      <title></title>
+      <media>Practice Set 6_Listening - Write from dictation- Q18.tpm</media>
+      <delay>7</delay>
+      <maxWordCount>200</maxWordCount>
+      <answer>I think there are some questions that math just cannot answer.</answer>
+    </template>
+  </question>
+  <!-- TEST 6 END-->
 
+<!-- TEST 7-->
+<question>
+  <id>d937f82fd4c14f8dab2df23f8acc45d3</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 7_Listening - Summarize Spoken Text - Q1.tpm</media>
+    <delay>10</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer>As per Tom Kunz who puts electronic devices on bats and birds to follow their movement, the technology has improved where we can now see things that we could not see before. He says that weather experts ignore radar images of birds and bats while predicting weather conditions but from an integrated and networked dataset, we can actually determine where and when bats and birds are moving across the landscape.</answer>
+  </template>
+</question>
+<question>
+  <id>b7d5f4105a104bdf9d405605592b96d3</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 7_Listening - Summarize Spoken Text - Q2.tpm</media>
+    <delay>10</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer>The lecture is based on plastic in the Atlantic Ocean, Eriksen talks about the growing plastic waste in oceans and its effects along with the accumulated waste through gyre which is formed by ocean currents. Cummins says that plastic bags and bottles have no value after they are used and most of the plastic waste can be found in solid-waste landfills or along rivers.</answer>
+  </template>
+</question>
+<question>
+  <id>8635b060b19c4ae894412116d7303654</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>What is the main purpose of the speaker?</title>
+    <media>Practice Set 7_Listening - Multiple choice, choose multiple answers - Q3.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>Countries like India and China will present really interesting challenge for the world in economic growth.</o0>
+      <o1>Africa will continue to be a net exporter of calories.</o1>
+      <o2>India has an optimistic approach to production growth.</o2>
+      <o3>China will have population explosion.</o3>
+    </options>
+    <answer>0|2</answer>
+  </template>
+</question>
+<question>
+  <id>54551bb013a942b3802778038e6eadb7</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>CSR is :-</title>
+    <media>Practice Set 7_Listening - Multiple choice, choose multiple answers - Q4.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>A corporate generosity which is not that important for employees and customers.</o0>
+      <o1>innovation not creating business benefits.</o1>
+      <o2>durable enough to drive solutions to the biggest problems.</o2>
+      <o3>providing route for corporate social responsibility.</o3>
+    </options>
+    <answer>2|3</answer>
+  </template>
+</question>
+<question>
+  <id>0455eb5c1be746d98a4373dfe53f9694</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>What I do know is that talent doesn't make you {blank} . Our data show very clearly that there are many talented {blank} who simply do not follow through on their commitments. In fact, in our data, grit is usually unrelated or even {blank} related to measures of talent.
+So far, the best idea I've heard about building grit in kids is something called "growth mindset." This is an idea developed at {blank} University by Carol Dweck, and it is the belief that the ability to learn is not fixed, that it can change with your effort. Dr. Dweck has shown that when kids read and learn about the brain and how it changes and grows in response to challenge, they're much more likely to {blank} when they fail, because they don't believe that failure is a permanent condition.
+</description>
+    <title></title>
+    <media>Practice Set 7_Listening - Fill in the blanks - Q5.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>gritty|individuals|inversely|Stanford|persevere</answer>
+  </template>
+</question>
+<question>
+  <id>3936eca8855e4b89be7306f6a8819edb</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>So it took me a while to explain why I was so {blank} about this issue, until about six years ago. That's when this landmark study that looked at and described the public health {blank} of war was published. They came to an incredible, {blank} conclusion. These {blank} concluded that the vast majority of death and disability from war happens after the {blank} of conflict. 
+</description>
+    <title></title>
+    <media>Practice Set 7_Listening - Fill in the blanks - Q6.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>passionate|consequences|provocative|researchers|cessation</answer>
+  </template>
+</question>
+<question>
+  <id>f624bbeb864c485a82af7d6b80dd177b</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>So another {blank} challenge that all systems have to deal with is resources, finding and collecting them. And to do this, ants solve the problem of collective search, and this is a problem that's of great interest right now in {blank} , because we've understood that, rather than sending a single, {blank} , expensive robot out to explore another planet or to search a burning building, that instead, it may be more effective to get a group of cheaper robots exchanging only minimal information, and that's the way that ants do it. So the invasive Argentine ant makes {blank} search networks. They're good at dealing with the main problem of collective search, which is the trade-off between searching very {blank} and covering a lot of ground.</description>
+    <title></title>
+    <media>Practice Set 7_Listening - Fill in the blanks - Q7.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>environmental|robotics|sophisticated|expandable|throughly</answer>
+  </template>
+</question>
+<question>
+  <id>4d7a81807b38479685bef6839419d87c</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 7_Listening - Highlight Correct Summary - Q8.tpm</media>
+    <delay>10</delay>
+    <options>
+      <o0>Last year, Ebola hit the West African country of Liberia and there was a lot of reporting about this group, Doctors without Borders, sounding the alarm and calling for aid and assistance.</o0>
+      <o1>Why is Doctors without Borders even in Liberia? “Doctors without Borders” is an amazing organization, dedicated and designed to provide emergency care in war zones.</o1>
+      <o2>Ebola hit the West African country of Liberia last year and there was a lot of reporting about Doctors without Borders, which is an amazing organization and is in Liberia because Liberia still doesn't have a functioning health system since earthquake hit Haiti.</o2>
+      <o3>When Ebola struck Liberia, there were less than 50 doctors in the entire country of 4.5 million people. Doctors Without Borders is in Liberia because Liberia still doesn't really have a functioning health system, 11 years later.</o3>
+    </options>
+    <answer>2</answer>
+  </template>
+</question>
+<question>
+  <id>465109956a0c4c3e9b03bce65819caaf</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 7_Listening - Highlight Correct Summary - Q9.tpm</media>
+    <delay>10</delay>
+    <options>
+      <o0>The moment came when speaker had to cross the first checkpoint, and he realized as he drove up that he would be negotiating passage through this checkpoint with a heavily armed individual who, if he decided to shoot him right then and there, actually wouldn't be doing anything illegal.</o0>
+      <o1>Postwar Kosovo was a very interesting place because NATO troops were there to make sure the war didn't break out again. But other than that, it was actually a lawless place, and almost every social institution, both public and private, had been destroyed. Such situations are thrilling as that makes you realize how incredibly vulnerable you are. Life in a society where there are no social institutions is riddled with danger and uncertainty.</o1>
+      <o2>Questions about security, when you don't have any security systems, are terrifying. Is that altercation I had with the neighbor down the block going to turn into a violent episode that will end my life or my family's life?</o2>
+      <o3>Postwar Kosovo was a very interesting place because NATO troops were there, it was actually a lawless place, and almost every social institution, both public and private, had been destroyed. So it can be said if you go into one of these situations and settings, it is absolutely thrilling.</o3>
+    </options>
+    <answer>1</answer>
+  </template>
+</question>
+<question>
+  <id>bde792d769094fc883f4891eb76cfb73</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>What is the speakers main concern:-</title>
+    <media>Practice Set 7_Listening - Multiple choice, choose single answer - Q10.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>Ignorance and denial are increasing towards economic and ecological crisis.</o0>
+      <o1>People have less access to knowledge on economic and ecological crisis.</o1>
+      <o2>People are more and more turning a blind eye towards economic crisis.</o2>
+      <o3>We are unable to decode genomes and are unaware about brain functioning.</o3>
+    </options>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>307d4a8e84bf43b49745787ce253a591</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>The lecture is based on:-</title>
+    <media>Practice Set 7_Listening - Multiple choice, choose single answer - Q11.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>problems related to xenophobia in Asian countries.</o0>
+      <o1>focus of Asian countries on economic stability and growth.</o1>
+      <o2>comparison of Asian Countries with USA.</o2>
+      <o3>escalation of the geopolitical and cross-border tensions.</o3>
+    </options>
+    <answer>1</answer>
+  </template>
+</question>
+<question>
+  <id>ed2e901be2054b1a84383d533b24677e</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on Incentives to students. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 7_Listening - Select missing word - Q12.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>money</o0>
+      <o1>cash</o1>
+      <o2>certificate</o2>
+      <o3>appreciation</o3>
+    </options>
+    <answer>1</answer>
+  </template>
+</question>
+<question>
+  <id>dbb0a095afb343d18569a4b71d443851</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on Artificial Intelligence. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 7_Listening - Select missing word - Q13.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>tomorrow</o0>
+      <o1>future</o1>
+      <o2>past</o2>
+      <o3>next generation</o3>
+    </options>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>c8f11401c7cb4ee196a91f35ef80763b</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Dr Hu started his investigation after the birth of his newborn son. He wondered why his baby kept on batting her eyelids. He told the National Business Times that: "Eyelashes that rim the eyes in mammals have been a mystery for a short time as to what their function was. There were a lot of hypotheses, from dust catchers to triggering the blink reflex….What we did was the second aerodynamic study of eyelashes. We showed using three independent means that eyelashes reduce evaporation of the eye by 70 percent, and they reduce the deposits of small airborne particles." A colleague said Hu had a talent for, "looking at what everybody has looked at, and watching what nobody has seen."</description>
+    <title></title>
+    <media>Practice Set 7_Listening - Highlight Incorrect Words- Q14.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>son|National|short|second|watching</answer>
+  </template>
+</question>
+<question>
+  <id>c4e2abb3cb7543a29d2ffcfbcb495dde</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Now, this idea of exchanging, of creating a perceptual shift, as it were, came home to me to roost in a every personal manner about 10 years ago. About 10 years ago -- I've been a runner entire of my life -- I went for a run, a Saturday morning run, I came back and woke up and I initially couldn't move. My right knee was swollen up, and you could hear that ominous crunch of bone against bone. And one of the perks of being a physician is that you get to order your own MRIs. And I had an MRI the next week, and it looked like that. Importantly, the meniscus of cartilage that is between bone had been completely torn and the bone itself had been broken.</description>
+    <title></title>
+    <media>Practice Set 7_Listening - Highlight Incorrect Words- Q15.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>exchanging|every|initially|Importantly|broken</answer>
+  </template>
+</question>
+<question>
+  <id>26133d49bb7249559bf1809fc178b776</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 7_Listening - Write from dictation- Q16.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer>The result of the experiment reported in the table below.</answer>
+  </template>
+</question>
+<question>
+  <id>1d687f76a5ab4d119fbc76f37932bc64</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 7_Listening - Write from dictation- Q17.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer>The schedule allows a lot of time for independent study.</answer>
+  </template>
+</question>
+<question>
+  <id>73dc23408e30495a9a6d7e4ed7b99dc4</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 7_Listening - Write from dictation- Q18.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer>The same issue reached the same explanation of the problem.</answer>
+  </template>
+</question>
+<question>
+  <id>f59277402c544fda8686e9946ba9366f</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 7_Listening - Write from dictation- Q19.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer>The same approach reached to the same explanation of the problem.</answer>
+  </template>
+</question>
+<!-- TEST 7 END-->
 
+<!--TEST 10-->
+<question>
+  <id>da5b992ae82c4d3fb46699d1282b3191</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 10_Listening - Summarize Spoken Text - Q1.tpm</media>
+    <delay>10</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer></answer>
+  </template>
+</question>
+<question>
+  <id>b572bb2abece4326b995bce732624292</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 10_Listening - Summarize Spoken Text - Q2.tpm</media>
+    <delay>10</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer></answer>
+  </template>
+</question>
+<question>
+  <id>dbcea64b072c470d93da24ad9495eba9</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>What individual actions can harm the planet?</title>
+    <media>Practice Set 10_Listening - Multiple choice, choose multiple answers - Q3.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>Sunscreen</o0>
+      <o1>Contaminated water</o1>
+      <o2>Ozone eating chemicals</o2>
+      <o3>Hairsprays</o3>
+      <o4>Organic plants</o4>
+    </options>
+    <answer>2|3</answer>
+  </template>
+</question>
+<question>
+  <id>00369e66034e4765b9ec74dae3b2ef99</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>How is Bamboo considered to be advantageous for the human?</title>
+    <media>Practice Set 10_Listening - Multiple choice, choose multiple answers - Q4.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>suitable for construction compared to wood.</o0>
+      <o1>harvest cycle of bamboo is about 13 years.</o1>
+      <o2>people use it more because of its round shape.</o2>
+      <o3>poor people cannot afford bamboo.</o3>
+      <o4>cannot be used as a wall panel.</o4>
+    </options>
+    <answer>0|2</answer>
+  </template>
+</question>
+<question>
+  <id>86a6bd2248eb45c08f3472543a2c308e</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Well, over the past decade, we have observed three main negative {blank} to offering people more and more choices. They're more likely to delay choosing {blank} even when it goes against their best self-interest. They're more likely to make worse choices -- worse financial choices, medical choices. They're more likely to choose things that make them less satisfied, even when they do {blank} better. The main reason for this is because, we might enjoy gazing at those giant walls of {blank} , mustards, vinegars, jams, but we can't actually do the math of comparing and contrasting and actually picking from that {blank} display. So what I want to propose to you today are four simple techniques-techniques that we have tested in one way or another in different research venues-that you can easily apply in your {blank} .</description>
+    <title></title>
+    <media>Practice Set 10_Listening - Fill in the blanks - Q5.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>100</maxWordCount>
+    <options></options>
+    <answer>consequences|procrastinate|objectively|mayonnaises|stunning|businesses</answer>
+  </template>
+</question>
+<question>
+  <id>949da8a80b764d6da2c27fd0161db659</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>In today's times of {blank} capitalism, choice, together with individual freedom and the idea of self-making, has been elevated to an ideal. Now, together with this, we also have a belief in endless progress. But the underside of this {blank} has been an increase of anxiety, feelings of guilt, feelings of being inadequate, feeling that we are failing in our choices. Sadly, this ideology of individual choice has prevented us from thinking about social changes. It appears that this ideology was actually very efficient in {blank} us as political and social thinkers. Instead of making social critiques, we are more and more engaging in self-critique, sometimes to the point of {blank}.</description>
+    <title></title>
+    <media>Practice Set 10_Listening - Fill in the blanks - Q6.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>100</maxWordCount>
+    <options></options>
+    <answer>post-industrial|ideology|pacifying|self-destruction</answer>
+  </template>
+</question>
+<question>
+  <id>ea466af18d8c40c49f520d08f717cfee</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 10_Listening - Highlight Correct Summary - Q7.tpm</media>
+    <delay>10</delay>
+    <options>
+      <o0>In the past, every fisherman was not tempted to catch as many as fish as possible, but if everybody did that, the fish, common shared resource in the community, would disappear. The result would be hardship and poverty for everyone. This happened in some cases, but it did not happen in other cases. In these communities, the fishermen developed a kind of social contract that told each one of them to hold back a bit to prevent overfishing.</o0>
+      <o1>The villagers in medieval Europe managed pasture and forests. This is how communities in Asia managed water, and this is how indigenous peoples in the Amazon managed wildlife. These communities did not realize they relied on a finite, shared resource. They developed rules and practices on how to manage those resources, and they changed their behavior so that they could continue to rely on those shared resources tomorrow by overfishing, overgrazing, polluting or depleting water streams today.</o1>
+      <o2>In the past, to stop overfishing the fishermen developed a social contract to prevent the overfishing and cheating dramatically dropped. We find the same story around the world. This is how villagers in medieval Europe managed pasture and forests, Asia managed water, and indigenous peoples in the Amazon managed wildlife.  They developed rules and practices on how to manage those resources.</o2>
+    </options>
+    <answer>2</answer>
+  </template>
+</question>
+<question>
+  <id>9070207578914650beb67604085fe552</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 10_Listening - Highlight Correct Summary - Q8.tpm</media>
+    <delay>10</delay>
+    <options>
+      <o0>Mr. Modi in India, Mr. Abe, who is probably about to get a third term written in in the Liberal Democratic Party in Japan, of course Xi Jinping who is consolidating enormous power, the most powerful leader in China since Mao. Those are not the three most important economies in Asia.</o0>
+      <o1>There are no problems in Asia. We see the sparring over the South China Sea. We see that Kim Jong Un, just in the last couple of days, tested yet another nuclear weapon. But the leaders in Asia do not feel the need to wave the flag, to go xenophobic, to actually allow escalation of the geopolitical and cross-border tensions.</o1>
+      <o2>There are real leaders across Asia, they have a lot of political stability. But the leaders in Asia do not feel the need to wave the flag, to go xenophobic, to actually allow escalation of the geopolitical and cross-border tensions. They want to focus on long-term economic stability and growth. And that's what they're actually doing.</o2>
+      <o3>The leaders in Asia feel the need to wave the flag, to go xenophobic, to actually allow escalation of the geopolitical and cross-border tensions. They do not want to focus on long-term economic stability and growth. And that's what they're actually doing.</o3>
+    </options>
+    <answer>2</answer>
+  </template>
+</question>
+<question>
+  <id>0425c487a0754cf49028f9687c5e7eaa</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 10_Listening - Multiple choice, choose single answer - Q9.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>Sustainable strategy for development to cherish without depending on external factors.</o0>
+      <o1>Facing challenge was to build our own shelter with whatever we could find.</o1>
+      <o2>Searching for huts or hotels in remote areas before planning the trip.</o2>
+      <o3>About being an architecture student and depending on natural resources.</o3>
+    </options>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>0b1ac8ec7f334cea81c779ece7991fe5</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 10_Listening - Multiple choice, choose single answer - Q10.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>Artificial Intelligence open-source tools for machine learning and intelligence that we can contribute to.</o0>
+      <o1>Artificial Intelligence has more disadvantages rather than advantages.</o1>
+      <o2>Artificial Intelligence will put mankind into risk.</o2>
+      <o3>Artificial Intelligence is the solution to all problems.</o3>
+    </options>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>a104aed5f9c64df2b36a2bfcca11cf86</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on “Automotive Suppliers of Kenya”. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 10_Listening - Select missing word - Q11.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>to grow</o0>
+      <o1>to boost</o1>
+      <o2>to incline</o2>
+      <o3>to run</o3>
+    </options>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>df7688cf33ab4e52b31cc83f0acc9591</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on Artificial Intelligence. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 10_Listening - Select missing word - Q12.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>greatest contribution.</o0>
+      <o1>greatest deed</o1>
+      <o2>greatest deal</o2>
+      <o3>greatest achievement</o3>
+    </options>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>8f94cea60b0140aa8c1d7ceb84a0e89a</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>We are not courageous when we approach out to people. Let me give you an example of that. A ten years ago, I had a very eventful year. That year, I managed to lose a job, I managed to get a dream job overseas and accept it, I had a baby the next month, I got very sick, I was unable to take the dream job. And so in a few weeks, what ended up happening was, I lost my identity as a faculty member, and I got a very stressful new identification as a mother. What I also got was tons of suggest from people. And the advice I despised more than any other advice was, "You've got to go network with everybody." When your psychological world is breaking down, the hardest thing to do is to try and reach out and build up your civil world.</description>
+    <title></title>
+    <media>Practice Set 10_Listening - Highlight Incorrect Words- Q13.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>100</maxWordCount>
+    <options></options>
+    <answer>approach|ten|identification|suggest|civil</answer>
+  </template>
+</question>
+<question>
+  <id>70ab4289d85c4ee2935e15e28d561df0</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Since the late 1800s, the Industrial Revolution has catapulted the development of economies around the world into thriving society. Today, manufacturing is still the engine of economic growth and stability, even as latest technologies have inevitably transformed the way we live. Making stuff is important, especially for nation-states wanting to boost employment, increase skills and reduce import dependence. But while some countries can skip this industrialized stage, many have negligible manufacturing input.</description>
+    <title></title>
+    <media>Practice Set 10_Listening - Highlight Incorrect Words- Q14.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>100</maxWordCount>
+    <options></options>
+    <answer>1800s|society|latest|some|input</answer>
+  </template>
+</question>
+<question>
+  <id>351c1b3311814c969c743f03ec121c64</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Building up skills and suppliers are not the only hurdles to global industrialization, but they're good examples of how we think about the challenge. You see, we're not just reimagining the car, we're reimagining our whole value chain. None of this has been easy, and we're only just getting started. But once African industry starts to scale, the potential is huge. Better products, costing less, built locally together creating millions of jobs. Frugal invention offers a path to economic acceleration across many industries, and the future of this continent dependent on it.</description>
+    <title></title>
+    <media>Practice Set 10_Listening - Highlight Incorrect Words- Q15.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>100</maxWordCount>
+    <options></options>
+    <answer>global|whole|invention|dependent</answer>
+  </template>
+</question>
+<question>
+  <id>18cc96587af14c52a792dea5547fdadb</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 10_Listening - Write from dictation- Q16.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>cc8c1981c0364f6695d09cbf8cfa7ac6</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 10_Listening - Write from dictation- Q17.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>17e84620fd324d0eba175fc867a1c138</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 10_Listening - Write from dictation- Q18.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>021ecf1e9c3849ffa90ebcbf2da0fa39</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 10_Listening - Write from dictation- Q19.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer>0</answer>
+  </template>
+</question>
+<!-- TEST 10 END-->
+
+<!-- TEST 3-->
+<question>
+  <id>b1c08105710a42d78daa435ac97056a0</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 3_Listening - Summarize Spoken Text - Q1.tpm</media>
+    <delay>10</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer></answer>
+  </template>
+</question>
+<question>
+  <id>76138d1e7b3740efbfabc644de79116a</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_AND_WRITE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 3_Listening - Summarize Spoken Text - Q2.tpm</media>
+    <delay>10</delay>
+    <maxWordCount>100</maxWordCount>
+    <answer></answer>
+  </template>
+</question>
+<question>
+  <id>a979e3586a8d4442bf0bf2f1fa98ae15</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Companies can provide</title>
+    <media>Practice Set 3_Listening - Multiple choice, choose multiple answers - Q3.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>growth in the income which encourages employees perform better.</o0>
+      <o1>less interaction to social community.</o1>
+      <o2>altruistic tasks to increase the overall productivity of employees.</o2>
+      <o3>openness to their employees but not the radical one.</o3>
+    </options>
+    <answer>3</answer>
+  </template>
+</question>
+<question>
+  <id>da3e6fa29f4d4698a44ee160cb499f3a</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>According to the professor, which is the preferred habitat by blackcaps?</title>
+    <media>Practice Set 3_Listening - Multiple choice, choose multiple answers - Q4.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>edges of streams in forest.</o0>
+      <o1>nest in the trees.</o1>
+      <o2>Pine woods.</o2>
+      <o3>sparse areas.</o3>
+      <o4>country side.</o4>
+    </options>
+    <answer>0|2</answer>
+  </template>
+</question>
+<question>
+  <id>177391604d0e4c2cbc235c88efc0cc8a</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Chronos, a global software company, {blank} the need to transfer from building products -- software products -- to building software as a service. To enable its people to take that {blank} , first of all they invested in new tools that would enable their employees to monitor the usage of the features as well as customer {blank} with the new service. They also invested in skill development, so that their employees would be able to resolve customer service problems on the spot. And very importantly, they also reinforced the {blank} behaviors that would be required to deliver an end-to-end seamless customer experience. Because of these investments, rather than feeling overwhelmed by the transformation, Chronos employees actually felt energized and {blank} in their new roles.</description>
+    <title></title>
+    <media>Practice Set 3_Listening - Fill in the blanks - Q5.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>recognized|transformation|satisfaction|collaborative|empowered</answer>
+  </template>
+</question>
+<question>
+  <id>ef748a4bd8c4447383672751467819e0</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_AND_FILL_BLANKS</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Type the missing words in each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Inclusive leadership is critical to putting people first. I live in the San Francisco Bay area. And right now, our basketball team is the best in the {blank} . We won the 2015 championship, and we're favored to win again this year. There are many explanations for this. They have some {blank} players, but one of the key reasons is their head coach, Steve Kerr, is an inclusive leader. When Kerr came to the Warriors in 2014, the Warriors were looking for a major transformation. They hadn't won a national championship since 1975.
+Kerr came in, and he had a clear vision, and he {blank} got to work. From the outset, he reached out and engaged the players and the staff. He created an environment of open debate and {blank} suggestions.  During games he would often ask, "What are you seeing that I'm missing?"
+One the best examples of this came in game four of the 2015 finals. The Warriors were down two games to one when Kerr made the decision to change the starting lineup; a bold move by any measure. The Warriors won the game and went on to win the championship. And it is widely viewed that that move was the {blank} move in their victory.
+</description>
+    <title></title>
+    <media>Practice Set 3_Listening - Fill in the blanks - Q6.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>league|fabulous|immediately|solicited|pivotal</answer>
+  </template>
+</question>
+<question>
+  <id>7b0150af96a84899b9659c153b8c7867</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 3_Listening - Highlight Correct Summary - Q7.tpm</media>
+    <delay>10</delay>
+    <options>
+      <o0>Relaunchers are able to find a job after a career break if they are able to prove that they still have the ability to compete with their colleagues and can perform better after a long time.</o0>
+      <o1>Relaunchers hesitate to get into job after a break as they are not much confident that they can compete with the latest scenario, this is the reason only few of the relaunchers are able to continue with jobs.</o1>
+      <o2>People who take a career break and then join their jobs are called relaunchers, its hard for them to return to work after a certain gap as employers have doubt on their abilities and take their resume as  high-risk proposition.</o2>
+      <o3>Employers view hiring people with a gap on their resume as a high-risk proposition, and individuals on career break can have doubts about their abilities to relaunch their careers, this is the reason they are reluctant to hire any employee with huge gap.</o3>
+    </options>
+    <answer>2</answer>
+  </template>
+</question>
+<question>
+  <id>ea49d52d056345dbb5802c6bc42427fd</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_HIGHLIGHT_CORRECT_SUMMARY</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Click on paragraph that best relates to the recording.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 3_Listening - Highlight Correct Summary - Q8.tpm</media>
+    <delay>10</delay>
+    <options>
+      <o0>The hours spent commuting leads to monumental waste of time, energy and human potential, because of this in most urban centres network expansions are almost impossible, there is a requirement of new sources for our transportation to flow.</o0>
+      <o1>The vascular system is getting clogged because nobody is paying attention on the transportation and the commuting is becoming difficult, leading to waste of time and energy.</o1>
+      <o2>Paris tore down hundreds of historical buildings to create 85 miles of transportation,  in established city the network expansions seem to possible. For our transportation to flow, we need a new source of inspiration.</o2>
+      <o3>There is a need to apply different approach to tackle with the transportation system, But in more established urban centers, significant network expansions are almost impossible: habitat is just too dense, real estate, too expensive and public finances, too fragile.</o3>
+    </options>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>805c433d824e4ba18322aa17c8aff36d</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Which of the statement is TRUE as per the lecture:-</title>
+    <media>Practice Set 3_Listening - Multiple choice, choose single answer - Q9.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>management is connected to their employees.</o0>
+      <o1>companies should not be that transparent to their employees.</o1>
+      <o2>companies should be restricted  to being more connected to their employees.</o2>
+      <o3>companies should give control to their employees.</o3>
+    </options>
+    <answer>3</answer>
+  </template>
+</question>
+<question>
+  <id>cbbc107941914bdd8843039f88618290</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_MULTI_CHOICE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>The speaker talks about how fear:</title>
+    <media>Practice Set 3_Listening - Multiple choice, choose single answer - Q10.tpm</media>
+    <delay>5</delay>
+    <options>
+      <o0>management is connected to their employees.</o0>
+      <o1>companies should not be that transparent to their employees.</o1>
+      <o2>companies should be restricted  to being more connected to their employees.</o2>
+      <o3>companies should give control to their employees.</o3>
+    </options>
+    <answer>3</answer>
+  </template>
+</question>
+<question>
+  <id>d21dac0f5ae544be957853c986fa361d</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on Human rights. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 3_Listening - Select missing word - Q11.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>quit</o0>
+      <o1>persist</o1>
+      <o2>trap</o2>
+      <o3>take over</o3>
+    </options>
+    <answer>1</answer>
+  </template>
+</question>
+<question>
+  <id>15ae2479db0b47839b268c4936618696</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_SELECT_MISSING_WORD</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording on Organization of Life on Earth. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 3_Listening - Select missing word - Q12.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>ideas</o0>
+      <o1>figures</o1>
+      <o2>information</o2>
+      <o3>system</o3>
+    </options>
+    <answer>2</answer>
+  </template>
+</question>
+<question>
+  <id>43640125ea5d4d77bf029b4809fe7afb</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Some of the habits of mind that we have created over the 20th century have paid off in unexpected areas. I'm mainly a moral philosopher. I merely have a holiday in psychology, and what interests me in general is moral debate. Now over the last century, in developed nations like America, moral debate has risen because we take the hypothetical seriously, and we also take universals seriously and look for logical connected.</description>
+    <title></title>
+    <media>Practice Set 3_Listening - Highlight Incorrect Words- Q13.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>created|mainly|risen|connected</answer>
+  </template>
+</question>
+<question>
+  <id>d0159050b43b4d6f9a597bf78048c3f1</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different. </instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Keeping wages secret leads to what economists call "information asymmetry." This is a situation where, in a negotiation, one party has huge more information than the other. And in hiring or promotion or annual increment discussions, an employer can use that secrecy to save a lot of money. Imagine how much better you could negotiate for a raise if you knew everybody's income.</description>
+    <title></title>
+    <media>Practice Set 3_Listening - Highlight Incorrect Words- Q14.tpm</media>
+    <delay>8</delay>
+    <maxWordCount>200</maxWordCount>
+    <options></options>
+    <answer>wages|huge|increment|can</answer>
+  </template>
+</question>
+<question>
+  <id>c95616f8d512478494ede6546b5cd232</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 3_Listening - Write from dictation- Q15.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>Academic writing becomes easy with practice.</answer>
+  </template>
+</question>
+<question>
+  <id>505dc5db1f654a2597b22d365c647af2</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 3_Listening - Write from dictation- Q16.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>Mr. Grennan helped take care of the children and taught them English.</answer>
+  </template>
+</question>
+<question>
+  <id>c6a0b31fc95c441198e999a04dbc86fe</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>LISTEN_AND_DICTATE</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a sentence. Type the sentence in the box below exactly as you hear it. Write as much of the sentence as you can. You will hear the sentence only once.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <media>Practice Set 3_Listening - Write from dictation- Q17.tpm</media>
+    <delay>7</delay>
+    <maxWordCount>200</maxWordCount>
+    <answer>They are riding very fast, some horses seem to be without riders.</answer>
+  </template>
+</question>
+<!-- TEST 3 END-->
 
 </questions>

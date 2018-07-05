@@ -3135,4 +3135,1999 @@ But this is only one of several ideas and many experts disagree with it, saying 
 
   <!--TEST 5 END-->
   
+  <!--TEST 6-->
+  <question>
+  <id>a240bf140d32485bad2e44d26575e7c7</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>One day in 1853, a {blank} at Moon Lake Lodge in Saratoga Springs, New York, refused to eat an order of French fries because they were too {blank} The chef, George Crum, fried a thinner batch, but the customer also {blank} them. Crum decided to teach the diner a lesson. He sliced a potato paper-thin and {blank} it so heavily it could not be cut with a fork. But the customer loved them. Soon other customers were asking for potato chips.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>neglected</o0>
+        <o1>diner</o1>
+        <o2>thin</o2>
+        <o3>thick</o3>
+        <o4>rejected</o4>
+        <o5>fried</o5>
+        <o6>cooked</o6>
+        <o7>bistro</o7>
+      </blank>
+    </blanks>
+    <answer>1|3|4|5</answer>
+  </template>
+</question>
+<question>
+  <id>71eb70a2252b4d2d8c07759cc14d19cc</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The North Atlantic Ocean crossing on the Titanic was expected to set a new standard for {blank} travel in terms of comfort and {blank} The shipping industry had an excellent safety {blank} on the North Atlantic Crossing over the previous forty years and the Titanic was the finest and safest liner ever built. The Titanic combined the greatest technology of the day with sheer {blank} , luxury and new safety features.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>safety</o0>
+        <o1>water</o1>
+        <o2>recorded</o2>
+        <o3>ocean</o3>
+        <o4>note</o4>
+        <o5>size</o5>
+        <o6>passenger</o6>
+        <o7>measurement</o7>
+      </blank>
+    </blanks>
+    <answer>3|0|2|5</answer>
+  </template>
+</question>
+<question>
+  <id>c574523e3fb247e7984d266b373434fb</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Children differ {blank} . in their mathematical {blank} . In fact, some children cannot routinely add or subtract, even after extensive schooling. This new paper proposes that math disability arises from {blank} . in brain areas supporting procedural memory. Procedural memory is a learning and memory {blank} . that is crucial for the automatization of non-conscious skills, such as driving or grammar.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>substantial</o0>
+        <o1>abilities</o1>
+        <o2>abnormal</o2>
+        <o3>systems</o3>
+        <o4>substantially</o4>
+        <o5>ability</o5>
+        <o6>abnormalities</o6>
+        <o7>system</o7>
+      </blank>
+    </blanks>
+    <answer>4|1|6|7</answer>
+  </template>
+</question>
+<question>
+  <id>676f6fd8e97046018736d19fac8224d6</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+ <description>In Ethiopia, honey trickles {blank} . centuries of culture and religion. It {blank} in 4th-Century Christian frescoes and tapestries, where saints are seen clutching bereles, the traditional fat-bottomed flasks used for serving tej. Lalibela, the town 1,100km north of the Bale Mountains that’s famous for its 13th-Century monolithic churches, even translates as ‘honey eater’. It’s named after King Lalibela who,{blank} to legend, was swarmed by bees as a newborn, {blank} .emerging unscathed. His mother named him Lalibela, declaring the bees had recognized him as a ruler.                                     
+</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>miraculously</o0>
+        <o1>although</o1>
+        <o2>through</o2>
+        <o3>varieties</o3>
+        <o4>features</o4>
+        <o5>suspiciously</o5>
+        <o6>according</o6>
+      </blank>
+    </blanks>
+    <answer>2|4|6|0</answer>
+  </template>
+</question>
+<question>
+  <id>4561bddc325947da81bf4ee7c0c4d8fb</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>In the Bale Mountains, honey is both part of everyday life and a symbol of social status. Families with larger numbers of beehives and a higher {blank} . of honey are held in high regard. Ownership is sacred, and {blank} .of other beekeepers’ honey or hives is rare: if caught, the culprit is shunned by his neighbours. Spoonfuls are taken in the morning, the antibiotic properties believed to ward off illness and soothe the soul. Bees {blank} up to 20 different plants, resulting in a {blank} , perfumed honey. Nectar gathered from Hagenia trees, whose dusky pink blooms are brewed into a tea to treat tapeworm, adds medicinal value.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>theft</o0>
+        <o1>stealing</o1>
+        <o2>complex</o2>
+        <o3>pollinate</o3>
+        <o4>yield</o4>
+        <o5>confusion</o5>
+        <o6>collected</o6>
+      </blank>
+    </blanks>
+    <answer>4|0|3|2</answer>
+  </template>
+</question>
+<question>
+  <id>28f38e598fe148d3903374c097cd78bd</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Rice That Fights Global Warming
+More than half the global population relies on rice as a regular part of their diet. But rice paddies have a downside for the planet too: they produce as much as 17 percent of the world's total methane emissions. That is even more than coal mining emissions, which make 10 percent of total! So Christer Jansson, a plant biochemist at the Pacific Northwest National Laboratory, spent the past 10 years developing SUSIBA2, a genetically modified rice plant that emits almost no methane.</description>
+    <title>What is the negative effect of rice?</title>
+    <options>
+      <o0>It is regular part of more than half of the world population’s diet.</o0>
+      <o1>Rice paddies emit more methane than coal mining industry.</o1>
+      <o2>Its plantations produce 17% of the world’s total methane emissions.</o2>
+      <o3>Rice has genetically modified sort SUSIBA2, which is harmful for health.</o3>
+    </options>
+    <picture></picture>
+    <answer>2</answer>
+  </template>
+</question>
+<question>
+  <id>54dd2208144948ca9d29f8cd82dbba66</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Is violence innate?
+ In 1983, archaeologists in southern Germany discovered a mass grave containing 34 skeletons. They included 9 adult males, 7 adult females and 16 children. All of the skeletons showed signs of fatal trauma, including head wounds. None of them showed any signs of defensive wounds, suggesting they were killed whilst running away. 
+ The "Talheim Death Pit" dates from the Stone Age, around 7,000 years ago. It offers some of the oldest evidence of organized group violence between two communities: that is, of war. 
+ Clearly, humans have been fighting wars for thousands of years, and we may not be the only ones. There is growing evidence that several other species also engage in warfare, including our closest relatives the chimpanzees. That suggests we have inherited our predilection for warfare from our ape-like ancestors. But not everyone agrees that warfare is inbuilt. </description>
+    <title>Why do human beings fight, according to the article? </title>
+    <options>
+      <o0>Because they have been fighting wars for thousands of years.</o0>
+      <o1>Because chimpanzees, who are humans’ closest relatives, engage in warfare</o1>
+      <o2>Because fighting is their inbuilt instinct.</o2>
+      <o3>Because humans inherited predilection for warfare from their ape-like ancestors</o3>
+    </options>
+    <picture></picture>
+    <answer>3</answer>
+  </template>
+</question>
+<question>
+  <id>82fb2c2e38224d3297ff9eeb2213a2a3</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>REORDER</type>
+  <itemType>READING</itemType>
+  <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <options>
+      <o0>The findings, described in a paper published Aug. 11 on arXiv.org, reveal that HD 87646 is the first close binary system with more than one substellar circum-primary companion known to date.</o0>
+      <o1> The system has a separation of only 22 AU between the two stars.</o1>
+      <o2>The primary star in the system, HD 87646A, is about 12 percent more massive than the sun and has a radius of about 1.55 solar radii.</o2>
+      <o3>HD 87646, located around 240 light years away, is a bright G-type star with a fainter K-type stellar companion.</o3>
+      <o4>An international team of astronomers reports the discovery of a giant planet and a brown dwarf in a close binary system designated HD 87646.</o4>
+    </options>
+    <answer>1|4|3|2|0</answer>
+  </template>
+</question>
+<question>
+  <id>40398a842f5046ee8ccb6028c50e12d1</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>REORDER</type>
+  <itemType>READING</itemType>
+  <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <options>
+      <o0>There are still problems that cannot be resolved by the theory, such as dark energy.</o0>
+      <o1>Despite Einstein’s correct predictions, his theory of relativity does not answer all the questions of the universe.</o1>
+      <o2>Physicists and astronomers across the world are focusing their efforts on finding out what this ‘something’ is.</o2>
+      <o3>Dark energy is a phrase used by physicists to describe a mysterious ‘something’ that is causing the universe to accelerate.</o3>
+    </options>
+    <answer>1|0|3|2</answer>
+  </template>
+</question>
+<question>
+  <id>c216655fb806460b9b3c1026c7929055</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting the correct response. More than one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>When he was awarded an Honorary Degree by the University of Newcastle, even John Robertson himself must surely have looked back in wonder at his astonishing rise to success.
+The year was 1910, and those assembled were to hear not only of his generosity to the University, which enabled it to contribute to the pioneering research into tropical diseases being carried out at that time, but also of his humanitarian work in southern Africa, where he was ahead of his time in improving the working conditions of local mine workers.
+To those who knew John in his youth, it will have come as no surprise to hear of his success. He was now enjoying the rewards of the fierce determination, desire to succeed and extraordinary ability to acquire knowledge, which they had noticed in the young man.
+</description>
+    <title>What does the reader of this text learn about John Robertson?</title>
+    <options>
+      <o0>He was born in Africa</o0>
+      <o1>His abilities were evident at a young age</o1>
+      <o2>He studied medicine</o2>
+      <o3>He completed his degree in 1910</o3>
+      <o4>He achieved success rapidly</o4>
+    </options>
+    <picture></picture>
+    <answer>1|4</answer>
+  </template>
+</question>
+<question>
+  <id>49095e2b665c4b34988b46614b081982</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting the correct response. More than one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The Turks and Caicos Islands are a multi-island archipelago at the southern tip of the Bahamas chain, approximately 550 miles south-east of Florida. The islands are an overseas territory of the United Kingdom although they exercise a high degree of local political autonomy. The economy of the islands rests mainly on tourism, with some contribution from offshore banking and fishing.
+Primary schooling is divided into eight grades, with most pupils entering at the age of four years and leaving at twelve. After two kindergarten years, Grades 1-6 are covered by a graded curriculum in maths, language and science that increases in difficulty as pupils get older. There is little repetition and pupils are expected to progress through primary school in their age cohorts. At the end of primary schooling, pupils sit an examination that serves to stream them in the secondary setting. Primary and secondary school enrolment is virtually universal.
+There are a total of ten government primary schools on the islands. Of these, seven are large enough to organize pupils into single grade classrooms. Pupils in these schools are generally grouped by age into mixed-ability classes. The remaining three schools, because of their small pupil numbers, operate with multigrade groupings. They serve communities with small populations whose children cannot travel to a neighboring larger primary school. Pupils in these classes span up to three grade and age groups.
+As far as classroom organization is concerned, the multigrade and monograde classrooms are similar in terms of the number of pupils and the general seating arrangements, with pupils in rows facing the blackboard. There is no evidence that the multigrade teachers operate in a particularly resource-poor environment in the Turks and Caicos Islands. This is in contract to studies conducted in other developing country contexts.
+</description>
+    <title>According to the text, which of the following statements can be concluded about primary classes in the Turks and Caicos Islands?</title>
+    <options>
+      <o0>Multigrade classes are mostly found in smaller schools.</o0>
+      <o1>Most primary pupils are in multigrade classes</o1>
+      <o2>Parents can choose to send their child to a multigrade school</o2>
+      <o3>Most primary pupils are in mixed-ability classes.</o3>
+      <o4>Multigrade classes are for the youngest three grades</o4>
+    </options>
+    <picture></picture>
+    <answer>0|3</answer>
+  </template>
+</question>
+<question>
+  <id>49476844efdc49d29e9e33f39418f4fe</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Satya Nadella said at the World Economic Forum in Davos that {blank} quantum computers were needed to solve some of the most difficult problems. Mr Nadella cited the {blank} to create a catalyst that can absorb carbon, in order to help tackle climate change. This, he {blank} , would likely not be achieved without an increase in computer processing power. "Moore's Law is kinda running out of steam," Mr Nadella told assembled delegates, {blank} to the maxim that the power of computer chips doubles every two years. He added that quantum computing was needed "to create all of these rich experiences we talk about, all of this artificial intelligence".</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>known</o0>
+        <o1>superfast</o1>
+        <o2>super quick</o2>
+        <o3>prominent</o3>
+      </blank>
+      <blank>
+        <o0>wish</o0>
+        <o1>desire</o1>
+        <o2>quest</o2>
+        <o3>appetite</o3>
+      </blank>
+      <blank>
+        <o0>cautioned</o0>
+        <o1>has cautioned</o1>
+        <o2>is cautioned</o2>
+        <o3>will caution</o3>
+      </blank>
+      <blank>
+        <o0>was referring</o0>
+        <o1>is referring</o1>
+        <o2>referred</o2>
+        <o3>referring</o3>
+      </blank>
+    </blanks>
+    <answer>1|2|0|3</answer>
+  </template>
+</question>
+<question>
+  <id>3795a14d039d49328e5d926dc60b5dad</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>In a world where how fast you can {blank} and analyze data, then act on it, makes the difference between profit and loss, computing speed is key. This is why banks, insurance firms and hedge funds invest millions on technology to give them an edge when trading and to offset human error. Quantum computers, that {blank} more to quantum mechanics than electronics, promise to be exponentially more powerful than traditional computers, holding out the {blank}  prospect of near-perfect trading strategies and highly {blank} forecasting and risk assessments.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>assimilate</o0>
+        <o1>accommodated</o1>
+        <o2>adopted</o2>
+        <o3>misunderstood</o3>
+      </blank>
+      <blank>
+        <o0>agreed</o0>
+        <o1>owed</o1>
+        <o2>owe</o2>
+        <o3>pledged</o3>
+      </blank>
+      <blank>
+        <o0>tantalizing</o0>
+        <o1>was tantalizing</o1>
+        <o2>tantalized</o2>
+        <o3>is tantalized</o3>
+      </blank>
+      <blank>
+        <o0>accurate</o0>
+        <o1>perfection</o1>
+        <o2>proposed</o2>
+        <o3>similar</o3>
+      </blank>
+    </blanks>
+    <answer>0|2|0|0</answer>
+  </template>
+</question>
+<question>
+  <id>ea8b848695fe41c8bd6f57bd4de98914</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>{blank} computing relies on binary digits or bits - ones and zeros representing on/off, true/false states. Quantum computing, on the other hand, features qubits, which can be both 0 or 1 at the same time - a state known as superposition. It all goes back to Schrodinger's cat, but that's another story...
+Subatomic particles such as electrons, photons or ions can be made to behave in this {blank} way. And because of this {blank} , qubits can do a lot more - a quantum computer could theoretically carry out trillions of calculations per second.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>modernization</o0>
+        <o1>ancient</o1>
+        <o2>classical</o2>
+        <o3>super</o3>
+      </blank>
+      <blank>
+        <o0>fictitious</o0>
+        <o1>mysterious</o1>
+        <o2>complicated</o2>
+        <o3>complex</o3>
+      </blank>
+      <blank>
+        <o0>diligently</o0>
+        <o1>flexibility</o1>
+        <o2>grating</o2>
+        <o3>brittle</o3>
+      </blank>
+    </blanks>
+    <answer>2|1|1</answer>
+  </template>
+</question>
+<question>
+  <id>8e2bc3089b8f4ded87a141ff747b1513</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Chronic stress {blank} our sleep and our blood sugar levels. This leads to increased hunger and comfort eating. And that then leads to further disrupted sleep, even higher levels of stress and even more disrupted blood sugars. In time, this can lead not only to {blank} levels of body fat, but also to type-2 diabetes. To see what can happen, Dr Giles Yeo, a member of the Trust Me, I'm a Doctor team, decided, with the help of scientists from Leeds University, to put himself through a {blank} stressful day.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>disrupts</o0>
+        <o1>interruption</o1>
+        <o2>intervene</o2>
+        <o3>intermission</o3>
+      </blank>
+      <blank>
+        <o0>unhygienic</o0>
+        <o1>unhealthy</o1>
+        <o2>saturated</o2>
+        <o3>unsaturated</o3>
+      </blank>
+      <blank>
+        <o0>particularly</o0>
+        <o1>essentially</o1>
+        <o2>significantly</o2>
+        <o3>carefully</o3>
+      </blank>
+    </blanks>
+    <answer>0|1|0</answer>
+  </template>
+</question>
+<question>
+  <id>e6251a0033df496dad7fe3e666f83886</id>
+  <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Cyrrhus once served as a military base for the Romans {blank} campaigns against the Armenian Empire to the north. By the 4th Century it had become an important centre for Christianity with its own bishop, but {blank} in the 12th Century after losing its {blank} role. Nearby stands the landmark which gives the site its local name, al-Nabi Houri, the pyramid-roofed tomb of Uriah the Hittite, {blank} to his death in battle by Israelite King David so that he could marry the lovely Bathsheba, his widow, {blank} to the scriptures.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>is conducted</o0>
+        <o1>conducting</o1>
+        <o2>conducted</o2>
+        <o3>conduct</o3>
+      </blank>
+      <blank>
+        <o0>abondoned</o0>
+        <o1>is abondoned</o1>
+        <o2>was abondoned</o2>
+        <o3>has abondoned</o3>
+      </blank>
+      <blank>
+        <o0>main</o0>
+        <o1>essential</o1>
+        <o2>strategy</o2>
+        <o3>strategic</o3>
+      </blank>
+      <blank>
+        <o0>was sent</o0>
+        <o1>send</o1>
+        <o2>sent</o2>
+        <o3>was sending</o3>
+      </blank>
+      <blank>
+        <o0>as per</o0>
+        <o1>based on</o1>
+        <o2>accordingly</o2>
+        <o3>according</o3>
+      </blank>
+    </blanks>
+    <answer>1|2|3|2|3</answer>
+  </template>
+</question>
+
+  <!--TEST 6 END-->
+
+  <!-- TEST 7-->
+  <question>
+  <id>e9d805bb00ea45e8a3c716e202b3f37a</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The decline of the Gupta power in northern India between the close of 5th and the 6th century A.D. gave rise to various small independent kingdoms and {blank} foreign invasions of Huns. Toramara was the leader of the Huns and was successful in {blank} large parts of the Gupta Empire. His son, Mihirakula was a cruel barbarian and one of the worst tyrants known. Two native powerful princes, Yasodharman of Malwa and Baladitya of Magadha {blank} his power and put an end to his {blank} in India.
+</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>crushed</o0>
+        <o1>crush</o1>
+        <o2>attracted</o2>
+        <o3>reign</o3>
+        <o4>detach</o4>
+        <o5>appropriation</o5>
+        <o6>annexing</o6>
+      </blank>
+    </blanks>
+    <answer>2|6|0|3</answer>
+  </template>
+</question>
+<question>
+  <id>89525cd2467c461584e4835f3273417e</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>A lot of students believe that sometimes coming up with a workable idea or a topic is more challenging than actually researching and writing about it. Psychology is one such interesting subject, which is very broad in scope, but sometimes your ideas get {blank} in a bottleneck situation. It becomes even more difficult when you are near the end, but couldn’t draw any {blank} due to the limited scope of the topic. Therefore, it is very important that the students should research well about the limitations, advantages and scope of the topic.
+If there is a subject that offers one a {blank} of characters, facets and life teachings, it is English Literature. From the start of time till the present days, English Literature has been one of the most loved and {blank} read subjects in the world. It was also one of the earliest forms of study known to man, and perhaps no other subject has ever seen such {blank} authors as has Literature. Be it Homer or Paulo Coelho, Literature teaches everyone something.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>hugely</o0>
+        <o1>conclusion</o1>
+        <o2>widely</o2>
+        <o3>scarcity</o3>
+        <o4>wider</o4>
+        <o5>plethora</o5>
+        <o6>prolific</o6>
+        <o7>strangled</o7>
+      </blank>
+    </blanks>
+    <answer>7|1|5|2|6</answer>
+  </template>
+</question>
+<question>
+  <id>37693837774f400f9bde9ea2e50aeef8</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Milton composed his great piece of work “Paradise Lost” as a blind poet during the period 1658-1664. Several critics are of the view that this poem reflects the personal despair of Milton due to the failure of Revolution. In 1671, Milton published, “Paradise Regained” a {blank} to “Paradise Lost”. In addition, he published a tragedy “Samson Agonistes” alongside that sequel in 1671. In 1673, Milton {blank} his 1645 poem collection accompanied by Latin prolusions and collections of his letters from his Cambridge days. In his prose works, he advocated for the {blank} of the Church of England and the execution of King Charles I. After the restoration of King Charles-II in 1660, he supported in his works a political philosophy, which opposed {blank} and religion that is state-sanctioned. He derived his philosophy from the English civil wars.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>republished</o0>
+        <o1>abolition</o1>
+        <o2>democracy</o2>
+        <o3>sequel</o3>
+        <o4>commencement</o4>
+        <o5>tyranny</o5>
+        <o6>inception</o6>
+      </blank>
+    </blanks>
+    <answer>3|0|1|5</answer>
+  </template>
+</question>
+<question>
+  <id>f658e36008b443318c22b08e1135b934</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The Vedic civilization is the {blank} civilization in the history of ancient India. It is named after the Vedas, the early {blank} of the Hindu people. The Vedic Civilization {blank} along the river Saraswati, in a region that now consists of the modern Indian states of Haryana and Punjab. Vedic is {blank} with Hinduism, which is another name for religious and spiritual thought that has evolved from the Vedas.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>synonymous</o0>
+        <o1>prospering</o1>
+        <o2>anonymous</o2>
+        <o3>literature</o3>
+        <o4>earliest</o4>
+        <o5>ancient</o5>
+        <o6>flourished</o6>
+      </blank>
+    </blanks>
+    <answer>4|3|6|0</answer>
+  </template>
+</question>
+<question>
+  <id>4f78f06b05984abc8017aecf30520394</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>India's history and culture is dynamic, spanning back to the beginning of human civilization. It begins with a {blank} culture along the Indus River and in farming communities in the southern lands of India. The history of India is punctuated by {blank} integration of migrating people with the {blank} cultures that surround India. Available evidence suggests that the use of iron, copper and other metals was{blank} prevalent in the Indian sub-continent at a fairly early period, which is indicative of the progress that this part of the world had made. By the end of the fourth millennium BC, India had {blank} as a region of highly developed civilization.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>fluctuating </o0>
+        <o1>emerged</o1>
+        <o2>widely</o2>
+        <o3>diversity</o3>
+        <o4>mysterious</o4>
+        <o5>diverse</o5>
+        <o6>constant</o6>
+      </blank>
+    </blanks>
+    <answer>4|6|5|2|1</answer>
+  </template>
+</question>
+<question>
+  <id>91550b4d829941d8b3d7a5accaa3030a</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The History of India begins with the birth of the Indus Valley Civilization, more {blank} known as Harappan Civilization. It {blank} around 2,500 BC, in the western part of South Asia, what today is Pakistan and Western India. The Indus Valley was home to the {blank} of the four ancient urban civilizations of Egypt, Mesopotamia, India and China. Nothing was known about this civilization till 1920s when the Archaeological Department of India {blank} excavations in the Indus valley wherein the ruins of the two old cities, viz. Mohenjodaro and Harappa {blank} . The ruins of buildings and other things like household articles, weapons of war, gold and silver ornaments, seals, toys, pottery wares, etc., show that some four to five thousand years ago a highly developed Civilization flourished in this region.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>importantly</o0>
+        <o1>precisely</o1>
+        <o2>unsurely</o2>
+        <o3>questionably</o3>        
+      </blank>
+      <blank>
+        <o0>flourished</o0>
+        <o1>prosper</o1>
+        <o2>flourish</o2>
+        <o3>was flourished</o3>
+      </blank>
+      <blank>
+        <o0>largely</o0>
+        <o1>large</o1>
+        <o2>larger</o2>
+        <o3>largest</o3>
+      </blank>
+      <blank>
+        <o0>gave away</o0>
+        <o1>carry out</o1>
+        <o2>keep away</o2>
+        <o3>carried out</o3>
+      </blank>
+      <blank>
+        <o0>unearthed</o0>
+        <o1>unearthing</o1>
+        <o2>was unearthed</o2>
+        <o3>were unearthed</o3>
+      </blank>
+    </blanks>
+    <answer>1|0|3|3|3</answer>
+  </template>
+</question>
+<question>
+  <id>314f3529619d4c76b318dc082c62b20a</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Despite her Jewish father and Protestant stepmother, Dorothy Parker studied at a Roman Catholic elementary school. After just three years of marriage, Parker’s stepmother {blank} in 1903, when Parker was only nine years old. Later, Parker went to Miss Dana’s School in Morristown, New Jersey and {blank} her high school education. She earned her diploma there in 1911 at the age of eighteen. Following her father’s {blank} two years later, Parker started playing piano at a dancing school to make a living, besides working on her poetry. After a long struggle, Parker published her first poem in the magazine Vanity Fair in 1914. After a {blank} of months, she got a job offer as an editorial assistant for another magazine, Vogue. She worked there for two years, and also started working as a staff writer {blank} Vanity Fair.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>death</o0>
+        <o1>die</o1>
+        <o2>were died</o2>
+        <o3>was died</o3>
+      </blank>
+      <blank>
+        <o0>were completed</o0>
+        <o1>completed</o1>
+        <o2>is completed</o2>
+        <o3>was completed</o3>
+      </blank>
+      <blank>
+        <o0>demise</o0>
+        <o1>prosperity</o1>
+        <o2>demission</o2>
+        <o3>decline</o3>
+      </blank>
+      <blank>
+        <o0>few</o0>
+        <o1>lot</o1>
+        <o2>couple</o2>
+        <o3>little</o3>
+      </blank>
+      <blank>
+        <o0>while</o0>
+        <o1>in</o1>
+        <o2>to</o2>
+        <o3>for</o3>
+      </blank>
+    </blanks>
+    <answer>3|1|0|2|3</answer>
+  </template>
+</question>
+<question>
+  <id>c52b8393885f4544be43abe34b03b166</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>During the life time of Lord Gautam Buddha, sixteen great powers (Mahajanpadas) existed in the 7th and early 6th centuries BC. Among the {blank} republics were the Sakyas of Kapilavastu and the Licchavis of Vaishali. Besides the republics, there were monarchical states, among which the important ones were Kaushambi (Vatsa), Magadha, Kosala and Avanti. These states {blank} by vigorous personalities who {blank} upon the policies of aggrandisement and absorption of neighbouring states. However, there were {blank} signs of the republican states while those under the monarchs {blank} .</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>important</o0>
+        <o1>importantly</o1>
+        <o2> most importantly</o2>
+        <o3>more important</o3>
+      </blank>
+      <blank>
+        <o0>rules</o0>
+        <o1>was ruled</o1>
+        <o2>is ruled</o2>
+        <o3>were ruled</o3>
+      </blank>
+      <blank>
+        <o0>had embarked</o0>
+        <o1>was embarked</o1>
+        <o2>had ended</o2>
+        <o3>has started</o3>
+      </blank>
+      <blank>
+        <o0>unique</o0>
+        <o1>distinguish</o1>
+        <o2>distinct</o2>
+        <o3>distinction</o3>
+      </blank>
+      <blank>
+        <o0>are expanding</o0>
+        <o1>were expanding</o1>
+        <o2>expanded</o2>
+        <o3>expansion</o3>
+      </blank>
+    </blanks>
+    <answer>3|3|0|2|1</answer>
+  </template>
+</question>
+<question>
+  <id>5dbb6097b4984dc5bb1057afa125fe0f</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The period of the Mauryan Empire (322 BC-185 BC) {blank} a new epoch in the history of India. It is said to be a period when chronology became {blank}. It was a period when politics, art, trade and commerce {blank} India to a glorious height. It was a period of unification of the territories which lay as fragmented kingdoms. Moreover, Indian contact with the outside world was established {blank} during this period.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>is marked</o0>
+        <o1>marked</o1>
+        <o2>has marked</o2>
+        <o3>was marking</o3>
+      </blank>
+      <blank>
+        <o0>ambiguous</o0>
+        <o1>definite</o1>
+        <o2>indefinite</o2>
+        <o3>exact</o3>
+      </blank>
+      <blank>
+        <o0>are elevated</o0>
+        <o1>were elevated</o1>
+        <o2>elevated</o2>
+        <o3>elevate</o3>
+      </blank>
+      <blank>
+        <o0>defectively</o0>
+        <o1>effective</o1>
+        <o2>effectiveness</o2>
+        <o3>effectively</o3>
+      </blank>
+    </blanks>
+    <answer>1|1|2|3</answer>
+  </template>
+</question>
+<question>
+  <id>c13685a144234ab3b58dedfe5266acf1</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Meteorologists {blank} define four seasons in many climatic areas: spring, summer, autumn (fall) and winter. These are demarcated by the values of their average temperatures on a monthly basis, with each season lasting three months. The three warmest months are by definition summer, the three coldest months are winter and the {blank} gaps are spring and autumn. Spring, when defined in this manner, can start on different dates in different regions.
+In most Northern Hemisphere {blank} locations, spring months are March, April and May, although differences exist from country to country. Most Southern Hemisphere temperate locations have {blank} seasons with spring in September, October and November.
+Swedish meteorologists define the beginning of spring as the first occasion on which the average daytime temperature exceeds zero degrees Celsius for seven {blank} days, thus the date varies with latitude and elevation. In Australia and New Zealand, spring conventionally begins on 1 September and ends 30 November. </description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>essentially</o0>
+        <o1>generally</o1>
+        <o2>initially</o2>
+        <o3>basically</o3>
+      </blank>
+      <blank>
+        <o0>huge</o0>
+        <o1>intervening</o1>
+        <o2>continuous</o2>
+        <o3>disruptive</o3>
+      </blank>
+      <blank>
+        <o0>stormy</o0>
+        <o1>cool</o1>
+        <o2>severe</o2>
+        <o3>temperate</o3>
+      </blank>
+      <blank>
+        <o0>favoring</o0>
+        <o1>allied</o1>
+        <o2>combat</o2>
+        <o3>opposing</o3>
+      </blank>
+      <blank>
+        <o0>infrequent</o0>
+        <o1>inconsecutive</o1>
+        <o2>consecutive</o2>
+        <o3>illogical</o3>
+      </blank>
+    </blanks>
+    <answer>1|1|3|3|2</answer>
+  </template>
+</question>
+<question>
+  <id>57750e34732f4ae8aee3c76a2a5af64d</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting all the correct response. More than one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>At the time of the Titanic’s maiden voyage in 1912, the ship was confidently proclaimed to be unsinkable. Her builders, crew and passengers had no doubt that she was the finest ship ever built. But still she did sink on April 14, 1912, taking 1,517 of her passengers and crew with her. The Titanic had sixteen lifeboats which could carry just over half the number of people on board and only a third of the Titanic’s total capacity. The belief that the Titanic was unsinkable was so strong that passengers and crew alike clung to the belief even as she was actually sinking. Not realizing the magnitude of the impending disaster themselves, the officers allowed several boats to be lowered only half full. The officers were afraid the lifeboats would buckle under the weight of the passengers as they had not been informed that the lifeboats had been fully tested prior to departure. As the Titanic sank, another ship, believed to have been the Californian, was seen less than twenty miles away. The Californian’s wireless operator slept unaware while 1,500 Titanic passengers and crew drowned only a few miles away.</description>
+    <title>According to text, which of the following are true statements about the Titanic?</title>
+    <options>
+      <o0>Nobody had thought of installing enough lifeboats to accommodate all the passengers.</o0>
+      <o1>The officers had grave concerns about the lifeboats would not be capable of holding so many passengers.</o1>
+      <o2>The news of this tragic event created waves of sadness across the world.</o2>
+      <o3>The enormous loss of life on the Titanic was primarily caused by inadequate equipment, training and procedures.</o3>
+    </options>
+    <picture></picture>
+    <answer>1|3</answer>
+  </template>
+</question>
+<question>
+  <id>544b391de94e4bcaafffbe012cd7c309</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting all the correct response. More than one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The paleolithic diet is based mainly on foods presumed to be available to paleolithic humans who lived 2.6 million years ago. This diet includes vegetables, fruits, nuts, roots, meat, and organ meats. The Paleolothic diet excludes foods such as dairy products, grains, sugar, legumes, processed oils, salt, and alcohol or coffee. The diet is based on avoiding not just modern processed foods, but also on eating the foods that humans during Paleolithic times ate. Like other fad diets, the Paleo diet as it is referred to, is promoted as a way of improving health.  There is limited data on the health effects on humans eating this diet.
+The digestive abilities of modern humans are different from those of paleolithic humans, undermining the diet’s core premise. Although little is known about the diet of Paleolithic humans, it is very likely that they consumed wild grains and legumes. During the Paleolithic era, the highly variable climate and worldwide spread of human population meant that humans were nutritionally adaptable. In contrast, supporters of the diet assume that human digestion has remained essentially unchanged over time. </description>
+    <title>Which of the following are true statements about the paleolithic diet?</title>
+    <options>
+      <o0>It has little proven health benefits.</o0>
+      <o1>It is based on what our human ancestors ate.</o1>
+      <o2>It is adapted to the digestion of modern humans.</o2>
+      <o3>Our human ancestors probably ate more than what is included in today’s “paleolithic” diet.</o3>
+    </options>
+    <picture></picture>
+    <answer>0|3</answer>
+  </template>
+</question>
+<question>
+  <id>3e7e5d76a8f340bcad2bfa7aa82e1ef9</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting  the correct response. Only one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>There are many grim landmarks in the history of aviation. One in particular stands out. Three decades ago, 720 travellers and crew lost their lives on board commercial aircraft in a single month - more than in any other before or since.
+The deaths occurred in four separate accidents in August 1985. Each disaster had quite different causes. The aircraft involved ranged from a 747 with hundreds on board to a tiny twin engine turboprop carrying just eight people.</description>
+    <title>Twin engine turboprop could carry:</title>
+    <options>
+      <o0>eight people</o0>
+      <o1>four people</o1>
+      <o2>two people</o2>
+      <o3>only a pilot</o3>
+    </options>
+    <picture></picture>
+    <answer>0</answer>
+  </template>
+</question>
+<question>
+  <id>e178d791a0c04292b070141b41932193</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting  the correct response. Only one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Why does coffee shoot out of the lid of your cup?
+You're running late for work and you've purchased your coffee in a hurry. Just as you arrive at the office, a jet of hot liquid escapes from the tiny hole in the lid, leaving you with hot beverage residue on your clothes before the day has really started.
+This is exactly what happened to Rob Kaczmarek after buying a cup of his favorite caffeinated drink. The marketing director at Convergent Science was intrigued by why the coffee shoots out so far and therefore set about modeling this, initially as a joke for those who enjoy a bit of computational fluid dynamics. It's the design of the lid that's the problem, he explains.</description>
+    <title>What accident might occur at work in the morning, after you bought coffee?</title>
+    <options>
+      <o0>You spill it all over the place accidentally</o0>
+      <o1>You get burns from the hot coffee.</o1>
+      <o2>You contaminate your clothes with it</o2>
+      <o3>Nothing out of ordinary</o3>
+    </options>
+    <picture></picture>
+    <answer>2</answer>
+  </template>
+</question>
+<question>
+  <id>966dd9c695f14c35b71dc68f356799e2</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>REORDER</type>
+  <itemType>READING</itemType>
+  <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <options>
+      <o0>Kangaroo is also a marsupial. </o0>
+      <o1>These mammals carry their babies in a pouch.</o1>
+      <o2>Koala is a type of mammal called a marsupial. </o2>
+      <o3>The kangaroo’s pouch is on her stomach, but the koala’s pouch is on her back.</o3>
+      <o4>Both feed their babies milk and keep them secure in their pouch until they are strong enough to survive on their own.</o4>
+    </options>
+    <answer>1|2|0|3|4</answer>
+  </template>
+</question>
+<question>
+  <id>0025bf649c994fe28f0aed6f3ee3d01b</id>
+  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+  <type>REORDER</type>
+  <itemType>READING</itemType>
+  <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <options>
+      <o0>Such a man goes on working hard and even if he fails he is never downcast.</o0>
+      <o1>It is therefore, the man who labors hard with a strong resolution and an unshaken will, who achieves success and makes his fortune.</o1>
+      <o2>In turn failures make him all the more determined and resolute and he persists in his task till he attains the desired success.</o2>
+      <o3>A man who possesses a strong will and firm determination finds all difficulties solved.</o3>
+      <o4>To him there are a thousand ways open to steer clear of all dangers and difficulties.</o4>
+    </options>
+    <answer>2|4|3|0|1</answer>
+  </template>
+</question>
+  <!-- TEST 7 END-->
+  
+  <!-- TEST 10-->
+  <question>
+  <id>3c69ce22db6746cc909c2dae5ed61d38</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting all the correct response. More than one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>In terrestrial affairs we think of “big” as being complicated; a city is more intricate than a village, an ocean more complicated than a puddle. For the universe, the reverse seems to be the case bigger is simpler Galaxies have some puzzling features, but on the whole, they are scarcely more complicated than the stars that compose them Beyond the galaxies, in the hierarchy of the cosmos, there are clusters of galaxies; these clusters are loosely bound by the gravity of their largest members and tend to look very much the same in all directions. Simplest of all is the universe at large, it is far less complicated than the Earth, one of its most trivial members. The universe consists of billions of galaxies flying apart as if from an explosion that set it in motion, it is not lopsided, nor does it rotate. The more thoroughly scientists investigate the universe, the more clearly its simplicity shines through. Which of the following statements can be supported by the text?</description>
+    <title>Which of the following statements can be supported by the text?</title>
+    <options>
+      <o0>The universe is a relatively simple phenomenon.</o0>
+      <o1>Billions of galaxies are predicted to explode, adding to the universal complexity.</o1>
+      <o2>Galaxy clusters are an illusion.</o2>
+      <o3>Clusters of galaxies are held together by gravity.</o3>
+    </options>
+    <picture></picture>
+    <answer>0|3</answer>
+  </template>
+</question>
+<question>
+  <id>b751ac1f79c7477eb620b3162a765dca</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting all the correct response. More than one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>When we accept the evidence of our unaided eyes and describe the Sun as a yellow star, we have summed up the most important single fact about it-at this moment in time. It appears probable, however, that sunlight will be the color we know for only a negligibly small part of the Sun’s history. Stars, like individuals, age and change. As we look out into space, We see around us stars at all stages of evolution. There are faint blood-red dwarfs so cool that their surface temperature is a mere 4,000 degrees Fahrenheit, there are searing ghosts blazing at 100, 000 degrees Fahrenheit and almost too hot to be seen, for the great part of their radiation is in the invisible ultraviolet range. Obviously, the “daylight” produced by any star depends on its temperature; today(and for ages to come) our Sun is at about 10,000 degrees Fahrenheit, and this means that most of the Sun’s light is concentrated in the yellow band of the spectrum, falling slowly in intensity toward both the longer and shorter light waves.
+That yellow “hump” will shift as the Sun evolves, and the light of day will change accordingly. It is natural to assume that as the Sun grows older, and uses up its hydrogen fuel which it is now doing at the spanking rate of half a billion tons a second- it will become steadily colder and redder. Which of the following statements can be supported by this text?</description>
+    <title>Which of the following statements can be supported by this text?</title>
+    <options>
+      <o0>The passage is mainly about the evolutionary cycle of the Sun</o0>
+      <o1>Hot stars are referred to as “ghosts because they are nearly invisible.</o1>
+      <o2>The important thing about the Sun at the present time is that it appears yellow</o2>
+      <o3>As the Sun continues to age, it is likely to become colder and redder in color.</o3>
+      <o4>Sun has a short history and it always remains the same.</o4>
+    </options>
+    <picture></picture>
+    <answer>1|2|3</answer>
+  </template>
+</question>
+<question>
+  <id>b2c5667b631b4586a915ae67bd689801</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting  the correct response. Only one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>“Uncle” said Luke to the old Sean “You seem to be well fed, though I know no one looks after you. Nor have I seen you leave your residence at any time. Tell me how you manage it?” “Because” Sean replied, “I have a good feed every night at Emperor’s orchard. After dark, I go there myself and pick out enough fruits to last a fortnight.” Luke proposed to accompany his uncle to the orchard. Though reluctant because of Luke’s habit of euphoric exhibition of extreme excitement, Sean agreed to take him along. At the orchard while Sean hurriedly collected the fruits and left, Luke on the other hand at the sight of unlimited supply of fruits was excited and lifted his voice which brought Emperor’s men immediately to his side. They seized him and mistook him as the sole cause of damage to the orchard. Although Luke reiterated that he was a bird of passage, they pounded him mercilessly before setting him free. Which of the following can be inferred from the passage?</description>
+    <title>Which of the following can be inferred from the passage?</title>
+    <options>
+      <o0>Luke did not take good care of his uncle</o0>
+      <o1>Emperor was a wicked man</o1>
+      <o2>Lack of self-control had put Luke into trouble</o2>
+      <o3>Luke had a habit of speaking loudly</o3>
+      <o4>Orchards are meant for the public</o4>
+    </options>
+    <picture></picture>
+    <answer>2</answer>
+  </template>
+</question>
+<question>
+  <id>33c7170063614ec4a45b5a243dbc5335</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting  the correct response. Only one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>A man is known by the book he reads as well as by the company he keeps; for there is a companionship of books as well as of men and one should always live in the best company, whether it be of books or of men. A good book may be among the best of friends. It is the same today that it always was, and it will never change. It is the most patient and cheerful of companions. It does not turn its back upon in times of adversity or distress. It always receives us with the same kindness; amusing and interesting us in youth, comforting and consoling us in age. According to the passage, which of the following statements is not true?</description>
+    <title>According to the passage, which of the following statements is not true?</title>
+    <options>
+      <o0>Good books as well as good men always provide the finest company</o0>
+      <o1>A good book never betrays us</o1>
+      <o2>We have sometimes to be patient with a book as it may bore us</o2>
+      <o3>A good book serves as a permanent friend</o3>
+      <o4>None of these</o4>
+    </options>
+    <picture></picture>
+    <answer>2</answer>
+  </template>
+</question>
+<question>
+  <id>0d19ef1d7bf846d6bf07b8a12bfaea32</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>REORDER</type>
+  <itemType>READING</itemType>
+  <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <options>
+      <o0>This is possible because flying is much more affordable today.</o0>
+      <o1>In contrast, 13 crore tickets were sold for AC coaches in Indian Railways.</o1>
+      <o2>It is not a luxury but a necessity for people who want to get to their destination in the shortest possible time.</o2>
+      <o3>Numbers tell the story, In 2016, around 10 crore passenger-trips were undertaken domestically, and another 5.5 crore passengers flew on international routes.</o3>
+      <o4>Flying is becoming more and more common in India.</o4>
+      <o5>This affordability will continue to drive demand.</o5>
+    </options>
+    <answer>2|5|1|4|0|3</answer>
+  </template>
+</question>
+<question>
+  <id>ee19cba7f6204b96a42adaeffef84236</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>REORDER</type>
+  <itemType>READING</itemType>
+  <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <options>
+      <o0>Thomas Edison invented electrical lights and poles and transformers and all of those things that allow us to just plug in a light bulb to the wall, and it works.</o0>
+      <o1>But most countries don’t have this luxury.</o1>
+      <o2>Off-grid light is a standard way to solve the access to electricity problem in many countries where there is simply no electrical grid as we know it.</o2>
+      <o3>Almost no country in Africa, for example, has a fully developed grid, so they have to create electricity in other ways, what they use is a very basic solution, which is a kerosene-burning lamp.</o3>
+      <o4>There are many problems with kerosene, and toxicity is just one problem. Then there are issues with the quality of light.</o4>
+      <o5>It’s a yellowish kind of light, so if you’re trying to do homework, that’s not good for your eyes.</o5>
+    </options>
+    <answer>1|2|0|3|4|5</answer>
+  </template>
+</question>
+<question>
+  <id>8ffcb947b9a2487cbb6bce016cbe1eaa</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Can we see {blank} the earth is a globe? Yes, we can, when we watch a ship that sails out to sea. If we watch closely, we see that the ship begins to disappear. The bottom of the ship disappears first, and then the ship seems to sink lower and lower, {blank} we can only see the top of the ship, and then we see nothing at all. What is hiding the ship from us? It is the earth. Stick a pin most of the way into an orange, and {blank} turn the orange away from you. You will see the pin disappear, {blank} a ship does on the earth.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>alike</o0>
+        <o1>after</o1>
+        <o2>carefully</o2>
+        <o3>if</o3>
+        <o4>just as</o4>
+        <o5>that</o5>
+        <o6>untill</o6>
+        <o7>slowly</o7>
+      </blank>
+    </blanks>
+    <answer>5|6|7|4</answer>
+  </template>
+</question>
+<question>
+  <id>beec353c5d244d3e8a6baf05b3fbf6e8</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>In China’s modern day economic history the Open Door Policy refers to the new policy {blank} by Deng Xiaoping in December 1978 to open the door to foreign businesses that wanted to set up in China. Special Economic Zones (SEZ) were set up in 1980 in his {blank} that in order to modernize China’s industry and boost its economy, it needed to welcome foreign direct investment. Chinese economic policy then {blank} to encouraging and supporting foreign trade &amp; investment. It is the turning point in China economic fortune that {blank} started China on the path to becoming ‘The World’s Factory’.
+</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>shifted</o0>
+        <o1>opinion</o1>
+        <o2>declared</o2>
+        <o3>belief</o3>
+        <o4>announced</o4>
+        <o5>budged</o5>
+        <o6>truly</o6>
+      </blank>
+    </blanks>
+    <answer>4|3|0|6</answer>
+  </template>
+</question>
+<question>
+  <id>9fb6df9484714a709ba3cb1c0f52ca4d</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>I noticed George Ramsay at the restaurant. He was starting into space. He looked as though the burden of the whole world sat on his shoulders. I {blank} at once that his unfortunate brother was causing trouble again. I suppose every family has a black sheep. Tom has been {blank} trail to his family for twenty years. He had begun life decently enough; he went into business, married and had two children. The Ramsay were {blank} respectable people, and there was every reason to suppose that Tom Ramsay would have a useful and {blank} career.
+</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>sore</o0>
+        <o1>bitter</o1>
+        <o2>believed</o2>
+        <o3>perfectly</o3>
+        <o4>suspected</o4>
+        <o5>honorable</o5>
+        <o6>profitable</o6>
+      </blank>
+    </blanks>
+    <answer>4|1|3|6</answer>
+  </template>
+</question>
+<question>
+  <id>36be9e640f0a4ffab86fb79b90fa2292</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Most of us are  {blank} of open conflict and avoid it if we can. And there is a {blank} to expressing and working through conflict. If the working involves harsh words and name-calling people fell deeply hurt and relationships can be {blank} Some group members may be afraid that if they really {blank} their anger, they may go out of control and become violent, or they may do this. These fears can be very {blank} and based on experience.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>control</o0>
+        <o1>maligned</o1>
+        <o2>express</o2>
+        <o3>damaged</o3>
+        <o4>scared</o4>
+        <o5>real</o5>
+        <o6>exaggerative</o6>
+        <o7>worried</o7>
+        <o8>risk</o8>
+      </blank>
+    </blanks>
+    <answer>4|8|1|2|5</answer>
+  </template>
+</question>
+<question>
+  <id>c6ae98c91f284a80a71ccc9b0203cc82</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Cure isn’t a word normally used in the {blank} of AIDS. For most of the 35 years since HIV, the virus responsible for the disease, was first identified, doctors have viewed the notion of a cure as more {blank} than fact. That’s because HIV is a virus unlike any other. It disables the {blank} immune cells that are supposed to destroy it and also sequesters itself in the body’s cells, staging the ultimate deadly ambush whenever the immune defense’s guard comes down, months or sometimes even {blank} later.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>very</o0>
+        <o1>years</o1>
+        <o2>reality</o2>
+        <o3>treatment</o3>
+        <o4>days</o4>
+        <o5>fantasy</o5>
+        <o6>weeks</o6>
+        <o7>context</o7>
+      </blank>
+    </blanks>
+    <answer>7|5|0|1</answer>
+  </template>
+</question>
+<question>
+  <id>25d779f7a927427390601fd047ff4152</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Can an experiment conceived, carried out, and reported in kids-speak with pencil-colored figures and hand-written tables by school children aged 8 to 10 years get published in a highly rated international journal following a peer-reviewing process? Twenty-seven schoolchildren from a primary school in UK have proved this is {blank} if a simple but novel scientific question raised is {blank} in a scientific way. Their paper was published in the Royal Society’s Biology Letters journal. Their {blank} was that bumble-bees can use a “combination of color of flower to forage from.”
+Considering that our understanding of how bees perceive colored patterns and scenes is inadequate, this inspiring outcome has shown that schoolchildren guided by gifted teachers can think and {blank} out experiments like any hard-wired scientist. For these kids, doing science changed their {blank} of the subject. Science also became “cool and fun.” This refreshing approach turns the spotlight on the best methods of teaching science.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>unlikely</o0>
+        <o1>potential</o1>
+        <o2>promising</o2>
+        <o3>possible</o3>
+      </blank>
+      <blank>
+        <o0>questioned</o0>
+        <o1>said</o1>
+        <o2>retorted</o2>
+        <o3>answered</o3>
+      </blank>
+      <blank>
+        <o0>question</o0>
+        <o1>finding</o1>
+        <o2>retorted</o2>
+        <o3>address</o3>
+      </blank>
+      <blank>
+        <o0>wage</o0>
+        <o1>create</o1>
+        <o2>execute</o2>
+        <o3>carry</o3>
+      </blank>
+      <blank>
+        <o0>option</o0>
+        <o1>lives</o1>
+        <o2>visual</o2>
+        <o3>perception</o3>
+      </blank>
+    </blanks>
+    <answer>3|3|1|3|3</answer>
+  </template>
+</question>
+<question>
+  <id>5c47bd3578dc45cf84f2eb662fea4c28</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Trinity College was {blank} by Sir Thomas Pope in 1555. A devout catholic with no surviving children, Thomas Pope saw the Foundation of an Oxford college as a means of ensuring that he and his family would always be remembered in the prayers and masses of its members.
+He came from a family of small landowners in Oxford-shire, trained as a lawyer, and rose rapidly to prominence  under  Henry VIII. As Treasurer of the Court of Augmentations he handled the estates of the monasteries {blank} at the Reformation, and amassed a considerable personal  fortune . Pope was a discreet and trusted privy counselor of Mary Tudor, and it was from Mary and Philip that he {blank} Letters Patent and royal approval for his new foundation. Pope died in 1559.
+Although his religious ideals were never fully realized - Elizabeth I had succeeded her sister and England {blank}  to the Protestant faith - nonetheless the memory of his name, like his college, has endured the fluctuating fortunes of over 400 years. His wife, Lady Elizabeth Pope, was a particularly influential {blank} in Trinity’s early years.
+Pope’s foundation was for a President, twelve Fellows and twelve scholars, all supported by the income from his {blank} endowment of lands, and for up to twenty undergraduates.
+The Fellows, all men, were required to take Holy Orders and remain unmarried. The College Statutes set out rules for a simple monastic life of religious observance and study. The Garden was an informal grove of trees, mainly elms, among-st which the members of the College could  walk and meditate.
+</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>founded</o0>
+        <o1>set</o1>
+        <o2>begin</o2>
+        <o3>starting</o3>
+      </blank>
+      <blank>
+        <o0>dissolved</o0>
+        <o1>disintegrated</o1>
+        <o2>crumbled</o2>
+        <o3>withered</o3>
+      </blank>
+      <blank>
+        <o0>inherited</o0>
+        <o1>conferred</o1>
+        <o2>received</o2>
+        <o3>excepted</o3>
+      </blank>
+      <blank>
+        <o0>rejoined</o0>
+        <o1>repeated</o1>
+        <o2>returned</o2>
+        <o3>reinstated</o3>
+      </blank>
+      <blank>
+        <o0>outline</o0>
+        <o1>symbol</o1>
+        <o2>shape</o2>
+        <o3>figure</o3>
+      </blank>
+      <blank>
+        <o0>generous</o0>
+        <o1>generosity</o1>
+        <o2>bounty</o2>
+        <o3>teeming</o3>
+      </blank>
+    </blanks>
+    <answer>0|0|2|2|3|0</answer>
+  </template>
+</question>
+<question>
+  <id>43f4987e60a7459e850406f3520a5260</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Millions of British children are "culture starved" as they have never been to an art gallery, theatre or museum, a study {blank} .
+The research, commissioned by Visit Birmingham, found four in 10 children had never been to an art gallery, while a quarter of parents had never taken their offspring to the theatre.
+One in five parents said they did not think their child would be {blank} .
+The study surveyed 2,000 parents of five to 12-year-olds around the UK.
+It also found 17% of children had never visited a museum, while one in 10 had not been outside their home town to visit other sites in the UK. Half of parents said they made {blank} effort to educate their children about culture or history and relied on schools to do so.
+A quarter said they could not afford to visit attractions with 28% saying they did not have the time and 18% believed their child was "too young for culture".
+{blank} , half said they were more likely to take their children sight-seeing when they were abroad on holiday.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>said</o0>
+        <o1>claimed</o1>
+        <o2>claim</o2>
+        <o3>has claimed</o3>
+      </blank>
+      <blank>
+        <o0>interested</o0>
+        <o1>interesting</o1>
+        <o2>funny</o2>
+        <o3>funniest</o3>
+      </blank>
+      <blank>
+        <o0>few</o0>
+        <o1>least</o1>
+        <o2>some</o2>
+        <o3>little</o3>
+      </blank>
+      <blank>
+        <o0>while</o0>
+        <o1>moreover</o1>
+        <o2>further</o2>
+        <o3>however</o3>
+      </blank>
+    </blanks>
+    <answer>3|0|3|3</answer>
+  </template>
+</question>
+<question>
+  <id>c8a54b42b3ce48289c76e235e4a34382</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Speed reading, or increasing the rate at which you read text, {blank} to increasing the rate at which you understand what you’re reading. The key to successful speed reading is increasing your understanding of the text as you increase the rate at which you read the words. It takes training and practice, but don’t be intimidated by the idea of a {blank} . Think of it as the next, natural step to your reading development. Once you’ve mastered it, it’s a skill that will stick with you for the rest of your life. 
+
+As a child, when you began to learn to read, chances are you began with the alphabet and the specific sounds each letter {blank} . Then you learned how to combine and {blank} letter sounds to decipher words. It’s called letter-by-letter reading. Then something clicked and you began to recognize words without having to sound out each letter one at a time and you graduated to word-by-word reading. 
+
+With continued practice common words and sentence structure became more familiar and because your brain was tuned and ready, your eye started taking in blocks of words at a time. The difference between {blank} readers and speed readers is in the blocks of words their eyes take in at one time. The larger the blocks, the faster your eye moves {blank} the text. </description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>was linked</o0>
+        <o1>is linked</o1>
+        <o2>has linked</o2>
+        <o3>had linked</o3>
+      </blank>
+      <blank>
+        <o0>challenge</o0>
+        <o1>sanction</o1>
+        <o2>compliance</o2>
+        <o3>unwillingness</o3>
+      </blank>
+      <blank>
+        <o0>creates</o0>
+        <o1>develops</o1>
+        <o2>originates</o2>
+        <o3>makes</o3>
+      </blank>
+      <blank>
+        <o0>produce</o0>
+        <o1>create</o1>
+        <o2>originate</o2>
+        <o3>blend</o3>
+      </blank>
+      <blank>
+        <o0>expert</o0>
+        <o1>amateur</o1>
+        <o2>distinguished</o2>
+        <o3>average</o3>
+      </blank>
+      <blank>
+        <o0>through</o0>
+        <o1>by</o1>
+        <o2>on</o2>
+        <o3>around</o3>
+      </blank>
+    </blanks>
+    <answer>1|0|3|3|3|0</answer>
+  </template>
+</question>
+<question>
+  <id>61ec86ecdd144217a59415fe8a6eadd3</id>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The name of Galileo is {blank} linked with the advent, early in the seventeenth century, of a marked change in the balance between speculative philosophy, mathematics, and experimental evidence in the study of natural phenomena. The period {blank} by his scientific publications began with the announcement of the first telescopic astronomical discoveries in 1610 and closed with the first systematic attempt to extend the mathematical treatment of physics from statics to kinematics and the strength of materials in 1638. The same period witnessed Kepler’s mathematical transformation of planetary theory and Harvey’s experimental attack on physiological dogma. Historians {blank} in their assessment of this widespread scientific revolution with respect to its elements of continuity and innovation, both as to method and as to content. Of central importance to its understanding are the life and works of Galileo, whose personal conflict with religious authority {blank} the extent and profundity of the changing approach to nature.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>avoidably</o0>
+        <o1>inextricably</o1>
+        <o2>possibly</o2>
+        <o3>unexpectedly</o3>
+      </blank>
+      <blank>
+        <o0>had covered</o0>
+        <o1>was covering</o1>
+        <o2>covered</o2>
+        <o3>covers</o3>
+      </blank>
+      <blank>
+        <o0>divided</o0>
+        <o1>are divided</o1>
+        <o2>were divided</o2>
+        <o3>has been divided</o3>
+      </blank>
+      <blank>
+        <o0>dramatized</o0>
+        <o1>worked</o1>
+        <o2>dramatize</o2>
+        <o3>was authorized</o3>
+      </blank>
+    </blanks>
+    <answer>1|2|1|0</answer>
+  </template>
+</question>
+
+  <!-- TEST 10 END-->
+  
+  <!-- TEST 3-->
+  <question>
+  <id>b94b71d92e5049a0bd5377ce0568fa32</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting all the correct response. More than one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>A country should defend itself largely with the armaments it can produce, not with the pricey imported toys its forces may want. If this tenet were to dictate policy, India could greatly boost its manufacturing capabilities and create tens of thousands of jobs at home through a vibrant military industrial complex. From being the world's largest arms importer, India would emerge as a worthy exporter. Given that India has not fought a full-fledged war in 35 years and is unlikely to face full-scale aggression in the next decade, it is possible to implement in stages, such a principle. In this light, the Agni-3 test freeze is troubling. India's primary focus ought to be on preventing aggression through indigenous deterrent assets, not on seeking to defeat aggression with extravagant weapons from abroad. Yet the PM has acted quite the reverse from accepting nuclear-capability limits under a misbegotten deal with the US to providing assurances on multibillion dollar imports of US arms and reactors. The Agni-3 test freeze epitomizes the mounting costs of the nuclear deal. In fact, from the period since Rajiv Gandhi conducted the first Agni test exactly 17 years ago, the Agni program has been significantly crimped by a succession of weak, vacillating PMs.</description>
+    <title>Which of the following correctly brings out the state of arms manufacture in India?</title>
+    <options>
+      <o0>Indigenous development is slowly picking up speed</o0>
+      <o1>There is more emphasis on import than on indigenous development</o1>
+      <o2>Numerous jobs have been created as a result of arms manufacture</o2>
+      <o3>Indigenous development would make India a formidable exporter of arms</o3>
+      <o4>It is cheaper to import arms than to manufacture them indigenously</o4>
+    </options>
+    <picture></picture>
+    <answer>1|3</answer>
+  </template>
+</question>
+<question>
+  <id>d44e0bd2abfc45718f411c361a84a843</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting all the correct response. More than one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>When the abbreviation OBC is spelt out, it refers to Other Backward Classes and not Castes. This is the meaning that the Constitution of India gave to the phrase. There is a world of difference between the two and it is only by means of deft political jugglery that the impression has been conveyed that the Constitution is interested in uplifting a section of the population that can be labeled under the totally spurious term called backward caste. As the Constitution was interested in the lot of backward classes, it did not easily equate them with any cluster of castes, nor did it privilege a solely caste-based criterion to determine them. Backward classes could mean the poor, or village-based artisans, or the unemployed, or those who are in remote regions, or those who are educationally deficient, or those who suffer from food deprivation. In all such cases, the focus is on actual people and not communities. As those answering to such descriptions could come from any caste group, the founding figures of the Constitution, very purposively, used the term OBC strictly in terms of classes and not castes. Contrast this with the way the Scheduled Castes were classified by the Constitution. The job of determining which castes were untouchables proved tricky, so in all such cases, only the caste criterion was the determining factor. Economic or educational concerns had no role to play when it came to deciding on the listing of the Scheduled Castes. So when the Constitution clearly states "classes" and not "castes", as in the term OBC, it is deliberate, and not an oversight.</description>
+    <title>Backward Classes could not be placed in the same category as Scheduled Castes because</title>
+    <options>
+      <o0>of the lapse on part of the Constitution</o0>
+      <o1>a section of people had to be poor to be classified as Backward Classes</o1>
+      <o2>financial status was not a criteria for classification of Scheduled Castes</o2>
+      <o3>there is no clear criteria to identify backwardness</o3>
+      <o4>both of them do not meet the same economic criteria</o4>
+    </options>
+    <picture></picture>
+    <answer>2|4</answer>
+  </template>
+</question>
+<question>
+  <id>659036e5f37340ebbb1f09dd7bd1c480</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>MULTI_CHOICE_MULTIPLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting all the correct response. More than one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>While day-to-day tasks need to be redesigned to provide opportunities for deepening the operational skills of employees, it is equally necessary to reshape the broader strategic and administrative processes of a company so as to broaden its people's analytical and conceptual skills, and to enhance their quality of thinking and judgment. Less tangible and concrete, these latter sets of skills and capabilities are perhaps more crucial both for protecting people's employability and for enabling them to take responsibility for the company's competitiveness. At the same time, widening employees' access to these skills requires radical changes in a company's core management processes-a far more daunting task than re-engineering day-to-day operations. In most companies, strategic thinking and qualitative judgment are seen as the preserves of top management, and it is only they who have the opportunity to develop and deploy these capabilities. To move up the relevant information that typically resides at the operating levels, companies create elaborate systems of planning, communication and control. Such a formal, systems driven management process is often viewed as the essence of professional management, with the elaborateness of the systems as the measure of the company's managerial sophistication.</description>
+    <title>According to the author, the thinking and judgement capabilities of employees</title>
+    <options>
+      <o0>can be improved by redesigning the daily routine tasks</o0>
+      <o1>are essential for preserving their employability</o1>
+      <o2>are more conceptual and abstract as compared to their operational skills</o2>
+      <o3>are independent of their parent company's competitiveness</o3>
+      <o4>are determined by the employers administrative policies</o4>
+    </options>
+    <picture></picture>
+    <answer>1|2|4</answer>
+  </template>
+</question>
+<question>
+  <id>0c0f0ad5274a4d0ea85bf887baea9ef7</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Since the birth of the skyscraper, builders and engineers have {blank} looked for ways to improve building methods and materials, in order to make structures stronger, taller, and lighter. Skyscrapers are built to last, so they must be made of materials that are strong; durable; resistant to the sun, wind, rain, frost, and snow; and affordable. Concrete is one of the most common materials, beyond the steel supports, because it is enormously {blank} . Its composition can be changed depending on the needs of the building. It can be {blank} to make it stiffer and stronger by setting steel mesh or bars into the concrete. And additives can make it set or harden faster or slower depending on the needs of the design. Another very important material is glass. Because the steel skeleton now supports the main loads of the building, the outer skin only {blank} to keep the weather out and let light in, the more light the better. So glass walls became very popular beginning after World War II, because they are weatherproof while providing ample natural light, and also because they are so much lighter-and cheaper-than  {blank} or concrete.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>versatile</o0>
+        <o1>constantly</o1>
+        <o2>continuously </o2>
+        <o3>masonry </o3>
+        <o4>prefers</o4>
+        <o5>degraded </o5>
+        <o6>serves </o6>
+        <o7>reinforced</o7>
+      </blank>
+    </blanks>
+    <answer>2|0|7|6|3</answer>
+  </template>
+</question>
+<question>
+  <id>39f8984bf6724ac9a1e8433dafc6f96a</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>In February 2011, a study published in the Journal of the American Medical Association {blank} changes in brain glucose metabolism during cell phone use. The study became the first to prove that cell phone use does alter brain activity by monitoring 47 healthy volunteers seated and on the phone for 50 minutes. The volunteers' brains were monitored by positron {blank} tomography to measure glucose metabolism. Then in May 2011, the World Health Organization's International Agency for Research on Cancer added radiation from cell phones to its list of substances that are possibly carcinogenic to humans. The IARC's research {blank} that most cell phone use did not lead to an increased risk of glioma, a dangerous type of brain cancer or meningioma, a more common, but typically benign cancer. However, the study did find enough {blank} to suggest that using cell phones over long periods of time on the same side of the head could lead to an increased {blank} of glioma.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>risk</o0>
+        <o1>determined</o1>
+        <o2>emission</o2>
+        <o3>noticed</o3>
+        <o4>clue</o4>
+        <o5>exposure</o5>
+        <o6>evidence</o6>
+        <o7>documented</o7>
+      </blank>
+    </blanks>
+    <answer>7|2|1|6|0</answer>
+  </template>
+</question>
+<question>
+  <id>abcfd5a146054eb5af551cd1d59c3729</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The word "felix" means "happy" in Latin, and when it comes to making the environment happy, Hotel ”Felix” is {blank} named. There's no way to miss its {blank} attitude, which greets guests immediately upon arrival, from a 7-foot-tall "doorman" made from recycled pipes to organic coffee and a paperless front desk in the lobby. This hotel was the first in Chicago to earn Silver LEED certification and relies heavily on recycled products, right down to the materials used for guest room carpets. It also incorporates {blank} into its pampering, with the use of natural Aveda products at Asha Spa. Throw in low-energy-use lighting, green cleaning supplies and structural {blank} during development to avoid landfill, and it's easy to see how this hotel is a top choice for eco-travelers in the Windy City.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>eco-friendly</o0>
+        <o1>precisely</o1>
+        <o2>sustainability</o2>
+        <o3>aptly</o3>
+        <o4>promoted</o4>
+        <o5>safety</o5>
+        <o6>preservation </o6>
+      </blank>
+    </blanks>
+    <answer>3|0|2|6</answer>
+  </template>
+</question>
+<question>
+  <id>85de6b53e85e4934b07b60629bc09aa8</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Have you ever heard of Oscar Charleston? He's {blank} by some as one of the most talented baseball players of all time. His career has been {blank} to both Ty Cobb's and Babe Ruth's. In 1921, he batted .430 and led the league in doubles, triples and home runs. He retired with a .376 batting average, and in 1976 was {blank} into the National Baseball Hall of Fame in Cooperstown, New York.
+Yet sadly, the answer to the question just asked is probably "no" - because Charleston played at a time when blacks weren't allowed to play in the "white" major leagues. He is just one of {blank} thousands of exceptional ball players that segregation robbed of the recognition and the opportunities they richly {blank} .</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>distinguish</o0>
+        <o1>recognized</o1>
+        <o2>considerably</o2>
+        <o3>compared</o3>
+        <o4>conducted</o4>
+        <o5>deserved</o5>
+        <o6>literally</o6>
+        <o7>inducted</o7>
+      </blank>
+    </blanks>
+    <answer>1|3|7|6|5</answer>
+  </template>
+</question>
+<question>
+  <id>a00c0ead41504a709e67e29efeeacea7</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>FILL_IN_BLANKS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank. To undo answer choice, click on reset button.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Chanel, Coco (Gabrielle Bonheur Chanel)shənĕlˈ, 1883-1971, French fashion designer b. Saumur, she established a {blank} shop in Deauville in 1909, founded her first house of {blank} there in 1913, and opened in Paris in 1914. An enormously influential designer from the mid-1920s on, she was noted for her simple, elegant modern styles: jersey dresses, especially the "little black dress," and suits; perfumes, notably Chanel No. 5, created in 1922; black or gray pullovers with white piqué collars and cuffs; boxy, braid-trimmed suits; trousers for women; and clothing {blank} designed for comfort. Among the most imitated of all designers she had a major {blank} of popularity beginning in 1954, when she reopened the business she had closed (1930) at the beginning of World War II. Her fashion empire ranged from Chanel suits and {blank} handbags with chains to costume jewelry and a {blank} house.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>quilted </o0>
+        <o1>resurgence</o1>
+        <o2>textile</o2>
+        <o3>remission</o3>
+        <o4>millinery</o4>
+        <o5>generally</o5>
+        <o6>couture</o6>
+        <o7>occasionally</o7>
+      </blank>
+    </blanks>
+    <answer>4|6|5|1|0|2</answer>
+  </template>
+</question>
+<question>
+  <id>fde829f654de4d8094899dc54162b33d</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>It seems there have been many Alexander the Greats - as many as there have been serious students of him as man, hero or God. There are two main reasons for this, multiplicity and plasticity. First, and more poetically, the great leader's achievements - both in his lifetime and posthumously (the Alexander myth or legend) - are simply staggering. Second, the original narrative sources that survive for Alexander are mostly either very non-contemporary or very skewed by partisanship - pro or con, or both. In the past there have been those who saw him as essentially reasonable and gentlemanly, or dynamic and titanic, or Homerically heroic. But the recent trend has been decidedly negative, emphasizing variously his conquering bloodlust, his megalomania, or alleged alcoholism. Here I hope not to err on the side of gratuitous mudslinging, in my search for clues to the mainsprings of Alexander's character. But I do lay stress on his grand passion for hunting game - human as well as animal and the bigger and more dangerous the better. Such macho feats offered him the chance to enhance his standing in the eyes of his subjects, as well as to ensure an impressive reputation into posterity.</description>
+    <title>Which of the following contradicts the image of Alexander as painted by the author?</title>
+    <options>
+      <o0>He was courteous and energetic</o0>
+      <o1>He was driven by the zeal for conquest at the price of bloodshed</o1>
+      <o2>He was an avid hunter</o2>
+      <o3>He found hunting to be a repugnant game</o3>
+    </options>
+    <picture></picture>
+    <answer>3</answer>
+  </template>
+</question>
+<question>
+  <id>ff526a24d4884f6ca553a32bb570aeff</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>MULTI_CHOICE_SINGLE_ANSWER</type>
+  <itemType>READING</itemType>
+  <instruction>Read the text and answer the multiple-choice question by selecting the correct response. Only one response is correct.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Until he was ten, young Alexander Fleming attended the nearby Loudon Moor School. He was then transferred to Dagvel School, which he attended with his brothers. Alexander learned a good deal about nature during that four-mile downhill hike to school and the four-mile uphill return trip. He was a quick student and at twelve, the age limit prescribed for Dagvel School, he was sent to Kilmarnock Academy. After two years he joined his brothers, John and Robert, at the home of his elder brother Thomas, who was to become a successful oculist in London. However, the economic success of the family was yet to be and Alexander was forced to leave school for economic reasons. When he was sixteen, he obtained a job in a shipping company. Good fortune, however, was on his side and on the side of humanity. In 1901, he received a share in a legacy which made it possible for him to return to school where he decided to study medicine.</description>
+    <title>How did Alexander Fleming learn about nature?</title>
+    <options>
+      <o0>From his games with his brothers in fields spreading across four miles.</o0>
+      <o1>Due to his innate interest in nature and its beauties.</o1>
+      <o2>From his four mile long ride down and uphill while going and coming back from school.</o2>
+      <o3>While his hikes up and down the hills that were located in his area.</o3>
+    </options>
+    <picture></picture>
+    <answer>2</answer>
+  </template>
+</question>
+<question>
+  <id>2f913b05870349feb3b299bcc146690f</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>REORDER</type>
+  <itemType>READING</itemType>
+  <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Reading - Re-order Paragraphs - Q11</title>
+    <options>
+      <o0>Special justice has always exercised an appeal to sensitive persons.</o0>
+      <o1>We talk of things material and spiritual.</o1>
+      <o2>Every great wave of human thought which has affected millions of   human beings   has something spiritual in it.</o2>
+      <o3>Even the great revolution would not have succeeded without a spiritual element.</o3>
+      <o4>Yet it is a little difficult to draw a line  between the two.</o4>
+    </options>
+    <answer>4|0|2|3|1</answer>
+  </template>
+</question>
+<question>
+  <id>3ee647d9747243efa223b44d18d1a076</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>REORDER</type>
+  <itemType>READING</itemType>
+  <instruction>The text boxes in the left panel have been placed in a random order. Restore the original order by moving the text boxes from the left panel to the right panel.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title></title>
+    <options>
+      <o0>She thought it was very dangerous to have that mallet there and started talking to herself.</o0>
+      <o1>It must have been there for a long time but somehow she had never noticed it before and she began thinking.</o1>
+      <o2>Saying all this, she threw her tools, sat herself down and began crying.</o2>
+      <o3>One evening when Mia had gone down to the cellar, she happened to look up at the ceiling and saw a mallet ( a kind of wooden hammer) stuck in one of the  beams.</o3>
+      <o4>She said "Suppose I was to be married, and have a son, and he was to grow  up to be a man, and come down into the cellar,  like I am doing now and the mallet was to fall on his head and kill him, what a dreadful thing it would be!"</o4>
+    </options>
+    <answer>2|1|4|0|3</answer>
+  </template>
+</question>
+<question>
+  <id>5a5b1977073c4c4693cc651e4e5cb0c6</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Emily Stephens couldn’t decide if she hated traveling, or loved it. Traveling is stressful, she thought, as she {blank} an elbow out the open window of the Fiat driven too fast by her new husband, Nate. She liked the feel of the wind whipping through her hair. It must be stressful for everyone, right? Why, then, did society- in this case, in the form of Emily’s mother and father  {blank} that a newly married couple subject their tender baby marriage to this {blank} , to this {blank} trauma? Tickets to Italy, and money for this vacation, were part of their wedding present, and could not be refused, or put off for a year.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>scrawny</o0>
+        <o1>leaned</o1>
+        <o2>bend</o2>
+        <o3>bend</o3>
+      </blank>
+      <blank>
+        <o0>insist</o0>
+        <o1>renounce</o1>
+        <o2>convince</o2>
+        <o3>compel</o3>
+      </blank>
+      <blank>
+        <o0>turmoil</o0>
+        <o1>ease</o1>
+        <o2>howl</o2>
+        <o3>comfort</o3>
+      </blank>
+      <blank>
+        <o0>certain</o0>
+        <o1>potential</o1>
+        <o2>prospect</o2>
+        <o3>huge</o3>
+      </blank>
+    </blanks>
+    <answer>1|0|0|1</answer>
+  </template>
+</question>
+<question>
+  <id>22a67d351e8b4a7d822ad2dafc414bfd</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Petina Gappah is a Zimbabwean lawyer and writer. She is the author of one novel - The Book of Memory (2015), which was {blank} for the Bailey’s Women’s Prize for Fiction - and her debut short story collection, An Elegy for Easterly, won the Guardian First Book Award in 2009. Her new book, Rotten Row, showcases aspects of both genres. To call it a collection of {blank} short stories, although technically correct, doesn’t convey its layers of novel-like {blank} . The same characters make appearances in multiple stories, their personalities, identities, back stories and future ambitions sculpted into sharper focus on each and every occasion, seemingly  {blank} revelations in one tale sending you back to an earlier one with fresh insight.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>indexed</o0>
+        <o1>shortlisted</o1>
+        <o2>waiting</o2>
+        <o3>characterized</o3>
+      </blank>
+      <blank>
+        <o0>short</o0>
+        <o1>difficult</o1>
+        <o2>interconnected</o2>
+        <o3>main</o3>
+      </blank>
+      <blank>
+        <o0>difficulty</o0>
+        <o1>complex</o1>
+        <o2>length</o2>
+        <o3>complexity</o3>
+      </blank>
+      <blank>
+        <o0>innocuous</o0>
+        <o1>destructive</o1>
+        <o2>harmful</o2>
+        <o3>offensive</o3>
+      </blank>
+    </blanks>
+    <answer>1|2|3|0</answer>
+  </template>
+</question>
+<question>
+  <id>d6af17a0f2ff4771a7ef01571ef33ef1</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The circulatory system is the body's transport system. It is made up of a group of organs that transport blood throughout the body. The heart pumps the blood and the arteries and veins {blank} it. Oxygen-rich blood leaves the left side of the heart and enters the biggest artery, called the aorta. The aorta {blank} into smaller arteries which then branch into even smaller vessels that travel all over the body. When blood enters the smallest blood vessels, which are called capillaries, and are found in body tissue, it gives {blank} and oxygen to the cells and takes in carbon dioxide, water, and waste. The blood, which no longer contains oxygen and nutrients, then goes back to the heart through veins. Veins carry waste products away from cells and bring blood back to the heart, which pumps it to the lungs to pick up oxygen and {blank} waste carbon dioxide.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>transport</o0>
+        <o1>bear</o1>
+        <o2>rapture</o2>
+        <o3>carry</o3>
+      </blank>
+      <blank>
+        <o0>branches</o0>
+        <o1>maxima</o1>
+        <o2>valve</o2>
+        <o3>artery</o3>
+      </blank>
+      <blank>
+        <o0>nutrients</o0>
+        <o1>minerals</o1>
+        <o2>protein</o2>
+        <o3>fibers</o3>
+      </blank>
+      <blank>
+        <o0>eliminate</o0>
+        <o1>eradicate</o1>
+        <o2>destroy</o2>
+        <o3>extract</o3>
+      </blank>
+    </blanks>
+    <answer>0|0|0|0</answer>
+  </template>
+</question>
+<question>
+  <id>2e66b00313ae4165ba720564413023a1</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Born into a family of musicians, Abbado began his musical training at an early age. In 1958, he won the Koussevitzky conducting prize at the Berkshire Music Center at Tanglewood, the first {blank} on his road to a career spent leading the world's finest orchestras. Abbado served as music director of Milan's La Scala from 1968 to 1986, where he worked to increase {blank} to the opera for audiences of all classes. He {blank} as principal conductor and music director of the London Symphony Orchestra, principal guest conductor of the Chicago Symphony , music director of the Vienna State Opera, and has also {blank} the Cleveland Orchestra,  Philadelphia Orchestra, and New York Philharmonic, among others. He was named music director of the Vienna Philharmonic in 1971, and artistic director of the Berlin Philharmonic Orchestra in 1989.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>breakthrough</o0>
+        <o1>milestone</o1>
+        <o2>stage</o2>
+        <o3>experience</o3>
+      </blank>
+      <blank>
+        <o0>access</o0>
+        <o1>excess</o1>
+        <o2>approach</o2>
+        <o3>reach</o3>
+      </blank>
+      <blank>
+        <o0>served</o0>
+        <o1>serves</o1>
+        <o2>was serving</o2>
+        <o3>has served</o3>
+      </blank>
+      <blank>
+        <o0>arranged</o0>
+        <o1>organized</o1>
+        <o2>hosted</o2>
+        <o3>conducted</o3>
+      </blank>
+    </blanks>
+    <answer>1|0|3|3</answer>
+  </template>
+</question>
+<question>
+  <id>fa5735a3350b4234931f68d42ccf41b9</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Clinton became the 42nd U.S. president following a {blank} political campaign. He overcame {blank} personal attacks on his character and on his actions during the Vietnam War, which he {blank} opposed. The “character issue” stemmed from allegations of infidelity, which Clinton refuted in a television interview in which he and Hillary {blank} their relationship was solid. Throughout his term in office, Clinton was dogged by allegations relating to the Whitewater real estate deal in which he and Hillary were involved prior to the 1992 election. Though the Clintons were never accused of any wrongdoing, partners in the venture were convicted of fraud and conspiracy in a trial in 1996.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>huge</o0>
+        <o1>aggressive</o1>
+        <o2>moderate</o2>
+        <o3>turbulent</o3>
+      </blank>
+      <blank>
+        <o0>vigorous</o0>
+        <o1>delicate</o1>
+        <o2>stiff</o2>
+        <o3>weak</o3>
+      </blank>
+      <blank>
+        <o0>immediately</o0>
+        <o1>considerably</o1>
+        <o2>actively</o2>
+        <o3>forcefully</o3>
+      </blank>
+      <blank>
+        <o0>renounced</o0>
+        <o1>accepted</o1>
+        <o2>confuted</o2>
+        <o3>avowed</o3>
+      </blank>
+    </blanks>
+    <answer>3|0|2|3</answer>
+  </template>
+</question>
+<question>
+  <id>6f355bfac87847409d0f3d13b80b9130</id>
+  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>The chaotic years under the Articles of Confederation led Washington to return to public life in the hope of {blank} the formation of a strong central government. He presided over the Constitutional Convention and yielded to the universal demand that he serve as first president. He was inaugurated on April 30, 1789, in New York, the first national capital. In office, he sought to unite the nation and establish the authority of the new government at home and abroad. {blank} distressed by the emergence of the Hamilton-Jefferson rivalry, Washington worked to maintain neutrality but actually {blank} more with Hamilton. Following his {blank} reelection in 1792, his second term was dominated by the Federalists. His Farewell Address on Sept. 17, 1796 {blank} party spirit and warned against “permanent alliances” with foreign powers.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>advertising</o0>
+        <o1>promoting</o1>
+        <o2>declaring</o2>
+        <o3>confessing</o3>
+      </blank>
+      <blank>
+        <o0>Hugely</o0>
+        <o1>Extremely</o1>
+        <o2>Greatly</o2>
+        <o3>Basically</o3>
+      </blank>
+      <blank>
+        <o0>sympathized</o0>
+        <o1>interacted</o1>
+        <o2>aggravated</o2>
+        <o3>consoled</o3>
+      </blank>
+      <blank>
+        <o0>unanimous</o0>
+        <o1>incontinuous</o1>
+        <o2>partial</o2>
+        <o3>opposed</o3>
+      </blank>
+      <blank>
+        <o0>complemented</o0>
+        <o1>diminished</o1>
+        <o2>applauded</o2>
+        <o3>rebuked</o3>
+      </blank>
+    </blanks>
+    <answer>1|2|0|0|3</answer>
+  </template>
+</question>
+  <!-- TEST 3 END-->
+  
 </questions>

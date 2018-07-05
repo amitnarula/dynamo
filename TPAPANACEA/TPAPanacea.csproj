@@ -1595,6 +1595,696 @@
     <Content Include="Data\ENHAVO\Practice Set 4_Speaking - Describe Image - Q20.tpi">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Fill in the blanks - Q5.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Fill in the blanks - Q6.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Highlight Correct Summary - Q7.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Highlight Correct Summary - Q8.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Highlight Incorrect Words- Q13.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Highlight Incorrect Words- Q14.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Multiple choice, choose multiple answers - Q3.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Multiple choice, choose multiple answers - Q4.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Multiple choice, choose single answer - Q10.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Multiple choice, choose single answer - Q9.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Select missing word - Q11.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Select missing word - Q12.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Summarize Spoken Text - Q1.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Summarize Spoken Text - Q2.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Write from dictation- Q15.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Write from dictation- Q16.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Write from dictation- Q17.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_Listening - Write from dictation- Q18.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_test6_image1.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_test6_image10.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_test6_image11.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_test6_image12.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_test6_image13.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_test6_image2.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_test6_image3.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_test6_image4.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_test6_image5.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_test6_image6.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_test6_image7.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_test6_image8.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 6_test6_image9.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Answer Short Question - Q29.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Answer Short Question - Q30.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Answer Short Question - Q31.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Answer Short Question - Q32.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Answer Short Question - Q33.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Answer Short Question - Q34.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Answer Short Question - Q35.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Answer Short Question - Q36.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Answer Short Question - Q37.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Answer Short Question - Q38.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Answer Short Question - Q39.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Answer Short Question - Q40.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Repeat Sentence - Q10.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Repeat Sentence - Q11.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Repeat Sentence - Q12.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Repeat Sentence - Q13.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Repeat Sentence - Q14.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Repeat Sentence - Q15.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Repeat Sentence - Q16.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Repeat Sentence - Q17.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Repeat Sentence - Q18.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Repeat Sentence - Q19.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Repeat Sentence - Q8.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Repeat Sentence - Q9.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Retell Lecture - Q26.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Retell Lecture - Q28.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 6_Speaking - Retell Lecture - Q27.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Fill in the blanks - Q5.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Fill in the blanks - Q6.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Fill in the blanks - Q7.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Highlight Correct Summary - Q8.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Highlight Correct Summary - Q9.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Highlight Incorrect Words- Q14.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Highlight Incorrect Words- Q15.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Multiple choice, choose multiple answers - Q3.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Multiple choice, choose multiple answers - Q4.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Multiple choice, choose single answer - Q10.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Multiple choice, choose single answer - Q11.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Select missing word - Q12.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Select missing word - Q13.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Summarize Spoken Text - Q1.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Summarize Spoken Text - Q2.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Write from dictation- Q16.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Write from dictation- Q17.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Write from dictation- Q18.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_Listening - Write from dictation- Q19.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image1.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image10.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image11.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image12.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image13.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image14.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image15.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image2.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image3.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image4.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image5.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image6.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image7.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image8.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 7_test7_image9.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Answer Short Question - Q29.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Answer Short Question - Q30.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Answer Short Question - Q31.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Answer Short Question - Q32.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Answer Short Question - Q33.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Answer Short Question - Q34.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Answer Short Question - Q35.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Answer Short Question - Q36.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Answer Short Question - Q37.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Answer Short Question - Q38.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Answer Short Question - Q39.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Answer Short Question - Q40.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Repeat Sentence - Q10.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Repeat Sentence - Q11.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Repeat Sentence - Q12.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Repeat Sentence - Q13.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Repeat Sentence - Q14.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Repeat Sentence - Q15.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Repeat Sentence - Q16.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Repeat Sentence - Q17.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Repeat Sentence - Q18.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Repeat Sentence - Q19.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Repeat Sentence - Q8.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Repeat Sentence - Q9.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Retell Lecture - Q26.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Retell Lecture - Q27.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 7_Speaking - Retell Lecture - Q28.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_image_10.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_image_11.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_image_12.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_image_13.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_image_14.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_image_15.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_image_16.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_image_17.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_image_18.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_image_19.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_image_20.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_image_21.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Fill in the blanks - Q5.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Fill in the blanks - Q6.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Highlight Correct Summary - Q7.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Highlight Correct Summary - Q8.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Highlight Incorrect Words- Q13.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Highlight Incorrect Words- Q14.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Highlight Incorrect Words- Q15.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Multiple choice, choose multiple answers - Q3.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Multiple choice, choose multiple answers - Q4.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Multiple choice, choose single answer - Q10.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Multiple choice, choose single answer - Q9.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Select missing word - Q11.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Select missing word - Q12.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Summarize Spoken Text - Q1.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Summarize Spoken Text - Q2.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Write from dictation- Q16.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Write from dictation- Q17.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Write from dictation- Q18.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 10_Listening - Write from dictation- Q19.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Answer Short Question - Q29.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Answer Short Question - Q30.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Answer Short Question - Q31.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Answer Short Question - Q32.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Answer Short Question - Q33.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Answer Short Question - Q34.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Answer Short Question - Q35.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Answer Short Question - Q36.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Answer Short Question - Q37.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Answer Short Question - Q38.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Repeat Sentence - Q10.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Repeat Sentence - Q11.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Repeat Sentence - Q12.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Repeat Sentence - Q13.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Repeat Sentence - Q14.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Repeat Sentence - Q15.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Repeat Sentence - Q16.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Repeat Sentence - Q17.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Repeat Sentence - Q18.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Repeat Sentence - Q19.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Repeat Sentence - Q8.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Repeat Sentence - Q9.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Retell Lecture - Q26.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Retell Lecture - Q27.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 10_Speaking - Retell Lecture - Q28.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_image1.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_image10.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_image11.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_image12.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_image13.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_image2.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_image3.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_image4.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_image5.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_image6.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_image7.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_image8.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_image9.tpi">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Fill in the blanks - Q5.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Fill in the blanks - Q6.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Highlight Correct Summary - Q7.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Highlight Correct Summary - Q8.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Highlight Incorrect Words- Q13.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Highlight Incorrect Words- Q14.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Multiple choice, choose multiple answers - Q3.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Multiple choice, choose multiple answers - Q4.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Multiple choice, choose single answer - Q10.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Multiple choice, choose single answer - Q9.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Select missing word - Q11.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Select missing word - Q12.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Summarize Spoken Text - Q1.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Summarize Spoken Text - Q2.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Write from dictation- Q15.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Write from dictation- Q16.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\Practice Set 3_Listening - Write from dictation- Q17.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Answer Short Question - Q29.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Answer Short Question - Q30.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Answer Short Question - Q31.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Answer Short Question - Q32.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Answer Short Question - Q33.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Answer Short Question - Q34.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Answer Short Question - Q35.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Answer Short Question - Q36.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Answer Short Question - Q37.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Answer Short Question - Q38.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Answer Short Question - Q39.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Repeat Sentence - Q10.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Repeat Sentence - Q11.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Repeat Sentence - Q12.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Repeat Sentence - Q13.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Repeat Sentence - Q14.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Repeat Sentence - Q15.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Repeat Sentence - Q16.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Repeat Sentence - Q17.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Repeat Sentence - Q18.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Repeat Sentence - Q8.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Repeat Sentence - Q9.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Retell Lecture - Q26.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Retell Lecture - Q27.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 3_Speaking - Retell Lecture - Q28.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Data\Temp\9b6fca36-b3c9-44a1-b050-228532d08094\e03c7f34-7a7f-46cb-9f8f-a80cc51f827c\info.md" />
     <Content Include="Data\Temp\9b6fca36-b3c9-44a1-b050-228532d08094\info.md">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

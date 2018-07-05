@@ -236,11 +236,13 @@ namespace TPA.Templates.Common
                     if (QuestionContext.CurrentQuestionType != QuestionType.SPEAKING) //Your response button is not available
                         btnYourResponse.Visibility = Visibility.Visible;
 
-                    ///var loginStatus = TPACache.GetItem(TPACache.LOGIN_KEY);
+                    var loginStatus = TPACache.GetItem(TPACache.LOGIN_KEY);
+
                     if ((CurrentQuestionType == QuestionType.SPEAKING
                         || CurrentQuestionType == QuestionType.WRITING
                         || QuestionContext.QuestionTemplate == QuestionTemplates.LISTEN_AND_WRITE.ToString()
-                        && QuestionContext.QuestionTemplate != QuestionTemplates.SPEAK_ANSWER_SHORT_QUESTION.ToString()))
+                        && QuestionContext.QuestionTemplate != QuestionTemplates.SPEAK_ANSWER_SHORT_QUESTION.ToString())
+                        && loginStatus != null)
                         btnEvaluate.Visibility = Visibility.Visible;
                     else
                     {
@@ -259,10 +261,10 @@ namespace TPA.Templates.Common
                                 maximumPoints = correctAnswser.Split(' ').Count();
                         }
 
-                        lblPoints.Content = string.Format("Maximum Points : {0}      Points Obtained: {1}", maximumPoints, 
+                        lblPoints.Content = string.Format("Maximum Points : {0}      Points Obtained: {1}", maximumPoints,
                             (result != null && result.Any() ? result.First().ParamScore : "0"));
 
-                        
+
 
                     }
 
