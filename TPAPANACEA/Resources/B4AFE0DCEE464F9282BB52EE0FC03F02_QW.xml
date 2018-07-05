@@ -137,36 +137,7 @@ To what extent do you agree or disagree?</description>
 </question>
 <!--TEST 2 END-->
   <!--TEST 4 -->
-  <question>
-    <id>400070868ea74232adcadfe0f0df3b12</id>
-    <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
-    <type>WRITE_ESSAY</type>
-    <itemType>WRITING</itemType>
-    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
-    <delayTime>00:00:00</delayTime>
-    <attemptTime>00:20:00</attemptTime>
-    <template>
-      <description>Cycling is more environmentally friendly than other forms of transport. Why is it not popular in many places? And how to increase its popularity?</description>
-      <title>Writing - Essay Writing - Q3</title>
-      <maxWordCount>300</maxWordCount>
-      <answer></answer>
-    </template>
-  </question>
-  <question>
-    <id>b89aa41a60194e54b72bf88b3b5a47e2</id>
-    <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
-    <type>WRITE_ESSAY</type>
-    <itemType>WRITING</itemType>
-    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
-    <delayTime>00:00:00</delayTime>
-    <attemptTime>00:20:00</attemptTime>
-    <template>
-      <description>In many countries, governments are spending a large amount of money on improving internet access. Why is it happening and do you think it is the most appropriate use of government money?</description>
-      <title>Writing - Essay Writing - Q4</title>
-      <maxWordCount>300</maxWordCount>
-      <answer></answer>
-    </template>
-  </question>
+  
   <question>
     <id>2d277613cbb34b358be3123fc9e3e48e</id>
     <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
@@ -206,6 +177,37 @@ Advocates of improving productivity through rewards tacitly accept that people a
       <title>Writing - Summarize Written Text - Q2</title>
       <maxWordCount>100</maxWordCount>
       <answer>An important management principle is that when some business enterprises reward their employees with money or company stock and some provide special privileges, whatever the type of reward is given, managerial consultants agree that such incentives improves employee attitudes, motivation, and productivity but productivity goal should be within reach as it will persuade people to achieve remarkable results otherwise it will demotivate them.</answer>
+    </template>
+  </question>
+  
+  <question>
+    <id>400070868ea74232adcadfe0f0df3b12</id>
+    <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>Cycling is more environmentally friendly than other forms of transport. Why is it not popular in many places? And how to increase its popularity?</description>
+      <title>Writing - Essay Writing - Q3</title>
+      <maxWordCount>300</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <question>
+    <id>b89aa41a60194e54b72bf88b3b5a47e2</id>
+    <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>In many countries, governments are spending a large amount of money on improving internet access. Why is it happening and do you think it is the most appropriate use of government money?</description>
+      <title>Writing - Essay Writing - Q4</title>
+      <maxWordCount>300</maxWordCount>
+      <answer></answer>
     </template>
   </question>
   <!--TEST 4 END -->
@@ -262,6 +264,21 @@ That is a much more blame-less affair. For the Saxon Neatherd who had spent a ha
 
   <!--TEST 9-->
   <question>
+    <id>63a30f49541c467aa21e5e8bca2712e0</id>
+    <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>Clients who can use art therapy may have a wide range of difficulties, disabilities or diagnoses. These include, for example, emotional, behavioral or mental health problems, learning or physical disabilities, life-limiting conditions, brain-injury or neurological conditions and physical illness. Art therapy may be provided for groups, or for individuals, depending on clients’ needs. It is not a recreational activity or an art lesson, although the sessions can be enjoyable. Clients do not need to have any previous experience or expertise in art. Art therapy is a mental health profession that uses the creative process of art making to improve and enhance the physical, mental and emotional well-being of individuals of all ages. It is based on the belief that the creative process involved in artistic self-expression helps people to resolve conflicts and problems, develop interpersonal skills, manage behavior, reduce stress, increase self-esteem and self-awareness, and achieve insight. Art therapy integrates the fields of human development, visual art (drawing, painting, sculpture, and other art forms), and the creative process with models of counseling and psychotherapy.</description>
+      <title>Writing - Summarize Written Text - Q1</title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Clients who can use art therapy may have a wide range of difficultiesWhich may include emotional, behavioral or mental health problems, or any disabilities, or neurological conditions, art therapy may be provided for groups, or for individuals as it enhances the physical, mental and emotional well-being of individuals of all ages and the creative process with models of counseling and psychotherapy are built.</answer>
+    </template>
+  </question>
+  <question>
     <id>242220cc353147549693dda9465a78ac</id>
     <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
     <type>SUMMARIZE_TEXT</type>
@@ -311,44 +328,13 @@ Brunelleschi would have to build the dome out of brick, due to its light weight 
       <answer></answer>
     </template>
   </question>
-  <question>
-    <id>63a30f49541c467aa21e5e8bca2712e0</id>
-    <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
-    <type>SUMMARIZE_TEXT</type>
-    <itemType>WRITING</itemType>
-    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-    <delayTime>00:00:00</delayTime>
-    <attemptTime>00:10:00</attemptTime>
-    <template>
-      <description>Clients who can use art therapy may have a wide range of difficulties, disabilities or diagnoses. These include, for example, emotional, behavioral or mental health problems, learning or physical disabilities, life-limiting conditions, brain-injury or neurological conditions and physical illness. Art therapy may be provided for groups, or for individuals, depending on clients’ needs. It is not a recreational activity or an art lesson, although the sessions can be enjoyable. Clients do not need to have any previous experience or expertise in art. Art therapy is a mental health profession that uses the creative process of art making to improve and enhance the physical, mental and emotional well-being of individuals of all ages. It is based on the belief that the creative process involved in artistic self-expression helps people to resolve conflicts and problems, develop interpersonal skills, manage behavior, reduce stress, increase self-esteem and self-awareness, and achieve insight. Art therapy integrates the fields of human development, visual art (drawing, painting, sculpture, and other art forms), and the creative process with models of counseling and psychotherapy.</description>
-      <title>Writing - Summarize Written Text - Q1</title>
-      <maxWordCount>100</maxWordCount>
-      <answer>Clients who can use art therapy may have a wide range of difficultiesWhich may include emotional, behavioral or mental health problems, or any disabilities, or neurological conditions, art therapy may be provided for groups, or for individuals as it enhances the physical, mental and emotional well-being of individuals of all ages and the creative process with models of counseling and psychotherapy are built.</answer>
-    </template>
-  </question>
+  
   <!--TEST 9 END -->
   
   <!--TEST 5-->
+  
   <question>
-  <id>cca1f6c43b7c46c0becca6895fee53f6</id>
-  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
-  <type>WRITE_ESSAY</type>
-  <itemType>WRITING</itemType>
-  <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:00:20</attemptTime>
-  <template>
-    <description>A good sense of humor is one of the most important human qualities.
-
-Use specific reasons and examples to support your opinion.
-</description>
-    <title>Do you agree or disagree with the following statement?</title>
-    <maxWordCount>300</maxWordCount>
-    <answer></answer>
-  </template>
-</question>
-<question>
-  <id>4674c8cd6c2d417892985e21f671d1a4</id>
+  <id>2e540a92dcc64100bfa3e2453a3bbf18</id>
   <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
   <type>SUMMARIZE_TEXT</type>
   <itemType>WRITING</itemType>
@@ -356,13 +342,16 @@ Use specific reasons and examples to support your opinion.
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:10</attemptTime>
   <template>
-    <description>Much archaeological evidence supports the widely held view that the first people to migrate to the American continent entered through a land bridge, which at one time joined Eastern Asia with North America. This land bridge, known as Beringia, was a wide expanse of terrain that emerged from the ocean as the sea levels dropped due to widespread glaciation at the time of the last Ice Age. Groups of humans could have slowly migrated across the grassy tundra of Beringia, feeding on herds of animals or coastal marine life. At the time, much of North America including what is now Canada, would have been covered with thick ice sheets making further movement southward a physical impossibility. 
-At a later period, the ice receded and humans would have been able to traverse an ice-free corridor in a southerly direction, and gradually settle the vast uninhabited continent. The ending of the Ice Age also caused the ocean levels to rise, thus submerging Beringia and isolating the new migrants from peoples on the Asian side. During the next centuries the descendents of the pioneers who crossed Beringia gradually peopled the entire landmass of the Americas. This view of the origins of the first Americans is often known as the Clovis-first theory (named after the site in New Mexico where stone artifacts made by these settlers were first found). Many subsequent finds of Clovis tools demonstrate this culture's extensive penetration throughout the continent.</description>
-    <title>Writing - Summarize Written Text - Q3</title>
+    <description>Technology is available to exploit the potential energy formed by tides for the generation of electrical energy. The basic structure is a barrage or dam built across a river estuary or at the mouth of a bay. This dam is similar to that used in hydroelectric power plants built across flowing rivers. At regular intervals along the dam, gates and turbines are installed. When the tide is rising, the gates are opened. This allows water to flow into the area behind the barrage, raising the water level there. When the water has reached its highest level, the gates are closed. Then the tide drops on the seaward side, and this trapped water is several meters above the sea level. The gates are then opened, allowing the water to discharge out. The force of the flow turns the turbines and generates electricity. It is also possible to use tidal energy when the water flows in the other direction - through the gates into the estuary from the sea.
+
+In this way, four periods of energy production are possible every day, since coastal regions experience two high and two low tides in just over 24 hours. In order for practical amounts of electricity to be generated, the difference between high and low tides must be at least five meters. Tidal power is renewable, non-polluting, and contributes no greenhouse gases to the atmosphere. This kind of system can provide a useful energy supplement to other sources in an era of diminishing fossil fuel reserves.
+</description>
+    <title>Writing - Summarize Written Text - Q1</title>
     <maxWordCount>70</maxWordCount>
-    <answer>As per archaeological evidence the first people to migrate to the American continent entered through a land bridge, known as Beringia, emerged from the ocean as the sea levels dropped due to widespread glaciations at the time of the last Ice Age and during the next centuries the descendents of the pioneers who crossed Beringia gradually peopled the entire landmass of the Americas known as the Clovis-first theory.</answer>
+    <answer>The dam is built across a river estuary similar to that used in hydroelectric power plants built across flowing rivers to exploit the potential energy formed by tides for the generation of electrical energy because tidal power is renewable, non-polluting, and contributes no greenhouse gases to the atmosphere and provides useful energy supplement to other sources.</answer>
   </template>
 </question>
+
 <question>
   <id>9ea2662b797b492c83f998334d640d1c</id>
   <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
@@ -382,8 +371,10 @@ Advocates of twin studies argue that this research tool can be used to calculate
     <answer>Nature and nurture play some part in the development of personality and to unravel this researchers often conduct studies of the characteristics of identical and fraternal twins, identical twins display very similar behavior and other character traits and the latter group shares 50 percent of their genetic makeup, this research can be used to calculate the heritability medical and psychological disorders, and also the heritability traits.</answer>
   </template>
 </question>
-<question>
-  <id>2e540a92dcc64100bfa3e2453a3bbf18</id>
+  
+  
+  <question>
+  <id>4674c8cd6c2d417892985e21f671d1a4</id>
   <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
   <type>SUMMARIZE_TEXT</type>
   <itemType>WRITING</itemType>
@@ -391,15 +382,35 @@ Advocates of twin studies argue that this research tool can be used to calculate
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:10</attemptTime>
   <template>
-    <description>Technology is available to exploit the potential energy formed by tides for the generation of electrical energy. The basic structure is a barrage or dam built across a river estuary or at the mouth of a bay. This dam is similar to that used in hydroelectric power plants built across flowing rivers. At regular intervals along the dam, gates and turbines are installed. When the tide is rising, the gates are opened. This allows water to flow into the area behind the barrage, raising the water level there. When the water has reached its highest level, the gates are closed. Then the tide drops on the seaward side, and this trapped water is several meters above the sea level. The gates are then opened, allowing the water to discharge out. The force of the flow turns the turbines and generates electricity. It is also possible to use tidal energy when the water flows in the other direction - through the gates into the estuary from the sea.
-
-In this way, four periods of energy production are possible every day, since coastal regions experience two high and two low tides in just over 24 hours. In order for practical amounts of electricity to be generated, the difference between high and low tides must be at least five meters. Tidal power is renewable, non-polluting, and contributes no greenhouse gases to the atmosphere. This kind of system can provide a useful energy supplement to other sources in an era of diminishing fossil fuel reserves.
-</description>
-    <title>Writing - Summarize Written Text - Q1</title>
+    <description>Much archaeological evidence supports the widely held view that the first people to migrate to the American continent entered through a land bridge, which at one time joined Eastern Asia with North America. This land bridge, known as Beringia, was a wide expanse of terrain that emerged from the ocean as the sea levels dropped due to widespread glaciation at the time of the last Ice Age. Groups of humans could have slowly migrated across the grassy tundra of Beringia, feeding on herds of animals or coastal marine life. At the time, much of North America including what is now Canada, would have been covered with thick ice sheets making further movement southward a physical impossibility. 
+At a later period, the ice receded and humans would have been able to traverse an ice-free corridor in a southerly direction, and gradually settle the vast uninhabited continent. The ending of the Ice Age also caused the ocean levels to rise, thus submerging Beringia and isolating the new migrants from peoples on the Asian side. During the next centuries the descendents of the pioneers who crossed Beringia gradually peopled the entire landmass of the Americas. This view of the origins of the first Americans is often known as the Clovis-first theory (named after the site in New Mexico where stone artifacts made by these settlers were first found). Many subsequent finds of Clovis tools demonstrate this culture's extensive penetration throughout the continent.</description>
+    <title>Writing - Summarize Written Text - Q3</title>
     <maxWordCount>70</maxWordCount>
-    <answer>The dam is built across a river estuary similar to that used in hydroelectric power plants built across flowing rivers to exploit the potential energy formed by tides for the generation of electrical energy because tidal power is renewable, non-polluting, and contributes no greenhouse gases to the atmosphere and provides useful energy supplement to other sources.</answer>
+    <answer>As per archaeological evidence the first people to migrate to the American continent entered through a land bridge, known as Beringia, emerged from the ocean as the sea levels dropped due to widespread glaciations at the time of the last Ice Age and during the next centuries the descendents of the pioneers who crossed Beringia gradually peopled the entire landmass of the Americas known as the Clovis-first theory.</answer>
   </template>
 </question>
+  
+  <question>
+  <id>cca1f6c43b7c46c0becca6895fee53f6</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>WRITE_ESSAY</type>
+  <itemType>WRITING</itemType>
+  <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:20</attemptTime>
+  <template>
+    <description>A good sense of humor is one of the most important human qualities.
+
+Use specific reasons and examples to support your opinion.
+</description>
+    <title>Do you agree or disagree with the following statement?</title>
+    <maxWordCount>300</maxWordCount>
+    <answer></answer>
+  </template>
+</question>
+
+
+
 
   <!--TEST 5 END-->
   
