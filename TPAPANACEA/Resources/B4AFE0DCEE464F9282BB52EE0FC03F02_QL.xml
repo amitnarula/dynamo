@@ -62,7 +62,7 @@
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>How does EMDR works?</description>
-    <title>Listening - Multiple choice, choose multiple answers - Q4</title>
+    <title>How does EMDR works?</title>
     <media>Listening - Multiple choice, choose multiple answers - Q4.tpm</media>
     <delay>8</delay>
     <options>
@@ -85,7 +85,7 @@
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>What element of the plover’s habitat in California was threatened?</description>
-    <title>Listening - Multiple choice, choose multiple answers - Q5</title>
+    <title>What element of the plover’s habitat in California was threatened?</title>
     <media>Listening - Multiple choice, choose multiple answers - Q5.tpm</media>
     <delay>8</delay>
     <options>
@@ -192,7 +192,7 @@ The effects of testosterone can be seen in boys when they become young men. They
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>What kind of important transformation Speaker is talking about?</description>
-    <title>Listening - Multiple choice, choose single answer - Q10</title>
+    <title>What kind of important transformation Speaker is talking about?</title>
     <media>Listening - Multiple choice, choose single answer - Q10.tpm</media>
     <delay>5</delay>
     <options>
@@ -214,7 +214,7 @@ The effects of testosterone can be seen in boys when they become young men. They
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>What does speaker mainly focus on?</description>
-    <title>Listening - Multiple choice, choose single answer - Q11</title>
+    <title>What does speaker mainly focus on?</title>
     <media>Listening - Multiple choice, choose single answer - Q11.tpm</media>
     <delay>5</delay>
     <options>
@@ -405,7 +405,7 @@ So I think in the next decade, the sciences and the humanity will come closer to
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>As per the lecture, which statement is true:-</description>
-    <title>Listening - Multiple choice, choose multiple answers - Q3</title>
+    <title>As per the lecture, which statement is true:-</title>
     <media>Listening - Multiple choice, choose multiple answers - Q31.tpm</media>
     <delay>8</delay>
     <options>
@@ -428,7 +428,7 @@ So I think in the next decade, the sciences and the humanity will come closer to
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>Which of the following statements are TRUE as per the lecture?</description>
-    <title>Listening - Multiple choice, choose multiple answers - Q4</title>
+    <title>Which of the following statements are TRUE as per the lecture?</title>
     <media>Listening - Multiple choice, choose multiple answers - Q41.tpm</media>
     <delay>8</delay>
     <options>
@@ -533,7 +533,7 @@ So yes, humans have always made {blank} . Decision makers and gatekeepers, in co
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>As per the lecture, what  speaker wants to explain?</description>
-    <title>Listening - Multiple choice, choose single answer - Q9</title>
+    <title>As per the lecture, what  speaker wants to explain?</title>
     <media>Listening - Multiple choice, choose single answer - Q91.tpm</media>
     <delay>5</delay>
     <options>
@@ -555,7 +555,7 @@ So yes, humans have always made {blank} . Decision makers and gatekeepers, in co
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>Psychopathic people are</description>
-    <title>Listening - Multiple choice, choose single answer - Q10</title>
+    <title>Psychopathic people are</title>
     <media>Listening - Multiple choice, choose single answer - Q101.tpm</media>
     <delay>5</delay>
     <options>
@@ -2329,7 +2329,7 @@ One disadvantage of groups is that individuals may try to conform with what this
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:00:00</attemptTime>
     <template>
-      <description>All of this choice has two effects, two negative effects on people. One effect, {blank} , is that it produces paralysis, rather than liberation. With so many options to choose from, people find it very difficult to choose at all. I'll give you one very {blank} example of this: a study that was done of investments in voluntary retirement plans. A colleague of mine got access to investment records from Vanguard, the {blank} mutual-fund company of about a million employees and about 2,000 different workplaces. And what she found is that for every 10 mutual funds the employer offered, rate of {blank} went down two percent. You offer 50 funds - 10 percent fewer employees {blank} than if you only offer five. Why? Because with 50 funds to choose from, it's so damn hard to decide which fund to choose, that you'll just put it off until tomorrow.</description>
+      <description>All of this choice has two effects, two negative effects on people. One effect, {blank}, is that it produces paralysis, rather than liberation. With so many options to choose from, people find it very difficult to choose at all. I'll give you one very {blank} example of this: a study that was done of investments in voluntary retirement plans, for every 10 mutual funds the employer offered, rate of {blank} went down two percent. You offer 50 funds -- 10 percent fewer employees {blank} than if you only offer five. Why? Because with 50 funds to choose from, it's so damn hard to decide which fund to choose, that you'll just put it off until tomorrow.</description>
       <title></title>
       <media>Practice Set 6_Listening - Fill in the blanks - Q5.tpm</media>
       <delay>8</delay>
@@ -2400,6 +2400,29 @@ One disadvantage of groups is that individuals may try to conform with what this
       <answer>0</answer>
     </template>
   </question>
+  <!-- <question> -->
+    <!-- <id>99b3349f25d24bb6973dd88b212eb18e</id> -->
+    <!-- <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet> -->
+    <!-- <type>LISTEN_MULTI_CHOICE</type> -->
+    <!-- <itemType>LISTENING</itemType> -->
+    <!-- <instruction>Listen to the recording and answer the multiple -choice question by selecting the correct response. Only one response is correct. </instruction> -->
+    <!-- <delayTime>00:00:00</delayTime> -->
+    <!-- <attemptTime>00:00:00</attemptTime> -->
+    <!-- <template> -->
+      <!-- <description></description> -->
+      <!-- <title>What should be done to maximize the welfare of the citizens?</title> -->
+      <!-- <media>Practice Set 6_Listening - Multiple choice, choose single answer - Q9.tpm</media> -->
+      <!-- <delay>5</delay> -->
+      <!-- <options> -->
+        <!-- <o0>The choices should be reduced.</o0> -->
+        <!-- <o1>More choices mean less freedom.</o1> -->
+        <!-- <o2>Freedom effects once life deeply.</o2> -->
+        <!-- <o3>more choice lead to more freedom.</o3> -->
+      <!-- </options> -->
+      <!-- <answer>3</answer> -->
+    <!-- </template> -->
+  <!-- </question> -->
+  
   <question>
     <id>99b3349f25d24bb6973dd88b212eb18e</id>
     <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
@@ -2410,18 +2433,20 @@ One disadvantage of groups is that individuals may try to conform with what this
     <attemptTime>00:00:00</attemptTime>
     <template>
       <description></description>
-      <title>What should be done to maximize the welfare of the citizens?</title>
+      <title>As per the speaker, how could global food crisis be avoided:-</title>
       <media>Practice Set 6_Listening - Multiple choice, choose single answer - Q9.tpm</media>
       <delay>5</delay>
       <options>
-        <o0>The choices should be reduced.</o0>
-        <o1>More choices mean less freedom.</o1>
-        <o2>Freedom effects once life deeply.</o2>
-        <o3>more choice lead to more freedom.</o3>
+        <o0>providing 70% of the food.</o0>
+        <o1>reducing the price of food.</o1>
+        <o2>by having security on global food.</o2>
+        <o3>by reframing the old narratives.</o3>
       </options>
       <answer>3</answer>
     </template>
   </question>
+  
+  
   <question>
     <id>39ba0876080243af946d8dde37cd34d8</id>
     <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>

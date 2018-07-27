@@ -30,7 +30,7 @@ namespace TPA.Templates.Common
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             txtBlkTranscript.Text = Transcript;
-            this.Height = txtBlkTranscript.ActualHeight + 100;
+            this.Height = 450;
         }
     }
 }

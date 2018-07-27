@@ -144,7 +144,8 @@ Time for recording will be 10 seconds.</instruction>
     <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>97995543857146cd83ea96e24c8cbb0b</output>
-    <answer>sampleresponse</answer>
+    <answer>He says his business earns a twenty-five percent profit.</answer>
+	<transcript>He says his business earns a twenty-five percent profit.</transcript>
     <beep>False</beep>
     <audio>Speaking - Repeat Sentence - Q8.tpm</audio>
     <audioDelay>03</audioDelay>
@@ -167,7 +168,8 @@ Time for recording will be 10 seconds.</instruction>
     <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>e6fbaa4a17664564b871dd14af1f8482</output>
-    <answer>sampleresponse</answer>
+    <answer>We don't put any added salt, sugar or preservatives into our cookies</answer>
+	<transcript>We don't put any added salt, sugar or preservatives into our cookies</transcript>
     <beep>False</beep>
     <audio>Speaking - Repeat Sentence - Q9.tpm</audio>
     <audioDelay>03</audioDelay>
@@ -190,7 +192,8 @@ Time for recording will be 10 seconds.</instruction>
     <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>c43670cd125e475d87f173e9a2ab51ec</output>
-    <answer>sampleresponse</answer>
+    <answer>A delay of even one second could affect the information being collected.</answer>
+	<transcript>A delay of even one second could affect the information being collected.</transcript>
     <beep>False</beep>
     <audio>Speaking - Repeat Sentence - Q10.tpm</audio>
     <audioDelay>03</audioDelay>
@@ -213,7 +216,8 @@ Time for recording will be 10 seconds.</instruction>
     <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>bdd2a8dcc7754916a9099d8bb6c7cce7</output>
-    <answer>sampleresponse</answer>
+    <answer>He left his job and used his life's savings to plan a trip around the world.</answer>
+	<transcript>He left his job and used his life's savings to plan a trip around the world.</transcript>
     <beep>False</beep>
     <audio>Speaking - Repeat Sentence - Q11.tpm</audio>
     <audioDelay>03</audioDelay>
@@ -237,6 +241,7 @@ Time for recording will be 10 seconds.</instruction>
     <recordingTime>10</recordingTime>
     <output>71bd4312446f49fe91ad8b006ca24aa1</output>
     <answer>sampleresponse</answer>
+	<transcript>The first plane ever to fly faster than the speed of sound was the X-One in nineteen forty-seven.</transcript>
     <beep>False</beep>
     <audio>Speaking - Repeat Sentence - Q12.tpm</audio>
     <audioDelay>03</audioDelay>
@@ -260,6 +265,7 @@ Time for recording will be 10 seconds.</instruction>
     <recordingTime>10</recordingTime>
     <output>4f9c6189b88b4ead95bdf21231a0a672</output>
     <answer>sampleresponse</answer>
+	<transcript>His breathing becomes harder as the plane pushes against the atmosphere.</transcript>
     <beep>False</beep>
     <audio>Speaking - Repeat Sentence - Q13.tpm</audio>
     <audioDelay>03</audioDelay>
@@ -283,6 +289,7 @@ Time for recording will be 10 seconds.</instruction>
     <recordingTime>10</recordingTime>
     <output>922fb0f6973140bab38f523c783951ce</output>
     <answer>sampleresponse</answer>
+	<transcript>Mr. Grennan established a nonprofit group in Kathmandu called Next Generation Nepal.</transcript>
     <beep>False</beep>
     <audio>Speaking - Repeat Sentence - Q14.tpm</audio>
     <audioDelay>03</audioDelay>
@@ -306,6 +313,7 @@ Time for recording will be 10 seconds.</instruction>
     <recordingTime>10</recordingTime>
     <output>6e6ac652af244aa68a2ebd6132d90143</output>
     <answer>sampleresponse</answer>
+	<transcript>They were particularly interested in investigating the effects of pollution on coral.</transcript>
     <beep>False</beep>
     <audio>Speaking - Repeat Sentence - Q15.tpm</audio>
     <audioDelay>03</audioDelay>
@@ -329,6 +337,7 @@ Time for recording will be 10 seconds.</instruction>
     <recordingTime>10</recordingTime>
     <output>ed1b2874facf41039ae960626675106a</output>
     <answer>sampleresponse</answer>
+	<transcript>British warships blocked the port of New York all through the year 1805.</transcript>
     <beep>False</beep>
     <audio>Speaking - Repeat Sentence - Q16.tpm</audio>
     <audioDelay>03</audioDelay>
@@ -352,6 +361,7 @@ Time for recording will be 10 seconds.</instruction>
     <recordingTime>10</recordingTime>
     <output>7d525c3a9e974098804ff729c87181e1</output>
     <answer>sampleresponse</answer>
+	<transcript>The Shoshoni are dressed in clothes made from animal skin.</transcript>
     <beep>False</beep>
     <audio>Speaking - Repeat Sentence - Q17.tpm</audio>
     <audioDelay>03</audioDelay>
@@ -374,7 +384,7 @@ Time for recording will be 40 seconds.</instruction>
     <recordingTime>40</recordingTime>
     <output>85232c281fbc4929832615d8ba9af633</output>
     <answer>sampleresponse</answer>
-    <beep>True</beep>
+	<beep>True</beep>
     <picture>test1.tpi</picture>
   </template>
 </question>
@@ -521,8 +531,13 @@ Time for recording will be "40 seconds".</instruction>
     <recordingTime>40</recordingTime>
     <output>cce86ceb2a4e49189d3934f695031fa3</output>
     <answer>sampleresponse</answer>
+	<transcript>"Doping" is the general term for the use of banned substances or practices to improve athletic performance. The World Anti-Doping Agency says the term probably came from the Dutch word "dop." That was the name for an alcoholic drink used by Zulu fighters in Africa to improve their performance in battle.
+The agency says the word doping began to be used for athletes in the beginning of the twentieth century. At first, it meant the illegal drugging of racehorses.
+The agency notes that athletes have used substances for centuries to improve their performance. Ancient Greeks used special foods and drinks. Nineteenth century cyclists and others used alcohol, caffeine, cocaine -- even strychnine, a strong poison. By the nineteen twenties, sports organizations were attempting to stop the use of doping substances. But at the time they lacked scientific ways to test for them.
+</transcript>
     <beep>True</beep>
     <audio>Speaking - Retell Lecture - Q25.tpm</audio>
+	<picture>Speaking - Retell Lecture - Q25.tpi</picture>
     <audioDelay>03</audioDelay>
   </template>
 </question>
@@ -543,8 +558,12 @@ Time for recording will be "40 seconds".</instruction>
     <recordingTime>40</recordingTime>
     <output>68526d68ed7a44b592ab702d874d108e</output>
     <answer>sampleresponse</answer>
+	<transcript>Two hundred years of modern science. We have to admit that our performance is not great. The machines we build continue to suffer from mechanical failures. The houses we build do not survive severe earthquakes. But we shouldn't be so critical of our scientists for a simple reason: they didn't have much time. Two hundred years is not a lot of time, while nature had three billion years to perfect some of the most amazing materials, that we wish we had in our possession. Remember, these materials carry a quality assurance of three billion years.
+Take, for example, sequoia trees. They carry hundreds of tons for hundreds of years in cold weather, in warm climates, UV light. Yet, if you look at the structure by high-resolution electron microscopy, and you ask yourself, what is it made of, surprisingly, it's made of sugar. Well, not exactly as we drink in our tea.It's actually a nanofiber called nanocrystalline cellulose. And this nanocrystalline cellulose is so strong, on a weight basis, it's about 10 times stronger than steel. Yet it's made of sugar. So scientists all over the world believe that nanocellulose is going to be one of the most important materials for the entire industry. 
+</transcript>
     <beep>True</beep>
     <audio>Speaking - Retell Lecture - Q26.tpm</audio>
+	<picture>Speaking - Retell Lecture - Q26.tpi</picture>
     <audioDelay>03</audioDelay>
   </template>
 </question>
@@ -565,6 +584,9 @@ Time for recording will be "40 seconds".</instruction>
     <recordingTime>40</recordingTime>
     <output>ebc9ec6580e8492d892149a0bad877d0</output>
     <answer>sampleresponse</answer>
+	<transcript>We are stealing nature from our children. Now, when I say this, I don't mean that we are destroying nature that they will have wanted us to preserve, although that is unfortunately also the case. What I mean here is that we've started to define nature in a way that's so purist and so strict that under the definition we're creating for ourselves, there won't be any nature left for our children when they're adults. But there's a fix for this. So let me explain.
+Right now, humans use half of the world to live, to grow their crops and their timber, to pasture their animals. If you added up all the human beings, we would weigh 10 times as much as all the wild mammals put together. We cut roads through the forest. We have added little plastic particles to the sand on ocean beaches. We've changed the chemistry of the soil with our artificial fertilizers. And of course, we've changed the chemistry of the air. So when you take your next breath, you'll be breathing in 42 percent more carbon dioxide than if you were breathing in 1750. So all of these changes, and many others, have come to be kind of lumped together under this rubric of the "Anthropocene." And this is a term that some geologists are suggesting we should give to our current epoch, given how pervasive human influence has been over it. Now, it's still just a proposed epoch, but I think it's a helpful way to think about the magnitude of human influence on the planet.
+</transcript>
     <beep>True</beep>
     <audio>Speaking - Retell Lecture - Q27.tpm</audio>
     <audioDelay>03</audioDelay>
@@ -817,10 +839,10 @@ Once track will be completed, recording will start after "1 second" for "10 seco
     <recordingTime>10</recordingTime>
     <output>e9a6f459dc5840589e091ebfbedcf577</output>
     <answer>sampleresponse</answer>
+	<picture>Speaking - Answer Short Question - 38.tpi</picture>
     <beep>False</beep>
     <audio>Speaking - Answer Short Question - Q38.tpm</audio>
-    <transcript>What is the name of the ball in picture?
-Answer: Basket Ball</transcript>
+    <transcript>What is the name of the ball in picture? Answer: Basket Ball</transcript>
   </template>
 </question>
 <question>
@@ -2376,7 +2398,7 @@ Answer: CN Tower located in Toronto, Canada.</transcript>
     <beep>True</beep>
     <audio>Practice Set 4_Speaking - Retell Lecture - Q27.tpm</audio>
     <audioDelay>03</audioDelay>
-    <picture></picture>
+    <picture>Practice Set 4_Speaking - Retell Lecture - Q27.tpi</picture>
     <transcript>The lecture is on icebergs having a distinct way of interacting with the environment and their experiences. Some cannot stay the harsh environment and crumble in a fit of dramatic passion. When iceberg  melts, it is releasing mineral-rich fresh water that nourishes many forms of life which leads to continuation of their path through the cycle of life.</transcript>
   </template>
 </question>
@@ -2400,7 +2422,8 @@ Answer: CN Tower located in Toronto, Canada.</transcript>
     <beep>True</beep>
     <audio>Practice Set 4_Speaking - Retell Lecture - Q27.tpm</audio>
     <audioDelay>03</audioDelay>
-    <picture></picture>
+    <!-- <picture>Practice Set 4_Speaking - Retell Lecture - Q27.tpi</picture> -->
+	<picture></picture>
     <transcript>The lecture is on icebergs having a distinct way of interacting with the environment and their experiences. Some cannot stay the harsh environment and crumble in a fit of dramatic passion. When iceberg  melts, it is releasing mineral-rich fresh water that nourishes many forms of life which leads to continuation of their path through the cycle of life.</transcript>
   </template>
 </question>
@@ -3305,7 +3328,7 @@ So suddenly I understood why so many of our anti-poverty programs don't work. In
   </template>
 </question>
 
-<question>
+<!--<question>
   <id>75e4e615dcca43b589ea853effd47b15</id>
   <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
   <type>LOOK_SPEAK_LISTEN</type>
@@ -3326,35 +3349,35 @@ So suddenly I understood why so many of our anti-poverty programs don't work. In
     <picture>Practice Set 8_Speaking - Retell Lecture - Q26.tpi</picture>
     <transcript>The speaker talks about Eldar Shafir, a professor at Princeton University whom he met  in Amsterdam to talk about his revolutionary new theory of poverty, which he can sum it up in just two words: scarcity mentality. The behavior of the people is different when they perceive scarcity. The poor are living in a context in which anyone would make dumb decisions. Poverty is not a lack of knowledge.</transcript>
   </template>
-</question>
+</question>-->
 
 
-<question>
-  <id>b731460258ed493ebc1c0412391ed509</id>
-  <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
-  <type>LOOK_SPEAK_LISTEN</type>
-  <itemType>SPEAKING</itemType>
-  <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:00:00</attemptTime>
-  <template>
-    <description></description>
-    <title>Speaking - Retell Lecture - Q27</title>
-    <delay>10</delay>
-    <recordingTime>40</recordingTime>
-    <output>b731460258ed493ebc1c0412391ed509</output>
-    <answer>The lecture is based on global food and agriculture surging demand surpasses the agricultural system's structural capacity to produce food. This means that supply can no longer keep up with demand despite exploding prices. People could starve and governments may fall.  The speaker realizes from the research data was being used to make critical decisions. This is how speaker started with the Gro Intelligence, its main motive is to empower decision-makers at every level and how how we can avoid a coming global food security crisis.</answer>
-    <beep>True</beep>
-    <audio>Practice Set 8_Speaking - Retell Lecture - Q27.tpm</audio>
-    <audioDelay>03</audioDelay>
-    <picture>Practice Set 8_Speaking - Retell Lecture - Q27.tpi</picture>
-    <transcript>We could have a tipping point in global food and agriculture if surging demand surpasses the agricultural system's structural capacity to produce food. This means at this point supply can no longer keep up with demand despite exploding prices, unless we can commit to some type of structural change. This time around, it won't be about stock markets and money. It's about people. People could starve and governments may fall. This question of at what point does supply struggle to keep up with surging demand is one that started off as an interest for me while I was trading and became an absolute obsession. It went from interest to obsession when I realized through my research how broken the system was and how very little data was being used to make such critical decisions. That's the point I decided to walk away from a career on Wall Street and start an entrepreneurial journey to start Gro Intelligence.
-At Gro, we focus on bringing this data and doing the work to make it actionable, to empower decision-makers at every level. But doing this work, we also realized that the world, not just world leaders, but businesses and citizens like every single person in this room, lacked an actionable guide on how we can avoid a coming global food security crisis. And so we built a model, leveraging the petabytes of data we sit on, and we solved for the tipping point.
-Now, no one knows we've been working on this problem and this is the first time that I'm sharing what we discovered. We discovered that the tipping point is actually a decade from now. We discovered that the world will be short 214 trillion calories by 2027. The world is not in a position to fill this gap.
+<!-- <question> -->
+  <!-- <id>b731460258ed493ebc1c0412391ed509</id> -->
+  <!-- <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet> -->
+  <!-- <type>LOOK_SPEAK_LISTEN</type> -->
+  <!-- <itemType>SPEAKING</itemType> -->
+  <!-- <instruction>You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words. You will have 40 seconds to give your response.</instruction> -->
+  <!-- <delayTime>00:00:00</delayTime> -->
+  <!-- <attemptTime>00:00:00</attemptTime> -->
+  <!-- <template> -->
+    <!-- <description></description> -->
+    <!-- <title>Speaking - Retell Lecture - Q27</title> -->
+    <!-- <delay>10</delay> -->
+    <!-- <recordingTime>40</recordingTime> -->
+    <!-- <output>b731460258ed493ebc1c0412391ed509</output> -->
+    <!-- <answer>The lecture is based on global food and agriculture surging demand surpasses the agricultural system's structural capacity to produce food. This means that supply can no longer keep up with demand despite exploding prices. People could starve and governments may fall.  The speaker realizes from the research data was being used to make critical decisions. This is how speaker started with the Gro Intelligence, its main motive is to empower decision-makers at every level and how how we can avoid a coming global food security crisis.</answer> -->
+    <!-- <beep>True</beep> -->
+    <!-- <audio>Practice Set 8_Speaking - Retell Lecture - Q27.tpm</audio> -->
+    <!-- <audioDelay>03</audioDelay> -->
+    <!-- <picture>Practice Set 8_Speaking - Retell Lecture - Q27.tpi</picture> -->
+    <!-- <transcript>We could have a tipping point in global food and agriculture if surging demand surpasses the agricultural system's structural capacity to produce food. This means at this point supply can no longer keep up with demand despite exploding prices, unless we can commit to some type of structural change. This time around, it won't be about stock markets and money. It's about people. People could starve and governments may fall. This question of at what point does supply struggle to keep up with surging demand is one that started off as an interest for me while I was trading and became an absolute obsession. It went from interest to obsession when I realized through my research how broken the system was and how very little data was being used to make such critical decisions. That's the point I decided to walk away from a career on Wall Street and start an entrepreneurial journey to start Gro Intelligence. -->
+<!-- At Gro, we focus on bringing this data and doing the work to make it actionable, to empower decision-makers at every level. But doing this work, we also realized that the world, not just world leaders, but businesses and citizens like every single person in this room, lacked an actionable guide on how we can avoid a coming global food security crisis. And so we built a model, leveraging the petabytes of data we sit on, and we solved for the tipping point. -->
+<!-- Now, no one knows we've been working on this problem and this is the first time that I'm sharing what we discovered. We discovered that the tipping point is actually a decade from now. We discovered that the world will be short 214 trillion calories by 2027. The world is not in a position to fill this gap. -->
 
-</transcript>
-  </template>
-</question>
+<!-- </transcript> -->
+  <!-- </template> -->
+<!-- </question> -->
 
 <question>
   <id>efdee8bccbee49c8b9ff8505b7ebfb32</id>
@@ -5330,6 +5353,7 @@ You will hear a question. Please give a simple and short answer.  Often just one
     <beep>True</beep>
     <audio>Practice Set 5_Speaking - Retell Lecture - Q26.tpm</audio>
     <audioDelay>03</audioDelay>
+	<!--<picture></picture>-->
     <picture>Practice Set 5_Speaking - Retell Lecture - Q26.tpi</picture>
     <transcript>What is an elector? Well, an elector is a person - a member of a political party - who has been chosen by that party in a given state. OK, so this person, this elector, is pledged to his or her party's candidate for president. So in any state there are several electors. The number of electors in a state is equal to the number of U.S. Senators plus the number of U.S. Representatives in that state. Don't get confused here. The senators and representatives are not the same people as the electors. It's just that the numbers are the same. So . . . there are always two senators in each state, as you know, but the number of representatives depends on the population of the state. So a populous state has several representatives and a state without a lot of people will have only a few representatives.</transcript>
   </template>
@@ -5354,7 +5378,8 @@ You will hear a question. Please give a simple and short answer.  Often just one
     <beep>True</beep>
     <audio>Practice Set 5_Speaking - Retell Lecture - Q27.tpm</audio>
     <audioDelay>03</audioDelay>
-    <picture>Practice Set 5_Speaking - Retell Lecture - Q27.tpi</picture>
+    <!--<picture>Practice Set 5_Speaking - Retell Lecture - Q27.tpi</picture>-->
+	 <picture></picture> 
     <transcript>When we think about climate change, we probably don't think about giant insects and erupting volcanoes or funny voices. The images that more readily come to mind are things like retreating glaciers and polar bears adrift on icebergs. We think about pie charts and column graphs and endless politicians talking to scientists wearing cardigans.
 But perhaps it's time we start thinking about climate change on the same visceral level that we experience the air. Like air, climate change is simultaneously at the scale of the molecule, the breath and the planet. It's immediate, vital and intimate, as well as being amorphous and cumbersome. And yet, it's so easily forgotten.
 Climate change is the collective self-portrait of humanity. It reflects our decisions as individuals, as governments and as industries. And if there's anything I've learned from looking at air, it's that even though it's changing, it persists. It may not support the kind of life that we'd recognize, but it will support something. And if we humans are such a vital part of that change, I think it's important that we can feel the discussion. Because even though it's invisible, humans are leaving a very vibrant trace in the air.</transcript>
@@ -5381,7 +5406,8 @@ very first time, it’s like three-way intersection that encourages people to st
     <beep>True</beep>
     <audio>Practice Set 5_Speaking - Retell Lecture - Q28.tpm</audio>
     <audioDelay>03</audioDelay>
-    <picture></picture>
+     <picture>Practice Set 5_Speaking - Retell Lecture - Q28.tpi</picture>
+	<!--<picture></picture>-->
     <transcript>Recently, we were asked to design a center for social justice leadership called the Arcus Center. They asked us for a building that could break down traditional barriers between different groups and in doing so, create possibilities for meaningful conversations around social justice. The students wanted a place for cultural exchange. They thought a place for preparing food together could do that. And they wanted to be welcoming to the outside community. They thought a fireplace could draw people in and help start conversations. And everybody wanted the work of social justice to be visible to the outside world. There really wasn't a precedent for this kind of space, so we looked around the globe and found examples of community meeting houses. Community meeting houses are places where there's very specific relationships between people, like this one in Mali, where the elders gather. The low roof keeps everybody seated and at equal eye level. It's very egalitarian. I mean, you can't stand up and take over the meeting. You'd actually bump your head.
 In meeting houses, there's always a central space where you can sit around a circle and see each other. So we designed a space just like that right in the middle of the Arcus Center, and we anchored it with a fireplace and a kitchen. It's pretty hard to get a kitchen and a fireplace in a building like this with the building codes, but it was so important to the concept, we got it done. And now the central space works for big social gatherings and a place to meet one-on-one for the very first time. It's almost like this three-way intersection that encourages bumping into people and starting a conversation. Now you can always pass the kitchen and see something going on. You can sit by the fireplace and share stories. You can study together in big groups or in small ones, because the architecture sets up these opportunities.
 Even the construction is about building relationships. It's made of cordwood masonry, which is using logs the way you would use bricks. It's super low-tech and easy to do and anyone can do it — and that's the entire point. The act of making is a social activity.</transcript>
@@ -5639,7 +5665,8 @@ Answer:- Potable
     <output>75999a449a0c4daa87d02a98d8e5123b</output>
     <answer>sampleresponse</answer>
     <beep>False</beep>
-    <audio>Practice Set 5_Speaking - Answer Short Question - Q38_notprovided.tpm</audio>
+    <!-- <audio>Practice Set 5_Speaking - Answer Short Question - Q38_notprovided.tpm</audio> -->
+	<audio>Practice Set 5_Speaking - Answer Short Question - Q39.tpm</audio>
     <audioDelay>03</audioDelay>
     <picture>Practice Set 5_Speaking - Answer Short Question - Q38.tpi</picture>
     <transcript>What would you call the area given in the picture?
@@ -8525,26 +8552,26 @@ Answer: Harbour
     <transcript>The line graph gives the IPP price of Diesel in Kinna/Litres for 2005 and 2006. In both the years there was a continuous growth in the diesel price till September, it was 1.6 Kinna per litres in 2005 and 1.9 in 2006. In December 2006, the price dropped to 1.55 Kinna per litre whereas the diesel price in December, 2005 was 1.6 kinna/litre. Overall, as compared to Jan, 2005 and 2006 the price of diesel increased but there was a drastic rise in 2005 as in Jan, 2005 the price was 1.1 Kinna/litre.</transcript>
   </template>
 </question>
-<question>
-  <id>00aea2bc1176401380474056c0b24fb9</id>
-  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
-  <type>SPEAK_LOOK</type>
-  <itemType>SPEAKING</itemType>
-  <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:00:00</attemptTime>
-  <template>
-    <description></description>
-    <title></title>
-    <delay>25</delay>
-    <recordingTime>40</recordingTime>
-    <output>00aea2bc1176401380474056c0b24fb9</output>
-    <answer>sampleresponse</answer>
-    <beep>True</beep>
-    <picture>Practice Set 3_image3.tpi</picture>
-    <transcript>The hierarchy chart shows the members of the management team. Joe Bob is the CEO of the company who has 3 departments working under him, Jim Brennan the COO is handling sales whereas Sally Bronsen, CMO, looking after the marketing and Chris Oliver is CTO who works in the development section. Sarah Smith, the Sales Manager reports to Jim and Will Westin, Account Manager of the Sales is working under Sarah. Max is an Analyst in Marketing and reports to Sally.</transcript>
-  </template>
-</question>
+<!-- <question> -->
+  <!-- <id>00aea2bc1176401380474056c0b24fb9</id> -->
+  <!-- <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet> -->
+  <!-- <type>SPEAK_LOOK</type> -->
+  <!-- <itemType>SPEAKING</itemType> -->
+  <!-- <instruction>Look at the image below. In 25 seconds, please speak into the microphone and describe in details what the map is showing. You will have 40 seconds to give your response.</instruction> -->
+  <!-- <delayTime>00:00:00</delayTime> -->
+  <!-- <attemptTime>00:00:00</attemptTime> -->
+  <!-- <template> -->
+    <!-- <description></description> -->
+    <!-- <title></title> -->
+    <!-- <delay>25</delay> -->
+    <!-- <recordingTime>40</recordingTime> -->
+    <!-- <output>00aea2bc1176401380474056c0b24fb9</output> -->
+    <!-- <answer>sampleresponse</answer> -->
+    <!-- <beep>True</beep> -->
+    <!-- <picture>Practice Set 3_image3.tpi</picture> -->
+    <!-- <transcript>The hierarchy chart shows the members of the management team. Joe Bob is the CEO of the company who has 3 departments working under him, Jim Brennan the COO is handling sales whereas Sally Bronsen, CMO, looking after the marketing and Chris Oliver is CTO who works in the development section. Sarah Smith, the Sales Manager reports to Jim and Will Westin, Account Manager of the Sales is working under Sarah. Max is an Analyst in Marketing and reports to Sally.</transcript> -->
+  <!-- </template> -->
+<!-- </question> -->
 <question>
   <id>a9f2dc76a68348baa3343998d269fc33</id>
   <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>

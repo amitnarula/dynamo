@@ -18,7 +18,10 @@
             <ColumnDefinition Width="190*" />
             <ColumnDefinition Width="292*" />
         </Grid.ColumnDefinitions>
-        <TextBlock Name="txtBlockQuestionDescription" TextAlignment="Justify" FontSize="14"  HorizontalAlignment="Stretch" TextWrapping="Wrap" Margin="18,0,14,0" VerticalAlignment="Top" Height="Auto" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" MouseDown="txtBlockQuestionDescription_MouseDown" />
+        <ScrollViewer Name="scrollviewer"  VerticalScrollBarVisibility="Auto" Margin="18,0,14,0" VerticalAlignment="Top"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" >
+            <TextBlock Name="txtBlockQuestionDescription" TextAlignment="Justify" FontSize="14"  HorizontalAlignment="Stretch" TextWrapping="Wrap" Margin="18,0,14,0" VerticalAlignment="Top" Height="Auto"  MouseDown="txtBlockQuestionDescription_MouseDown" />
+
+        </ScrollViewer>
         <Label Content="Question Title" FontSize="14"  Name="lblQuestionTitle" HorizontalAlignment="Stretch" Margin="0,0,32,0"  VerticalAlignment="Top" Visibility="Hidden" Grid.Column="3" Grid.Row="1" />
         <TextBlock Name="txtQuestionTitle" TextWrapping="Wrap" FontSize="14"  HorizontalAlignment="Stretch" Margin="0,0,32,0"  VerticalAlignment="Top" Grid.Column="3" Grid.Row="1"/>
         <ListBox x:Name="lstBoxOptions" ScrollViewer.HorizontalScrollBarVisibility="Disabled"

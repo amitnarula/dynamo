@@ -229,6 +229,15 @@ namespace TPA.Templates.Common
                     }
                 }
 
+
+                ////TIMEOUT CASES
+                //if (CheckIfEvaluatorLoggedIn() && this.CurrentMode == Mode.TIME_OUT)
+                //{
+                //    btnEvaluate.Visibility = Visibility.Visible;
+                //}
+                //else
+                //    btnEvaluate.Visibility = Visibility.Hidden;
+
                 if (this.CurrentMode == Mode.ANSWER_KEY)
                 {
                     btnSaveAndExit.IsEnabled = false; //Save&Exit should be disabled
@@ -236,35 +245,14 @@ namespace TPA.Templates.Common
                     if (QuestionContext.CurrentQuestionType != QuestionType.SPEAKING) //Your response button is not available
                         btnYourResponse.Visibility = Visibility.Visible;
 
-                    var loginStatus = TPACache.GetItem(TPACache.LOGIN_KEY);
 
-                    if ((CurrentQuestionType == QuestionType.SPEAKING
-                        || CurrentQuestionType == QuestionType.WRITING
-                        || QuestionContext.QuestionTemplate == QuestionTemplates.LISTEN_AND_WRITE.ToString()
-                        && QuestionContext.QuestionTemplate != QuestionTemplates.SPEAK_ANSWER_SHORT_QUESTION.ToString())
-                        && loginStatus != null)
+
+                    if (CheckIfEvaluatorLoggedIn())
                         btnEvaluate.Visibility = Visibility.Visible;
                     else
                     {
                         btnEvaluate.Visibility = Visibility.Hidden;
-                        lblPoints.Visibility = Visibility.Visible;
-                        var result = EvaluationManager.GetResult(QuestionContext);
-
-                        int maximumPoints = QuestionContext.CorrectAnswers.Count();
-                        //Write from dictation, listen and dictate has different point calculation mechanism
-
-                        if (QuestionContext.QuestionTemplate == QuestionTemplates.LISTEN_AND_DICTATE.ToString())
-                        {
-                            var correctAnswser = QuestionContext.CorrectAnswers.SingleOrDefault();
-
-                            if (correctAnswser != null)
-                                maximumPoints = correctAnswser.Split(' ').Count();
-                        }
-
-                        lblPoints.Content = string.Format("Maximum Points : {0}      Points Obtained: {1}", maximumPoints,
-                            (result != null && result.Any() ? result.First().ParamScore : "0"));
-
-
+                        BindObtainedPointData();
 
                     }
 
@@ -285,8 +273,48 @@ namespace TPA.Templates.Common
                     lblTimer.Visibility = Visibility.Hidden; //Don't show the timer at all
 
                 lblItemCount.Content = string.Format("Question {0} of {1}", CurrentQuestionIndex + 1, TotalQuestionsCount);
+
+
+                //TIMEOUT CASES with obtained and maximum points
+
+                if (IsTimeOut)
+                {
+                    lblTimer.Content = string.Empty;
+                    BindObtainedPointData();
+                }
             }
 
+        }
+
+        private void BindObtainedPointData()
+        {
+            lblPoints.Visibility = Visibility.Visible;
+            var result = EvaluationManager.GetResult(QuestionContext);
+
+            int maximumPoints = QuestionContext.CorrectAnswers.Count();
+            //Write from dictation, listen and dictate has different point calculation mechanism
+
+            if (QuestionContext.QuestionTemplate == QuestionTemplates.LISTEN_AND_DICTATE.ToString())
+            {
+                var correctAnswser = QuestionContext.CorrectAnswers.SingleOrDefault();
+
+                if (correctAnswser != null)
+                    maximumPoints = correctAnswser.Split(' ').Count();
+            }
+
+            lblPoints.Content = string.Format("Maximum Points : {0}      Points Obtained: {1}", maximumPoints,
+                (result != null && result.Any() ? result.First().ParamScore : "0"));
+        }
+
+        private bool CheckIfEvaluatorLoggedIn()
+        {
+            var loginStatus = TPACache.GetItem(TPACache.LOGIN_KEY);
+
+            return (CurrentQuestionType == QuestionType.SPEAKING
+                                    || CurrentQuestionType == QuestionType.WRITING
+                                    || QuestionContext.QuestionTemplate == QuestionTemplates.LISTEN_AND_WRITE.ToString()
+                                    && QuestionContext.QuestionTemplate != QuestionTemplates.SPEAK_ANSWER_SHORT_QUESTION.ToString())
+                                    && loginStatus != null;
         }
 
         private void UserControl_Unloaded(object sender, RoutedEventArgs e)

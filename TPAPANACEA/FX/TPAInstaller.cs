@@ -21,7 +21,7 @@ namespace TPA.CoreFramework
         }
         public override void Install(IDictionary stateSaver)
         {
-            Debugger.Break();
+            //Debugger.Break();
             // This gets the named parameters passed in from your custom action
             string folder = Context.Parameters["folder"];
             string logFolder = Context.Parameters["logs"];

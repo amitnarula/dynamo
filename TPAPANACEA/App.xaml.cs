@@ -22,20 +22,20 @@ namespace TPA
             // Add the event handler for handling UI thread exceptions to the event.
             this.DispatcherUnhandledException += new System.Windows.Threading.DispatcherUnhandledExceptionEventHandler(App_DispatcherUnhandledException);
             //for DEMO build
-            /*if (!CommonUtility.ValidateSoftware(appName))
-            {
-                activateApplicationForm = new FrmActivate();
-                activateApplicationForm.AppName = appName;
-                activateApplicationForm.ShowDialog();
-            }
-            else
-            {*/
+            //if (!CommonUtility.ValidateSoftware(appName))
+            //{
+            //    activateApplicationForm = new FrmActivate();
+            //    activateApplicationForm.AppName = appName;
+            //    activateApplicationForm.ShowDialog();
+            //}
+            //else
+            //{
                 //this.StartupUri = new Uri("Splash.xaml", UriKind.RelativeOrAbsolute);
                 LogManager.WriteLog(LogManager.LogType.INFO, "Application initialized successfully");
                 this.StartupUri = new Uri("SplashPanacia.xaml", UriKind.RelativeOrAbsolute);//FISHY
                 //System.Windows.Forms.MessageBox.Show("Application is no longer compatible with the current architecture of OS.",
                 //  "System Error");
-           // }
+            //}
 
         }
 
