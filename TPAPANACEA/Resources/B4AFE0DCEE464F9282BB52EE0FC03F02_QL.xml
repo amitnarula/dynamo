@@ -15,7 +15,7 @@
     <media>Listening - Summarize Spoken Text - Q1.tpm</media>
     <delay>10</delay>
     <maxWordCount>100</maxWordCount>
-    <answer>testing text added just to make application running : Amit Narula</answer>
+    <answer>The speaker has a conversation with Max Atkinson on political speeches and the way it makes audience applaud.  As per Mak, there is need to understand tricks of rhetoric as most of the people are not quite aware that what kind of skills are required, if they have a precise knowledge then they can easily distinguish between the form, structure and the content of the speech and whether it’s worth taking seriously or not.</answer>
   </template>
 </question>
 <question>
@@ -32,7 +32,7 @@
     <media>Listening - Summarize Spoken Text - Q2.tpm</media>
     <delay>10</delay>
     <maxWordCount>100</maxWordCount>
-    <answer>testing text added just to make application running : Amit Narula</answer>
+    <answer>AIDS drugs can increase life expectancy in patients to normal, Dr. Jean has an overall finding where he talks about antiretroviral therapy for HIV for normal lifespan in Africa. Expanded immunization programs were totally reversed with the HIV/AIDS epidemic in Africa and the good news is that investment in antiretroviral programs is now paying off. As per the study in Uganda, twenty-two thousand patients suffering from HIV showed promising results.</answer>
   </template>
 </question>
 <question>
@@ -49,7 +49,7 @@
     <media>Listening - Summarize Spoken Text - Q3.tpm</media>
     <delay>10</delay>
     <maxWordCount>100</maxWordCount>
-    <answer>testing text added just to make application running : Amit Narula</answer>
+    <answer>The lecture is on Machine intelligence, we are using computation to make all sort of decisions but we need to understand that we cannot anchor computation for any subjective decisions this  makes things more complicated, our software is getting more powerful, but it's also getting less transparent and more complex and much of the concept comes from machine learning which is different than traditional programming resulting into being more probabilistic.</answer>
   </template>
 </question>
 <question>
@@ -375,7 +375,7 @@ So I think in the next decade, the sciences and the humanity will come closer to
     <media>Listening - Summarize Spoken Text - Q11.tpm</media>
     <delay>10</delay>
     <maxWordCount>100</maxWordCount>
-    <answer>testing text added just to make application running : Amit Narula</answer>
+    <answer>Most of us are uncomfortable with the idea of broadcasting our salary as there'd be arguments, fights and few people might even quit but pay transparency can make a better workplace for both the employee and the organization as keeping salaries secret leads to discrimination and despite this fact in the United States, the law protects an employee's right to discuss their pay.</answer>
   </template>
 </question>
 <question>
@@ -392,7 +392,7 @@ So I think in the next decade, the sciences and the humanity will come closer to
     <media>Listening - Summarize Spoken Text - Q21.tpm</media>
     <delay>10</delay>
     <maxWordCount>100</maxWordCount>
-    <answer>testing text added just to make application running : Amit Narula</answer>
+    <answer>Exploration is about coming up with what's new, it's about search and discovery and exploitation is the opposite as it is not risky for short term.  So for long-term perspective, we explore and exploit for a short-term. Small children explore all day and as we grow older, we explore less because we have more knowledge to exploit on. The same goes for companies as they are less innovative as they become more competent.</answer>
   </template>
 </question>
 <question>
@@ -734,7 +734,7 @@ That's why Dane's not alone. From technology start-ups like Buffer, to the hundr
     <media>Practice Set 4_Listening - Summarize Spoken Text - Q1.tpm</media>
     <delay>10</delay>
     <maxWordCount>70</maxWordCount>
-    <answer></answer>
+    <answer>The lecture is on strategy and its relationship with technology. As per the speaker, business strategy has always been premised on assumptions about technology which are changing quite dramatically, and drive us to is a different concept. The speaker talks about Henderson who invested on mass in order to achieve competitive advantage which was the introduction of essentially a military concept of strategy into the business world.</answer>
   </template>
 </question>
 
@@ -752,7 +752,7 @@ That's why Dane's not alone. From technology start-ups like Buffer, to the hundr
     <media>Practice Set 4_Listening - Summarize Spoken Text - Q2.tpm</media>
     <delay>10</delay>
     <maxWordCount>70</maxWordCount>
-    <answer></answer>
+    <answer>Carlos volunteered for three tours and got shot up in every one and got medically retired in 1971 because he had shrapnel in his body that he was setting off metal detectors and suffered from nightmares and anxiety for the next 42 years and divorced three times. Carlos had post-traumatic stress disorder. These days PTSD can be eliminated as new scientific research has been able to show, objectively, repeatedly, which treatments actually get rid of symptoms and which do not.</answer>
   </template>
 </question>
 
@@ -2254,7 +2254,7 @@ One disadvantage of groups is that individuals may try to conform with what this
       <media>Practice Set 6_Listening - Summarize Spoken Text - Q1.tpm</media>
       <delay>2</delay>
       <maxWordCount>100</maxWordCount>
-      <answer></answer>
+      <answer>Wisdom teeth are the last one to appear and usually appear at late teen years or early twenties. Wisdom teeth are molars at the back of the mouth and can grow into place normally and never cause a problem. But often there is not enough space for them in the mouth and it push sideways through the gum.</answer>
     </template>
   </question>
   <question>
@@ -2271,7 +2271,7 @@ One disadvantage of groups is that individuals may try to conform with what this
       <media>Practice Set 6_Listening - Summarize Spoken Text - Q2.tpm</media>
       <delay>2</delay>
       <maxWordCount>100</maxWordCount>
-      <answer></answer>
+      <answer>Most of the people visit the Seven Seas exhibition located at the Brookfield Zoo in Chicago. The exhibit opened 50 years ago and was the first inland dolphinarium and it was the first one to use artificial saltwater, this development led to the creation of a permanent home for marine mammals far from the ocean and the Seven Seas exhibit is the oldest inland dolphin habitat in the United States.</answer>
     </template>
   </question>
   <question>
@@ -3011,7 +3011,7 @@ So far, the best idea I've heard about building grit in kids is something called
     <media>Practice Set 10_Listening - Summarize Spoken Text - Q1.tpm</media>
     <delay>10</delay>
     <maxWordCount>100</maxWordCount>
-    <answer></answer>
+    <answer>The creative process is a long process. It's super-iterative which needs lots of refinement. It’s a  brainstorming, coming up with a new idea. Four studies were ran with a variety of people and all of these studies found the same conclusion. People came up with as many ideas as they could, we had to decide which is creative. The definition of creativity for most of the people is appropriate novelty.</answer>
   </template>
 </question>
 <question>
@@ -3028,7 +3028,7 @@ So far, the best idea I've heard about building grit in kids is something called
     <media>Practice Set 10_Listening - Summarize Spoken Text - Q2.tpm</media>
     <delay>10</delay>
     <maxWordCount>100</maxWordCount>
-    <answer></answer>
+    <answer>The lecture is on corporate philanthropy or corporate social responsibility. CSR is very useful. It provides a route for corporate generosity. But its not durable enough to get solutions to the biggest problems. CSR isn't designed only to scale. CSR isn't the answer, but TSI known as total societal impact, is, which is the sum of all of the ways business can affect society by doing the real work.</answer>
   </template>
 </question>
 <question>
@@ -3383,7 +3383,7 @@ So far, the best idea I've heard about building grit in kids is something called
     <media>Practice Set 3_Listening - Summarize Spoken Text - Q1.tpm</media>
     <delay>10</delay>
     <maxWordCount>100</maxWordCount>
-    <answer></answer>
+    <answer>Public schools in the United States have to be neutral about religion, Researcher Charles Haynes explains that Congress shall make no law respecting an establishment of religion and First Amendment guarantees freedom of expression and other rights. Public schools are now understanding their role and exposing students to learn about different religions in a fair way, an objective way.</answer>
   </template>
 </question>
 <question>
@@ -3400,7 +3400,7 @@ So far, the best idea I've heard about building grit in kids is something called
     <media>Practice Set 3_Listening - Summarize Spoken Text - Q2.tpm</media>
     <delay>10</delay>
     <maxWordCount>100</maxWordCount>
-    <answer></answer>
+    <answer>Web browsers first appeared on computers in the early nineteen nineties and internet has changed the way people communicate but some teachers do not accept the changes for the betterment. Professor Johnson says that text messaging has made students believe that it is acceptable to make bad spelling and grammatical errors and they started using less formal English in their writing and rise of instant and casual communication online and an increase in writing mistakes.</answer>
   </template>
 </question>
 <question>

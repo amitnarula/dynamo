@@ -226,21 +226,28 @@ namespace TPACORE.CoreFramework
                                     {
                                         if (item.Split('=')[0].Equals(specificParameter, StringComparison.InvariantCultureIgnoreCase))
                                         {
-                                            attempted += Convert.ToInt32(item.Split('=')[1]);
+                                            int attmptSpecificParameter = 0;
+                                            int.TryParse(item.Split('=')[1], out attmptSpecificParameter);
+                                            attempted += attmptSpecificParameter;
                                             break;
                                         }
                                         continue;
 
                                     }
 
-                                    attempted += Convert.ToInt32(item.Split('=')[1]);
+                                    int attmpt = 0;
+                                    int.TryParse(item.Split('=')[1], out attmpt);
+                                    attempted += attmpt;
                                 }
 
                             }
                             else
                             {
+                                int evaluationSimplePoint = 0;
+                                int.TryParse(evaluation, out evaluationSimplePoint);
+
                                 //simple questions
-                                attempted += Convert.ToInt32(evaluation);
+                                attempted += Convert.ToInt32(evaluationSimplePoint);
                             }
                         }
                     }
