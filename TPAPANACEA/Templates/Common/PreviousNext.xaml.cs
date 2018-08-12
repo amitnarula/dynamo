@@ -259,7 +259,13 @@ namespace TPA.Templates.Common
                 }
 
                 if (this.CurrentMode == Mode.TIME_OUT)
+                {
+                    btnYourResponse.Visibility = Visibility.Visible; // if timeout still user answer and correct answer should be shown
+                    if (CheckIfEvaluatorLoggedIn())
+                        btnEvaluate.Visibility = Visibility.Visible; // if timeout , still it should be evaluated as per teacher logged in status
                     IsTimeOut = true; // set is time out true if question mode is already timeout mode
+                }
+                    
 
                 lblTimer.Content = "Time left : " + AttemptTime.ToString();
 
@@ -289,6 +295,7 @@ namespace TPA.Templates.Common
         private void BindObtainedPointData()
         {
             lblPoints.Visibility = Visibility.Visible;
+            
             var result = EvaluationManager.GetResult(QuestionContext);
 
             int maximumPoints = QuestionContext.CorrectAnswers.Count();
@@ -302,8 +309,8 @@ namespace TPA.Templates.Common
                     maximumPoints = correctAnswser.Split(' ').Count();
             }
 
-            lblPoints.Content = string.Format("Maximum Points : {0}      Points Obtained: {1}", maximumPoints,
-                (result != null && result.Any() ? result.First().ParamScore : "0"));
+            lblPoints.Content = string.Format("Maximum Points : {0}      Points Obtained: {1} {2}", maximumPoints,
+                (result != null && result.Any() ? result.First().ParamScore : "0"), IsTimeOut ? "(Timeout)" : string.Empty);
         }
 
         private bool CheckIfEvaluatorLoggedIn()

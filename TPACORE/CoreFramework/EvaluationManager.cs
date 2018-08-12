@@ -70,14 +70,29 @@ namespace TPACORE.CoreFramework
                                 result = 0;
                         break;
                     case QuestionTemplates.MULTI_CHOICE_MULTIPLE_ANSWER :
+                    case QuestionTemplates.LISTEN_MULTI_SELECT:
                         {
                             if (!string.IsNullOrEmpty(userAnswer))
-                                result = questionContext.CorrectAnswers.Count(x => userAnswer.Split('|').Contains(x));
+                            {
+                                //previous logic didn't consider negative marking
+                                //result = questionContext.CorrectAnswers.Count(x => userAnswer.Split('|').Contains(x));
+                                
+                                int correct = 0;
+                                foreach (var usrAns in userAnswer.Split('|'))
+                                {
+                                    if (questionContext.CorrectAnswers.Any(x => x.Equals(usrAns)))
+                                        correct++;
+                                    else
+                                        correct--;
+                                }
+
+                                result = correct > 0 ? correct : 0;
+                            }
+                            
                         }
                         break;
                     case QuestionTemplates.FILL_IN_BLANK_WITH_OPTIONS:
                     case QuestionTemplates.FILL_IN_BLANKS:
-                    case QuestionTemplates.LISTEN_MULTI_SELECT:
                     case QuestionTemplates.LISTEN_HIGHLIGHT_CORRECT_SUMMARY:
                     case QuestionTemplates.LISTEN_SELECT_MISSING_WORD:
                     case QuestionTemplates.LISTEN_AND_FILL_BLANKS:

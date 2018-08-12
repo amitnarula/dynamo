@@ -1,8 +1,9 @@
 ﻿<Window x:Class="TPA.Templates.Common.TranscriptBox"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Transcript" Height="30" Width="600" ShowInTaskbar="False" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="CanResize">
+        Title="Transcript" Height="300" Width="600" ShowInTaskbar="False" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="CanResize" Icon="../../PANICO.ico">
     <Grid>
         <TextBlock FontSize="14" Name="txtBlkTranscript" TextWrapping="Wrap" Margin="10,10" Height="Auto"></TextBlock>
+
     </Grid>
 </Window>

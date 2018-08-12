@@ -299,13 +299,13 @@ So I think in the next decade, the sciences and the humanity will come closer to
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>We need to ask questions about how we're going to give low-income kids who come from a broken home excess to a loving home. We need to ask questions about how we're going to teach low-income parents how to better interact with their kids, with their partners. We need to ask questions about how we give social economic, mentorship to low-income kids who don't have it. We need to think about how we teach working class children about not just hard expertise, like reading, mathematics, but also soft skills, like conflict revolution and financial management.</description>
+    <description>We need to ask questions about how we're going to give low-income kids who come from a broken home excess to a loving home. We need to ask questions about how we're going to teach low-income parents how to better interact with their children, with their partners. We need to ask questions about how we give social economic, mentorship to low-income kids who don't have it. We need to think about how we teach working class children about not just hard expertise, like reading, mathematics, but also soft skills, like conflict revolution and financial management.</description>
     <title>Listening - Highlight Incorrect Words- Q15</title>
     <media>Listening - Highlight Incorrect Words- Q15.tpm</media>
     <delay>8</delay>
     <maxWordCount>100</maxWordCount>
     <options></options>
-    <answer>excess|kids|economic|expertise|revolution</answer>
+    <answer>excess|economic|expertise|revolution</answer>
   </template>
 </question>
 <question>
@@ -1139,7 +1139,7 @@ supplements that included vitamins, probiotics, and weight loss pills. CR said t
       <o3>extroversion and agreeableness are both conducive.</o3>
       <o4>‘N’ in OCEAN means neurotic individuals.</o4>
     </options>
-    <answer></answer>
+    <answer>0|4</answer>
   </template>
 </question>
 
@@ -1381,7 +1381,7 @@ supplements that included vitamins, probiotics, and weight loss pills. CR said t
   <delayTime>00:00:08</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Our scientists then use this to go back to another part of that tissue and do what's called electronic scanning micro-dissection. So the technician takes the instructions. They scribed along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope transcripts here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we rectify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a macro array.</description>
+    <description>Our scientists then use this to go back to another part of that tissue and do what's called electronic scanning micro-dissection. So the technician takes the instructions. They scribed along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope transcripts here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we rectify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a macroarray.</description>
     <title>Listening - Highlight Incorrect Words- Q13</title>
     <media>Practice Set 8_Listening - Highlight Incorrect Words- Q13.tpm</media>
     <delay>8</delay>
@@ -1424,7 +1424,7 @@ supplements that included vitamins, probiotics, and weight loss pills. CR said t
     <media>Practice Set 8_Listening - Write from dictation- Q15.tpm</media>
     <delay>7</delay>
     <maxWordCount>200</maxWordCount>
-    <answer>The essay will be published once the research is finished.</answer>
+    <answer>The early work is more experimental.</answer>
   </template>
 </question>
 
@@ -1443,7 +1443,7 @@ supplements that included vitamins, probiotics, and weight loss pills. CR said t
     <media>Practice Set 8_Listening - Write from dictation- Q16.tpm</media>
     <delay>7</delay>
     <maxWordCount>200</maxWordCount>
-    <answer>The economic books are at the back on the left.</answer>
+    <answer>The essay will be published once the research is finished.</answer>
   </template>
 </question>
 <question>
@@ -1460,7 +1460,7 @@ supplements that included vitamins, probiotics, and weight loss pills. CR said t
     <media>Practice Set 8_Listening - Write from dictation- Q17.tpm</media>
     <delay>7</delay>
     <maxWordCount>200</maxWordCount>
-    <answer>The early work is more philosophical rather than experimental.</answer>
+    <answer>The economic books are at the back on the left.</answer>
   </template>
 </question>
 
@@ -1479,7 +1479,7 @@ supplements that included vitamins, probiotics, and weight loss pills. CR said t
     <media>Practice Set 8_Listening - Write from dictation- Q18.tpm</media>
     <delay>7</delay>
     <maxWordCount>200</maxWordCount>
-    <answer>The early work is more experimental.</answer>
+    <answer>The early work is more philosophical rather than experimental.</answer>
   </template>
 </question>
 
@@ -1528,6 +1528,54 @@ Let's care more.</transcript>
 </question>
 
 
+<question>
+  <id>22f2324e659d4086a74f4714af9ef9eb</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>What is TRUE as per the given lecture?</title>
+    <media>Practice Set 9_Listening - Multiple choice, choose multiple answers - Q3new.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>3,500 robotic buoys used to measure sea temperature down to 6,000 feet.</o0>
+      <o1>The heat is moving to oceans and making them warmer.</o1>
+      <o2>Argo is an international program measuring temperature of the earth.</o2>
+      <o3>The ocean warming may be because of poor sampling of the southern hemisphere.</o3>
+      <o4>Dr Paul Durack launched the model of Argo.</o4>
+    </options>
+    <answer>0|3</answer>
+  </template>
+</question>
+
+
+<question>
+  <id>369d1e8f07164b54b4a6b92c1cc8387d</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_MULTI_SELECT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>Listen to the recording and answer the multiple-choice question by selecting all the correct responses. You will need to select more than one response.</instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description></description>
+    <title>Which statement is TRUE in regards to Nuclear Power?</title>
+    <media>Practice Set 9_Listening - Multiple choice, choose multiple answers - Q4new.tpm</media>
+    <delay>8</delay>
+    <options>
+      <o0>The pebble bed technology has brought the smart grid solutions for electricity.</o0>
+      <o1>Nuclear industry ia a boondoggle because of high cost and technical problems.</o1>
+      <o2>Pebble bed reactor would cover the way to high temperature hydrogen production.</o2>
+      <o3>Pebble bed reactor will bring the solutions for petrochemical industries.</o3>
+      <o4>Pebble bed reactor is a small-scale and affordable plant.</o4>
+    </options>
+    <answer>2|3|4</answer>
+  </template>
+</question>
 
 <question>
   <id>96efa1952d2f46ffb6c3357918a9ac83</id>
@@ -1722,6 +1770,49 @@ What marketers used to do is make average products for average people. That's wh
   </template>
 </question>
 
+
+<question>
+  <id>79a309de1b2c4876b59c4a1e908871c0</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.
+Track should start after 8 seconds.
+Once track is completed, status should change to "completed" </instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Women are not making it to the top of any profession anywhere in the world. The numbers tell the story quite clearly. 180 heads of state -- nine are women. Of all the people in parliament in the world, 30 percent are women. In the corporate sector, women at the top, C-level jobs, board seats -- tops out at 15, 16 percent. The numbers have not moved since 2002 and are going in the right direction. And even in the non-profit world, a world we sometimes think of as being led by more women, women at the top: 20 percent. We also have another problem, which is that women face better choices between professional success and personal fulfillment. A recent study in the U.S. showed that, of married senior managers, two-thirds of the married women had children and only one-third of the married men had children.</description>
+    <title>Listening - Highlight Incorrect Words- Q14</title>
+    <media>Practice Set 9_Listening - Highlight Incorrect Words- Q13new.tpm</media>
+    <delay>8</delay>
+    <maxWordCount></maxWordCount>
+    <options></options>
+    <answer>180|30|right|better|women|men</answer>
+  </template>
+</question>
+
+<question>
+  <id>555f088a35424f5e9f2ee941e773626f</id>
+  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
+  <type>LISTEN_AND_HIGHLIGHT</type>
+  <itemType>LISTENING</itemType>
+  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.
+Track should start after 8 seconds.
+Once track is completed, status should change to "completed" </instruction>
+  <delayTime>00:00:08</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Western Australia has had a particular problem with shark attacks over the last five years, unfortunately and tragically culminating in five fatal shark attacks in a 10-month period during that time. But Western Australia is not alone in this. The incident of shark engagements on humans is increasing worldwide. And so it's not surprising, perhaps, that in July of this year, Shark Attack Mitigation Systems in combination with the University of Western Australia Oceans Institute made an announcement which captured the attention of the worldwide media and of ocean users worldwide, and that was around the advancement of technology to mitigate or reduce the risk of shark attack based on the science of what sharks can notice.</description>
+    <title>Listening - Highlight Incorrect Words- Q15</title>
+    <media>Practice Set 9_Listening - Highlight Incorrect Words- Q14new.tpm</media>
+    <delay>8</delay>
+    <maxWordCount></maxWordCount>
+    <options></options>
+    <answer>five|increasing|combination|advancement|notice</answer>
+  </template>
+</question>
+
 <question>
   <id>5c0f059b060a41aca3bb61d80f27130e</id>
   <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
@@ -1755,7 +1846,7 @@ What marketers used to do is make average products for average people. That's wh
   <delayTime>00:00:08</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Our scientists then use this to go back to another part of that tissue and do what's called electronic scanning micro-dissection. So the technician takes the instructions. They scribed along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope transcripts here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we rectify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a macro array.</description>
+    <description>Our scientists then use this to go back to another part of that tissue and do what's called electronic scanning micro-dissection. So the technician takes the instructions. They scribed along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope transcripts here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we rectify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a macroarray.</description>
     <title>Listening - Highlight Incorrect Words- Q13</title>
     <media>Practice Set 9_Listening - Highlight Incorrect Words- Q13.tpm</media>
     <delay>8</delay>
@@ -2179,7 +2270,7 @@ One disadvantage of groups is that individuals may try to conform with what this
     <delay>8</delay>
     <maxWordCount>200</maxWordCount>
     <options></options>
-    <answer>advantages|defines|rational|result </answer>
+    <answer>advantages|defines|this|rational|result</answer>
   </template>
 </question>
 
@@ -2522,9 +2613,8 @@ One disadvantage of groups is that individuals may try to conform with what this
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:00:00</attemptTime>
     <template>
-      <description>
-        I got my initial in writing and research as a surgical trainee, as someone who was a long ways away from become any kind of an expert at anything. So the natural question you ask then at that point is, how do I get good at what I'm trying to do? And it became a question of, how do we all get good at what we're trying to do?
-        It's easy enough to learn to get the skills, try to learn all the material you have to absorb at any task you're taking on. I had to think about how I sew and how I cut, but then also how I pick the right person to come to an operating room. And then in the middle of all this came this new context for thinking about what it meant to be worse.
+      <description>I got my initial in writing and research as a surgical trainee, as someone who was a long ways away from become any kind of an expert at anything. So the natural question you ask then at that point is, how do I get good at what I'm trying to do? And it became a question of, how do we all get good at what we're trying to do?
+It's easy enough to learn to get the skills, try to learn all the material you have to absorb at any task you're taking on. I had to think about how I sew and how I cut, but then also how I pick the right person to come to an operating room. And then in the middle of all this came this new context for thinking about what it meant to be worse .
       </description>
       <title></title>
       <media>Practice Set 6_Listening - Highlight Incorrect Words- Q13.tpm</media>
@@ -3312,7 +3402,7 @@ So far, the best idea I've heard about building grit in kids is something called
     <media>Practice Set 10_Listening - Write from dictation- Q16.tpm</media>
     <delay>7</delay>
     <maxWordCount>100</maxWordCount>
-    <answer>0</answer>
+    <answer>Resources of materials are on hold on the library reference desk.</answer>
   </template>
 </question>
 <question>
@@ -3329,7 +3419,7 @@ So far, the best idea I've heard about building grit in kids is something called
     <media>Practice Set 10_Listening - Write from dictation- Q17.tpm</media>
     <delay>7</delay>
     <maxWordCount>100</maxWordCount>
-    <answer>0</answer>
+    <answer>Presidential elections are held every four years.</answer>
   </template>
 </question>
 <question>
@@ -3346,7 +3436,7 @@ So far, the best idea I've heard about building grit in kids is something called
     <media>Practice Set 10_Listening - Write from dictation- Q18.tpm</media>
     <delay>7</delay>
     <maxWordCount>100</maxWordCount>
-    <answer>0</answer>
+    <answer>Politics is usually not a safe topic for conversation.</answer>
   </template>
 </question>
 <question>
@@ -3363,7 +3453,7 @@ So far, the best idea I've heard about building grit in kids is something called
     <media>Practice Set 10_Listening - Write from dictation- Q19.tpm</media>
     <delay>7</delay>
     <maxWordCount>100</maxWordCount>
-    <answer>0</answer>
+    <answer>Try to work with each other to build monolith statues.</answer>
   </template>
 </question>
 <!-- TEST 10 END-->
