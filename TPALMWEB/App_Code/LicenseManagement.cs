@@ -36,10 +36,10 @@ public class LicenseManagement
         return dataContext.LicenseKeys.Where(x => x.ProductUID.Equals(productUID, StringComparison.InvariantCultureIgnoreCase)).SingleOrDefault();
     }
 
-    private bool IsPaymentCodeValid(string code)
+    private bool IsPaymentCodeValid(string code, string appVersion)
     {
         return dataContext.PaymentCodes.SingleOrDefault(x => x.Code.Equals(code, StringComparison.InvariantCultureIgnoreCase)
-            && !x.IsExhausted) != null;
+            && !x.IsExhausted && x.AppVersion.Equals(appVersion, StringComparison.InvariantCultureIgnoreCase)) != null;
     }
 
     
@@ -58,11 +58,11 @@ public class LicenseManagement
         //}
     }
 
-    public bool ConsumePaymentCode(string code, out int validityDays, out long paymentCodeId)
+    public bool ConsumePaymentCode(string code, string appVersion, out int validityDays, out long paymentCodeId)
     {
         validityDays = 0;
         paymentCodeId = 0;
-        if (IsPaymentCodeValid(code))
+        if (IsPaymentCodeValid(code,appVersion))
         {
             PaymentCode paymentCode = dataContext.PaymentCodes.SingleOrDefault(x => x.Code.Equals(code));
             validityDays = paymentCode.ValidityDays;

@@ -20,6 +20,18 @@ public partial class Activate : System.Web.UI.Page
         return TPALM.CommonUtility.DecryptString(Request.QueryString["mac"].Replace(" ", "+"));
     }
 
+    private string GetApplicationVersionFromURL()
+    {
+        if (string.IsNullOrEmpty(Request.QueryString["app"]))
+            return "v1"; //default version of the application
+        else
+        {
+           var appName = Request.QueryString["app"];
+            //decrypt appname
+           return TPALM.CommonUtility.DecryptString(appName).Substring(appName.LastIndexOf("V")+1).ToLower();
+        }
+    }
+
     private void FetchActivationData()
     {
         try
@@ -31,7 +43,7 @@ public partial class Activate : System.Web.UI.Page
                 //Read the machine code & fix for + to empty transformation in URL, back to + from empty space
                 string machineCode = GetMachineCodeFromURL();
                 string productUID = GetProductUIDFromURL();
-
+                
                 //Payment Gateway
                 bool isManualPaymentMode = !string.IsNullOrEmpty(Request.QueryString["mode"]) &&
                     Request.QueryString["mode"].Equals("manual", StringComparison.InvariantCultureIgnoreCase);
@@ -217,7 +229,7 @@ public partial class Activate : System.Web.UI.Page
     {
         int validityDays = 0;
         long paymentCodeId = 0;
-        if (licenseManagementObj.ConsumePaymentCode(txtPaymentCode.Text.Trim(), out validityDays, out paymentCodeId))
+        if (licenseManagementObj.ConsumePaymentCode(txtPaymentCode.Text.Trim(), GetApplicationVersionFromURL(), out validityDays, out paymentCodeId))
         {
             if (validityDays > 0 && paymentCodeId > 0)
             {
@@ -225,9 +237,9 @@ public partial class Activate : System.Web.UI.Page
                 ActivateProduct(GetProductUIDFromURL(), GetMachineCodeFromURL(), validityDays, paymentCodeId, txtPaymentCode.Text.Trim());
             }
             else
-                lblMessage.Text = "The validity days are not valid";
+                lblMessage.Text = "The validity days are not valid.";
         }
         else
-            lblMessage.Text = "Please enter a valid payment code";
+            lblMessage.Text = "Please enter a valid payment code.";
     }
 }

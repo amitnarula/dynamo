@@ -37,6 +37,7 @@ public partial class PaymentCode
     public string Code { get; set; }
     public bool IsExhausted { get; set; }
     public int ValidityDays { get; set; }
+    public string AppVersion { get; set; }
 
     public virtual ICollection<LicenseKey> LicenseKeys { get; set; }
 }
