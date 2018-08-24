@@ -299,7 +299,7 @@ So I think in the next decade, the sciences and the humanity will come closer to
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>We need to ask questions about how we're going to give low-income kids who come from a broken home excess to a loving home. We need to ask questions about how we're going to teach low-income parents how to better interact with their children, with their partners. We need to ask questions about how we give social economic, mentorship to low-income kids who don't have it. We need to think about how we teach working class children about not just hard expertise, like reading, mathematics, but also soft skills, like conflict revolution and financial management.</description>
+    <description>We need to ask questions about how we're going to give low-income kids who come from a broken home excess to a loving home. We need to ask questions about how we're going to teach low-income parents how to better interact with their children, with their partners. We need to ask questions about how we give social economic , mentorship to low-income kids who don't have it. We need to think about how we teach working class children about not just hard expertise , like reading, mathematics, but also soft skills, like conflict revolution and financial management.</description>
     <title>Listening - Highlight Incorrect Words- Q15</title>
     <media>Listening - Highlight Incorrect Words- Q15.tpm</media>
     <delay>8</delay>
@@ -1539,7 +1539,7 @@ Let's care more.</transcript>
   <template>
     <description></description>
     <title>What is TRUE as per the given lecture?</title>
-    <media>Practice Set 9_Listening - Multiple choice, choose multiple answers - Q3new.tpm</media>
+    <media>Practice Set 9_Listening - Multiple choice, choose multiple answers - Q4new.tpm</media>
     <delay>8</delay>
     <options>
       <o0>3,500 robotic buoys used to measure sea temperature down to 6,000 feet.</o0>
@@ -1564,7 +1564,7 @@ Let's care more.</transcript>
   <template>
     <description></description>
     <title>Which statement is TRUE in regards to Nuclear Power?</title>
-    <media>Practice Set 9_Listening - Multiple choice, choose multiple answers - Q4new.tpm</media>
+    <media>Practice Set 9_Listening - Multiple choice, choose multiple answers - Q3new.tpm</media>
     <delay>8</delay>
     <options>
       <o0>The pebble bed technology has brought the smart grid solutions for electricity.</o0>
@@ -1577,33 +1577,33 @@ Let's care more.</transcript>
   </template>
 </question>
 
-<question>
-  <id>96efa1952d2f46ffb6c3357918a9ac83</id>
-  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
-  <type>LISTEN_MULTI_SELECT</type>
-  <itemType>LISTENING</itemType>
-  <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction>
-  <delayTime>00:00:08</delayTime>
-  <attemptTime>00:00:00</attemptTime>
-  <template>
-    <description></description>
-    <title>Which of the statements are TRUE in terms of dinosaurs:-</title>
-    <media>Practice Set 9_Listening - Multiple choice, choose multiple answers - Q4.tpm</media>
-    <delay>8</delay>
-    <options>
-      <o0>Dinosaur  fossils are found only in Antarctica.</o0>
-      <o1>Dinosaurs still exist today in the line of birds.</o1>
-      <o2>Dinosaurs dominated terrestrial ecosystem until 65 million years ago.</o2>
-      <o3>The first dinosaur was recognized in the 20th century.</o3>
-      <o4>The winged pterosaurs are not the species of dinosaurs.</o4>
-    </options>
-    <answer>1|2</answer>
-	<transcript>Dinosaurs are vertebrates that range from reptile-like to bird-like. Dinosaurs dominated the terrestrial ecosystem for over 160 million years from around 230 million years ago until 65 million years ago, at the end of the Cretaceous period, when all non-avian dinosaurs became extinct. Dinosaurs still exist today in the line of birds (avian dinosaurs).
-Knowledge about dinosaurs comes from both fossil and non-fossil records, including fossilized bones, feces, trackways, gastroliths, feathers, impressions of skin, internal organs and soft tissues. Dinosaur remains have been found on every continent on Earth, including Antarctica. This shows that all land masses were at one time connected in a super continent, called Pangaea, due to the fact that numerous fossils of the same species have been found on completely different continents. Pangaea began to break up during the Triassic period around 230 million years ago.
-Since the first dinosaur was recognized in the 19th century, their mounted, fossilized skeletons have become major attractions at museums around the world. Dinosaurs have become a part of world culture and remain consistently popular, especially among children. They have been featured in best-selling books and blockbuster films such as Jurassic Park, and new discoveries are regularly covered by the media. The term is also used informally to describe any prehistoric reptile, such as the pelycosaur Dimetrodon, the winged pterosaurs, and the aquatic ichthyosaurs, plesiosaurs, and mosasaurs, though none of these are dinosaurs.
-</transcript>
-  </template>
-</question>
+<!-- <question> -->
+  <!-- <id>96efa1952d2f46ffb6c3357918a9ac83</id> -->
+  <!-- <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet> -->
+  <!-- <type>LISTEN_MULTI_SELECT</type> -->
+  <!-- <itemType>LISTENING</itemType> -->
+  <!-- <instruction>Listen to the recording and answer the multiple-choice question by selecting  all the correct responses. You will need to select more than one response.</instruction> -->
+  <!-- <delayTime>00:00:08</delayTime> -->
+  <!-- <attemptTime>00:00:00</attemptTime> -->
+  <!-- <template> -->
+    <!-- <description></description> -->
+    <!-- <title>Which of the statements are TRUE in terms of dinosaurs:-</title> -->
+    <!-- <media>Practice Set 9_Listening - Multiple choice, choose multiple answers - Q4.tpm</media> -->
+    <!-- <delay>8</delay> -->
+    <!-- <options> -->
+      <!-- <o0>Dinosaur  fossils are found only in Antarctica.</o0> -->
+      <!-- <o1>Dinosaurs still exist today in the line of birds.</o1> -->
+      <!-- <o2>Dinosaurs dominated terrestrial ecosystem until 65 million years ago.</o2> -->
+      <!-- <o3>The first dinosaur was recognized in the 20th century.</o3> -->
+      <!-- <o4>The winged pterosaurs are not the species of dinosaurs.</o4> -->
+    <!-- </options> -->
+    <!-- <answer>1|2</answer> -->
+	<!-- <transcript>Dinosaurs are vertebrates that range from reptile-like to bird-like. Dinosaurs dominated the terrestrial ecosystem for over 160 million years from around 230 million years ago until 65 million years ago, at the end of the Cretaceous period, when all non-avian dinosaurs became extinct. Dinosaurs still exist today in the line of birds (avian dinosaurs). -->
+<!-- Knowledge about dinosaurs comes from both fossil and non-fossil records, including fossilized bones, feces, trackways, gastroliths, feathers, impressions of skin, internal organs and soft tissues. Dinosaur remains have been found on every continent on Earth, including Antarctica. This shows that all land masses were at one time connected in a super continent, called Pangaea, due to the fact that numerous fossils of the same species have been found on completely different continents. Pangaea began to break up during the Triassic period around 230 million years ago. -->
+<!-- Since the first dinosaur was recognized in the 19th century, their mounted, fossilized skeletons have become major attractions at museums around the world. Dinosaurs have become a part of world culture and remain consistently popular, especially among children. They have been featured in best-selling books and blockbuster films such as Jurassic Park, and new discoveries are regularly covered by the media. The term is also used informally to describe any prehistoric reptile, such as the pelycosaur Dimetrodon, the winged pterosaurs, and the aquatic ichthyosaurs, plesiosaurs, and mosasaurs, though none of these are dinosaurs. -->
+<!-- </transcript> -->
+  <!-- </template> -->
+<!-- </question> -->
 
 <question>
   <id>e72d64fa38004f80a7626f5107b3ca1d</id>
@@ -1813,72 +1813,72 @@ Once track is completed, status should change to "completed" </instruction>
   </template>
 </question>
 
-<question>
-  <id>5c0f059b060a41aca3bb61d80f27130e</id>
-  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
-  <type>LISTEN_SELECT_MISSING_WORD</type>
-  <itemType>LISTENING</itemType>
-  <instruction>You will hear a recording on Technology. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.Track should start after 8 seconds.Once track is completed, status should change to "completed"</instruction>
-  <delayTime>00:00:08</delayTime>
-  <attemptTime>00:00:00</attemptTime>
-  <template>
-    <description></description>
-    <title>Listening - Select missing word - Q12</title>
-    <media>Practice Set 9_Listening - Select missing word - Q12.tpm</media>
-    <delay>8</delay>
-    <options>
-      <o0>what’s happening around us.</o0>
-      <o1>what’s happening in the world.</o1>
-      <o2>what’s around us.</o2>
-      <o3>from where to start.</o3>
-    </options>
-    <answer>1</answer>
-	<transcript>If we look back to a hundred years ago, we were talking about the Industrial Revolution – countries becoming economic powers, developing their businesses through the use of machines. Now the emphasis has shifted to information, and technology is a tool by which people can gain that information - be it through computers, on the Internet, or maybe over a mobile phone. And that’s what we’re talking about here: using technology as a tool to get access to information, to find out what’s happening in the world.</transcript>
-  </template>
-</question>
+<!-- <question> -->
+  <!-- <id>5c0f059b060a41aca3bb61d80f27130e</id> -->
+  <!-- <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet> -->
+  <!-- <type>LISTEN_SELECT_MISSING_WORD</type> -->
+  <!-- <itemType>LISTENING</itemType> -->
+  <!-- <instruction>You will hear a recording on Technology. At the end of the recording the last word or group of words has been replaced by a beep. Select the correct option to complete the recording.Track should start after 8 seconds.Once track is completed, status should change to "completed"</instruction> -->
+  <!-- <delayTime>00:00:08</delayTime> -->
+  <!-- <attemptTime>00:00:00</attemptTime> -->
+  <!-- <template> -->
+    <!-- <description></description> -->
+    <!-- <title>Listening - Select missing word - Q12</title> -->
+    <!-- <media>Practice Set 9_Listening - Select missing word - Q12.tpm</media> -->
+    <!-- <delay>8</delay> -->
+    <!-- <options> -->
+      <!-- <o0>what’s happening around us.</o0> -->
+      <!-- <o1>what’s happening in the world.</o1> -->
+      <!-- <o2>what’s around us.</o2> -->
+      <!-- <o3>from where to start.</o3> -->
+    <!-- </options> -->
+    <!-- <answer>1</answer> -->
+	<!-- <transcript>If we look back to a hundred years ago, we were talking about the Industrial Revolution – countries becoming economic powers, developing their businesses through the use of machines. Now the emphasis has shifted to information, and technology is a tool by which people can gain that information - be it through computers, on the Internet, or maybe over a mobile phone. And that’s what we’re talking about here: using technology as a tool to get access to information, to find out what’s happening in the world.</transcript> -->
+  <!-- </template> -->
+<!-- </question> -->
 
-<question>
-  <id>ea4777e913d14b868330250ae4592289</id>
-  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
-  <type>LISTEN_AND_HIGHLIGHT</type>
-  <itemType>LISTENING</itemType>
-  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.Track should start after 8 seconds. Once track is completed, status should change to "completed"</instruction>
-  <delayTime>00:00:08</delayTime>
-  <attemptTime>00:00:00</attemptTime>
-  <template>
-    <description>Our scientists then use this to go back to another part of that tissue and do what's called electronic scanning micro-dissection. So the technician takes the instructions. They scribed along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope transcripts here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we rectify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a macroarray.</description>
-    <title>Listening - Highlight Incorrect Words- Q13</title>
-    <media>Practice Set 9_Listening - Highlight Incorrect Words- Q13.tpm</media>
-    <delay>8</delay>
-    <maxWordCount>200</maxWordCount>
-    <options></options>
-    <answer>part|electronic|scribed|transcripts|rectify|macroarray</answer>
-	<transcript>Our scientists then use this to go back to another piece of that tissue and do what's called laser scanning microdissection. So the technician takes the instructions. They scribe along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope slide here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we purify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a microarray.
-Our scientists then use this to go back to another part of that tissue and do what's called electronic scanning micro-dissection. So the technician takes the instructions. They scribed along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope transcripts here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we rectify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a macroarray.
-</transcript>
-  </template>
-</question>
+<!-- <question> -->
+  <!-- <id>ea4777e913d14b868330250ae4592289</id> -->
+  <!-- <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet> -->
+  <!-- <type>LISTEN_AND_HIGHLIGHT</type> -->
+  <!-- <itemType>LISTENING</itemType> -->
+  <!-- <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.Track should start after 8 seconds. Once track is completed, status should change to "completed"</instruction> -->
+  <!-- <delayTime>00:00:08</delayTime> -->
+  <!-- <attemptTime>00:00:00</attemptTime> -->
+  <!-- <template> -->
+    <!-- <description>Our scientists then use this to go back to another part of that tissue and do what's called electronic scanning micro-dissection. So the technician takes the instructions. They scribed along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope transcripts here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we rectify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a macroarray.</description> -->
+    <!-- <title>Listening - Highlight Incorrect Words- Q13</title> -->
+    <!-- <media>Practice Set 9_Listening - Highlight Incorrect Words- Q13.tpm</media> -->
+    <!-- <delay>8</delay> -->
+    <!-- <maxWordCount>200</maxWordCount> -->
+    <!-- <options></options> -->
+    <!-- <answer>part|electronic|scribed|transcripts|rectify|macroarray</answer> -->
+	<!-- <transcript>Our scientists then use this to go back to another piece of that tissue and do what's called laser scanning microdissection. So the technician takes the instructions. They scribe along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope slide here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we purify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a microarray. -->
+<!-- Our scientists then use this to go back to another part of that tissue and do what's called electronic scanning micro-dissection. So the technician takes the instructions. They scribed along a place there. And then the laser actually cuts. You can see that blue dot there cutting. And that tissue falls off. You can see on the microscope transcripts here, that's what's happening in real time. There's a container underneath that's collecting that tissue. We take that tissue, we rectify the RNA out of it using some basic technology, and then we put a florescent tag on it. We take that tagged material and we put it on to something called a macroarray. -->
+<!-- </transcript> -->
+  <!-- </template> -->
+<!-- </question> -->
 
-<question>
-  <id>f25bbf7f81894e05913c36f295684a55</id>
-  <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
-  <type>LISTEN_AND_HIGHLIGHT</type>
-  <itemType>LISTENING</itemType>
-  <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.Track should start after 8 seconds. Once track is completed, status should change to "completed"</instruction>
-  <delayTime>00:00:08</delayTime>
-  <attemptTime>00:00:00</attemptTime>
-  <template>
-    <description>Now, I think that if you ask people how attractive they think Jessica Parker or Portia de Rossi were, and you ask them to give them a score between one and four I reckon that they'd average out to have roughly the same score. But the way that people would vote would be very easy. So Portia's scores would all be clustered around the four because everybody agrees that she's very elegant, whereas Sarah Jessica Parker completely divides opinion. There'd be a huge spread in her scores. And actually it's this spread that counts. It's this spread that makes you more popular on an offline Internet dating website. So what that means then is that if some people think that you're attractive, you're actually better off having some other people think that you're a huge minger. That's much better than everybody just thinking that you're the cute girl next door.</description>
-    <title>Listening - Highlight Incorrect Words- Q14</title>
-    <media>Practice Set 9_Listening - Highlight Incorrect Words- Q14.tpm</media>
-    <delay>8</delay>
-    <maxWordCount>200</maxWordCount>
-    <options></options>
-    <answer>think|four|easy|elegant|offline|huge </answer>
-	<transcript>Now, I think that if you ask people how attractive they thought Jessica Parker or Portia de Rossi were, and you ask them to give them a score between one and five I reckon that they'd average out to have roughly the same score. But the way that people would vote would be very different. So Portia's scores would all be clustered around the four because everybody agrees that she's very beautiful, whereas Sarah Jessica Parker completely divides opinion. There'd be a huge spread in her scores. And actually it's this spread that counts. It's this spread that makes you more popular on an online Internet dating website. So what that means then is that if some people think that you're attractive, you're actually better off having some other people think that you're a massive minger. That's much better than everybody just thinking that you're the cute girl next door.Now, I think that if you ask people how attractive they think Jessica Parker or Portia de Rossi were, and you ask them to give them a score between one and four I reckon that they'd average out to have roughly the same score. But the way that people would vote would be very easy. So Portia's scores would all be clustered around the four because everybody agrees that she's very elegant, whereas Sarah Jessica Parker completely divides opinion. There'd be a huge spread in her scores. And actually it's this spread that counts. It's this spread that makes you more popular on an offline Internet dating website. So what that means then is that if some people think that you're attractive, you're actually better off having some other people think that you're a huge minger. That's much better than everybody just thinking that you're the cute girl next door.
-</transcript>
-  </template>
-</question>
+<!-- <question> -->
+  <!-- <id>f25bbf7f81894e05913c36f295684a55</id> -->
+  <!-- <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet> -->
+  <!-- <type>LISTEN_AND_HIGHLIGHT</type> -->
+  <!-- <itemType>LISTENING</itemType> -->
+  <!-- <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.Track should start after 8 seconds. Once track is completed, status should change to "completed"</instruction> -->
+  <!-- <delayTime>00:00:08</delayTime> -->
+  <!-- <attemptTime>00:00:00</attemptTime> -->
+  <!-- <template> -->
+    <!-- <description>Now, I think that if you ask people how attractive they think Jessica Parker or Portia de Rossi were, and you ask them to give them a score between one and four I reckon that they'd average out to have roughly the same score. But the way that people would vote would be very easy. So Portia's scores would all be clustered around the four because everybody agrees that she's very elegant, whereas Sarah Jessica Parker completely divides opinion. There'd be a huge spread in her scores. And actually it's this spread that counts. It's this spread that makes you more popular on an offline Internet dating website. So what that means then is that if some people think that you're attractive, you're actually better off having some other people think that you're a huge minger. That's much better than everybody just thinking that you're the cute girl next door.</description> -->
+    <!-- <title>Listening - Highlight Incorrect Words- Q14</title> -->
+    <!-- <media>Practice Set 9_Listening - Highlight Incorrect Words- Q14.tpm</media> -->
+    <!-- <delay>8</delay> -->
+    <!-- <maxWordCount>200</maxWordCount> -->
+    <!-- <options></options> -->
+    <!-- <answer>think|four|easy|elegant|offline|huge </answer> -->
+	<!-- <transcript>Now, I think that if you ask people how attractive they thought Jessica Parker or Portia de Rossi were, and you ask them to give them a score between one and five I reckon that they'd average out to have roughly the same score. But the way that people would vote would be very different. So Portia's scores would all be clustered around the four because everybody agrees that she's very beautiful, whereas Sarah Jessica Parker completely divides opinion. There'd be a huge spread in her scores. And actually it's this spread that counts. It's this spread that makes you more popular on an online Internet dating website. So what that means then is that if some people think that you're attractive, you're actually better off having some other people think that you're a massive minger. That's much better than everybody just thinking that you're the cute girl next door.Now, I think that if you ask people how attractive they think Jessica Parker or Portia de Rossi were, and you ask them to give them a score between one and four I reckon that they'd average out to have roughly the same score. But the way that people would vote would be very easy. So Portia's scores would all be clustered around the four because everybody agrees that she's very elegant, whereas Sarah Jessica Parker completely divides opinion. There'd be a huge spread in her scores. And actually it's this spread that counts. It's this spread that makes you more popular on an offline Internet dating website. So what that means then is that if some people think that you're attractive, you're actually better off having some other people think that you're a huge minger. That's much better than everybody just thinking that you're the cute girl next door. -->
+<!-- </transcript> -->
+  <!-- </template> -->
+<!-- </question> -->
 
 
 <question>

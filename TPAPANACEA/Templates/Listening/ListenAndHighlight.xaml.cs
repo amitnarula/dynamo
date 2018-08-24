@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -84,13 +85,31 @@ namespace TPA.Templates.Listening
 
         private void HighlightWord(string item)
         {
-            var inline = txtBlockQuestionDescription
-                .Inlines
-                .FirstOrDefault(x => ((string)x.GetValue(Run.TextProperty)).Trim(new char[] { ' ', ',', '.' })
-                .Equals(item, StringComparison.InvariantCultureIgnoreCase));
+            var matchedInlines = txtBlockQuestionDescription
+                   .Inlines
+                   .Where(x => ((string)x.GetValue(Run.TextProperty)).Trim(new char[] { ' ', ',', '.' })
+                   .Equals(item, StringComparison.InvariantCultureIgnoreCase));
+
+            Inline inline = null;
+
+            if (matchedInlines.Count() > 1)
+            {
+                inline = matchedInlines.LastOrDefault();
+            }
+            else if (matchedInlines.Count() == 1)
+            {
+                inline = matchedInlines.FirstOrDefault();
+            }
+
+            //Inline inline = txtBlockQuestionDescription
+            //       .Inlines
+            //       .FirstOrDefault(x => ((string)x.GetValue(Run.TextProperty)).Trim(new char[] { ' ', ',', '.' })
+            //       .Equals(item, StringComparison.InvariantCultureIgnoreCase));
+            
             if (inline != null)
                 inline.Background = new SolidColorBrush(Colors.Yellow);
         }
+
 
         void prevNext_YourResponseClicked(object sender, Common.YourResponseEventArgs e)
         {

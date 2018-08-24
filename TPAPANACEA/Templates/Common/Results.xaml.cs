@@ -173,8 +173,11 @@ namespace TPAPanacea.Templates.Common
                 //READING
                 int totalReadingIntegrated = totalReading
                     + (
+                    Convert.ToInt32(
+                    90*(
                     (evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SPEAK_READ, FileReader.FileType.QUESTION_SPEAKING, selectedPracticeSetId, "Content")
-                    / totalSpeaking) * 90
+                    + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SPEAK_READ, FileReader.FileType.QUESTION_SPEAKING, selectedPracticeSetId, "Oral Fluency"))/(double)totalSpeaking)
+                    )
                     +
                     (evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SUMMARIZE_TEXT, FileReader.FileType.QUESTION_WRITING, selectedPracticeSetId, "Content")
                     + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SUMMARIZE_TEXT, FileReader.FileType.QUESTION_WRITING, selectedPracticeSetId, "Grammar")
@@ -186,7 +189,8 @@ namespace TPAPanacea.Templates.Common
                 int totalReadingAttemptedIntegrated = totalReadingAttempted
                     +
                     (
-                    (evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SPEAK_READ, QuestionType.SPEAKING, "Content") / totalSpeaking) * 90
+                    Convert.ToInt32(((evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SPEAK_READ, QuestionType.SPEAKING, "Content")
+                    + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SPEAK_READ, QuestionType.SPEAKING, "Oral Fluency")) / (double)totalSpeaking) * 90)
                     +
                     (
                     evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.SUMMARIZE_TEXT, QuestionType.WRITING, "Content")

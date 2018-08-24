@@ -190,7 +190,7 @@ This view also exaggerates the impact that human activity has on the planet. Whi
       <o3>The first foreign package holiday was a tour of Germany organized by Thomas Cook in 1855.</o3>
       <o4>Since then, Germany has been understandably nervous about promoting itself abroad.</o4>
     </options>
-    <answer>2|0|4|1|3</answer>
+    <answer>1|3|0|4|2</answer>
   </template>
 </question>
 <question>
@@ -594,7 +594,7 @@ In What to Eat, internationally {blank} nutrition expert Dr. Luise Light cuts th
       <o3>The first foreign package holiday was a tour of Germany organized by Thomas Cook in 1855.</o3>
       <o4>Since then, Germany has been understandably nervous about promoting itself abroad.</o4>
     </options>
-    <answer>2|0|4|1|3</answer>
+    <answer>1|3|0|4|2</answer>
   </template>
 </question>
 <question>
@@ -615,7 +615,7 @@ In What to Eat, internationally {blank} nutrition expert Dr. Luise Light cuts th
       <o3>Jones listens to the arguments and objections of others with different views, but is unconvinced.</o3>
       <o4>On the one hand, public reason liberals might seem to tell Jones to refrain from public discussion and voting.</o4>
     </options>
-    <answer>2|4|0|1|3</answer>
+    <answer>2|3|0|4|1</answer>
   </template>
 </question>
 <question>
@@ -1369,7 +1369,7 @@ The researchers found that 63% of the protected areas were twice as loud as they
           <o0>The hyena-like animal, Palaeonictis wingi, evolved from the size of a bear to the size of a coyote during a 200,000-year period.</o0>
           <o1>Extinct carnivorous mammals shrank in size during a global warming event that occurred 55 million years ago, according to a new University of Florida study.</o1>
           <o2>Following this global warming event, Earth’s temperature cooled and the animal evolved to a larger size.</o2>
-          <o3>Following this global warming event, Earth’s temperature cooled and the animal evolved to a larger size.</o3>
+          <o3>Earth’s average temperature in this period increased about 15 degrees Fahrenheit.</o3>
           <o4>The study describes a new species that evolved to half the size of its ancestors during this period of global warming.</o4>
         </options>
         <answer>1|4|0|3|2</answer>
@@ -3473,12 +3473,12 @@ More than half the global population relies on rice as a regular part of their d
     <title></title>
     <options>
       <o0>The findings, described in a paper published Aug. 11 on arXiv.org, reveal that HD 87646 is the first close binary system with more than one substellar circum-primary companion known to date.</o0>
-      <o1> The system has a separation of only 22 AU between the two stars.</o1>
+      <o1>The system has a separation of only 22 AU between the two stars.</o1>
       <o2>The primary star in the system, HD 87646A, is about 12 percent more massive than the sun and has a radius of about 1.55 solar radii.</o2>
       <o3>HD 87646, located around 240 light years away, is a bright G-type star with a fainter K-type stellar companion.</o3>
       <o4>An international team of astronomers reports the discovery of a giant planet and a brown dwarf in a close binary system designated HD 87646.</o4>
     </options>
-    <answer>1|4|3|2|0</answer>
+    <answer>4|0|3|2|1</answer>
   </template>
 </question>
 <question>
@@ -4211,7 +4211,7 @@ This is exactly what happened to Rob Kaczmarek after buying a cup of his favorit
       <o3>The kangaroo’s pouch is on her stomach, but the koala’s pouch is on her back.</o3>
       <o4>Both feed their babies milk and keep them secure in their pouch until they are strong enough to survive on their own.</o4>
     </options>
-    <answer>1|2|0|3|4</answer>
+    <answer>2|0|1|3|4</answer>
   </template>
 </question>
 <question>
@@ -4232,7 +4232,7 @@ This is exactly what happened to Rob Kaczmarek after buying a cup of his favorit
       <o3>A man who possesses a strong will and firm determination finds all difficulties solved.</o3>
       <o4>To him there are a thousand ways open to steer clear of all dangers and difficulties.</o4>
     </options>
-    <answer>2|4|3|0|1</answer>
+    <answer>3|4|0|2|1</answer>
   </template>
 </question>
   <!-- TEST 7 END-->
@@ -4345,7 +4345,7 @@ That yellow “hump” will shift as the Sun evolves, and the light of day will 
       <o4>Flying is becoming more and more common in India.</o4>
       <o5>This affordability will continue to drive demand.</o5>
     </options>
-    <answer>2|5|1|4|0|3</answer>
+    <answer>4|2|0|5|3|1</answer>
   </template>
 </question>
 <question>
@@ -4367,7 +4367,7 @@ That yellow “hump” will shift as the Sun evolves, and the light of day will 
       <o4>There are many problems with kerosene, and toxicity is just one problem. Then there are issues with the quality of light.</o4>
       <o5>It’s a yellowish kind of light, so if you’re trying to do homework, that’s not good for your eyes.</o5>
     </options>
-    <answer>1|2|0|3|4|5</answer>
+    <answer>2|0|1|3|4|5</answer>
   </template>
 </question>
 <question>
@@ -5007,7 +5007,7 @@ Yet sadly, the answer to the question just asked is probably "no" - because Char
       <o3>Even the great revolution would not have succeeded without a spiritual element.</o3>
       <o4>Yet it is a little difficult to draw a line  between the two.</o4>
     </options>
-    <answer>4|0|2|3|1</answer>
+    <answer>1|4|2|3|0</answer>
   </template>
 </question>
 <question>
@@ -5028,7 +5028,7 @@ Yet sadly, the answer to the question just asked is probably "no" - because Char
       <o3>One evening when Mia had gone down to the cellar, she happened to look up at the ceiling and saw a mallet ( a kind of wooden hammer) stuck in one of the  beams.</o3>
       <o4>She said "Suppose I was to be married, and have a son, and he was to grow  up to be a man, and come down into the cellar,  like I am doing now and the mallet was to fall on his head and kill him, what a dreadful thing it would be!"</o4>
     </options>
-    <answer>2|1|4|0|3</answer>
+    <answer>3|1|0|4|2</answer>
   </template>
 </question>
 <question>

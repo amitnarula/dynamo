@@ -183,7 +183,16 @@ namespace TPA.CoreFramework
             Path.Combine(baseOutputDirectory,practiceSetId+"_SUB_"+QuestionType.LISTENING.ToString()+".xml")
             };
 
+            //Removing evaluation files
+            string[] evalFiles = Directory.GetFiles(baseOutputDirectory, "*eval.xml");
 
+            var questionIds = questionsDataRows.Select(x => x["Id"]);
+
+            foreach (var evalFile in evalFiles)
+            {
+                if (File.Exists(evalFile) && questionIds.Any(x=>evalFile.Contains(x.ToString()))) //only selected practice item (reading/listening etc.) eval files should be removed.
+                    File.Delete(evalFile);
+            }
 
 
             foreach (var item in submissionFiles)
