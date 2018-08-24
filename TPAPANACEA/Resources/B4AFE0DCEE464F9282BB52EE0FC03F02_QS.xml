@@ -2463,7 +2463,8 @@ The lecture is on icebergs having a distinct way of interacting with the environ
     <output>d6303138cbcd4227b9041efafa5a5606</output>
     <answer>sampleresponse</answer>
     <beep>True</beep>
-    <audio>Practice Set 4_Speaking - Retell Lecture - Q27.tpm</audio>
+    <!-- <audio>Practice Set 4_Speaking - Retell Lecture - Q27.tpm</audio> -->
+	<audio>Practice Set 4_Speaking - Retell Lecture - Q28 Practice Test 4.tpm</audio>
     <audioDelay>03</audioDelay>
     <!-- <picture>Practice Set 4_Speaking - Retell Lecture - Q27.tpi</picture> -->
 	<picture></picture>
