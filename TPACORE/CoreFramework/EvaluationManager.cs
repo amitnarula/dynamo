@@ -16,6 +16,7 @@ namespace TPACORE.CoreFramework
     {
         private const string phrase = "myKey123";
         static string baseOutputDirectory = System.IO.Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory) + "//Data//Temp//";
+        public static string ZEROSCORE="ZERO";
 
         public static void Evaluate(QuestionBase questionContext, List<EvaluationResult> result)
         {
@@ -115,36 +116,43 @@ namespace TPACORE.CoreFramework
                         {
                             int correct = 0;
 
-                            List<string> correctPair = new List<string>();
-                            List<string> userAnswerPair = new List<string>();
-
-                            for (int count = 0; count < questionContext.CorrectAnswers.Length; count++)
+                            if (userAnswer == ZEROSCORE)
                             {
-                                int currentIndex = count;
-                                int nextIndex = count == questionContext.CorrectAnswers.Length - 1 ? 0 : count + 1;
-
-                                correctPair.Add(questionContext.CorrectAnswers[currentIndex] + "," 
-                                    + questionContext.CorrectAnswers[nextIndex]);
-
-                                var userAnswerSplitArr = userAnswer.Split(new char[]{'|'},StringSplitOptions.RemoveEmptyEntries);
-                                userAnswerPair.Add(userAnswerSplitArr[currentIndex] + "," + userAnswerSplitArr[nextIndex]);
+                                result = 0;
                             }
-
-                            //Removing the cycle because of the last pair 1,2,3,4,5 -> 12,23,34,45 only 
-                            //and excluding 51 combination
-                            //as this is not required.
-
-                            correctPair = correctPair.Take(correctPair.Count - 1).ToList();
-                            userAnswerPair = userAnswerPair.Take(userAnswerPair.Count - 1).ToList();
-
-                            foreach (var item in correctPair)
+                            else
                             {
-                                if(userAnswerPair.Contains(item))
+                                List<string> correctPair = new List<string>();
+                                List<string> userAnswerPair = new List<string>();
+
+                                for (int count = 0; count < questionContext.CorrectAnswers.Length; count++)
                                 {
-                                    correct++;
+                                    int currentIndex = count;
+                                    int nextIndex = count == questionContext.CorrectAnswers.Length - 1 ? 0 : count + 1;
+
+                                    correctPair.Add(questionContext.CorrectAnswers[currentIndex] + ","
+                                        + questionContext.CorrectAnswers[nextIndex]);
+
+                                    var userAnswerSplitArr = userAnswer.Split(new char[] { '|' }, StringSplitOptions.RemoveEmptyEntries);
+                                    userAnswerPair.Add(userAnswerSplitArr[currentIndex] + "," + userAnswerSplitArr[nextIndex]);
                                 }
+
+                                //Removing the cycle because of the last pair 1,2,3,4,5 -> 12,23,34,45 only 
+                                //and excluding 51 combination
+                                //as this is not required.
+
+                                correctPair = correctPair.Take(correctPair.Count - 1).ToList();
+                                userAnswerPair = userAnswerPair.Take(userAnswerPair.Count - 1).ToList();
+
+                                foreach (var item in correctPair)
+                                {
+                                    if (userAnswerPair.Contains(item))
+                                    {
+                                        correct++;
+                                    }
+                                }
+                                result = correct;
                             }
-                            result = correct;
                         }
                         break;
                     case QuestionTemplates.LISTEN_AND_HIGHLIGHT:
@@ -205,7 +213,7 @@ namespace TPACORE.CoreFramework
                 dtEval.Columns.Add(dcEval);
                 DataRow drowEval = dtEval.NewRow();
                 drowEval["evalDc"] = result;
-
+                
                 dtEval.Rows.Add(drowEval);
                 dsEval.Tables.Add(dtEval);
 

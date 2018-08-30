@@ -136,10 +136,12 @@ namespace TPAPanacea.Templates.Common
         {
             //INTEGRATED RESULTS OUT OF 90 are only visible when all four modules of the practice set are submitted
             //Check module submission files
-            string[] moduleSubmissionFiles = Directory.GetFiles(baseOutputDirectory, selectedPracticeSetId + "_SUB_*.xml");
-
-            if (moduleSubmissionFiles.Count() == 4) // for 4 modules WRITING,LISTENING,READING,SPEAKING
+            //string[] moduleSubmissionFiles = Directory.GetFiles(baseOutputDirectory, selectedPracticeSetId + "_SUB_*.xml");
+            
+            if (new FileReader().PerformIntegratedEvaluation(selectedPracticeSetId)) // all the questions are evaluated by teacher or automatically then only show the results out of 90
             {
+                //if (moduleSubmissionFiles.Count() == 4) // for 4 modules WRITING,LISTENING,READING,SPEAKING
+                //{
                 //WRITING
                 int totalWritingIntegrated = totalWriting
                + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.FILL_IN_BLANKS, FileReader.FileType.QUESTION_READING, selectedPracticeSetId)
@@ -174,9 +176,9 @@ namespace TPAPanacea.Templates.Common
                 int totalReadingIntegrated = totalReading
                     + (
                     Convert.ToInt32(
-                    90*(
+                    90 * (
                     (evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SPEAK_READ, FileReader.FileType.QUESTION_SPEAKING, selectedPracticeSetId, "Content")
-                    + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SPEAK_READ, FileReader.FileType.QUESTION_SPEAKING, selectedPracticeSetId, "Oral Fluency"))/(double)totalSpeaking)
+                    + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SPEAK_READ, FileReader.FileType.QUESTION_SPEAKING, selectedPracticeSetId, "Oral Fluency")) / (double)totalSpeaking)
                     )
                     +
                     (evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.SUMMARIZE_TEXT, FileReader.FileType.QUESTION_WRITING, selectedPracticeSetId, "Content")
@@ -206,6 +208,8 @@ namespace TPAPanacea.Templates.Common
                 //SPEAKING
                 lblSpeakingResult.Content = string.Format("Speaking score : {0} out of 90",
                     ((((float)totalSpeakingAttempted) / totalSpeaking) * 90).ToString("0")); //Speaking evaluation
+                                                                                             
+                //}
             }
         }
     }

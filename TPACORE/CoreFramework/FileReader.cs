@@ -74,6 +74,38 @@ namespace TPA.CoreFramework
             EVALUATION_PARAMETER
         }
 
+        public bool PerformIntegratedEvaluation(string practiceSetId)
+        {
+            return GetTotalQuesionsByPracticeSet(practiceSetId) == GetEvaluatedQuestionsByPracticeSet(practiceSetId);
+        }
+
+        private int GetTotalQuesionsByPracticeSet(string practiceSetId)
+        {
+
+            try
+            {
+                DataSet dsQuestions = new DataSet();
+
+                var questionsCount = FileReader.ReadFile(FileType.QUESTION_LISTENING).Tables["question"].Select("practiceSet='" + practiceSetId + "'").Count()
+                    + FileReader.ReadFile(FileType.QUESTION_READING).Tables["question"].Select("practiceSet='" + practiceSetId + "'").Count()
+                    + FileReader.ReadFile(FileType.QUESTION_SPEAKING).Tables["question"].Select("practiceSet='" + practiceSetId + "'").Count()
+                    + FileReader.ReadFile(FileType.QUESTION_WRITING).Tables["question"].Select("practiceSet='" + practiceSetId + "'").Count();
+
+                return questionsCount;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        private int GetEvaluatedQuestionsByPracticeSet(string practiceSetId)
+        {
+            string[] evalFiles = Directory.GetFiles(baseOutputDirectory, "*eval.xml");
+
+            return evalFiles.Count(x => x.Contains(practiceSetId));
+        }
+
         public static void ProvideWriteAccessToFolder(string folder, bool hideFolder)
         {
             SecurityIdentifier snewId = new SecurityIdentifier(WellKnownSidType.WorldSid, null);

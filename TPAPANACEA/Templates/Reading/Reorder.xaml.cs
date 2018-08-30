@@ -16,6 +16,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using TPA.CoreFramework;
 using TPA.Entities;
+using TPACORE.CoreFramework;
 
 namespace TPA.Templates.Reading
 {
@@ -238,6 +239,11 @@ namespace TPA.Templates.Reading
 
                 answer = answer.TrimEnd(new char[] { '|' });
                 AnswerManager.LogAnswer(question, answer, prevNext.GetAttemptTimeLeft());
+            }
+            else
+            {
+                //zero score under evaluation
+                EvaluationManager.Evaluate(question, EvaluationManager.ZEROSCORE);
             }
         }
         void IDropTarget.DragOver(DropInfo dropInfo)
