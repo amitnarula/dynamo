@@ -21,12 +21,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_6077DD56AC844C76B725E5E18D3A68E0"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_776BB565751EF5D75DC3AF81F4AEFA53"
         "OwnerKey" = "8:_B4582D3F62634C58B506E2D053500498"
         "MsmSig" = "8:_UNDEFINED"
@@ -47,6 +41,12 @@
         {
         "MsmKey" = "8:_D5BCF719FD15D4C4BEC2BBE641D9E5C3"
         "OwnerKey" = "8:_B4582D3F62634C58B506E2D053500498"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DCBCA949DC864D12B192005532AA86F0"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -252,26 +252,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6077DD56AC844C76B725E5E18D3A68E0"
-            {
-            "SourcePath" = "8:..\\TPAPANACEA\\PANICO.ico"
-            "TargetName" = "8:PANICO.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_4CDC1C81D7F2462AAE37EE9476A50E26"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_776BB565751EF5D75DC3AF81F4AEFA53"
             {
             "AssemblyRegister" = "3:1"
@@ -365,6 +345,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DCBCA949DC864D12B192005532AA86F0"
+            {
+            "SourcePath" = "8:..\\TPAPANACEA\\PANICOV2.ico"
+            "TargetName" = "8:PANICOV2.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4CDC1C81D7F2462AAE37EE9476A50E26"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E72DF7B4B327767B4A8C6283B0CDA2B5"
             {
             "AssemblyRegister" = "3:1"
@@ -453,7 +453,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PanaceaV2"
         "ProductCode" = "8:{AA7AAC15-DE7F-477F-A6F3-91BA118802F0}"
-        "PackageCode" = "8:{AD588442-E95F-4D3C-BDF5-6DE40C98F6FA}"
+        "PackageCode" = "8:{A1F7058F-1EA1-47A6-906F-E8AFE3121A00}"
         "UpgradeCode" = "8:{71931957-B1B6-421B-8BCF-7311649C72D3}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
