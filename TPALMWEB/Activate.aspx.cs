@@ -169,7 +169,12 @@ public partial class Activate : System.Web.UI.Page
         
         string fileName = string.Format("License{0}.lic",licenseKey);
         string filePath = Server.MapPath(string.Format("GeneratedLicenses/{0}", fileName));
-        dsLicense.WriteXml(filePath);
+        using (var stream = File.Open(filePath, FileMode.OpenOrCreate))
+        {
+            stream.Close();
+            dsLicense.WriteXml(filePath);
+
+        }
         licenseFile = filePath;
 
     }
