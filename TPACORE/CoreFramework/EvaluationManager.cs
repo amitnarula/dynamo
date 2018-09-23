@@ -346,7 +346,15 @@ namespace TPACORE.CoreFramework
                 DataRow questionTemplateRow = dsQuestions.Tables["template"].Select("question_Id=" + questionId).FirstOrDefault();
 
                 string correctAnswer = Convert.ToString(questionTemplateRow["answer"]);
-                points += correctAnswer.Split(new char[] { '|', ' ' }, StringSplitOptions.RemoveEmptyEntries).Count();
+                int correctAnswerPoints = correctAnswer.Split(new char[] { '|', ' ' }, StringSplitOptions.RemoveEmptyEntries).Count();
+
+                if (template == QuestionTemplates.REORDER)
+                {
+                    correctAnswerPoints = correctAnswerPoints - 1; //because they are not based on no. of paragraphs
+                    //they are based on number of groups.. If there are 5 paragraphs the correct points would be 4
+                }
+
+                points += correctAnswerPoints;
             }
             return points;
 

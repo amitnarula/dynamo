@@ -144,13 +144,16 @@ namespace TPAPanacea.Templates.Common
                 //{
                 //WRITING
                 int totalWritingIntegrated = totalWriting
+               + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.FILL_IN_BLANK_WITH_OPTIONS, FileReader.FileType.QUESTION_READING, selectedPracticeSetId)
                + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.FILL_IN_BLANKS, FileReader.FileType.QUESTION_READING, selectedPracticeSetId)
                + ((evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_AND_WRITE, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId)
                + (evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_AND_FILL_BLANKS, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId) / 2)
                + evalManager.GetTotalPointsByType(dsEvalParams, QuestionTemplates.LISTEN_AND_DICTATE, FileReader.FileType.QUESTION_LISTENING, selectedPracticeSetId)));
 
                 int totalWritingIntegratedAttempted = totalWritingAttempted +
-                    (evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.FILL_IN_BLANKS, QuestionType.READING)
+                    (
+                    evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.FILL_IN_BLANK_WITH_OPTIONS, QuestionType.READING)
+                    +evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.FILL_IN_BLANKS, QuestionType.READING)
                     + (evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_WRITE, QuestionType.LISTENING)
                     + (evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_FILL_BLANKS, QuestionType.LISTENING) / 2)
                     + evalManager.GetAttempatedPointsByQuestionType(selectedPracticeSetId, QuestionTemplates.LISTEN_AND_DICTATE, QuestionType.LISTENING)));

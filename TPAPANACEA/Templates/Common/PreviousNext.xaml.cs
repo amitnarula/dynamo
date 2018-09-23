@@ -309,6 +309,12 @@ namespace TPA.Templates.Common
                     maximumPoints = correctAnswser.Split(' ').Count();
             }
 
+            if (QuestionContext.QuestionTemplate == QuestionTemplates.REORDER.ToString())
+            {
+                maximumPoints = maximumPoints - 1;//bug fix, its not the number of paragraphs, its about number of pairs
+                //number of correct pairs always 1 less than number of paragraphs in REORDER
+            }
+
             lblPoints.Content = string.Format("Maximum Points : {0}      Points Obtained: {1} {2}", maximumPoints,
                 (result != null && result.Any() ? result.First().ParamScore : "0"), IsTimeOut ? "(Timeout)" : string.Empty);
         }

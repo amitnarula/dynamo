@@ -7,7 +7,7 @@
   <type>SPEAK_READ</type>
   <itemType>SPEAKING</itemType>
   <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
-  <delayTime>00:00:00</delayTime>
+  <delayTime>00:00:40</delayTime>
   <attemptTime>00:00:40</attemptTime>
   <template>
     <description>People for the Ethical Treatment of Animals are a leader in the anti-zoo movement. "PETA is firmly opposed to keeping wild animals in captivity," Lisa Wathne, the group's exotic animal specialist, told Current Events. "There are some animals, such as tigers and elephants, which roam large areas in the wild that should never be held captive.</description>
@@ -4550,7 +4550,7 @@ Printer
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>The theory invented by the Irvine group is really quite exotic. They start with the very reasonable premise that the possible new particle is something that is not described by existing theory. This makes sense because the possible new particle is very low mass and would have been discovered before if it were governed by known physics.</description>
+    <description>In the wild, giant pandas are only found in the remote, mountainous regions of central China, in Sichuan, Shaanxi and Gansu provinces, according to the National Zoo. In this area, there are cool, wet bamboo forests that are perfect for the giant panda's needs.</description>
     <title>Speaking - Read Aloud - Q1</title>
     <delay>40</delay>
     <recordingTime>40</recordingTime>
@@ -4570,7 +4570,7 @@ Printer
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Wise men and philosophers throughout the ages have disagreed on many things, but many are in unanimous agreement on one point: "We become what we think about." Ralph Waldo Emerson said, "A man is what he thinks about all day long." The Roman emperor Marcus Aurelius put it this way: "A man's life is what his thoughts make of it." In the Bible we find: "As a man thinks in his heart, so is he."</description>
+    <description>Mother Teresa is also known as “Blessed Teresa of Calcutta”. ... Mother Teresa was Roman Catholic nun moved to Calcutta's slum “to serve God among the poorest of the poor”. In 1950, She established the Missionaries of Charity to help the poor, helpless, disabled, diseased, refugees and lepers.</description>
     <title>Speaking - Read Aloud - Q2</title>
     <delay>40</delay>
     <recordingTime>40</recordingTime>
@@ -4590,7 +4590,7 @@ Printer
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Geologists have shown that for about 80 percent of the past 2.5 million years, ice-age conditions have prevailed on the Earth's surface. During the past one million years, increased glacial conditions have run in cycles of approximately 100,000 years.</description>
+    <description>Given that I have been approached a number of times in a similar sort of way quite recently, and that I serve on a number of externally advisory boards where this sort of thing is discussed, I thought I'd share this scenario here, as well as little bit about some of the things I sometimes say in response, in case it might be of interest to anyone else.</description>
     <title>Speaking - Read Aloud - Q3</title>
     <delay>40</delay>
     <recordingTime>40</recordingTime>
@@ -4611,7 +4611,7 @@ Printer
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Radon is a radioactive gas that is invisible and odorless. It forms during the decay of uranium-238, and in decaying; itself produces solid heavy metal radioactive particles of polonium, lead, and bismuth.</description>
+    <description>There are lots of interesting, passionate people doing useful things with new technologies in education in poor communities around the world -- including people who come from and live in such places themselves. It may be more impactful just to identify and support such people directly than to set up your own organization to try to replicate what such folks are already doing.</description>
     <title>Speaking - Read Aloud - Q4</title>
     <delay>40</delay>
     <recordingTime>40</recordingTime>
@@ -4631,7 +4631,7 @@ Printer
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>The University of the Rockies has been offering our Placement Abroad Services for prospective teachers since 1980. This program is sponsored by the University of the Rockies' Career Services Center.</description>
+    <description>Philanthropy dates back to Greek philosopher Plato in 347 B.C. His will instructed his nephew to use the proceeds of the family farm to fund the academy that Plato founded. The money helped students and faculty keep the academy running.</description>
     <title>Speaking - Read Aloud - Q5</title>
     <delay>40</delay>
     <recordingTime>40</recordingTime>
@@ -4651,7 +4651,7 @@ Printer
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Wind blowing parallel to the shore may create a net movement of water at 90 degrees away from the shore. Nutrient-rich deeper ocean water will up well to take the place of the displaced water and thus profoundly influence the marine ecosystem.</description>
+    <description>In 1630, John Winthrop of the Massachusetts Bay Colony preached to Puritan settlers that the rich have an obligation to take care of the poor. Meanwhile, the poor must do the best they can to improve their situation. Three years later, John Eliot wrote a letter to Sir Simonds D’Ewes asking for money to found a college in Massachusetts.</description>
     <title>Speaking - Read Aloud - Q6</title>
     <delay>40</delay>
     <recordingTime>40</recordingTime>
@@ -4673,7 +4673,7 @@ Printer
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Barbara Charline Jordan was born February 21, 1936, in her parents’ home in Houston. Her father, Benjamin Jordan, was a Baptist minister and warehouse clerk. Her mother Arlyne was a maid, housewife and church teacher.</description>
+    <description>The day before, the former President spoke at a roundtable discussion with young men from the Chicago Create Real Economic Destiny programme, a job skills program for at-risk youth. The location of both events was symbolic, as Mr Obama credits his past as a south side Chicago community organiser with inspiring his run for office.</description>
     <title>Speaking - Read Aloud - Q7</title>
     <delay>40</delay>
     <recordingTime>40</recordingTime>
@@ -8509,11 +8509,18 @@ The lecture is based on the words invented by Shakespeare which the dictionary t
     <audio>Practice Set 3_Speaking - Retell Lecture - Q26.tpm</audio>
     <audioDelay>03</audioDelay>
     <picture>Practice Set 3_image8.tpi</picture>
-    <transcript>We don't live in the world our mothers lived in, our grandmothers lived in, where career choices for women were so limited. And if you're in this room today, most of us grew up in a world where we have basic civil rights, and amazingly, we still live in a world where some women don't have them. But all that aside, we still have a problem, and it's a real problem. And the problem is this: Women are not making it to the top of any profession anywhere in the world. The numbers tell the story quite clearly. 190 heads of state -- nine are women. Of all the people in parliament in the world, 13 percent are women. In the corporate sector, women at the top, C-level jobs, board seats -- tops out at 15, 16 percent. The numbers have not moved since 2002 and are going in the wrong direction. And even in the non-profit world, a world we sometimes think of as being led by more women, women at the top: 20 percent.
-We also have another problem, which is that women face harder choices between professional success and personal fulfillment. A recent study in the U.S. showed that, of married senior managers, two-thirds of the married men had children and only one-third of the married women had children.
+    <transcript>As the dictionary tells us, about 2000 new words and phrases were invented by Shakespeare.  
+
+He gave us handy words like ‘eyeball’, ‘puppy-dog’ and ‘anchovy’ - and more show-offy words like ‘dauntless’, ‘besmirch’ and ‘lacklustre’. He came up with the word ‘alligator’, soon after he ran out of things to rhyme with ‘crocodile’. And a nation of tea-drinkers finally took him to their hearts when he invented the ‘hobnob’.
+
+Shakespeare knew the power of catchphrases as well as biscuits. Without him we would never eat our ‘flesh and blood’ ‘out of house and home’ – we’d have to say ‘good riddance’ to ‘the green-eyed monster’ and ‘breaking the ice’ would be ‘as dead as a doornail’. If you tried to get your ‘money’s worth’ you’d be given ‘short shrift’ and anyone who ‘laid it on with a trowel’ could be ‘hoist with his own petard’.  
+
+Of course it’s possible other people used these words first, but the dictionary writers liked looking them up in Shakespeare because there was more cross-dressing and people poking each other’s eyes out.
+
+Shakespeare’s poetry showed the world that English was a language as rich vibrant language with limitless expressive and emotional power. And he still had time to open all those tearooms in Stratford.
 
 Sample Answer:
-The lecture is on basic civil rights of women, as women are not making it to the top of any profession anywhere in the world. it is clear from the number which has not moved since 2002 and is in the wrong direction. The same can be noticed in the non-profit world. The other problem which is faced by the women is to make choice between professional success and personal fulfillment.</transcript>
+The lecture is based on the words invented by Shakespeare which the dictionary tells us, Shakespeare invented about 2000 new words and phrases which showed the world that English was a language as rich vibrant language with limitless expressive and emotional power.</transcript>
   </template>
 </question>
 <question>
@@ -8535,10 +8542,14 @@ The lecture is on basic civil rights of women, as women are not making it to the
     <audio>Practice Set 3_Speaking - Retell Lecture - Q27.tpm</audio>
     <audioDelay>03</audioDelay>
     <picture></picture>
-    <transcript>The lecture is on basic civil rights of women, as women are not making it to the top of any profession anywhere in the world. it is clear from the number which has not moved since 2002 and is in the wrong direction. The same can be noticed in the non-profit world. The other problem which is faced by the women is to make choice between professional success and personal fulfillment.</transcript>
+    <transcript>We don't live in the world our mothers lived in, our grandmothers lived in, where career choices for women were so limited. And if you're in this room today, most of us grew up in a world where we have basic civil rights, and amazingly, we still live in a world where some women don't have them. But all that aside, we still have a problem, and it's a real problem. And the problem is this: Women are not making it to the top of any profession anywhere in the world. The numbers tell the story quite clearly. 190 heads of state -- nine are women. Of all the people in parliament in the world, 13 percent are women. In the corporate sector, women at the top, C-level jobs, board seats -- tops out at 15, 16 percent. The numbers have not moved since 2002 and are going in the wrong direction. And even in the non-profit world, a world we sometimes think of as being led by more women, women at the top: 20 percent.
+We also have another problem, which is that women face harder choices between professional success and personal fulfillment. A recent study in the U.S. showed that, of married senior managers, two-thirds of the married men had children and only one-third of the married women had children.
 
 Sample Answer:
-The lecture is on basic civil rights of women, as women are not making it to the top of any profession anywhere in the world. it is clear from the number which has not moved since 2002 and is in the wrong direction. The same can be noticed in the non-profit world. The other problem which is faced by the women is to make choice between professional success and personal fulfillment.  
+The lecture is on basic civil rights of women, as women are not making it to the top of any profession anywhere in the world. it is clear from the number which has not moved since 2002 and is in the wrong direction. The same can be noticed in the non-profit world. The other problem which is faced by the women is to make choice between professional success and personal fulfillment.
+</transcript>
+
+  
   </template>
 </question>
 <question>
