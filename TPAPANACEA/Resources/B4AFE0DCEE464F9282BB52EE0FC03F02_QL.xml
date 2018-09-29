@@ -15,7 +15,7 @@
     <media>Listening - Summarize Spoken Text - Q1.tpm</media>
     <delay>10</delay>
     <maxWordCount>100</maxWordCount>
-    <answer>The speaker has a conversation with Max Atkinson on political speeches and the way it makes audience applaud.  As per Mak, there is need to understand tricks of rhetoric as most of the people are not quite aware that what kind of skills are required, if they have a precise knowledge then they can easily distinguish between the form, structure and the content of the speech and whether it’s worth taking seriously or not.</answer>
+    <answer>The conversation is with Max Atkinson on political speeches and the way it makes audience applaud.  There is a need to understand tricks of rhetoric as most of the people are not quite aware that what kind of skills are required, if they have a precise knowledge then they can easily distinguish between the form, structure and the content of the speech and whether it’s worth taking seriously or not.</answer>
   </template>
 </question>
 <question>
@@ -392,7 +392,7 @@ So I think in the next decade, the sciences and the humanity will come closer to
     <media>Listening - Summarize Spoken Text - Q21.tpm</media>
     <delay>10</delay>
     <maxWordCount>100</maxWordCount>
-    <answer>Exploration is about coming up with what's new, it's about search and discovery and exploitation is the opposite as it is not risky for short term.  So for long-term perspective, we explore and exploit for a short-term. Small children explore all day and as we grow older, we explore less because we have more knowledge to exploit on. The same goes for companies as they are less innovative as they become more competent.</answer>
+    <answer>Exploration is about coming up with what's new, it's about search and discovery and exploitation is the opposite as it is not risky for short term.  For long-term perspective, we explore and exploit for a short-term. Small children explore and as we grow older we explore less because we have more knowledge to exploit. The same goes for companies as they are less innovative as they become more competent.</answer>
   </template>
 </question>
 <question>
@@ -752,7 +752,7 @@ That's why Dane's not alone. From technology start-ups like Buffer, to the hundr
     <media>Practice Set 4_Listening - Summarize Spoken Text - Q2.tpm</media>
     <delay>10</delay>
     <maxWordCount>70</maxWordCount>
-    <answer>Carlos volunteered for three tours and got shot up in every one and got medically retired in 1971 because he had shrapnel in his body that he was setting off metal detectors and suffered from nightmares and anxiety for the next 42 years and divorced three times. Carlos had post-traumatic stress disorder. These days PTSD can be eliminated as new scientific research has been able to show, objectively, repeatedly, which treatments actually get rid of symptoms and which do not.</answer>
+    <answer>Carlos volunteered for three tours and got shot up in every one and got medically retired in 1971 because he had shrapnel in his body that he was setting off metal detectors. He suffered from nightmares and anxiety for 42 years, he had Post-traumatic Stress Disorder. Nowadays, PTSD can be eliminated as new scientific research is able to show which treatments actually get rid of symptoms and which do not.</answer>
   </template>
 </question>
 
@@ -1115,7 +1115,7 @@ supplements that included vitamins, probiotics, and weight loss pills. CR said t
     <media>Practice Set 8_Listening - Summarize Spoken Text - Q2.tpm</media>
     <delay>0</delay>
     <maxWordCount>70</maxWordCount>
-    <answer>Americanization and globalization for the last several generations have been the same thing.  President Obama who gets the red carpet when  he goes down Air Force One, this makes him feel good and comfortable. During China trip, when world's leaders landed for the important meeting, there was no red carpet for leaders except Obama. This shows that when the leaders are all onstage, then the Americans are pulling their weight.</answer>
+    <answer>Americanization and globalization for the last several generations are the same.  President Obama who gets the red carpet when he goes down Air Force One, this makes him feel good and comfortable. During China trip, when world's leaders landed for the important meeting, there was no red carpet for leaders except Obama. This shows that when the leaders are all onstage, then the Americans are pulling their weight.</answer>
   </template>
 </question>
 
@@ -3490,7 +3490,7 @@ So far, the best idea I've heard about building grit in kids is something called
     <media>Practice Set 3_Listening - Summarize Spoken Text - Q2.tpm</media>
     <delay>10</delay>
     <maxWordCount>100</maxWordCount>
-    <answer>Web browsers first appeared on computers in the early nineteen nineties and internet has changed the way people communicate but some teachers do not accept the changes for the betterment. Professor Johnson says that text messaging has made students believe that it is acceptable to make bad spelling and grammatical errors and they started using less formal English in their writing and rise of instant and casual communication online and an increase in writing mistakes.</answer>
+    <answer>Web browsers first appeared on computers in the early 1990s and internet changed the way people communicate but some teachers do not accept this for the betterment. Professor says that text messaging has made students believe that it is acceptable to make spelling and grammatical errors and they started using less formal English in their writing and rise of instant and casual communication online has an increase in writing mistakes.</answer>
   </template>
 </question>
 <question>
