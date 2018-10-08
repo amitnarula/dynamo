@@ -13,6 +13,6 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void btnSimpleClick_Click(object sender, EventArgs e)
     {
-        new LicenseManagement().SendInformation(new LicenseKey(),string.Empty,string.Empty);
+        //new LicenseManagement().SendInformation(new LicenseKey(),string.Empty,string.Empty,string.Empty);
     }
 }

@@ -7,6 +7,7 @@ using System.Configuration;
 using System.Net;
 using System.Net.Mail;
 using System.Text;
+using System.IO;
 
 /// <summary>
 /// Summary description for LicenseManagerBusinessLogic
@@ -74,11 +75,11 @@ public class LicenseManagement
         return false;
     }
 
-    public void SendInformation(LicenseKey licenseKey, string licenseFile,string paymentCode)
+    public void SendInformation(LicenseKey licenseKey, string licenseFile,string paymentCode, string licenseContent)
     {
         try
         {
-            string subject = "Welcome, your information has been saved";
+            string subject = "Welcome, your information has been saved. Reference:" + licenseKey.KeyCode;
             StringBuilder builder = new StringBuilder();
             builder.Append("Thanks for the registration. Your new license has been created with following details.");
             builder.Append("Attached is your license file.");
@@ -98,7 +99,7 @@ public class LicenseManagement
 
             string administratorEmail = ConfigurationManager.AppSettings["adminEmail"];
             string smtpServer = ConfigurationManager.AppSettings["smtpServer"];
-            int smtpPort = 25;
+            int smtpPort = Convert.ToInt32(ConfigurationManager.AppSettings["smtpPort"]);
             string smtpUsername = ConfigurationManager.AppSettings["smtpUsername"];
             string smtpPassword = ConfigurationManager.AppSettings["smtpPassword"];
 
@@ -111,20 +112,34 @@ public class LicenseManagement
             msg.Bcc.Add("amrinder.bhagtana@gmail.com");
             msg.Bcc.Add("amit.narula2008@gmail.com");
 
-            msg.From=new MailAddress(smtpUsername);
+            msg.From = new MailAddress(smtpUsername);
             msg.Subject = subject;
             msg.BodyEncoding = System.Text.Encoding.GetEncoding("utf-8");
 
             //Attachment
-            var attachment = new System.Net.Mail.Attachment(licenseFile);
+            /*var attachment = new System.Net.Mail.Attachment(licenseFile);
+            msg.Attachments.Add(attachment);*/
+
+            MemoryStream ms = new MemoryStream();
+            StreamWriter sw = new StreamWriter(ms);
+            sw.Write(licenseContent);
+            sw.Flush();
+            ms.Position = 0;
+
+            System.Net.Mime.ContentType ct = new System.Net.Mime.ContentType(System.Net.Mime.MediaTypeNames.Text.Plain);
+            System.Net.Mail.Attachment attachment = new System.Net.Mail.Attachment(ms, ct);
+            attachment.ContentDisposition.FileName = string.Format("License{0}.lic", licenseKey.KeyCode);
             msg.Attachments.Add(attachment);
 
             msg.IsBodyHtml = true;
-            
+
             msg.Body = builder.ToString();
             client.Send(msg);
-            
 
+            sw.Close();
+            sw.Dispose();
+            ms.Close();
+            ms.Dispose();
         }
         catch (Exception)
         {

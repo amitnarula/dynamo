@@ -103,18 +103,53 @@ public partial class Activate : System.Web.UI.Page
             //Response.Write(key + " : Your software has been activated, Please use this license key");
 
             //Generate the license file and allow the user to download it
-            GenerateLicenseFile(machineCode, productUID, key, licKey.FirstName, licKey.Lastname, licKey.CreatedOn, out licenseFile);
+            string licenseContent = GenerateLicenseFileV2(machineCode, productUID, key, licKey.FirstName, licKey.Lastname, licKey.CreatedOn);
 
             //Send information to user and the administrator
-            licenseManagementObj.SendInformation(licKey,licenseFile,paymentCode);
+            licenseManagementObj.SendInformation(licKey, licenseFile, paymentCode, licenseContent);
 
             //Download the file
-            GenerateInfo(licenseFile);
+            GenerateInfo(licenseFile, licenseContent);
 
         }
         else
             Response.Write("Specified key already registered, Please purchase the new one!");
 
+    }
+
+
+    private string GenerateLicenseFileV2(string mac,
+        string uid, string licenseKey, string firstName, string lastName, DateTime creationDate)
+    {
+        StringBuilder builderForHashing = new StringBuilder();
+        builderForHashing.Append(mac); //MAC
+        builderForHashing.Append(uid); //UID
+        builderForHashing.Append(licenseKey); //LicenseKey
+        builderForHashing.Append(firstName); //First name
+        builderForHashing.Append(lastName); //Last name
+        ///builder.Append(creationDate.ToString("dd/MM/yyyy")); //Creation Date
+        builderForHashing.Append(phrase);
+
+        string hashing = TPALM.CommonUtility.GetHashString(builderForHashing.ToString());
+
+
+
+        StringBuilder builder = new StringBuilder();
+        builder.Append("<License>");
+        builder.Append("<License>");
+        builder.AppendFormat("<macid>{0}</macid>",mac);
+        builder.AppendFormat("<uid>{0}</uid>",uid);
+        builder.AppendFormat("<licenseKey>{0}</licenseKey>",licenseKey);
+        builder.AppendFormat("<firstName>{0}</firstName>",firstName);
+        builder.AppendFormat("<lastName>{0}</lastName>",lastName);
+        builder.AppendFormat("<date>{0}</date>",creationDate.ToString("dd/MM/yyyy"));
+        builder.AppendFormat("<hash>{0}</hash>",hashing);
+        builder.Append("</License>");
+        builder.Append("</License>");
+
+
+        return builder.ToString();
+    
     }
 
     private void GenerateLicenseFile(string mac,
@@ -167,7 +202,7 @@ public partial class Activate : System.Web.UI.Page
         dtLicense.Rows.Add(drow);
         dsLicense.Tables.Add(dtLicense);
         
-        string fileName = string.Format("License{0}.lic",licenseKey);
+        string fileName = string.Format("License{0}{1}.lic",licenseKey,DateTime.Now.Millisecond);
         string filePath = Server.MapPath(string.Format("GeneratedLicenses/{0}", fileName));
 
         using (var stream = new FileStream(filePath, FileMode.OpenOrCreate))
@@ -186,7 +221,7 @@ public partial class Activate : System.Web.UI.Page
 
     }
 
-    private void GenerateInfo(string licenseFile)
+    private void GenerateInfo(string licenseFile,string licenseContent)
     {
         pnlInformation.Visible = true;
         pnlPrePaid.Visible = false;
@@ -194,11 +229,11 @@ public partial class Activate : System.Web.UI.Page
             + "An email along with license has been sent to your email address provied.Please do check the SPAM folder if you didn't receive "
             + "the email.<br/>In the mean while, please use below link to download your license.";
 
-        btnDownloadFile.CommandArgument = licenseFile;
+        btnDownloadFile.CommandArgument = licenseContent;
         
     }
 
-    private void DownloadLicenseFile(string licenseFile)
+    private void DownloadLicenseFile(string licenseFileContent)
     {
         //Download License file
         HttpResponse response = HttpContext.Current.Response;
@@ -206,7 +241,10 @@ public partial class Activate : System.Web.UI.Page
         response.Clear();
         response.ContentType = "text/plain";
         response.AddHeader("Content-Disposition", "attachment; filename=License.lic;");
-        response.TransmitFile(licenseFile);
+        //response.TransmitFile(licenseFile);
+
+        response.Write(licenseFileContent);
+
         response.Flush();
         response.End();
     }
