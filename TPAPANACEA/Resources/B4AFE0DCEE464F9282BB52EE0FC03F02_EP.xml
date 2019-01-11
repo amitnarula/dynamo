@@ -2,15 +2,15 @@
 <evalParams>
   <template>
     <key>SUMMARIZE_TEXT</key>
-    <params>Content,decimal,0,2|Form,int,0,1|Vocabulary,decimal,0,2|Grammar,decimal,0,2</params>
+    <params>Content,decimal,0,2|Form,int,0,1|Vocabulary,decimal,0,2|Grammer,decimal,0,2</params>
   </template>
   <template>
     <key>WRITE_ESSAY</key>
-    <params>Content,decimal,0,3|Form,int,0,2|Structure,decimal,0,2|Grammar,decimal,0,2|Linguistic range,decimal,0,2|Vocabulary,decimal,0,2|Spelling,int,0,2</params>
+    <params>Content,decimal,0,3|Form,int,0,2|Structure,decimal,0,2|Grammer,decimal,0,2|Linguistic range,decimal,0,2|Vocabulary,decimal,0,2|Spelling,decimal,0,2</params>
   </template>
   <template>
     <key>LISTEN_AND_WRITE</key>
-    <params>Content,decimal,0,2|Form,int,0,2|Grammar,decimal,0,2|Vocabulary,decimal,0,2|Spelling,int,0,2</params>
+    <params>Content,decimal,0,2|Form,int,0,2|Grammer,decimal,0,2|Vocabulary,decimal,0,2|Spelling,int,0,2</params>
   </template>
   <template>
     <key>SPEAK_LISTEN</key>
