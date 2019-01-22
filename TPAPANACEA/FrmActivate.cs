@@ -23,14 +23,12 @@ namespace TPA
         private string GetActivationUrl(string machineCode,string productUID, bool prePaidActivation)
         {
             StringBuilder url = new StringBuilder(ACTIVATION_BASE_URL);
-            url.AppendFormat("?mac={0}&uid={1}&app={2}", machineCode, productUID, CommonUtility.EncryptString(AppName));
+            url.AppendFormat("?mac={0}&uid={1}", machineCode, productUID);
             if (prePaidActivation)
                 url.AppendFormat("&mode=manual");
 
-            
-            
             return Uri.EscapeUriString(url.ToString());
-            
+
         }
 
         private bool CheckForInternetConnection()
