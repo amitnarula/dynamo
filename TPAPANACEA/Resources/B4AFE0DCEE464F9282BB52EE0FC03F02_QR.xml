@@ -74,7 +74,7 @@ In 1842 and 1843, Ada {blank} the work of an Italian mathematician, Luigi Menabr
         <o6>exploding</o6>
       </blank>
     </blanks>
-    <answer>5|2|4|0</answer>
+    <answer>3|2|4|0</answer>
   </template>
 </question>
 <question>
@@ -390,7 +390,7 @@ In What to Eat, internationally {blank} nutrition expert Dr. Luise Light cuts th
       <blank>
         <o0>jeopardize</o0>
         <o1>refraining</o1>
-        <o2>engendering</o2>
+        <o2>endangering</o2>
         <o3>insuring</o3>
       </blank>
     </blanks>
@@ -2533,12 +2533,11 @@ Changing the spelling would be {blank}. Signs, maps, and websites would all have
             <o2>basically</o2>
             <o3>approach</o3>
             <o4>main</o4>
-            <o5>replicate</o5>
-            <o6>dominant</o6>
-            <o7>precisely</o7>
+            <o5>dominant</o5>
+            <o6>precisely</o6>
           </blank>
         </blanks>
-        <answer>6|3|7|0|1</answer>
+        <answer>5|3|6|0|1</answer>
       </template>
     </question>
 
@@ -2782,9 +2781,8 @@ It is also tangible proof of Dubai's growing role in a changing world. In fewer 
         <blank>
           <o0>unremarkable</o0>
           <o1>unprecedented</o1>
-          <o2></o2>
-          <o3>usual</o3>
-          <o4>conventional</o4>
+          <o2>usual</o2>
+          <o3>conventional</o3>
         </blank>
         <blank>
           <o0>blooming</o0>
@@ -2805,7 +2803,7 @@ It is also tangible proof of Dubai's growing role in a changing world. In fewer 
           <o3>codify</o3>
         </blank>
       </blanks>
-      <answer>1|2|1|2</answer>
+      <answer>1|2|0|2</answer>
     </template>
   </question>
   

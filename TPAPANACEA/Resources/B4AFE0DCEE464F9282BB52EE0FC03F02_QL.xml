@@ -476,7 +476,7 @@ So yes, humans have always made {blank} . Decision makers and gatekeepers, in co
     <delay>8</delay>
     <maxWordCount>100</maxWordCount>
     <options></options>
-    <answer>fueled|lethal|biases|responsibilities </answer>
+    <answer>fueled|lethal|biases|responsibilities</answer>
   </template>
 </question>
 <question>
@@ -2426,7 +2426,7 @@ One disadvantage of groups is that individuals may try to conform with what this
       <delay>8</delay>
       <maxWordCount>200</maxWordCount>
       <options></options>
-      <answer>paradoxically|dramatic|gigantic|participation|participate</answer>
+      <answer>paradoxically|dramatic|participation|participate</answer>
     </template>
   </question>
   <question>
@@ -2845,7 +2845,7 @@ So far, the best idea I've heard about building grit in kids is something called
     <delay>8</delay>
     <maxWordCount>200</maxWordCount>
     <options></options>
-    <answer>environmental|robotics|sophisticated|expandable|throughly</answer>
+    <answer>environmental|robotics|sophisticated|expandable|thoroughly</answer>
   </template>
 </question>
 <question>
@@ -3657,10 +3657,10 @@ One the best examples of this came in game four of the 2015 finals. The Warriors
     <media>Practice Set 3_Listening - Multiple choice, choose single answer - Q10.tpm</media>
     <delay>5</delay>
     <options>
-      <o0>management is connected to their employees.</o0>
-      <o1>companies should not be that transparent to their employees.</o1>
-      <o2>companies should be restricted  to being more connected to their employees.</o2>
-      <o3>companies should give control to their employees.</o3>
+      <o0>leads to blindness.</o0>
+      <o1>limits your vision.</o1>
+      <o2>disrupts your emotions.</o2>
+      <o3>lulls you into action.</o3>
     </options>
     <answer>3</answer>
   </template>
@@ -3736,13 +3736,13 @@ One the best examples of this came in game four of the 2015 finals. The Warriors
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Keeping wages secret leads to what economists call "information asymmetry." This is a situation where, in a negotiation, one party has huge more information than the other. And in hiring or promotion or annual increment discussions, an employer can use that secrecy to save a lot of money. Imagine how much better you could negotiate for a raise if you knew everybody's income.</description>
+    <description>Keeping wages secret leads to what economists call "information asymmetry." This is a situation where, in a negotiation, one party has huge more information than the other. And in hiring or promotion or annual increment discussions, an employer could use that secrecy to save a lot of money. Imagine how much better you could negotiate for a raise if you knew everybody's income.</description>
     <title></title>
     <media>Practice Set 3_Listening - Highlight Incorrect Words- Q14.tpm</media>
     <delay>8</delay>
     <maxWordCount>200</maxWordCount>
     <options></options>
-    <answer>wages|huge|increment|can</answer>
+    <answer>wages|huge|increment|could</answer>
   </template>
 </question>
 <question>
