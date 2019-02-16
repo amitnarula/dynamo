@@ -26,6 +26,12 @@ namespace TPA.Templates.Writing
         public SummarizeText()
         {
             InitializeComponent();
+            this.Loaded += SummarizeText_Loaded;
+        }
+
+        private void SummarizeText_Loaded(object sender, RoutedEventArgs e)
+        {
+            Keyboard.Focus(txtSummary);
         }
 
         public void UtilizeState(object state)
