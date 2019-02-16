@@ -1401,22 +1401,23 @@
       <maxWordCount>70</maxWordCount>
     </template>
   </question>
-  <question>
-    <id>6c498389e3c04848b61aa38657bb73e7</id>
-    <practiceSet>dffc4ce9224b4f05b2d81e9a523be1d7</practiceSet>
-    <type>LISTEN_AND_WRITE</type>
-    <itemType>LISTENING</itemType>
-    <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
-    <attemptTime>00:00:00</attemptTime>
-    <template>
-      <description></description>
-      <title></title>
-      <media>2Listening - Summarize Spoken Text - Q3.tpm</media>
-      <delay>0</delay>
-      <answer>correct answer is this text here</answer>
-      <maxWordCount>70</maxWordCount>
-    </template>
-  </question>
+    <!-- Changes done as per new request from Sharan -->
+  <!-- <question> -->
+    <!-- <id>6c498389e3c04848b61aa38657bb73e7</id> -->
+    <!-- <practiceSet>dffc4ce9224b4f05b2d81e9a523be1d7</practiceSet> -->
+    <!-- <type>LISTEN_AND_WRITE</type> -->
+    <!-- <itemType>LISTENING</itemType> -->
+    <!-- <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction> -->
+    <!-- <attemptTime>00:00:00</attemptTime> -->
+    <!-- <template> -->
+      <!-- <description></description> -->
+      <!-- <title></title> -->
+      <!-- <media>2Listening - Summarize Spoken Text - Q3.tpm</media> -->
+      <!-- <delay>0</delay> -->
+      <!-- <answer>correct answer is this text here</answer> -->
+      <!-- <maxWordCount>70</maxWordCount> -->
+    <!-- </template> -->
+  <!-- </question> -->
   <question>
     <id>542f0f54f1d044e094a7aed4273f665c</id>
     <practiceSet>dffc4ce9224b4f05b2d81e9a523be1d7</practiceSet>
