@@ -27,6 +27,12 @@ namespace TPA.Templates.Writing
         public WriteEssay()
         {
             InitializeComponent();
+            this.Loaded += WriteEssay_Loaded;
+        }
+        
+        private void WriteEssay_Loaded(object sender, RoutedEventArgs e)
+        {
+            Keyboard.Focus(txtEssay);
         }
 
         public void UtilizeState(object state)
