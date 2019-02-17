@@ -33,7 +33,7 @@
     <question>
     <id>b494e8d9c2874dc7a31f3df26dd70b03</id>
     <practiceSet>abf2b37f406f44d5bc56c90314c1fd7c</practiceSet>
-    <type>SUMMARIZE_TEXT</type>
+    <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
     <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
     <attemptTime>00:20:00</attemptTime>
@@ -185,7 +185,7 @@
   <question>
     <id>634e32c2a8694eb5bc98ba635ee72fad</id>
     <practiceSet>39d265f15f41481891312961d73f01bf</practiceSet>
-    <type>SUMMARIZE_TEXT</type>
+    <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
     <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
     <attemptTime>00:20:00</attemptTime>
@@ -230,7 +230,7 @@
   <question>
     <id>bf0e5e1d34e34600b6f2e5e9092deea1</id>
     <practiceSet>dffc4ce9224b4f05b2d81e9a523be1d7</practiceSet>
-    <type>SUMMARIZE_TEXT</type>
+    <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
     <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
     <attemptTime>00:20:00</attemptTime>
@@ -275,7 +275,7 @@
   <question>
     <id>d2127bfd6e5347d9a2f2193fae73804c</id>
     <practiceSet>e8c3b7b66171443e874f972f432c4103</practiceSet>
-    <type>SUMMARIZE_TEXT</type>
+    <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
     <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
     <attemptTime>00:20:00</attemptTime>
@@ -320,7 +320,7 @@
   <question>
     <id>843c7c21fbd5461e83c74650591c3ac3</id>
     <practiceSet>a2dc026da5a84119be23ddaab151b4fc</practiceSet>
-    <type>SUMMARIZE_TEXT</type>
+    <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
     <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
     <attemptTime>00:20:00</attemptTime>
@@ -380,7 +380,7 @@
   <question>
     <id>9f635983ab58475b8c99cf8a3141408f</id>
     <practiceSet>76866578defd49e5be08b21dd869e474</practiceSet>
-    <type>SUMMARIZE_TEXT</type>
+    <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
     <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
     <attemptTime>00:20:00</attemptTime>
@@ -440,7 +440,7 @@
   <question>
     <id>3c13943e40724c92a9e37a6e06080d9a</id>
     <practiceSet>abf2b37f406f44d5bc56c90314c1f77c</practiceSet>
-    <type>SUMMARIZE_TEXT</type>
+    <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
     <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
     <attemptTime>00:20:00</attemptTime>
@@ -485,7 +485,7 @@
   <question>
     <id>c160fa3b7232451facca553b60b8cf60</id>
     <practiceSet>fc23cb5566904f8a98ee2bbf17a08f47</practiceSet>
-    <type>SUMMARIZE_TEXT</type>
+    <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
     <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
     <attemptTime>00:20:00</attemptTime>
