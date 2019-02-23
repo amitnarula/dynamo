@@ -2305,9 +2305,6 @@
     <Content Include="Data\ENHAVO\Speaking - Answer Short Question - 38.tpi">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\ENHAVO\SPK\Practice Set 4_Speaking - Retell Lecture - Q27.tpm">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Data\ENHAVO\Practice Set 5_Speaking - Retell Lecture - Q28.tpi">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -2324,6 +2321,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\ENHAVO\SPK\Practice Set 4_Speaking - Retell Lecture - Q28 Practice Test 4.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 4_Speaking - Retell Lecture - Q27_prev2.tpm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ENHAVO\SPK\Practice Set 4_Speaking - Retell Lecture - Q27.tpm">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Data\Temp\9b6fca36-b3c9-44a1-b050-228532d08094\e03c7f34-7a7f-46cb-9f8f-a80cc51f827c\info.md" />

@@ -2242,7 +2242,7 @@ Rob: But what about the ethics of dark tourism - is it wrong to make this trip? 
   <delayTime>00:00:08</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>OK, up until now, we've been arguing the questions we as teachers construct for our students in order to motivate their thought process. But today, I want to look at the issue of asking questions from a different direction. Now, young children are full of queries. But once they're in the school system, the role reverses and the teacher becomes the primary questioner. Now, according to various studies, teachers ask between 300 and 400 questions a day in the average elementary school. Unfortunately, as children get older, they stop asking their own doubts.</description>
+    <description>OK, up until now, we've been arguing the questions we as teachers construct for our students in order to motivate their thought process. But today, I want to look at the issue of asking questions from a different direction. Now, young children are full of queries . But once they're in the school system, the role reverses and the teacher becomes the primary questioner. Now, according to various studies, teachers ask between 300 and 400 questions a day in the average elementary school. Unfortunately, as children get older, they stop asking their own doubts .</description>
     <title>Listening - Highlight Incorrect Words- Q13</title>
     <media>Practice Set 5_Listening - Highlight Incorrect Words- Q13.tpm</media>
     <delay>8</delay>
@@ -3736,13 +3736,13 @@ One the best examples of this came in game four of the 2015 finals. The Warriors
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Keeping wages secret leads to what economists call "information asymmetry." This is a situation where, in a negotiation, one party has huge more information than the other. And in hiring or promotion or annual increment discussions, an employer could use that secrecy to save a lot of money. Imagine how much better you could negotiate for a raise if you knew everybody's income.</description>
+    <description>Keeping wages secret leads to what economists call "information asymmetry." This is a situation where, in a negotiation, one party has huge more information than the other. And in hiring or promotion or annual increment discussions, an employer can use that secrecy to save a lot of money. Imagine how much better you could negotiate for a raise if you knew everybody's income .</description>
     <title></title>
     <media>Practice Set 3_Listening - Highlight Incorrect Words- Q14.tpm</media>
     <delay>8</delay>
     <maxWordCount>200</maxWordCount>
     <options></options>
-    <answer>wages|huge|increment|could</answer>
+    <answer>wages|huge|increment|could|income</answer>
   </template>
 </question>
 <question>
