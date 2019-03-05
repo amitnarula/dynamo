@@ -607,7 +607,7 @@
       <title></title>
       <media>2. News-One-World-Tower - new.tpm</media>
       <delay>8</delay>
-      <answer>feature|landmark|situates|radical</answer>
+      <answer>NYC|feature|landmark|situates|radical</answer>
       <maxWordCount></maxWordCount>
     </template>
   </question>   
@@ -1313,11 +1313,11 @@
     <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
     <attemptTime>00:00:00</attemptTime>
     <template>
-      <description>The tax was implemented on January 1, 2014 and purchases of the taxed beverages went down by 12 per cent by December of that year. Sales of mineral water increased by four per cent over the same period. An alternative to taxing sugared drinks is to reduce the level of sugar in them. Researchers at Queen Mary University in London say that reducing the sugar content in sugar-sweetened drinks by 40 per cent over five years could prevent one million cases of obesity in the U.K. Researchers say people might not even notice the changes.</description>
+      <description>The tax was applied on January 1, 2014 and purchases of the taxed beverages went up by 12 per cent by December of that year. Sales of mineral water increased by forty per cent over the same period. An alternative to taxing sugared drinks is to reduce the level of sugar in them. Researchers at Queen Mary University in London say that increasing the sugar content in sugar-sweetened drinks by 40 per cent over ten years could prevent one million cases of diabetes in the U.K. Researchers say people might not even notice the growth.</description>
       <title></title>
       <media>Listening - Highlight Incorrect Words- Q16.tpm</media>
       <delay>8</delay>
-      <answer>applied|up|forty|increasing|ten|diabetes|growth</answer>
+      <answer>applied|forty|increasing|diabetes|growth</answer>
       <maxWordCount></maxWordCount>
     </template>
   </question>

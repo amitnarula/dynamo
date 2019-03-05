@@ -340,7 +340,7 @@
     </template>
   </question>
   <question>
-    <id>c98ae0f4529a403e80cbc7be55de03b8</id>
+    <id>bdda6c63af874d629e016e72440c1e47</id>
     <practiceSet>abf2b37f406f44d5bc56c90314c1fd7c</practiceSet>
     <type>SPEAK_LISTEN</type>
     <itemType>SPEAKING</itemType>
@@ -352,7 +352,7 @@
       <delay>3</delay>
       <recordingTime>10</recordingTime>
       <beep>false</beep>
-      <output>c98ae0f4529a403e80cbc7be55de03b8</output>
+      <output>bdda6c63af874d629e016e72440c1e47</output>
       <audio>12. 12664235.tpm</audio>
       <audioDelay>2</audioDelay>
       <answer>sampleresponse</answer>
@@ -1743,7 +1743,7 @@
     </template>
   </question>
   <question>
-    <id>c98ae0f4529a403e80cbc7be55de03b8</id>
+    <id>8d4ab7f1cc8548fba4736b9f4f3af8cc</id>
     <practiceSet>a540452272644faab9254ea73290cb9d</practiceSet>
     <type>SPEAK_LISTEN</type>
     <itemType>SPEAKING</itemType>
@@ -1755,7 +1755,7 @@
       <delay>3</delay>
       <recordingTime>10</recordingTime>
       <beep>false</beep>
-      <output>c98ae0f4529a403e80cbc7be55de03b8</output>
+      <output>8d4ab7f1cc8548fba4736b9f4f3af8cc</output>
       <audio>T10RS4audio5.tpm</audio>
       <audioDelay>2</audioDelay>
       <answer>sampleresponse</answer>
