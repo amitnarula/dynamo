@@ -76,7 +76,7 @@ namespace TPA.CoreFramework
 
         public bool PerformIntegratedEvaluation(string practiceSetId)
         {
-            return GetTotalQuesionsByPracticeSet(practiceSetId) == GetEvaluatedQuestionsByPracticeSet(practiceSetId);
+            return GetTotalQuesionsByPracticeSet(practiceSetId) <= GetEvaluatedQuestionsByPracticeSet(practiceSetId);
         }
 
         private int GetTotalQuesionsByPracticeSet(string practiceSetId)

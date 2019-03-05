@@ -166,7 +166,7 @@ namespace TPACORE.CoreFramework
                                     continue;
 
                                 int index = Convert.ToInt32(item);
-                                string[] descriptionArray = questionContext.Description.Split(new char[]{' '}
+                                string[] descriptionArray = questionContext.Description.Split(new char[] { ' ' }
                                     , StringSplitOptions.None);
 
                                 ArrayList descriptionArrayWithSpaces = new ArrayList();
@@ -180,12 +180,17 @@ namespace TPACORE.CoreFramework
 
                                 descriptionArray = descriptionArrayWithSpaces.ToArray(typeof(string)) as string[];
 
+                                //if (questionContext.CorrectAnswers.Any(x =>
+                                //    x.Equals(descriptionArray[index])))
+
                                 if (questionContext.CorrectAnswers.Any(x =>
-                                    x.Equals(descriptionArray[index])))
+                                    descriptionArray[index].Contains(x)))
                                     correct++;
+                                else
+                                    correct--;
                             }
 
-                            result = correct;
+                            result = correct < 0 ? 0 : correct; ;
 
 
                         }
