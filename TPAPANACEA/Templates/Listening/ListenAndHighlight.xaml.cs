@@ -83,8 +83,6 @@ namespace TPA.Templates.Listening
             
         }
 
-        
-
         private void HighlightWord(string item)
         {
             var matchedInlines = txtBlockQuestionDescription
