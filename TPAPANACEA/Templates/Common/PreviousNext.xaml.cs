@@ -28,7 +28,8 @@ namespace TPA.Templates.Common
     public partial class PreviousNext : UserControl
     {
         private static string baseOutputDirectory = System.IO.Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory) + "//Data//Temp//";
-        
+        private List<string> ModuleSequence = new List<string> { "WRITING", "READING", "SPEAKING", "LISTENING" };
+
         private DispatcherTimer timer;
         private DispatcherTimer delayTimer;
         private string CurrentPracticeSetId { get; set; }
@@ -37,6 +38,8 @@ namespace TPA.Templates.Common
         private int CurrentQuestionIndex { get; set; }
         private int TotalQuestionsCount { get; set; }
         private Mode CurrentMode { get; set; }
+        private TestMode CurrentTestMode { get; set; }
+
         public QuestionBase QuestionContext { get; set; }
         public string UserAnswer { get; set; }
         public TimeSpan DelayTimer { get; set; }
@@ -132,6 +135,7 @@ namespace TPA.Templates.Common
             questionState.PracticeSetId = this.CurrentPracticeSetId;
             questionState.QuestionType = this.CurrentQuestionType;
             questionState.QuestionMode = this.CurrentMode;
+            questionState.TestMode = this.CurrentTestMode;
             timer.Stop();
 
             //Next/Previous button click question button click raise event
@@ -140,20 +144,44 @@ namespace TPA.Templates.Common
             {
                 if (btnSender.Name == "btnSubmit")
                 {
-                    WinForms.DialogResult result = WinForms.MessageBox.Show("Thanks for your attempt, Your answers are now saved, Press OK to go back to Home");
+                    WinForms.DialogResult result;
+                    if (this.CurrentTestMode == TestMode.Mock)
+                    {
+                        var nextModule = ResolveNextModule(questionState);
+                        if (nextModule != QuestionType.NONE)//todo:wait time for next module
+                            result = WinForms.MessageBox.Show(string.Format("Thanks for your attempt, Your next module {0} will start now.", nextModule));
+                        else
+                        {
+                            this.CurrentTestMode = questionState.TestMode = TestMode.Practice; //reset test mode to practice
+                            //Log the submission of whole mock set
+                            result = WinForms.MessageBox.Show(string.Format("Thanks for your attempt, Your mock test will end now."));
+                        }
+                    }
+                    else
+                    {
+                        result = WinForms.MessageBox.Show("Thanks for your attempt, Your answers are now saved, Press OK to go back to Home");
+                    }
+
                     if (result == WinForms.DialogResult.OK)
                     {
 
                         //log the submission of the practice set item
                         File.Create(System.IO.Path.Combine(baseOutputDirectory, questionState.PracticeSetId + "_SUB_" + questionState.QuestionType.ToString()+".xml"));
 
-                        Switcher.Switch(new QuestionSwitcher(), new Question() { 
-                            PracticeSetId = this.CurrentPracticeSetId,
-                            QuestionMode = Mode.QUESTION,
-                            QuestionType = QuestionType.SPEAKING,
-                            
-                        });
-                        //Switcher.Switch(new HomePanacia());
+                        if (this.CurrentTestMode == TestMode.Mock) //mock mode, go back to next module
+                        {
+                            QuestionType nextQuestionType = ResolveNextModule(questionState);
+
+                            Switcher.Switch(new QuestionSwitcher(), new Question()
+                            {
+                                PracticeSetId = this.CurrentPracticeSetId,
+                                QuestionMode = CurrentMode,
+                                QuestionType = nextQuestionType,
+                                TestMode = CurrentTestMode
+                            });
+                        }
+                        else //practice mode go back to home
+                         Switcher.Switch(new HomePanacia());
                         //Switcher.Switch(new Home());
                         return;
                     }
@@ -165,12 +193,24 @@ namespace TPA.Templates.Common
                     if (result == WinForms.DialogResult.OK)
                     {
                         //Save state here
-                        TPACache.SetItem(CurrentPracticeSetId + CurrentQuestionType.ToString(), new CurrentState()
+                        if (CurrentTestMode == TestMode.Mock)
                         {
-                            QuestionIndex = CurrentQuestionIndex,
-                            PracticeSetId = CurrentPracticeSetId,
-                            QuestionType = CurrentQuestionType
-                        }, new TimeSpan(0, 0, 5, 0, 0));
+                            TPACache.SetItem("MOCK" + CurrentPracticeSetId, new CurrentState()
+                            {
+                                QuestionIndex = CurrentQuestionIndex,
+                                PracticeSetId = CurrentPracticeSetId,
+                                QuestionType = CurrentQuestionType
+                            }, new TimeSpan(0, 0, 5, 0, 0));
+                        }
+                        else
+                        {
+                            TPACache.SetItem(CurrentPracticeSetId + CurrentQuestionType.ToString(), new CurrentState()
+                            {
+                                QuestionIndex = CurrentQuestionIndex,
+                                PracticeSetId = CurrentPracticeSetId,
+                                QuestionType = CurrentQuestionType
+                            }, new TimeSpan(0, 0, 5, 0, 0));
+                        }
 
                         //Switcher.Switch(new Home());
                         Switcher.Switch(new HomePanacia());
@@ -189,6 +229,33 @@ namespace TPA.Templates.Common
 
             }
             Switcher.Switch(new QuestionSwitcher(), questionState);
+        }
+
+        private QuestionType ResolveNextModule(Question questionState)
+        {
+            var nextQuestionType = QuestionType.READING;
+
+            switch (questionState.QuestionType)
+            {
+                case QuestionType.READING:
+                    nextQuestionType = QuestionType.SPEAKING;
+                    break;
+                case QuestionType.SPEAKING:
+                    nextQuestionType = QuestionType.LISTENING;
+                    break;
+                case QuestionType.LISTENING:
+                    nextQuestionType = QuestionType.WRITING;
+                    break;
+                case QuestionType.WRITING:
+                    nextQuestionType = QuestionType.NONE;
+                    break;
+                default:
+                    //break the sequence here
+                    nextQuestionType = QuestionType.NONE;
+                    break;
+            }
+
+            return nextQuestionType;
         }
 
         protected virtual void OnPrevNextClicked(EventArgs e)
@@ -211,6 +278,7 @@ namespace TPA.Templates.Common
                 this.CurrentQuestionType = QuestionContext.CurrentQuestionType;
                 this.CurrentPracticeSetId = QuestionContext.CurrentPracticeSetId;
                 this.CurrentMode = QuestionContext.Mode;
+                this.CurrentTestMode = QuestionContext.TestMode;
                 this.AttemptTime = QuestionContext.AttemptTime;
                 this.AttemptTimeType = QuestionContext.AttemptTimeType;
                 this.DelayTimer = QuestionContext.AttemptTimeType == AttemptTimeType.INDIVIDUAL_QUESTION ?
@@ -218,6 +286,11 @@ namespace TPA.Templates.Common
 
                 btnYourResponse.Visibility = Visibility.Hidden;
                 btnEvaluate.Visibility = Visibility.Hidden;
+                if (CurrentTestMode == TestMode.Mock)
+                {
+                    btnSaveAndExit.Margin = btnPrevious.Margin;
+                    btnPrevious.Visibility = Visibility.Collapsed; //previous button visiblity and margin fix for save and exit button
+                }
 
                 if (this.CurrentQuestionIndex == 0)
                 {
@@ -232,6 +305,10 @@ namespace TPA.Templates.Common
                     if (this.CurrentMode == Mode.ANSWER_KEY || this.CurrentMode == Mode.TIME_OUT)
                     {
                         btnSubmit.IsEnabled = false; //Submit should be disabled when its an answer key or timeout mode
+                    }
+                    if(CurrentTestMode == TestMode.Mock && CurrentMode == Mode.ANSWER_KEY)
+                    {
+                        btnSubmit.IsEnabled = true; // submit button enabled when test is running in mock mode, because next module load is required.
                     }
                 }
 
@@ -294,6 +371,7 @@ namespace TPA.Templates.Common
                     lblTimer.Content = string.Empty;
                     BindObtainedPointData();
                 }
+                
             }
 
         }

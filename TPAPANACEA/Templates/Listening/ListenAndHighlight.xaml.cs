@@ -33,7 +33,7 @@ namespace TPA.Templates.Listening
             question = (ListenAndHighlightQuestion)state;
             txtBlkInstruction.Text = question.Instruction;
             string description = question.Description.Replace("{newline}", string.Empty);
-            string[] descriptionArray = description.Split(' ');//Splitting with space
+            string[] descriptionArray = description.Split(new char[]{' '});//Splitting with space
             foreach (var item in descriptionArray)
             {
                 txtBlockQuestionDescription.Inlines.Add(new Run(item));

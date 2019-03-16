@@ -28,6 +28,9 @@ namespace TPA.CoreFramework
                 case FileType.PRACTICE_SET:
                     baseGuidPracticeSetFileName = baseGuid.Append("_S.xml").ToString();
                     break;
+                case FileType.MOCK:
+                    baseGuidPracticeSetFileName = baseGuid.Append("_M.xml").ToString();
+                    break;
                 case FileType.QUESTION_READING:
                     baseGuidPracticeSetFileName = baseGuid.Append("_QR.xml").ToString();
                     break;
@@ -71,12 +74,13 @@ namespace TPA.CoreFramework
             QUESTION_LISTENING,
             QUESTION_SPEAKING,
             QUESTION_TITLES,
-            EVALUATION_PARAMETER
+            EVALUATION_PARAMETER,
+            MOCK
         }
 
         public bool PerformIntegratedEvaluation(string practiceSetId)
         {
-            return GetTotalQuesionsByPracticeSet(practiceSetId) == GetEvaluatedQuestionsByPracticeSet(practiceSetId);
+            return GetTotalQuesionsByPracticeSet(practiceSetId) <= GetEvaluatedQuestionsByPracticeSet(practiceSetId);
         }
 
         private int GetTotalQuesionsByPracticeSet(string practiceSetId)
@@ -125,12 +129,12 @@ namespace TPA.CoreFramework
             di.SetAccessControl(ds);
         }
 
-        public static PracticeSetAttemptTime ResolvePracticeSetAttemptTimeLeft(string practiceSetId,string itemType,int totalNumberOfQuestions)
+        public static SetAttemptTime ResolvePracticeSetAttemptTimeLeft(string practiceSetId,string itemType,int totalNumberOfQuestions)
         {
             if (itemType == "READING" || itemType == "LISTENING") //Only reading & listening items have overall timer
             {
 
-                PracticeSetAttemptTime attemptTimeObj = new PracticeSetAttemptTime();
+                SetAttemptTime attemptTimeObj = new SetAttemptTime();
                 attemptTimeObj.ItemType = itemType;
 
                 ///TimeSpan tsAttemptTimeLeft = TimeSpan.FromSeconds(7); //For debug purposes

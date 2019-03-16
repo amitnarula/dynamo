@@ -5,18 +5,28 @@ using System.Text;
 
 namespace TPA.Entities
 {
-    public class PracticeSet
+    public class PracticeSet : Set
     {
-        public string Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
         public PracticeSetItem Items { get; set; }
-        public PracticeSetAttemptTime PracticeSetAttemptTime { get; set; }
         public bool ReadingEnabled { get; set; }
         public bool SpeakingEnabled { get; set; }
         public bool WritingEnabled { get; set; }
         public bool ListeningEnabled { get; set; }
     }
+
+    public class MockSet : Set
+    {
+        
+    }
+
+    public class Set
+    {
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public SetAttemptTime SetAttemptTime { get; set; }
+    }
+
     public class PracticeSetItem
     {
         public bool Speaking { get; set; }
@@ -30,7 +40,7 @@ namespace TPA.Entities
     /// A CUSTOM value calculates the practice set overall attempt time automatically
     /// Formula = Number of questions in practice set for particular item (READING,LISTENING, WRITING, SPEAKING) + 2 Minutes
     /// </summary>
-    public class PracticeSetAttemptTime
+    public class SetAttemptTime
     {
         public string ItemType { get; set; }
         public string AttemptTime { get; set; }
