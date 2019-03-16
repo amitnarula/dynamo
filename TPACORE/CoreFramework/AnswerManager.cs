@@ -73,27 +73,32 @@ namespace TPA.CoreFramework
             
             if (questionBase.AttemptTimeType == AttemptTimeType.PRACTICE_SET_ITEM)
             {
-                string practiceSetTimeOutputFilename = baseOutputDirectory + questionBase.CurrentQuestionType + questionBase.CurrentPracticeSetId + ".xml";
-                DataSet dsPracticeSetTime = new DataSet("practiceSetTimeDs");
-                DataTable dtPracticeSetTime = new DataTable("practiceSetTimeDt");
-                DataColumn dcPracticeSetTimeLeft = new DataColumn("attemptTimeLeft", typeof(string));
+                //if the question type is LISTEN_AND_WRITE then no need to change overall time of the practice set
+                //as those questions have separate attempt and left time which is already loggd
+                //and rest of the listening module has overall time which should remain intact 
+                if (questionBase.QuestionTemplate != QuestionTemplates.LISTEN_AND_WRITE.ToString())
+                {
+                    string practiceSetTimeOutputFilename = baseOutputDirectory + questionBase.CurrentQuestionType + questionBase.CurrentPracticeSetId + ".xml";
+                    DataSet dsPracticeSetTime = new DataSet("practiceSetTimeDs");
+                    DataTable dtPracticeSetTime = new DataTable("practiceSetTimeDt");
+                    DataColumn dcPracticeSetTimeLeft = new DataColumn("attemptTimeLeft", typeof(string));
 
-                dtPracticeSetTime.Columns.Add(dcPracticeSetTimeLeft);
-                DataRow drowPracticeSetTime = dtPracticeSetTime.NewRow();
-                drowPracticeSetTime["attemptTimeLeft"] = attemptTimeLeft;
-                dtPracticeSetTime.Rows.Add(drowPracticeSetTime);
-                dsPracticeSetTime.Tables.Add(dtPracticeSetTime);
+                    dtPracticeSetTime.Columns.Add(dcPracticeSetTimeLeft);
+                    DataRow drowPracticeSetTime = dtPracticeSetTime.NewRow();
+                    drowPracticeSetTime["attemptTimeLeft"] = attemptTimeLeft;
+                    dtPracticeSetTime.Rows.Add(drowPracticeSetTime);
+                    dsPracticeSetTime.Tables.Add(dtPracticeSetTime);
 
-                //dsPracticeSetTime.WriteXml(practiceSetTimeOutputFilename);
-                //using (MemoryStream streamPracticeSetTime = new MemoryStream())
-                //{
+                    //dsPracticeSetTime.WriteXml(practiceSetTimeOutputFilename);
+                    //using (MemoryStream streamPracticeSetTime = new MemoryStream())
+                    //{
 
-                //    dsPracticeSetTime.WriteXml(streamPracticeSetTime,XmlWriteMode.DiffGram);
-                //    CreateAnswerFile(streamPracticeSetTime, practiceSetTimeOutputFilename);
-                //    streamPracticeSetTime.Position = 0;
-                //}
-                xmlEncryptor.WriteEncryptedXML(dsPracticeSetTime, practiceSetTimeOutputFilename);
-
+                    //    dsPracticeSetTime.WriteXml(streamPracticeSetTime,XmlWriteMode.DiffGram);
+                    //    CreateAnswerFile(streamPracticeSetTime, practiceSetTimeOutputFilename);
+                    //    streamPracticeSetTime.Position = 0;
+                    //}
+                    xmlEncryptor.WriteEncryptedXML(dsPracticeSetTime, practiceSetTimeOutputFilename);
+                }
             }
             
             EvaluationManager.Evaluate(questionBase, answer); //Evaluation manager logging results

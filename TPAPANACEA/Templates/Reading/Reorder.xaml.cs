@@ -1,4 +1,4 @@
-﻿using GongSolutions.Wpf.DragDrop;
+﻿using dd = GongSolutions.Wpf.DragDrop;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -36,7 +36,7 @@ namespace TPA.Templates.Reading
     /// <summary>
     /// Interaction logic for Reorder.xaml
     /// </summary>
-    public partial class Reorder : UserControl, ISwitchable, IDropTarget
+    public partial class Reorder : UserControl, ISwitchable, dd.IDropTarget
     {
         public ObservableCollection<ReorderItem> SourceItems { get; set; }
         public ObservableCollection<ReorderItem> TargetItems { get; set; }
@@ -48,7 +48,11 @@ namespace TPA.Templates.Reading
             InitializeComponent();
             SourceItems = new ObservableCollection<ReorderItem>();
             TargetItems = new ObservableCollection<ReorderItem>();
-            
+            dd.DragDrop.SetIsDragSource(lstSource, true);
+            dd.DragDrop.SetIsDropTarget(lstSource, true);
+            dd.DragDrop.SetIsDragSource(lstTarget, true);
+            dd.DragDrop.SetIsDropTarget(lstTarget, true);
+
             this.Loaded += Reorder_Loaded;
 
         }
@@ -246,22 +250,24 @@ namespace TPA.Templates.Reading
                 EvaluationManager.Evaluate(question, EvaluationManager.ZEROSCORE);
             }
         }
-        void IDropTarget.DragOver(DropInfo dropInfo)
-        {
-            if (dropInfo.Data is ReorderItem)
-            {
-                dropInfo.DropTargetAdorner = DropTargetAdorners.Highlight;
-                dropInfo.Effects = DragDropEffects.Move;
-            }
-        }
+        //public void IDropTarget.DragOver(DropInfo dropInfo)
+        //{
+        //    if (dropInfo.Data is ReorderItem)
+        //    {
+        //        dropInfo.DropTargetAdorner = DropTargetAdorners.Highlight;
+        //        dropInfo.Effects = DragDropEffects.Move;
+        //    }
+        //}
 
-        void IDropTarget.Drop(DropInfo dropInfo)
-        {
+        //public void IDropTarget.Drop(DropInfo dropInfo)
+        //{
 
-            ReorderItem msp = (ReorderItem)dropInfo.Data;
-            ((IList)dropInfo.DragInfo.SourceCollection).Remove(msp);
+        //    ReorderItem msp = (ReorderItem)dropInfo.Data;
+        //    SourceItems.Remove(msp);
+        //    lstSource.Items.Remove(msp);
+        //    ((IList)dropInfo.DragInfo.SourceCollection).Remove(msp);
 
-        }
+        //}
         private void btnToRight_Click(object sender, RoutedEventArgs e)
         {
             if (lstSource.SelectedIndex >= 0)
@@ -307,5 +313,23 @@ namespace TPA.Templates.Reading
                 }
             }
         }
+
+        void dd.IDropTarget.DragOver(dd.IDropInfo dropInfo)
+        {
+            if (dropInfo.Data is ReorderItem)
+            {
+                dropInfo.DropTargetAdorner = dd.DropTargetAdorners.Highlight;
+                dropInfo.Effects = DragDropEffects.Move;
+            }
+        }
+
+        void dd.IDropTarget.Drop(dd.IDropInfo dropInfo)
+        {
+            ReorderItem msp = (ReorderItem)dropInfo.Data;
+            //SourceItems.Remove(msp);
+            //lstSource.Items.Remove(msp);
+            ((IList)dropInfo.DragInfo.SourceCollection).Remove(msp);
+        }
+
     }
 }

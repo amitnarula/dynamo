@@ -113,7 +113,10 @@ namespace TPA.Templates.Common
                 }
                 else
                 {
-                    attemptTime = TimeSpan.Parse(practiceSetAttemptTime.AttemptTime); //Attempt time left
+                    //overall attempt time should not be applied in case of listen and write type of questions
+                    //as they have individual time and rest of the listening module has overall time
+                    if (!Convert.ToString(questionDataRow["type"]).Equals(QuestionTemplates.LISTEN_AND_WRITE.ToString(), StringComparison.InvariantCultureIgnoreCase))
+                        attemptTime = TimeSpan.Parse(practiceSetAttemptTime.AttemptTime); //Attempt time left
 
                     if (questionMode == Mode.TIME_OUT)
                         questionMode = Mode.QUESTION; //Reset the mode to question mode

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop" xmlns:Common="clr-namespace:TPA.Templates.Common" x:Class="TPA.Templates.Reading.Reorder" 
+             xmlns:Common="clr-namespace:TPA.Templates.Common" x:Class="TPA.Templates.Reading.Reorder" 
              mc:Ignorable="d" 
              Name="ucReorder"
              d:DesignHeight="400" d:DesignWidth="900">
@@ -21,7 +21,7 @@
         </Grid.RowDefinitions>
         <TextBlock Height="Auto" HorizontalAlignment="Stretch" Margin="30,35,34,0" Name="txtBlkInstruction" Text="Instruction goes here" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" TextWrapping="Wrap"  Grid.ColumnSpan="3" />
         <ListBox SelectionMode="Extended" BorderBrush="#FF00609C" BorderThickness="1" HorizontalAlignment="Left"  x:Name="lstSource" 
-    		dd:DragDrop.IsDragSource="False" Padding="10" Margin="100,12,0,80" Width="330"  dd:DragDrop.IsDropTarget="False" Grid.Row="1" Grid.RowSpan="3">
+    		  Padding="10" Margin="100,12,0,80" Width="330"  Grid.Row="1" Grid.RowSpan="3">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid x:Name="grdSource" Background="{Binding OptionBackgroundColor}" Height="Auto" Margin="0,0,0,5" >
@@ -32,7 +32,7 @@
         </ListBox>
         <Common:PreviousNext x:Name="prevNext" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Grid.Row="3" Grid.ColumnSpan="3" />
         <my:BreadCrumb HorizontalAlignment="Stretch" x:Name="breadCrumb" VerticalAlignment="Top" Width="Auto" Height="Auto" Grid.ColumnSpan="3" />
-        <ListBox BorderBrush="#FF00609C" BorderThickness="1" dd:DragDrop.IsDragSource="False"  dd:DragDrop.IsDropTarget="False" HorizontalAlignment="Right" Margin="19,12,100,80" Name="lstTarget" Padding="10" SelectionMode="Extended" Width="330" Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="2">
+        <ListBox BorderBrush="#FF00609C"  BorderThickness="1"  HorizontalAlignment="Right" Margin="19,12,100,80" Name="lstTarget" Padding="10" SelectionMode="Extended" Width="330" Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="2">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid Background="{Binding OptionBackgroundColor}" Height="Auto" Margin="0,0,0,5">

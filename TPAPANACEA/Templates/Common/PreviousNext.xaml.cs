@@ -147,7 +147,13 @@ namespace TPA.Templates.Common
                         //log the submission of the practice set item
                         File.Create(System.IO.Path.Combine(baseOutputDirectory, questionState.PracticeSetId + "_SUB_" + questionState.QuestionType.ToString()+".xml"));
 
-                        Switcher.Switch(new HomePanacia());
+                        Switcher.Switch(new QuestionSwitcher(), new Question() { 
+                            PracticeSetId = this.CurrentPracticeSetId,
+                            QuestionMode = Mode.QUESTION,
+                            QuestionType = QuestionType.SPEAKING,
+                            
+                        });
+                        //Switcher.Switch(new HomePanacia());
                         //Switcher.Switch(new Home());
                         return;
                     }
