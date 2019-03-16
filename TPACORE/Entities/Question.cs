@@ -12,13 +12,15 @@ namespace TPA.Entities
         public bool IsPreviousQuestionSelected { get; set; }
         public bool IsNextQuestionSelected { get; set; }
         public Mode QuestionMode { get; set; }
-        public PracticeSetAttemptTime PracticeSetAttemptTime { get; set; }
+        public TestMode TestMode { get; set; }
+        public SetAttemptTime PracticeSetAttemptTime { get; set; }
     }
     public enum QuestionType { 
         READING,
         WRITING,
         SPEAKING,
-        LISTENING
+        LISTENING,
+        NONE
     }
     public enum AttemptTimeType { 
         INDIVIDUAL_QUESTION,
@@ -30,6 +32,19 @@ namespace TPA.Entities
         ANSWER_KEY,
         TIME_OUT
     }
+
+    public enum TestMode
+    {
+        Practice=0,
+        Mock
+    }
+
+    public class ModeSetting
+    {
+        public TestMode TestMode { get; set; }
+        public Mode QuestionMode { get; set; }
+    }
+
     public enum QuestionTemplates
     {
         MULTI_CHOICE_SINGLE_ANSWER,

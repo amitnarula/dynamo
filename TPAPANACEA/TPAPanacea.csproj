@@ -499,6 +499,7 @@
     <Content Include="PANICOV2.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <EmbeddedResource Include="Resources\B4AFE0DCEE464F9282BB52EE0FC03F02_M.xml" />
     <Content Include="Resources\beep.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

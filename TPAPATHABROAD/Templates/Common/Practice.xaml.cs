@@ -29,12 +29,12 @@ namespace TPA.Templates.Common
         Mode CurrentMode;
         static string baseOutputDirectory = System.IO.Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory) + "//Data//Temp//";
         
-        private PracticeSetAttemptTime ResolvePracticeSetAttemptTime(string attemptTimeExpression)
+        private SetAttemptTime ResolvePracticeSetAttemptTime(string attemptTimeExpression)
         {
-            PracticeSetAttemptTime attemptTime = null;
+            SetAttemptTime attemptTime = null;
             if (!string.IsNullOrEmpty(attemptTimeExpression))
             {
-                attemptTime = new PracticeSetAttemptTime();
+                attemptTime = new SetAttemptTime();
                 string[] attemptTimeItemArray = attemptTimeExpression.Split('-');
                 if (attemptTimeItemArray.Any())
                 {
@@ -97,7 +97,7 @@ namespace TPA.Templates.Common
                 practiceSet.Id = Convert.ToString(dRow["id"]);
                 practiceSet.Name = Convert.ToString(dRow["name"]);
                 practiceSet.Description = Convert.ToString(dRow["description"]);
-                practiceSet.PracticeSetAttemptTime = ResolvePracticeSetAttemptTime(Convert.ToString(dRow["practiceSetAttemptTime"]));
+                practiceSet.SetAttemptTime = ResolvePracticeSetAttemptTime(Convert.ToString(dRow["practiceSetAttemptTime"]));
 
                 
 
@@ -186,7 +186,7 @@ namespace TPA.Templates.Common
             TPA.Entities.Question question = new Entities.Question();
             question.PracticeSetId = practiceSet.Id;
             question.QuestionMode = CurrentMode;
-            question.PracticeSetAttemptTime = practiceSet.PracticeSetAttemptTime;
+            question.PracticeSetAttemptTime = practiceSet.SetAttemptTime;
 
             switch (btnSender.Name)
             {

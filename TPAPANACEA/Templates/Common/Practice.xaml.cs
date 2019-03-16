@@ -25,14 +25,15 @@ namespace TPA.Templates.Common
     public partial class Practice : UserControl,ISwitchable
     {
         Mode CurrentMode;
+        TestMode CurrentTestMode;
         int PageIndex = 0;
 
-        private PracticeSetAttemptTime ResolvePracticeSetAttemptTime(string attemptTimeExpression)
+        private SetAttemptTime ResolveSetAttemptTime(string attemptTimeExpression)
         {
-            PracticeSetAttemptTime attemptTime = null;
+            SetAttemptTime attemptTime = null;
             if (!string.IsNullOrEmpty(attemptTimeExpression))
             {
-                attemptTime = new PracticeSetAttemptTime();
+                attemptTime = new SetAttemptTime();
                 string[] attemptTimeItemArray = attemptTimeExpression.Split('-');
                 if (attemptTimeItemArray.Any())
                 {
@@ -89,12 +90,26 @@ namespace TPA.Templates.Common
             Previous
         }
 
-        private void LoadPracticeSets(NextPrevious load,int pageSize=5)
+        private void LoadSets(NextPrevious load,int pageSize=5)
         {
-            DataSet dsPracticeSets = FileReader.ReadFile(FileReader.FileType.PRACTICE_SET);
-
-            var allRows = dsPracticeSets.Tables["practiceSet"].Rows;
-            int totalPracticeSets = allRows.Count;
+            DataSet dsSets;
+            string tableKey = string.Empty;
+            string attemptTimeColumnKey = string.Empty;
+            if (CurrentTestMode == TestMode.Mock)
+            {
+                dsSets = FileReader.ReadFile(FileReader.FileType.MOCK);
+                tableKey = "mockSet";
+                attemptTimeColumnKey = "mockSetAttemptTime";
+            }
+            else
+            {
+                dsSets = FileReader.ReadFile(FileReader.FileType.PRACTICE_SET);
+                tableKey = "practiceSet";
+                attemptTimeColumnKey = "practiceSetAttemptTime";
+            }
+            
+            var allRows = dsSets.Tables[tableKey].Rows;
+            int totalSets = allRows.Count;
 
             if (load == NextPrevious.Next)
                 PageIndex++;
@@ -111,7 +126,7 @@ namespace TPA.Templates.Common
             else
                 btnPrevious.IsEnabled = true;
             
-            if (take >= totalPracticeSets)
+            if (take >= totalSets)
             {
                 btnNext.IsEnabled = false;
             }
@@ -120,17 +135,21 @@ namespace TPA.Templates.Common
                 btnNext.IsEnabled  = true;
             }
 
-            List<PracticeSet> lstPracticeSet = new List<PracticeSet>();
+            List<Set> lstSet = new List<Set>();
             var pagedRows = allRows.OfType<DataRow>().Take(take).Skip(skip);
 
             //ObservableCollection<PracticeSet> lstPracticeSet = new ObservableCollection<PracticeSet>();
             foreach (DataRow dRow in pagedRows)
             {
-                PracticeSet practiceSet = new PracticeSet();
-                practiceSet.Id = Convert.ToString(dRow["id"]);
-                practiceSet.Name = Convert.ToString(dRow["name"]);
-                practiceSet.Description = Convert.ToString(dRow["description"]);
-                practiceSet.PracticeSetAttemptTime = ResolvePracticeSetAttemptTime(Convert.ToString(dRow["practiceSetAttemptTime"]));
+                Set set;
+                if (this.CurrentTestMode == TestMode.Mock)
+                    set = new MockSet();
+                else set = new PracticeSet();
+                
+                set.Id = Convert.ToString(dRow["id"]);
+                set.Name = Convert.ToString(dRow["name"]);
+                set.Description = Convert.ToString(dRow["description"]);
+                set.SetAttemptTime = ResolveSetAttemptTime(Convert.ToString(dRow[attemptTimeColumnKey]));
                 /*practiceSet.Items = new PracticeSetItem();
 
                 foreach (DataRow dRowItem in dsPracticeSets.Tables["items"].Rows)
@@ -156,29 +175,51 @@ namespace TPA.Templates.Common
                     }
                 }*/
 
-                lstPracticeSet.Add(practiceSet);
+                lstSet.Add(set);
 
             }
-            practiceSetListBox.ItemsSource = lstPracticeSet;
+            if (CurrentTestMode == TestMode.Mock)
+                mockSetListBox.ItemsSource = lstSet;
+            else
+                practiceSetListBox.ItemsSource = lstSet;
         }
 
         public Practice()
         {
             InitializeComponent();
-            LoadPracticeSets(NextPrevious.Default);
-
+            mockSetListBox.Visibility = Visibility.Collapsed;
         }
 
         protected void btnItem_Click(object sender, RoutedEventArgs e)
         {
             Button btnSender = (Button)sender;
             var dataItem = ((FrameworkElement)sender).DataContext;
-            PracticeSet practiceSet = dataItem as PracticeSet;
+            Set set = dataItem as Set;
             TPA.Entities.Question question = new Entities.Question();
-            question.PracticeSetId = practiceSet.Id;
+            question.PracticeSetId = set.Id;
             question.QuestionMode = CurrentMode;
-            question.PracticeSetAttemptTime = practiceSet.PracticeSetAttemptTime;
+            question.PracticeSetAttemptTime = set.SetAttemptTime;
 
+            if (CurrentTestMode == TestMode.Mock)
+            {
+                //setting intial test of reading and mode to the question as test mode = mock
+                question.QuestionType = QuestionType.READING;
+                question.TestMode = TestMode.Mock;
+
+                //check if user saved something as save and exit
+
+                //check save and exit state
+                var testModeStateForMockTest = TPACache.GetItem("MOCK" + set.Id) as CurrentState;
+                if (testModeStateForMockTest != null)
+                {
+                    //we need to check the question type because now Mock mode runs all modules
+                    //we need to check like, which question type and which question index was saved by user before save and exit
+                    //index will be checked and set at question switcher --> process question
+                    //which question type and which number/index?
+                    question.QuestionType = testModeStateForMockTest.QuestionType; 
+                }
+            }
+            
             //For DEMO build
             //if (question.PracticeSetId != "abf2b37f406f44d5bc56c90314c1fd7c")
             //{
@@ -186,23 +227,25 @@ namespace TPA.Templates.Common
             //           "Evaluation only", WinForms.MessageBoxButtons.OK, WinForms.MessageBoxIcon.Information);
             //    return;
             //}
-
-            switch (btnSender.Name)
+            else
             {
-                case "btnReading":
-                    question.QuestionType = QuestionType.READING;
-                    break;
-                case "btnListening":
-                    question.QuestionType = QuestionType.LISTENING;
-                    break;
-                case "btnWriting":
-                    question.QuestionType = QuestionType.WRITING;
-                    break;
-                case "btnSpeaking":
-                    question.QuestionType = QuestionType.SPEAKING;
-                    break;
-                default:
-                    break;
+                switch (btnSender.Name)
+                {
+                    case "btnReading":
+                        question.QuestionType = QuestionType.READING;
+                        break;
+                    case "btnListening":
+                        question.QuestionType = QuestionType.LISTENING;
+                        break;
+                    case "btnWriting":
+                        question.QuestionType = QuestionType.WRITING;
+                        break;
+                    case "btnSpeaking":
+                        question.QuestionType = QuestionType.SPEAKING;
+                        break;
+                    default:
+                        break;
+                }
             }
 
             if (CurrentMode != Mode.ANSWER_KEY)
@@ -225,18 +268,33 @@ namespace TPA.Templates.Common
        
         public void UtilizeState(object state)
         {
-            CurrentMode = (Mode)state;
+            var modeSetting = (ModeSetting)state;
+            CurrentMode = modeSetting.QuestionMode;
+            CurrentTestMode = modeSetting.TestMode;
+
+            if (CurrentTestMode == TestMode.Practice)
+            {
+                lblTitle.Content = "Practice sets";
+            }
+            else if (CurrentTestMode == TestMode.Mock)
+            {
+                lblTitle.Content = "Mock sets";
+                mockSetListBox.Visibility = Visibility.Visible;
+                practiceSetListBox.Visibility = Visibility.Collapsed;
+
+            }
+            LoadSets(NextPrevious.Default);
         }
 
         private void btnNext_Click(object sender, RoutedEventArgs e)
         {
-            LoadPracticeSets(NextPrevious.Next);
+            LoadSets(NextPrevious.Next);
             
         }
 
         private void btnPrevious_Click(object sender, RoutedEventArgs e)
         {
-            LoadPracticeSets(NextPrevious.Previous);
+            LoadSets(NextPrevious.Previous);
             
         }
 
@@ -244,5 +302,6 @@ namespace TPA.Templates.Common
         {
             
         }
+        
     }
 }

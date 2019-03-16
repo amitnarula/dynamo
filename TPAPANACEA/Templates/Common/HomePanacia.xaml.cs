@@ -33,12 +33,27 @@ namespace TPA.Templates.Common
 
         private void btnPractice_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new Practice());
+            Switcher.Switch(new Practice(), new ModeSetting()
+            {
+            });
         }
 
         private void btnAnswerKey_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new Practice(), Mode.ANSWER_KEY);
+            Switcher.Switch(new Practice(), new ModeSetting()
+            {
+                QuestionMode = Mode.ANSWER_KEY,
+                TestMode = TestMode.Mock
+            });
+        }
+
+        private void btnMock_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Practice(), new ModeSetting()
+            {
+                QuestionMode = Mode.QUESTION,
+                TestMode = TestMode.Mock
+            });
         }
     }
 }

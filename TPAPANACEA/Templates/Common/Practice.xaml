@@ -8,7 +8,7 @@
 
     <Grid>
 
-        <Label x:Name="lblTitlePractice" Content="Practice Sets" HorizontalAlignment="Center" Margin="0,12,0,0" VerticalAlignment="Top" Foreground="#FF00609C" FontSize="18" FontWeight="Bold"/>
+        <Label x:Name="lblTitle" Content="[Practice/Mock Sets]" HorizontalAlignment="Center" Margin="0,12,0,0" VerticalAlignment="Top" Foreground="#FF00609C" FontSize="18" FontWeight="Bold"/>
         <ListBox x:Name="practiceSetListBox" Background="Transparent" BorderBrush="Transparent" Margin="0,49,0,40">
 
             <ListBox.ItemsPanel>
@@ -20,8 +20,8 @@
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,15,0" Background="#FF00609C" Width="190" Height="330">
-                        
-                        
+
+
                         <StackPanel Orientation="Vertical" Margin="0,10,0,0" HorizontalAlignment="Center">
                             <Label Content="{Binding Name}" Foreground="#FF8BC7EA" FontSize="14" FontWeight="Bold" HorizontalAlignment="Left"></Label>
                             <Button Name="btnSpeaking" Width="170" Height="50" BorderBrush="#FF8BC7EA"  Background="#FF8BC7EA" Foreground="#FF00609C" FontWeight="Bold"  Content="Speaking" Click="btnItem_Click" Margin="10"></Button>
@@ -35,15 +35,37 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-            
-            <Button x:Name="btnPrevious" FontSize="20" BorderBrush="#FF8BC7EA"  Background="#FF8BC7EA" Foreground="#FF00609C"  FontFamily="Segoe UI Symbol"  HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,0" Click="btnPrevious_Click">
+        <ListBox x:Name="mockSetListBox" Background="Transparent" BorderBrush="Transparent" Margin="0,49,0,40">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,15,0" Background="#FF00609C" Width="190" Height="120">
+
+
+                        <StackPanel Orientation="Vertical" Margin="0,10,0,0" HorizontalAlignment="Center">
+                            <Label Content="{Binding Name}" Foreground="#FF8BC7EA" FontSize="14" FontWeight="Bold" HorizontalAlignment="Left"></Label>
+                            <Button Content="{Binding Name}"  Name="btnMockItem" Width="170" Height="50" BorderBrush="#FF8BC7EA"  Background="#FF8BC7EA" Foreground="#FF00609C" FontWeight="Bold"  Click="btnItem_Click" Margin="10"></Button>
+
+                        </StackPanel>
+                    </StackPanel>
+
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Button x:Name="btnPrevious" FontSize="20" BorderBrush="#FF8BC7EA"  Background="#FF8BC7EA" Foreground="#FF00609C"  FontFamily="Segoe UI Symbol"  HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,0" Click="btnPrevious_Click">
             <Image Width="30" Height="30" Source="/TPAPanacea;component/Templates/Images/previous.png" Stretch="Fill"/>
         </Button>
-            <Button x:Name="btnNext" FontSize="20" BorderBrush="#FF8BC7EA" Background="#FF8BC7EA" Foreground="#FF00609C" FontFamily="Segoe UI Symbol"  HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,0" Click="btnNext_Click">
+        <Button x:Name="btnNext" FontSize="20" BorderBrush="#FF8BC7EA" Background="#FF8BC7EA" Foreground="#FF00609C" FontFamily="Segoe UI Symbol"  HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,0" Click="btnNext_Click">
             <Image Width="30" Height="30" Source="/TPAPanacea;component/Templates/Images/next.png" Stretch="Fill"/>
         </Button>
 
-        
+
     </Grid>
 
 </UserControl>
