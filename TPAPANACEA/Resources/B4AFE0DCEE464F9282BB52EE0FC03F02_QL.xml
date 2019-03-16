@@ -1313,7 +1313,7 @@
     <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
     <attemptTime>00:00:00</attemptTime>
     <template>
-      <description>The tax was applied on January 1, 2014 and purchases of the taxed beverages went up by 12 per cent by December of that year. Sales of mineral water increased by forty per cent over the same period. An alternative to taxing sugared drinks is to reduce the level of sugar in them. Researchers at Queen Mary University in London say that increasing the sugar content in sugar-sweetened drinks by 40 per cent over ten years could prevent one million cases of diabetes in the U.K. Researchers say people might not even notice the growth.</description>
+      <description>The tax was applied on January 1, 2014 and purchases of the taxed beverages went down by 12 per cent by December of that year. Sales of mineral water increased by forty per cent over the same period. An alternative to taxing sugared drinks is to reduce the level of sugar in them. Researchers at Queen Mary University in London say that increasing the sugar content in sugar-sweetened drinks by 40 per cent over five years could prevent one million cases of diabetes in the U.K. Researchers say people might not even notice the growth.</description>
       <title></title>
       <media>Listening - Highlight Incorrect Words- Q16.tpm</media>
       <delay>8</delay>
@@ -1985,7 +1985,7 @@
       <title></title>
       <media>3Listening - Highlight Incorrect Words- Q14.tpm</media>
       <delay>8</delay>
-      <answer>basically|headed|cremated|1620|near|purposed</answer>
+      <answer>basically|headed|cremated|1620|near</answer>
       <maxWordCount></maxWordCount>
       <transcript>The ship Mayflower was used as a cargo ship trading (often in wine) between England and other European countries, principally France but also Norway, Germany and Spain. At least between 1609 and 1623 it was mastered by Christopher Jones, who was Captain on the trans-atlantic voyage, and based in Rotherhithe. He was buried in the graveyard of St. Mary's Rotherhithe following his death in March 1623, and it is likely that the ship was broken up for scrap lumber there in the following year. The Mayflower Barn situated just outside the small Quaker Village of Jordans in Buckinghamshire, England purports to be constructed from these timbers.</transcript>
     </template>
@@ -2322,7 +2322,7 @@
     <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
     <attemptTime>00:00:00</attemptTime>
     <template>
-      <description>Myers is not sure what's causing nutrients. One theory is when a plant produces more grain or beans, the amount nutrients get diluted. No matter what the cause, the effects could be really significant, he says, and worst. About two million people around the world already are getting too little iron and zinc in their diets, and it's damaging their growth.</description>
+      <description>Myers is not sure what's causing nutrients. One theory is when a plant produces more grain or beans, the amount nutrient get diluted. No matter what the cause, the effects could be really significant, he says, and worst. About two million people around the world already are getting too little iron and zinc in their diets, and it's damaging their growth.</description>
       <title></title>
       <media>4Listening - Highlight Incorrect Words- Q14.tpm</media>
       <delay>8</delay>
@@ -2977,7 +2977,7 @@
       <title></title>
       <media>6Listening - Highlight Incorrect Words- Q13.tpm</media>
       <delay>8</delay>
-      <answer>justice|society|consisted|refused|traditions|injustice</answer>
+      <answer>justice|society|refused|traditions|injustice</answer>
       <maxWordCount></maxWordCount>
       <transcript>The world is all too full of injustice. People’s rights are not being respected. And these violations are getting more and more coverage in the media. Our rights are being denied despite international laws meant to protect us – laws, conventions, charters on human rights have existed for centuries but the abuses still exist.</transcript>
     </template>
