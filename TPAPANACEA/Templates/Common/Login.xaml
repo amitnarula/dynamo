@@ -18,6 +18,6 @@
         <Button FontSize="14" FontWeight="Bold" Background="Teal" Foreground="White" x:Name="btnLogin" Content="Login" HorizontalAlignment="Left" Margin="20,162,0,0" VerticalAlignment="Top" Width="87" Height="36" Click="btnLogin_Click" Grid.Column="1" />
         <Button FontSize="14" FontWeight="Bold" Background="Teal" Foreground="White" x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="113,162,0,0" VerticalAlignment="Top" Width="82" Height="36" Click="btnCancel_Click" Grid.Column="1" />
         <Rectangle Grid.ColumnSpan="2" Height="47" HorizontalAlignment="Stretch" Name="rctHead" Stroke="#008080" VerticalAlignment="Top" Fill="Teal"   />
-        <Label Content="Evaluation Login" FontSize="14" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Height="28" HorizontalAlignment="Center" Margin="0,10,0,0" Name="lblHead" VerticalAlignment="Top" />
+        <Label Content="Login" FontSize="14" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Height="28" HorizontalAlignment="Center" Margin="0,10,0,0" Name="lblHead" VerticalAlignment="Top" />
     </Grid>
 </Window>

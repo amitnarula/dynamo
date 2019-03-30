@@ -30,7 +30,8 @@
         <Button HorizontalAlignment="Right" Name="btnMinimize" Margin="0,4,36,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnMinimize_Click">
             <Image Width="30" Height="30" Source="Templates/Images/min.png" Stretch="Fill"/>
         </Button>
-        <TextBlock Margin="8,8,161,0" Name="txtBlockAppTitle" VerticalAlignment="Top" Height="28" Text="Path Abroad Solutions" TextWrapping="Wrap" FontWeight="Bold" FontSize="16.667" Foreground="#FF2179AF"/>
+        <TextBlock Margin="8,8,361,0" Name="txtBlockAppTitle" VerticalAlignment="Top" Height="28" Text="Path Abroad Solutions" TextWrapping="Wrap" FontWeight="Bold" FontSize="16.667" Foreground="#FF2179AF"/>
+        <TextBlock Margin="581,8,163,0" Name="txtBlockLoginInfo" TextAlignment="Right"  VerticalAlignment="Top" Height="28" Text="{Binding LoginInfo}" Visibility="Collapsed"  TextWrapping="Wrap" FontSize="16.667" Foreground="#FF2179AF"/>
 
     </Grid>
 </Window>

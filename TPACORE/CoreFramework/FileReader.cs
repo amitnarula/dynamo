@@ -105,7 +105,7 @@ namespace TPA.CoreFramework
 
         private int GetEvaluatedQuestionsByPracticeSet(string practiceSetId)
         {
-            string[] evalFiles = Directory.GetFiles(baseOutputDirectory, "*eval.xml");
+            string[] evalFiles = Directory.GetFiles(Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetFolder()), "*eval.xml");
 
             return evalFiles.Count(x => x.Contains(practiceSetId));
         }
@@ -167,7 +167,7 @@ namespace TPA.CoreFramework
 
                 }
 
-                string file = baseOutputDirectory + itemType + practiceSetId + ".xml";
+                string file = Path.Combine(Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetUserFolder()) , itemType + practiceSetId + ".xml");
                 if (File.Exists(file))
                 {
                     var xmlEncryptor = new XMLEncryptor(phrase,phrase);

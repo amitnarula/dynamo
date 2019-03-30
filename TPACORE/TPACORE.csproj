@@ -59,6 +59,7 @@
     <Compile Include="CoreFramework\LogManager.cs" />
     <Compile Include="CoreFramework\MediaReader.cs" />
     <Compile Include="CoreFramework\TPACache.cs" />
+    <Compile Include="CoreFramework\UserManager.cs" />
     <Compile Include="Entities\EvaluationParameter.cs" />
     <Compile Include="Entities\EvaluationResult.cs" />
     <Compile Include="Entities\FillInTheBlanksQuestion.cs" />

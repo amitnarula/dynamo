@@ -19,6 +19,17 @@ namespace TPA
         {
             string appName = "TPAV2"; //PTE Panacea App evaluation name alias is : TPAV2
 
+            //UserManager.CreateUser(new User()
+            //{
+            //    UserId = UserManager.RandomString(5),
+            //    Username = "test",
+            //    Password = "test",
+            //    Firstname = "test",
+            //    Lastname = "test",
+            //    ContactNo = "9876543210",
+            //    Email = "test@test.com"
+            //});
+
             // Add the event handler for handling UI thread exceptions to the event.
             this.DispatcherUnhandledException += new System.Windows.Threading.DispatcherUnhandledExceptionEventHandler(App_DispatcherUnhandledException);
             //for DEMO build

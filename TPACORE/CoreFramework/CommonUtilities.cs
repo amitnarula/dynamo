@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using TPA.Entities;
+using TPACORE.CoreFramework;
 
 namespace TPA.CoreFramework
 {
@@ -59,6 +60,39 @@ namespace TPA.CoreFramework
                     throw new Exception("Unsupported file type conversion");
             }
             return questionType;
+        }
+
+        public static string ResolveTargetUserFolder() {
+            //string.empty is the default folder //default folder data/temp
+            //{userfolderid} is student folder // data/temp/{userfolderid}
+            var studentLoginInfo = TPACache.GetItem(TPACache.STUDENT_LOGIN_INFO) as User;
+            if (studentLoginInfo!=null) {
+                return studentLoginInfo.UserId;
+            }
+            
+            return string.Empty; 
+        }
+
+        public static string ResolveTargetEvaluationFolder() {
+            //string.empty is the default folder //default folder data/temp
+            //{userfolderid} is student folder // data/temp/{userfolderid}
+            
+            var teacherLoginInfo = TPACache.GetItem(TPACache.LOGIN_KEY) as LoginState;
+            if (teacherLoginInfo.CurrentStatus == LoginStatus.OK)
+            {
+                var studentIdToEvaluate = TPACache.GetItem(TPACache.STUDENT_ID_TO_EVALUATE);
+                return studentIdToEvaluate != null ? studentIdToEvaluate.ToString() : string.Empty;
+            }
+            return string.Empty;
+            
+        }
+        public static string ResolveTargetFolder() {
+            var targetFolder = ResolveTargetUserFolder();
+
+            if (string.IsNullOrEmpty(targetFolder))
+                targetFolder = ResolveTargetEvaluationFolder();
+
+            return targetFolder;
         }
 
     }

@@ -15,6 +15,7 @@ using TPA.CoreFramework;
 using TPA.Templates.Common;
 using TPAPanacea.Templates.Common;
 using WinForm = System.Windows.Forms;
+using TPACORE.CoreFramework;
 
 namespace TPA
 {
@@ -23,6 +24,7 @@ namespace TPA
     /// </summary>
     public partial class ActivitySwitcher : Window
     {
+        public string LoginInfo { get; set; }
         private void CenterAllignUserControl(UserControl userControl)
         {
             if (userControl.GetType() == typeof(HomePanacia) ||
@@ -107,14 +109,33 @@ namespace TPA
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
             var loginResult = TPACache.GetItem(TPACache.LOGIN_KEY);
+            var userLoginInfo = TPACache.GetItem(TPACache.STUDENT_LOGIN_INFO) as User;
             if (loginResult != null)
             {
+                txtBlockLoginInfo.Visibility = Visibility.Visible;
+                //txtBlockLoginInfo.Text = "Welcome, Teacher";
+                LoginInfo = "Teacher";
+
                 var result = System.Windows.Forms.MessageBox.Show("Welcome Teacher, you are already logged in. Please press OK to logout", "Logout", System.Windows.Forms.MessageBoxButtons.OKCancel,
                          System.Windows.Forms.MessageBoxIcon.Information, System.Windows.Forms.MessageBoxDefaultButton.Button1);
                 if (result == System.Windows.Forms.DialogResult.OK)
                 {
                     //perform logout
                     TPACache.RemoveItem(TPACache.LOGIN_KEY);
+                    txtBlockLoginInfo.Visibility = Visibility.Collapsed;
+                }
+            }
+            else if (userLoginInfo != null) {
+                txtBlockLoginInfo.Visibility = Visibility.Visible;
+                txtBlockLoginInfo.Text = string.Format("Welcome {0},{1}", userLoginInfo.Firstname, userLoginInfo.Lastname);
+
+                var result = System.Windows.Forms.MessageBox.Show(string.Format("Welcome student {0},{1}, you are already logged in. Please press OK to logout",userLoginInfo.Firstname,userLoginInfo.Lastname), "Logout", System.Windows.Forms.MessageBoxButtons.OKCancel,
+                         System.Windows.Forms.MessageBoxIcon.Information, System.Windows.Forms.MessageBoxDefaultButton.Button1);
+                if (result == System.Windows.Forms.DialogResult.OK)
+                {
+                    //perform logout
+                    TPACache.RemoveItem(TPACache.STUDENT_LOGIN_INFO);
+                    txtBlockLoginInfo.Visibility = Visibility.Collapsed;
                 }
             }
             else

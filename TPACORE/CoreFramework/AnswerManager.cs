@@ -15,6 +15,12 @@ namespace TPA.CoreFramework
     {
         private const string phrase = "myKey123";
         static string baseOutputDirectory = System.IO.Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory)+"//Data//Temp//";
+
+        static AnswerManager()
+        {
+            //baseOutputDirectory = Path.Combine(baseOutputDirectory, CommonUtilities.ResolveTargetUserFolder());
+        }
+
         public static void LogAnswer(QuestionBase questionBase, string answer, string attemptTimeLeft)
         {
             var xmlEncryptor = new XMLEncryptor(phrase, phrase);
@@ -48,7 +54,8 @@ namespace TPA.CoreFramework
             }
 
             string answerOutputFilename = questionBase.Id + ".xml";
-            string answerOutputFilepath = baseOutputDirectory + answerOutputFilename;
+            string targetOutputDirectory = Path.Combine(baseOutputDirectory, CommonUtilities.ResolveTargetUserFolder());
+            string answerOutputFilepath = Path.Combine(targetOutputDirectory, answerOutputFilename);
 
             DataSet dsAnswer = new DataSet("answerDs");
             DataTable dtAnswer = new DataTable("answerDt");
@@ -78,7 +85,7 @@ namespace TPA.CoreFramework
                 //and rest of the listening module has overall time which should remain intact 
                 if (questionBase.QuestionTemplate != QuestionTemplates.LISTEN_AND_WRITE.ToString())
                 {
-                    string practiceSetTimeOutputFilename = baseOutputDirectory + questionBase.CurrentQuestionType + questionBase.CurrentPracticeSetId + ".xml";
+                    string practiceSetTimeOutputFilename = Path.Combine(Path.Combine(baseOutputDirectory, CommonUtilities.ResolveTargetUserFolder()), questionBase.CurrentQuestionType + questionBase.CurrentPracticeSetId + ".xml");
                     DataSet dsPracticeSetTime = new DataSet("practiceSetTimeDs");
                     DataTable dtPracticeSetTime = new DataTable("practiceSetTimeDt");
                     DataColumn dcPracticeSetTimeLeft = new DataColumn("attemptTimeLeft", typeof(string));
@@ -115,7 +122,8 @@ namespace TPA.CoreFramework
             {
                 DataRow[] questionsDataRows = dsQuestions.Tables["question"].Select("practiceSet='" + practiceSetId + "'");
 
-                string[] files = Directory.GetFiles(baseOutputDirectory);
+                //string baseOutDir = Path.Combine(baseOutputDirectory, CommonUtilities.ResolveTargetUserFolder());
+                string[] files = Directory.GetFiles(Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetUserFolder()));
 
                 foreach (DataRow dRow in questionsDataRows)
                 {
@@ -139,17 +147,20 @@ namespace TPA.CoreFramework
             foreach (DataRow questionDataRow in questionsDataRows)
             {
                 string fileToDelete = Convert.ToString(questionDataRow["id"])+".xml";
+                string targetDirectory = Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetUserFolder());
 
-                if (File.Exists(baseOutputDirectory + fileToDelete))
-                    File.Delete(baseOutputDirectory + fileToDelete);
+                if (File.Exists(Path.Combine(targetDirectory, fileToDelete)))
+                    File.Delete(Path.Combine(targetDirectory, fileToDelete));
 
                 string audioRecordedFileToDelete = Convert.ToString(questionDataRow["id"]) + ".wav";
 
-                if (File.Exists(baseOutputDirectory + audioRecordedFileToDelete))
-                    File.Delete(baseOutputDirectory + audioRecordedFileToDelete);
+                if (File.Exists(Path.Combine(targetDirectory, audioRecordedFileToDelete)))
+                    File.Delete(Path.Combine(targetDirectory, audioRecordedFileToDelete));
             }
 
             string itemType = string.Empty;
+
+            string targetOutputDirectory = Path.Combine(baseOutputDirectory, CommonUtilities.ResolveTargetUserFolder());
 
             if (fileType == FileReader.FileType.QUESTION_READING) //Only reading and listening have overall timer
                 itemType = QuestionType.READING.ToString();
@@ -157,39 +168,39 @@ namespace TPA.CoreFramework
                 itemType = QuestionType.LISTENING.ToString();
 
             //Also removing the practice set time left manager file
-            if (File.Exists(baseOutputDirectory +itemType+ practiceSetId + ".xml"))
+            if (File.Exists(Path.Combine(targetOutputDirectory ,itemType+ practiceSetId + ".xml")))
             {
-                File.Delete(baseOutputDirectory +itemType+ practiceSetId + ".xml");
+                File.Delete(Path.Combine(targetOutputDirectory, itemType + practiceSetId + ".xml"));
             }
 
             //Removing the UNLOCK files
-            if (File.Exists(baseOutputDirectory + QuestionType.READING.ToString() + practiceSetId + "UNLCK.xml")
+            if (File.Exists(Path.Combine(targetOutputDirectory, QuestionType.READING.ToString() + practiceSetId + "UNLCK.xml"))
                 && fileType == FileReader.FileType.QUESTION_READING)
-                File.Delete(baseOutputDirectory + QuestionType.READING.ToString() + practiceSetId + "UNLCK.xml");
+                File.Delete(Path.Combine(targetOutputDirectory, QuestionType.READING.ToString() + practiceSetId + "UNLCK.xml"));
 
-            if (File.Exists(baseOutputDirectory + QuestionType.LISTENING.ToString() + practiceSetId + "UNLCK.xml")
+            if (File.Exists(Path.Combine(targetOutputDirectory, QuestionType.LISTENING.ToString() + practiceSetId + "UNLCK.xml"))
                 && fileType == FileReader.FileType.QUESTION_LISTENING)
-                File.Delete(baseOutputDirectory + QuestionType.LISTENING.ToString() + practiceSetId + "UNLCK.xml");
+                File.Delete(Path.Combine(targetOutputDirectory, QuestionType.LISTENING.ToString() + practiceSetId + "UNLCK.xml"));
 
-            if (File.Exists(baseOutputDirectory + QuestionType.WRITING.ToString() + practiceSetId + "UNLCK.xml")
+            if (File.Exists(Path.Combine(targetOutputDirectory, QuestionType.WRITING.ToString() + practiceSetId + "UNLCK.xml"))
                 && fileType == FileReader.FileType.QUESTION_WRITING)
-                File.Delete(baseOutputDirectory + QuestionType.WRITING.ToString() + practiceSetId + "UNLCK.xml");
+                File.Delete(Path.Combine(targetOutputDirectory, QuestionType.WRITING.ToString() + practiceSetId + "UNLCK.xml"));
 
-            if (File.Exists(baseOutputDirectory + QuestionType.SPEAKING.ToString() + practiceSetId + "UNLCK.xml")
+            if (File.Exists(Path.Combine(targetOutputDirectory, QuestionType.SPEAKING.ToString() + practiceSetId + "UNLCK.xml"))
                 && fileType == FileReader.FileType.QUESTION_SPEAKING)
-                File.Delete(baseOutputDirectory + QuestionType.SPEAKING.ToString() + practiceSetId + "UNLCK.xml");
+                File.Delete(Path.Combine(targetOutputDirectory, QuestionType.SPEAKING.ToString() + practiceSetId + "UNLCK.xml"));
 
 
             //Removing the SUB (submission file
             string[] submissionFiles = new string[] {
-            Path.Combine(baseOutputDirectory,practiceSetId+"_SUB_"+QuestionType.READING.ToString()+".xml"),
-            Path.Combine(baseOutputDirectory,practiceSetId+"_SUB_"+QuestionType.SPEAKING.ToString()+".xml"),
-            Path.Combine(baseOutputDirectory,practiceSetId+"_SUB_"+QuestionType.WRITING.ToString()+".xml"),
-            Path.Combine(baseOutputDirectory,practiceSetId+"_SUB_"+QuestionType.LISTENING.ToString()+".xml")
+            Path.Combine(targetOutputDirectory,practiceSetId+"_SUB_"+QuestionType.READING.ToString()+".xml"),
+            Path.Combine(targetOutputDirectory,practiceSetId+"_SUB_"+QuestionType.SPEAKING.ToString()+".xml"),
+            Path.Combine(targetOutputDirectory,practiceSetId+"_SUB_"+QuestionType.WRITING.ToString()+".xml"),
+            Path.Combine(targetOutputDirectory,practiceSetId+"_SUB_"+QuestionType.LISTENING.ToString()+".xml")
             };
 
             //Removing evaluation files
-            string[] evalFiles = Directory.GetFiles(baseOutputDirectory, "*eval.xml");
+            string[] evalFiles = Directory.GetFiles(targetOutputDirectory, "*eval.xml");
 
             var questionIds = questionsDataRows.Select(x => x["Id"]);
 
@@ -234,7 +245,8 @@ namespace TPA.CoreFramework
             var xmlEncryptor = new XMLEncryptor(phrase, phrase);
             Answer userAnswer = null;
             string answerFileName = questionId + ".xml";
-            string answerFilepath = baseOutputDirectory + answerFileName;
+            string targetDirectory = Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetUserFolder());
+            string answerFilepath = Path.Combine(targetDirectory, answerFileName);
 
             string[] userAnswers = new string[] { };
             string attemptTime = "00:00:00";

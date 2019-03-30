@@ -10,6 +10,8 @@ namespace TPA.CoreFramework
     {
         private const string CURRENT_STATE_KEY = "CURRENT_STATE";
         public static string LOGIN_KEY = "LOGIN_KEY";
+        public static string STUDENT_LOGIN_INFO = "STUDENT_LOGIN_INFO";
+        public static string STUDENT_ID_TO_EVALUATE = "STUDENT_ID_TO_EVALUATE";
         private static ObjectCache cache = MemoryCache.Default;
         public static void SetItem(string key, object value, TimeSpan tsOffset)
         {

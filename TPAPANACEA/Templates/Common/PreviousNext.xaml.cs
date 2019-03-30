@@ -166,7 +166,8 @@ namespace TPA.Templates.Common
                     {
 
                         //log the submission of the practice set item
-                        File.Create(System.IO.Path.Combine(baseOutputDirectory, questionState.PracticeSetId + "_SUB_" + questionState.QuestionType.ToString()+".xml"));
+                        string baseOutDir = System.IO.Path.Combine(baseOutputDirectory, CommonUtilities.ResolveTargetUserFolder());
+                        File.Create(System.IO.Path.Combine(baseOutDir, questionState.PracticeSetId + "_SUB_" + questionState.QuestionType.ToString() + ".xml"));
 
                         if (this.CurrentTestMode == TestMode.Mock) //mock mode, go back to next module
                         {

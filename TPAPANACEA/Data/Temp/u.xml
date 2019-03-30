@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<users>
+  <user>
+    <id>default</id>
+    <firstName>default</firstName>
+    <lastname>default</lastname>
+    <username>default</username>
+    <password>default</password>
+    <email>default@default.com</email>
+    <contactNo>9999999990</contactNo>
+  </user>
+</users> 

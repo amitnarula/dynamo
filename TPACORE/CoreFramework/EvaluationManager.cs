@@ -22,7 +22,7 @@ namespace TPACORE.CoreFramework
         {
             var xmlEncryptor = new XMLEncryptor(phrase, phrase);
             string evalOutputFilename = questionContext.Id + "_" + questionContext.CurrentPracticeSetId + "_" + questionContext.CurrentQuestionType.ToString() + "_" + questionContext.QuestionTemplate + "_eval.xml";
-            string evalOutputFilepath = baseOutputDirectory + evalOutputFilename;
+            string evalOutputFilepath = Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetEvaluationFolder()) + evalOutputFilename;
 
             DataSet dsEval = new DataSet("evalDs");
             DataTable dtEval = new DataTable("evalDt");
@@ -51,7 +51,7 @@ namespace TPACORE.CoreFramework
             {
                 var xmlEncryptor = new XMLEncryptor(phrase, phrase);
                 string evalOutputFilename = questionContext.Id + "_" + questionContext.CurrentPracticeSetId + "_" + questionContext.CurrentQuestionType.ToString() + "_" + questionContext.QuestionTemplate + "_eval.xml";
-                string evalOutputFilepath = baseOutputDirectory + evalOutputFilename;
+                string evalOutputFilepath = Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetUserFolder()) + evalOutputFilename;
 
                 DataSet dsEval = new DataSet("evalDs");
                 DataTable dtEval = new DataTable("evalDt");
@@ -228,7 +228,8 @@ namespace TPACORE.CoreFramework
 
         public int GetAttempatedPointsByQuestionType(string practiceSetId, QuestionTemplates questionType, QuestionType type , string specificParameter="")
         {
-            string[] files = Directory.GetFiles(baseOutputDirectory, "*_" + practiceSetId + "_" + type.ToString() + "_" + questionType.ToString() + "_eval.xml");
+            
+            string[] files = Directory.GetFiles(Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetFolder()), "*_" + practiceSetId + "_" + type.ToString() + "_" + questionType.ToString() + "_eval.xml");
             var xmlEncryptor = new XMLEncryptor(phrase, phrase);
             int attempted = 0;
             foreach (var file in files)
@@ -290,7 +291,7 @@ namespace TPACORE.CoreFramework
             var xmlEncryptor = new XMLEncryptor(phrase, phrase);
             List<EvaluationResult> result = null;
             string resultFileName = question.Id + "_" + question.CurrentPracticeSetId + "_" + question.CurrentQuestionType.ToString() + "_" + question.QuestionTemplate  + "_eval.xml";
-            string resultFilepath = baseOutputDirectory + resultFileName;
+            string resultFilepath = Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetFolder()) + resultFileName;
 
             if (File.Exists(resultFilepath))
             {
