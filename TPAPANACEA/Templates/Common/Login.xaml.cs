@@ -43,7 +43,7 @@ namespace TPAPanacea.Templates.Common
                 if (txtUsername.Text.Equals(teacherUsername, StringComparison.InvariantCultureIgnoreCase) && passwordBox.Password.Equals(teacherPassword))
                 {
                     System.Windows.Forms.MessageBox.Show("Login Successful, Welcome to evaluation mode.", "Login Successful", System.Windows.Forms.MessageBoxButtons.OKCancel, System.Windows.Forms.MessageBoxIcon.Information);
-                    TPACache.SetItem(TPACache.LOGIN_KEY, new LoginState() { CurrentStatus = LoginStatus.OK }, new TimeSpan(0, 2, 0, 0, 0));
+                    TPACache.SetItem(TPACache.LOGIN_KEY, new LoginState() { CurrentStatus = LoginStatus.OK }, null);
                     this.Close();
                     return;
                 }
@@ -57,7 +57,7 @@ namespace TPAPanacea.Templates.Common
                     System.Windows.Forms.MessageBox.Show(string.Format("Login Successful, Welcome student {0},{1}.", user.Firstname, user.Lastname),
                         "Login Successful", System.Windows.Forms.MessageBoxButtons.OKCancel, System.Windows.Forms.MessageBoxIcon.Information);
                     //TPACache.SetItem(TPACache.LOGIN_KEY, new LoginState() { CurrentStatus = LoginStatus.OK }, new TimeSpan(0, 1, 0, 0, 0));
-                    TPACache.SetItem(TPACache.STUDENT_LOGIN_INFO, user, new TimeSpan(0, 2, 0, 0, 0));
+                    TPACache.SetItem(TPACache.STUDENT_LOGIN_INFO, user, null);
 
                     this.Close();
                     return;

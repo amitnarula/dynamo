@@ -13,6 +13,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using TPA.CoreFramework;
 using TPA.Entities;
+using TPAPanacea.Templates.Common;
 
 namespace TPA.Templates.Common
 {
@@ -24,6 +25,13 @@ namespace TPA.Templates.Common
         public HomePanacia()
         {
             InitializeComponent();
+            this.Loaded += HomePanacia_Loaded;
+        }
+
+        private void HomePanacia_Loaded(object sender, RoutedEventArgs e)
+        {
+            //Login lgn = new Login();
+            //lgn.ShowDialog();
         }
 
         public void UtilizeState(object state)

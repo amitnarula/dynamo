@@ -72,13 +72,13 @@ namespace TPA.CoreFramework
             
             return string.Empty; 
         }
-
+        
         public static string ResolveTargetEvaluationFolder() {
             //string.empty is the default folder //default folder data/temp
             //{userfolderid} is student folder // data/temp/{userfolderid}
             
             var teacherLoginInfo = TPACache.GetItem(TPACache.LOGIN_KEY) as LoginState;
-            if (teacherLoginInfo.CurrentStatus == LoginStatus.OK)
+            if (teacherLoginInfo !=null && teacherLoginInfo.CurrentStatus == LoginStatus.OK)
             {
                 var studentIdToEvaluate = TPACache.GetItem(TPACache.STUDENT_ID_TO_EVALUATE);
                 return studentIdToEvaluate != null ? studentIdToEvaluate.ToString() : string.Empty;

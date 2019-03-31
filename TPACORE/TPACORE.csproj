@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2-beta1\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -58,6 +62,7 @@
     <Compile Include="CoreFramework\FileWriter.cs" />
     <Compile Include="CoreFramework\LogManager.cs" />
     <Compile Include="CoreFramework\MediaReader.cs" />
+    <Compile Include="CoreFramework\ScreenTimeManager.cs" />
     <Compile Include="CoreFramework\TPACache.cs" />
     <Compile Include="CoreFramework\UserManager.cs" />
     <Compile Include="Entities\EvaluationParameter.cs" />
@@ -83,6 +88,9 @@
     <Compile Include="Entities\SummarizeTextQuestion.cs" />
     <Compile Include="Entities\WriteEssayQuestion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

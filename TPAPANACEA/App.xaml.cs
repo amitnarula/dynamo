@@ -22,12 +22,12 @@ namespace TPA
             //UserManager.CreateUser(new User()
             //{
             //    UserId = UserManager.RandomString(5),
-            //    Username = "test",
-            //    Password = "test",
-            //    Firstname = "test",
-            //    Lastname = "test",
+            //    Username = "test2",
+            //    Password = "test2",
+            //    Firstname = "test2",
+            //    Lastname = "test2",
             //    ContactNo = "9876543210",
-            //    Email = "test@test.com"
+            //    Email = "test2@test2.com"
             //});
 
             // Add the event handler for handling UI thread exceptions to the event.

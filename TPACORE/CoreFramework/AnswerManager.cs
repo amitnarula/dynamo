@@ -8,6 +8,7 @@ using TPA.Entities;
 using System.Security.Cryptography;
 using CryptoXML;
 using TPACORE.CoreFramework;
+using Newtonsoft.Json;
 
 namespace TPA.CoreFramework
 {
@@ -166,6 +167,10 @@ namespace TPA.CoreFramework
                 itemType = QuestionType.READING.ToString();
             else if (fileType == FileReader.FileType.QUESTION_LISTENING)
                 itemType = QuestionType.LISTENING.ToString();
+            else if (fileType == FileReader.FileType.QUESTION_SPEAKING)
+                itemType = QuestionType.SPEAKING.ToString();
+            else if (fileType == FileReader.FileType.QUESTION_WRITING)
+                itemType = QuestionType.WRITING.ToString();
 
             //Also removing the practice set time left manager file
             if (File.Exists(Path.Combine(targetOutputDirectory ,itemType+ practiceSetId + ".xml")))
@@ -215,6 +220,18 @@ namespace TPA.CoreFramework
             {
                 if (File.Exists(item) && ResolveFileTypeFromFileName(item) == fileType)
                     File.Delete(item);
+            }
+
+            //Removing the entries from screen time tracking file
+            string screenTimeTrackingFile = Path.Combine(targetOutputDirectory, "st.json");
+            if (File.Exists(screenTimeTrackingFile))
+            {
+                var screenTimeTrackingInfo = JsonConvert.DeserializeObject<List<ScreenTime>>(File.ReadAllText(screenTimeTrackingFile));
+                if(screenTimeTrackingInfo!=null && screenTimeTrackingInfo.Any())
+                {
+                    screenTimeTrackingInfo.RemoveAll(x => x.PracticeSetId == practiceSetId && x.QuestionType == itemType);
+                    File.WriteAllText(screenTimeTrackingFile, JsonConvert.SerializeObject(screenTimeTrackingInfo));
+                }
             }
 
 

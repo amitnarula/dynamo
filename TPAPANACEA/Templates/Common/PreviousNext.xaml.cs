@@ -1,16 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using TPA.Entities;
 using TPA.CoreFramework;
 using WinForms = System.Windows.Forms;
@@ -19,6 +11,7 @@ using TPAPanacea.Templates.Common;
 using System.Data;
 using TPACORE.CoreFramework;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace TPA.Templates.Common
 {
@@ -32,6 +25,7 @@ namespace TPA.Templates.Common
 
         private DispatcherTimer timer;
         private DispatcherTimer delayTimer;
+        private DispatcherTimer screenTimer;
         private string CurrentPracticeSetId { get; set; }
         private QuestionType CurrentQuestionType { get; set; }
         private bool IsPreviousQuestionSelected { get; set; }
@@ -39,6 +33,8 @@ namespace TPA.Templates.Common
         private int TotalQuestionsCount { get; set; }
         private Mode CurrentMode { get; set; }
         private TestMode CurrentTestMode { get; set; }
+
+        private int TimeSpent { get; set; }
 
         public QuestionBase QuestionContext { get; set; }
         public string UserAnswer { get; set; }
@@ -72,6 +68,16 @@ namespace TPA.Templates.Common
             delayTimer.Interval = TimeSpan.FromSeconds(1);
             delayTimer.Tick += new EventHandler(delayTimer_Tick);
 
+            screenTimer = new DispatcherTimer();
+            screenTimer.Interval = TimeSpan.FromSeconds(1);
+            screenTimer.Tick += ScreenTimer_Tick;
+            TimeSpent = 0;
+            screenTimer.Start();    
+        }
+
+        private void ScreenTimer_Tick(object sender, EventArgs e)
+        {
+            TimeSpent++;
         }
 
         void delayTimer_Tick(object sender, EventArgs e)
@@ -137,6 +143,8 @@ namespace TPA.Templates.Common
             questionState.QuestionMode = this.CurrentMode;
             questionState.TestMode = this.CurrentTestMode;
             timer.Stop();
+            screenTimer.Stop();
+            
 
             //Next/Previous button click question button click raise event
             OnPrevNextClicked(e);
@@ -221,6 +229,41 @@ namespace TPA.Templates.Common
 
                 questionState.IsNextQuestionSelected = true;
                 questionState.IsPreviousQuestionSelected = false;
+
+                //log time spent by user here
+
+                string targetUserFolder = CommonUtilities.ResolveTargetUserFolder();
+                if (!string.IsNullOrEmpty(targetUserFolder))
+                {
+                    targetUserFolder = Path.Combine(baseOutputDirectory, targetUserFolder); //full path
+                    string screenTimeTrackingFile = Path.Combine(targetUserFolder, "st.json");
+                    if (!File.Exists(screenTimeTrackingFile))
+                        //create screen time tracking file
+                        //write screen time
+                        File.WriteAllText(screenTimeTrackingFile, string.Empty);
+
+
+                    //read existing file
+                    var screenTimeTrackingInfo = JsonConvert.DeserializeObject<List<ScreenTime>>(File.ReadAllText(screenTimeTrackingFile));
+                    if (screenTimeTrackingInfo == null)
+                    {
+                        screenTimeTrackingInfo = new List<ScreenTime>();
+                    }
+                    
+                    screenTimeTrackingInfo.Add(new ScreenTime()
+                    {
+                        PracticeSetId = this.CurrentPracticeSetId,
+                        QuestionId = this.QuestionContext.Id,
+                        PracticeSetName = "Some Practice set",
+                        QuestionTemplate = this.QuestionContext.QuestionTemplate,
+                        QuestionType = this.CurrentQuestionType.ToString(),
+                        TimeSpent = TimeSpan.FromSeconds(this.TimeSpent).ToString()
+                    });
+
+                    //append screen time //write back
+                    File.WriteAllText(screenTimeTrackingFile, JsonConvert.SerializeObject(screenTimeTrackingInfo));
+
+                }
 
             }
             else
@@ -419,6 +462,7 @@ namespace TPA.Templates.Common
         {
             delayTimer.Stop();
             timer.Stop();
+            screenTimer.Stop();
         }
 
         private void btnYourResponse_Click(object sender, RoutedEventArgs e)

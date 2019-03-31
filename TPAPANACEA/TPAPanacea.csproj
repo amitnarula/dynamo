@@ -168,6 +168,11 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Library\NAudio.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2-beta1\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ReachFramework" />
     <Reference Include="System" />
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
@@ -187,6 +192,10 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WPFVisifire.Charts, Version=2.3.6.0, Culture=neutral, PublicKeyToken=99d724542e4db593, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\WPFVisifire.Charts.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -251,6 +260,9 @@
     </Compile>
     <Compile Include="Templates\Common\QuestionSwitcher.xaml.cs">
       <DependentUpon>QuestionSwitcher.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Common\ReportViewer.xaml.cs">
+      <DependentUpon>ReportViewer.xaml</DependentUpon>
     </Compile>
     <Compile Include="Templates\Common\Results.xaml.cs">
       <DependentUpon>Results.xaml</DependentUpon>
@@ -382,6 +394,41 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Content Include="Templates\Common\ReportTemplates\ChartReport.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Templates\Common\ReportTemplates\dpd.jpg" />
+    <Content Include="Templates\Common\ReportTemplates\DynamicReport.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\Common\ReportTemplates\BarcodeReport.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\Common\ReportTemplates\ComplexReport.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\Common\ReportTemplates\ImageReport.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\Common\ReportTemplates\SimpleReport.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Page Include="Templates\Common\ReportViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Templates\Common\Results.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -488,6 +535,7 @@
     <Content Include="Data\Temp\u.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Library\WPFVisifire.Charts.dll" />
     <Content Include="PANICO.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -2385,6 +2433,14 @@
     <ProjectReference Include="..\TPALM\TPALM.csproj">
       <Project>{10E1E6F3-6B5B-4D0E-8781-AD7F87E59760}</Project>
       <Name>TPALM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPAREPORTS.CHARTS.VISIFIRE\TPAREPORTS.CHARTS.VISIFIRE.csproj">
+      <Project>{104e3c95-4f6c-4a1c-80b9-60b6bd784c51}</Project>
+      <Name>TPAREPORTS.CHARTS.VISIFIRE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPAREPORTS\TPAREPORTS.csproj">
+      <Project>{87a8d936-ae11-40aa-8927-a414c2225991}</Project>
+      <Name>TPAREPORTS</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

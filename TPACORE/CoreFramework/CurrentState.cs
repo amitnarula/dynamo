@@ -21,6 +21,17 @@ namespace TPA.CoreFramework
         SessionExpired
     }
 
+    public class ScreenTime
+    {
+        public string QuestionId { get; set; }
+        public string QuestionTemplate { get; set; }
+
+        public string QuestionType { get; set; }
+        public string PracticeSetId { get; set; }
+        public string TimeSpent { get; set; }
+        public string PracticeSetName { get; set; }
+    }
+
     public class LoginState
     {
         public LoginStatus CurrentStatus { get; set; } 

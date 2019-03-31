@@ -1,17 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.IO;
-using System.Linq;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using TPA.CoreFramework;
 using TPA.Entities;
 using TPACORE.CoreFramework;
@@ -121,7 +111,7 @@ namespace TPAPanacea.Templates.Common
 
                 lblListeningResult.Content = string.Format("Listening score : {0} out of {1}", totalListeningAttempted, totalListening);
 
-
+                GenerateReport(cmbPracticeSet.SelectedItem.ToString(), totalReadingAttempted, totalWritingAttempted, totalListeningAttempted, totalSpeakingAttempted);
                 IntegratedEvaluation(selectedPracticeSetId, evalManager, dsEvalParams, totalSpeaking, totalSpeakingAttempted, totalWriting, totalWritingAttempted, totalReading, totalReadingAttempted, totalListening, totalListeningAttempted);
 
             }
@@ -130,6 +120,27 @@ namespace TPAPanacea.Templates.Common
 
                 throw;
             }
+        }
+
+        private void GenerateReport(string practiceSetName, int readingScore, int writingScore, int listeningScore, int speakingScore)
+        {
+            TPA.Templates.Common.ReportViewer obj = new TPA.Templates.Common.ReportViewer();
+
+            DataTable table = new DataTable("Ean");
+            table.Columns.Add("Sno.", typeof(string));
+            table.Columns.Add("Module", typeof(string));
+            table.Columns.Add("Score", typeof(string));
+
+            // randomly create some items
+            table.Rows.Add(new object[] { 1.ToString(), "READING", readingScore.ToString() });
+            table.Rows.Add(new object[] { 2.ToString(), "WRITING", writingScore.ToString() });
+            table.Rows.Add(new object[] { 3.ToString(), "LISTENING", listeningScore.ToString() });
+            table.Rows.Add(new object[] { 4.ToString(), "SPEAKING", speakingScore.ToString() });
+
+            //obj.ReportHeader = tableHeader;
+            obj.ReportData = table;
+            //obj.GenerateReport();
+            obj.Show();
         }
 
         private void IntegratedEvaluation(string selectedPracticeSetId, EvaluationManager evalManager, DataSet dsEvalParams, int totalSpeaking, int totalSpeakingAttempted, int totalWriting, int totalWritingAttempted, int totalReading, int totalReadingAttempted, int totalListening, int totalListeningAttempted)
@@ -211,8 +222,9 @@ namespace TPAPanacea.Templates.Common
                 //SPEAKING
                 lblSpeakingResult.Content = string.Format("Speaking score : {0} out of 90",
                     ((((float)totalSpeakingAttempted) / totalSpeaking) * 90).ToString("0")); //Speaking evaluation
-                                                                                             
+
                 //}
+                
             }
         }
     }
