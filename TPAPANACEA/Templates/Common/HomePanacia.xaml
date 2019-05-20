@@ -4,10 +4,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-             d:DesignHeight="440" d:DesignWidth="600">
+             d:DesignHeight="570" d:DesignWidth="600">
     <Grid Height="440" VerticalAlignment="Top">
         <Button x:Name="btnPractice" Content="Practice" HorizontalAlignment="Left" Margin="12,12,0,0" VerticalAlignment="Top" Width="576" Height="140" Click="btnPractice_Click" Background="#FF00609C" BorderBrush="#FF00609C" Foreground="#FF8BC7EA" FontSize="24" FontWeight="Bold"/>
-        <Button x:Name="btnMock" Content="Mock" HorizontalAlignment="Left" Margin="12,12,0,0" VerticalAlignment="Center" Width="576" Height="140" Click="btnMock_Click" Background="#FF00609C" BorderBrush="#FF00609C" Foreground="#FF8BC7EA" FontSize="24" FontWeight="Bold"/>
-        <Button x:Name="btnAnswerKey" Content="Answer key" HorizontalAlignment="Left" Margin="12,0,0,12" VerticalAlignment="Bottom" Width="576" Height="128" Click="btnAnswerKey_Click" Background="#FF00609C" BorderBrush="#FF00609C" Foreground="#FF8BC7EA" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="btnMock" Content="Mock" HorizontalAlignment="Left" Margin="12,290,0,10" VerticalAlignment="Center" Width="576" Height="140" Click="btnMock_Click" Background="#FF00609C" BorderBrush="#FF00609C" Foreground="#FF8BC7EA" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="btnAnswerKey" Content="Answer key" HorizontalAlignment="Left" Margin="12,0,0,155" VerticalAlignment="Bottom" Width="576" Height="128" Click="btnAnswerKey_Click" Background="#FF00609C" BorderBrush="#FF00609C" Foreground="#FF8BC7EA" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="btnMockAnswerKey" Content="Mock answer key" HorizontalAlignment="Left" Margin="12,0,0,-123" VerticalAlignment="Bottom" Width="576" Height="128" Click="btnMockAnswerKey_Click" Background="#FF00609C" BorderBrush="#FF00609C" Foreground="#FF8BC7EA" FontSize="24" FontWeight="Bold"/>
     </Grid>
 </UserControl>
