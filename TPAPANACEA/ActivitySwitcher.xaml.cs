@@ -134,6 +134,7 @@ namespace TPA
                     //perform logout
                     TPACache.RemoveItem(TPACache.LOGIN_KEY);
                     txtBlockLoginInfo.Visibility = Visibility.Collapsed;
+                    btnSettings.Visibility = Visibility.Collapsed;
                 }
             }
             else if (userLoginInfo != null) {
@@ -147,6 +148,7 @@ namespace TPA
                     //perform logout
                     TPACache.RemoveItem(TPACache.STUDENT_LOGIN_INFO);
                     txtBlockLoginInfo.Visibility = Visibility.Collapsed;
+                    btnSettings.Visibility = Visibility.Collapsed;
                 }
             }
             else
