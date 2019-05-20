@@ -63,6 +63,17 @@ namespace TPA
             
         }
 
+        public void ShowLoginInfo(string info)
+        {
+            txtBlockLoginInfo.Visibility = Visibility.Visible;
+            txtBlockLoginInfo.Text = "Welcome " + info;
+
+            if (LoginManager.CheckIfTeacherLoggedIn())
+            {
+                btnSettings.Visibility = Visibility.Visible;
+            }
+        }
+
         public void Navigate(UserControl nextPage, object state)
         {
             //this.Content = nextPage;
@@ -141,7 +152,7 @@ namespace TPA
             else
             {
                 //Open login page
-                Login lgn = new Login();
+                Login lgn = new Login(this);
                 lgn.ShowDialog();
             }
         }
@@ -149,6 +160,11 @@ namespace TPA
         private void btnResult_Click(object sender, RoutedEventArgs e)
         {
             new Results().Show();
+        }
+
+        private void btnSettings_Click(object sender, RoutedEventArgs e)
+        {
+            new ManageUsers().ShowDialog();
         }
     }
 }

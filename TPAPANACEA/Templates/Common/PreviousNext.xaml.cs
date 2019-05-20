@@ -467,6 +467,35 @@ namespace TPA.Templates.Common
 
         private void btnYourResponse_Click(object sender, RoutedEventArgs e)
         {
+            bool isValidToClickYourResponseButton = false;
+
+            if(LoginManager.CheckIfStudentLoggedIn())
+            {
+                isValidToClickYourResponseButton = true;
+            }
+            else
+            {
+                if (LoginManager.CheckIfTeacherLoggedIn())
+                {
+                    if (LoginManager.CheckIfStudentToEvaluateSet())
+                    {
+                        isValidToClickYourResponseButton = true;
+                    }
+                    else
+                        isValidToClickYourResponseButton = false;
+                }
+                else
+                {
+                    isValidToClickYourResponseButton = false;
+                }
+            }
+
+            if (!isValidToClickYourResponseButton)
+            {
+                WinForms.MessageBox.Show("You are not allowed to perform this action until unless you are logged in or set a student for evaluation");
+                return;
+            }
+
             YourResponseEventArgs eventArgs = new YourResponseEventArgs();
 
             if (btnYourResponse.Content.ToString().Equals("Your Response"))
@@ -495,6 +524,13 @@ namespace TPA.Templates.Common
 
         private void btnEvaluate_Click(object sender, RoutedEventArgs e)
         {
+            if (!LoginManager.CheckIfStudentToEvaluateSet())
+            {
+                EvaluatingStudent studentSetDialog = new EvaluatingStudent();
+                if (!studentSetDialog.ShowDialog().Value)
+                    return;
+            }
+
             Evaluate evaluate = new Evaluate();
             evaluate.QuestionContext = QuestionContext;
             DataSet ds = FileReader.ReadFile(FileReader.FileType.EVALUATION_PARAMETER);

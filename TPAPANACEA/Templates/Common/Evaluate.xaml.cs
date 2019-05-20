@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using TPA.CoreFramework;
 using TPA.Entities;
 using TPACORE.CoreFramework;
 using TPACORE.Entities;
@@ -33,6 +34,15 @@ namespace TPAPanacea.Templates.Common
 
         private void Evaluate_Loaded(object sender, RoutedEventArgs e)
         {
+            if(!LoginManager.CheckIfTeacherLoggedIn() || !LoginManager.CheckIfStudentToEvaluateSet())
+            {
+                System.Windows.Forms.MessageBox.Show("Either evaluator is not logged in, or student under evaluation not set");
+                return;
+            }
+
+            User usr = TPACache.GetItem(TPACache.STUDENT_ID_TO_EVALUATE) as User;
+            this.Title = "Evaluating : " + usr.Firstname + "," + usr.Lastname;
+
             var savedResults = EvaluationManager.GetResult(QuestionContext);
 
             foreach (var item in Parameters)

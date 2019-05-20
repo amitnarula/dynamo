@@ -243,6 +243,9 @@
     <Compile Include="Templates\Common\Evaluate.xaml.cs">
       <DependentUpon>Evaluate.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Templates\Common\EvaluatingStudent.xaml.cs">
+      <DependentUpon>EvaluatingStudent.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Templates\Common\HomePanacia.xaml.cs">
       <DependentUpon>HomePanacia.xaml</DependentUpon>
     </Compile>
@@ -251,6 +254,9 @@
     </Compile>
     <Compile Include="Templates\Common\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Common\ManageUsers.xaml.cs">
+      <DependentUpon>ManageUsers.xaml</DependentUpon>
     </Compile>
     <Compile Include="Templates\Common\Practice.xaml.cs">
       <DependentUpon>Practice.xaml</DependentUpon>
@@ -334,6 +340,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Resource Include="Templates\Images\settings.png" />
     <Page Include="ActivitySwitcher.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -370,6 +377,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Templates\Common\EvaluatingStudent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Templates\Common\HomePanacia.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -379,6 +390,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Templates\Common\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Templates\Common\ManageUsers.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

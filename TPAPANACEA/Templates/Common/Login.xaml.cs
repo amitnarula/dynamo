@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using TPA;
 using TPA.CoreFramework;
 using TPACORE.CoreFramework;
 
@@ -20,9 +21,10 @@ namespace TPAPanacea.Templates.Common
     /// </summary>
     public partial class Login : Window
     {
-        
-        public Login()
+        private readonly ActivitySwitcher switcher = null;
+        public Login(ActivitySwitcher switcher)
         {
+            this.switcher = switcher;
             InitializeComponent();
         }
 
@@ -44,6 +46,7 @@ namespace TPAPanacea.Templates.Common
                 {
                     System.Windows.Forms.MessageBox.Show("Login Successful, Welcome to evaluation mode.", "Login Successful", System.Windows.Forms.MessageBoxButtons.OKCancel, System.Windows.Forms.MessageBoxIcon.Information);
                     TPACache.SetItem(TPACache.LOGIN_KEY, new LoginState() { CurrentStatus = LoginStatus.OK }, null);
+                    this.switcher.ShowLoginInfo("Evaluator");
                     this.Close();
                     return;
                 }
@@ -58,7 +61,7 @@ namespace TPAPanacea.Templates.Common
                         "Login Successful", System.Windows.Forms.MessageBoxButtons.OKCancel, System.Windows.Forms.MessageBoxIcon.Information);
                     //TPACache.SetItem(TPACache.LOGIN_KEY, new LoginState() { CurrentStatus = LoginStatus.OK }, new TimeSpan(0, 1, 0, 0, 0));
                     TPACache.SetItem(TPACache.STUDENT_LOGIN_INFO, user, null);
-
+                    this.switcher.ShowLoginInfo(user.Firstname+","+user.Lastname);
                     this.Close();
                     return;
                 }

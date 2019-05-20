@@ -60,6 +60,7 @@
     <Compile Include="CoreFramework\EvaluationManager.cs" />
     <Compile Include="CoreFramework\FileReader.cs" />
     <Compile Include="CoreFramework\FileWriter.cs" />
+    <Compile Include="CoreFramework\LoginManager.cs" />
     <Compile Include="CoreFramework\LogManager.cs" />
     <Compile Include="CoreFramework\MediaReader.cs" />
     <Compile Include="CoreFramework\ScreenTimeManager.cs" />

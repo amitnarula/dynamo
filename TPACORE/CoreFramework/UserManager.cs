@@ -41,6 +41,7 @@ namespace TPACORE.CoreFramework
          Email=x["email"].ToString(),
          ContactNo=x["contactNo"].ToString()})
          .ToList();
+            result.RemoveAll(x => x.UserId == "default");
             return result;
         }
 
@@ -67,6 +68,18 @@ namespace TPACORE.CoreFramework
                 return "created";
             }
             else return "limit exceeded";
+        }
+
+        public static string UpdateUser(User user)
+        {
+            DataTable dtUser = ReadUserFile();
+            var dRow = dtUser.Select(string.Format("id='{0}'", user.UserId)).SingleOrDefault();
+            dRow["firstname"] = user.Firstname;
+            dRow["lastname"] = user.Lastname;
+            dRow["password"] = user.Password;
+            dtUser.DataSet.WriteXml(baseUserDataFile);
+            return "updated";
+
         }
 
         public static User GetUserById(string userId) {

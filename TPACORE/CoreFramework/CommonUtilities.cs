@@ -69,6 +69,12 @@ namespace TPA.CoreFramework
             if (studentLoginInfo!=null) {
                 return studentLoginInfo.UserId;
             }
+
+            var studentSetForEvaluationInfo = TPACache.GetItem(TPACache.STUDENT_ID_TO_EVALUATE) as User;
+            if (studentSetForEvaluationInfo != null)
+            {
+                return studentSetForEvaluationInfo.UserId;
+            }
             
             return string.Empty; 
         }
@@ -80,8 +86,8 @@ namespace TPA.CoreFramework
             var teacherLoginInfo = TPACache.GetItem(TPACache.LOGIN_KEY) as LoginState;
             if (teacherLoginInfo !=null && teacherLoginInfo.CurrentStatus == LoginStatus.OK)
             {
-                var studentIdToEvaluate = TPACache.GetItem(TPACache.STUDENT_ID_TO_EVALUATE);
-                return studentIdToEvaluate != null ? studentIdToEvaluate.ToString() : string.Empty;
+                var studentToEvaluate = TPACache.GetItem(TPACache.STUDENT_ID_TO_EVALUATE) as User;
+                return studentToEvaluate != null ? studentToEvaluate.UserId.ToString() : string.Empty;
             }
             return string.Empty;
             

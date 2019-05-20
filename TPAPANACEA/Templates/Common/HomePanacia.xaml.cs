@@ -13,6 +13,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using TPA.CoreFramework;
 using TPA.Entities;
+using TPACORE.CoreFramework;
 using TPAPanacea.Templates.Common;
 
 namespace TPA.Templates.Common
@@ -41,6 +42,12 @@ namespace TPA.Templates.Common
 
         private void btnPractice_Click(object sender, RoutedEventArgs e)
         {
+            if (!LoginManager.CheckIfAnyUserLoggedIn())
+            {
+                System.Windows.Forms.MessageBox.Show("You are not logged in, please login to continue.");
+                return;
+            }
+
             Switcher.Switch(new Practice(), new ModeSetting()
             {
             });
@@ -48,6 +55,11 @@ namespace TPA.Templates.Common
 
         private void btnAnswerKey_Click(object sender, RoutedEventArgs e)
         {
+            if (!LoginManager.CheckIfAnyUserLoggedIn())
+            {
+                System.Windows.Forms.MessageBox.Show("You are not logged in, please login to continue.");
+                return;
+            }
             Switcher.Switch(new Practice(), new ModeSetting()
             {
                 QuestionMode = Mode.ANSWER_KEY,
@@ -57,6 +69,11 @@ namespace TPA.Templates.Common
 
         private void btnMock_Click(object sender, RoutedEventArgs e)
         {
+            if (!LoginManager.CheckIfAnyUserLoggedIn())
+            {
+                System.Windows.Forms.MessageBox.Show("You are not logged in, please login to continue.");
+                return;
+            }
             Switcher.Switch(new Practice(), new ModeSetting()
             {
                 QuestionMode = Mode.QUESTION,
@@ -66,6 +83,11 @@ namespace TPA.Templates.Common
         
         private void btnMockAnswerKey_Click(object sender, RoutedEventArgs e)
         {
+            if (!LoginManager.CheckIfAnyUserLoggedIn())
+            {
+                System.Windows.Forms.MessageBox.Show("You are not logged in, please login to continue.");
+                return;
+            }
             Switcher.Switch(new Practice(), new ModeSetting()
             {
                 QuestionMode = Mode.ANSWER_KEY,
