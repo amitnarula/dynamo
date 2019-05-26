@@ -70,8 +70,14 @@ namespace TPA
 
             if (LoginManager.CheckIfTeacherLoggedIn())
             {
-                btnSettings.Visibility = Visibility.Visible;
+                ShowEvaluatorPermittedControls();
             }
+        }
+
+        private void ShowEvaluatorPermittedControls()
+        {
+            btnManageUsers.Visibility = Visibility.Visible;
+            btnReports.Visibility = Visibility.Visible;
         }
 
         public void Navigate(UserControl nextPage, object state)
@@ -133,8 +139,7 @@ namespace TPA
                 {
                     //perform logout
                     TPACache.RemoveItem(TPACache.LOGIN_KEY);
-                    txtBlockLoginInfo.Visibility = Visibility.Collapsed;
-                    btnSettings.Visibility = Visibility.Collapsed;
+                    HideEvaluatorPermittedControls();
                 }
             }
             else if (userLoginInfo != null) {
@@ -147,8 +152,7 @@ namespace TPA
                 {
                     //perform logout
                     TPACache.RemoveItem(TPACache.STUDENT_LOGIN_INFO);
-                    txtBlockLoginInfo.Visibility = Visibility.Collapsed;
-                    btnSettings.Visibility = Visibility.Collapsed;
+                    HideEvaluatorPermittedControls();
                 }
             }
             else
@@ -159,12 +163,24 @@ namespace TPA
             }
         }
 
+        private void HideEvaluatorPermittedControls()
+        {
+            txtBlockLoginInfo.Visibility = Visibility.Collapsed;
+            btnManageUsers.Visibility = Visibility.Collapsed;
+            btnReports.Visibility = Visibility.Collapsed;
+        }
+
         private void btnResult_Click(object sender, RoutedEventArgs e)
         {
             new Results().Show();
         }
 
-        private void btnSettings_Click(object sender, RoutedEventArgs e)
+        private void BtnReports_Click(object sender, RoutedEventArgs e)
+        {
+            new Reports().ShowDialog();
+        }
+
+        private void BtnManageUsers_Click(object sender, RoutedEventArgs e)
         {
             new ManageUsers().ShowDialog();
         }

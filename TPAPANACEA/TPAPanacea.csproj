@@ -267,6 +267,9 @@
     <Compile Include="Templates\Common\QuestionSwitcher.xaml.cs">
       <DependentUpon>QuestionSwitcher.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Templates\Common\Reports.xaml.cs">
+      <DependentUpon>Reports.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Templates\Common\ReportViewer.xaml.cs">
       <DependentUpon>ReportViewer.xaml</DependentUpon>
     </Compile>
@@ -340,6 +343,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Resource Include="Templates\Images\users.png" />
+    <Resource Include="Templates\Images\reports.png" />
     <Resource Include="Templates\Images\settings.png" />
     <Page Include="ActivitySwitcher.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -440,6 +445,10 @@
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Page Include="Templates\Common\Reports.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Templates\Common\ReportViewer.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

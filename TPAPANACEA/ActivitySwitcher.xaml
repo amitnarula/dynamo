@@ -21,8 +21,11 @@
         <Button HorizontalAlignment="Right" Name="btnHome" Margin="0,4,127,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnHome_Click">
             <Image Width="30" Height="30" Source="Templates/Images/home.png" Stretch="Fill"/>
         </Button>
-        <Button Visibility="Collapsed" HorizontalAlignment="Right" Name="btnSettings" Margin="0,4,161,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnSettings_Click">
-            <Image Width="30" Height="30" Source="Templates/Images/settings.png" Stretch="Fill"/>
+        <Button Visibility="Collapsed" HorizontalAlignment="Right" Name="btnManageUsers" Margin="0,4,159,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="BtnManageUsers_Click">
+            <Image Width="30" Height="30" Source="Templates/Images/users.png" Stretch="Fill"/>
+        </Button>
+        <Button Visibility="Visible" HorizontalAlignment="Right" Name="btnReports" Margin="0,4,195,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="BtnReports_Click">
+            <Image Width="30" Height="30" Source="Templates/Images/reports.png" Stretch="Fill" RenderTransformOrigin="-1.403,0.512"/>
         </Button>
         <Button HorizontalAlignment="Right" Name="btnResult" Margin="0,4,97,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnResult_Click">
             <Image Width="30" Height="30" Source="Templates/Images/result.png" Stretch="Fill"  />
@@ -34,7 +37,7 @@
             <Image Width="30" Height="30" Source="Templates/Images/min.png" Stretch="Fill"/>
         </Button>
         <TextBlock Margin="8,8,361,0" Name="txtBlockAppTitle" VerticalAlignment="Top" Height="28" Text="Path Abroad Solutions" TextWrapping="Wrap" FontWeight="Bold" FontSize="16.667" Foreground="#FF2179AF"/>
-        <TextBlock Margin="581,8,200,0" Name="txtBlockLoginInfo" TextAlignment="Right"  VerticalAlignment="Top" Height="28" Text="{Binding LoginInfo}" Visibility="Collapsed"  TextWrapping="Wrap" FontSize="16.667" Foreground="#FF2179AF"/>
+        <TextBlock Margin="0,5,234,0" HorizontalAlignment="Right" Name="txtBlockLoginInfo" TextAlignment="Left"  VerticalAlignment="Top" Height="28" Text="{Binding LoginInfo}"  Visibility="Visible"  TextWrapping="Wrap" FontSize="16.667" Foreground="#FF2179AF"/>
 
     </Grid>
 </Window>
