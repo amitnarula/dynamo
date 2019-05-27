@@ -22,7 +22,7 @@ namespace TPACORE.CoreFramework
         {
             var xmlEncryptor = new XMLEncryptor(phrase, phrase);
             string evalOutputFilename = questionContext.Id + "_" + questionContext.CurrentPracticeSetId + "_" + questionContext.CurrentQuestionType.ToString() + "_" + questionContext.QuestionTemplate + "_eval.xml";
-            string evalOutputFilepath = Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetEvaluationFolder()) + evalOutputFilename;
+            string evalOutputFilepath = Path.Combine(Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetEvaluationFolder()) , evalOutputFilename);
 
             DataSet dsEval = new DataSet("evalDs");
             DataTable dtEval = new DataTable("evalDt");
@@ -51,7 +51,7 @@ namespace TPACORE.CoreFramework
             {
                 var xmlEncryptor = new XMLEncryptor(phrase, phrase);
                 string evalOutputFilename = questionContext.Id + "_" + questionContext.CurrentPracticeSetId + "_" + questionContext.CurrentQuestionType.ToString() + "_" + questionContext.QuestionTemplate + "_eval.xml";
-                string evalOutputFilepath = Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetUserFolder()) + evalOutputFilename;
+                string evalOutputFilepath = Path.Combine( Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetUserFolder()) , evalOutputFilename);
 
                 DataSet dsEval = new DataSet("evalDs");
                 DataTable dtEval = new DataTable("evalDt");
@@ -291,7 +291,7 @@ namespace TPACORE.CoreFramework
             var xmlEncryptor = new XMLEncryptor(phrase, phrase);
             List<EvaluationResult> result = null;
             string resultFileName = question.Id + "_" + question.CurrentPracticeSetId + "_" + question.CurrentQuestionType.ToString() + "_" + question.QuestionTemplate  + "_eval.xml";
-            string resultFilepath = Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetFolder()) + resultFileName;
+            string resultFilepath = Path.Combine(Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetFolder()) , resultFileName);
 
             if (File.Exists(resultFilepath))
             {

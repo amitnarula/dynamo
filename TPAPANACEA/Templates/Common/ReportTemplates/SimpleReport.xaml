@@ -10,10 +10,10 @@
         <Paragraph FontSize="24" FontWeight="Bold">
             <xrd:InlineContextValue PropertyName="ReportTitle" />
         </Paragraph>
-        <Paragraph>This is a simple report example that contains a table.
-            The table is filled using a DataTable object.</Paragraph>
+        <!--<Paragraph>This is a simple report example that contains a table.
+            The table is filled using a DataTable object.</Paragraph>-->
         <xrd:SectionDataGroup DataGroupName="ItemList">
-            <Paragraph FontSize="20" FontWeight="Bold">Item List</Paragraph>
+            <Paragraph FontSize="20" FontWeight="Bold">Time analysis</Paragraph>
             <Table CellSpacing="0" BorderBrush="Black" BorderThickness="0.02cm">
                 <Table.Resources>
                     <!-- Style for header/footer rows. -->
@@ -91,11 +91,11 @@
                     </xrd:TableRowForDataTable>
                 </TableRowGroup>
             </Table>
-            <Paragraph>
+            <!--<Paragraph>
                 There are
                 <xrd:InlineAggregateValue AggregateGroup="ItemCount" AggregateValueType="Count" EmptyValue="no" FontWeight="Bold" /> item positions with a total of
                 <xrd:InlineAggregateValue AggregateGroup="ItemCount" AggregateValueType="Sum" EmptyValue="0" FontWeight="Bold" /> items listed.
-            </Paragraph>
+            </Paragraph>-->
         </xrd:SectionDataGroup>
     </Section>
 </FlowDocument>

@@ -34,32 +34,37 @@ namespace TPAPanacea.Templates.Common
 
         private void Evaluate_Loaded(object sender, RoutedEventArgs e)
         {
-            if(!LoginManager.CheckIfTeacherLoggedIn() || !LoginManager.CheckIfStudentToEvaluateSet())
+            if(LoginManager.CheckIfTeacherLoggedIn() && LoginManager.CheckIfStudentToEvaluateSet())
+            {
+                User usr = TPACache.GetItem(TPACache.STUDENT_ID_TO_EVALUATE) as User;
+                this.Title = "Evaluating : " + usr.Firstname + "," + usr.Lastname;
+
+                var savedResults = EvaluationManager.GetResult(QuestionContext);
+
+                foreach (var item in Parameters)
+                {
+                    EvalParameter ep = new EvalParameter();
+                    ep.ParamName = item.Name;
+                    ep.ParamMax = item.Max;
+                    ep.ParamMin = item.Min;
+                    ep.Type = item.Type;
+                    var parameterScore = savedResults != null ? savedResults.Where(x => x.ParamName.Equals(ep.ParamName, StringComparison.InvariantCultureIgnoreCase)).SingleOrDefault() : null;
+
+                    //it should be blank when opened by the teacher as suggested by the change
+                    //ep.ParamScore = parameterScore != null ? parameterScore.ParamScore.ToString() : null;
+
+                    stkParams.Children.Add(ep);
+
+                }
+                
+            }
+            else
             {
                 System.Windows.Forms.MessageBox.Show("Either evaluator is not logged in, or student under evaluation not set");
                 return;
             }
 
-            User usr = TPACache.GetItem(TPACache.STUDENT_ID_TO_EVALUATE) as User;
-            this.Title = "Evaluating : " + usr.Firstname + "," + usr.Lastname;
-
-            var savedResults = EvaluationManager.GetResult(QuestionContext);
-
-            foreach (var item in Parameters)
-            {
-                EvalParameter ep = new EvalParameter();
-                ep.ParamName = item.Name;
-                ep.ParamMax = item.Max;
-                ep.ParamMin = item.Min;
-                ep.Type = item.Type;
-                var parameterScore = savedResults != null ? savedResults.Where(x => x.ParamName.Equals(ep.ParamName, StringComparison.InvariantCultureIgnoreCase)).SingleOrDefault() : null;
-
-                //it should be blank when opened by the teacher as suggested by the change
-                //ep.ParamScore = parameterScore != null ? parameterScore.ParamScore.ToString() : null;
-
-                stkParams.Children.Add(ep);
-
-            }
+            
 
         }
 

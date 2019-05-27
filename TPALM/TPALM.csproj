@@ -30,8 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SKGL">
-      <HintPath>C:\Users\amitnar\Documents\Visual Studio 2013\Projects\LicenseManager\packages\SKGL.2.0.5.3\lib\SKGL.dll</HintPath>
+    <Reference Include="SKGL, Version=2.0.5.2, Culture=neutral, PublicKeyToken=c2850a745143a030, processorArchitecture=MSIL">
+      <HintPath>..\packages\SKGL.2.0.5.2\lib\SKGL.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />

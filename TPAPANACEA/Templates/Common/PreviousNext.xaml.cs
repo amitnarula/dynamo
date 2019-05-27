@@ -150,6 +150,7 @@ namespace TPA.Templates.Common
             OnPrevNextClicked(e);
             if (btnSender.Name == "btnNext" || btnSender.Name == "btnSubmit" || btnSender.Name == "btnSaveAndExit")
             {
+                LogUserScreenSpentTime();
                 if (btnSender.Name == "btnSubmit")
                 {
                     WinForms.DialogResult result;
@@ -190,7 +191,7 @@ namespace TPA.Templates.Common
                             });
                         }
                         else //practice mode go back to home
-                         Switcher.Switch(new HomePanacia());
+                            Switcher.Switch(new HomePanacia());
                         //Switcher.Switch(new Home());
                         return;
                     }
@@ -229,7 +230,21 @@ namespace TPA.Templates.Common
 
                 questionState.IsNextQuestionSelected = true;
                 questionState.IsPreviousQuestionSelected = false;
+                
+            }
+            else
+            {
+                questionState.IsNextQuestionSelected = false;
+                questionState.IsPreviousQuestionSelected = true;
 
+            }
+            Switcher.Switch(new QuestionSwitcher(), questionState);
+        }
+
+        private void LogUserScreenSpentTime()
+        {
+            if (LoginManager.CheckIfStudentLoggedIn() && this.CurrentMode == Mode.QUESTION && (this.CurrentTestMode == TestMode.Mock || this.CurrentTestMode == TestMode.Practice))
+            {
                 //log time spent by user here
 
                 string targetUserFolder = CommonUtilities.ResolveTargetUserFolder();
@@ -249,30 +264,34 @@ namespace TPA.Templates.Common
                     {
                         screenTimeTrackingInfo = new List<ScreenTime>();
                     }
-                    
-                    screenTimeTrackingInfo.Add(new ScreenTime()
+
+                    var existingTrackingInfo = screenTimeTrackingInfo.SingleOrDefault(x => x.PracticeSetId == this.CurrentPracticeSetId &&
+                    x.QuestionId == this.QuestionContext.Id &&
+                    x.QuestionTemplate == this.QuestionContext.QuestionTemplate &&
+                        x.QuestionType == this.CurrentQuestionType.ToString());
+
+                    if (existingTrackingInfo != null) //update existing record
                     {
-                        PracticeSetId = this.CurrentPracticeSetId,
-                        QuestionId = this.QuestionContext.Id,
-                        PracticeSetName = "Some Practice set",
-                        QuestionTemplate = this.QuestionContext.QuestionTemplate,
-                        QuestionType = this.CurrentQuestionType.ToString(),
-                        TimeSpent = TimeSpan.FromSeconds(this.TimeSpent).ToString()
-                    });
+                        existingTrackingInfo.TimeSpent = TimeSpan.FromSeconds(this.TimeSpent).ToString();
+                    }
+                    else // add new record
+                    {
+                        screenTimeTrackingInfo.Add(new ScreenTime()
+                        {
+                            PracticeSetId = this.CurrentPracticeSetId,
+                            QuestionId = this.QuestionContext.Id,
+                            PracticeSetName = "Some Practice set",
+                            QuestionTemplate = this.QuestionContext.QuestionTemplate,
+                            QuestionType = this.CurrentQuestionType.ToString(),
+                            TimeSpent = TimeSpan.FromSeconds(this.TimeSpent).ToString()
+                        });
+                    }
 
                     //append screen time //write back
                     File.WriteAllText(screenTimeTrackingFile, JsonConvert.SerializeObject(screenTimeTrackingInfo));
 
                 }
-
             }
-            else
-            {
-                questionState.IsNextQuestionSelected = false;
-                questionState.IsPreviousQuestionSelected = true;
-
-            }
-            Switcher.Switch(new QuestionSwitcher(), questionState);
         }
 
         private QuestionType ResolveNextModule(Question questionState)

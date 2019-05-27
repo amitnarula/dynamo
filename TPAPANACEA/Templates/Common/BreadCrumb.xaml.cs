@@ -63,65 +63,6 @@ namespace TPA.Templates.Common
             return "Invalid Template Key";
         }
 
-        private string GetQuestionTemplateInfo()
-        {
-            string questionTemplate = string.Empty;
-            switch (this.QuestionTemplate)
-            {
-                case QuestionTemplates.MULTI_CHOICE_SINGLE_ANSWER:
-                    questionTemplate = "Multiple choice, choose single answer";
-                    break;
-                case QuestionTemplates.WRITE_ESSAY:
-                    questionTemplate = "Write an essay";
-                    break;
-                case QuestionTemplates.SUMMARIZE_TEXT:
-                    questionTemplate = "Summarize the text";
-                    break;
-                case QuestionTemplates.MULTI_CHOICE_MULTIPLE_ANSWER:
-                    questionTemplate = "Multiple choice, choose multiple answers";
-                    break;
-                case QuestionTemplates.FILL_IN_BLANK_WITH_OPTIONS:
-                    questionTemplate = "Fill in the blanks";
-                    break;
-                case QuestionTemplates.REORDER:
-                    questionTemplate = "Reorder paragraphs";
-                    break;
-                case QuestionTemplates.FILL_IN_BLANKS:
-                    questionTemplate = "Fill in the blanks";
-                    break;
-                case QuestionTemplates.LISTEN_MULTI_CHOICE:
-                    questionTemplate = "Multiple choice, choose single answer";
-                    break;
-                case QuestionTemplates.LISTEN_MULTI_SELECT:
-                    questionTemplate = "Multiple choice, choose multiple answers";
-                    break;
-                case QuestionTemplates.LISTEN_AND_WRITE:
-                    questionTemplate = "Summarize the spoken text";
-                    break;
-                case QuestionTemplates.LISTEN_AND_FILL_BLANKS:
-                    questionTemplate = "Listen and fill in the blanks";
-                    break;
-                case QuestionTemplates.SPEAK_LISTEN:
-                    questionTemplate = "Speak the spoken text";
-                    break;
-                case QuestionTemplates.LOOK_SPEAK_LISTEN:
-                    questionTemplate = "Re-tell lecture";
-                    break;
-                case QuestionTemplates.SPEAK_LOOK:
-                    questionTemplate = "Look at the picture and speak";
-                    break;
-                case QuestionTemplates.SPEAK_READ:
-                    questionTemplate = "Read and speak accordingly";
-                    break;
-                case QuestionTemplates.LISTEN_AND_HIGHLIGHT:
-                    questionTemplate = "Highlight the incorrect words";
-                    break;
-                default:
-                    break;
-            }
-            return questionTemplate;
-        }
-
         private string GetPracticeSetInfo(string practiceSetId)
         {
            DataSet dsPracticeSet =  FileReader.ReadFile(FileReader.FileType.PRACTICE_SET);

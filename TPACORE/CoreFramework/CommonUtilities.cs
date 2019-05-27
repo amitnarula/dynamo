@@ -39,6 +39,79 @@ namespace TPA.CoreFramework
             return fileType;
         }
 
+        public static string GetQuestionTemplateFriendlyName(string templateKey)
+        {
+            Enum.TryParse(templateKey, out QuestionTemplates template);
+
+            string questionTemplate = string.Empty;
+            switch (template)
+            {
+                case QuestionTemplates.MULTI_CHOICE_SINGLE_ANSWER:
+                    questionTemplate = "MCSA";
+                    break;
+                case QuestionTemplates.WRITE_ESSAY:
+                    questionTemplate = "Write an essay";
+                    break;
+                case QuestionTemplates.SUMMARIZE_TEXT:
+                    questionTemplate = "Summarize the text";
+                    break;
+                case QuestionTemplates.MULTI_CHOICE_MULTIPLE_ANSWER:
+                    questionTemplate = "MCMA";
+                    break;
+                case QuestionTemplates.FILL_IN_BLANK_WITH_OPTIONS:
+                    questionTemplate = "Fill in the blanks";
+                    break;
+                case QuestionTemplates.REORDER:
+                    questionTemplate = "Reorder paragraphs";
+                    break;
+                case QuestionTemplates.FILL_IN_BLANKS:
+                    questionTemplate = "Fill in the blanks";
+                    break;
+                case QuestionTemplates.LISTEN_MULTI_CHOICE:
+                    questionTemplate = "MCSA";
+                    break;
+                case QuestionTemplates.LISTEN_MULTI_SELECT:
+                    questionTemplate = "MCMA";
+                    break;
+                case QuestionTemplates.LISTEN_AND_WRITE:
+                    questionTemplate = "Summarize the spoken text";
+                    break;
+                case QuestionTemplates.LISTEN_AND_FILL_BLANKS:
+                    questionTemplate = "Listen and fill in the blanks";
+                    break;
+                case QuestionTemplates.LISTEN_AND_DICTATE:
+                    questionTemplate = "Write from dictation";
+                    break;
+                case QuestionTemplates.SPEAK_LISTEN:
+                    questionTemplate = "Speak the spoken text";
+                    break;
+                case QuestionTemplates.LOOK_SPEAK_LISTEN:
+                    questionTemplate = "Re-tell lecture";
+                    break;
+                case QuestionTemplates.SPEAK_LOOK:
+                    questionTemplate = "Look at the picture and speak";
+                    break;
+                case QuestionTemplates.SPEAK_READ:
+                    questionTemplate = "Read and speak accordingly";
+                    break;
+                case QuestionTemplates.LISTEN_AND_HIGHLIGHT:
+                    questionTemplate = "Highlight the incorrect words";
+                    break;
+                case QuestionTemplates.LISTEN_SELECT_MISSING_WORD:
+                    questionTemplate = "Select missing word";
+                    break;
+                case QuestionTemplates.SPEAK_ANSWER_SHORT_QUESTION:
+                    questionTemplate = "Answer short question";
+                    break;
+                case QuestionTemplates.LISTEN_HIGHLIGHT_CORRECT_SUMMARY:
+                    questionTemplate = "Highlight correct summary";
+                    break;
+                default:
+                    break;
+            }
+            return questionTemplate;
+        }
+
         public static QuestionType GetQuestionTypeByFileType(FileReader.FileType fileType)
         {
             QuestionType questionType;
