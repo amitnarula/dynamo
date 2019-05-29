@@ -41,7 +41,8 @@ namespace TPA.CoreFramework
 
         public static string GetQuestionTemplateFriendlyName(string templateKey)
         {
-            Enum.TryParse(templateKey, out QuestionTemplates template);
+            QuestionTemplates template;
+            Enum.TryParse(templateKey, out template);
 
             string questionTemplate = string.Empty;
             switch (template)
