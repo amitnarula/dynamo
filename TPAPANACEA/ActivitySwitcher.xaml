@@ -24,7 +24,7 @@
         <Button Visibility="Collapsed" HorizontalAlignment="Right" Name="btnManageUsers" Margin="0,4,159,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="BtnManageUsers_Click">
             <Image Width="30" Height="30" Source="Templates/Images/users.png" Stretch="Fill"/>
         </Button>
-        <Button Visibility="Visible" HorizontalAlignment="Right" Name="btnReports" Margin="0,4,195,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="BtnReports_Click">
+        <Button Visibility="Collapsed" HorizontalAlignment="Right" Name="btnReports" Margin="0,4,195,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="BtnReports_Click">
             <Image Width="30" Height="30" Source="Templates/Images/reports.png" Stretch="Fill" RenderTransformOrigin="-1.403,0.512"/>
         </Button>
         <Button HorizontalAlignment="Right" Name="btnResult" Margin="0,4,97,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnResult_Click">

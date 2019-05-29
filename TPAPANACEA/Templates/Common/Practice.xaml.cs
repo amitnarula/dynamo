@@ -203,7 +203,7 @@ namespace TPA.Templates.Common
             if (CurrentTestMode == TestMode.Mock)
             {
                 //setting intial test of reading and mode to the question as test mode = mock
-                question.QuestionType = QuestionType.READING;
+                question.QuestionType = QuestionType.SPEAKING;
                 question.TestMode = TestMode.Mock;
 
                 //check if user saved something as save and exit

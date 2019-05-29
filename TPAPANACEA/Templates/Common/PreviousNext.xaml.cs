@@ -296,21 +296,21 @@ namespace TPA.Templates.Common
 
         private QuestionType ResolveNextModule(Question questionState)
         {
-            var nextQuestionType = QuestionType.READING;
+            var nextQuestionType = QuestionType.SPEAKING;
 
             switch (questionState.QuestionType)
             {
                 case QuestionType.READING:
-                    nextQuestionType = QuestionType.SPEAKING;
-                    break;
-                case QuestionType.SPEAKING:
                     nextQuestionType = QuestionType.LISTENING;
                     break;
-                case QuestionType.LISTENING:
+                case QuestionType.SPEAKING:
                     nextQuestionType = QuestionType.WRITING;
                     break;
-                case QuestionType.WRITING:
+                case QuestionType.LISTENING:
                     nextQuestionType = QuestionType.NONE;
+                    break;
+                case QuestionType.WRITING:
+                    nextQuestionType = QuestionType.READING;
                     break;
                 default:
                     //break the sequence here

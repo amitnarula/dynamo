@@ -67,7 +67,7 @@
     <description>Practice Set 5</description>
     <practiceSetAttemptTime>READING,LISTENING-00:57:00</practiceSetAttemptTime>
   </practiceSet>
-  <practiceSet>
+  <!--<practiceSet>
     <id>5dcbc550333c488996e65d41dad0bfe7</id>
     <name>Practice Set 6</name>
     <description>Practice Set 6</description>
@@ -96,7 +96,7 @@
     <name>Practice Set 10</name>
     <description>Practice Set 10</description>
     <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
-  </practiceSet>
+  </practiceSet>-->
   
 
 </practiceSets>
