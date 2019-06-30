@@ -12,7 +12,7 @@
         </LinearGradientBrush>
     </Window.Background>-->
     <Grid>
-        <my:ContentControl HorizontalAlignment="Stretch" Margin="-5,34,5,39" x:Name="content" />
+        <my:ContentControl HorizontalAlignment="Stretch" Margin="0,39,0,34" x:Name="content" />
         <Rectangle Fill="#8bc7ea" Stroke="#8bc7ea" VerticalAlignment="Bottom" Height="34"/>
         <TextBlock Margin="8,0,207.5,8" VerticalAlignment="Bottom" Name="txtBlockStatus" Height="17" Text="© Copyright Company Inc. All rights reserved." TextWrapping="Wrap" FontWeight="Bold" FontSize="10.667" Foreground="#FF2179AF"/>
         <Button HorizontalAlignment="Right" Name="btnClose"  Margin="0,4,5,0" VerticalAlignment="Top" Width="34" BorderBrush="Transparent" Background="Transparent" Height="34" Click="btnClose_Click">
