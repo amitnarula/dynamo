@@ -29,6 +29,15 @@ namespace TPAPanacea.Templates.Common
                     Tag=Convert.ToString(dsPracticeSets.Tables[0].Rows[count]["Id"])
                 });
             }
+
+            DataSet dsMockSets = FileReader.ReadFile(FileReader.FileType.MOCK);
+            for (int count = 0; count < dsMockSets.Tables[0].Rows.Count; count++)
+            {
+                cmbPracticeSet.Items.Add(new ComboBoxItem() {
+                    Content ="Mock Set "+(count+1),
+                    Tag=Convert.ToString(dsMockSets.Tables[0].Rows[count]["Id"])
+                });
+            }
             
         }
 

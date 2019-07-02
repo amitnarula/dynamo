@@ -48,55 +48,55 @@ namespace TPA.CoreFramework
             switch (template)
             {
                 case QuestionTemplates.MULTI_CHOICE_SINGLE_ANSWER:
-                    questionTemplate = "MCSA";
+                    questionTemplate = "Multiple choice, choose single answer";
                     break;
                 case QuestionTemplates.WRITE_ESSAY:
-                    questionTemplate = "Write an essay";
+                    questionTemplate = "Write essay";
                     break;
                 case QuestionTemplates.SUMMARIZE_TEXT:
-                    questionTemplate = "Summarize the text";
+                    questionTemplate = "Summarize written text";
                     break;
                 case QuestionTemplates.MULTI_CHOICE_MULTIPLE_ANSWER:
-                    questionTemplate = "MCMA";
+                    questionTemplate = "Multiple choice, choose multiple answer";
                     break;
                 case QuestionTemplates.FILL_IN_BLANK_WITH_OPTIONS:
-                    questionTemplate = "Fill in the blanks";
+                    questionTemplate = "Reading:Fill in the blanks";
                     break;
                 case QuestionTemplates.REORDER:
-                    questionTemplate = "Reorder paragraphs";
+                    questionTemplate = "Re-order paragraphs";
                     break;
                 case QuestionTemplates.FILL_IN_BLANKS:
-                    questionTemplate = "Fill in the blanks";
+                    questionTemplate = "Reading and Writing:Fill in the blanks";
                     break;
                 case QuestionTemplates.LISTEN_MULTI_CHOICE:
-                    questionTemplate = "MCSA";
+                    questionTemplate = "Multiple choice,choose single answer";
                     break;
                 case QuestionTemplates.LISTEN_MULTI_SELECT:
-                    questionTemplate = "MCMA";
+                    questionTemplate = "Multiple choice,choose multiple answer";
                     break;
                 case QuestionTemplates.LISTEN_AND_WRITE:
-                    questionTemplate = "Summarize the spoken text";
+                    questionTemplate = "Summarize spoken text";
                     break;
                 case QuestionTemplates.LISTEN_AND_FILL_BLANKS:
-                    questionTemplate = "Listen and fill in the blanks";
+                    questionTemplate = "Fill in the blanks";
                     break;
                 case QuestionTemplates.LISTEN_AND_DICTATE:
                     questionTemplate = "Write from dictation";
                     break;
                 case QuestionTemplates.SPEAK_LISTEN:
-                    questionTemplate = "Speak the spoken text";
+                    questionTemplate = "Repeat sentence";
                     break;
                 case QuestionTemplates.LOOK_SPEAK_LISTEN:
                     questionTemplate = "Re-tell lecture";
                     break;
                 case QuestionTemplates.SPEAK_LOOK:
-                    questionTemplate = "Look at the picture and speak";
+                    questionTemplate = "Describe image";
                     break;
                 case QuestionTemplates.SPEAK_READ:
-                    questionTemplate = "Read and speak accordingly";
+                    questionTemplate = "Read aloud";
                     break;
                 case QuestionTemplates.LISTEN_AND_HIGHLIGHT:
-                    questionTemplate = "Highlight the incorrect words";
+                    questionTemplate = "Highlight incorrect words";
                     break;
                 case QuestionTemplates.LISTEN_SELECT_MISSING_WORD:
                     questionTemplate = "Select missing word";

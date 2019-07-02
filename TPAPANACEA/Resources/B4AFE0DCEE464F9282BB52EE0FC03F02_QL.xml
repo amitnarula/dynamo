@@ -368,7 +368,7 @@ So I think in the next decade, the sciences and the humanity will come closer to
   <itemType>LISTENING</itemType>
   <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
   <delayTime>00:00:00</delayTime>
-  <attemptTime>00:00:00</attemptTime>
+  <attemptTime>00:10:00</attemptTime>
   <template>
     <description></description>
     <title>Listening - Summarize Spoken Text - Q1</title>
@@ -385,7 +385,7 @@ So I think in the next decade, the sciences and the humanity will come closer to
   <itemType>LISTENING</itemType>
   <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
   <delayTime>00:00:00</delayTime>
-  <attemptTime>00:00:00</attemptTime>
+  <attemptTime>00:10:00</attemptTime>
   <template>
     <description></description>
     <title>Listening - Summarize Spoken Text - Q2</title>
@@ -2338,7 +2338,7 @@ One disadvantage of groups is that individuals may try to conform with what this
     <itemType>LISTENING</itemType>
     <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:00:00</attemptTime>
+    <attemptTime>00:10:00</attemptTime>
     <template>
       <description></description>
       <title></title>
@@ -2355,7 +2355,7 @@ One disadvantage of groups is that individuals may try to conform with what this
     <itemType>LISTENING</itemType>
     <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:00:00</attemptTime>
+    <attemptTime>00:10:00</attemptTime>
     <template>
       <description></description>
       <title></title>
@@ -2720,7 +2720,7 @@ It's easy enough to learn to get the skills, try to learn all the material you h
   <itemType>LISTENING</itemType>
   <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
   <delayTime>00:00:00</delayTime>
-  <attemptTime>00:00:00</attemptTime>
+  <attemptTime>00:10:00</attemptTime>
   <template>
     <description></description>
     <title></title>
@@ -2737,7 +2737,7 @@ It's easy enough to learn to get the skills, try to learn all the material you h
   <itemType>LISTENING</itemType>
   <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
   <delayTime>00:00:00</delayTime>
-  <attemptTime>00:00:00</attemptTime>
+  <attemptTime>00:10:00</attemptTime>
   <template>
     <description></description>
     <title></title>
@@ -3094,7 +3094,7 @@ So far, the best idea I've heard about building grit in kids is something called
   <itemType>LISTENING</itemType>
   <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
   <delayTime>00:00:00</delayTime>
-  <attemptTime>00:00:00</attemptTime>
+  <attemptTime>00:10:00</attemptTime>
   <template>
     <description></description>
     <title></title>
@@ -3111,7 +3111,7 @@ So far, the best idea I've heard about building grit in kids is something called
   <itemType>LISTENING</itemType>
   <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
   <delayTime>00:00:00</delayTime>
-  <attemptTime>00:00:00</attemptTime>
+  <attemptTime>00:10:00</attemptTime>
   <template>
     <description></description>
     <title></title>
@@ -3466,7 +3466,7 @@ So far, the best idea I've heard about building grit in kids is something called
   <itemType>LISTENING</itemType>
   <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
   <delayTime>00:00:00</delayTime>
-  <attemptTime>00:00:00</attemptTime>
+  <attemptTime>00:10:00</attemptTime>
   <template>
     <description></description>
     <title></title>
@@ -3483,7 +3483,7 @@ So far, the best idea I've heard about building grit in kids is something called
   <itemType>LISTENING</itemType>
   <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
   <delayTime>00:00:00</delayTime>
-  <attemptTime>00:00:00</attemptTime>
+  <attemptTime>00:10:00</attemptTime>
   <template>
     <description></description>
     <title></title>

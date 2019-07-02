@@ -41,14 +41,14 @@ namespace TPACORE.CoreFramework
          Email=x["email"].ToString(),
          ContactNo=x["contactNo"].ToString()})
          .ToList();
-            result.RemoveAll(x => x.UserId == "default");
+            result.RemoveAll(x => x.UserId == "default" || x.UserId =="institute");
             return result;
         }
 
         public static string CreateUser(User user) {
             
             DataTable dtUser = ReadUserFile();
-            if (dtUser.Rows.Count < 15) // purposed limit imposed for 15 users
+            if (dtUser.Rows.Count < 17) // purposed limit imposed for 15 users
             {
                 DataRow dRowUser = dtUser.NewRow();
                 dRowUser["id"] = user.UserId;

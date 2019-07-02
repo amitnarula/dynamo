@@ -4,19 +4,19 @@
     <id>94fbb82b4fd1485eb61cc3c671da384d</id>
     <name>Practice Set 1</name>
     <description>Practice Set 1</description>
-    <practiceSetAttemptTime>READING,LISTENING-00:57:00</practiceSetAttemptTime>
+    <practiceSetAttemptTime>READING,LISTENING-00:23:00</practiceSetAttemptTime>
   </practiceSet>
   <practiceSet>
     <id>7fdd81499d6147a1b4a817e56db88024</id>
     <name>Practice Set 2</name>
     <description>Practice Set 2</description>
-    <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
+    <practiceSetAttemptTime>READING,LISTENING-00:24:00</practiceSetAttemptTime>
   </practiceSet>
   <practiceSet>
     <id>88f631b360734b7da3b7c3e6151bd840</id>
     <name>Practice Set 3</name>
     <description>Practice Set 3</description>
-    <practiceSetAttemptTime>READING,LISTENING-00:45:00</practiceSetAttemptTime>
+    <practiceSetAttemptTime>READING,LISTENING-00:24:00</practiceSetAttemptTime>
   </practiceSet>
   <!--New tests 25022017-->
   <!--<practiceSet>
@@ -59,13 +59,13 @@
     <id>7b04cda952c144788c9d27aa2d5dc710</id>
     <name>Practice Set 4</name>
     <description>Practice Set 4</description>
-    <practiceSetAttemptTime>READING,LISTENING-00:57:00</practiceSetAttemptTime>
+    <practiceSetAttemptTime>READING,LISTENING-00:24:00</practiceSetAttemptTime>
   </practiceSet>
   <practiceSet>
     <id>d9d885229cf64aceb84b19095b1ffd9c</id>
     <name>Practice Set 5</name>
     <description>Practice Set 5</description>
-    <practiceSetAttemptTime>READING,LISTENING-00:57:00</practiceSetAttemptTime>
+    <practiceSetAttemptTime>READING,LISTENING-00:24:00</practiceSetAttemptTime>
   </practiceSet>
   <!--<practiceSet>
     <id>5dcbc550333c488996e65d41dad0bfe7</id>

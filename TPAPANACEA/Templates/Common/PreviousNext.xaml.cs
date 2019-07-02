@@ -349,7 +349,7 @@ namespace TPA.Templates.Common
 
                 btnYourResponse.Visibility = Visibility.Hidden;
                 btnEvaluate.Visibility = Visibility.Hidden;
-                if (CurrentTestMode == TestMode.Mock)
+                if (CurrentTestMode == TestMode.Mock && this.CurrentMode == Mode.QUESTION)
                 {
                     btnSaveAndExit.Margin = btnPrevious.Margin;
                     btnPrevious.Visibility = Visibility.Collapsed; //previous button visiblity and margin fix for save and exit button
@@ -462,8 +462,25 @@ namespace TPA.Templates.Common
                 //number of correct pairs always 1 less than number of paragraphs in REORDER
             }
 
+            if(result!=null && result.Any(x=>x.ParamName =="SINGLE")){
+
             lblPoints.Content = string.Format("Maximum Points : {0}      Points Obtained: {1} {2}", maximumPoints,
                 (result != null && result.Any() ? result.First().ParamScore : "0"), IsTimeOut ? "(Timeout)" : string.Empty);
+            }
+            else{ //multi parameter display of max and obtained points
+                if (result != null)
+                {
+                    int max = result.Sum(x => Convert.ToInt16(x.ParamMaxScore));
+                    int obt = result.Sum(x => Convert.ToInt16(x.ParamScore));
+
+                    lblPoints.Content = string.Format("Maximum Points : {0}      Points Obtained: {1} {2}", max,
+                    obt, IsTimeOut ? "(Timeout)" : string.Empty);
+                }
+                else {
+                    lblPoints.Content = "Not evaluated";
+                }
+            }
+            
         }
 
         private bool CheckIfEvaluatorLoggedIn()

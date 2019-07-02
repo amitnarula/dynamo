@@ -52,7 +52,13 @@ namespace TPA
 
             Switcher.activitySwitcher = this;
             //Switcher.Switch(new Home());
+            this.Loaded += new RoutedEventHandler(ActivitySwitcher_Loaded);
             Switcher.Switch(new HomePanacia());
+        }
+
+        void ActivitySwitcher_Loaded(object sender, RoutedEventArgs e)
+        {
+            BindOwnerInfo();
         }
         public void Navigate(UserControl nextPage)
         {
@@ -73,6 +79,12 @@ namespace TPA
                 ShowEvaluatorPermittedControls();
             }
         }
+
+        public void BindOwnerInfo() {
+
+            txtBlockStatus.Text = "© Copyright PTE Panacea. All rights reserved.This application is licensed to " + UserManager.GetUserById("institute").Firstname;
+        }
+
 
         private void ShowEvaluatorPermittedControls()
         {

@@ -31,7 +31,7 @@ namespace TPACORE.CoreFramework
             string resultString = string.Empty;
             foreach (var res in result)
             {
-                resultString += res.ParamName + "=" + res.ParamScore + ";";
+                resultString += res.ParamName + "=" + res.ParamScore+"/"+res.ParamMaxScore + ";";
             }
 
             dtEval.Columns.Add(dcEval);
@@ -47,7 +47,7 @@ namespace TPACORE.CoreFramework
 
         public static void Evaluate(QuestionBase questionContext, string userAnswer)
         {
-            if (questionContext.CurrentQuestionType == QuestionType.READING || questionContext.CurrentQuestionType == QuestionType.LISTENING)
+            if (questionContext.CurrentQuestionType == QuestionType.READING || questionContext.CurrentQuestionType == QuestionType.LISTENING && questionContext.QuestionTemplate!=QuestionTemplates.LISTEN_AND_WRITE.ToString())
             {
                 var xmlEncryptor = new XMLEncryptor(phrase, phrase);
                 string evalOutputFilename = questionContext.Id + "_" + questionContext.CurrentPracticeSetId + "_" + questionContext.CurrentQuestionType.ToString() + "_" + questionContext.QuestionTemplate + "_eval.xml";
@@ -314,10 +314,14 @@ namespace TPACORE.CoreFramework
                 {
                     foreach (var item in evalResult)
                     {
+                        // format stored "Content=1/5;Oral frequency=2/6 etc"
+                        string [] paramSplit = item.Split('=');
+                        string [] paramSubSplit = paramSplit[1].ToString().Split('/');
                         result.Add(new EvaluationResult()
                         {
-                            ParamName = item.Split('=')[0],
-                            ParamScore = item.Split('=')[1]
+                            ParamName = paramSplit[0],
+                            ParamScore = paramSubSplit[0],
+                            ParamMaxScore = paramSubSplit.ElementAtOrDefault(1)
                         });
                     }
                 }

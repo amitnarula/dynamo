@@ -211,6 +211,12 @@
     <Compile Include="ActivitySwitcher.xaml.cs">
       <DependentUpon>ActivitySwitcher.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FrmOwner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOwner.Designer.cs">
+      <DependentUpon>FrmOwner.cs</DependentUpon>
+    </Compile>
     <Compile Include="FX\ISwitchable.cs" />
     <Compile Include="FX\Switcher.cs" />
     <Compile Include="FX\TPAInstaller.cs">
@@ -580,6 +586,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Resource Include="Templates\Images\result.png" />
+    <EmbeddedResource Include="FrmOwner.resx">
+      <DependentUpon>FrmOwner.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\B4AFE0DCEE464F9282BB52EE0FC03F02_EP.xml" />
     <EmbeddedResource Include="Resources\B4AFE0DCEE464F9282BB52EE0FC03F02_QL.xml" />
     <EmbeddedResource Include="Resources\B4AFE0DCEE464F9282BB52EE0FC03F02_QR.xml">

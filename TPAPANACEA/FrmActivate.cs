@@ -88,7 +88,7 @@ namespace TPA
                             {
                                 fs.CopyTo(fsLicense);
                             }
-                            
+
                         }
                     }
                 }
@@ -96,8 +96,15 @@ namespace TPA
                 if (CommonUtility.ValidateSoftware(AppName))
                 {
                     MessageBox.Show("Your product has been activated successfully, Please restart your application again.");
+
+                    var dialogOwnerInfo = new FrmOwner();
+
+                    while(dialogOwnerInfo.ShowDialog() != DialogResult.OK){
+                        continue;
+                    }
                     this.Close();
                     this.Dispose();
+
                 }
                 else
                     MessageBox.Show("Product activation failed.");
