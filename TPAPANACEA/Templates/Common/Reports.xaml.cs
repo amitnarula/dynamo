@@ -149,6 +149,10 @@ namespace TPAPanacea.Templates.Common
                 
                 GenerateTimeAnalysisReport();
             }
+            else if (cmbType.SelectedValue.ToString() == "consolidatedanalysis")
+            {
+                GenerateConsolidatedReport();
+            }
         }
 
         private void CmbUsers_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -164,6 +168,81 @@ namespace TPAPanacea.Templates.Common
         private void CmbType_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+        }
+
+        private void GenerateConsolidatedReport()
+        {
+            TPA.Templates.Common.ReportViewer rptView = new TPA.Templates.Common.ReportViewer();
+
+            var usr = users.First(x => x.UserId == cmbUsers.SelectedValue.ToString());
+            var set = sets.First(x => x.Id == cmbSet.SelectedValue.ToString());
+
+            DataTable tableHeader;
+            DataTable tableData;
+            object[] obj;
+
+            // REPORT 1 DATA
+            tableHeader = new DataTable("Header");
+            tableData = new DataTable("Data");
+
+            tableHeader.Columns.Add();
+            tableHeader.Rows.Add(new object[] { "Sno." });
+            tableHeader.Rows.Add(new object[] { "Status" });
+            tableHeader.Rows.Add(new object[] { "Speaking" });
+            tableHeader.Rows.Add(new object[] { "Writing" });
+            tableHeader.Rows.Add(new object[] { "Reading" });
+            tableHeader.Rows.Add(new object[] { "Listening" });
+            tableData.Columns.Add();
+            tableData.Columns.Add();
+            tableData.Columns.Add();
+            tableData.Columns.Add();
+            tableData.Columns.Add();
+            tableData.Columns.Add();
+            obj = new object[6];
+            var fileReader = new FileReader();
+            for (int count = 0; count < sets.Count; count++)
+            {
+                obj[0] = count + 1;
+                string selectedPracticeSetId = sets[count].Id;
+                //TO DO dupolicate impelemntation as that of result for score calculation and to be moved at some common place
+                string writingResult, listeningResult, readingResult, speakingResult;
+                int totalSpeaking, totalSpeakingAttempted, totalWriting, totalWritingAttempted, totalReading, totalReadingAttempted, totalListening, totalListeningAttempted;
+                Results.BasicEvaluation(selectedPracticeSetId, out totalSpeaking, out totalSpeakingAttempted, out totalWriting, out totalWritingAttempted, out totalReading, out totalReadingAttempted, out totalListening, out totalListeningAttempted);
+
+                if (new FileReader().PerformIntegratedEvaluation(selectedPracticeSetId)) // all the questions are evaluated by teacher or automatically then only show the results out of 90
+                {
+                    Results.FetchIntegratedEvaluationResults(selectedPracticeSetId, totalSpeaking, totalSpeakingAttempted, totalWriting, totalWritingAttempted, totalReading, totalReadingAttempted, totalListening, totalListeningAttempted, out writingResult, out listeningResult, out readingResult, out speakingResult);
+                    obj[1] = "Evaluated";
+                    obj[2] = speakingResult;
+                    obj[3] = writingResult;
+                    obj[4] = readingResult;
+                    obj[5] = listeningResult;
+                }
+                else
+                {
+                    string setStatus,speakingStatus,writingStatus,listeningStatus,readingStatus = string.Empty;
+                    fileReader.GetPracticeSetStatusForReport(selectedPracticeSetId, out setStatus);
+                    fileReader.GetModuleStatusForReport(selectedPracticeSetId, "SPEAKING", out speakingStatus);
+                    fileReader.GetModuleStatusForReport(selectedPracticeSetId, "WRITING", out writingStatus);
+                    fileReader.GetModuleStatusForReport(selectedPracticeSetId, "READING", out readingStatus);
+                    fileReader.GetModuleStatusForReport(selectedPracticeSetId, "LISTENING", out listeningStatus);
+                    obj[1] = setStatus;
+                    obj[2] = speakingStatus;
+                    obj[3] = writingStatus;
+                    obj[4] = readingStatus;
+                    obj[5] = listeningStatus;
+
+                }
+
+                tableData.Rows.Add(obj);
+            }
+
+            rptView.ReportHeader = tableHeader;
+            rptView.ReportData = tableData;
+            rptView.ReportTitle = string.Format("{0}:{1}", set.Name, usr.Firstname + "," + usr.Lastname);
+            rptView.TemplateType = "Timeanalysis";
+            //obj.GenerateReport();
+            rptView.Show();
         }
 
         private void GenerateTimeAnalysisReport()
@@ -523,6 +602,7 @@ namespace TPAPanacea.Templates.Common
             //obj.GenerateReport();
             rptView.Show();
         }
+
 
     }
 

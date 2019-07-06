@@ -379,6 +379,11 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Templates\Common\BreadCrumb.xaml">
+    <Content Include="Templates\Common\Reports\ConsolidatedAnalysis.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

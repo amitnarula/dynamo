@@ -110,6 +110,46 @@ namespace TPA.CoreFramework
             return evalFiles.Count(x => x.Contains(practiceSetId));
         }
 
+        public string GetPracticeSetStatusForReport(string practiceSetId, out string status) {
+            status = "Not attempted";
+
+            if (GetEvaluatedQuestionsByPracticeSet(practiceSetId) > 0 && GetEvaluatedQuestionsByPracticeSet(practiceSetId) < GetTotalQuesionsByPracticeSet(practiceSetId))
+            {
+                status = "Partially attempted";
+            }
+            else if (GetEvaluatedQuestionsByPracticeSet(practiceSetId) >= GetTotalQuesionsByPracticeSet(practiceSetId)) {
+                status = "Attempted";
+            }
+            
+            return status;
+        }
+
+        public string GetModuleStatusForReport(string practiceSetId,string module, out string status) {
+            status = "Not attempted";
+
+            if (IsModuleCompletelyAttempted(practiceSetId, module)) {
+                status = "Attempted";
+            }
+
+            if (IsEvaluationStartedForModule(practiceSetId, module)) {
+                status = "Evaluating";
+            }
+
+            return status;
+        }
+
+        private bool IsEvaluationStartedForModule(string practiceSetId, string module) {
+            string[] evalFiles = Directory.GetFiles(Path.Combine(baseOutputDirectory, CommonUtilities.ResolveTargetFolder()), "*eval.xml");
+
+            return evalFiles.Any(x => x.Contains(practiceSetId) && x.Contains(module));
+        }
+
+        private bool IsModuleCompletelyAttempted(string practiceSetId, string module) {
+            string[] submissionFiles = Directory.GetFiles(Path.Combine(baseOutputDirectory, CommonUtilities.ResolveTargetFolder()));
+
+            return submissionFiles.Any(x => x.Contains(practiceSetId) && x.Contains("SUB"));
+        }
+
         public static void ProvideWriteAccessToFolder(string folder, bool hideFolder)
         {
             SecurityIdentifier snewId = new SecurityIdentifier(WellKnownSidType.WorldSid, null);
