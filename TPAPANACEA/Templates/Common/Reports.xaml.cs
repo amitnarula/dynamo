@@ -45,13 +45,18 @@ namespace TPAPanacea.Templates.Common
             reportTypes = new List<ReportType>();
             reportTypes.Add(new ReportType()
             {
-                ReportName = "Time analysis",
+                ReportName = "Test analysis report",
                 TypeValue = "timeanalysis"
             });
             reportTypes.Add(new ReportType()
             {
-                ReportName = "Score analysis",
+                ReportName = "Score analysis report",
                 TypeValue = "scoreanalysis"
+            });
+            reportTypes.Add(new ReportType()
+            {
+                ReportName = "Consolidated report",
+                TypeValue = "consolidatedanalysis"
             });
 
             cmbType.ItemsSource = reportTypes;
@@ -134,14 +139,14 @@ namespace TPAPanacea.Templates.Common
                 System.Windows.Forms.MessageBox.Show("Please select all combinations");
                 return;
             }
-
+            TPACache.SetItem(TPACache.STUDENT_ID_TO_EVALUATE, UserManager.GetUserById(cmbUsers.SelectedValue.ToString()), null);
             if (cmbType.SelectedValue.ToString() == "scoreanalysis")
             {
-                TPACache.SetItem(TPACache.STUDENT_ID_TO_EVALUATE, UserManager.GetUserById(cmbUsers.SelectedValue.ToString()), null);
                 GenerateScoreAnalysisReport();
             }
             else if (cmbType.SelectedValue.ToString() == "timeanalysis")
             {
+                
                 GenerateTimeAnalysisReport();
             }
         }
@@ -180,12 +185,16 @@ namespace TPAPanacea.Templates.Common
             tableHeader.Rows.Add(new object[] { "Sno." });
             tableHeader.Rows.Add(new object[] { "Module" });
             tableHeader.Rows.Add(new object[] { "Type" });
-            tableHeader.Rows.Add(new object[] { "Time" });
+            tableHeader.Rows.Add(new object[] { "Time taken" });
+            tableHeader.Rows.Add(new object[] { "Max points" });
+            tableHeader.Rows.Add(new object[] { "Points obtained" });
             tableData.Columns.Add();
             tableData.Columns.Add();
             tableData.Columns.Add();
             tableData.Columns.Add();
-            obj = new object[4];
+            tableData.Columns.Add();
+            tableData.Columns.Add();
+            obj = new object[6];
 
             string targetUserFolder = cmbUsers.SelectedValue.ToString();
             if (!string.IsNullOrEmpty(targetUserFolder))
@@ -214,14 +223,208 @@ namespace TPAPanacea.Templates.Common
 
                 }
 
-                for (int i = 0; i < screenTimeTrackingInfo.Count; i++)
+                if (screenTimeTrackingInfo.Any(x => x.QuestionType == "SPEAKING"))
                 {
-                    obj[0] = i + 1;
-                    obj[1] = screenTimeTrackingInfo[i].QuestionType;
-                    obj[2] = CommonUtilities.GetQuestionTemplateFriendlyName (screenTimeTrackingInfo[i].QuestionTemplate);
-                    obj[3] = screenTimeTrackingInfo[i].TimeSpent;
+                    var totalTimespan = new TimeSpan(0,0,0);
+                    var totalPoints = 0;
+                    var obtainedPoints =0;
+                    var info = screenTimeTrackingInfo.Where(x => x.QuestionType == "SPEAKING").ToList();
+                    for (int i = 0; i < info.Count; i++)
+                    {
+                        short outMax = 0;
+                        short obt = 0;
+                        TimeSpan spent;
+                        var result = EvaluationManager.GetResult(new QuestionBase()
+                        {
+                            Id = info[i].QuestionId,
+                            CurrentPracticeSetId = info[i].PracticeSetId,
+                            CurrentQuestionType = (QuestionType)Enum.Parse(typeof(QuestionType), info[i].QuestionType, true),
+                            QuestionTemplate = info[i].QuestionTemplate
+                        });
+
+                        obj[0] = i + 1;
+                        obj[1] = "Speaking";
+                        obj[2] = CommonUtilities.GetQuestionTemplateFriendlyName(info[i].QuestionTemplate);
+                        obj[3] = info[i].TimeSpent;
+                        obj[4] = info[i].MaxScore;
+                        obj[5] = result != null ? result.Where(x => !string.IsNullOrEmpty(x.ParamScore))
+                            .Sum(x => Convert.ToDecimal(x.ParamScore)).ToString() : "Not checked";
+                        tableData.Rows.Add(obj);
+
+                        TimeSpan.TryParse(info[i].TimeSpent, out spent);
+                        short.TryParse(obj[4].ToString(), out outMax);
+                        short.TryParse(obj[5].ToString(), out obt);
+
+                        totalTimespan = totalTimespan.Add(spent);
+                        totalPoints += outMax;
+                        obtainedPoints += obt;
+                    }
+                    //total
+                    obj[0] = "Total";
+                    obj[1] = "Speaking";
+                    obj[2] = "Time & Points";
+                    obj[3] = totalTimespan.ToString();;
+                    obj[4] = totalPoints.ToString();
+                    obj[5] = obtainedPoints.ToString();
+
                     tableData.Rows.Add(obj);
                 }
+                if (screenTimeTrackingInfo.Any(x => x.QuestionType == "WRITING"))
+                {
+                    var totalTimespan = new TimeSpan(0, 0, 0);
+                    var totalPoints = 0;
+                    var obtainedPoints = 0;
+                    
+                    var info = screenTimeTrackingInfo.Where(x => x.QuestionType == "WRITING").ToList();
+                    for (int i = 0; i < info.Count; i++)
+                    {
+                        short outMax = 0;
+                        short obt = 0;
+                        TimeSpan spent;
+                        
+                        var result = EvaluationManager.GetResult(new QuestionBase()
+                        {
+                            Id = info[i].QuestionId,
+                            CurrentPracticeSetId = info[i].PracticeSetId,
+                            CurrentQuestionType = (QuestionType)Enum.Parse(typeof(QuestionType), info[i].QuestionType, true),
+                            QuestionTemplate = info[i].QuestionTemplate
+                        });
+
+
+                        obj[0] = i + 1;
+                        obj[1] = "Writing";
+                        obj[2] = CommonUtilities.GetQuestionTemplateFriendlyName(info[i].QuestionTemplate);
+                        obj[3] = info[i].TimeSpent;
+                        obj[4] = info[i].MaxScore;
+                        obj[5] = result != null ? result.Where(x => !string.IsNullOrEmpty(x.ParamScore))
+                            .Sum(x => Convert.ToDecimal(x.ParamScore)).ToString() : "Not checked"; 
+                        tableData.Rows.Add(obj);
+
+                        TimeSpan.TryParse(info[i].TimeSpent, out spent);
+                        short.TryParse(obj[4].ToString(), out outMax);
+                        short.TryParse(obj[5].ToString(), out obt);
+
+                        totalTimespan = totalTimespan.Add(spent);
+                        totalPoints += outMax;
+                        obtainedPoints += obt;
+                    }
+                    //total
+                    obj[0] = "Total";
+                    obj[1] = "Speaking";
+                    obj[2] = "Time & Points";
+                    obj[3] = totalTimespan.ToString(); ;
+                    obj[4] = totalPoints.ToString();
+                    obj[5] = obtainedPoints.ToString();
+
+                    tableData.Rows.Add(obj);
+                }
+                if (screenTimeTrackingInfo.Any(x => x.QuestionType == "READING"))
+                {
+                    var totalTimespan = new TimeSpan(0, 0, 0);
+                    var totalPoints = 0;
+                    var obtainedPoints = 0;
+                    
+                    var info = screenTimeTrackingInfo.Where(x => x.QuestionType == "READING").ToList();
+                    for (int i = 0; i < info.Count; i++)
+                    {
+                        short outMax = 0;
+                        short obt = 0;
+                        TimeSpan spent;
+                        
+                        var result = EvaluationManager.GetResult(new QuestionBase()
+                        {
+                            Id = info[i].QuestionId,
+                            CurrentPracticeSetId = info[i].PracticeSetId,
+                            CurrentQuestionType = (QuestionType)Enum.Parse(typeof(QuestionType), info[i].QuestionType, true),
+                            QuestionTemplate = info[i].QuestionTemplate
+                        });
+
+                        obj[0] = i + 1;
+                        obj[1] = "Reading";
+                        obj[2] = CommonUtilities.GetQuestionTemplateFriendlyName(info[i].QuestionTemplate);
+                        obj[3] = info[i].TimeSpent;
+                        obj[4] = info[i].MaxScore;
+                        obj[5] = result != null ? result.Where(x => !string.IsNullOrEmpty(x.ParamScore))
+                            .Sum(x => Convert.ToDecimal(x.ParamScore)).ToString() : "Not checked";
+                        tableData.Rows.Add(obj);
+
+                        TimeSpan.TryParse(info[i].TimeSpent, out spent);
+                        short.TryParse(obj[4].ToString(), out outMax);
+                        short.TryParse(obj[5].ToString(), out obt);
+
+                        totalTimespan = totalTimespan.Add(spent);
+                        totalPoints += outMax;
+                        obtainedPoints += obt;
+                    }
+                    //total
+                    obj[0] = "Total";
+                    obj[1] = "Speaking";
+                    obj[2] = "Time & Points";
+                    obj[3] = totalTimespan.ToString(); ;
+                    obj[4] = totalPoints.ToString();
+                    obj[5] = obtainedPoints.ToString();
+
+                    tableData.Rows.Add(obj);
+                }
+               
+
+                if (screenTimeTrackingInfo.Any(x => x.QuestionType == "LISTENING"))
+                {
+                    var totalTimespan = new TimeSpan(0, 0, 0);
+                    var totalPoints = 0;
+                    var obtainedPoints = 0;
+                    
+                    var info = screenTimeTrackingInfo.Where(x => x.QuestionType == "LISTENING").ToList();
+                    for (int i = 0; i < info.Count; i++)
+                    {
+                        short outMax = 0;
+                        short obt = 0;
+                        TimeSpan spent;
+                        
+                        var result = EvaluationManager.GetResult(new QuestionBase()
+                        {
+                            Id = info[i].QuestionId,
+                            CurrentPracticeSetId = info[i].PracticeSetId,
+                            CurrentQuestionType = (QuestionType)Enum.Parse(typeof(QuestionType), info[i].QuestionType, true),
+                            QuestionTemplate = info[i].QuestionTemplate
+                        });
+
+                        obj[0] = i + 1;
+                        obj[1] = "Listening";
+                        obj[2] = CommonUtilities.GetQuestionTemplateFriendlyName(info[i].QuestionTemplate);
+                        obj[3] = info[i].TimeSpent;
+                        obj[4] = info[i].MaxScore;
+                        obj[5] = result != null ? result.Where(x => !string.IsNullOrEmpty(x.ParamScore))
+                            .Sum(x => Convert.ToDecimal(x.ParamScore)).ToString() : "Not checked"; ;;
+                        tableData.Rows.Add(obj);
+
+                        TimeSpan.TryParse(info[i].TimeSpent, out spent);
+                        short.TryParse(obj[4].ToString(), out outMax);
+                        short.TryParse(obj[5].ToString(), out obt);
+
+                        totalTimespan = totalTimespan.Add(spent);
+                        totalPoints += outMax;
+                        obtainedPoints += obt;
+                    }
+                    //total
+                    obj[0] = "Total";
+                    obj[1] = "Speaking";
+                    obj[2] = "Time & Points";
+                    obj[3] = totalTimespan.ToString();
+                    obj[4] = totalPoints.ToString();
+                    obj[5] = obtainedPoints.ToString();
+
+                    tableData.Rows.Add(obj);
+                }
+
+                //for (int i = 0; i < screenTimeTrackingInfo.Count; i++)
+                //{
+                //    obj[0] = i + 1;
+                //    obj[1] = screenTimeTrackingInfo[i].QuestionType;
+                //    obj[2] = CommonUtilities.GetQuestionTemplateFriendlyName (screenTimeTrackingInfo[i].QuestionTemplate);
+                //    obj[3] = screenTimeTrackingInfo[i].TimeSpent;
+                //    tableData.Rows.Add(obj);
+                //}
 
             }
 
@@ -269,43 +472,46 @@ namespace TPAPanacea.Templates.Common
             tableReport = new DataTable("Score");
 
             tableHeader.Columns.Add();
-            tableHeader.Rows.Add(new object[] { "Sno." });
             tableHeader.Rows.Add(new object[] { "Module" });
             tableHeader.Rows.Add(new object[] { "Score" });
-            tableHeader.Rows.Add(new object[] { "Max. Score" });
-
+            
             tableData.Columns.Add();
             tableData.Columns.Add();
-            tableData.Columns.Add();
-            tableData.Columns.Add();
-            obj = new object[4];
+            obj = new object[2];
 
             tableReport.Columns.Add("Module", typeof(string));
             tableReport.Columns.Add("Score", typeof(decimal));
 
             if (!isIntegratedEvaluation)
             {
-                tableData.Rows.Add(new object[] { 1.ToString(), "Reading", totalReadingAttempted, totalReading });
-                tableData.Rows.Add(new object[] { 2.ToString(), "Writing", totalWritingAttempted, totalWriting });
-                tableData.Rows.Add(new object[] { 3.ToString(), "Listening", totalListeningAttempted, totalListening });
-                tableData.Rows.Add(new object[] { 4.ToString(), "Speaking",  totalSpeakingAttempted,totalSpeaking });
+                tableData.Rows.Add(new object[] { "Listening", totalListeningAttempted });
+                tableData.Rows.Add(new object[] { "Reading", totalReadingAttempted });
+                tableData.Rows.Add(new object[] { "Speaking",  totalSpeakingAttempted });
+                tableData.Rows.Add(new object[] { "Writing", totalWritingAttempted });
+                
 
-                tableReport.Rows.Add("Reading", totalReadingAttempted);
-                tableReport.Rows.Add("Writing", totalWritingAttempted);
+                
                 tableReport.Rows.Add("Listening", totalListeningAttempted);
+                tableReport.Rows.Add("Reading", totalReadingAttempted);
+                
                 tableReport.Rows.Add("Speaking", totalSpeakingAttempted);
+                tableReport.Rows.Add("Writing", totalWritingAttempted);
             }
             else
             {
-                tableData.Rows.Add(new object[] { 1.ToString(), "Reading", readingResult,90 });
-                tableData.Rows.Add(new object[] { 2.ToString(), "Writing", writingResult,90 });
-                tableData.Rows.Add(new object[] { 3.ToString(), "Listening", listeningResult,90 });
-                tableData.Rows.Add(new object[] { 4.ToString(), "Speaking",  speakingResult,90 });
+                
+                
+                tableData.Rows.Add(new object[] {  "Listening", listeningResult });
+                tableData.Rows.Add(new object[] { "Reading", readingResult });
+                tableData.Rows.Add(new object[] {  "Speaking",  speakingResult });
+                tableData.Rows.Add(new object[] { "Writing", writingResult });
 
-                tableReport.Rows.Add("Reading", Convert.ToDecimal(readingResult));
-                tableReport.Rows.Add("Writing", Convert.ToDecimal(writingResult));
                 tableReport.Rows.Add("Listening", Convert.ToDecimal(listeningResult));
+                tableReport.Rows.Add("Reading", Convert.ToDecimal(readingResult));
                 tableReport.Rows.Add("Speaking", Convert.ToDecimal(speakingResult));
+                tableReport.Rows.Add("Writing", Convert.ToDecimal(writingResult));
+                
+                
             }
 
 

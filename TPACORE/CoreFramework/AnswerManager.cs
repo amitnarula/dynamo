@@ -157,6 +157,18 @@ namespace TPA.CoreFramework
 
                 if (File.Exists(Path.Combine(targetDirectory, audioRecordedFileToDelete)))
                     File.Delete(Path.Combine(targetDirectory, audioRecordedFileToDelete));
+
+                //delete records from st.json file for a particular practice set
+                string screenTimeTrackingFile = Path.Combine(targetDirectory, "st.json");
+                if (File.Exists(screenTimeTrackingFile))
+                {
+                    var screenTimeTrackingInfo = JsonConvert.DeserializeObject<List<ScreenTime>>(File.ReadAllText(screenTimeTrackingFile));
+                    screenTimeTrackingInfo.RemoveAll(x => x.PracticeSetId == practiceSetId && x.QuestionType == fileType.ToString().Replace("QUESTION_", ""));
+
+                    File.WriteAllText(screenTimeTrackingFile, JsonConvert.SerializeObject(screenTimeTrackingInfo));
+
+                }
+                
             }
 
             string itemType = string.Empty;
@@ -223,14 +235,14 @@ namespace TPA.CoreFramework
             }
 
             //Removing the entries from screen time tracking file
-            string screenTimeTrackingFile = Path.Combine(targetOutputDirectory, "st.json");
-            if (File.Exists(screenTimeTrackingFile))
+            string stFile = Path.Combine(targetOutputDirectory, "st.json");
+            if (File.Exists(stFile))
             {
-                var screenTimeTrackingInfo = JsonConvert.DeserializeObject<List<ScreenTime>>(File.ReadAllText(screenTimeTrackingFile));
+                var screenTimeTrackingInfo = JsonConvert.DeserializeObject<List<ScreenTime>>(File.ReadAllText(stFile));
                 if(screenTimeTrackingInfo!=null && screenTimeTrackingInfo.Any())
                 {
                     screenTimeTrackingInfo.RemoveAll(x => x.PracticeSetId == practiceSetId && x.QuestionType == itemType);
-                    File.WriteAllText(screenTimeTrackingFile, JsonConvert.SerializeObject(screenTimeTrackingInfo));
+                    File.WriteAllText(stFile, JsonConvert.SerializeObject(screenTimeTrackingInfo));
                 }
             }
 

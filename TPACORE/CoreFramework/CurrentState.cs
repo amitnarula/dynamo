@@ -25,7 +25,7 @@ namespace TPA.CoreFramework
     {
         public string QuestionId { get; set; }
         public string QuestionTemplate { get; set; }
-
+        public string MaxScore { get; set; }
         public string QuestionType { get; set; }
         public string PracticeSetId { get; set; }
         public string TimeSpent { get; set; }

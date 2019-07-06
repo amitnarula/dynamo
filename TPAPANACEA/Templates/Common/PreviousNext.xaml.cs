@@ -276,6 +276,8 @@ namespace TPA.Templates.Common
                     }
                     else // add new record
                     {
+                        int maxPoints = ResolveMaxPoints();
+                        
                         screenTimeTrackingInfo.Add(new ScreenTime()
                         {
                             PracticeSetId = this.CurrentPracticeSetId,
@@ -283,7 +285,8 @@ namespace TPA.Templates.Common
                             PracticeSetName = "Some Practice set",
                             QuestionTemplate = this.QuestionContext.QuestionTemplate,
                             QuestionType = this.CurrentQuestionType.ToString(),
-                            TimeSpent = TimeSpan.FromSeconds(this.TimeSpent).ToString()
+                            TimeSpent = TimeSpan.FromSeconds(this.TimeSpent).ToString(),
+                            MaxScore = maxPoints.ToString()
                         });
                     }
 
@@ -292,6 +295,43 @@ namespace TPA.Templates.Common
 
                 }
             }
+        }
+
+        private int ResolveMaxPoints()
+        {
+            int maxPoints = 0;
+
+            if (CurrentQuestionType == QuestionType.SPEAKING
+                        || CurrentQuestionType == QuestionType.WRITING
+                        || QuestionContext.QuestionTemplate == QuestionTemplates.LISTEN_AND_WRITE.ToString()
+                        && QuestionContext.QuestionTemplate != QuestionTemplates.SPEAK_ANSWER_SHORT_QUESTION.ToString())
+            {
+                //multi parameter question
+                DataSet dsEvalParams = FileReader.ReadFile(FileReader.FileType.EVALUATION_PARAMETER);
+                var questionTemplate = (QuestionTemplates)Enum.Parse(typeof(QuestionTemplates), QuestionContext.QuestionTemplate, true);
+
+                maxPoints = EvaluationManager.PointsByType(dsEvalParams, questionTemplate, "");
+            }
+            else
+            {
+                maxPoints = QuestionContext.CorrectAnswers.Count();
+                //Write from dictation, listen and dictate has different point calculation mechanism
+
+                if (QuestionContext.QuestionTemplate == QuestionTemplates.LISTEN_AND_DICTATE.ToString())
+                {
+                    var correctAnswser = QuestionContext.CorrectAnswers.SingleOrDefault();
+
+                    if (correctAnswser != null)
+                        maxPoints = correctAnswser.Split(' ').Count();
+                }
+
+                if (QuestionContext.QuestionTemplate == QuestionTemplates.REORDER.ToString())
+                {
+                    maxPoints = maxPoints - 1;//bug fix, its not the number of paragraphs, its about number of pairs
+                    //number of correct pairs always 1 less than number of paragraphs in REORDER
+                }
+            }
+            return maxPoints;
         }
 
         private QuestionType ResolveNextModule(Question questionState)

@@ -370,7 +370,7 @@ namespace TPACORE.CoreFramework
 
         }
 
-        public int PointsByType(DataSet dsEvalParams, QuestionTemplates questionType, string specificParameter)
+        public static int PointsByType(DataSet dsEvalParams, QuestionTemplates questionType, string specificParameter)
         {
             int total = 0;
             DataRow[] dRows = dsEvalParams.Tables["template"].Select("key='" + questionType.ToString() + "'");
