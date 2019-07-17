@@ -81,8 +81,11 @@ namespace TPA
         }
 
         public void BindOwnerInfo() {
+            string ownerInfo = string.Empty;
+            var user = UserManager.GetUserById("institute");
+            ownerInfo = user == null ? "Panacea" : user.Firstname;
 
-            txtBlockStatus.Text = "© Copyright PTE Panacea. All rights reserved.This application is licensed to " + UserManager.GetUserById("institute").Firstname;
+            txtBlockStatus.Text = "© Copyright PTE Panacea. All rights reserved.This application is licensed to " + ownerInfo;
         }
 
 
