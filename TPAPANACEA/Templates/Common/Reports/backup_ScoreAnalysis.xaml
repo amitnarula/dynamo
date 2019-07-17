@@ -15,18 +15,17 @@
         <!-- Style for data rows. -->
         <Style x:Key="dataRowStyle" TargetType="{x:Type TableRowGroup}">
             <Setter Property="FontSize" Value="12"/>
-            
         </Style>
 
         <!-- Style for data cells. -->
         <Style TargetType="{x:Type TableCell}">
             <Setter Property="Padding" Value="0.1cm"/>
             <Setter Property="BorderBrush" Value="Black"/>
-            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="BorderThickness" Value="0.01cm"/>
         </Style>
     </FlowDocument.Resources>
-    <xrd:ReportProperties>
-        <xrd:ReportProperties.ReportTitle>Skills profile</xrd:ReportProperties.ReportTitle>
+    <xrd:ReportProperties>        
+        <xrd:ReportProperties.ReportTitle>Score analysis module wise</xrd:ReportProperties.ReportTitle>
     </xrd:ReportProperties>
     <xrd:SectionReportHeader PageHeaderHeight="2" Padding="10,10,10,0" FontSize="12">
         <Table CellSpacing="0">
@@ -37,7 +36,7 @@
             <TableRowGroup>
                 <TableRow>
                     <TableCell>
-                        <Paragraph FontSize="15" FontWeight="Bold">
+                        <Paragraph FontSize="24" FontWeight="Bold">
                             <!--<xrd:InlineContextValue PropertyName="ReportTitle" /> No.-->
                             <xrd:InlineDocumentValue PropertyName="ReportTitle" />
                         </Paragraph>
@@ -53,22 +52,19 @@
     </xrd:SectionReportHeader>
         
     <Section Padding="80,20,40,10" FontSize="12" BreakPageBefore="True">
-        <Paragraph FontSize="15" Padding="5" Background="#8BC7EA">
-            <xrd:InlineContextValue PropertyName="ReportTitle" />
         
+        <Paragraph FontSize="18" FontWeight="Bold">
+            <xrd:InlineContextValue PropertyName="ReportTitle" /> 
         </Paragraph>
         <!--<Paragraph>Time analysis report gives an insight of time spent on each question.</Paragraph>-->
 
 
         <!--<Paragraph>Time analysis</Paragraph>-->
-        <Table CellSpacing="0">
-            <Table.Columns>
-                <TableColumn Width="200" />
-                <TableColumn Width="100" />
-            </Table.Columns>
-            <!--<TableRowGroup Style="{StaticResource headerFooterRowStyle}">
+        <Table CellSpacing="0" BorderBrush="Black" BorderThickness="0.02cm">
+            
+            <TableRowGroup Style="{StaticResource headerFooterRowStyle}">
                 <xrd:TableRowForDynamicHeader TableName="Header"/>
-            </TableRowGroup>-->
+            </TableRowGroup>
 
             <TableRowGroup Style="{StaticResource dataRowStyle}">
                 <xrd:TableRowForDynamicDataTable TableName="Data"/>
@@ -91,14 +87,21 @@
 
     </Section>
     <Section Padding="80,10,40,10" FontSize="12">
-        <Paragraph FontSize="15" Padding="5" Background="#8BC7EA">
-            Graphical analysis
+        <Paragraph FontSize="18" FontWeight="Bold">
+            Graphical analysis module wise
         </Paragraph>
         <Paragraph>
-            <crcv:StackedBarChart TableName="Score" TableColumns="Module,Score" Width="16cm" Height="5.5cm" UniqueColors="False"  Title="Score analysis out of 90">
-            </crcv:StackedBarChart>
+            <crcv:ColumnChart TableName="Score" TableColumns="Module,Score" Width="16cm" Height="12cm" UniqueColors="False"  Title="Score analysis">
+            </crcv:ColumnChart>
         </Paragraph>
-       
+        <!--<Paragraph>
+            <crcv:ColumnChart TableName="Example2" TableColumns="Year,Value" Width="16cm" Height="5cm" View3D="True" UniqueColors="False" Title="Example Graph 2">
+            </crcv:ColumnChart>
+        </Paragraph>
+        <Paragraph>
+            <crcv:ColumnChart TableName="Example3" TableColumns="Opinion,Percent" Width="10cm" Height="5cm" Title="Example Graph 3">
+            </crcv:ColumnChart>
+        </Paragraph>-->
     </Section>
 </FlowDocument>
 

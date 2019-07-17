@@ -256,7 +256,7 @@ namespace TPACORE.CoreFramework
                                         if (item.Split('=')[0].Equals(specificParameter, StringComparison.InvariantCultureIgnoreCase))
                                         {
                                             int attmptSpecificParameter = 0;
-                                            int.TryParse(item.Split('=')[1], out attmptSpecificParameter);
+                                            int.TryParse(item.Split('=')[1].Split('/')[0], out attmptSpecificParameter);
                                             attempted += attmptSpecificParameter;
                                             break;
                                         }
@@ -265,7 +265,7 @@ namespace TPACORE.CoreFramework
                                     }
 
                                     int attmpt = 0;
-                                    int.TryParse(item.Split('=')[1], out attmpt);
+                                    int.TryParse(item.Split('=')[1].Split('/')[0], out attmpt);
                                     attempted += attmpt;
                                 }
 
@@ -370,7 +370,7 @@ namespace TPACORE.CoreFramework
 
         }
 
-        public int PointsByType(DataSet dsEvalParams, QuestionTemplates questionType, string specificParameter)
+        public static int PointsByType(DataSet dsEvalParams, QuestionTemplates questionType, string specificParameter)
         {
             int total = 0;
             DataRow[] dRows = dsEvalParams.Tables["template"].Select("key='" + questionType.ToString() + "'");
