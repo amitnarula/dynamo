@@ -151,8 +151,11 @@ namespace TPA.Templates.Listening
         private void txtBlockQuestionDescription_MouseDown(object sender, MouseButtonEventArgs e)
         {
             var run = e.OriginalSource as Run;
-            run.Background = run.Background == null && !string.IsNullOrWhiteSpace(run.Text) ?
-                new SolidColorBrush(Colors.Yellow) : null;
+            if (run != null)
+            {
+                run.Background = run.Background == null && !string.IsNullOrWhiteSpace(run.Text) ?
+                    new SolidColorBrush(Colors.Yellow) : null;
+            }
         }
         
     }
