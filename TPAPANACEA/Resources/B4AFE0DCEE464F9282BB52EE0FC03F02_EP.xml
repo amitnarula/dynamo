@@ -30,7 +30,7 @@
   </template>
   <template>
     <key>SPEAK_ANSWER_SHORT_QUESTION</key>
-    <params>Correct/Incorrect,int,0,1</params>
+    <params>Correct or Incorrect,int,0,1</params>
   </template>
 
   
