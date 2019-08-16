@@ -38,6 +38,7 @@ namespace TPAPanacea.Templates.Common
             {
                 User usr = TPACache.GetItem(TPACache.STUDENT_ID_TO_EVALUATE) as User;
                 this.Title = "Evaluating : " + usr.Firstname + "," + usr.Lastname;
+                lblHead.Content = this.Title;
 
                 var savedResults = EvaluationManager.GetResult(QuestionContext);
 

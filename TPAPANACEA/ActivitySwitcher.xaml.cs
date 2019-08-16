@@ -154,7 +154,9 @@ namespace TPA
                 {
                     //perform logout
                     TPACache.RemoveItem(TPACache.LOGIN_KEY);
+                    TPACache.RemoveItem(TPACache.STUDENT_ID_TO_EVALUATE);
                     HideEvaluatorPermittedControls();
+                    GoToHomePage();
                 }
             }
             else if (userLoginInfo != null) {
@@ -168,6 +170,7 @@ namespace TPA
                     //perform logout
                     TPACache.RemoveItem(TPACache.STUDENT_LOGIN_INFO);
                     HideEvaluatorPermittedControls();
+                    GoToHomePage();
                 }
             }
             else
@@ -183,6 +186,10 @@ namespace TPA
             txtBlockLoginInfo.Visibility = Visibility.Collapsed;
             btnManageUsers.Visibility = Visibility.Collapsed;
             btnReports.Visibility = Visibility.Collapsed;
+        }
+
+        private void GoToHomePage() {
+            Switcher.Switch(new HomePanacia());
         }
 
         private void btnResult_Click(object sender, RoutedEventArgs e)

@@ -389,7 +389,7 @@ namespace TPAPanacea.Templates.Common
                     }
                     //total
                     obj[0] = "Total";
-                    obj[1] = "Speaking";
+                    obj[1] = "Writing";
                     obj[2] = "Time & Points";
                     obj[3] = totalTimespan.ToString(); ;
                     obj[4] = totalPoints.ToString();
@@ -437,7 +437,7 @@ namespace TPAPanacea.Templates.Common
                     }
                     //total
                     obj[0] = "Total";
-                    obj[1] = "Speaking";
+                    obj[1] = "Reading";
                     obj[2] = "Time & Points";
                     obj[3] = totalTimespan.ToString(); ;
                     obj[4] = totalPoints.ToString();
@@ -487,7 +487,7 @@ namespace TPAPanacea.Templates.Common
                     }
                     //total
                     obj[0] = "Total";
-                    obj[1] = "Speaking";
+                    obj[1] = "Listening";
                     obj[2] = "Time & Points";
                     obj[3] = totalTimespan.ToString();
                     obj[4] = totalPoints.ToString();
