@@ -1,145 +1,206 @@
 <?xml version = "1.0"?>
 <questions>
 <!--TEST 1-->
-<question>
-  <id>fdae660df3d0425aafab39a7fd882be9</id>
-  <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>Pollution is an environmental concern for people throughout the world. One university study suggests that pollutants in the water, air, and soil cause up to 40% of the premature deaths in the world's population. The majority of these deaths occur in developing countries. Water in many third world countries is contaminated with toxic chemicals, also known as toxins. The World Health Organization (WHO) estimates that 1.1 billion people have little or no access to clean water. In many of these regions the water that is used for drinking, cooking, and washing is the same water that is used for dumping sewage and hazardous waste.
-Air pollution is a growing problem throughout the world. Indoor air pollution is one of the leading causes of lung cancer. Families in developing countries use open stoves for cooking and heating their homes. The smoke, which is full of chemicals and carcinogens, gets trapped inside where families eat and sleep. Outdoor pollution also causes disease and illness, especially in industrial cities such as Beijing, China, where cancer is the leading cause of death. China relies heavily on coal, which is considered the dirtiest source of energy. According to the European Union, only 1% of urban dwellers in China breathe clean air on an average day. Neighboring countries including Japan and Korea receive much of China's pollution in the form of acid rain. 
-Soil pollution is also a major concern, both in industrial and developing countries. Pollutants such as metals and pesticides seep into the earth's soil and contaminate the food supply. Soil pollution causes major health risks to entire ecosystems. This type of pollution reduces the amount of land suitable for agricultural production and contributes to global food shortages.  As more people move to urban centres, premature deaths caused by pollution are expected to increase worldwide. Today, the developed nations who achieved their wealth at the expense of the environment will be held accountable for protecting the earth's resources for future generations.</description>
-    <title>Writing - Summarize Written Text - Q1</title>
-    <maxWordCount>300</maxWordCount>
-    <answer>Pollution whether its indoor, outdoor or soil pollution, is an environmental concern for people leading to 40% premature deaths in the world's population and majority of them in developing countries  and the developed nations who achieved their wealth at the expense of the environment will be held accountable for protecting the earth's resources for future generations.</answer>
-  </template>
-</question>
-<question>
-  <id>246b15d97afc4f249d36bef19f7fbc0a</id>
-  <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>A fair number of agribusiness executives, agricultural and ecological scientists, and international agriculture experts believe that a large-scale shift to organic farming would not only increase the world's food supply, but might be the only way to eradicate hunger. This probably comes as a surprise. After all, organic farmers scorn the pesticides, synthetic fertilizers, and other tools that have become synonymous with high-yield agriculture. Instead, organic farmers depend on raising animals for manure, growing beans, clover, or other nitrogen-fixing legumes, or making compost and other sources of fertilizer that cannot be manufactured in a chemical plant but are instead grown-which consumes land, water, and other resources. Since organic farmers can't use synthetic pesticides, one can imagine that their fields suffer from a scourge of crop-munching bugs, fruit-rotting blights, and plant-choking weeds. And because organic farmers depend on rotating crops to help control pest problems, the same field won't grow corn or wheat or some other staple as often.
-As a result, the argument goes, a world dependent on organic farming would have to farm more land than it does today-even if it meant less pollution, fewer abused farm animals, and fewer carcinogenic residues on our vegetables. "We aren't going to feed 6 billion people with organic fertilizer," said Nobel Prize-winning plant breeder Norman Borlaug at a 2002 conference. "If we tried to do it, we would level most of our forest and many of those lands would be productive only for a short period of time." 
-In recent years, organic farming has attracted new scrutiny, not just from critics who fear that a large-scale shift in its direction would cause billions to starve, but also from farmers and development agencies who actually suspect that such a shift could better satisfy hungry populations. Unfortunately, no one had ever systematically analyzed whether in fact a widespread shift to organic farming would run up against a shortage of nutrients and a lack of yields-until recently. The results are striking.</description>
-    <title>Writing - Summarize Written Text - Q2</title>
-    <maxWordCount>300</maxWordCount>
-    <answer>An agricultural experts, scientists and executives believe that a large-scale shift to organic farming would not only increase the world's food supply, but might eradicate hunger but a world dependent on organic farming would have to farm more land and yet no one had ever systematically analyzed whether in fact a widespread shift to organic farming would run up against a shortage of nutrients and a lack of yields.</answer>
-  </template>
-</question>
-<question>
-  <id>2d3d347c692b4dfa90c2416efacfdbe4</id>
-  <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>Climate change has been a constant reality for many Filipinos, with impacts ranging from extreme weather events to periodic droughts and food scarcity. The most affected populations are coastal residents and rural communities that lack proper disaster preparedness. According to the Center for Global Development, the Philippines is the world’s fourth most vulnerable country to the direct impacts of extreme weather events. Averaging 20 tropical cyclones a year, it may be the world’s most storm-exposed nation. Last November, Super typhoon Haiyan, the most intense tropical cyclone ever recorded, claimed more than 10,000 lives, affected over 9 million people, and left over 600,000 Filipinos homeless. With both the oceans and the atmosphere warming, there is broad scientific consensus that typhoons are now increasing in strength. Like most developing countries, the Philippines plays a minor role in global carbon emissions yet suffers an inordinately higher cost. With over a third of its population living in poverty, the country emits just 0.9 metric tons of carbon per capita, compared to the United States’ 17.6 metric tons. “We lose 5% of our economy every year to storms,” observes Philippine Climate Change Commissioner Naderev Sano. 
-It is widely argued that taking early action against climate change through mitigation efforts outweigh the costs and economic impacts of inaction. In the Philippines, transitioning to a low-carbon economy has many challenges, but it also offers strong prospects for growth and development. The country has tremendous mitigation opportunities and is graced with significant renewable energy resources. According to the Philippine Department of Energy, renewable energy already provides 40 percent of the country’s primary energy requirements, and much of its potential has yet to be tapped. To achieve an environmentally secure future, the Philippines must not only rebuild more sustainably but also create a sustainable pathway for future development. With one of the most progressive energy laws in Asia, the country has committed to a renewable energy target of 50 percent by 2030 under its Renewable Energy Act.
-</description>
-    <title>Writing - Summarize Written Text - Q3</title>
-    <maxWordCount>300</maxWordCount>
-    <answer>Climate change has been a constant reality for many Filipinos, being the world’s most vulnerable country and  despite minor role in global carbon emissions Philippines yet suffers an inordinately higher cost, transitioning to a low-carbon economy has many challenges  but it also offers strong prospects for growth and development  as  it has tremendous mitigation opportunities and is graced with significant renewable energy resources and need to sustain it  for future development.</answer>
-  </template>
-</question>
-<question>
-  <id>b7ad2f04758545b2b39b50cc54c24380</id>
-  <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
-  <type>WRITE_ESSAY</type>
-  <itemType>WRITING</itemType>
-  <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:20:00</attemptTime>
-  <template>
-    <description>In a war of ideas, it is people who get killed”. Does a common man suffer from a group’s ideology? Express your opinion, and support the same with reasons and examples.</description>
-    <title>Writing - Essay Writing - Q4</title>
-    <maxWordCount>300</maxWordCount>
-    <answer></answer>
-  </template>
-</question>
-<!--TEST 1 END-->
-  
-<!--TEST 2-->
   <question>
-  <id>ff270fd938b0447cbee2f1f735429e09</id>
-  <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>A new study shows that having a low social status can be bad for our health. The study was on monkeys. Researchers from Duke University in the USA looked at the behaviour and health of 45 female monkeys and found that those with a lower social status had more health problems. The monkeys were split up into five groups of nine. The researchers gave the monkeys in each group time to get to know each other. Then they took one monkey from each group and put her into another group. This meant she was the "new girl" and was at the bottom of the group. When scientists checked the health of the monkeys, they found that the "new girl" was unhealthier than the other monkeys.
-The researchers said that although their study focused on monkeys, the findings could also be true for humans because we share a lot of our DNA with monkeys. Professor Graham Rook, from University College London, told the BBC News that the findings of the study may also apply to humans. He said governments must understand that people with a lower social status suffer more from health problems. He said that just because "people at the bottom" have got cars and TVs, it does not mean they are happy. If they feel they are at the bottom compared with richer people, their health will worsen. People who are richer can live up to two decades longer than those who are poorer.
-</description>
-    <title>Writing - Summarize Written Text - Q1</title>
-    <maxWordCount>300</maxWordCount>
-    <answer>A new study shows that having a low social status can be bad for our health, researchers from Duke University split the monkeys into groups which was unhealthier when put to another group, even it is true for humans  as we share a lot of our DNA with monkeys and the people with a lower social status suffer more from health problems when at the bottom compared with richer people.</answer>
-  </template>
-</question>
-<question>
-  <id>8464bee38c6e459f85b05478493074a9</id>
-  <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>The USA has put into space the world's most advanced and powerful weather satellite. Scientists say it will revolutionize how we predict the weather and how we look at weather events. The National Oceanic and Atmospheric Administration (NOAA) said its $1 billion Geostationary Operational Environmental Satellite (GOES-R) will take weather photographs five times faster than other satellites, and with four times higher image quality. The NOAA said: "Without a doubt, GOES-R will revolutionize weather forecasting as we know it." A weather forecaster said the difference in the speed and quality of the satellite's images is like the difference between old black and white TV pictures and today's HD televisions. The new satellite will give us powerful, real-time images and information. These will make the world a safer place. Airline pilots will receive better data to stay away from turbulence. The satellite will be able to zoom in on severe weather events to get much more detailed and accurate pictures. This will help emergency services to warn people more quickly and reduce the costs to human life and property. People will have better information about hurricanes, tornadoes, flooding, volcanic ash clouds, and wildfires. A scientist at the NOAA said: "It will give the weather as it's looking now rather than the weather that happened 15 to 30 minutes ago." The NOAA said weather forecasters couldn't wait to use it.</description>
-    <title>Writing - Summarize Written Text - Q2</title>
-    <maxWordCount>300</maxWordCount>
-    <answer>The USA has put into space the world's most advanced and powerful weather satellite to predict the weather and how we look at weather events and NOAA said that GOES-R will take weather photographs five times faster than other satellites with higher image quality which will help emergency services to warn people more quickly and reduce the costs to human life and property. </answer>
-  </template>
-</question>
-<question>
-  <id>ed7031b4a91c49f499da9c8b06cae24e</id>
-  <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>The residents of a town cut off by last week's New Zealand earthquake have received a somewhat unusual but welcome air delivery - enough fast food to feed a small army. The mercy mission to the town of Kaikoura was organized by a plasterer from the town of Nelson 130 kilometres to the north. Robert Coombes, 49, spent three days gathering donations from people and bought as much fast food as he could with the cash. He filled a friend's light aircraft with 400 pieces of Kentucky Fried Chicken, 300 McDonald's burgers, 50 Domino's pizzas, and hundreds of candies. His cargo of tasty treats landed in Kaikoura in time for lunch on Friday. Kaikoura was the town worst hit by the magnitude 7.8 quake.
-Mr Coombes explained to reporters that he wanted to "put a smile on people's faces, even if it's only for one day". He added: "There's necessities, but with kids, you need a bit more than bread and water. I just thought I'd fill the plane with junk food and bring a little bit of happiness to the place…. It's just being a good human being." Coombes said the manager of KFC and McDonald's supported his idea and their staff started work two hours earlier to prepare the goodies. Main roads and rail links to Kaikoura have been severed by massive landslides. There have been well over 2,000 aftershocks since Monday and the government is warning that there are likely to be more.
-</description>
-    <title>Writing - Summarize Written Text - Q3</title>
-    <maxWordCount>300</maxWordCount>
-    <answer>The mercy mission to the town of Kaikoura was organized by a plasterer from the town of Nelson 130 kilometers to the north,  Robert Coombes  spent three days gathering donations from people and bought  fast food as he could with the cash with the support of  KFC and McDonald's staff which he delivered on friend's light aircraft as main roads and rail links to Kaikoura have been severed by massive landslides. </answer>
-  </template>
-</question>
-<question>
-  <id>d159a19fcdb14854b3421f951e077a3d</id>
-  <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
-  <type>WRITE_ESSAY</type>
-  <itemType>WRITING</itemType>
-  <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:20:00</attemptTime>
-  <template>
-    <description>In some countries, the crime rate by youngsters is growing. Some people think that regardless of age, the youngsters who commit major crimes such as murder, rape should receive adult punishment.
-To what extent do you agree or disagree?</description>
-    <title>Writing - Summarize Written Text - Q4</title>
-    <maxWordCount>300</maxWordCount>
-    <answer></answer>
-  </template>
-</question>
-<!--TEST 2 END-->
-  <!--TEST 4 -->
-  
+    <id>06380819efaa4b82978a08df085b061b</id>
+    <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>
+        Never has there been the slightest whisper of doubt, the slightest want of faith, in the chief God of America — unlimited belief in the future of America. The faith of Americans in their own country is religious, if not in its intensity, at any rate in its almost absolute and universal authority. It pervades the air we breathe.
+        The Land of Democracy has always appealed to its more enthusiastic children chiefly as a land of wonderful and more than national possibilities. Neither race nor tradition, nor the actual past, binds the American to his countrymen, but rather the future which together they are building.
+        When, however, Americans talk of their country as the Land of Promise, a question may well be raised as to precisely what they mean. They mean, of course, in general, that the future will have something better in store for them individually and collectively than has the past or the present; but a very superficial analysis of this meaning discloses certain ambiguities. How is this Promise to be fulfilled? Will it fulfill itself, or does it imply certain responsibilities? If so, what responsibilities?
+      </description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Americans have faith in their country and on the future which they are building together, for Americans their land is Land of Democracy and Land of Promise which means the future will have something better for them individually and collectively, but a superficial analyses discloses certain ambiguities about responsibilities.</answer>
+    </template>
+  </question>
   <question>
-    <id>2d277613cbb34b358be3123fc9e3e48e</id>
+    <id>377243c6854c47099ee1c6730d228004</id>
+    <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>
+        Until the middle of the nineteenth century art had been regarded as a luxury for the rich dilettante; people heard little of it, and thought less. There was a popular belief that beautiful things were expensive. There never was a more erroneous idea. The diligent polish in order to secure nice plain surfaces, or the neat fitting of parts together, is infinitely more difficult than adding a florid casting to conceal clumsy workmanship. The mere fact that a piece of work is decorated does not show that it has cost any more in time and execution than if it were plain — frequently many hours have been saved by the device of covering up defects with cheap ornament.
+        A craft may easily be practiced without art, and still serve its purpose; the alliance of the two is a means of giving pleasure as well as serving utility. People suppose that because a design is artistic, its technical rendering is any the less important, but they are mistaken. Frequently curious articles are palmed off on us, and designated as "Arts and Crafts" ornaments, in which neither art nor craft plays its full share. Art does not consist only in original, unusual, or unfamiliar designs; the best art is that which produces designs of grace and appropriateness, whether they are strikingly new or not.
+        A medieval artist was usually a craftsman as well. He was not content with furnishing designs alone, and then handing them over to men whose hands were trained to their execution. He took his own designs and carried them out. The result was a harmony of intention and execution which is often lacking when two men of differing tastes produce one object.
+      </description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Art had been regarded as a luxury for the rich dilettante till the mid of nineteenth century, the alliance of art and craft meaning is to give pleasure as well as serving utility and the best art produces designs of grace and appropriateness, as medieval artist carried out his own designs further, therefore, this in harmony of intention and execution which often lacks when two men of differing tastes produce one object.</answer>
+    </template>
+  </question>
+  <question>
+    <id>6994bca916a24e7fbc4cc634e32daf7b</id>
+    <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>The physician is expected to meet the grim monster, "break the jaws of death, and pluck the spoil out of his teeth." His ear is ever attentive to entreaty, and within his faithful breast are concealed the disclosures of the suffering. Success may elate him, as conquest flushes the victor. Honours are lavished upon the brave soldiers who, in the struggle with the foe, have covered themselves with glory, and returned victorious from the field of battle; but how much more brilliant is the achievement of those who overwhelm disease, that common enemy of mankind, whose victims are numbered by millions! Is it meritorious in the  physician to modestly veil his discoveries, regardless of their importance? If he has light, why hide it from the world? Truth should be made as universal and health-giving as sunlight. We say, give light to all who are in darkness, and a remedy to the afflicted everywhere.</description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>The soldier who returns victorious after struggling with foe, covers himself with glory and the achievement is more brilliant for those to have a victory on enemy of mankind, its means, give light to all who are in darkness, and a remedy to the afflicted everywhere and truth should be made as universal and health-giving as sunlight.</answer>
+    </template>
+  </question>
+  <question>
+    <id>15a04272ade0438f8fe0a8e7b8d9615a</id>
+    <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>Many people believe that National Defence and Law Enforcement should be the exclusive domain of men as these forces need physical stamina that women are biologically not endowed with. Others claim that denial of entry to women to these forces amounts to gender discrimination. State your point of view and support it with reasons and examples.</description>
+      <title></title>
+      <maxWordCount>300</maxWordCount>
+      <answer>
+        Few skeptics claim that National Defense and Law Enforcement should be restricted only within the male authority as it requires physical strength which women do not possess. However, others have the perception that limitations on women would account to gender inequality. In my opinion, women’s strength cannot be underestimated and I agree with the latter viewpoints. This essay will give justifications for the stated reasons.
+        To begin with, 21st century has openly welcomed many changes and one of them is permitting women to do the same work as men. The current scenario has considered the women as a strong individual. To illustrate, in developing country like India, in most of the defense sectors women has been provided the top most position, for example, Punita Arora is the first woman in India to don the second-highest rank, Lieutenant General of Indian Armed Forces, as well as the rank of Vice Admiral of Indian Navy. So it is upon the willingness of ladies to be physically fit and able to withstand challenges ahead of them.
+        Apart from this, the fact that majority of females are determined to protect their state and joining the defense and police department will provide them opportunity to be patriotic. For example, during the Kargil War, Flight Officer Gunjan Saxena made history by becoming the first woman IAF officer to fly in a combat zone and evacuated injured Indian Army soldiers. Later, she became the first woman recipient who got a gallantry award for her courageous action.
+        To conclude, it’s not about gender discrimination, it’s about allowing women to take up combat roles in all sections of the National Defense and Law Enforcement which would be a radical move towards gender parity in one of the world’s most male-dominated professions.
+      </answer>
+    </template>
+  </question>
+  <!-- Test 2 -->
+  <question>
+    <id>c505aa7025d24d9fba7f7de55d573598</id>
+    <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>Humor is infectious. The sound of roaring laughter is far more contagious than any cough, sniffle, or sneeze. When laughter is shared, it binds people together and increases happiness and intimacy. Laughter also triggers healthy physical changes in the body. Humor and laughter strengthen your immune system, boost your energy, diminish pain, and protect you from the damaging effects of stress. Laughter is a powerful antidote to stress, pain, and conflict. Nothing works faster or more dependably to bring your mind and body back into balance than a good laugh. Humor lightens your burdens, inspires hopes, connects you to others, and keeps you grounded, focused, and alert.With so much power to heal and renew, the ability to laugh easily and frequently is a tremendous resource for surmounting problems, enhancing your relationships, and supporting both physical and emotional health. Best of all, this pricele saughter makes you feel good. And the good feeling that you get when you laugh remains with you even after the laughter subsides. Humor helps you keep a positive, optimistic outlook through difficult situations, disappointments, and loss. medicine is fun, free, and easy to use.</description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Humor is infectious and the sound of roaring laughter is far more contagious which when shared  binds people together and increases happiness and intimacy, even triggers healthy physical changes in the body, besides, it  brings your mind and body back into balance than a good laugh, humor helps you keep  optimistic outlook through any  situations.</answer>
+    </template>
+  </question>
+  <question>
+    <id>1294c057c5a44628abc32917b604efd6</id>
+    <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>Grega. It evolved from the idea of creating a type of English that can be learned more easily than regular British or American English and that serves as a tool for successful global communication. BGE is guided by creating "empathy and tolerance" between speakers in a global context. This applies to the context of global communication, where different speakers with different mother tongues come together. BGE aims to develop this competence as quickly as possible. English language teaching is almost always related to a corresponding culture, e. g. learners will either deal with American English and therefore with American culture or British English and therefore with British culture. Basic Global English is supposed to solve this problem by creating one collective version of English. Additionally, it is a system that is suited for self-teaching as well as regular teaching.BGE is based on 20 elementary grammar rules that provide a certain degree of variation. For example, regular as well as irregular formed verbs are accepted. Pronunciation rules are not as strict as in British or American English, so there is a certain degree of variation for the learners. Exceptions that cannot be used are pronunciations that would be harmful to mutual understanding and therefore minimize the success of communication.</description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Basic Global English is an  idea of creating a type of English that can be learned more easily than regular British or American English and that serves as a tool for successful global communication where speakers with different mother tongues come together, also BGE solves a corresponding culture  problem by creating one collective version of English where pronunciation rules are not as strict as in British or American English.</answer>
+    </template>
+  </question>
+  <question>
+    <id>42f60617bafd453bb968d5738f3bc88a</id>
+    <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>Some people think placing advertisements in schools is a great resource for public schools that need additional funding, but others think it exploits children by treating them as a captive audience for corporate sponsors. Choose which position you most agree with and discuss why you chose that position. Support your point of view with details from your own experiences, observations or reading.</description>
+      <title></title>
+      <maxWordCount>300</maxWordCount>
+      <answer>
+        Advertisement is a main source of a promoting a business and it contributes in generation of large amount of funds for any organization or corporation like schools. However, some argue that schools are not an appropriate place to advertise in the name of extra fund collection. This essay will be in favor of the latter viewpoints.
+        To begin with, placing advertisements in schools will distract juveniles who do not have controlling power on themselves as psychological aspect of children needs to be considered before placing an advertisement in school. School children might concentrate less on their studies and will focus on colorful advertisements because of which their future will be uncertain as they will not be able to pass their course easily. For example, a child who is in the habit of involving in various advertising campaigns since childhood, lacks behind on his or her studies .In the same way, young pupils will be obsessed with money and if there is a shortage of money in any stage of their life while growing, they might indulge in an illegal act to achieve money.
+        On the other side, there are positive results also of the same, as children may get a platform for their future and they can shape their life by following only positive outcomes of advertisement.
+        To conclude, the latter notion outweighs the first one as students should focus on their studies at this age rather than highlighting in other aspect like advertisement. Thus, advertisements should be banned from the schools, the schools should work on providing good and peaceful environment for studies rather getting kids involved in any such kind of work.
+      </answer>
+    </template>
+  </question>
+  <!-- Test 3 -->
+  <question>
+    <id>cf5a75121ae2470891ba036299b7a19e</id>
+    <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>
+        A Regional Signal is one that has a limited geographical range. If a Norwegian, a Korean and a Masai were marooned together on a desert island, they would easily be able to communicate their basic moods and intentions to one another by their actions. All humanity shares a large repertoire of common movements, expressions, and postures. But there would also be misunderstandings. Each man would have acquired from his own culture a special set of Regional Signals that would be meaningless to the others. If the Norwegian were shipwrecked instead with a Swede and a Dane, he would find his task much easier, because their closer origins would mean a greater share of these regional gestures, since localized actions, like many words, do not follow precisely the present-day national boundaries.
+        This comparison of gestures with words is significant because it reveals immediately our state of ignorance as regards gestural geography. We already know a great deal about linguistic maps, but we know far too little about Gesture Maps. Ask a linguist to describe the distribution of any language you like to name and he will be able to provide accurate, detailed information for you. Take any word, and he will be able to demonstrate its spread from country to country. He can even present you with local dialect maps for some parts of the world and show you, like Professor Higgins in Pygmalion, how slang expressions are limited to certain small areas of big cities. But ask anyone for a world-wide gesture atlas, and you will be disappointed.
+      </description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Each man have acquires a special set of Regional Signals which are meaningless to the others and the comparison of gestures  is significant because it reveals immediately our state of ignorance as regards gestural geography.</answer>
+    </template>
+  </question>
+  <question>
+    <id>5824d908738742d89d1159082203f4c8</id>
+    <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>
+        The distribution or offering of money in elections by candidates and political parties during elections plays an important role in determining the voting choice of the people. The predicament of irresponsible use of cash - acknowledged by political parties and individual candidates from businessman and other sources from time-to-time for a furtherance of their election prospects has already acquired upsetting aspect of our electoral system. It has also been pointed out that political parties and their candidates have spent money far in excess of the limit imposed by the Representation of Peoples’ Act, 1954.
+        In extreme forms, unconventional modes of electoral practices are manifest in the explicit acts of vote buying. Since, persuasion alone occasionally generates an adequate amount of support, candidates or parties, on the other, on a regular basis, try to pay for or convince voters through money.The influence of ‘money’ in elections shapes the voting behavior of 15.83% of the respondent electorate in the constituency. The male voters are more influenced by ‘money’ than the female counterpart. This is mainly because of two important reasons, i.e., due to conservative nature of women and the domination over females by the male counterpart. Exchange of vote for money has turn out to be open-secret in every election of the constituency. Generally speaking, the voters who accepted money are of two types: voters who did not claim but simply agreed while being paid; and those who claim either from the candidate directly or from any sources that advance them during the campaign period.
+      </description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Offering money in elections by candidates of political parties plays an important role in determining the voting choice of the people and the predicament of irresponsible use of cash as the unconventional modes of electoral practices are manifest in the explicit acts of vote buying, the male voters are more influenced by ‘money’ may be because of the conservative nature of women or the male domination.</answer>
+    </template>
+  </question>
+  <question>
+    <id>c05304c092654747a1a949fce694cb9d</id>
+    <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>
+        Billions of dollars are being wasted each year on space research. The money could be better used to improve conditions on earth.
+        To what extent do you agree or disagree with this statement?
+      </description>
+      <title></title>
+      <maxWordCount>300</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <question>
+    <id>cfc2cfad27d94191b6d27142d16e986f</id>
+    <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>
+        Some people think that people who are over 60 years old should retire and stop working.
+        To what extent do you agree or disagree with this statement?
+      </description>
+      <title></title>
+      <maxWordCount>300</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <!-- Test 4 -->
+  <question>
+    <id>c3bba739b63449c8ac4971430d4ce34d</id>
     <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
     <type>SUMMARIZE_TEXT</type>
     <itemType>WRITING</itemType>
@@ -147,21 +208,21 @@ To what extent do you agree or disagree?</description>
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>Life begins and ends with two words: birth and death. People say live in a way that you feel the tingle of life all the time. There is an expression that when we had given birth we as babies were crying and others were laughing but we should live in a way that when we are dying we laugh and other's cry. But when I think about my life time and the happiest moments of my life I think I remember my childhood. The reason's are I didn't have any responsibilities, I felt secure and I had very close and good relationships.
+      <description>
+        There are four key advices for you to make a graceful exit without upsetting anyone at your current organization. Firstly, your resignation letter must justify your reasons to resign. Many people tend to cook up stories which neither work nor are advisable. Whether you're quitting for a healthier work culture, better pay package or to get rid of a crazy boss, be honest while drafting your resignation. Your boss is sharp enough to smell the fish. You may create hurdles for yourself by lying. So, don’t even try it!
 
-The first thing that makes a life happier is not having responsibilities. When someone is child, during the childhood that person doesn't have any responsibilities. Not about the future and not about the past. In grownup world you had a past that sometimes makes you responsible about the future or you have a present time that require you to take many actions about that. Such as taking care of others or paying for mortgage and other life necessities. In grownup life sometimes you work very hard to achieve a goal but you don't get the result and you fail on that.
-
-Another thing that makes life happier during the childhood is that most of the time parent's on that age take care of children. So children feel secure and free to spend their life the way they want. When someone is child their demands are limited so they feel they have what they want and that's a good feeling. When you become a grownup your needs become bigger and sometimes not possible to achieve.
-
-The third reason that childhood was the pleasant time of my childhood was because I had very good friends. Friendships in childhood are very close and not based on what you do or who you are. Its pure feeling that makes the friendship. I think all people when they remember their childhood find it as happiest period of their life time because when you don't feel stress and you feel secure that makes a life very happy.
+        Secondly, always serve a proper notice period as stated in your 'contract of employment' or in the Company's handbook. Where there is no notice period required, offer yourself as an available resource for at least 2 weeks to help your replacement learn the work. However if your profile includes managing the company's sensitive data, your employer may ask you to leave the very day you resign. Don't consider it rude but a necessary step on the company's part to avoid security breaches.
+        Thirdly, most people in fervor to join a new work place try to skip the notice period, thereby calling troubles for themselves. Never shirk the fact that your next company will definitely conduct a background check on you. So, spoiling relations with your current employer on an account of working for a few extra days is not recommended at all. You may have several queries related to outstanding payments, commissions, full and final settlement etc. Don’t expect immediate answers from HRs.  The HR department is one of the busiest verticals as they are required to make the most out of limited resources and that too on time.
+        Finally, take time to bid goodbye to all your colleagues in the company. Shake hands, smile, and thank you all especially your seniors. Praise them for all the support they have extended to you during your tenure. Ask them to stay in touch as they may turn out to be helpful resources for your personal as well as professional growth in future. Remember, the bottom line of quitting well is graciousness.
+        Now exit with your friends and colleagues by your side as you enter into a new world of opportunities.
       </description>
-      <title>Writing - Summarize Written Text - Q1</title>
+      <title></title>
       <maxWordCount>100</maxWordCount>
-      <answer>Life begins and ends with two words: birth and death and live in a way that you feel the tingle of life all the time, however, the best way to make a life happier is not having responsibilities and another thing that makes life happier during the childhood is the care from the parent and the third reason that childhood is the pleasant one when you have friends, security plays the major role.</answer>
+      <answer>There are four key advices to make a graceful exit from the current organization, firstly, your resignation letter must justify your reasons to resign, secondly, always serve a proper notice period as stated in your 'contract of employment' or in the Company's handbook, moreover, provide the notice period and  finally, take time to say thanks to all your colleagues in the company.</answer>
     </template>
   </question>
   <question>
-    <id>0090b8e4150c415e979f33710ac65b1b</id>
+    <id>0e5666db0ba540d6b7fe7c8c0d8dcefa</id>
     <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
     <type>SUMMARIZE_TEXT</type>
     <itemType>WRITING</itemType>
@@ -169,19 +230,20 @@ The third reason that childhood was the pleasant time of my childhood was becaus
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>An important management principle is that when behavior is rewarded, it tends to be repeated. It follows that in many business enterprises, the approach to getting employees to work hard or improve productivity is to reward them with money or company stock. In addition, some enterprises use other forms of compensation such as special privileges or perhaps promotion or job reassignments or even company-paid luxury vacations and other bonuses in kind. All such rewards are usually tied in to some index of performance, which precisely calculates the relative amount of increased productivity.
+      <description>
+        With lives becoming more competitive, lifestyle patterns are changing faster than ever. Life goals like marriage, buying a house, children’s education, and retirement make it necessary for our financial plans to evolve in order to meet these objectives within prospective timelines. However, a lot of times, the focus on ‘wealth creation’ makes ‘protection’ take a backseat. It is unfortunate that we don’t realise the importance of adequately insuring our lives for the financial security of our dependents, that life insurance must assume vital importance and other aspects of financial planning should follow.
 
-Whatever the type of reward given, managerial consultants point out that the promise of such incentives improves employee attitudes, motivation, and productivity. Typical business handbooks describing compensation methods advocate giving the greatest rewards to those who perform the best. For example, a well-known academic text on incentives points out that "the closer the link between job performance and rewards, the greater the motivational effect."
-Advocates of improving productivity through rewards tacitly accept that people are rather like physical bodies that require the application of some external motivating force to be set in motion. Furthermore, they argue that any such incentives must have a high perceived value to the employee and must also be perceived as within the reach of that person. If the productivity goal appears beyond the reach of the person striving for the reward, then the motivational effect will be lower and productivity may decline. But if the reward system is correctly structured, productivity experts argue, it is possible to persuade people to achieve remarkable results.
+        A life insurance policy is an investment that financially secures you and your family, against any uncertainty. It is a cover that takes care of the financial needs of people who are dependent on you, in case something happens to you. It is also one of the basic financial instruments that everyone needs to own. While there are several wealthy people who heavily invest in this instrument, it is equally important for people in different strata of life to invest in suitable life insurance plans.
+
+        Life insurance often gets the least priority in our financial planning; however, it is essentially one of the most economic and important investments one can make. Life insurance is not a product with quick or immediate returns but a scheme that covers your risks. It also offers protection to your loved ones, in case of any uncertainties. Low premiums, tax benefits and bundles of add-on benefits make life insurance all the more attractive.  But the key takeaway has to be that everyone needs life insurance. Whether you enjoy an opulent life and want to secure your wealth or you have a family to support who can rely on the financial backing, life insurance is one of the most under-rated investments that needs your attention.
       </description>
-      <title>Writing - Summarize Written Text - Q2</title>
+      <title></title>
       <maxWordCount>100</maxWordCount>
-      <answer>An important management principle is that when some business enterprises reward their employees with money or company stock and some provide special privileges, whatever the type of reward is given, managerial consultants agree that such incentives improves employee attitudes, motivation, and productivity but productivity goal should be within reach as it will persuade people to achieve remarkable results otherwise it will demotivate them.</answer>
+      <answer>Lifestyle patterns are changing faster than ever because of competition and in this we are giving least priority  life insurance in our financial planning which is the most economic and important investments one can make, moreover, it provides bundles of benefits like tax benefits.</answer>
     </template>
   </question>
-  
   <question>
-    <id>400070868ea74232adcadfe0f0df3b12</id>
+    <id>2656378d70004382882b185a478f6c08</id>
     <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
     <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
@@ -189,14 +251,14 @@ Advocates of improving productivity through rewards tacitly accept that people a
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:20:00</attemptTime>
     <template>
-      <description>Cycling is more environmentally friendly than other forms of transport. Why is it not popular in many places? And how to increase its popularity?</description>
-      <title>Writing - Essay Writing - Q3</title>
+      <description>Some people think that teachers should be responsible for teaching students to judge what is right and wrong so that they can behave well. Others say that teachers should only teach students academic subjects. Discuss both views and give your opinion.</description>
+      <title></title>
       <maxWordCount>300</maxWordCount>
       <answer></answer>
     </template>
   </question>
   <question>
-    <id>b89aa41a60194e54b72bf88b3b5a47e2</id>
+    <id>b7458fd150694c359659e75fae75816b</id>
     <practiceSet>7b04cda952c144788c9d27aa2d5dc710</practiceSet>
     <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
@@ -204,17 +266,231 @@ Advocates of improving productivity through rewards tacitly accept that people a
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:20:00</attemptTime>
     <template>
-      <description>In many countries, governments are spending a large amount of money on improving internet access. Why is it happening and do you think it is the most appropriate use of government money?</description>
-      <title>Writing - Essay Writing - Q4</title>
+      <description>Some developing countries invite large multinational companies to open offices and factories in order to help their economy. However, others feel that foreign companies should be shut out and instead the government should help the local companies to contribute to the economic growth. To what extent do you agree or disagree?</description>
+      <title></title>
       <maxWordCount>300</maxWordCount>
       <answer></answer>
     </template>
   </question>
-  <!--TEST 4 END -->
+  <!-- Test 5 -->
+  <question>
+    <id>895352008d274ed79b7858a725204f9e</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>
+        How can we design great cities from scratch if we cannot agree on what makes them great? None of the cities where people most want to live such as London, New York, Paris and Hong Kong comes near to being at the top of surveys asking which are best to live in.
+        The top three in the most recent Economist Intelligence Units livability ranking, for example, were Melbourne, Vancouver and Vienna. They are all perfectly pleasant, but great? The first question to tackle is the difference between livability and greatness. Perhaps we cannot aspire to make a great city, but if we attempt to make a livable one, can it in time become great?
+        There are some fundamental elements that you need. The first is public space. Whether it is Vienna’s Ringstrasse and Prater park, or the beaches of Melbourne and Vancouver, these are places that allow the city to pause and the citizens to mingle and to breathe, regardless of class or wealth. Good cities also seem to be close to nature, and all three have easy access to varied, wonderful landscapes and topographies.
+        A second crucial factor, says Ricky Burdett, a professor of urban studies at the London School of Economics, is a good transport system. Affordable public transport is the one thing which cuts across all successful cities, he says.
+      </description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>The factors such as an easy access to various landscapes, public space for citizens to breathe and an affordable public transportation are crucial for designing a great city. </answer>
+    </template>
+  </question>
+  <question>
+    <id>734d0acb8d4547afaa9b8f433ccf355f</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>
+        According to the United States Constitution, a presidential election is to be held once every fourth year. The process of electing a President and Vice-President begins long before Election Day. Candidates from both major and minor political parties and independent candidates begin to raise money and campaign at least one year in advance of the general presidential election. To officially represent a political party, a candidate must be nominated by that party.
+        This primary nomination process is a contest that often produces factions within political parties. These divisions impact the policy stances and agendas of the candidates running for nomination as they attempt to garner the support of party leaders and activists. The nominating process officially begins with the first state primaries and caucuses, which usually occur in the month of February of the election year. It is at these local events that voters are given their first chance to participate in electing the nations next President.
+      </description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>During the Presidential elections in the USA, candidates who are nominated by their political parties start campaigning a year in advance to influence the public as public’s perception leads to caucuses and primaries in few months.</answer>
+    </template>
+  </question>
+  <question>
+    <id>e80c7ec6c41e433b91267ab37aa06791</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>
+        The first time I read Von Humboldt’s tale, I thought it was completely bizarre, Catania says. Why would the eels attack the horses instead of swimming away? But then he observed the same behaviour by accident as he transferred the eels in his lab from one tank to another using a metal-rimmed net. Instead of swimming away, larger eels attacked the net by leaping out of the water.
+        Catania tracked the strength of the eels electric shock by attaching a voltmeter to an aluminium plate, or conductive metal strips to predator objects such as a crocodile head replica. The zap a submerged eel distributes through the water is relatively weak when it reaches the target. But when an eel touches it with its electricity-generating chin, the current travels directly to the target and has to travel through its body before it gets back to the water, Catania reported in Proceedings of the National Academy of Sciences.
+        This allows the eels to deliver shocks with a maximum amount of power to partially submerged land animals that invade their territory, Catania explains. It also allows them to electrify a much larger portion of the invader’s body. Catania found the eels leapt to attack, rather than receded, more often when the water in the aquarium was lower. He argues the attack lets electric eels better defend themselves during the Amazon dry season. When they’re cornered in small pools, and make easy prey.
+      </description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Eels attacks by touching its electricity generating chin which delivers shock directly through the body of the invader resulting in electrifying larger portion and partially submerged land animals receive the maximum amount of shock.</answer>
+    </template>
+  </question>
+  <question>
+    <id>fd730e2a20c64f068d16298918c5fadf</id>
+    <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>The government should invest more money in science education rather than other subjects to develop the country. To what extent do you agree or disagree with this statement?</description>
+      <title></title>
+      <maxWordCount>300</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <!-- Test 6 -->
+  <question>
+    <id>aba6e2e23ca14d1388685e551976d3ee</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>
+        For decades, space experts have worried that a speeding bit of orbital debris might one day smash a large spacecraft into hundreds of pieces and start a chain reaction, a slow cascade of collisions that would expand for centuries, spreading chaos through the heavens. In the last decade or so, as scientists came to agree that the number of objects in orbit had surpassed a critical mass or, in their terms, the critical spatial density, the point at which a chain reaction becomes inevitable they grew more anxious.
+        Early this year, after a half-century of growth, the federal list of detectable objects (four inches wide or larger) reached 10,000, including dead satellites, spent rocket stages, a camera, a hand tool and junkyards of whirling debris left over from chance explosions and destructive tests. So our billion dollars of satellites are at risk.
+        As space experts have worried that orbital debris might one day smash a large spacecraft into pieces and start a chain reaction, the scientist recently came to agree that the number of orbital debris had surpassed the critical spatial density, which will inevitably lead to a chain reaction that puts our billion dollars of satellites at risk.
+      </description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Space experts are worried for decades about orbital debris that have surpassed the critical spatial density, as it may smash large spacecraft into pieces resulting in a cascade of collisions and creating risk for billion-dollar satellites.</answer>
+    </template>
+  </question>
+  <question>
+    <id>ba2c23d08f2546ecacba0dc5cb799c34</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>
+        If your recruiting efforts attract job applicants with too much experience a near certainty in this weak labour market you should consider a response that runs counter to most hiring managers modus operandi: don’t reject those applicants out of hand. Instead, take a closer look. New research shows that overqualified workers tend to perform better than other employees, and they don’t quit any sooner. Furthermore, a simple managerial tactic empowerment can mitigate any dissatisfaction they may feel. The prejudice against too-good employees is pervasive. Companies tend to prefer an applicant who is a perfect fit over someone who brings more intelligence, education, or experience than needed. On the surface, this bias makes sense: Studies have consistently shown that employees who consider themselves overqualified exhibiting her levels of discontent.
+        But even before the economic downturn, a surplus of overqualified candidates was a global problem, particularly in developing economies, where rising education levels are giving workers more skills that are needed to supply the growing service sectors. If managers can get beyond the conventional wisdom, the growing pool of too-good applicants is a great opportunity. Berrin Erdogan and Talya N. Bauer of Portland State University in Oregon found that overqualified workers’ feelings of dissatisfaction can be dissipated by giving them autonomy in decision making. At stores where employees didn’t feel empowered, over-educated workers expressed greater dissatisfaction than their colleagues did and were more likely to state an intention to quit. But that difference vanished where self-reported autonomy was high.
+      </description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>According to new research, overqualified applicants perform better and they don’t quit sooner, however, their feeling of dissatisfaction can be dissipated by providing them autonomy in decision making.</answer>
+    </template>
+  </question>
+  <question>
+    <id>fb74dcd66671485ba174477f59f79ba9</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>
+        Nurse sharks are nocturnal animals, spending the day in large inactive groups of up to 40 individuals. Hidden under submerged ledges or in crevices within the reef, the Nurse sharks seem to prefer specific resting sites and will return to them each day after the nights hunting. By night, the sharks are largely solitary. Nurse sharks spend most of their time foraging through the bottom sediments in search of food. Their diet consists primarily of crustaceans, molluscs, tunicates and other fish such as spiny lobsters, crabs, shrimps, sea urchins, octopuses, squid, marine snails and bivalves and in particularly, stingrays.
+        Nurse sharks are thought to take advantage of dormant fish which would otherwise be too fast for the sharks to catch, although their small mouths limit the size of prey items, the sharks have large throat cavities which are used as a sort of bellows valve. In this way, Nurse sharks are able to suck in their prey. Nurse sharks are also known to graze algae and coral.  Nurse sharks have been observed resting on the bottom with their bodies supported on their fins, possibly providing a false shelter for crustaceans which they then ambush and eat.
+      </description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Nurse Sharks, spend most of the time either foraging through the bottom to find food or resting at specific sites, hunts at night and spends the day in large inactive groups. </answer>
+    </template>
+  </question>
+  <question>
+    <id>73cc646485ca4c7a85bf8e43cc1b520a</id>
+    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>Even though globalization affects the world’s economies in a very positive way, its negative side should not be forgotten. Discuss</description>
+      <title></title>
+      <maxWordCount>300</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <!-- Test 7  -->
+  <question>
+    <id>6cbd19f011f54a67987fe7a5e7550597</id>
+    <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>
+        In the past two centuries, there has been a dramatic change in the role of food and eating in Australian public consciousness. Public discussion of food was largely confined to matters of supply, distribution and price. Towards the end of the nineteenth century, some newspapers were offering regular columns of advice on housekeeping topics, including menu planning and recipes. However, eating remained a private activity essentially, even when undertaken by the company.
+        By the late twentieth century, food and eating had become prominent public preoccupations. Evidence of this dramatic cultural revaluation abounds. In bookstores, for example, cookery and all things related to it are often among the larger displays. Speciality stores are selling all manner of cookware, tableware and other paraphernalia associated with food, eating and drinking. Perhaps most telling is the extension of the phenomenon of mass media celebrity to include culinary personalities.
+      </description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>Food and eating was a private activity confined to the matters of supply, distribution and price, but had become prominent public preoccupations in Australia during the late 20th century and most of it is because of mass media including culinary personalities.</answer>
+    </template>
+  </question>
+  <question>
+    <id>9e8886adbf8c4bedb81b46d73309adea</id>
+    <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>
+        What killed off the dinosaurs? The end of the Cretaceous Period saw one of the most dramatic mass extinctions the Earth has ever seen. First of all, let us learn some basic information about “nurse shark”. The fossil record shows that throughout their 160-million-year existence, dinosaurs took on a huge variety of forms as the environment changed and new species evolved that was suited to these new conditions. Others that failed to adopt went extinct. But then 66 million years ago, over a relatively short time, dinosaurs disappeared completely (except for birds). Many other animals also died out, including pterosaurs, large marine reptiles, and other sea creatures such as ammonites.
+        Although the number of dinosaur species was already declining, this suggests a sudden catastrophic event sealed their fate, causing unfavourable changes to the environment more quickly than dinosaurs and other creatures could adapt.
+        The exact nature of this catastrophic event is still open to scientific debate. The catastrophe could have been an asteroid impact, volcanic eruptions or the effect of both, together with more gradual changes in the Earth’s climate over millions of years. Whatever the causes, the huge extinction that ended the age of the dinosaur left gaps in the ecosystem that were subsequently filled by mammals and birds, allowing them to evolve rapidly.
+      </description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>The end of the Cretaceous Period saw one of the most dramatic mass extinctions the Earth has ever seen and the fossil record shows that dinosaurs throughout their existence took on a huge variety of forms with the change in the environment and who failed to adopt went extinct, consequently, dinosaurs disappeared completely and this left huge gaps which were subsequently filled by mammals and birds.</answer>
+    </template>
+  </question>
+  <question>
+    <id>d5674765cc98483aae0f071c573b225d</id>
+    <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>Effective learning requires time, comfort and peace, so it is impossible to combine study and employment. Study and employment distract one from another. To what extent do you think the statements are realistic? Support your opinion with examples.</description>
+      <title></title>
+      <maxWordCount>300</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <question>
+    <id>b08cb8c7df93463bb496d07e200e1e95</id>
+    <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
+    <type>WRITE_ESSAY</type>
+    <itemType>WRITING</itemType>
+    <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:20:00</attemptTime>
+    <template>
+      <description>
+        What are the advantages and disadvantages of living in an era in which new things are constantly being invented?
 
-  <!--TEST 8-->
+        Talk about the pros/cons of this era as is full of daily invention?
+      </description>
+      <title></title>
+      <maxWordCount>300</maxWordCount>
+      <answer></answer>
+    </template>
+  </question>
+  <!-- Test 8 -->
   <question>
-    <id>6d54c6528ba54fe9894124d272f53c0c</id>
+    <id>a832f908971147a789c7475ef6e7c70f</id>
     <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
     <type>SUMMARIZE_TEXT</type>
     <itemType>WRITING</itemType>
@@ -222,14 +498,17 @@ Advocates of improving productivity through rewards tacitly accept that people a
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>From the conditions of frontier life came intellectual traits of profound importance. The work of travelers along each frontier from colonial days onward describe certain common traits, and these traits have while softening down, still persisted as survivals in the place of their origin, even when a higher social organization succeeded. The result is that to the frontier the American intellect owes its striking characteristics. That coarseness and strength combined with acuteness and acquisitiveness; that practical, inventive turn of mind, quick to find expedients; that masterful grasp of material things, lacking in the artistic but powerful to effect great ends; that restless, nervous energy; that dominant individualism, working for good and for evil, and withal that buoyancy and exuberance which comes with freedom—these are traits of the frontier, or traits called out elsewhere because of the existence of the frontier.</description>
-      <title>Writing - Summarize Written Text - Q1</title>
+      <description>
+        One of the lessons of 2008 is just how difficult, it is to recognize a bubble while it is inflating. Since the crisis, real-estate prices have soared to new heights in sought-after property markets, from San Francisco to Shanghai to Sydney. Unlike in 2007, however, these run-ups tend to be localized, and crashes are less likely to cause global collateral damage. But sky-high urban housing prices are contributing to other issues, including shortages of affordable housing options, strains on household budgets, reduced mobility, and growing inequality of wealth.
+        In the United States, another new form of risk comes from nonbank lenders. New research shows that these lenders accounted for more than half of new US mortgage originations in 2016. While banks have tightened their underwriting standards, these lenders disproportionately serve lower-income borrowers with weaker credit scores—and their loans account for more than half of the mortgages securitized by Ginnie Mae and one-third of those securitized by Fannie Mae and Freddie Mac.
+      </description>
+      <title></title>
       <maxWordCount>100</maxWordCount>
-      <answer>The work of the travelers had revealed the traits of the frontier life which survives even today and these traits highly influenced the American intellectuals.</answer>
+      <answer>Since the crisis in 2008, real-estate prices have soared to new heights, whereas, in 2007 sky-high urban housing prices are contributing to shortages of affordable housing options, strains on household budgets but new research shows that the lenders accounted for more than half of new US mortgage originations in 2016.</answer>
     </template>
   </question>
   <question>
-    <id>85fd515959ec480c9d8e608325ac10f1</id>
+    <id>8ca8d04f336143e6ba3fc65034749f3e</id>
     <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
     <type>SUMMARIZE_TEXT</type>
     <itemType>WRITING</itemType>
@@ -237,16 +516,14 @@ Advocates of improving productivity through rewards tacitly accept that people a
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>At first, it was little more than a trickle. For a long time the Norman conquerors did not mix much with their Saxon subjects. There are plenty of indications of this; for the languages, too, moved side by side in parallel channels. The custom of having one name for a live beast grazing in the field and another for the same beast, when it is killed and cooked, is often supposed to be due to our English squeamishness and hypocrisy. Whether or not the survival of this custom through ten centuries is due to the national characteristics in question it would be hard to say, but they have certainly nothing to do with its origin.
-That is a much more blame-less affair. For the Saxon Neatherd who had spent a hard day tending his oxen, sheep, calves and swine, probably saw little enough of the beef, mutton, veal, pork and bacon, which were gobbled at night by his Norman masters. There is something a little pathetic, too, in the thought that the homely old word, stool, could be used to express any kind of seat, however magnificent, until it was, so to speak, hustled into the kitchen by the smart French chair. Even the police, however, continued to use the old word in the idiom ‘to fall between two stools’.
-      </description>
-      <title>Writing - Summarize Written Text - Q2</title>
+      <description>For decades, space experts have worried that a speeding bit of orbital debris might one day smash a large spacecraft into hundreds of pieces and start a chain reaction, a slow cascade of collisions that would expand for centuries, spreading chaos through the heavens. In the last decade or so, as scientists came to agree that the number of objects in orbit had surpassed a critical mass or, in their terms, the critical spatial density, the point at which a chain reaction becomes inevitable they grew more anxious. Early this year, after a half-century of growth, the federal list of detectable objects (four inches wide or larger) reached 10,000, including dead satellites, spent rocket stages, a camera, a hand tool and junkyards of whirling debris left over from chance explosions and destructive tests. So our billion dollars of satellites are at risk. As space experts have worried that orbital debris might one day smash a large spacecraft into pieces and start a chain reaction, the scientist recently came to agree that the number of orbital debris had surpassed the critical spatial density, which will inevitably lead to a chain reaction that puts our billion dollars of satellites at risk.</description>
+      <title></title>
       <maxWordCount>100</maxWordCount>
-      <answer>Answer: Norman and Saxon usage of English words has no relation with the origin of customs as differences are clearly visible in their usages for living and dead animals, moreover, particularly the usage of the word stool instead of chair. </answer>
+      <answer>Speeding bit of orbital debris one day smash a large spacecraft into hundreds of pieces and start a chain reaction and in the last decade, scientists agree that the point at which a chain reaction becomes inevitable but early this year, the federal list of detectable objects reached 10,000, including dead satellites, spent rocket stages, and so on.</answer>
     </template>
   </question>
   <question>
-    <id>d6628fba56a84064858f5e00c5e077d0</id>
+    <id>a323d245739747c1a7e5ba88ea9539fe</id>
     <practiceSet>05424cf5c42745de8f6fdef719e5351b</practiceSet>
     <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
@@ -254,423 +531,147 @@ That is a much more blame-less affair. For the Saxon Neatherd who had spent a ha
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:20:00</attemptTime>
     <template>
-      <description>Some people think that schools should select students according to their academic abilities, while others believe that it is better to have students with different abilities studying together. Discuss both views and state your own opinion.</description>
-      <title>Writing - Essay Writing - Q3</title>
+      <description>Some say that music is as important as other subjects in school, especially at the preschool level. Do you agree or disagree?</description>
+      <title></title>
       <maxWordCount>300</maxWordCount>
       <answer></answer>
     </template>
   </question>
-  <!--TEST 8 END -->
-
-  <!--TEST 9-->
+  <!-- Test 9 -->
   <question>
-    <id>63a30f49541c467aa21e5e8bca2712e0</id>
+    <id>10ec8d8c2b4342e1a0b73b313590c437</id>
     <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
     <type>SUMMARIZE_TEXT</type>
     <itemType>WRITING</itemType>
     <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:10:00</attemptTime>
+    <attemptTime>00:00:00</attemptTime>
     <template>
-      <description>Clients who can use art therapy may have a wide range of difficulties, disabilities or diagnoses. These include, for example, emotional, behavioral or mental health problems, learning or physical disabilities, life-limiting conditions, brain-injury or neurological conditions and physical illness. Art therapy may be provided for groups, or for individuals, depending on clients’ needs. It is not a recreational activity or an art lesson, although the sessions can be enjoyable. Clients do not need to have any previous experience or expertise in art. Art therapy is a mental health profession that uses the creative process of art making to improve and enhance the physical, mental and emotional well-being of individuals of all ages. It is based on the belief that the creative process involved in artistic self-expression helps people to resolve conflicts and problems, develop interpersonal skills, manage behavior, reduce stress, increase self-esteem and self-awareness, and achieve insight. Art therapy integrates the fields of human development, visual art (drawing, painting, sculpture, and other art forms), and the creative process with models of counseling and psychotherapy.</description>
-      <title>Writing - Summarize Written Text - Q1</title>
+      <description>Here's a term you're going to hear much more often: plug-in vehicle, and the acronym PEV. It's what you and many other people will drive to work in, ten years and more from now. At that time, before you drive off in the morning you will first unplug your car - your plug-in vehicle. Its big on board batteries will have been fully charged overnight, with enough power for you to drive 50-100 kilometers through city traffic. When you arrive at work you'll plug in your car once again, this time into a socket that allows power to flow from your car's batteries to the electricity grid. One of the things you did when you bought your car was to sign a contract with your favorite electricity supplier, allowing them to draw a limited amount of power from your car's batteries should they need to, perhaps because of a blackout, or very high wholesale spot power prices. The price you get for the power the distributor buys from your car would not only be most attractive to you, it would be a good deal for them too, their alternative being very expensive power form peaking stations. If, driving home or for some other reason your batteries looked like running flat, a relatively small, but quiet and efficient engine running on petrol, diesel or compressed natural gas, even biofuel, would automatically cut in, driving a generator that supplied the batteries so you could complete your journey. Concerns over 'peak oil', increasing greenhouse gas emissions, and the likelihood that by the middle of this century there could be five times as many motor vehicles registered world-wide as there are now, mean that the world's almost total dependence on petroleum-based fuels for transport is, in every sense of the word, unsustainable.</description>
+      <title></title>
       <maxWordCount>100</maxWordCount>
-      <answer>Clients who can use art therapy may have a wide range of difficultiesWhich may include emotional, behavioral or mental health problems, or any disabilities, or neurological conditions, art therapy may be provided for groups, or for individuals as it enhances the physical, mental and emotional well-being of individuals of all ages and the creative process with models of counseling and psychotherapy are built.</answer>
+      <answer>While people can charge their plug-in vehicles overnight before driving, they can plug their vehicles into sockets allowing power to flow from car batteries to the electricity grid, and an engine driving a generator will supply alternative power to complete the journey, because the world's almost total dependence on petroleum-based fuels for transport is unsustainable.</answer>
     </template>
   </question>
   <question>
-    <id>242220cc353147549693dda9465a78ac</id>
+    <id>a5cede4e42e041eab6bbd88f656b5fd6</id>
     <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
     <type>SUMMARIZE_TEXT</type>
     <itemType>WRITING</itemType>
     <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:10:00</attemptTime>
+    <attemptTime>00:00:00</attemptTime>
     <template>
-      <description>By the beginning of the 15th century, after a hundred years of construction, Florence Cathedral was still missing its dome. The building required an octagonal dome which would be higher and wider than any that had ever been built, with no external buttresses to keep it from spreading and falling under its own weight.
-
-The building of such a masonry dome posed many technical problems. Filippo Brunelleschi, who is now seen as a key figure in architecture and perhaps the first modern engineer, looked to the great dome of the Pantheon in Rome for solutions. The dome of the Pantheon is a single shell of concrete, the formula for which had long since been forgotten. Soil filled with silver coins had held the Pantheon dome aloft while its concrete set. This could not be the solution in the case of the Florence Cathedral dome, due to its size. Another possible solution, the use of scaffolding, was also impractical because there was not enough timber in the whole of the region of Tuscany.
-
-Brunelleschi would have to build the dome out of brick, due to its light weight compared to stone and being easier to form, and with nothing under it during construction. His eventual success can be attributed, in no small degree, to his technical and mathematical genius. Brunelleschi used more than four million bricks to create what is still the largest masonry dome in the world.
+      <description>
+        When the Rosetta Stone was discovered in 1799, the carved characters that covered its surface were quickly copied. Printer's ink was applied to the Stone and white paper laid over it. When the paper was removed, it revealed an exact copy of the text—but in reverse. Since then, many copies or "facsimiles" have been made using a variety of materials. Inevitably, the surface of the Stone accumulated many layers of material left over from these activities, despite attempts to remove any residue. Once on display, the grease from many thousands of human hands eager to touch the Stone added to the problem.
+        An opportunity for investigation and cleaning the Rosetta stone arose when this famous object was made the centerpiece of the Cracking Codes exhibition at The British Museum in 1999. When work commenced to remove all but the original, ancient material, the stone was black with white lettering. As treatment progressed, the different substances uncovered were analyzed. Grease from human handling, a coating of carnauba wax from the early 1800s and printer's ink from 1799 were cleaned away using cotton wool swabs and liniment of soap, white spirit, and acetone and purified water. Finally, white paint in the text, applied in 1981, which had been left in place until now as a protective coating, was removed with cotton swabs and purified water. A small square at the bottom left corner of the face of the Stone was left untouched to show the darkened wax and the white infill.
       </description>
-      <title>Writing - Summarize Written Text - Q2</title>
+      <title></title>
       <maxWordCount>100</maxWordCount>
-      <answer>After a hundred years of construction, Florence Cathedral architecture was still missing its dome as it posed many technical problems whereas Filippo Brunelleschi succeeded because of his technical and mathematical calculations and with the usage of 4 millions bricks leading to the creation of world’s largest masonry dome.</answer>
+      <answer>While the carved characters that covered its surface were quickly copied when the Rosetta Stone was discovered in 1799, the surface of the Stone accumulated many layers of material left over, but an opportunity for investigation and cleaning the Rosetta Stone arose when this famous object was made the centerpiece of the exhibition, which shows that the stone was black with white lettering.</answer>
     </template>
   </question>
   <question>
-    <id>6bf5a373a3ad4ce6ae384e2c8ae31bcb</id>
+    <id>340d91e2cf664313bef2992a48d7c680</id>
     <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
     <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
     <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:20:00</attemptTime>
+    <attemptTime>00:00:00</attemptTime>
     <template>
       <description>In some countries around the world, voting is compulsory. Do you agree with the notion of compulsory voting? If voting is compulsory in a democratic society, what are some conclusions we can draw about the nature of democracy?</description>
-      <title>Writing - Essay Writing - Q3</title>
+      <title></title>
       <maxWordCount>300</maxWordCount>
       <answer></answer>
     </template>
   </question>
   <question>
-    <id>44aafe491a4345a4a235f3a3b3bda52f</id>
+    <id>fd9a30e61ff7477c8a35ec5a4fa5fda3</id>
     <practiceSet>db28642c43f44f048e0e1be5cf8984f6</practiceSet>
     <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
     <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:20:00</attemptTime>
+    <attemptTime>00:00:00</attemptTime>
     <template>
-      <description>Education is critical element of the prosperity(success) of any nation. The more educated the people of the country are, more successful their nation become.Support your point of view with reasons and / or examples from your own experience or observations?</description>
-      <title>Writing - Essay Writing - Q4</title>
+      <description>Education is critical element of the prosperity (success) of any nation. The more educated the people of the country are, more successful their nation become. Support your point of view with reasons and examples from your own experience or observations?</description>
+      <title></title>
       <maxWordCount>300</maxWordCount>
       <answer></answer>
     </template>
   </question>
-  
-  <!--TEST 9 END -->
-  
-  <!--TEST 5-->
-  
+  <!-- Test 10 -->
   <question>
-  <id>2e540a92dcc64100bfa3e2453a3bbf18</id>
-  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>Technology is available to exploit the potential energy formed by tides for the generation of electrical energy. The basic structure is a barrage or dam built across a river estuary or at the mouth of a bay. This dam is similar to that used in hydroelectric power plants built across flowing rivers. At regular intervals along the dam, gates and turbines are installed. When the tide is rising, the gates are opened. This allows water to flow into the area behind the barrage, raising the water level there. When the water has reached its highest level, the gates are closed. Then the tide drops on the seaward side, and this trapped water is several meters above the sea level. The gates are then opened, allowing the water to discharge out. The force of the flow turns the turbines and generates electricity. It is also possible to use tidal energy when the water flows in the other direction - through the gates into the estuary from the sea.
-
-In this way, four periods of energy production are possible every day, since coastal regions experience two high and two low tides in just over 24 hours. In order for practical amounts of electricity to be generated, the difference between high and low tides must be at least five meters. Tidal power is renewable, non-polluting, and contributes no greenhouse gases to the atmosphere. This kind of system can provide a useful energy supplement to other sources in an era of diminishing fossil fuel reserves.
-</description>
-    <title>Writing - Summarize Written Text - Q1</title>
-    <maxWordCount>70</maxWordCount>
-    <answer>The dam is built across a river estuary similar to that used in hydroelectric power plants built across flowing rivers to exploit the potential energy formed by tides for the generation of electrical energy because tidal power is renewable, non-polluting, and contributes no greenhouse gases to the atmosphere and provides useful energy supplement to other sources.</answer>
-  </template>
-</question>
-
-<question>
-  <id>9ea2662b797b492c83f998334d640d1c</id>
-  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>Most researchers today agree that both nature and nurture play some part in the development of personality and in physical and mental well-being, although there is still a great deal of heated debate about how much is contributed by each. In the attempt to unravel the relative significance of the contributions of nature and nurture to human behavior and personality, researchers often conduct studies of the characteristics of identical (monozygotic) and fraternal (dizygotic) twins.
-
-It has been found that identical twins, who have an identical genetic makeup, often display very similar behavior and other character traits. This is true even for those identical twins who have been separated at birth and brought up in different family environments. In the classic twin study, researchers compare various characteristics of identical twins with fraternal twins. The latter group share 50 percent of their genetic makeup, just like non-twin siblings. If the identical twins display more similarities with regard to a particular characteristic than members of the fraternal or dizygotic group, then it is concluded that heredity plays a part in that behavior or feature of personality. The magnitude of the varying contributions of genetic factors and environmental factors can then be assessed.
-Advocates of twin studies argue that this research tool can be used to calculate the heritability of a huge range of medical conditions and psychological disorders, and also the heritability of traits like musical or mathematical understanding or other intellectual abilities.
-</description>
-    <title>Writing - Summarize Written Text - Q2</title>
-    <maxWordCount>70</maxWordCount>
-    <answer>Nature and nurture play some part in the development of personality and to unravel this researchers often conduct studies of the characteristics of identical and fraternal twins, identical twins display very similar behavior and other character traits and the latter group shares 50 percent of their genetic makeup, this research can be used to calculate the heritability medical and psychological disorders, and also the heritability traits.</answer>
-  </template>
-</question>
-  
-  
-  <question>
-  <id>4674c8cd6c2d417892985e21f671d1a4</id>
-  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>Much archaeological evidence supports the widely held view that the first people to migrate to the American continent entered through a land bridge, which at one time joined Eastern Asia with North America. This land bridge, known as Beringia, was a wide expanse of terrain that emerged from the ocean as the sea levels dropped due to widespread glaciation at the time of the last Ice Age. Groups of humans could have slowly migrated across the grassy tundra of Beringia, feeding on herds of animals or coastal marine life. At the time, much of North America including what is now Canada, would have been covered with thick ice sheets making further movement southward a physical impossibility. 
-At a later period, the ice receded and humans would have been able to traverse an ice-free corridor in a southerly direction, and gradually settle the vast uninhabited continent. The ending of the Ice Age also caused the ocean levels to rise, thus submerging Beringia and isolating the new migrants from peoples on the Asian side. During the next centuries the descendents of the pioneers who crossed Beringia gradually peopled the entire landmass of the Americas. This view of the origins of the first Americans is often known as the Clovis-first theory (named after the site in New Mexico where stone artifacts made by these settlers were first found). Many subsequent finds of Clovis tools demonstrate this culture's extensive penetration throughout the continent.</description>
-    <title>Writing - Summarize Written Text - Q3</title>
-    <maxWordCount>70</maxWordCount>
-    <answer>As per archaeological evidence the first people to migrate to the American continent entered through a land bridge, known as Beringia, emerged from the ocean as the sea levels dropped due to widespread glaciations at the time of the last Ice Age and during the next centuries the descendents of the pioneers who crossed Beringia gradually peopled the entire landmass of the Americas known as the Clovis-first theory.</answer>
-  </template>
-</question>
-  
-  <question>
-  <id>cca1f6c43b7c46c0becca6895fee53f6</id>
-  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
-  <type>WRITE_ESSAY</type>
-  <itemType>WRITING</itemType>
-  <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:20:00</attemptTime>
-  <template>
-    <description>A good sense of humor is one of the most important human qualities.
-
-Use specific reasons and examples to support your opinion.
-</description>
-    <title>Do you agree or disagree with the following statement?</title>
-    <maxWordCount>300</maxWordCount>
-    <answer></answer>
-  </template>
-</question>
-
-
-
-
-  <!--TEST 5 END-->
-  
-  <!--TEST 6-->
-  <question>
-    <id>5dbc01b51d63486bb7641adc3c2ef956</id>
-    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <id>72e46bf13f8341d6b1f9b2f1e905b058</id>
+    <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
     <type>SUMMARIZE_TEXT</type>
     <itemType>WRITING</itemType>
     <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>Australia is projected to increase its final energy consumption by a total of 21 percent between 2014 and 2030. With GDP forecast to increase by 2.7 percent per year on average and an expected population of 30 million by 2030, the nation is projected to require an additional 873 petajoules of energy.3 This roughly equates to 75 percent of the energy consumed for all road transport in Australia today. These estimates take into account energy efficiency improvements from advances in technology and operational improvements. The projected efficiency gains are not enough to completely offset increases in consumption.
-The biggest driver of this growth in energy consumption is expected to be increased demand from industry, led by the oil and gas sector. Energy consumption in that sector is projected to grow by 5.4 percent per year, to around 480 petajoules in 2030. This is driven by the quadrupling of Australia’s liquefied natural gas (LNG) capacity, which will be completed in the next few years. A second driver of overall consumption growth will be energy used for transport, which is forecast to grow by 0.8 percent per year on average to a total of around 1,800 petajoules in 2030. This is the net outcome of growth in the economy and population, partially offset by energy efficiency improvements.</description>
-      <title></title>
-      <maxWordCount>300</maxWordCount>
-      <answer>The projected increase in energy consumption of Australia is due to rise in energy demands of industrial and transportation sector coupled with increase in population, which could not be set off by advanced and improved technologies.</answer>
-    </template>
-  </question>
-  <question>
-    <id>bca2ba178f6e48898ef58f3f41acf90e</id>
-    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
-    <type>SUMMARIZE_TEXT</type>
-    <itemType>WRITING</itemType>
-    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-    <delayTime>00:00:00</delayTime>
-    <attemptTime>00:10:00</attemptTime>
-    <template>
-      <description>Education is universally recognized as a pillar for both economic and social growth in any society. Government spending on education in Australia reflects our priority of investing in the future of this country, allowing for economic advancement as well as productivity and social wellbeing for the individual and society as a whole.
-Given the importance of education in social and economic advancement, the student learning environment has become increasingly significant. In an age where teaching practice and technology have changed and developed faster than ever before, the question of whether or not our learning environments are supporting or hindering our educational processes has never been more pertinent. While there have been changes to learning outcomes through updates to the syllabuses, technology has been driving more significant changes at a high rate.
+      <description>
+        In a study in the current issue of the journal PLoS One, a team of scientists in Germany showed experts and novices simple geometric objects and simple chess positions and asked the subjects to identify them. Reaction times were measured and brain activity was monitored using functional M.R.I. scans. On the identification of the geometric objects, the subjects performed the same, showing that the chess experts had no special visualization skills. When the subjects were shown the chess positions, the experts identified them faster.
+        Focusing on an element of an earlier study on pattern and object recognition by chess experts, the researchers had expected to see parts of the left hemispheres of the experts’ brains — which are involved in object recognition — react more quickly than those of the novices when they performed the chess tasks. But the reaction times were the same. What set the experts apart was that parts of their right brain hemispheres — which are more involved in pattern recognition — also lit up with activity. The experts were processing the information in two places at once.
+        The researchers also found that when the subjects were shown the chess diagrams, the novices looked directly at the pieces to recognize them, while the experts looked on the middle of the boards and took everything in with their peripheral vision.
       </description>
       <title></title>
-      <maxWordCount>300</maxWordCount>
-      <answer>Education is universally recognized as a pillar for both economic and social growth in any society and at certain age teaching practice and technology have changed and developed faster than ever before, the question has never been more pertinent on learning environment despite of changes to learning outcomes through technology has been driven at a high rate.</answer>
+      <maxWordCount>100</maxWordCount>
+      <answer>Although the researchers had expected to see parts of the left hemispheres of the experts’ brains, which are involved in object recognition and react more quickly than those of the novices when they performed the chess tasks, the reaction times were the same, but what set the experts apart was their right brain hemispheres which are more involved in pattern recognition through their peripheral vision.</answer>
     </template>
   </question>
   <question>
-    <id>97364fa4dc824a35b5302206ddd4c6df</id>
-    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <id>8d3eaa754ab64e8aa682225f85cd6d72</id>
+    <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
     <type>SUMMARIZE_TEXT</type>
     <itemType>WRITING</itemType>
     <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>When people describe themselves as ‘tone deaf’, ‘having no rhythm’ or ‘no ear for music’, they generally think of these things as defining characteristics. They are talents you are born with or not. However, there is a variety of research on skill development which questions this. Carol Dweck’s research shows that people who believe that skill can be developed will be far more successful, evidence supporting the old saying, ‘Whether you believe you can or can’t, you’re right.’
-Along similar lines, Anders Ericsson found that what separates the experts from the amateurs in any field is about 10,000 hours of deliberate practice. The most important lesson, of course, is that change is possible. People can become something they aren’t and change who they are. Talent, even one like music, can be cultivated. However, this is not to say that natural talent does not exist.
-One often overlooked study by Edwin Gordon showed that talent accounted for about half the differences in musical skill development in a group of students after three years of studying. So although anyone can become a musician, not everyone can become the best musician.
+      <description>
+        Research shows that when people work with a positive mind-set, performance on nearly every level—productivity, creativity, engagement—improves. Yet the correlation between happiness and performance is perhaps not so easily understood by many. For one, most people believe that success precedes happiness, but, because success is a moving target, the happiness that results from success is fleeting. Instead people who cultivate a positive mind-set perform better in the face of a challenge. In a meta-analysis of 225 academic studies, researchers found strong evidence of directional causality between life satisfaction and successful business outcomes.
+
+        What is even more encouraging is that even though our genetics and our environment have an impact on how happy we are, our general sense of well-being is surprisingly malleable. Our habits, our interactions with coworkers, our attitude towards stress—all these aspects can be managed to increase our happiness and our chances of success. Habits such as taking short breaks and constantly having a positive engagement with coworkers not only reduce stress substantially but also enhance our productivity and thus better our prospects of professional success. Accordingly, encouraging employees to accept some level of stress as an inevitability and perceive it as a motivator and a fuel to growth, is vital for boosting the performance of the workforce.
       </description>
       <title></title>
-      <maxWordCount>300</maxWordCount>
-      <answer>People generally think things like tone deaf as defining characteristics and  however,  variety of research on skill development questions the talent, some of the researchers think skill which can be developed will be far more successful and some say that people can become something they aren’t as talent can be cultivated but it does not mean natural talent does not exist. </answer>
+      <maxWordCount>100</maxWordCount>
+      <answer>Research shows that people who cultivate a positive mind-set, perform better in the face of a challenge, researchers found strong evidence of successful business outcomes and life satisfaction which enhance the productivity, moreover, encouraging employees to accept some level of stress which is vital for boosting the performance of the workforce.</answer>
     </template>
   </question>
   <question>
-    <id>534eb42a16e34097ab3f5b75c41683d7</id>
-    <practiceSet>5dcbc550333c488996e65d41dad0bfe7</practiceSet>
+    <id>f370ee62708e4065b0e14f6790884724</id>
+    <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
+    <type>SUMMARIZE_TEXT</type>
+    <itemType>WRITING</itemType>
+    <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
+    <delayTime>00:00:00</delayTime>
+    <attemptTime>00:10:00</attemptTime>
+    <template>
+      <description>
+        It is natural to be healthy, but we have wandered so far astray that disease is the rule and good health the exception. Of course, most people are well enough to attend to their work, but nearly all are suffering from some ill, mental or physical, acute or chronic, which deprives them of a part of their power. There is too much illness, too much suffering and too many premature deaths. We are losing every year a vast army of individuals who are in their productive prime. The average individual is of less value to himself, to his family and to society than he could be. His bad habits, of which he is often not aware, have brought weakness and disease upon him. These conditions prevent him from doing his best mentally and physically.
+        This abnormal condition has a bad effect upon his descendants, who may not be born with any special defects, but have less resistance at birth than is their due, and consequently fall prey to disease very easily. This state of impaired resistance has been passed on from generation to generation, and we of today are passing it on as a heritage to our children. Yet it is within the power of each individual to prolong his life beyond what is now considered old age. Barring accidents, which should be less numerous when people fully realize that unreasonable haste and speed are wasteful and that life is more valuable than accumulated wealth, human life could and should be a certainty.
+      </description>
+      <title></title>
+      <maxWordCount>100</maxWordCount>
+      <answer>It is natural to be healthy, but nearly all are suffering from some mental or physical problems, acute or chronic, which deprives them of a part of their power, even worst conditions prevent them from doing their best mentally and physically, however, this abnormal condition has a bad effect upon their descendants, moreover, least people fully realize that life is more valuable than accumulated wealth.</answer>
+    </template>
+  </question>
+  <question>
+    <id>96774fe3e0d049f7bbd8d4c3164332dc</id>
+    <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
     <type>WRITE_ESSAY</type>
     <itemType>WRITING</itemType>
     <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:20:00</attemptTime>
     <template>
-      <description>It is argued that getting married before finishing school or getting a job is not a good choice. To what extent do you agree or disagree?</description>
+      <description>Some people argue that experience is the best teacher. Life experiences can teach more effectively than books or formal school education. How far do you agree with this idea? Support your opinion with reasons and/or your personal experience.</description>
       <title></title>
-      <maxWordCount>400</maxWordCount>
+      <maxWordCount>300</maxWordCount>
       <answer></answer>
     </template>
   </question>
-  <!-- TEST 6 END-->
-  
-  <!--TEST 7-->
-  <question>
-  <id>e8fdec217410495d8fbd68b4b771bcdf</id>
-  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>Toronto’s economy remains healthy and growing, with construction, transportation, warehousing, retail, wholesale, and manufacturing all contributing to this growth. According to the Conference Board of Canada, Toronto’s construction sector growth achieved a 14-year high thanks to a 46 percent rise in housing starts—most of those multifamily units—with GDP forecast to remain steady at 2.6 percent in 2016 and 2017.
-Optimism is the predominant attitude regarding the Toronto real estate market, though it is tempered by a measure of caution. The residential market generally remains strong, with solid sales volumes and rising prices, buoyed by a strong local economy, steady immigration, and low-interest rates. Few if any foresee the situation reversing anytime soon, barring an unexpected hike in interest rates, an economic shock, or a sharp drop in immigration. The lack of supply of available land is seen as a key factor contributing to the market’s rapidly rising house prices. Due to the high cost of moving, more homeowners are choosing to stay put and invest in renovations; one interviewee remarked that there have been record numbers of requests for permits to renovate existing homes. With no real factors reducing demand, developers and builders will continue to face supply-side issues. Many respondents believe that government land use policies are a factor holding back supply. Some developers are also holding back on releasing new projects until all costs are fixed and to shorten the gap between sales and delivery; this will put more pressure on supply in the near future.</description>
-    <title></title>
-    <maxWordCount>300</maxWordCount>
-    <answer>Toronto real estate is facing supply issues due to government policies, which might increase the cost of residential houses in future; hence it is forcing people to renovate their existing house, hampering the proliferation of real estate sector.</answer>
-  </template>
-</question>
-<question>
-  <id>1a8b9f7e59514d6daf8aeeb504825bb6</id>
-  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>The last decade’s doubling of capital expenditures has helped accomplish some critical upgrades to the US electric and natural gas infrastructure. It is already beginning to make the electric grid more reliable, resilient, flexible, and clean. Similarly, gas infrastructure investment is enhancing pipeline safety, bringing new shale supplies to market and sharply reducing natural gas and electricity commodity prices for customers. In several areas of investment, like grid modernization and upgrading the gas distribution system, there is still a long way to go and substantial additional investment will be needed over many years. But most of these investments will bring future benefits by enabling the flexible grid of the future, and helping to avoid costly and potentially tragic disasters such as long-term, large-scale electricity outages or gas system explosions.
-So far, these investments have been partially offset by lower fuel costs enabled by the shale revolution and the general downturn in oil and gas prices. Most utility customers have not seen sharp increases in their bills, but that could change. Factors such as rising natural gas prices could increase customer bills and make state utility commissions less amenable to rate hikes to cover capital investment programs.</description>
-    <title></title>
-    <maxWordCount>300</maxWordCount>
-    <answer>US expenditure on electric and natural gas has brought positive results, but lower fuel prices are slowing down the investing process and a rise in natural gas price could impact customers negatively as the state utility will try to recover money used in investing.</answer>
-  </template>
-</question>
-<question>
-  <id>404b3764b2b24dffb6d814a4657be0cf</id>
-  <practiceSet>0b7002c915a441eebdb4448e4388ba5b</practiceSet>
-  <type>WRITE_ESSAY</type>
-  <itemType>WRITING</itemType>
-  <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:20:00</attemptTime>
-  <template>
-    <description>Without capital punishment (the death penalty) our lives are less secure and crimes of violence increase. Capital punishment is essential to control violence in society. To what extent do you agree or disagree with this opinion?</description>
-    <title></title>
-    <maxWordCount>500</maxWordCount>
-    <answer></answer>
-  </template>
-</question>
-  <!--TEST 7 END-->
-  <!-- TEST 10-->
-  <question>
-  <id>416387a437df45e393ad2416ac0e472e</id>
-  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>From the conditions of frontier life came intellectual traits of profound importance. The work of travelers along each frontier from colonial days onward describe certain common traits, and these traits have while softening down, still persisted as survivals in the place of their origin, even when a higher social organization succeeded. The result is that to the frontier the American intellect owes its striking characteristics. That coarseness and strength combined with acuteness and acquisitiveness; that practical, inventive turn of mind, quick to find expedients; that masterful grasp of material things, lacking in the artistic but powerful to effect great ends; that restless, nervous energy; that dominant individualism, working for good and for evil, and withal that buoyancy and exuberance which comes with freedom—these are traits of the frontier, or traits called out elsewhere because of the existence of the frontier.</description>
-    <title></title>
-    <maxWordCount>300</maxWordCount>
-    <answer>The work of the travelers had revealed the traits of the frontier life which survives even today and these traits highly influenced the American intellectuals.</answer>
-  </template>
-</question>
-<question>
-  <id>b94fbd21a5c54afb804af1351719d81c</id>
-  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>At first, it was little more than a trickle. For a long time the Norman conquerors did not mix much with their Saxon subjects. There are plenty of indications of this; for the languages, too, moved side by side in parallel channels. The custom of having one name for a live beast grazing in the field and another for the same beast, when it is killed and cooked, is often supposed to be due to our English squeamishness and hypocrisy. Whether or not the survival of this custom through ten centuries is due to the national characteristics in question it would be hard to say, but they have certainly nothing to do with its origin.
-That is a much more blame-less affair. For the Saxon neatherd who had spent a hard day tending his oxen, sheep, calves and swine, probably saw little enough of the beef, mutton, veal, pork and bacon, which were gobbled at night by his Norman masters. There is something a little pathetic, too, in the thought that the homely old word, stool, could be used to express any kind of seat, however magnificent, until it was, so to speak, hustled into the kitchen by the smart French chair. Even the police, however, continued to use the old word in the idiom ‘to fall between two stools’.
-</description>
-    <title></title>
-    <maxWordCount>300</maxWordCount>
-    <answer>Norman and Saxon usage of English words has no relation with the origin of customs as differences are clearly visible in their usages for living and dead animals, moreover, particularly the usage of the word stool instead of chair.</answer>
-  </template>
-</question>
-<question>
-  <id>fcaa42db6cf44de8b7955a540b7b32a9</id>
-  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>The NSW taxi network forms an integral part of the State’s public transport network. The ubiquitous door-to-door service provided by taxis complements other forms of public transport throughout Sydney and regional NSW. Taxi services are particularly valuable for those with special transport needs, but they are also used by a large cross section of the community and have substantial flow-on effects for the efficient functioning of the NSW economy. This study examines the economic contribution of the NSW taxi industry and its role in connecting people, promoting social inclusion and supporting economic activity.
-There is a range of activity that takes place ‘behind the scenes’ to ensure that taxi services are efficiently provided and meet users’ needs. Authorised taxi networks maintain call centres to collect and dispatch bookings, monitor the safety of drivers and passengers, and assist the NSW Government in ensuring compliance with regulatory standards. Taxi owners, operators and drivers all play a vital role in providing a range of services to the travelling public. Various businesses fit out and maintain the taxi vehicles and Authorised Taxi Inspection Stations perform regular safety checks.
-</description>
-    <title></title>
-    <maxWordCount>300</maxWordCount>
-    <answer>The contribution of NSW taxi network services not only confined to public transport needs but to state economy also which operate with call centers to ensure booking, safety and regulatory standards with regular inspection.</answer>
-  </template>
-</question>
-<question>
-  <id>5a02f1c01071422ea0569cb1cffb21dc</id>
-  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
-  <type>WRITE_ESSAY</type>
-  <itemType>WRITING</itemType>
-  <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:20:00</attemptTime>
-  <template>
-    <description>Some people earn name and fame at very young age. Would you consider it to be positive or negative effect on once personality?</description>
-    <title></title>
-    <maxWordCount>300</maxWordCount>
-    <answer></answer>
-  </template>
-</question>
-  <!-- TEST 10 END-->
-  
-  
-  
-  <!-- TEST 3-->
-  <question>
-  <id>8166ac7511d04b18a7936b7ce32f2192</id>
-  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>This jovial farmer - or Mr IR8 as he became affectionately known - had inadvertently kick-started one of the greatest revolutions the world has ever seen. Not a political or social upheaval but a "Green Revolution", a revolution in the way the world farmed. It is thought that IR8 saved many millions of lives and transformed the lives of hundreds of millions of people. Back in the 1950s it was obvious that Asia, home to half the world's population, faced an impending food crisis. 
-Rice accounts for 80% of the calories consumed in the region and you only needed to plot population growth against rice production to see that, within a few years, there would not be enough to go around.
-Something needed to be done and in 1960 two American charities, the Ford and Rockefeller Foundations, joined forces to found the International Rice Research Institute (IRRI) in the Philippines. They reckoned promising developments in the science of plant breeding might just be the trick that would avert the impending disaster. The new team began patiently cross-breeding the 10,000 different varieties they had collected. This is usually a laborious process, Dr Gurdev Singh Khush tells me. He is an agronomist and geneticist who joined the team that developed IR8 in 1967.
-"Normally we get 1 or 2% yield increase every year," he says. IR8 was different. It married a tall high-yielding strain from Indonesia (PETA) with a sturdy dwarf variety from China (DGWG) with astounding results. "There was never any instance in the history of the world where rice yields doubled in one step," says Dr Khush, clearly still amazed by what his team achieved.
-In fact, according to some studies, IR8 yields in optimal conditions could be as much as 10 times that of traditional varieties. "Genetics is fantastic when it works like that," agrees the current head of IRRI, Matthew Morell.
-</description>
-    <title></title>
-    <maxWordCount>300</maxWordCount>
-    <answer>This jovial farmer - or Mr IR8 as he became affectionately known - had inadvertently kick-started "Green Revolution" which saved many millions of lives and transformed them but Asia, home to half the world's population, faced an impending food crisis and the Ford and Rockefeller Foundations reckoned promising developments in the science of plant breeding might just be the trick that would avert the impending disaster. </answer>
-  </template>
-</question>
-<question>
-  <id>7f2ca1bdb4ef4ef8b12fd4c7e96238dc</id>
-  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
-  <type>SUMMARIZE_TEXT</type>
-  <itemType>WRITING</itemType>
-  <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:10:00</attemptTime>
-  <template>
-    <description>China has introduced an additional 10% tax on "super cars", including Ferrari, Bentley, Aston Martin and Rolls-Royce. The tax, affecting cars that cost more than 1.3m yuan ($189,000; £151,024), is aimed at curbing lavish spending and reducing emissions, authorities said.
-It is part of a wider effort by Chinese authorities against flashy demonstrations of wealth, which has already hit other luxury brands. China is a key market for high-end carmakers.
-Automakers have in recent years increasingly tailored their luxury models to appeal to Chinese buyers. Both Rolls-Royce and Aston Martin are planning to release SUV models in the next year, seen as a response to a Chinese preference for large cars over sports vehicles.
-"In order to guide rational consumption, and promote energy-saving emission reductions, the state Council has approved an additional consumption levy on ultra-luxury cars," a statement by the Ministry of Finance said.
-The tax goes into effect on Thursday, although observers say it is unlikely to be a major deterrent for the super rich. Chinese President Xi Jinping has made a campaign against corruption a centre piece of his governing agenda, and has cracked down on luxury spending as part of that.</description>
-    <title></title>
-    <maxWordCount>300</maxWordCount>
-    <answer>China has introduced an additional 10% tax on "super cars" against flashy demonstrations of wealth, which has already hit other luxury brands, in order to guide rational consumption, and promote energy-saving emission reductions, the state Council has approved an additional consumption levy on ultra-luxury cars," although observers say it is unlikely to be a major deterrent for the super rich.</answer>
-  </template>
-</question>
-<question>
-  <id>2eba8d1d8ddc47e5b1f2f917f97cae98</id>
-  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
-  <type>WRITE_ESSAY</type>
-  <itemType>WRITING</itemType>
-  <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:20:00</attemptTime>
-  <template>
-    <description>Countries, businesses, and schools are three areas that need good leaders. Choose one of these three areas and describe the most important qualities of a leader in that area. Explain why these qualities are important, using specific examples and details.</description>
-    <title></title>
-    <maxWordCount>300</maxWordCount>
-    <answer></answer>
-  </template>
-</question>
-<question>
-  <id>1ad06373d956464f977ace1f9f76de41</id>
-  <practiceSet>88f631b360734b7da3b7c3e6151bd840</practiceSet>
-  <type>WRITE_ESSAY</type>
-  <itemType>WRITING</itemType>
-  <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:20:00</attemptTime>
-  <template>
-    <description>Playing games teaches us about life.Do you agree or disagree with the following statement? Use specific reasons and examples to support your answer.</description>
-    <title></title>
-    <maxWordCount>300</maxWordCount>
-    <answer></answer>
-  </template>
-</question>
-  <!-- TEST 3 END-->
-  
+  <!-- Test 10 END -->
 </questions>
