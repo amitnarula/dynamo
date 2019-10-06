@@ -142,11 +142,8 @@ In the lead up to the 2013 state election, the Liberal Party {blank} plans to re
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Nowadays, sacred texts are not as well regarded as in the past. There are many reasons for this: some terrorists, for instance, refer to the Koran -- the holy book of the Islamic religion --, to justify the atrocious crimes they commit, and some believe that it is the violence which these sacred texts contain which causes the chronic aggressiveness that characterizes some Muslims; some Christians campaign against the teaching of Darwin’s theory of evolution, because they argue it contradicts the biblical history of Creation; the Jews argue that God promised Canaan -- currently, Israel -- to the descendants of Abraham, and that this is the reason their oppressive policies against the Palestinians are legitimate. These issues have sparked a renewed interest in sacred texts which has interfered in the public life of some nations. Some secularist adversaries of religion claim that religious scriptures originate violence, sectarianism, and intolerance; furthermore, they hold that these reading materials also stop people from thinking for themselves and lead to deception. Overall, critics of religion want to know why there is so much hate in sacred texts, taking into account that religion preaches compassion; and they also question if it is possible to be a believer in the present, after science has undermined so many biblical teachings.
-
-Which of the following most accurately summarizes the opinion of the author in the text?
-</description>
-    <title></title>
+    <description>Nowadays, sacred texts are not as well regarded as in the past. There are many reasons for this: some terrorists, for instance, refer to the Koran -- the holy book of the Islamic religion --, to justify the atrocious crimes they commit, and some believe that it is the violence which these sacred texts contain which causes the chronic aggressiveness that characterizes some Muslims; some Christians campaign against the teaching of Darwin’s theory of evolution, because they argue it contradicts the biblical history of Creation; the Jews argue that God promised Canaan -- currently, Israel -- to the descendants of Abraham, and that this is the reason their oppressive policies against the Palestinians are legitimate. These issues have sparked a renewed interest in sacred texts which has interfered in the public life of some nations. Some secularist adversaries of religion claim that religious scriptures originate violence, sectarianism, and intolerance; furthermore, they hold that these reading materials also stop people from thinking for themselves and lead to deception. Overall, critics of religion want to know why there is so much hate in sacred texts, taking into account that religion preaches compassion; and they also question if it is possible to be a believer in the present, after science has undermined so many biblical teachings.</description>
+    <title>Which of the following most accurately summarizes the opinion of the author in the text?</title>
     <options>
       <o0>Israel’s policemen oppress the Palestinian people because they argue that God promised Canaan to them.</o0>
       <o1>Some of the acts that some religious people carry out are responsible for some people not having such a good opinion about sacred texts.</o1>
@@ -166,11 +163,8 @@ Which of the following most accurately summarizes the opinion of the author in t
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>At one time, one could only trace one's family ancestry by writing letters, visiting courthouses, and begging relatives for any crumb of information. However, today with the World Wide Web, the task has become much simpler. Much of the archived history of our lives and our ancestors' lives is readily available online. In addition, there are specific software programs in existence that will walk you through the process of creating a family tree and take you to appropriate internet sites for record information. Another alternative is hiring someone or some company to do your tree for you. Depending on your dedication and time, a method is available for you. You might think about tracing your family roots. It is fun for many and will let you in on your families past. Even if you find a skeleton in the closet, maybe you could just ignore that twig of your family tree.
-
-We may infer from the passage that
-</description>
-    <title></title>
+    <description>At one time, one could only trace one's family ancestry by writing letters, visiting courthouses, and begging relatives for any crumb of information. However, today with the World Wide Web, the task has become much simpler. Much of the archived history of our lives and our ancestors' lives is readily available online. In addition, there are specific software programs in existence that will walk you through the process of creating a family tree and take you to appropriate internet sites for record information. Another alternative is hiring someone or some company to do your tree for you. Depending on your dedication and time, a method is available for you. You might think about tracing your family roots. It is fun for many and will let you in on your families past. Even if you find a skeleton in the closet, maybe you could just ignore that twig of your family tree.</description>
+    <title>We may infer from the passage that</title>
     <options>
       <o0>When we trace our family's history, we may find bad as well as good things.</o0>
       <o1>Tracing our family tree is not worth the effort.</o1>
@@ -193,12 +187,12 @@ We may infer from the passage that
     <description></description>
     <title></title>
     <options>
-      <o1>A force of gravitation exists between everybody in the universe.</o1>
-      <o2>Normally it is very small but when the one of the bodies is a planet, like earth, the force is considerable.</o2>
-      <o3>It has been investigated by many scientists including Galileo and Newton.</o3>
-      <o4>Everything on or near the surface of the earth is attracted by the mass of earth.</o4>
-      <o5>This gravitational force depends on the mass of the bodies involved.</o5>
-      <o6>The greater the mass, the greater is the earth's force of attraction on it. We can call this force of attraction gravity.</o6>
+      <o0>A force of gravitation exists between everybody in the universe.</o0>
+      <o1>Normally it is very small but when the one of the bodies is a planet, like earth, the force is considerable.</o1>
+      <o2>It has been investigated by many scientists including Galileo and Newton.</o2>
+      <o3>Everything on or near the surface of the earth is attracted by the mass of earth.</o3>
+      <o4>This gravitational force depends on the mass of the bodies involved.</o4>
+      <o5>The greater the mass, the greater is the earth's force of attraction on it. We can call this force of attraction gravity.</o5>
     </options>
     <answer>0|2|4|1|3|5</answer>
   </template>
@@ -215,12 +209,12 @@ We may infer from the passage that
     <description></description>
     <title></title>
     <options>
-      <o1>For some time in his youth Abraham Lincoln was manager for a shop.</o1>
-      <o2>Then a chance Customer would come.</o2>
-      <o3>Young Lincoln way of keeping shop was entirely unlike anyone else's</o3>
-      <o4>Lincoln would jump up and attend to his needs and then revert to his reading.</o4>
-      <o5>He used to lie full length on the counter of the shop eagerly reading a book.</o5>
-      <o6>Never before had Lincoln had so much time for reading as had then.</o6>
+      <o0>For some time in his youth Abraham Lincoln was manager for a shop.</o0>
+      <o1>Then a chance Customer would come.</o1>
+      <o2>Young Lincoln way of keeping shop was entirely unlike anyone else's</o2>
+      <o3>Lincoln would jump up and attend to his needs and then revert to his reading.</o3>
+      <o4>He used to lie full length on the counter of the shop eagerly reading a book.</o4>
+      <o5>Never before had Lincoln had so much time for reading as had then.</o5>
     </options>
     <answer>0|2|4|1|3|5</answer>
   </template>
@@ -235,9 +229,8 @@ We may infer from the passage that
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description> David Ricardo’s introduction to economic theory was by chance. It is said that he discovered Adam Smith’s The Wealth of Nations during a retreat, in his late twenties. Reading this book made an impact on him, and, as many others in those times, turned him into a convinced follower of Smith’s way of thinking. Ricardo was a self-taught economist, and he was not that young when he actually became one. Be it as it may, he adhered to Smith’s main work, and, from then on, at the same time he took care of his commercial activities, he dedicated himself to writing articles on economics for the British press. Many years later, when he had finally retired from his profession, his friends encouraged him to write a book in which he could formalize his ideas regarding economics. As a consequence, his great work, On the Principles of Political Economy and Taxation, was born. Despite this book being relatively short, it is somewhat complex. Furthermore, it is considered to contain the most systematic and coherent formulation of classical economic thought. Besides Adam Smith and David Ricardo, this movement included other thinkers such as Jean-Baptiste Say, Thomas Robert Malthus, and John Stuart Mill.
-
-Which of the following are true statements about David Ricardo?</description>
-    <title></title>
+</description>
+    <title>Which of the following are true statements about David Ricardo?</title>
     <options>
       <o0>Reading The Wealth of Nations made a big impact on Adam Smith’s life, since it inspired him to write his greatest work.</o0>
       <o1>Despite David Ricardo not attending economic lessons at any institution, he managed to offer readers a summary of classical economic theories.</o1>
@@ -257,10 +250,8 @@ Which of the following are true statements about David Ricardo?</description>
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>The Nazi invasion of Denmark began the early morning of April 9th in 1940, when German soldiers entered Copenhagen, despite a nonaggression pact that had been signed by both countries in 1939, in which Denmark had declared its neutrality. After battling against the German troops for only a few hours, the Nordic country surrendered, but not without first declaring it would only bow to foreign occupation if Germany promised not to interfere with Denmark’s integrity and political sovereignty. However, in October of that same year, the invaders openly broke their promises and began to meddle in Denmark’s internal affairs. The Danish people later showed their dissatisfaction towards the invasion through nonviolent strategies which originated from a leaflet that became known as “the ten commandments leaflet”, which inspired several actions: for instance, peaceful strikes, mass gatherings (in which a strong sense of nationalism was displayed), and the decision to protect the Danish Jews. Nevertheless, in 1943, the Germans gave the Danish government a final warning and eventually obliged them to do the following: prohibit strikes and public meetings involving 5 or more people, impose a night curfew, collect weapons, and impose the death penalty for sabotage against the Germans.
-
-Which of the following are true statements about the Nazi invasion of Denmark?</description>
-    <title></title>
+    <description>The Nazi invasion of Denmark began the early morning of April 9th in 1940, when German soldiers entered Copenhagen, despite a nonaggression pact that had been signed by both countries in 1939, in which Denmark had declared its neutrality. After battling against the German troops for only a few hours, the Nordic country surrendered, but not without first declaring it would only bow to foreign occupation if Germany promised not to interfere with Denmark’s integrity and political sovereignty. However, in October of that same year, the invaders openly broke their promises and began to meddle in Denmark’s internal affairs. The Danish people later showed their dissatisfaction towards the invasion through nonviolent strategies which originated from a leaflet that became known as “the ten commandments leaflet”, which inspired several actions: for instance, peaceful strikes, mass gatherings (in which a strong sense of nationalism was displayed), and the decision to protect the Danish Jews. Nevertheless, in 1943, the Germans gave the Danish government a final warning and eventually obliged them to do the following: prohibit strikes and public meetings involving 5 or more people, impose a night curfew, collect weapons, and impose the death penalty for sabotage against the Germans.</description>
+    <title>Which of the following are true statements about the Nazi invasion of Denmark?</title>
     <options>
       <o0>The Danish government had to prohibit strikes before the Germans invaded their country.</o0>
       <o1>Denmark’s military was not even able to withstand the German invasion for a single day.</o1>
@@ -469,10 +460,8 @@ Which of the following are true statements about the Nazi invasion of Denmark?</
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>According to philosopher Ayn Rand from her literary nonfiction genre of work called the Romantic Manifesto, she asserts that there are a set of contradicting dual of art forms which are primarily classified as Naturalism and Romanticism. With the advent of modernization and post Nazi occurrences, the world beheld many Naturalistic forms of art as opposed to mind bending and excessively creative and novel Romantic art forms. Ayn Rand is concerned with the fact that there is an inherent void of balance between these contradicting art forms which puts the art form and human expression at jeopardy. Hence, she wants to let the world know that there ought to be a balance between these art forms and the Romanticism must not be annihilated and the beauty of it must not be lost. Life is all about balance and that elementary notion must not be lost and we must stick to those roots.
-
-Which of the following best describes the passage?</description>
-    <title></title>
+    <description>According to philosopher Ayn Rand from her literary nonfiction genre of work called the Romantic Manifesto, she asserts that there are a set of contradicting dual of art forms which are primarily classified as Naturalism and Romanticism. With the advent of modernization and post Nazi occurrences, the world beheld many Naturalistic forms of art as opposed to mind bending and excessively creative and novel Romantic art forms. Ayn Rand is concerned with the fact that there is an inherent void of balance between these contradicting art forms which puts the art form and human expression at jeopardy. Hence, she wants to let the world know that there ought to be a balance between these art forms and the Romanticism must not be annihilated and the beauty of it must not be lost. Life is all about balance and that elementary notion must not be lost and we must stick to those roots.</description>
+    <title>Which of the following best describes the passage?</title>
     <options>
       <o0>Romanticism is getting unpopular and the masses are embracing art works in the realm of naturalism only.</o0>
       <o1>There ought to be a balance between the art forms of Romanticism and Naturalism. Thought naturalism is on a steady rise, we still need to embrace romanticism for what it is.</o1>
@@ -491,10 +480,8 @@ Which of the following best describes the passage?</description>
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>According to philosopher Ayn Rand from her literary nonfiction genre of work called the Romantic Manifesto, she asserts that there are a set of contradicting dual of art forms which are primarily classified as Naturalism and Romanticism. With the advent of modernization and post Nazi occurrences, the world beheld many Naturalistic forms of art as opposed to mind bending and excessively creative and novel Romantic art forms. Ayn Rand is concerned with the fact that there is an inherent void of balance between these contradicting art forms which puts the art form and human expression at jeopardy. Hence, she wants to let the world know that there ought to be a balance between these art forms and the Romanticism must not be annihilated and the beauty of it must not be lost. Life is all about balance and that elementary notion must not be lost and we must stick to those roots.
-
-Which of the following best describes the passage?</description>
-    <title></title>
+    <description>According to philosopher Ayn Rand from her literary nonfiction genre of work called the Romantic Manifesto, she asserts that there are a set of contradicting dual of art forms which are primarily classified as Naturalism and Romanticism. With the advent of modernization and post Nazi occurrences, the world beheld many Naturalistic forms of art as opposed to mind bending and excessively creative and novel Romantic art forms. Ayn Rand is concerned with the fact that there is an inherent void of balance between these contradicting art forms which puts the art form and human expression at jeopardy. Hence, she wants to let the world know that there ought to be a balance between these art forms and the Romanticism must not be annihilated and the beauty of it must not be lost. Life is all about balance and that elementary notion must not be lost and we must stick to those roots.</description>
+    <title>Which of the following best describes the passage?</title>
     <options>
       <o0>Romanticism is getting unpopular and the masses are embracing art works in the realm of naturalism only.</o0>
       <o1>There ought to be a balance between the art forms of Romanticism and Naturalism. Thought naturalism is on a steady rise, we still need to embrace romanticism for what it is.</o1>
@@ -513,9 +500,8 @@ Which of the following best describes the passage?</description>
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>The Psychodynamic Approach. Theorists adopting the psychodynamic approach hold that inner conflicts are crucial for understanding human behavior, including aggression. Sigmund Freud, for example, believed that aggressive impulses are inevitable reactions to the frustrations of daily life. Children normally desire to vent aggressive impulses on other people, including their parents, because even the most attentive parents cannot gratify all of their demands immediately. Yet children, also fearing their parents' punishment and the loss of parental love, come to repress most aggressive impulses. The Freudian perspective, in a sense: sees us as "steam engines." By holding in rather than venting "steam," we set the stage for future explosions. Pent-up aggressive impulses demand outlets. They may be expressed toward parents in indirect ways such as destroying furniture, or they may be expressed toward strangers later in life.
-According to the paragraph, Freud believed that children experience conflict between a desire to vent aggression on their parents</description>
-    <title></title>
+    <description>The Psychodynamic Approach. Theorists adopting the psychodynamic approach hold that inner conflicts are crucial for understanding human behavior, including aggression. Sigmund Freud, for example, believed that aggressive impulses are inevitable reactions to the frustrations of daily life. Children normally desire to vent aggressive impulses on other people, including their parents, because even the most attentive parents cannot gratify all of their demands immediately. Yet children, also fearing their parents' punishment and the loss of parental love, come to repress most aggressive impulses. The Freudian perspective, in a sense: sees us as "steam engines." By holding in rather than venting "steam," we set the stage for future explosions. Pent-up aggressive impulses demand outlets. They may be expressed toward parents in indirect ways such as destroying furniture, or they may be expressed toward strangers later in life.</description>
+    <title>According to the paragraph, Freud believed that children experience conflict between a desire to vent aggression on their parents</title>
     <options>
       <o0>A frustration that their parents do not give them everything they want</o0>
       <o1>A fear that their parents will punish them</o1>
@@ -535,10 +521,8 @@ According to the paragraph, Freud believed that children experience conflict bet
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>In Southwest France in the 1940's, playing children discovered Lascaux Grotto, a series of narrow cave chambers that contain huge prehistoric paintings of animals. Many of these beasts are as large as 16 feet (almost 5 meters). Some follow each other in solemn parades, but others swirl about, sideways and upside down. The animals are bulls, wild horses, reindeer, bison, and mammoths outlined with charcoal and painted mostly in reds, yellow, and browns. Scientific analysis reveals that the colors were derived from ocher and other iron oxides ground into a fine powder. Methods of applying color varied: some colors were brushed or smeared on rock surfaces and others were blown or sprayed. It is possible that tubes made from animal bones were used for spraying because hollow bones, some stained with pigment, have been found nearby.
-
-What are the bones found in the Lascaux caves believed to indicate?</description>
-    <title></title>
+    <description>In Southwest France in the 1940's, playing children discovered Lascaux Grotto, a series of narrow cave chambers that contain huge prehistoric paintings of animals. Many of these beasts are as large as 16 feet (almost 5 meters). Some follow each other in solemn parades, but others swirl about, sideways and upside down. The animals are bulls, wild horses, reindeer, bison, and mammoths outlined with charcoal and painted mostly in reds, yellow, and browns. Scientific analysis reveals that the colors were derived from ocher and other iron oxides ground into a fine powder. Methods of applying color varied: some colors were brushed or smeared on rock surfaces and others were blown or sprayed. It is possible that tubes made from animal bones were used for spraying because hollow bones, some stained with pigment, have been found nearby.</description>
+    <title>What are the bones found in the Lascaux caves believed to indicate?</title>
     <options>
       <o0>The subjects the artists painted various.</o0>
       <o1>Artists painted pictures on both walls and bones.</o1>
@@ -560,12 +544,12 @@ What are the bones found in the Lascaux caves believed to indicate?</description
     <description></description>
     <title></title>
     <options>
-      <o1>However, the higher it goes, the less air it meets.</o1>
-      <o2>As the rocket goes higher, it travels faster.</o2>
-      <o3>For the atmosphere becomes thinner.</o3>
-      <o4>As a result there is less friction.</o4>
-      <o5>When a satellite is launched, the rocket begins by going slowly upwards through the air.</o5>
-      <o6>Consequently, the rocket still does not become too hot.</o6>
+      <o0>However, the higher it goes, the less air it meets.</o0>
+      <o1>As the rocket goes higher, it travels faster.</o1>
+      <o2>For the atmosphere becomes thinner.</o2>
+      <o3>As a result there is less friction.</o3>
+      <o4>When a satellite is launched, the rocket begins by going slowly upwards through the air.</o4>
+      <o5>Consequently, the rocket still does not become too hot.</o5>
     </options>
     <answer>4|1|0|2|3|5</answer>
   </template>
@@ -581,12 +565,12 @@ What are the bones found in the Lascaux caves believed to indicate?</description
     <description></description>
     <title></title>
     <options>
-      <o1>There are about four hundred old stone bridges joining the island of Venice.</o1>
-      <o2>In this city there are no motor cars, no horses, no buses.</o2>
-      <o3>Venice is a strange and beautiful city in the north of Italy.</o3>
-      <o4>This is because Venice has no streets.</o4>
-      <o5>It is not an island but a hundred and seventeen islands.</o5>
-      <o6>These small islands are near one another.</o6>
+      <o0>There are about four hundred old stone bridges joining the island of Venice.</o0>
+      <o1>In this city there are no motor cars, no horses, no buses.</o1>
+      <o2>Venice is a strange and beautiful city in the north of Italy.</o2>
+      <o3>This is because Venice has no streets.</o3>
+      <o4>It is not an island but a hundred and seventeen islands.</o4>
+      <o5>These small islands are near one another.</o5>
     </options>
     <answer>2|4|5|0|1|3</answer>
   </template>
@@ -681,7 +665,7 @@ What are the bones found in the Lascaux caves believed to indicate?</description
         <o3>aristocracy</o3>
         <o4>stagnated</o4>
         <o5>commonality</o5>
-		<o5>languishing</o5>
+		<o6>languishing</o6>
       </blank>
     </blanks>
     <answer>2|5|0|1</answer>
@@ -925,8 +909,8 @@ What are the bones found in the Lascaux caves believed to indicate?</description
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>The first English attempts to colonize North America were controlled by individuals rather than companies. Sir Humphrey Gilbert was the first Englishman to send colonists to the New World. His initial expedition, which sailed in 1578 with a patent granted by Queen Elizabeth was defeated by the Spanish. A second attempt ended in disaster in 1583 when Gilbert and his ship were lost in a storm. In the following year, Gilbert’s half brother, Sir Water Raleigh, having obtained a renewal of the patent, sponsored an expedition that explored the coast of the region that he named “Virginia.” Under Raleigh’s direction efforts were then made to establish a colony on Roanoke Island in 1585 and 1587. The survivors of the first settlement on Roanoke returned to England in 1586, but the second group of colonists disappeared without leaving a trace. The failure of the Gilbert and Raleigh ventures made it clear that the tasks they had undertaken were too big for any one colonizer. Within a short time, the trading company had supplanted the individual promoter of colonization.
-Which of the following statements can be supported by this text?</description>
-    <title></title>
+</description>
+    <title>Which of the following statements can be supported by this text?</title>
     <options>
       <o0>The first English settlement on Roanoke Island was established in 1587.</o0>
       <o1>Sir Humphrey Gilbert never settled in North America.</o1>
@@ -947,8 +931,8 @@ Which of the following statements can be supported by this text?</description>
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>The crisis begins in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek prenatal care. In the U.S. 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single-parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grows and more women enter the workforce, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period from infancy through preschool years that sets the stage for a child’s future.
-What can be the possible reasons for the increasing neglect and abuse of children?</description>
-    <title></title>
+</description>
+    <title>What can be the possible reasons for the increasing neglect and abuse of children?</title>
     <options>
       <o0>The immaturity and overburdening of parents.</o0>
       <o1>The babies being left in foster care where a stranger looks after them.</o1>
@@ -1090,11 +1074,8 @@ What can be the possible reasons for the increasing neglect and abuse of childre
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>The American people have an incorrect understanding of what it means to be at war. At least so argues T.H. Pickett in his conservative interpretation of American military history. Pickett does present a wealth of examples along with a refreshing candid argument that America often goes to war for an abstract ideal such as the democratization of societies, would peace, liberty, or freedom. For instance, the Spanish - American War of 1898 was ostensibly a consequence of national enthusiasm for the cause of Cuban liberty. And, more obviously, America’s entry into World War I stemmed from a desire to “make the world safe for democracy.” Although these observations are supportable, Pickett overstates the cause typically lead to a war hysteria in which American leadership can no longer enforce any measured policies.
-
-Which of the following best states the author’s main point?
-</description>
-    <title></title>
+    <description>The American people have an incorrect understanding of what it means to be at war. At least so argues T.H. Pickett in his conservative interpretation of American military history. Pickett does present a wealth of examples along with a refreshing candid argument that America often goes to war for an abstract ideal such as the democratization of societies, would peace, liberty, or freedom. For instance, the Spanish - American War of 1898 was ostensibly a consequence of national enthusiasm for the cause of Cuban liberty. And, more obviously, America’s entry into World War I stemmed from a desire to “make the world safe for democracy.” Although these observations are supportable, Pickett overstates the cause typically lead to a war hysteria in which American leadership can no longer enforce any measured policies.</description>
+    <title>Which of the following best states the author’s main point?</title>
     <options>
       <o0>Pickett provides a cogent rationale for why America engages in warfare; however, he draws conclusions that the author does not fully support.</o0>
       <o1>Pickett’s study is valuable primarily because it provides a thorough understanding of the causes of American warfare.</o1>
@@ -1113,10 +1094,8 @@ Which of the following best states the author’s main point?
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>By 1784, Wolfgang Amadeus Mozart was internationally renowned as the composer of The Marriage of Figaro, and consequently received a commission from the Prague Opera House to compose another opera. The resulting product was Don Giovanni, which tells the tale of a criminal and seducer who nevertheless evokes sympathy from audiences, and whose behavior fluctuates from moral crisis to hilarious escapade. While Don Giovanni is widely considered to be Mozart’s greatest achievement, eighteenth century audiences in Vienna — Mozart’s own city — were ambivalent at best. The opera mixed traditions of moralism with those of comedy — a practice heretofore unknown among the composer’s works — creating a production that was not well liked by conservative Viennese audiences. Meanwhile, however, Don Giovanni was performed to much acclaim throughout Europe.
-
-The primary purpose of the passage is to</description>
-    <title></title>
+    <description>By 1784, Wolfgang Amadeus Mozart was internationally renowned as the composer of The Marriage of Figaro, and consequently received a commission from the Prague Opera House to compose another opera. The resulting product was Don Giovanni, which tells the tale of a criminal and seducer who nevertheless evokes sympathy from audiences, and whose behavior fluctuates from moral crisis to hilarious escapade. While Don Giovanni is widely considered to be Mozart’s greatest achievement, eighteenth century audiences in Vienna — Mozart’s own city — were ambivalent at best. The opera mixed traditions of moralism with those of comedy — a practice heretofore unknown among the composer’s works — creating a production that was not well liked by conservative Viennese audiences. Meanwhile, however, Don Giovanni was performed to much acclaim throughout Europe.</description>
+    <title>The primary purpose of the passage is to</title>
     <options>
       <o0>relate the story of a somewhat likable antihero.</o0>
       <o1>discuss how a work of art has been met by diverging responses.</o1>
@@ -1138,11 +1117,11 @@ The primary purpose of the passage is to</description>
     <description></description>
     <title></title>
     <options>
-      <o1>Back at Stanford University, Liu, a professor of archaeology, and her students microscopically analyzed pieces of the residue on the funnel and found evidence of ancient grains in the form of phytoliths, fossilized plant parts.</o1>
-      <o2>It was 2012 when archaeologist Li Liu noticed an unusual dark residue inside a 5000-year-old pottery funnel from Inner Mongolia.</o2>
-      <o3>The observation left her wondering if the funnel might have been used to make alcohol.</o3>
-      <o4>The group determined the grain was millet, a common grain used for brewing beer.</o4>
-      <o5>If Liu’s hunch proved correct, it would represent the oldest evidence of alcohol production in the Yellow River valley of China.</o5>
+      <o0>Back at Stanford University, Liu, a professor of archaeology, and her students microscopically analyzed pieces of the residue on the funnel and found evidence of ancient grains in the form of phytoliths, fossilized plant parts.</o0>
+      <o1>It was 2012 when archaeologist Li Liu noticed an unusual dark residue inside a 5000-year-old pottery funnel from Inner Mongolia.</o1>
+      <o2>The observation left her wondering if the funnel might have been used to make alcohol.</o2>
+      <o3>The group determined the grain was millet, a common grain used for brewing beer.</o3>
+      <o4>If Liu’s hunch proved correct, it would represent the oldest evidence of alcohol production in the Yellow River valley of China.</o4>
     </options>
     <answer>1|2|4|0|3</answer>
   </template>
@@ -1158,10 +1137,10 @@ The primary purpose of the passage is to</description>
     <description></description>
     <title></title>
     <options>
-      <o1>The likelihood of an accident is determined by how carefully the motorist drives and how carefully the pedestrian crosses the street.</o1>
-      <o2>An accident involving a motorist and a pedestrian is such a case.</o2>
-      <o3>Each must decide how much care to exercise without knowing how careful the other is.</o3>
-      <o4>The simplest strategic problem arises when two individuals interact with each other, and each must decide what to do without knowing what the other is doing.</o4>
+      <o0>The likelihood of an accident is determined by how carefully the motorist drives and how carefully the pedestrian crosses the street.</o0>
+      <o1>An accident involving a motorist and a pedestrian is such a case.</o1>
+      <o2>Each must decide how much care to exercise without knowing how careful the other is.</o2>
+      <o3>The simplest strategic problem arises when two individuals interact with each other, and each must decide what to do without knowing what the other is doing.</o3>
     </options>
     <answer>3|1|0|2</answer>
   </template>
@@ -1174,35 +1153,35 @@ The primary purpose of the passage is to</description>
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>In the June 9 Nature, Ronney, Sossina Haile of the California Institute of Technology in Pasadena, and Scott Barnett of Northwestern University in Evanston, Ill., describe their dime-size fuel cells. A {blank} focus of their work was to design a fuel cell that could heat itself up to the 500° to 600°C required to convert propane into electricity. So far, such fuel cells work only when {blank} heated by an external source. To build a self-heating feature into their design, the researchers coated one of the fuel cell's electrodes with a catalyst—a mixture of ruthenium and cerium dioxide-that {blank} the breakdown of propane by oxygen. That reaction releases heat and also produces hydrogen and carbon monoxide, which then undergo electrochemical reactions in the fuel cell. The result is electricity, with carbon dioxide and water as {blank} products.</description>
+    <description>Language comes so naturally to us that it is easy to forget what a strange and {blank} gift it is. All over the world members of our species fashion their breath into hisses and hums and squeaks and pops and listen to others do the same. We do this, of course, not only because we like the sounds but because details of the sounds contain information about the {blank} of the person making them. We humans are fitted with a means of sharing our ideas, in all their {blank}  vastness. When we listen to speech, we can be led to think thoughts that have never been thought before and that never would have occurred to us on our own. {blank} , the bush burned with fire, and the bush was not consumed. Man is born free, and everywhere he is in chains.</description>
     <title></title>
     <blanks>
       <blank>
-        <o0>secondary</o0>
-        <o1>primary</o1>
-        <o2>primarily</o2>
-        <o3>dominant</o3>
+        <o0>amazingly</o0>
+        <o1>miraculous</o1>
+        <o2>believable</o2>
+        <o3>mind-blowing</o3>
       </blank>
       <blank>
-        <o0>gradually</o0>
-        <o1>conditionally</o1>
-        <o2>conveniently</o2>
-        <o3>continuously</o3>
+        <o0>unintentional</o0>
+        <o1>inspiration</o1>
+        <o2>motivation</o2>
+        <o3>intentions</o3>
       </blank>
       <blank>
-        <o0>enhances</o0>
-        <o1>diminishes</o1>
-        <o2>covers</o2>
-        <o3>uplift</o3>
+        <o0>unfathomable</o0>
+        <o1>limited</o1>
+        <o2>explicable</o2>
+        <o3>fathomable</o3>
       </blank>
       <blank>
-        <o0>debris</o0>
-        <o1>contaminated</o1>
-        <o2>extra</o2>
-        <o3>waste</o3>
+        <o0>Overlook</o0>
+        <o1>Ignorant</o1>
+        <o2>Behold</o2>
+        <o3>Belief</o3>
       </blank>
     </blanks>
-    <answer>1|3|0|3</answer>
+    <answer>1|3|0|2</answer>
   </template>
 </question><question>
   <id>acb53b0645be40e1ba2f7e54184567a6</id>
@@ -1337,11 +1316,8 @@ The primary purpose of the passage is to</description>
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Reviving the practice of using elements of popular music in classical composition, an approach that had been in hibernation in the United States during the 1960s, composer Philip Glass (born 1937) embraced the ethos of popular music in his compositions. Glass based two symphonies on music by rock musicians David Bowie and Brian Eno, but the symphonies’ sound is distinctively his. Popular elements do not appear out of place in Glass’s classical music, which from its early days has shared certain harmonies and rhythms with rock music. Yet this use of popular elements has not made Glass a composer of popular music. His music is not a version of popular music packaged to attract classical listeners; it is high art for listeners steeped in rock rather than the classics.
-
-The passage addresses which of the following issues related to Glass’s use of popular elements in his classical compositions?
-</description>
-    <title></title>
+    <description>Reviving the practice of using elements of popular music in classical composition, an approach that had been in hibernation in the United States during the 1960s, composer Philip Glass (born 1937) embraced the ethos of popular music in his compositions. Glass based two symphonies on music by rock musicians David Bowie and Brian Eno, but the symphonies’ sound is distinctively his. Popular elements do not appear out of place in Glass’s classical music, which from its early days has shared certain harmonies and rhythms with rock music. Yet this use of popular elements has not made Glass a composer of popular music. His music is not a version of popular music packaged to attract classical listeners; it is high art for listeners steeped in rock rather than the classics.</description>
+    <title>The passage addresses which of the following issues related to Glass’s use of popular elements in his classical compositions?</title>
     <options>
       <o0>How it is regarded by listeners who prefer rock to the classics</o0>
       <o1>How it has affected the commercial success of Glass’s music</o1>
@@ -1360,12 +1336,8 @@ The passage addresses which of the following issues related to Glass’s use of 
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Future Shock is a book written by the futurist Alvin Toffler in 1970. In the book, Toffler defines the term “future shock” as a certain psychological state of individuals and entire societies. His shortest definition for the term is a personal perception of “too much change in too short a period of time”. The book became an international bestseller, selling over 6 million copies, and has been widely translated. Toffler argued that society is undergoing an enormous structural change, a revolution from an industrial society to a “super-industrial society”. This change overwhelms people, he believed, the accelerated rate of technological and social change leaving people disconnected and suffering from “shattering stress and disorientation” - future shocked. Toffler stated that the majority of social problems are symptoms of future shock. In his discussion of the components of such shock he popularized the term “information overload.”
-
-What would be the most suitable title for the passage?
-
-</description>
-    <title></title>
+    <description>Future Shock is a book written by the futurist Alvin Toffler in 1970. In the book, Toffler defines the term “future shock” as a certain psychological state of individuals and entire societies. His shortest definition for the term is a personal perception of “too much change in too short a period of time”. The book became an international bestseller, selling over 6 million copies, and has been widely translated. Toffler argued that society is undergoing an enormous structural change, a revolution from an industrial society to a “super-industrial society”. This change overwhelms people, he believed, the accelerated rate of technological and social change leaving people disconnected and suffering from “shattering stress and disorientation” - future shocked. Toffler stated that the majority of social problems are symptoms of future shock. In his discussion of the components of such shock he popularized the term “information overload.”</description>
+    <title>What would be the most suitable title for the passage?</title>
     <options>
       <o0>A shocking vision of the future.</o0>
       <o1>What is “future shock”?</o1>
@@ -1385,11 +1357,8 @@ What would be the most suitable title for the passage?
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>In 1861, Matthew Brady, a well-known portrait photographer, approached President Lincoln requesting permission to move freely about the country photographing the Civil War. Lincoln granted him permission to travel anywhere with the Union armies, and his record of this conflict brought home to millions the horrors of war.
-Brady wasn’t the first official war photographer. Six years earlier, Roger Fenton, a lawyer and amateur photographer, had returned from the Crimea, having been personally chosen by Queen Victoria and Prince Albert. However, his instructions were more likely to have been to send back work that boosted morale back home rather than the terrible realities of war. Brady’s coverage of the war made him a household name, but he had hundreds of assistants, and it’s even possible that he didn’t take any of the 7,000 pictures that were marketed under his name. But no one else could have organized the large army of photographers needed to cover the broad sweep of the war and provided access to many leading generals and politicians.
-
-Which of the following statements are true of Matthew Brady?
-</description>
-    <title></title>
+Brady wasn’t the first official war photographer. Six years earlier, Roger Fenton, a lawyer and amateur photographer, had returned from the Crimea, having been personally chosen by Queen Victoria and Prince Albert. However, his instructions were more likely to have been to send back work that boosted morale back home rather than the terrible realities of war. Brady’s coverage of the war made him a household name, but he had hundreds of assistants, and it’s even possible that he didn’t take any of the 7,000 pictures that were marketed under his name. But no one else could have organized the large army of photographers needed to cover the broad sweep of the war and provided access to many leading generals and politicians.</description>
+    <title>Which of the following statements are true of Matthew Brady?</title>
     <options>
       <o0>He was given permission to travel anywhere in the US.</o0>
       <o1>He was able to give his photographers introductions to politicians.</o1>
@@ -1409,11 +1378,8 @@ Which of the following statements are true of Matthew Brady?
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Psychological researchers generally recognize that facial expressions reflect emotional states. In fact, various emotional states give rise to certain patterns of electrical activity in the facial muscles and in the brain. The facial-feedback hypothesis argues, however, that the causal relationship between emotions and facial expressions can also work in the opposite direction. According to this hypothesis, signals from the facial muscles ("feedback") are sent back to emotion centers of the brain, and so a person's facial expression can influence that person's emotional state. Consider Darwin's words: "The free expression by outward signs of an emotion intensifies it. On the other hand, the repression, as far as possible, of all outward signs softens our emotions." Can smiling give rise to feelings of good will, for example, and frowning to anger?
-
-According to the passage, what did Darwin believe would happen to human emotions that were not expressed?
-</description>
-    <title></title>
+    <description>Psychological researchers generally recognize that facial expressions reflect emotional states. In fact, various emotional states give rise to certain patterns of electrical activity in the facial muscles and in the brain. The facial-feedback hypothesis argues, however, that the causal relationship between emotions and facial expressions can also work in the opposite direction. According to this hypothesis, signals from the facial muscles ("feedback") are sent back to emotion centers of the brain, and so a person's facial expression can influence that person's emotional state. Consider Darwin's words: "The free expression by outward signs of an emotion intensifies it. On the other hand, the repression, as far as possible, of all outward signs softens our emotions." Can smiling give rise to feelings of good will, for example, and frowning to anger?</description>
+    <title>According to the passage, what did Darwin believe would happen to human emotions that were not expressed?</title>
     <options>
       <o0>They would become less intense.</o0>
       <o1>They would last longer than usual.</o1>
@@ -1435,11 +1401,11 @@ According to the passage, what did Darwin believe would happen to human emotions
     <description></description>
     <title></title>
     <options>
-      <o1>However, the authorities there aren’t ready to rest on their laurels, and they’ve decided to carry through a real revolution in their school system.</o1>
-      <o2>Finnish officials want to remove school subjects from the curriculum.</o2>
-      <o3>There will no longer be any classes in physics, math, literature, history, or geography.</o3>
-      <o4>Finland’s education system is considered one of the best in the world.</o4>
-      <o5>In international ratings, it’s always in the top ten.</o5>
+      <o0>However, the authorities there aren’t ready to rest on their laurels, and they’ve decided to carry through a real revolution in their school system.</o0>
+      <o1>Finnish officials want to remove school subjects from the curriculum.</o1>
+      <o2>There will no longer be any classes in physics, math, literature, history, or geography.</o2>
+      <o3>Finland’s education system is considered one of the best in the world.</o3>
+      <o4>In international ratings, it’s always in the top ten.</o4>
     </options>
     <answer>3|4|0|1|2</answer>
   </template>
@@ -1455,10 +1421,10 @@ According to the passage, what did Darwin believe would happen to human emotions
     <description></description>
     <title></title>
     <options>
-      <o1>The situations in which violence occurs and the nature of that violence tends to be clearly defined at least in theory, as in the proverbial Irishman’s question: ‘Is this a private fight or can anyone join in?</o1>
-      <o2>So the actual risk to outsiders, though no doubt higher than our societies, is calculable.</o2>
-      <o3>Probably the only uncontrolled applications of force are those of social superiors to social inferiors and even here there are probably some rules.</o3>
-      <o4>However binding the obligation to kill, members of feuding families engaged in mutual massacre will be genuinely appalled if by some mischance a bystander or outsider is killed.</o4>
+      <o0>The situations in which violence occurs and the nature of that violence tends to be clearly defined at least in theory, as in the proverbial Irishman’s question: ‘Is this a private fight or can anyone join in?</o0>
+      <o1>So the actual risk to outsiders, though no doubt higher than our societies, is calculable.</o1>
+      <o2>Probably the only uncontrolled applications of force are those of social superiors to social inferiors and even here there are probably some rules.</o2>
+      <o3>However binding the obligation to kill, members of feuding families engaged in mutual massacre will be genuinely appalled if by some mischance a bystander or outsider is killed.</o3>
     </options>
     <answer>3|0|1|2</answer>
   </template>
@@ -1772,6 +1738,92 @@ According to the passage, what did Darwin believe would happen to human emotions
 </question>
 <!-- Test 5 -->
 <question>
+  <id>325c4a0840b946acadbf5a64c5db11a7</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Snails are not {blank} known for quick thinking, but new research shows they can make complex decisions using just two brain cells in findings that could substantially help engineers design more efficient robots. Scientists at the University of Sussex {blank} electrodes to the heads of freshwater snails as they searched for lettuce. They found that just one cell was used by the mollusc to tell if it was {blank} or not, while another let it know when food was present. Food-searching is an example of goal-directed behavior, during which an animal must integrate information about both its external environment and {blank} state while using as little energy as possible.</description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>traditionally</o0>
+        <o1>eventually</o1>
+        <o2>specifically</o2>
+        <o3>particularly</o3>
+      </blank>
+      <blank>
+        <o0>joined</o0>
+        <o1>connected</o1>
+        <o2>attached</o2>
+        <o3>converted</o3>
+      </blank>
+      <blank>
+        <o0>starving</o0>
+        <o1>hungry</o1>
+        <o2>alive</o2>
+        <o3>dead</o3>
+      </blank>
+      <blank>
+        <o0>inside</o0>
+        <o1>outside</o1>
+        <o2>external</o2>
+        <o3>internal</o3>
+      </blank>
+    </blanks>
+    <answer>0|2|1|3</answer>
+  </template>
+</question>
+<question>
+  <id>f22451eb68a34af4a47b8d9fab17d900</id>
+  <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
+  <type>FILL_IN_BLANK_WITH_OPTIONS</type>
+  <itemType>READING</itemType>
+  <instruction>In the text below some words are missing. Click on each blank, a list of choices will appear. Select the appropriate answer choice for each blank.</instruction>
+  <delayTime>00:00:00</delayTime>
+  <attemptTime>00:00:00</attemptTime>
+  <template>
+    <description>Two developments in the 19th century paved the way for a whole new type of building: the skyscraper. The first was the development of a safe elevator. {blank} elevators of various designs had been used for centuries, and starting in the mid 19th century, steam-operated elevators were used to move materials in factories, mines, and warehouses. But these elevators were not {blank} safe for people; if the cable broke, they would plummet to the bottom of the elevator shaft. Then in 1853, an American inventor named Elisha Graves Otis developed a safety device that kept elevators from falling if a cable should break. This new development had a/an {blank} impact on public confidence. And later in the century, the switch to an electric motor made the elevator a practical solution to the problem of getting up and down tall buildings. The second development took place in Chicago. In 1871, Chicago suffered a {blank} fire. In the years that followed, however, instead of recovering slowly, the city experienced explosive growth, and it quickly began to strain against its {blank} boundaries. </description>
+    <title></title>
+    <blanks>
+      <blank>
+        <o0>old</o0>
+        <o1>Ancient</o1>
+        <o2>Antique</o2>
+        <o3>Primitive</o3>
+      </blank>
+      <blank>
+        <o0>make</o0>
+        <o1>considered</o1>
+        <o2>considering</o2>
+        <o3>consider</o3>
+      </blank>
+      <blank>
+        <o0>enormous</o0>
+        <o1>broad</o1>
+        <o2>vast</o2>
+        <o3>wide</o3>
+      </blank>
+      <blank>
+        <o0>destructive</o0>
+        <o1>infrequent</o1>
+        <o2>devastating</o2>
+        <o3>huge</o3>
+      </blank>
+      <blank>
+        <o0>natural</o0>
+        <o1>nature</o1>
+        <o2>original</o2>
+        <o3>artificial</o3>
+      </blank>
+    </blanks>
+    <answer>3|1|0|2|0</answer>
+  </template>
+</question>
+<question>
   <id>b5d8bc0e545044499557b8084809c506</id>
   <practiceSet>d9d885229cf64aceb84b19095b1ffd9c</practiceSet>
   <type>FILL_IN_BLANK_WITH_OPTIONS</type>
@@ -1915,11 +1967,8 @@ According to the passage, what did Darwin believe would happen to human emotions
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Many of us have become aware that statistically, the majority of Americans are overweight. Although we hear this often in the media, not everybody may realize the implications of this fact for health care and ultimately for our national economy. Not only is excess weight associated with heart disease, a number of different cancers, and other problems; it especially is associated with diabetes. In 2011, 28.5 million of American citizens had diabetes. An additional 66 million Americans had pre-diabetic symptoms. In 2011, medical costs for diabetics were $174 billion per year. Research from a health insurance company projected that by 2020, diabetes would cost America $3.4 trillion per year. The federal government would pay over 60% of that total. Accordingly, some organizations have recommended that losing weight by reducing our intake of high-calorie foods could help save the government money by lowering the risk, and hence the incidence, of diabetes. As a result, improving our physical health also can improve our fiscal health.
-
-Which of the following statements best expresses the main idea of this passage?
-</description>
-    <title></title>
+    <description>Many of us have become aware that statistically, the majority of Americans are overweight. Although we hear this often in the media, not everybody may realize the implications of this fact for health care and ultimately for our national economy. Not only is excess weight associated with heart disease, a number of different cancers, and other problems; it especially is associated with diabetes. In 2011, 28.5 million of American citizens had diabetes. An additional 66 million Americans had pre-diabetic symptoms. In 2011, medical costs for diabetics were $174 billion per year. Research from a health insurance company projected that by 2020, diabetes would cost America $3.4 trillion per year. The federal government would pay over 60% of that total. Accordingly, some organizations have recommended that losing weight by reducing our intake of high-calorie foods could help save the government money by lowering the risk, and hence the incidence, of diabetes. As a result, improving our physical health also can improve our fiscal health.</description>
+    <title>Which of the following statements best expresses the main idea of this passage?</title>
     <options>
       <o0>More than 28 million Americans had diabetes in 2011.</o0>
       <o1>Losing weight reduces diabetes risk, thereby saving government expense.</o1>
@@ -1938,10 +1987,8 @@ Which of the following statements best expresses the main idea of this passage?
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Not surprisingly, the crime victims are often called upon to identify the person who robbed or attacked them. For a jury, the victim’s testimony is often proof positive that the accused is guilty. After all, who can better identify the wrongdoer than the person harmed. This is just common sense. Yet as is so often the case, common sense can be misleading. As it turns out, crime victims don’t necessarily make reliable witnesses. Overcome with fear, they often close their eyes or focus fixedly on the weapon being used to threaten them. As a result, they don’t get a good look at the thief or attacker. While it’s not true that crime victim testimony is always inaccurate, it’s also true that one can’t assume a victim’s identification is automatic proof of guilt.
-
-Which of the following most accurately summarizes the opinion of the author in the text?</description>
-    <title></title>
+    <description>Not surprisingly, the crime victims are often called upon to identify the person who robbed or attacked them. For a jury, the victim’s testimony is often proof positive that the accused is guilty. After all, who can better identify the wrongdoer than the person harmed. This is just common sense. Yet as is so often the case, common sense can be misleading. As it turns out, crime victims don’t necessarily make reliable witnesses. Overcome with fear, they often close their eyes or focus fixedly on the weapon being used to threaten them. As a result, they don’t get a good look at the thief or attacker. While it’s not true that crime victim testimony is always inaccurate, it’s also true that one can’t assume a victim’s identification is automatic proof of guilt.</description>
+    <title>Which of the following most accurately summarizes the opinion of the author in the text?</title>
     <options>
       <o0>Crime victims do not always correctly identify those who have harmed them.</o0>
       <o1>Crime victim testimony is almost always inaccurate because during the crime, the victim was overcome with terror.</o1>
@@ -1960,13 +2007,11 @@ Which of the following most accurately summarizes the opinion of the author in t
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>A Close look at the facts relating to political interference in administration shows that it is not a one-way process. There is often a nexus between power hungry and corrupt politicians and civil servants with convenient principles. Many civil servants are only too anxious to oblige the politicians, and then cash the obligation when they need some special favour. So the attitude of self-righteousness adopted by the civil service is sometimes only a way of covering their own flaws by blaming others.
-Every now and then some retired civil servants come out with his memoirs, painting a glorious picture of the heights of administrative efficiency reached during his reign. There is often the suggestion that had there not been so much political interference, things would have been even more fantastic. It is not unusual for the self styled hero to blame not only interfering politicians but also fellow civil servants who are idiots or crooks, for his failures. This attitude of smug self-satisfaction is, unfortunately, developed during the years of service. Self preservation rather than service is encouraged by our whole system of rules and procedures.
-The remedy has to be drastic and quickly effective. The over protection now granted to civil servants must end. Today to remove an erring civil servant is just not possible. And the only thing that the highest authority in the Government, both in the State and at the Centre, can do is to transfer an official from one job to another. The rules for taking disciplinary action are so complicated that, in the end, the defaulting civil servants gets away, and gets his full emoluments even for the period of the disciplinary proceedings, thus making it a paid holiday for him.
-The result is that the administration has become rule-oriented and not result-oriented. Action is possible against the official who takes some interest in his work, but no action is ever taken against a person who does not deliver the goods. If the country is to adopt a result-oriented approach, it is necessary to link job performance with job retention.
-
-The facts relating to the problem of political interference indicate that:
+	Every now and then some retired civil servants come out with his memoirs, painting a glorious picture of the heights of administrative efficiency reached during his reign. There is often the suggestion that had there not been so much political interference, things would have been even more fantastic. It is not unusual for the self styled hero to blame not only interfering politicians but also fellow civil servants who are idiots or crooks, for his failures. This attitude of smug self-satisfaction is, unfortunately, developed during the years of service. Self preservation rather than service is encouraged by our whole system of rules and procedures.
+	The remedy has to be drastic and quickly effective. The over protection now granted to civil servants must end. Today to remove an erring civil servant is just not possible. And the only thing that the highest authority in the Government, both in the State and at the Centre, can do is to transfer an official from one job to another. The rules for taking disciplinary action are so complicated that, in the end, the defaulting civil servants gets away, and gets his full emoluments even for the period of the disciplinary proceedings, thus making it a paid holiday for him.
+	The result is that the administration has become rule-oriented and not result-oriented. Action is possible against the official who takes some interest in his work, but no action is ever taken against a person who does not deliver the goods. If the country is to adopt a result-oriented approach, it is necessary to link job performance with job retention.
 </description>
-    <title></title>
+    <title>The facts relating to the problem of political interference indicate that:</title>
     <options>
       <o0>honest bureaucrats are always being troubled by politicians.</o0>
       <o1>politicians are often misled and trapped by civil servants.</o1>
@@ -1987,14 +2032,12 @@ The facts relating to the problem of political interference indicate that:
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>Since the 1980s, a standard treatment for diabetic patients has been injections of insulin produced by genetically engineered bacteria. While effective, this type of treatment requires great effort by the patient and can generate large swings in blood sugar levels.
-In patients suffering from Type 1 diabetes, the immune system attacks the pancreas, eventually leaving patients without the ability to naturally control blood sugar. These patients must carefully monitor the amount of sugar in their blood, measuring it several times a day and then injecting themselves with insulin to keep their blood sugar levels within a healthy range, which is a challenge for many reasons. Now researchers report that encapsulated pancreatic cells offer possible new diabetes treatment.
-The researchers now plan to further test their new materials in nonhuman primates, with the goal of eventually performing clinical trials in diabetic patients. If successful, this approach could provide long-term blood sugar control for such patients. "Our goal is to continue to work hard to translate these promising results into a therapy that can help people," Anderson says.
-"Being insulin-independent is the goal," Vegas says. "This would be a state-of-the-art way of doing that, better than any other technology could. Cells are able to detect glucose and release insulin far better than any piece of technology we've been able to develop."
-The researchers are also investigating why their new material works so well. They found that the best-performing materials were all modified with molecules containing a triazole group -- a ring containing two carbon atoms and three nitrogen atoms. They suspect this class of molecules may interfere with the immune system's ability to recognize the material as foreign.
-
-Aim of the passage is:
+	In patients suffering from Type 1 diabetes, the immune system attacks the pancreas, eventually leaving patients without the ability to naturally control blood sugar. These patients must carefully monitor the amount of sugar in their blood, measuring it several times a day and then injecting themselves with insulin to keep their blood sugar levels within a healthy range, which is a challenge for many reasons. Now researchers report that encapsulated pancreatic cells offer possible new diabetes treatment.
+	The researchers now plan to further test their new materials in nonhuman primates, with the goal of eventually performing clinical trials in diabetic patients. If successful, this approach could provide long-term blood sugar control for such patients. "Our goal is to continue to work hard to translate these promising results into a therapy that can help people," Anderson says.
+	"Being insulin-independent is the goal," Vegas says. "This would be a state-of-the-art way of doing that, better than any other technology could. Cells are able to detect glucose and release insulin far better than any piece of technology we've been able to develop."
+	The researchers are also investigating why their new material works so well. They found that the best-performing materials were all modified with molecules containing a triazole group -- a ring containing two carbon atoms and three nitrogen atoms. They suspect this class of molecules may interfere with the immune system's ability to recognize the material as foreign.
 </description>
-    <title></title>
+    <title>Aim of the passage is:</title>
     <options>
       <o0>to have insulin-independent diabetic treatment</o0>
       <o1>cells should detect glucose</o1>
@@ -2016,11 +2059,11 @@ Aim of the passage is:
     <description></description>
     <title></title>
     <options>
-      <o1>But this does not mean that death was the Egyptians’ only preoccupation.</o1>
-      <o2>Even papyri come mainly from pyramid temples.</o2>
-      <o3>Most of our traditional sources of information about the Old Kingdom are monuments of the rich like pyramids and tombs.</o3>
-      <o4>Houses in which ordinary Egyptians lived have not been preserved, and when most people died they were buried in simple graves.</o4>
-      <o5>We know infinitely more about the wealthy people of Egypt than we do about the ordinary people, as most monuments were made for the rich.</o5>
+      <o0>But this does not mean that death was the Egyptians’ only preoccupation.</o0>
+      <o1>Even papyri come mainly from pyramid temples.</o1>
+      <o2>Most of our traditional sources of information about the Old Kingdom are monuments of the rich like pyramids and tombs.</o2>
+      <o3>Houses in which ordinary Egyptians lived have not been preserved, and when most people died they were buried in simple graves.</o3>
+      <o4>We know infinitely more about the wealthy people of Egypt than we do about the ordinary people, as most monuments were made for the rich.</o4>
     </options>
     <answer>4|3|2|1|0</answer>
   </template>
@@ -2036,11 +2079,11 @@ Aim of the passage is:
     <description></description>
     <title></title>
     <options>
-      <o1>In the case of King Merolchazzar’s courtship of the Princess of the Outer Isles, there occurs a regrettable hitch.</o1>
-      <o2>She acknowledges the gifts, but no word of a meeting date follows.</o2>
-      <o3>The monarch, hearing good reports of a neighbouring princess, dispatches messengers with gifts to her court, beseeching an interview.</o3>
-      <o4>The princess names a date, and a formal meeting takes place; after that everything buzzes along pretty smoothly.</o4>
-      <o5>Royal love affairs in olden days were conducted on the correspondence method.</o5>
+      <o0>In the case of King Merolchazzar’s courtship of the Princess of the Outer Isles, there occurs a regrettable hitch.</o0>
+      <o1>She acknowledges the gifts, but no word of a meeting date follows.</o1>
+      <o2>The monarch, hearing good reports of a neighbouring princess, dispatches messengers with gifts to her court, beseeching an interview.</o2>
+      <o3>The princess names a date, and a formal meeting takes place; after that everything buzzes along pretty smoothly.</o3>
+      <o4>Royal love affairs in olden days were conducted on the correspondence method.</o4>
     </options>
     <answer>4|2|3|0|1</answer>
   </template>
@@ -2301,10 +2344,8 @@ Aim of the passage is:
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Jupiter has 2.5 times more mass than all the other planets of the solar system combined and is 11 times as large as Earth in diameter. Jupiter is so large that scientists believe it almost became a star: as the gasses and dust contracted to the form the planet, gravitational forces created tremendous pressure and the temperature inside the core—as high as tens of thousands of degrees. But there was not enough mass available to create the temperature needed to start a fusion reaction such as that of the Sun (above 27,000,000 Fahrenheit, or 15,000,000 Celsius, at the Sun’s core); thus Jupiter has been cooling down ever since. Even so, Jupiter radiates about as much heat as it receives from the Sun.
-
-The passage is mainly concerned with</description>
-    <title></title>
+    <description>Jupiter has 2.5 times more mass than all the other planets of the solar system combined and is 11 times as large as Earth in diameter. Jupiter is so large that scientists believe it almost became a star: as the gasses and dust contracted to the form the planet, gravitational forces created tremendous pressure and the temperature inside the core—as high as tens of thousands of degrees. But there was not enough mass available to create the temperature needed to start a fusion reaction such as that of the Sun (above 27,000,000 Fahrenheit, or 15,000,000 Celsius, at the Sun’s core); thus Jupiter has been cooling down ever since. Even so, Jupiter radiates about as much heat as it receives from the Sun.</description>
+    <title>The passage is mainly concerned with</title>
     <options>
       <o0>the size of Jupiter relative to other planets in the solar system</o0>
       <o1>differences between the sun and Jupiter</o1>
@@ -2323,10 +2364,8 @@ The passage is mainly concerned with</description>
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Stump-Up was invented in 1986 by Tokyo Beverages Owner Okawa Bhery. The name for the product was actually proposed by Okawa’s assistant, Fizzy Brewndon. The name was taken from the two most unusual ingredients in the drink, the Canadian banana leaf and the Asian stump root. The recipe for today’s Stump-Up is very well guarded. Many of the ingredients are known; in addition to banana leaves and stump root, they include strawberry, cocoa, lemon, cinnamon, nuts, vanilla, caramel, salts and sugar. The proportions of the ingredients and the identity of Stump’s secret ingredients are known by only a few of the Stump-Up Company’s very senior scientists and Vice-Presidents.
-
-It can be inferred from the passage that</description>
-    <title></title>
+    <description>Stump-Up was invented in 1986 by Tokyo Beverages Owner Okawa Bhery. The name for the product was actually proposed by Okawa’s assistant, Fizzy Brewndon. The name was taken from the two most unusual ingredients in the drink, the Canadian banana leaf and the Asian stump root. The recipe for today’s Stump-Up is very well guarded. Many of the ingredients are known; in addition to banana leaves and stump root, they include strawberry, cocoa, lemon, cinnamon, nuts, vanilla, caramel, salts and sugar. The proportions of the ingredients and the identity of Stump’s secret ingredients are known by only a few of the Stump-Up Company’s very senior scientists and Vice-Presidents.</description>
+    <title>It can be inferred from the passage that</title>
     <options>
       <o0>No one knows the exact proportions of ingredients used in Stump-Ups.</o0>
       <o1>The public does not know how many stump roots are used in a batch of Stump-Ups.</o1>
@@ -2348,10 +2387,10 @@ It can be inferred from the passage that</description>
     <description></description>
     <title></title>
     <options>
-      <o1>The situations in which violence occurs and the nature of that violence tends to be clearly defined at least in theory, as in the proverbial Irishman’s question: ‘Is this a private fight or can anyone join in?’</o1>
-      <o2>So the actual risk to outsiders, though no doubt higher than our societies, is calculable.</o2>
-      <o3>Probably the only uncontrolled applications of force are those of social superiors to social inferiors and even here there are probably some rules.</o3>
-      <o4>However, binding the obligation to kill, members or feuding families engaged in mutual massacre will be genuinely appalled if by some mischance a bystander or outsider is killed.</o4>
+      <o0>The situations in which violence occurs and the nature of that violence tends to be clearly defined at least in theory, as in the proverbial Irishman’s question: ‘Is this a private fight or can anyone join in?’</o0>
+      <o1>So the actual risk to outsiders, though no doubt higher than our societies, is calculable.</o1>
+      <o2>Probably the only uncontrolled applications of force are those of social superiors to social inferiors and even here there are probably some rules.</o2>
+      <o3>However, binding the obligation to kill, members or feuding families engaged in mutual massacre will be genuinely appalled if by some mischance a bystander or outsider is killed.</o3>
     </options>
     <answer>0|2|3|1</answer>
   </template>
@@ -2367,10 +2406,10 @@ It can be inferred from the passage that</description>
     <description></description>
     <title></title>
     <options>
-      <o1>There is a strong manufacturing base for a variety of products.</o1>
-      <o2>India has come a long way on the technology front.</o2>
-      <o3>But the technology adopted has been largely of foreign origin.</o3>
-      <o4>There are, however, areas such as atomic energy, space, agriculture, and defense where significant strides have been made in evolving relevant technologies within the country.</o4>
+      <o0>There is a strong manufacturing base for a variety of products.</o0>
+      <o1>India has come a long way on the technology front.</o1>
+      <o2>But the technology adopted has been largely of foreign origin.</o2>
+      <o3>There are, however, areas such as atomic energy, space, agriculture, and defense where significant strides have been made in evolving relevant technologies within the country.</o3>
     </options>
     <answer>1|0|2|3</answer>
   </template>
@@ -2384,11 +2423,9 @@ It can be inferred from the passage that</description>
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>Using infant mortality as a key indicator of the status of children, we now begin to have the broad features of a hypothesis as to the causes of higher or lower mortality rates. One aspect is the complex of factors involving the access of mothers to trained personnel and other facilities for child delivery, the nutritional status of pregnant and nursing mothers and the quality of health care and nourishment which babies receive.
-The other aspect, indicated by rural-urban differentials, is the possible importance of human settlement patterns in relation to the availability of health care and related facilities such as potable water, excreta disposal systems, etc. Thus, in a special sense, it is much cheaper to make health and other basic services available to a community when it is densely settled rather than widely dispersed. It is possible to argue, however, that both these sets of factors are closely related to a third one, namely, income levels. Poorer mothers and babies have less access to health-care facilities and nourishment than those who are better off; urban communities are on an average much better off than rural communities.
-That economic condition plays a crucial role in determining the status of both mother and child, is beyond dispute. But the question really is whether this is the only decisive factor or whether factors such as the availability of medical facilities, healthcare programs, and nutritional programs have an independent role. If so then the settlement patterns which affect service delivery to the mother and child target groups become a relevant consideration. These are clearly issues of some importance for policy and program planning.
-
-Which among the following statements are correct?</description>
-    <title></title>
+	The other aspect, indicated by rural-urban differentials, is the possible importance of human settlement patterns in relation to the availability of health care and related facilities such as potable water, excreta disposal systems, etc. Thus, in a special sense, it is much cheaper to make health and other basic services available to a community when it is densely settled rather than widely dispersed. It is possible to argue, however, that both these sets of factors are closely related to a third one, namely, income levels. Poorer mothers and babies have less access to health-care facilities and nourishment than those who are better off; urban communities are on an average much better off than rural communities.
+	That economic condition plays a crucial role in determining the status of both mother and child, is beyond dispute. But the question really is whether this is the only decisive factor or whether factors such as the availability of medical facilities, healthcare programs, and nutritional programs have an independent role. If so then the settlement patterns which affect service delivery to the mother and child target groups become a relevant consideration. These are clearly issues of some importance for policy and program planning.</description>
+    <title>Which among the following statements are correct?</title>
     <options>
       <o0>It is easy and economical to provide health care facilities in dense settlements.</o0>
       <o1>The fact that income has an important role to play in health care is arguable.</o1>
@@ -2409,13 +2446,10 @@ Which among the following statements are correct?</description>
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>Until the mid-20th century, scientists believed that the chest cavity would implode at around 115 feet. Water pressure, they argued, reaches 65 pounds per square inch at that depth, which is enough to shrink lungs to the size of grapefruits and collapse rib cages like empty soda cans. Their theory went out the window in the 1950’s and early 1960’s, however, when divers like Enzo Maiorca returned from beyond 115-feet with rib cages intact. We now know that water pressure forces blood vessels in the chest to swell, filling the void left by the lungs with an incompressible fluid.
-Among the dangers of free diving, the most disconcerting is shallow-water blackout—the brains frightening tendency to shut down within 15 feet of the surface during the ascent. As you descend, water pressure squeezes your lungs, condensing the oxygen and giving you what feels like a second breath. During the return trip, however, your lungs re-expand, dissipating whats left of your oxygen. If levels drop too low, not enough will move into the bloodstream, and the lights go out. Fortunately, the body’s laryngospasm reflex kicks in to tighten the throat and keep water out for up to a minute—just enough time for your dive buddy to drag you to the surface, tilt your head back, and beg, “Breathe, baby.”
-Knowing Johnston will be there watching my eyes as I ascend (seeing them roll back in the head is a red flag), I dip below the surface. Staying in the syringe—dive speak for a tight hydrodynamic column—I kick down to 30 feet, my point of neutral buoyancy, and then sink effortlessly to the bottom. I feel good—surprisingly good—thanks to the densely packed oxygen molecules in my lungs.
-Lingering a moment, I peer up at the mirrored surface that separates this liquid world from mine. Diving to 55 feet was no sweat. I figure I could dive twice that with a little practice, reaching what scientists thought, not 50 years ago, was the body’s depth limit. Today, however, that boundary has been pushed to at least 531 feet (the current no-limits world record), which begs the question: Just how deep can humans go? “We don’t know that yet,” says Lundgren, adding ominously. “But one day someone will find out
-
-Which of the following is true in respect of the effect of water pressure on humans?
-</description>
-    <title></title>
+	Among the dangers of free diving, the most disconcerting is shallow-water blackout—the brains frightening tendency to shut down within 15 feet of the surface during the ascent. As you descend, water pressure squeezes your lungs, condensing the oxygen and giving you what feels like a second breath. During the return trip, however, your lungs re-expand, dissipating whats left of your oxygen. If levels drop too low, not enough will move into the bloodstream, and the lights go out. Fortunately, the body’s laryngospasm reflex kicks in to tighten the throat and keep water out for up to a minute—just enough time for your dive buddy to drag you to the surface, tilt your head back, and beg, “Breathe, baby.”
+	Knowing Johnston will be there watching my eyes as I ascend (seeing them roll back in the head is a red flag), I dip below the surface. Staying in the syringe—dive speak for a tight hydrodynamic column—I kick down to 30 feet, my point of neutral buoyancy, and then sink effortlessly to the bottom. I feel good—surprisingly good—thanks to the densely packed oxygen molecules in my lungs.
+	Lingering a moment, I peer up at the mirrored surface that separates this liquid world from mine. Diving to 55 feet was no sweat. I figure I could dive twice that with a little practice, reaching what scientists thought, not 50 years ago, was the body’s depth limit. Today, however, that boundary has been pushed to at least 531 feet (the current no-limits world record), which begs the question: Just how deep can humans go? “We don’t know that yet,” says Lundgren, adding ominously. “But one day someone will find out</description>
+    <title>Which of the following is true in respect of the effect of water pressure on humans?</title>
     <options>
       <o0>Scientists believed that the chest cavity would blow up at a depth of about 115 feet.</o0>
       <o1>Rib cages will collapse at the water pressure of 65 pounds per square inch.</o1>
@@ -2952,8 +2986,8 @@ Which of the following is true in respect of the effect of water pressure on hum
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>The fossil consists of a complete skull of an archaeocyte, an extinct group of ancestors of modern cetaceans. Although limited to a skull, the Pakicetus fossil provides precious details on the origins of cetaceans. The skull is cetacean-like but its jawbones lack the enlarged space that is filled with fat or oil and used for receiving underwater sound in modern whales. Pakicetus probably detected sound through the ear opening as in land mammals. The skull also lacks a blowhole, another cetacean adaptation for diving. Other features, however, show experts that Pakicetus is a transitional form between a group of extinct flesh-eating mammals, the mesonychids, and cetaceans. It has been suggested that Pakicetus fed on fish in shallow water and was not yet adapted for life in the open ocean. It probably bred and gave birth on land.
-Pakicetus and modern cetaceans have similar</description>
-    <title></title>
+	</description>
+    <title>Pakicetus and modern cetaceans have similar</title>
     <options>
       <o0>hearing structures</o0>
       <o1>adaptations for diving</o1>
@@ -2973,8 +3007,8 @@ Pakicetus and modern cetaceans have similar</description>
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>In this newly emerging economic order, workers sometimes organized to protect their rights and traditional ways of life. Craft workers such as carpenters, printers, and tailors formed unions, and in 1834 individual unions came together in the National Trades' Union. The labor movement gathered some momentum in the decade before the Panic of 1837, but in the depression that followed, labor's strength collapsed. During hard times, few workers were willing to strike or engage in collective action. And skilled craft workers, who spearheaded the union movement, did not feel a particularly strong bond with semiskilled factory workers and unskilled laborers. More than a decade of agitation did finally bring a workday shortened to 10 hours to most industries by the 1850's, and the courts also recognized workers' right to strike, but these gains had little immediate impact.
-Which of the following statements about the labor movement of the 1800's is supported by the paragraph?</description>
-    <title></title>
+	</description>
+    <title>Which of the following statements about the labor movement of the 1800's is supported by the paragraph?</title>
     <options>
       <o0>It went down during times of economic crisis.</o0>
       <o1>Its primary purpose was to benefit unskilled laborers.</o1>
@@ -2994,9 +3028,8 @@ Which of the following statements about the labor movement of the 1800's is supp
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>Traditional research has confronted only Mexican and United States interpretations of Mexican-American culture. Now we must also examine the culture as we Mexican Americans have experienced it, passing from a sovereign people to compatriots with newly arriving settlers to, finally, a conquered people—a charter minority on our own land.
-When the Spanish first came to Mexico, they intermarried with and absorbed the culture of the indigenous Indians. This policy of colonization through acculturation was continued when Mexico acquired Texas in the early 1800’s and brought the indigenous Indians into Mexican life and government. In the 1820’s, United States citizens migrated to Texas, attracted by land suitable for cotton. As their numbers became more substantial, their policy of acquiring land by subduing native populations began to dominate. The two ideologies clashed repeatedly, culminating in a military conflict that led to victory for the United States. Thus, suddenly deprived of our parent culture, we had to evolve uniquely Mexican-American modes of thought and action in order to survive.
-The author’s purpose in writing this passage is primarily to</description>
-    <title></title>
+	When the Spanish first came to Mexico, they intermarried with and absorbed the culture of the indigenous Indians. This policy of colonization through acculturation was continued when Mexico acquired Texas in the early 1800’s and brought the indigenous Indians into Mexican life and government. In the 1820’s, United States citizens migrated to Texas, attracted by land suitable for cotton. As their numbers became more substantial, their policy of acquiring land by subduing native populations began to dominate. The two ideologies clashed repeatedly, culminating in a military conflict that led to victory for the United States. Thus, suddenly deprived of our parent culture, we had to evolve uniquely Mexican-American modes of thought and action in order to survive.</description>
+    <title>The author’s purpose in writing this passage is primarily to</title>
     <options>
       <o0>suggest the motives behind Mexican and United States intervention in Texas.</o0>
       <o1>document certain early objectives of the Mexican-American society.</o1>
@@ -3016,9 +3049,9 @@ The author’s purpose in writing this passage is primarily to</description>
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>The social sciences are less likely than other intellectual enterprises to get credit for their accomplishments. Arguably, this is so because the theories and conceptual constructs of the social sciences are especially accessible: human intelligence apprehends truths about human affairs with a particular facility. And the discoveries of the social sciences, once isolated and labeled, are quickly absorbed into conventional wisdom, whereupon they lose their distinctiveness as scientific advances.
-This under-appreciation of the social sciences contrasts oddly with what many see as their over-utilization. Game theory is pressed into service in studies of shifting international alliances. Evaluation research is called upon to demonstrate successes or failures of social programs. Models from economics and demography become the definitive tools for examining the financial base of social security. Yet this rush into practical applications is itself quite understandable: public policy must continually be made, and policymakers rightly feel that even tentative findings and untested theories are better guides to decision-making than no findings and no theories at all.
-The author is primarily concerned with</description>
-    <title></title>
+	This under-appreciation of the social sciences contrasts oddly with what many see as their over-utilization. Game theory is pressed into service in studies of shifting international alliances. Evaluation research is called upon to demonstrate successes or failures of social programs. Models from economics and demography become the definitive tools for examining the financial base of social security. Yet this rush into practical applications is itself quite understandable: public policy must continually be made, and policymakers rightly feel that even tentative findings and untested theories are better guides to decision-making than no findings and no theories at all.
+	</description>
+    <title>The author is primarily concerned with</title>
     <options>
       <o0>advocating a more modest view, and less widespread utilization, of the social sciences.</o0>
       <o1>analyzing the mechanisms for translating discoveries into applications in the social sciences.</o1>
@@ -3041,10 +3074,10 @@ The author is primarily concerned with</description>
     <description></description>
     <title></title>
     <options>
-      <o1>However, the real challenge today is in unlearning which is much harder.</o1>
-      <o2>But the new world of business behaves differently from the world in which we grew up.</o2>
-      <o3>Learning is important for both people and organizations.</o3>
-      <o4>Each of us has’ mental model’ that we vet used over the years to make sense.</o4>
+      <o0>However, the real challenge today is in unlearning which is much harder.</o0>
+      <o1>But the new world of business behaves differently from the world in which we grew up.</o1>
+      <o2>Learning is important for both people and organizations.</o2>
+      <o3>Each of us has’ mental model’ that we vet used over the years to make sense.</o3>
     </options>
     <answer>2|0|3|1</answer>
   </template>
@@ -3060,10 +3093,10 @@ The author is primarily concerned with</description>
     <description></description>
     <title></title>
     <options>
-      <o1>In fact, during the 1966-67 season in New York, theater-goers could have seen ’Barefoot in the park’;’ The odd Couple’;’ Sweet Charity’ and ‘The Star-Spangled Girl’, which were all running simultaneously.</o1>
-      <o2>His first play for Broadway was ‘Come Blow Your Horn’, which had a limited success and encouraged him to write his first real smash Broadway hit, ‘Barefoot in the Park’.</o2>
-      <o3>With the advent of television, he progressed to shows like The Ed Sulli van programme and, in particular, two and a half years with the highly successful Bilko series which is still showing throughout the world.</o3>
-      <o4>Neil Simon, who is, without a doubt, America’s Leading comedy writer, started his career when only sixteen years old, writing with his brother Daniel, scripts for radio.</o4>
+      <o0>In fact, during the 1966-67 season in New York, theater-goers could have seen ’Barefoot in the park’;’ The odd Couple’;’ Sweet Charity’ and ‘The Star-Spangled Girl’, which were all running simultaneously.</o0>
+      <o1>His first play for Broadway was ‘Come Blow Your Horn’, which had a limited success and encouraged him to write his first real smash Broadway hit, ‘Barefoot in the Park’.</o1>
+      <o2>With the advent of television, he progressed to shows like The Ed Sulli van programme and, in particular, two and a half years with the highly successful Bilko series which is still showing throughout the world.</o2>
+      <o3>Neil Simon, who is, without a doubt, America’s Leading comedy writer, started his career when only sixteen years old, writing with his brother Daniel, scripts for radio.</o3>
     </options>
     <answer>3|2|1|0</answer>
   </template>
@@ -3114,7 +3147,7 @@ The author is primarily concerned with</description>
         <o4>finances</o4>
         <o5>proliferated</o5>
         <o6>particularly</o6>
-		<o6>economy</o6>
+		<o7>economy</o7>
       </blank>
     </blanks>
     <answer>5|0|7|6|3</answer>
@@ -3205,12 +3238,12 @@ The research that involved {blank} 160 people in Britain relied on self and obse
     <description></description>
     <title></title>
     <options>
-      <o1>Her comprehension of language is therefore very high.</o1>
-      <o2>According to recent research, the critical period for developing language skills is between the ages of three and five and a half years.</o2>
-      <o3>The read-to child already has a large vocabulary and a sense of grammar and sentence structure.</o3>
-      <o4>Children who are read to in these years have a far better chance of reading well in school, indeed, of doing well in all their subjects.</o4>
-      <o5>And the reason is actually quite simple.</o5>
-      <o6>This correlation is far and away the highest yet found between home influences and school success.</o6>
+      <o0>Her comprehension of language is therefore very high.</o0>
+      <o1>According to recent research, the critical period for developing language skills is between the ages of three and five and a half years.</o1>
+      <o2>The read-to child already has a large vocabulary and a sense of grammar and sentence structure.</o2>
+      <o3>Children who are read to in these years have a far better chance of reading well in school, indeed, of doing well in all their subjects.</o3>
+      <o4>And the reason is actually quite simple.</o4>
+      <o5>This correlation is far and away the highest yet found between home influences and school success.</o5>
     </options>
     <answer>1|3|5|4|2|0</answer>
   </template>
@@ -3226,11 +3259,11 @@ The research that involved {blank} 160 people in Britain relied on self and obse
     <description></description>
     <title></title>
     <options>
-      <o1>Never stop thinking of ways to make your products better, but don’t get stuck trying to achieve perfection.</o1>
-      <o2>Release the product and, at the same time, continue to refine it.</o2>
-      <o3>I’m not suggesting that it is ever acceptable to deliver shoddy products.</o3>
-      <o4>The longer you hold out for perfection, the less likely you are to achieve it, and you’ll lose whatever competitive edge you may have.</o4>
-      <o5>The product that beats the competition is seldom the best, and it’s never perfect.</o5>
+      <o0>Never stop thinking of ways to make your products better, but don’t get stuck trying to achieve perfection.</o0>
+      <o1>Release the product and, at the same time, continue to refine it.</o1>
+      <o2>I’m not suggesting that it is ever acceptable to deliver shoddy products.</o2>
+      <o3>The longer you hold out for perfection, the less likely you are to achieve it, and you’ll lose whatever competitive edge you may have.</o3>
+      <o4>The product that beats the competition is seldom the best, and it’s never perfect.</o4>
     </options>
     <answer>4|3|2|0|1</answer>
   </template>
@@ -3246,13 +3279,13 @@ The research that involved {blank} 160 people in Britain relied on self and obse
     <description></description>
     <title></title>
     <options>
-      <o1>With these, hunters could approach Belugas within hunting range and profit from its inner skin and blubber.</o1>
-      <o2>Belugas seem to have used their well-known sensitivity to noise to evolve an ‘avoidance’ strategy to outsmart hunters and their powerful technologies.</o2>
-      <o3>To escape an approaching motor, Belugas have learned to dive to the ocean bottom and stay there for up to 20 minutes, by which time the confused predator has left.</o3>
-      <o4>Today, however, even with much more powerful engines, it is difficult to come close, because the whales seem to disappear suddenly just when you thought you had them in your sights.</o4>
-      <o5>High-powered outboard motors were considered to be one of the major threats to the survival of the Beluga whales.</o5>
-      <o6>When the first outboard engines arrived in the early 1930s, one came across 4 and 8 HP motors.
-</o6>
+      <o0>With these, hunters could approach Belugas within hunting range and profit from its inner skin and blubber.</o0>
+      <o1>Belugas seem to have used their well-known sensitivity to noise to evolve an ‘avoidance’ strategy to outsmart hunters and their powerful technologies.</o1>
+      <o2>To escape an approaching motor, Belugas have learned to dive to the ocean bottom and stay there for up to 20 minutes, by which time the confused predator has left.</o2>
+      <o3>Today, however, even with much more powerful engines, it is difficult to come close, because the whales seem to disappear suddenly just when you thought you had them in your sights.</o3>
+      <o4>High-powered outboard motors were considered to be one of the major threats to the survival of the Beluga whales.</o4>
+      <o5>When the first outboard engines arrived in the early 1930s, one came across 4 and 8 HP motors.
+</o5>
     </options>
     <answer>4|5|0|3|2|1</answer>
   </template>
@@ -3480,11 +3513,8 @@ In its day, the construction of Stonehenge was an impressive engineering feat, r
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Jupiter has 2.5 times more mass than all the other planets of the solar system combined and is 11 times as large as Earth in diameter. Jupiter is so large that scientists believe it almost became a star: as the gasses and dust contracted to the form the planet, gravitational forces created tremendous pressure and the temperature inside the core—as high as tens of thousands of degrees. But there was not enough mass available to create the temperature needed to start a fusion reaction such as that of the Sun (above 27,000,000 Fahrenheit, or 15,000,000 Celsius, at the Sun’s core); thus Jupiter has been cooling down ever since. Even so, Jupiter radiates about as much heat as it receives from the Sun.
-
-Ques 1. The passage is mainly concerned with
-</description>
-    <title></title>
+    <description>Jupiter has 2.5 times more mass than all the other planets of the solar system combined and is 11 times as large as Earth in diameter. Jupiter is so large that scientists believe it almost became a star: as the gasses and dust contracted to the form the planet, gravitational forces created tremendous pressure and the temperature inside the core—as high as tens of thousands of degrees. But there was not enough mass available to create the temperature needed to start a fusion reaction such as that of the Sun (above 27,000,000 Fahrenheit, or 15,000,000 Celsius, at the Sun’s core); thus Jupiter has been cooling down ever since. Even so, Jupiter radiates about as much heat as it receives from the Sun.</description>
+    <title>The passage is mainly concerned with</title>
     <options>
       <o0>the size of Jupiter relative to other planets in the solar system.</o0>
       <o1>differences between the sun and Jupiter.</o1>
@@ -3504,10 +3534,8 @@ Ques 1. The passage is mainly concerned with
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>Stump-Up was invented in 1986 by Tokyo Beverages Owner Okawa Bhery. The name for the product was actually proposed by Okawa’s assistant, Fizzy Brewndon. The name was taken from the two most unusual ingredients in the drink, the Canadian banana leaf and the Asian stump root. The recipe for today’s Stump-Up is very well guarded. Many of the ingredients are known; in addition to banana leaves and stump root, they include strawberry, cocoa, lemon, cinnamon, nuts, vanilla, caramel, salts and sugar. The proportions of the ingredients and the identity of Stump’s secret ingredients are known by only a few of the Stump-Up Company’s very senior scientists and Vice-Presidents.
-
-It can be inferred from the passage that
-</description>
-    <title></title>
+	</description>
+    <title>It can be inferred from the passage that</title>
     <options>
       <o0>No one knows the exact proportions of ingredients used in Stump-Ups.</o0>
       <o1>The public does not know how many stump roots are used in a batch of Stump-Ups.</o1>
@@ -3527,12 +3555,9 @@ It can be inferred from the passage that
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>Using infant mortality as a key indicator of the status of children, we now begin to have the broad features of a hypothesis as to the causes of higher or lower mortality rates. One aspect is the complex of factors involving the access of mothers to trained personnel and other facilities for child delivery, the nutritional status of pregnant and nursing mothers and the quality of health care and nourishment which babies receive.
-The other aspect, indicated by rural-urban differentials, is the possible importance of human settlement patterns in relation to the availability of health care and related facilities such as potable water, excreta disposal systems, etc. Thus, in a special sense, it is much cheaper to make health and other basic services available to a community when it is densely settled rather than widely dispersed. It is possible to argue, however, that both these sets of factors are closely related to a third one, namely, income levels. Poorer mothers and babies have less access to health-care facilities and nourishment than those who are better off; urban communities are on an average much better off than rural communities.
-That economic condition plays a crucial role in determining the status of both mother and child, is beyond dispute. But the question really is whether this is the only decisive factor or whether factors such as the availability of medical facilities, healthcare programs, and nutritional programs have an independent role. If so then the settlement patterns which affect service delivery to the mother and child target groups become a relevant consideration. These are clearly issues of some importance for policy and program planning.
-
-Which among the following statements are correct?
-</description>
-    <title></title>
+	The other aspect, indicated by rural-urban differentials, is the possible importance of human settlement patterns in relation to the availability of health care and related facilities such as potable water, excreta disposal systems, etc. Thus, in a special sense, it is much cheaper to make health and other basic services available to a community when it is densely settled rather than widely dispersed. It is possible to argue, however, that both these sets of factors are closely related to a third one, namely, income levels. Poorer mothers and babies have less access to health-care facilities and nourishment than those who are better off; urban communities are on an average much better off than rural communities.
+	That economic condition plays a crucial role in determining the status of both mother and child, is beyond dispute. But the question really is whether this is the only decisive factor or whether factors such as the availability of medical facilities, healthcare programs, and nutritional programs have an independent role. If so then the settlement patterns which affect service delivery to the mother and child target groups become a relevant consideration. These are clearly issues of some importance for policy and program planning.</description>
+    <title>Which among the following statements are correct?</title>
     <options>
       <o0>It is easy and economical to provide health care facilities in dense settlements.</o0>
       <o1>The fact that income has an important role to play in health care is arguable.</o1>
@@ -3553,14 +3578,10 @@ Which among the following statements are correct?
   <attemptTime>00:00:00</attemptTime>
   <template>
     <description>Until the mid-20th century, scientists believed that the chest cavity would implode at around 115 feet. Water pressure, they argued, reaches 65 pounds per square inch at that depth, which is enough to shrink lungs to the size of grapefruits and collapse rib cages like empty soda cans. Their theory went out the window in the 1950’s and early 1960’s, however, when divers like Enzo Maiorca returned from beyond 115-feet with rib cages intact. We now know that water pressure forces blood vessels in the chest to swell, filling the void left by the lungs with an incompressible fluid.
-Among the dangers of free diving, the most disconcerting is shallow-water blackout—the brains frightening tendency to shut down within 15 feet of the surface during the ascent. As you descend, water pressure squeezes your lungs, condensing the oxygen and giving you what feels like a second breath. During the return trip, however, your lungs re-expand, dissipating whats left of your oxygen. If levels drop too low, not enough will move into the bloodstream, and the lights go out. Fortunately, the body’s laryngospasm reflex kicks in to tighten the throat and keep water out for up to a minute—just enough time for your dive buddy to drag you to the surface, tilt your head back, and beg, “Breathe, baby.”
-Knowing Johnston will be there watching my eyes as I ascend (seeing them roll back in the head is a red flag), I dip below the surface. Staying in the syringe—dive speak for a tight hydrodynamic column—I kick down to 30 feet, my point of neutral buoyancy, and then sink effortlessly to the bottom. I feel good—surprisingly good—thanks to the densely packed oxygen molecules in my lungs.
-Lingering a moment, I peer up at the mirrored surface that separates this liquid world from mine. Diving to 55 feet was no sweat. I figure I could dive twice that with a little practice, reaching what scientists thought, not 50 years ago, was the body’s depth limit. Today, however, that boundary has been pushed to at least 531 feet (the current no-limits world record), which begs the question: Just how deep can humans go? “We don’t know that yet,” says Lundgren, adding ominously. “But one day someone will find out
-
-Which of the following is true in respect of the effect of water pressure on humans?
-
-</description>
-    <title></title>
+	Among the dangers of free diving, the most disconcerting is shallow-water blackout—the brains frightening tendency to shut down within 15 feet of the surface during the ascent. As you descend, water pressure squeezes your lungs, condensing the oxygen and giving you what feels like a second breath. During the return trip, however, your lungs re-expand, dissipating whats left of your oxygen. If levels drop too low, not enough will move into the bloodstream, and the lights go out. Fortunately, the body’s laryngospasm reflex kicks in to tighten the throat and keep water out for up to a minute—just enough time for your dive buddy to drag you to the surface, tilt your head back, and beg, “Breathe, baby.”
+	Knowing Johnston will be there watching my eyes as I ascend (seeing them roll back in the head is a red flag), I dip below the surface. Staying in the syringe—dive speak for a tight hydrodynamic column—I kick down to 30 feet, my point of neutral buoyancy, and then sink effortlessly to the bottom. I feel good—surprisingly good—thanks to the densely packed oxygen molecules in my lungs.
+	Lingering a moment, I peer up at the mirrored surface that separates this liquid world from mine. Diving to 55 feet was no sweat. I figure I could dive twice that with a little practice, reaching what scientists thought, not 50 years ago, was the body’s depth limit. Today, however, that boundary has been pushed to at least 531 feet (the current no-limits world record), which begs the question: Just how deep can humans go? “We don’t know that yet,” says Lundgren, adding ominously. “But one day someone will find out</description>
+    <title>Which of the following is true in respect of the effect of water pressure on humans?</title>
     <options>
       <o0>Scientists believed that the chest cavity would blow up at a depth of about 115 feet.</o0>
       <o1>Rib cages will collapse at the water pressure of 65 pounds per square inch.</o1>
@@ -3824,10 +3845,8 @@ Sound depressing, even apocalyptic? Well, it could be the future. If government 
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>The crisis begins in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek prenatal care. In the U.S. 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single-parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single-parent families grows and more women enter the workforce, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period from infancy through preschool years that set the stage for a child's future.
-
-What can be the possible reasons for the increasing neglect and abuse of children?</description>
-    <title></title>
+    <description>The crisis begins in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek prenatal care. In the U.S. 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single-parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single-parent families grows and more women enter the workforce, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period from infancy through preschool years that set the stage for a child's future.</description>
+    <title>What can be the possible reasons for the increasing neglect and abuse of children?</title>
     <options>
       <o0>The immaturity and overburdening of parents.</o0>
       <o1>The babies being left in foster care where a stranger looks after them.</o1>
@@ -3846,10 +3865,8 @@ What can be the possible reasons for the increasing neglect and abuse of childre
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>In the past, learning English as a separate subject seemed relatively easy. The textbook selected and graded items of language which were put into context and then practised intensively. New items were carefully controlled so that the student could cope quite easily. Now that English is used as a medium of instruction, however, all this has changed. Unknown items of grammar and vocabulary appear in texts which attempt to explain new and often difficult information. Difficulties with the language interact with difficulties as regards the subject matter. The student's reading in his own subject slows down, and his comprehension becomes less secure. He expresses himself slowly and often fails to convey his ideas exactly. He is disappointed to find that under pressure he makes a lot of unnecessary mistakes in areas where he knows the correct language forms. His social relations are difficult as he cannot find the right phrase quickly enough to keep a conversation going, so his language often betrays him into dullness, coldness, or worst of all, rudeness. Instead of the student being in control of the language, the language seems now to be in control of the student. All this can be very depressing and the student can start to feel anxious. Working in a foreign language is also very tiring, and the concentration and self-¬discipline required to correct one's mistake is very great indeed.
-
-Which of the following statements about learning English can be supported from the text?</description>
-    <title></title>
+    <description>In the past, learning English as a separate subject seemed relatively easy. The textbook selected and graded items of language which were put into context and then practised intensively. New items were carefully controlled so that the student could cope quite easily. Now that English is used as a medium of instruction, however, all this has changed. Unknown items of grammar and vocabulary appear in texts which attempt to explain new and often difficult information. Difficulties with the language interact with difficulties as regards the subject matter. The student's reading in his own subject slows down, and his comprehension becomes less secure. He expresses himself slowly and often fails to convey his ideas exactly. He is disappointed to find that under pressure he makes a lot of unnecessary mistakes in areas where he knows the correct language forms. His social relations are difficult as he cannot find the right phrase quickly enough to keep a conversation going, so his language often betrays him into dullness, coldness, or worst of all, rudeness. Instead of the student being in control of the language, the language seems now to be in control of the student. All this can be very depressing and the student can start to feel anxious. Working in a foreign language is also very tiring, and the concentration and self-¬discipline required to correct one's mistake is very great indeed.</description>
+    <title>Which of the following statements about learning English can be supported from the text?</title>
     <options>
       <o0>Learning of English as a subject is the more difficult part.</o0>
       <o1>Learning of English as a medium of instruction is the more difficult part.</o1>
@@ -3869,10 +3886,8 @@ Which of the following statements about learning English can be supported from t
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Researchers suggest that there are creatures that do not know what light means at the bottom of the sea.They don’t have either eyes or ears; they can only feel.There is no day or night for them. There are no winters, no summers, no sun, no moon, and no stars. It is as if a child spent its life in darkness in bed, with nothing to see or hear. How different our own life is! Sight shows us the ground beneath our feet and the heavens above us - the sun, moon, and stars, shooting stars, lightning, and the sunset. It shows us day and night. We are able to hear voices, the sound of the sea, and music. We feel we taste, we smell. How fortunate we are!
-
-Judging from the passage, we can say that this story is mainly about?</description>
-    <title></title>
+    <description>Researchers suggest that there are creatures that do not know what light means at the bottom of the sea.They don’t have either eyes or ears; they can only feel.There is no day or night for them. There are no winters, no summers, no sun, no moon, and no stars. It is as if a child spent its life in darkness in bed, with nothing to see or hear. How different our own life is! Sight shows us the ground beneath our feet and the heavens above us - the sun, moon, and stars, shooting stars, lightning, and the sunset. It shows us day and night. We are able to hear voices, the sound of the sea, and music. We feel we taste, we smell. How fortunate we are!</description>
+    <title>Judging from the passage, we can say that this story is mainly about?</title>
     <options>
       <o0>life of sea creatures at the bottom of the sea.</o0>
       <o1>how changes in the seasons are perceived by the deep-sea creatures.</o1>
@@ -3892,13 +3907,8 @@ Judging from the passage, we can say that this story is mainly about?</descripti
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>The American people have an incorrect understanding of what it means to be at war. At least so argues T.H. Pickett in his conservative interpretation of American military history.
-Pickett does present a wealth of examples along with a refreshing candid argument that America often goes to war for an abstract ideal such as the democratization of societies, world peace, liberty, or freedom. For instance, the Spanish - American War of 1898 was ostensibly a consequence of national enthusiasm for the cause of Cuban liberty. And, more obviously, America’s entry into World War I stemmed from a desire to “make the world safe for democracy.”
-Although these observations are supportable, Pickett overstates the cause typically lead to a war hysteria in which American leadership can no longer enforce any measured policies.
-
-Which of the following best states the author’s main point?
-</description>
-    <title></title>
+    <description>The American people have an incorrect understanding of what it means to be at war. At least so argues T.H. Pickett in his conservative interpretation of American military history.Pickett does present a wealth of examples along with a refreshing candid argument that America often goes to war for an abstract ideal such as the democratization of societies, world peace, liberty, or freedom. For instance, the Spanish - American War of 1898 was ostensibly a consequence of national enthusiasm for the cause of Cuban liberty. And, more obviously, America’s entry into World War I stemmed from a desire to “make the world safe for democracy.” Although these observations are supportable, Pickett overstates the cause typically lead to a war hysteria in which American leadership can no longer enforce any measured policies.</description>
+    <title>Which of the following best states the author’s main point?</title>
     <options>
       <o0>Pickett provides a cogent rationale for why America engages in warfare; however, he draws conclusions that the author does not fully support.</o0>
       <o1>Pickett’s study is valuable primarily because it provides a thorough understanding of the causes of American warfare.</o1>
@@ -3920,10 +3930,10 @@ Which of the following best states the author’s main point?
     <description></description>
     <title></title>
     <options>
-      <o1>Reread with the idea that you are measuring what you have gained from the process</o1>
-      <o2>It is a review of what you are supposed to accomplish not what you are going to do.</o2>
-      <o3>A review is a survey of what you have covered</o3>
-      <o4>Rereading is an important part of the review process.</o4>
+      <o0>Reread with the idea that you are measuring what you have gained from the process</o0>
+      <o1>It is a review of what you are supposed to accomplish not what you are going to do.</o1>
+      <o2>A review is a survey of what you have covered</o2>
+      <o3>Rereading is an important part of the review process.</o3>
     </options>
     <answer>2|1|3|0</answer>
   </template>
@@ -3939,17 +3949,17 @@ Which of the following best states the author’s main point?
     <description></description>
     <title></title>
     <options>
-      <o1>The hole in the body is then filled with linen and spices and the body is covered with salt to become dry.</o1>
-      <o2>The first step is to push a sharp rod up the nose and into the brain.
+      <o0>The hole in the body is then filled with linen and spices and the body is covered with salt to become dry.</o0>
+      <o1>The first step is to push a sharp rod up the nose and into the brain.
+</o1>
+      <o2>Next, they make a hole in the body to remove all the organs except the heart.
 </o2>
-      <o3>Next, they make a hole in the body to remove all the organs except the heart.
-</o3>
-      <o4>Jars which had the heads of Gods on top were used to store the organs</o4>
-      <o5>It takes about 70 days to completely mummify a dead body.
-</o5>
-      <o6>From there, the brain is broken up into tiny pieces and removed through the nose.</o6>
-      <o7>After the mummifying process is complete, a mask is placed over the head so it can be known in the afterlife.
-</o7>
+      <o3>Jars which had the heads of Gods on top were used to store the organs</o3>
+      <o4>It takes about 70 days to completely mummify a dead body.
+</o4>
+      <o5>From there, the brain is broken up into tiny pieces and removed through the nose.</o5>
+      <o6>After the mummifying process is complete, a mask is placed over the head so it can be known in the afterlife.
+</o6>
     </options>
     <answer>4|1|5|2|3|0|6</answer>
   </template>
@@ -4096,11 +4106,8 @@ The society {blank} that as few as six departments (those at Durham, Cambridge, 
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>There are currently 275 open stations and over 253 miles (408 km) of active lines, with three million passenger journeys made each day (927 million journeys made 1999-2000; there are number of stations and tunnels now closed) Lines on the underground can be classified into two types: sub-surface and deep level. The sub-surface lines were dug by the cut-and-cover method, with the tracks running about 5 meters below the surface. Trains on the sub-surface lines have the same loading gauge as British mainline trains. The deep-level or ‘tube’ lines, bared using a tunnelling shield, run about 20 meters below the surface (although this varies considerably), with each track running in separate tunnel lined with cast-iron rings. This tunnel can have a diameter as small as 356m (lift 8.25 in) and the loading gauge is thus considerably smaller than on the sub-surface lines, though standard gauge track is used. Lines of both types usually emerge onto the surface outside the central area. The exceptions being the Victoria line which is in tunnel for its entire length save for a maintenance depot, and the Waterloo and city line which, being very short, has no non-central part and no surface line. Each station displays the underground logo containing the station’s name in place of the word ‘Underground’ both at entrance to the station and repeatedly along the station walls so that they can easily be seen by passengers on arriving trains.
-
-According to the text, which areas have exceptions for surface lines?
-</description>
-    <title></title>
+    <description>There are currently 275 open stations and over 253 miles (408 km) of active lines, with three million passenger journeys made each day (927 million journeys made 1999-2000; there are number of stations and tunnels now closed) Lines on the underground can be classified into two types: sub-surface and deep level. The sub-surface lines were dug by the cut-and-cover method, with the tracks running about 5 meters below the surface. Trains on the sub-surface lines have the same loading gauge as British mainline trains. The deep-level or ‘tube’ lines, bared using a tunnelling shield, run about 20 meters below the surface (although this varies considerably), with each track running in separate tunnel lined with cast-iron rings. This tunnel can have a diameter as small as 356m (lift 8.25 in) and the loading gauge is thus considerably smaller than on the sub-surface lines, though standard gauge track is used. Lines of both types usually emerge onto the surface outside the central area. The exceptions being the Victoria line which is in tunnel for its entire length save for a maintenance depot, and the Waterloo and city line which, being very short, has no non-central part and no surface line. Each station displays the underground logo containing the station’s name in place of the word ‘Underground’ both at entrance to the station and repeatedly along the station walls so that they can easily be seen by passengers on arriving trains.</description>
+    <title>According to the text, which areas have exceptions for surface lines?</title>
     <options>
       <o0>Victoria line</o0>
       <o1>Waterloo</o1>
@@ -4120,11 +4127,8 @@ According to the text, which areas have exceptions for surface lines?
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>The red telephone box, a public telephone kiosk designed by Sir Giles Gilbert Scott, was a once familiar sight on the streets of the United Kingdom. It has all but disappeared in recent years, replaced by a number of different designs. The few kiosks that remain have not been replaced because they are regarded as being of special architectural and historical interest. The first standard public telephone kiosk introduced by the United Kingdom Post Office was produced by Somerville S. Company in 1920 and was designated K1 (Kiosk no. 1). This design was not of the same family OS the familiar red telephone boxes. The red telephone box was the result of a competition in 1924 to design a new grander kiosk. The competition attracted designs from a number of noted architects. The Fine Arts Commission judged the competition and selected the design submitted by Sir Giles Gilbert Scott as the winner. The Post Office made a request that the material used for the design be changed from mild steel to cast iron, and that a slight modification be made to the door; after these changes, the design was designated K2 from 1927 K2 was mainly deployed in and around London. K3 designed in 1930. again by Gilbert Scott was similar to K2 but was constructed from concrete and intended for rural areas. K4 (designed by the Post Office Engineering Department and proposed in 1923) incorporated a machine for buying postage stamps on the exterior. Only 50 kiosks of this design were built. 1(5 was a plywood construction introduced in 1934 and designed to be assembled and dismantled and used at exhibitions. In 1935 K6 was designed to commemorate the silver jubilee of King George V K6 was the first standard telephone kiosk to be used throughout the country.
-
-According to the text, which of the designs were almost same?
-</description>
-    <title></title>
+    <description>The red telephone box, a public telephone kiosk designed by Sir Giles Gilbert Scott, was a once familiar sight on the streets of the United Kingdom. It has all but disappeared in recent years, replaced by a number of different designs. The few kiosks that remain have not been replaced because they are regarded as being of special architectural and historical interest. The first standard public telephone kiosk introduced by the United Kingdom Post Office was produced by Somerville S. Company in 1920 and was designated K1 (Kiosk no. 1). This design was not of the same family OS the familiar red telephone boxes. The red telephone box was the result of a competition in 1924 to design a new grander kiosk. The competition attracted designs from a number of noted architects. The Fine Arts Commission judged the competition and selected the design submitted by Sir Giles Gilbert Scott as the winner. The Post Office made a request that the material used for the design be changed from mild steel to cast iron, and that a slight modification be made to the door; after these changes, the design was designated K2 from 1927 K2 was mainly deployed in and around London. K3 designed in 1930. again by Gilbert Scott was similar to K2 but was constructed from concrete and intended for rural areas. K4 (designed by the Post Office Engineering Department and proposed in 1923) incorporated a machine for buying postage stamps on the exterior. Only 50 kiosks of this design were built. 1(5 was a plywood construction introduced in 1934 and designed to be assembled and dismantled and used at exhibitions. In 1935 K6 was designed to commemorate the silver jubilee of King George V K6 was the first standard telephone kiosk to be used throughout the country.</description>
+    <title>According to the text, which of the designs were almost same?</title>
     <options>
       <o0>K6</o0>
       <o1>K3</o1>
@@ -4143,11 +4147,8 @@ According to the text, which of the designs were almost same?
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>Male lions are rather reticent about expanding their energy in hunting more than three quarters of kills are made by lionesses are in front, tensely scanning ahead, the cubs lag playfully behind and the males bring up the rear, walking slowly, their massive heads nodding with each step as if they were bored with the whole matter. But slothfulness may have survival value. With lionesses busy hunting, the males function as guard for the cubs, protecting them particularly from hyenas.
-
-According to the passage male lions generally do not go for hunting because
-</description>
-    <title></title>
+    <description>Male lions are rather reticent about expanding their energy in hunting more than three quarters of kills are made by lionesses are in front, tensely scanning ahead, the cubs lag playfully behind and the males bring up the rear, walking slowly, their massive heads nodding with each step as if they were bored with the whole matter. But slothfulness may have survival value. With lionesses busy hunting, the males function as guard for the cubs, protecting them particularly from hyenas.</description>
+    <title>According to the passage male lions generally do not go for hunting because</title>
     <options>
       <o0>they do not like it.</o0>
       <o1>they want lioness to get training</o1>
@@ -4166,11 +4167,8 @@ According to the passage male lions generally do not go for hunting because
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>At this stage of civilization, when many nations are brought in to close and vital contact for good and evil, it is essential, as never before, that their gross ignorance of one another should be diminished, that they should begin to understand a little of one another's historical experience and resulting mentality. It is the fault of the English to expect the people of other countries to react as they do, to political and international situations. Our genuine goodwill and good intentions are often brought to nothing, because we expect other people to be like us. This would be corrected if we knew the history, not necessarily in detail but in broad outlines, of the social and political conditions which have given to each nation its present character.
-
-Englishmen like others to react to political situations like
-</description>
-    <title></title>
+    <description>At this stage of civilization, when many nations are brought in to close and vital contact for good and evil, it is essential, as never before, that their gross ignorance of one another should be diminished, that they should begin to understand a little of one another's historical experience and resulting mentality. It is the fault of the English to expect the people of other countries to react as they do, to political and international situations. Our genuine goodwill and good intentions are often brought to nothing, because we expect other people to be like us. This would be corrected if we knew the history, not necessarily in detail but in broad outlines, of the social and political conditions which have given to each nation its present character.</description>
+    <title>Englishmen like others to react to political situations like</title>
     <options>
       <o0>us</o0>
       <o1>themselves</o1>
@@ -4192,10 +4190,10 @@ Englishmen like others to react to political situations like
     <description></description>
     <title></title>
     <options>
-      <o1>In 1571, it became the capital of La Florida.</o1>
-      <o2>He erected fort San Marcos in six days in defense against a Native American attack such as the one that forced the abandonment of the town a year earlier.</o2>
-      <o3>The town had flourished, nearing 400 residents, since its establishment more than a decade earlier in 1566 by Pedro Menendez de Aviles who had founded La Florida and St. Augustine the year before.</o3>
-      <o4>Marquez arrived in October 1577 at the abandoned town of Santa Elena with two ships carrying pre-fabricated posts and heavy planking.</o4>
+      <o0>In 1571, it became the capital of La Florida.</o0>
+      <o1>He erected fort San Marcos in six days in defense against a Native American attack such as the one that forced the abandonment of the town a year earlier.</o1>
+      <o2>The town had flourished, nearing 400 residents, since its establishment more than a decade earlier in 1566 by Pedro Menendez de Aviles who had founded La Florida and St. Augustine the year before.</o2>
+      <o3>Marquez arrived in October 1577 at the abandoned town of Santa Elena with two ships carrying pre-fabricated posts and heavy planking.</o3>
     </options>
     <answer>3|1|2|0</answer>
   </template>
@@ -4211,10 +4209,10 @@ Englishmen like others to react to political situations like
     <description></description>
     <title></title>
     <options>
-      <o1>Researchers have developed a system that can 3-D print the basic structure of an entire building.</o1>
-      <o2>Ultimately, the scientist say, this approach could enable the design and the construction of new buildings that would not be feasible with traditional building methods.</o2>
-      <o3>Even the internal structure could be modified in new ways; different materials could be incorporated as the process goes along.</o3>
-      <o4>Structure built with this system could be produced faster and less expensively than traditional construction methods allow.</o4>
+      <o0>Researchers have developed a system that can 3-D print the basic structure of an entire building.</o0>
+      <o1>Ultimately, the scientist say, this approach could enable the design and the construction of new buildings that would not be feasible with traditional building methods.</o1>
+      <o2>Even the internal structure could be modified in new ways; different materials could be incorporated as the process goes along.</o2>
+      <o3>Structure built with this system could be produced faster and less expensively than traditional construction methods allow.</o3>
     </options>
     <answer>0|3|2|1</answer>
   </template>
@@ -4227,7 +4225,7 @@ Englishmen like others to react to political situations like
   <delayTime>00:00:00</delayTime>
   <attemptTime>00:00:00</attemptTime>
   <template>
-    <description>A blueprint for a city park in Penrith’s CBD has gone on {blank} for public comment. The plan seeks to rezone land {blank} bound by Station Street, Henry Street, Allen Place and Woodriff Street so Penrith City Council can {blank} a city park precinct. The rezoning will allow greater flexibility regarding use of the site and design, a statement from the council said.A city park has been part of council’s planning since it was included in the Penrith City Centre {blank} in 2006, and was identified as one of Penrith Progression’s first priorities.
+    <description>A blueprint for a city park in Penrith’s CBD has gone on {blank} for public comment. The plan seeks to rezone land bound by Station Street, Henry Street, Allen Place and Woodriff Street so Penrith City Council can {blank} a city park precinct. The rezoning will allow greater flexibility regarding use of the site and design, a statement from the council said.A city park has been part of council’s planning since it was included in the Penrith City Centre {blank} in 2006, and was identified as one of Penrith Progression’s first priorities.
 transform our city centre. A contemporary public space, surrounded by a mix of housing and specialist retail {blank} , will in turn foster redevelopment of private land in the area.
 </description>
     <title></title>
@@ -4244,7 +4242,7 @@ transform our city centre. A contemporary public space, surrounded by a mix of h
         <o8>opportunities</o8>
       </blank>
     </blanks>
-    <answer>1|3|5|6|8</answer>
+    <answer>1|3|6|8</answer>
   </template>
 </question><question>
   <id>35c014e0f7a54312a6666df23519e06a</id>

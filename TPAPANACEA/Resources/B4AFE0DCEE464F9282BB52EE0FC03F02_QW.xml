@@ -10,10 +10,11 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        Never has there been the slightest whisper of doubt, the slightest want of faith, in the chief God of America — unlimited belief in the future of America. The faith of Americans in their own country is religious, if not in its intensity, at any rate in its almost absolute and universal authority. It pervades the air we breathe.
-        The Land of Democracy has always appealed to its more enthusiastic children chiefly as a land of wonderful and more than national possibilities. Neither race nor tradition, nor the actual past, binds the American to his countrymen, but rather the future which together they are building.
-        When, however, Americans talk of their country as the Land of Promise, a question may well be raised as to precisely what they mean. They mean, of course, in general, that the future will have something better in store for them individually and collectively than has the past or the present; but a very superficial analysis of this meaning discloses certain ambiguities. How is this Promise to be fulfilled? Will it fulfill itself, or does it imply certain responsibilities? If so, what responsibilities?
+      <description>Never has there been the slightest whisper of doubt, the slightest want of faith, in the chief God of America — unlimited belief in the future of America. The faith of Americans in their own country is religious, if not in its intensity, at any rate in its almost absolute and universal authority. It pervades the air we breathe.
+
+The Land of Democracy has always appealed to its more enthusiastic children chiefly as a land of wonderful and more than national possibilities. Neither race nor tradition, nor the actual past, binds the American to his countrymen, but rather the future which together they are building.
+
+When, however, Americans talk of their country as the Land of Promise, a question may well be raised as to precisely what they mean. They mean, of course, in general, that the future will have something better in store for them individually and collectively than has the past or the present; but a very superficial analysis of this meaning discloses certain ambiguities. How is this Promise to be fulfilled? Will it fulfill itself, or does it imply certain responsibilities? If so, what responsibilities?
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -29,10 +30,11 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        Until the middle of the nineteenth century art had been regarded as a luxury for the rich dilettante; people heard little of it, and thought less. There was a popular belief that beautiful things were expensive. There never was a more erroneous idea. The diligent polish in order to secure nice plain surfaces, or the neat fitting of parts together, is infinitely more difficult than adding a florid casting to conceal clumsy workmanship. The mere fact that a piece of work is decorated does not show that it has cost any more in time and execution than if it were plain — frequently many hours have been saved by the device of covering up defects with cheap ornament.
-        A craft may easily be practiced without art, and still serve its purpose; the alliance of the two is a means of giving pleasure as well as serving utility. People suppose that because a design is artistic, its technical rendering is any the less important, but they are mistaken. Frequently curious articles are palmed off on us, and designated as "Arts and Crafts" ornaments, in which neither art nor craft plays its full share. Art does not consist only in original, unusual, or unfamiliar designs; the best art is that which produces designs of grace and appropriateness, whether they are strikingly new or not.
-        A medieval artist was usually a craftsman as well. He was not content with furnishing designs alone, and then handing them over to men whose hands were trained to their execution. He took his own designs and carried them out. The result was a harmony of intention and execution which is often lacking when two men of differing tastes produce one object.
+      <description>Until the middle of the nineteenth century art had been regarded as a luxury for the rich dilettante; people heard little of it, and thought less. There was a popular belief that beautiful things were expensive. There never was a more erroneous idea. The diligent polish in order to secure nice plain surfaces, or the neat fitting of parts together, is infinitely more difficult than adding a florid casting to conceal clumsy workmanship. The mere fact that a piece of work is decorated does not show that it has cost any more in time and execution than if it were plain — frequently many hours have been saved by the device of covering up defects with cheap ornament.
+
+A craft may easily be practiced without art, and still serve its purpose; the alliance of the two is a means of giving pleasure as well as serving utility. People suppose that because a design is artistic, its technical rendering is any the less important, but they are mistaken. Frequently curious articles are palmed off on us, and designated as "Arts and Crafts" ornaments, in which neither art nor craft plays its full share. Art does not consist only in original, unusual, or unfamiliar designs; the best art is that which produces designs of grace and appropriateness, whether they are strikingly new or not.
+
+A medieval artist was usually a craftsman as well. He was not content with furnishing designs alone, and then handing them over to men whose hands were trained to their execution. He took his own designs and carried them out. The result was a harmony of intention and execution which is often lacking when two men of differing tastes produce one object.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -66,11 +68,13 @@
       <description>Many people believe that National Defence and Law Enforcement should be the exclusive domain of men as these forces need physical stamina that women are biologically not endowed with. Others claim that denial of entry to women to these forces amounts to gender discrimination. State your point of view and support it with reasons and examples.</description>
       <title></title>
       <maxWordCount>300</maxWordCount>
-      <answer>
-        Few skeptics claim that National Defense and Law Enforcement should be restricted only within the male authority as it requires physical strength which women do not possess. However, others have the perception that limitations on women would account to gender inequality. In my opinion, women’s strength cannot be underestimated and I agree with the latter viewpoints. This essay will give justifications for the stated reasons.
-        To begin with, 21st century has openly welcomed many changes and one of them is permitting women to do the same work as men. The current scenario has considered the women as a strong individual. To illustrate, in developing country like India, in most of the defense sectors women has been provided the top most position, for example, Punita Arora is the first woman in India to don the second-highest rank, Lieutenant General of Indian Armed Forces, as well as the rank of Vice Admiral of Indian Navy. So it is upon the willingness of ladies to be physically fit and able to withstand challenges ahead of them.
-        Apart from this, the fact that majority of females are determined to protect their state and joining the defense and police department will provide them opportunity to be patriotic. For example, during the Kargil War, Flight Officer Gunjan Saxena made history by becoming the first woman IAF officer to fly in a combat zone and evacuated injured Indian Army soldiers. Later, she became the first woman recipient who got a gallantry award for her courageous action.
-        To conclude, it’s not about gender discrimination, it’s about allowing women to take up combat roles in all sections of the National Defense and Law Enforcement which would be a radical move towards gender parity in one of the world’s most male-dominated professions.
+      <answer>Few skeptics claim that National Defense and Law Enforcement should be restricted only within the male authority as it requires physical strength which women do not possess. However, others have the perception that limitations on women would account to gender inequality. In my opinion, women’s strength cannot be underestimated and I agree with the latter viewpoints. This essay will give justifications for the stated reasons.
+
+To begin with, 21st century has openly welcomed many changes and one of them is permitting women to do the same work as men. The current scenario has considered the women as a strong individual. To illustrate, in developing country like India, in most of the defense sectors women has been provided the top most position, for example, Punita Arora is the first woman in India to don the second-highest rank, Lieutenant General of Indian Armed Forces, as well as the rank of Vice Admiral of Indian Navy. So it is upon the willingness of ladies to be physically fit and able to withstand challenges ahead of them.
+
+Apart from this, the fact that majority of females are determined to protect their state and joining the defense and police department will provide them opportunity to be patriotic. For example, during the Kargil War, Flight Officer Gunjan Saxena made history by becoming the first woman IAF officer to fly in a combat zone and evacuated injured Indian Army soldiers. Later, she became the first woman recipient who got a gallantry award for her courageous action.
+
+To conclude, it’s not about gender discrimination, it’s about allowing women to take up combat roles in all sections of the National Defense and Law Enforcement which would be a radical move towards gender parity in one of the world’s most male-dominated professions.
       </answer>
     </template>
   </question>
@@ -117,11 +121,12 @@
       <description>Some people think placing advertisements in schools is a great resource for public schools that need additional funding, but others think it exploits children by treating them as a captive audience for corporate sponsors. Choose which position you most agree with and discuss why you chose that position. Support your point of view with details from your own experiences, observations or reading.</description>
       <title></title>
       <maxWordCount>300</maxWordCount>
-      <answer>
-        Advertisement is a main source of a promoting a business and it contributes in generation of large amount of funds for any organization or corporation like schools. However, some argue that schools are not an appropriate place to advertise in the name of extra fund collection. This essay will be in favor of the latter viewpoints.
-        To begin with, placing advertisements in schools will distract juveniles who do not have controlling power on themselves as psychological aspect of children needs to be considered before placing an advertisement in school. School children might concentrate less on their studies and will focus on colorful advertisements because of which their future will be uncertain as they will not be able to pass their course easily. For example, a child who is in the habit of involving in various advertising campaigns since childhood, lacks behind on his or her studies .In the same way, young pupils will be obsessed with money and if there is a shortage of money in any stage of their life while growing, they might indulge in an illegal act to achieve money.
-        On the other side, there are positive results also of the same, as children may get a platform for their future and they can shape their life by following only positive outcomes of advertisement.
-        To conclude, the latter notion outweighs the first one as students should focus on their studies at this age rather than highlighting in other aspect like advertisement. Thus, advertisements should be banned from the schools, the schools should work on providing good and peaceful environment for studies rather getting kids involved in any such kind of work.
+      <answer>Advertisement is a main source of a promoting a business and it contributes in generation of large amount of funds for any organization or corporation like schools. However, some argue that schools are not an appropriate place to advertise in the name of extra fund collection. This essay will be in favor of the latter viewpoints.
+To begin with, placing advertisements in schools will distract juveniles who do not have controlling power on themselves as psychological aspect of children needs to be considered before placing an advertisement in school. School children might concentrate less on their studies and will focus on colorful advertisements because of which their future will be uncertain as they will not be able to pass their course easily. For example, a child who is in the habit of involving in various advertising campaigns since childhood, lacks behind on his or her studies .In the same way, young pupils will be obsessed with money and if there is a shortage of money in any stage of their life while growing, they might indulge in an illegal act to achieve money.
+
+On the other side, there are positive results also of the same, as children may get a platform for their future and they can shape their life by following only positive outcomes of advertisement.
+
+To conclude, the latter notion outweighs the first one as students should focus on their studies at this age rather than highlighting in other aspect like advertisement. Thus, advertisements should be banned from the schools, the schools should work on providing good and peaceful environment for studies rather getting kids involved in any such kind of work.
       </answer>
     </template>
   </question>
@@ -135,9 +140,9 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        A Regional Signal is one that has a limited geographical range. If a Norwegian, a Korean and a Masai were marooned together on a desert island, they would easily be able to communicate their basic moods and intentions to one another by their actions. All humanity shares a large repertoire of common movements, expressions, and postures. But there would also be misunderstandings. Each man would have acquired from his own culture a special set of Regional Signals that would be meaningless to the others. If the Norwegian were shipwrecked instead with a Swede and a Dane, he would find his task much easier, because their closer origins would mean a greater share of these regional gestures, since localized actions, like many words, do not follow precisely the present-day national boundaries.
-        This comparison of gestures with words is significant because it reveals immediately our state of ignorance as regards gestural geography. We already know a great deal about linguistic maps, but we know far too little about Gesture Maps. Ask a linguist to describe the distribution of any language you like to name and he will be able to provide accurate, detailed information for you. Take any word, and he will be able to demonstrate its spread from country to country. He can even present you with local dialect maps for some parts of the world and show you, like Professor Higgins in Pygmalion, how slang expressions are limited to certain small areas of big cities. But ask anyone for a world-wide gesture atlas, and you will be disappointed.
+      <description>A Regional Signal is one that has a limited geographical range. If a Norwegian, a Korean and a Masai were marooned together on a desert island, they would easily be able to communicate their basic moods and intentions to one another by their actions. All humanity shares a large repertoire of common movements, expressions, and postures. But there would also be misunderstandings. Each man would have acquired from his own culture a special set of Regional Signals that would be meaningless to the others. If the Norwegian were shipwrecked instead with a Swede and a Dane, he would find his task much easier, because their closer origins would mean a greater share of these regional gestures, since localized actions, like many words, do not follow precisely the present-day national boundaries.
+
+This comparison of gestures with words is significant because it reveals immediately our state of ignorance as regards gestural geography. We already know a great deal about linguistic maps, but we know far too little about Gesture Maps. Ask a linguist to describe the distribution of any language you like to name and he will be able to provide accurate, detailed information for you. Take any word, and he will be able to demonstrate its spread from country to country. He can even present you with local dialect maps for some parts of the world and show you, like Professor Higgins in Pygmalion, how slang expressions are limited to certain small areas of big cities. But ask anyone for a world-wide gesture atlas, and you will be disappointed.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -153,9 +158,9 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        The distribution or offering of money in elections by candidates and political parties during elections plays an important role in determining the voting choice of the people. The predicament of irresponsible use of cash - acknowledged by political parties and individual candidates from businessman and other sources from time-to-time for a furtherance of their election prospects has already acquired upsetting aspect of our electoral system. It has also been pointed out that political parties and their candidates have spent money far in excess of the limit imposed by the Representation of Peoples’ Act, 1954.
-        In extreme forms, unconventional modes of electoral practices are manifest in the explicit acts of vote buying. Since, persuasion alone occasionally generates an adequate amount of support, candidates or parties, on the other, on a regular basis, try to pay for or convince voters through money.The influence of ‘money’ in elections shapes the voting behavior of 15.83% of the respondent electorate in the constituency. The male voters are more influenced by ‘money’ than the female counterpart. This is mainly because of two important reasons, i.e., due to conservative nature of women and the domination over females by the male counterpart. Exchange of vote for money has turn out to be open-secret in every election of the constituency. Generally speaking, the voters who accepted money are of two types: voters who did not claim but simply agreed while being paid; and those who claim either from the candidate directly or from any sources that advance them during the campaign period.
+      <description>The distribution or offering of money in elections by candidates and political parties during elections plays an important role in determining the voting choice of the people. The predicament of irresponsible use of cash - acknowledged by political parties and individual candidates from businessman and other sources from time-to-time for a furtherance of their election prospects has already acquired upsetting aspect of our electoral system. It has also been pointed out that political parties and their candidates have spent money far in excess of the limit imposed by the Representation of Peoples’ Act, 1954.
+
+In extreme forms, unconventional modes of electoral practices are manifest in the explicit acts of vote buying. Since, persuasion alone occasionally generates an adequate amount of support, candidates or parties, on the other, on a regular basis, try to pay for or convince voters through money.The influence of ‘money’ in elections shapes the voting behavior of 15.83% of the respondent electorate in the constituency. The male voters are more influenced by ‘money’ than the female counterpart. This is mainly because of two important reasons, i.e., due to conservative nature of women and the domination over females by the male counterpart. Exchange of vote for money has turn out to be open-secret in every election of the constituency. Generally speaking, the voters who accepted money are of two types: voters who did not claim but simply agreed while being paid; and those who claim either from the candidate directly or from any sources that advance them during the campaign period.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -171,9 +176,9 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:20:00</attemptTime>
     <template>
-      <description>
-        Billions of dollars are being wasted each year on space research. The money could be better used to improve conditions on earth.
-        To what extent do you agree or disagree with this statement?
+      <description>Billions of dollars are being wasted each year on space research. The money could be better used to improve conditions on earth.
+
+To what extent do you agree or disagree with this statement?
       </description>
       <title></title>
       <maxWordCount>300</maxWordCount>
@@ -189,9 +194,9 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:20:00</attemptTime>
     <template>
-      <description>
-        Some people think that people who are over 60 years old should retire and stop working.
-        To what extent do you agree or disagree with this statement?
+      <description>Some people think that people who are over 60 years old should retire and stop working.
+
+To what extent do you agree or disagree with this statement?
       </description>
       <title></title>
       <maxWordCount>300</maxWordCount>
@@ -208,13 +213,15 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        There are four key advices for you to make a graceful exit without upsetting anyone at your current organization. Firstly, your resignation letter must justify your reasons to resign. Many people tend to cook up stories which neither work nor are advisable. Whether you're quitting for a healthier work culture, better pay package or to get rid of a crazy boss, be honest while drafting your resignation. Your boss is sharp enough to smell the fish. You may create hurdles for yourself by lying. So, don’t even try it!
+      <description>There are four key advices for you to make a graceful exit without upsetting anyone at your current organization. Firstly, your resignation letter must justify your reasons to resign. Many people tend to cook up stories which neither work nor are advisable. Whether you're quitting for a healthier work culture, better pay package or to get rid of a crazy boss, be honest while drafting your resignation. Your boss is sharp enough to smell the fish. You may create hurdles for yourself by lying. So, don’t even try it!
 
-        Secondly, always serve a proper notice period as stated in your 'contract of employment' or in the Company's handbook. Where there is no notice period required, offer yourself as an available resource for at least 2 weeks to help your replacement learn the work. However if your profile includes managing the company's sensitive data, your employer may ask you to leave the very day you resign. Don't consider it rude but a necessary step on the company's part to avoid security breaches.
-        Thirdly, most people in fervor to join a new work place try to skip the notice period, thereby calling troubles for themselves. Never shirk the fact that your next company will definitely conduct a background check on you. So, spoiling relations with your current employer on an account of working for a few extra days is not recommended at all. You may have several queries related to outstanding payments, commissions, full and final settlement etc. Don’t expect immediate answers from HRs.  The HR department is one of the busiest verticals as they are required to make the most out of limited resources and that too on time.
-        Finally, take time to bid goodbye to all your colleagues in the company. Shake hands, smile, and thank you all especially your seniors. Praise them for all the support they have extended to you during your tenure. Ask them to stay in touch as they may turn out to be helpful resources for your personal as well as professional growth in future. Remember, the bottom line of quitting well is graciousness.
-        Now exit with your friends and colleagues by your side as you enter into a new world of opportunities.
+Secondly, always serve a proper notice period as stated in your 'contract of employment' or in the Company's handbook. Where there is no notice period required, offer yourself as an available resource for at least 2 weeks to help your replacement learn the work. However if your profile includes managing the company's sensitive data, your employer may ask you to leave the very day you resign. Don't consider it rude but a necessary step on the company's part to avoid security breaches.
+
+Thirdly, most people in fervor to join a new work place try to skip the notice period, thereby calling troubles for themselves. Never shirk the fact that your next company will definitely conduct a background check on you. So, spoiling relations with your current employer on an account of working for a few extra days is not recommended at all. You may have several queries related to outstanding payments, commissions, full and final settlement etc. Don’t expect immediate answers from HRs.  The HR department is one of the busiest verticals as they are required to make the most out of limited resources and that too on time.
+
+Finally, take time to bid goodbye to all your colleagues in the company. Shake hands, smile, and thank you all especially your seniors. Praise them for all the support they have extended to you during your tenure. Ask them to stay in touch as they may turn out to be helpful resources for your personal as well as professional growth in future. Remember, the bottom line of quitting well is graciousness.
+
+Now exit with your friends and colleagues by your side as you enter into a new world of opportunities.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -230,12 +237,11 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        With lives becoming more competitive, lifestyle patterns are changing faster than ever. Life goals like marriage, buying a house, children’s education, and retirement make it necessary for our financial plans to evolve in order to meet these objectives within prospective timelines. However, a lot of times, the focus on ‘wealth creation’ makes ‘protection’ take a backseat. It is unfortunate that we don’t realise the importance of adequately insuring our lives for the financial security of our dependents, that life insurance must assume vital importance and other aspects of financial planning should follow.
+      <description>With lives becoming more competitive, lifestyle patterns are changing faster than ever. Life goals like marriage, buying a house, children’s education, and retirement make it necessary for our financial plans to evolve in order to meet these objectives within prospective timelines. However, a lot of times, the focus on ‘wealth creation’ makes ‘protection’ take a backseat. It is unfortunate that we don’t realise the importance of adequately insuring our lives for the financial security of our dependents, that life insurance must assume vital importance and other aspects of financial planning should follow.
 
-        A life insurance policy is an investment that financially secures you and your family, against any uncertainty. It is a cover that takes care of the financial needs of people who are dependent on you, in case something happens to you. It is also one of the basic financial instruments that everyone needs to own. While there are several wealthy people who heavily invest in this instrument, it is equally important for people in different strata of life to invest in suitable life insurance plans.
+A life insurance policy is an investment that financially secures you and your family, against any uncertainty. It is a cover that takes care of the financial needs of people who are dependent on you, in case something happens to you. It is also one of the basic financial instruments that everyone needs to own. While there are several wealthy people who heavily invest in this instrument, it is equally important for people in different strata of life to invest in suitable life insurance plans.
 
-        Life insurance often gets the least priority in our financial planning; however, it is essentially one of the most economic and important investments one can make. Life insurance is not a product with quick or immediate returns but a scheme that covers your risks. It also offers protection to your loved ones, in case of any uncertainties. Low premiums, tax benefits and bundles of add-on benefits make life insurance all the more attractive.  But the key takeaway has to be that everyone needs life insurance. Whether you enjoy an opulent life and want to secure your wealth or you have a family to support who can rely on the financial backing, life insurance is one of the most under-rated investments that needs your attention.
+Life insurance often gets the least priority in our financial planning; however, it is essentially one of the most economic and important investments one can make. Life insurance is not a product with quick or immediate returns but a scheme that covers your risks. It also offers protection to your loved ones, in case of any uncertainties. Low premiums, tax benefits and bundles of add-on benefits make life insurance all the more attractive.  But the key takeaway has to be that everyone needs life insurance. Whether you enjoy an opulent life and want to secure your wealth or you have a family to support who can rely on the financial backing, life insurance is one of the most under-rated investments that needs your attention.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -282,11 +288,13 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        How can we design great cities from scratch if we cannot agree on what makes them great? None of the cities where people most want to live such as London, New York, Paris and Hong Kong comes near to being at the top of surveys asking which are best to live in.
-        The top three in the most recent Economist Intelligence Units livability ranking, for example, were Melbourne, Vancouver and Vienna. They are all perfectly pleasant, but great? The first question to tackle is the difference between livability and greatness. Perhaps we cannot aspire to make a great city, but if we attempt to make a livable one, can it in time become great?
-        There are some fundamental elements that you need. The first is public space. Whether it is Vienna’s Ringstrasse and Prater park, or the beaches of Melbourne and Vancouver, these are places that allow the city to pause and the citizens to mingle and to breathe, regardless of class or wealth. Good cities also seem to be close to nature, and all three have easy access to varied, wonderful landscapes and topographies.
-        A second crucial factor, says Ricky Burdett, a professor of urban studies at the London School of Economics, is a good transport system. Affordable public transport is the one thing which cuts across all successful cities, he says.
+      <description>How can we design great cities from scratch if we cannot agree on what makes them great? None of the cities where people most want to live such as London, New York, Paris and Hong Kong comes near to being at the top of surveys asking which are best to live in.
+
+The top three in the most recent Economist Intelligence Units livability ranking, for example, were Melbourne, Vancouver and Vienna. They are all perfectly pleasant, but great? The first question to tackle is the difference between livability and greatness. Perhaps we cannot aspire to make a great city, but if we attempt to make a livable one, can it in time become great?
+
+There are some fundamental elements that you need. The first is public space. Whether it is Vienna’s Ringstrasse and Prater park, or the beaches of Melbourne and Vancouver, these are places that allow the city to pause and the citizens to mingle and to breathe, regardless of class or wealth. Good cities also seem to be close to nature, and all three have easy access to varied, wonderful landscapes and topographies.
+
+A second crucial factor, says Ricky Burdett, a professor of urban studies at the London School of Economics, is a good transport system. Affordable public transport is the one thing which cuts across all successful cities, he says.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -302,9 +310,9 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        According to the United States Constitution, a presidential election is to be held once every fourth year. The process of electing a President and Vice-President begins long before Election Day. Candidates from both major and minor political parties and independent candidates begin to raise money and campaign at least one year in advance of the general presidential election. To officially represent a political party, a candidate must be nominated by that party.
-        This primary nomination process is a contest that often produces factions within political parties. These divisions impact the policy stances and agendas of the candidates running for nomination as they attempt to garner the support of party leaders and activists. The nominating process officially begins with the first state primaries and caucuses, which usually occur in the month of February of the election year. It is at these local events that voters are given their first chance to participate in electing the nations next President.
+      <description>According to the United States Constitution, a presidential election is to be held once every fourth year. The process of electing a President and Vice-President begins long before Election Day. Candidates from both major and minor political parties and independent candidates begin to raise money and campaign at least one year in advance of the general presidential election. To officially represent a political party, a candidate must be nominated by that party.
+
+This primary nomination process is a contest that often produces factions within political parties. These divisions impact the policy stances and agendas of the candidates running for nomination as they attempt to garner the support of party leaders and activists. The nominating process officially begins with the first state primaries and caucuses, which usually occur in the month of February of the election year. It is at these local events that voters are given their first chance to participate in electing the nations next President.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -320,10 +328,11 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        The first time I read Von Humboldt’s tale, I thought it was completely bizarre, Catania says. Why would the eels attack the horses instead of swimming away? But then he observed the same behaviour by accident as he transferred the eels in his lab from one tank to another using a metal-rimmed net. Instead of swimming away, larger eels attacked the net by leaping out of the water.
-        Catania tracked the strength of the eels electric shock by attaching a voltmeter to an aluminium plate, or conductive metal strips to predator objects such as a crocodile head replica. The zap a submerged eel distributes through the water is relatively weak when it reaches the target. But when an eel touches it with its electricity-generating chin, the current travels directly to the target and has to travel through its body before it gets back to the water, Catania reported in Proceedings of the National Academy of Sciences.
-        This allows the eels to deliver shocks with a maximum amount of power to partially submerged land animals that invade their territory, Catania explains. It also allows them to electrify a much larger portion of the invader’s body. Catania found the eels leapt to attack, rather than receded, more often when the water in the aquarium was lower. He argues the attack lets electric eels better defend themselves during the Amazon dry season. When they’re cornered in small pools, and make easy prey.
+      <description>The first time I read Von Humboldt’s tale, I thought it was completely bizarre, Catania says. Why would the eels attack the horses instead of swimming away? But then he observed the same behaviour by accident as he transferred the eels in his lab from one tank to another using a metal-rimmed net. Instead of swimming away, larger eels attacked the net by leaping out of the water.
+
+Catania tracked the strength of the eels electric shock by attaching a voltmeter to an aluminium plate, or conductive metal strips to predator objects such as a crocodile head replica. The zap a submerged eel distributes through the water is relatively weak when it reaches the target. But when an eel touches it with its electricity-generating chin, the current travels directly to the target and has to travel through its body before it gets back to the water, Catania reported in Proceedings of the National Academy of Sciences.
+
+This allows the eels to deliver shocks with a maximum amount of power to partially submerged land animals that invade their territory, Catania explains. It also allows them to electrify a much larger portion of the invader’s body. Catania found the eels leapt to attack, rather than receded, more often when the water in the aquarium was lower. He argues the attack lets electric eels better defend themselves during the Amazon dry season. When they’re cornered in small pools, and make easy prey.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -355,10 +364,11 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        For decades, space experts have worried that a speeding bit of orbital debris might one day smash a large spacecraft into hundreds of pieces and start a chain reaction, a slow cascade of collisions that would expand for centuries, spreading chaos through the heavens. In the last decade or so, as scientists came to agree that the number of objects in orbit had surpassed a critical mass or, in their terms, the critical spatial density, the point at which a chain reaction becomes inevitable they grew more anxious.
-        Early this year, after a half-century of growth, the federal list of detectable objects (four inches wide or larger) reached 10,000, including dead satellites, spent rocket stages, a camera, a hand tool and junkyards of whirling debris left over from chance explosions and destructive tests. So our billion dollars of satellites are at risk.
-        As space experts have worried that orbital debris might one day smash a large spacecraft into pieces and start a chain reaction, the scientist recently came to agree that the number of orbital debris had surpassed the critical spatial density, which will inevitably lead to a chain reaction that puts our billion dollars of satellites at risk.
+      <description>For decades, space experts have worried that a speeding bit of orbital debris might one day smash a large spacecraft into hundreds of pieces and start a chain reaction, a slow cascade of collisions that would expand for centuries, spreading chaos through the heavens. In the last decade or so, as scientists came to agree that the number of objects in orbit had surpassed a critical mass or, in their terms, the critical spatial density, the point at which a chain reaction becomes inevitable they grew more anxious.
+
+Early this year, after a half-century of growth, the federal list of detectable objects (four inches wide or larger) reached 10,000, including dead satellites, spent rocket stages, a camera, a hand tool and junkyards of whirling debris left over from chance explosions and destructive tests. So our billion dollars of satellites are at risk.
+
+As space experts have worried that orbital debris might one day smash a large spacecraft into pieces and start a chain reaction, the scientist recently came to agree that the number of orbital debris had surpassed the critical spatial density, which will inevitably lead to a chain reaction that puts our billion dollars of satellites at risk.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -374,9 +384,9 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        If your recruiting efforts attract job applicants with too much experience a near certainty in this weak labour market you should consider a response that runs counter to most hiring managers modus operandi: don’t reject those applicants out of hand. Instead, take a closer look. New research shows that overqualified workers tend to perform better than other employees, and they don’t quit any sooner. Furthermore, a simple managerial tactic empowerment can mitigate any dissatisfaction they may feel. The prejudice against too-good employees is pervasive. Companies tend to prefer an applicant who is a perfect fit over someone who brings more intelligence, education, or experience than needed. On the surface, this bias makes sense: Studies have consistently shown that employees who consider themselves overqualified exhibiting her levels of discontent.
-        But even before the economic downturn, a surplus of overqualified candidates was a global problem, particularly in developing economies, where rising education levels are giving workers more skills that are needed to supply the growing service sectors. If managers can get beyond the conventional wisdom, the growing pool of too-good applicants is a great opportunity. Berrin Erdogan and Talya N. Bauer of Portland State University in Oregon found that overqualified workers’ feelings of dissatisfaction can be dissipated by giving them autonomy in decision making. At stores where employees didn’t feel empowered, over-educated workers expressed greater dissatisfaction than their colleagues did and were more likely to state an intention to quit. But that difference vanished where self-reported autonomy was high.
+      <description>If your recruiting efforts attract job applicants with too much experience a near certainty in this weak labour market you should consider a response that runs counter to most hiring managers modus operandi: don’t reject those applicants out of hand. Instead, take a closer look. New research shows that overqualified workers tend to perform better than other employees, and they don’t quit any sooner. Furthermore, a simple managerial tactic empowerment can mitigate any dissatisfaction they may feel. The prejudice against too-good employees is pervasive. Companies tend to prefer an applicant who is a perfect fit over someone who brings more intelligence, education, or experience than needed. On the surface, this bias makes sense: Studies have consistently shown that employees who consider themselves overqualified exhibiting her levels of discontent.
+
+But even before the economic downturn, a surplus of overqualified candidates was a global problem, particularly in developing economies, where rising education levels are giving workers more skills that are needed to supply the growing service sectors. If managers can get beyond the conventional wisdom, the growing pool of too-good applicants is a great opportunity. Berrin Erdogan and Talya N. Bauer of Portland State University in Oregon found that overqualified workers’ feelings of dissatisfaction can be dissipated by giving them autonomy in decision making. At stores where employees didn’t feel empowered, over-educated workers expressed greater dissatisfaction than their colleagues did and were more likely to state an intention to quit. But that difference vanished where self-reported autonomy was high.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -392,9 +402,9 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        Nurse sharks are nocturnal animals, spending the day in large inactive groups of up to 40 individuals. Hidden under submerged ledges or in crevices within the reef, the Nurse sharks seem to prefer specific resting sites and will return to them each day after the nights hunting. By night, the sharks are largely solitary. Nurse sharks spend most of their time foraging through the bottom sediments in search of food. Their diet consists primarily of crustaceans, molluscs, tunicates and other fish such as spiny lobsters, crabs, shrimps, sea urchins, octopuses, squid, marine snails and bivalves and in particularly, stingrays.
-        Nurse sharks are thought to take advantage of dormant fish which would otherwise be too fast for the sharks to catch, although their small mouths limit the size of prey items, the sharks have large throat cavities which are used as a sort of bellows valve. In this way, Nurse sharks are able to suck in their prey. Nurse sharks are also known to graze algae and coral.  Nurse sharks have been observed resting on the bottom with their bodies supported on their fins, possibly providing a false shelter for crustaceans which they then ambush and eat.
+      <description>Nurse sharks are nocturnal animals, spending the day in large inactive groups of up to 40 individuals. Hidden under submerged ledges or in crevices within the reef, the Nurse sharks seem to prefer specific resting sites and will return to them each day after the nights hunting. By night, the sharks are largely solitary. Nurse sharks spend most of their time foraging through the bottom sediments in search of food. Their diet consists primarily of crustaceans, molluscs, tunicates and other fish such as spiny lobsters, crabs, shrimps, sea urchins, octopuses, squid, marine snails and bivalves and in particularly, stingrays.
+
+Nurse sharks are thought to take advantage of dormant fish which would otherwise be too fast for the sharks to catch, although their small mouths limit the size of prey items, the sharks have large throat cavities which are used as a sort of bellows valve. In this way, Nurse sharks are able to suck in their prey. Nurse sharks are also known to graze algae and coral.  Nurse sharks have been observed resting on the bottom with their bodies supported on their fins, possibly providing a false shelter for crustaceans which they then ambush and eat.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -426,9 +436,9 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        In the past two centuries, there has been a dramatic change in the role of food and eating in Australian public consciousness. Public discussion of food was largely confined to matters of supply, distribution and price. Towards the end of the nineteenth century, some newspapers were offering regular columns of advice on housekeeping topics, including menu planning and recipes. However, eating remained a private activity essentially, even when undertaken by the company.
-        By the late twentieth century, food and eating had become prominent public preoccupations. Evidence of this dramatic cultural revaluation abounds. In bookstores, for example, cookery and all things related to it are often among the larger displays. Speciality stores are selling all manner of cookware, tableware and other paraphernalia associated with food, eating and drinking. Perhaps most telling is the extension of the phenomenon of mass media celebrity to include culinary personalities.
+      <description>In the past two centuries, there has been a dramatic change in the role of food and eating in Australian public consciousness. Public discussion of food was largely confined to matters of supply, distribution and price. Towards the end of the nineteenth century, some newspapers were offering regular columns of advice on housekeeping topics, including menu planning and recipes. However, eating remained a private activity essentially, even when undertaken by the company.
+
+By the late twentieth century, food and eating had become prominent public preoccupations. Evidence of this dramatic cultural revaluation abounds. In bookstores, for example, cookery and all things related to it are often among the larger displays. Speciality stores are selling all manner of cookware, tableware and other paraphernalia associated with food, eating and drinking. Perhaps most telling is the extension of the phenomenon of mass media celebrity to include culinary personalities.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -444,10 +454,11 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        What killed off the dinosaurs? The end of the Cretaceous Period saw one of the most dramatic mass extinctions the Earth has ever seen. First of all, let us learn some basic information about “nurse shark”. The fossil record shows that throughout their 160-million-year existence, dinosaurs took on a huge variety of forms as the environment changed and new species evolved that was suited to these new conditions. Others that failed to adopt went extinct. But then 66 million years ago, over a relatively short time, dinosaurs disappeared completely (except for birds). Many other animals also died out, including pterosaurs, large marine reptiles, and other sea creatures such as ammonites.
-        Although the number of dinosaur species was already declining, this suggests a sudden catastrophic event sealed their fate, causing unfavourable changes to the environment more quickly than dinosaurs and other creatures could adapt.
-        The exact nature of this catastrophic event is still open to scientific debate. The catastrophe could have been an asteroid impact, volcanic eruptions or the effect of both, together with more gradual changes in the Earth’s climate over millions of years. Whatever the causes, the huge extinction that ended the age of the dinosaur left gaps in the ecosystem that were subsequently filled by mammals and birds, allowing them to evolve rapidly.
+      <description>What killed off the dinosaurs? The end of the Cretaceous Period saw one of the most dramatic mass extinctions the Earth has ever seen. First of all, let us learn some basic information about “nurse shark”. The fossil record shows that throughout their 160-million-year existence, dinosaurs took on a huge variety of forms as the environment changed and new species evolved that was suited to these new conditions. Others that failed to adopt went extinct. But then 66 million years ago, over a relatively short time, dinosaurs disappeared completely (except for birds). Many other animals also died out, including pterosaurs, large marine reptiles, and other sea creatures such as ammonites.
+
+Although the number of dinosaur species was already declining, this suggests a sudden catastrophic event sealed their fate, causing unfavourable changes to the environment more quickly than dinosaurs and other creatures could adapt.
+
+The exact nature of this catastrophic event is still open to scientific debate. The catastrophe could have been an asteroid impact, volcanic eruptions or the effect of both, together with more gradual changes in the Earth’s climate over millions of years. Whatever the causes, the huge extinction that ended the age of the dinosaur left gaps in the ecosystem that were subsequently filled by mammals and birds, allowing them to evolve rapidly.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -478,10 +489,9 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:20:00</attemptTime>
     <template>
-      <description>
-        What are the advantages and disadvantages of living in an era in which new things are constantly being invented?
+      <description>What are the advantages and disadvantages of living in an era in which new things are constantly being invented?
 
-        Talk about the pros/cons of this era as is full of daily invention?
+Talk about the pros/cons of this era as is full of daily invention?
       </description>
       <title></title>
       <maxWordCount>300</maxWordCount>
@@ -498,9 +508,9 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        One of the lessons of 2008 is just how difficult, it is to recognize a bubble while it is inflating. Since the crisis, real-estate prices have soared to new heights in sought-after property markets, from San Francisco to Shanghai to Sydney. Unlike in 2007, however, these run-ups tend to be localized, and crashes are less likely to cause global collateral damage. But sky-high urban housing prices are contributing to other issues, including shortages of affordable housing options, strains on household budgets, reduced mobility, and growing inequality of wealth.
-        In the United States, another new form of risk comes from nonbank lenders. New research shows that these lenders accounted for more than half of new US mortgage originations in 2016. While banks have tightened their underwriting standards, these lenders disproportionately serve lower-income borrowers with weaker credit scores—and their loans account for more than half of the mortgages securitized by Ginnie Mae and one-third of those securitized by Fannie Mae and Freddie Mac.
+      <description>One of the lessons of 2008 is just how difficult, it is to recognize a bubble while it is inflating. Since the crisis, real-estate prices have soared to new heights in sought-after property markets, from San Francisco to Shanghai to Sydney. Unlike in 2007, however, these run-ups tend to be localized, and crashes are less likely to cause global collateral damage. But sky-high urban housing prices are contributing to other issues, including shortages of affordable housing options, strains on household budgets, reduced mobility, and growing inequality of wealth.
+
+In the United States, another new form of risk comes from nonbank lenders. New research shows that these lenders accounted for more than half of new US mortgage originations in 2016. While banks have tightened their underwriting standards, these lenders disproportionately serve lower-income borrowers with weaker credit scores—and their loans account for more than half of the mortgages securitized by Ginnie Mae and one-third of those securitized by Fannie Mae and Freddie Mac.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -562,9 +572,9 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:00:00</attemptTime>
     <template>
-      <description>
-        When the Rosetta Stone was discovered in 1799, the carved characters that covered its surface were quickly copied. Printer's ink was applied to the Stone and white paper laid over it. When the paper was removed, it revealed an exact copy of the text—but in reverse. Since then, many copies or "facsimiles" have been made using a variety of materials. Inevitably, the surface of the Stone accumulated many layers of material left over from these activities, despite attempts to remove any residue. Once on display, the grease from many thousands of human hands eager to touch the Stone added to the problem.
-        An opportunity for investigation and cleaning the Rosetta stone arose when this famous object was made the centerpiece of the Cracking Codes exhibition at The British Museum in 1999. When work commenced to remove all but the original, ancient material, the stone was black with white lettering. As treatment progressed, the different substances uncovered were analyzed. Grease from human handling, a coating of carnauba wax from the early 1800s and printer's ink from 1799 were cleaned away using cotton wool swabs and liniment of soap, white spirit, and acetone and purified water. Finally, white paint in the text, applied in 1981, which had been left in place until now as a protective coating, was removed with cotton swabs and purified water. A small square at the bottom left corner of the face of the Stone was left untouched to show the darkened wax and the white infill.
+      <description>When the Rosetta Stone was discovered in 1799, the carved characters that covered its surface were quickly copied. Printer's ink was applied to the Stone and white paper laid over it. When the paper was removed, it revealed an exact copy of the text—but in reverse. Since then, many copies or "facsimiles" have been made using a variety of materials. Inevitably, the surface of the Stone accumulated many layers of material left over from these activities, despite attempts to remove any residue. Once on display, the grease from many thousands of human hands eager to touch the Stone added to the problem.
+
+An opportunity for investigation and cleaning the Rosetta stone arose when this famous object was made the centerpiece of the Cracking Codes exhibition at The British Museum in 1999. When work commenced to remove all but the original, ancient material, the stone was black with white lettering. As treatment progressed, the different substances uncovered were analyzed. Grease from human handling, a coating of carnauba wax from the early 1800s and printer's ink from 1799 were cleaned away using cotton wool swabs and liniment of soap, white spirit, and acetone and purified water. Finally, white paint in the text, applied in 1981, which had been left in place until now as a protective coating, was removed with cotton swabs and purified water. A small square at the bottom left corner of the face of the Stone was left untouched to show the darkened wax and the white infill.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -611,10 +621,11 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        In a study in the current issue of the journal PLoS One, a team of scientists in Germany showed experts and novices simple geometric objects and simple chess positions and asked the subjects to identify them. Reaction times were measured and brain activity was monitored using functional M.R.I. scans. On the identification of the geometric objects, the subjects performed the same, showing that the chess experts had no special visualization skills. When the subjects were shown the chess positions, the experts identified them faster.
-        Focusing on an element of an earlier study on pattern and object recognition by chess experts, the researchers had expected to see parts of the left hemispheres of the experts’ brains — which are involved in object recognition — react more quickly than those of the novices when they performed the chess tasks. But the reaction times were the same. What set the experts apart was that parts of their right brain hemispheres — which are more involved in pattern recognition — also lit up with activity. The experts were processing the information in two places at once.
-        The researchers also found that when the subjects were shown the chess diagrams, the novices looked directly at the pieces to recognize them, while the experts looked on the middle of the boards and took everything in with their peripheral vision.
+      <description>In a study in the current issue of the journal PLoS One, a team of scientists in Germany showed experts and novices simple geometric objects and simple chess positions and asked the subjects to identify them. Reaction times were measured and brain activity was monitored using functional M.R.I. scans. On the identification of the geometric objects, the subjects performed the same, showing that the chess experts had no special visualization skills. When the subjects were shown the chess positions, the experts identified them faster.
+
+Focusing on an element of an earlier study on pattern and object recognition by chess experts, the researchers had expected to see parts of the left hemispheres of the experts’ brains — which are involved in object recognition — react more quickly than those of the novices when they performed the chess tasks. But the reaction times were the same. What set the experts apart was that parts of their right brain hemispheres — which are more involved in pattern recognition — also lit up with activity. The experts were processing the information in two places at once.
+
+The researchers also found that when the subjects were shown the chess diagrams, the novices looked directly at the pieces to recognize them, while the experts looked on the middle of the boards and took everything in with their peripheral vision.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -630,10 +641,9 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        Research shows that when people work with a positive mind-set, performance on nearly every level—productivity, creativity, engagement—improves. Yet the correlation between happiness and performance is perhaps not so easily understood by many. For one, most people believe that success precedes happiness, but, because success is a moving target, the happiness that results from success is fleeting. Instead people who cultivate a positive mind-set perform better in the face of a challenge. In a meta-analysis of 225 academic studies, researchers found strong evidence of directional causality between life satisfaction and successful business outcomes.
+      <description>Research shows that when people work with a positive mind-set, performance on nearly every level—productivity, creativity, engagement—improves. Yet the correlation between happiness and performance is perhaps not so easily understood by many. For one, most people believe that success precedes happiness, but, because success is a moving target, the happiness that results from success is fleeting. Instead people who cultivate a positive mind-set perform better in the face of a challenge. In a meta-analysis of 225 academic studies, researchers found strong evidence of directional causality between life satisfaction and successful business outcomes.
 
-        What is even more encouraging is that even though our genetics and our environment have an impact on how happy we are, our general sense of well-being is surprisingly malleable. Our habits, our interactions with coworkers, our attitude towards stress—all these aspects can be managed to increase our happiness and our chances of success. Habits such as taking short breaks and constantly having a positive engagement with coworkers not only reduce stress substantially but also enhance our productivity and thus better our prospects of professional success. Accordingly, encouraging employees to accept some level of stress as an inevitability and perceive it as a motivator and a fuel to growth, is vital for boosting the performance of the workforce.
+What is even more encouraging is that even though our genetics and our environment have an impact on how happy we are, our general sense of well-being is surprisingly malleable. Our habits, our interactions with coworkers, our attitude towards stress—all these aspects can be managed to increase our happiness and our chances of success. Habits such as taking short breaks and constantly having a positive engagement with coworkers not only reduce stress substantially but also enhance our productivity and thus better our prospects of professional success. Accordingly, encouraging employees to accept some level of stress as an inevitability and perceive it as a motivator and a fuel to growth, is vital for boosting the performance of the workforce.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -649,9 +659,9 @@
     <delayTime>00:00:00</delayTime>
     <attemptTime>00:10:00</attemptTime>
     <template>
-      <description>
-        It is natural to be healthy, but we have wandered so far astray that disease is the rule and good health the exception. Of course, most people are well enough to attend to their work, but nearly all are suffering from some ill, mental or physical, acute or chronic, which deprives them of a part of their power. There is too much illness, too much suffering and too many premature deaths. We are losing every year a vast army of individuals who are in their productive prime. The average individual is of less value to himself, to his family and to society than he could be. His bad habits, of which he is often not aware, have brought weakness and disease upon him. These conditions prevent him from doing his best mentally and physically.
-        This abnormal condition has a bad effect upon his descendants, who may not be born with any special defects, but have less resistance at birth than is their due, and consequently fall prey to disease very easily. This state of impaired resistance has been passed on from generation to generation, and we of today are passing it on as a heritage to our children. Yet it is within the power of each individual to prolong his life beyond what is now considered old age. Barring accidents, which should be less numerous when people fully realize that unreasonable haste and speed are wasteful and that life is more valuable than accumulated wealth, human life could and should be a certainty.
+      <description>It is natural to be healthy, but we have wandered so far astray that disease is the rule and good health the exception. Of course, most people are well enough to attend to their work, but nearly all are suffering from some ill, mental or physical, acute or chronic, which deprives them of a part of their power. There is too much illness, too much suffering and too many premature deaths. We are losing every year a vast army of individuals who are in their productive prime. The average individual is of less value to himself, to his family and to society than he could be. His bad habits, of which he is often not aware, have brought weakness and disease upon him. These conditions prevent him from doing his best mentally and physically.
+
+This abnormal condition has a bad effect upon his descendants, who may not be born with any special defects, but have less resistance at birth than is their due, and consequently fall prey to disease very easily. This state of impaired resistance has been passed on from generation to generation, and we of today are passing it on as a heritage to our children. Yet it is within the power of each individual to prolong his life beyond what is now considered old age. Barring accidents, which should be less numerous when people fully realize that unreasonable haste and speed are wasteful and that life is more valuable than accumulated wealth, human life could and should be a certainty.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
