@@ -48,7 +48,7 @@ namespace TPA
 
             //txtBlockStatus.Text = Application.Current.FindResource("COPYRIGHT").ToString();
             txtBlockStatus.Text = string.Empty;
-            txtBlockAppTitle.Text = Application.Current.FindResource("COMPANY_TITLE").ToString();
+            //txtBlockAppTitle.Text = Application.Current.FindResource("COMPANY_TITLE").ToString();
 
             Switcher.activitySwitcher = this;
             //Switcher.Switch(new Home());
@@ -85,7 +85,10 @@ namespace TPA
             var user = UserManager.GetUserById("institute");
             ownerInfo = user == null ? "Panacea" : user.Firstname;
 
-            txtBlockStatus.Text = "© Copyright PTE Panacea. All rights reserved.This application is licensed to " + ownerInfo;
+            // txtBlockStatus.Text = "© Copyright PTE Panacea. All rights reserved.This application is licensed to " + ownerInfo;
+            txtBlockStatus.Text = "© Copyright 2019, Powered by PTE Panacea.";
+            txtBlockAppTitle.Text = ownerInfo;
+
         }
 
 

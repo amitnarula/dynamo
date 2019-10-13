@@ -88,6 +88,13 @@ namespace TPA.Templates.Common
                 System.Windows.Forms.MessageBox.Show("You are not logged in, please login to continue.");
                 return;
             }
+
+            if (LoginManager.CheckIfTeacherLoggedIn() && !LoginManager.CheckIfStudentToEvaluateSet()) {
+                EvaluatingStudent studentSetDialog = new EvaluatingStudent();
+                if (!studentSetDialog.ShowDialog().Value)
+                    return;
+            }
+
             Switcher.Switch(new Practice(), new ModeSetting()
             {
                 QuestionMode = Mode.ANSWER_KEY,

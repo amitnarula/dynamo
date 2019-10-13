@@ -62,6 +62,9 @@ namespace TPA.Templates.Common
                 if (testModeStateForMockTest != null)
                 {
                     currentQuestionIndex = testModeStateForMockTest.QuestionIndex;
+                    //now remove the state as it has already been consumed to navigate to required question
+                    //so no longer needed
+                    TPACache.RemoveItem("MOCK" + practiceSetId);
                 }
             }
 

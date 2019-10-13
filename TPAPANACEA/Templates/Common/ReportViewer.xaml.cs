@@ -16,6 +16,7 @@ using System.Windows;
 using System.Windows.Threading;
 using System.Windows.Xps.Packaging;
 using CodeReason.Reports;
+using System.Collections.Generic;
 
 namespace TPA.Templates.Common
 {
@@ -38,9 +39,12 @@ namespace TPA.Templates.Common
         public DataTable ReportHeader { get; set; }
 
         public DataTable ReportGraph { get; set; }
+        public DataTable ReportGraph2 { get; set; }
         public string ReportTitle { get; set; }
 
         public string TemplateType { get; set; }
+
+        public Dictionary<string, object> ReportDocumentValues { get; set; }
 
         public void GenerateReport()
         {
@@ -103,6 +107,7 @@ namespace TPA.Templates.Common
                     StreamReader reader = new StreamReader(new FileStream(@"Templates\Common\Reports\"+ TemplateType + ".xaml", FileMode.Open, FileAccess.Read));
                     reportDocument.XamlData = reader.ReadToEnd();
                     reportDocument.XamlImagePath = Path.Combine(Environment.CurrentDirectory, @"Templates\");
+                    reportDocument.ImageProcessing += new EventHandler<ImageEventArgs>(reportDocument_ImageProcessing);
                     reader.Close();
 
                     ReportData data = new ReportData();
@@ -110,12 +115,21 @@ namespace TPA.Templates.Common
                     data.ReportDocumentValues.Add("ReportTitle", ReportTitle);
                     data.ReportDocumentValues.Add("PrintDate", DateTime.Now);
 
+                    if (ReportDocumentValues != null) {
+                        foreach (var item in ReportDocumentValues)
+                        {
+                            data.ReportDocumentValues.Add(item.Key, item.Value);
+                        }
+                    }
+
                     if (ReportData != null)
                         data.DataTables.Add(ReportData);
                     if (ReportHeader != null)
                         data.DataTables.Add(ReportHeader);
                     if (ReportGraph != null)
                         data.DataTables.Add(ReportGraph);
+                    if (ReportGraph2 != null)
+                        data.DataTables.Add(ReportGraph2);
 
                     XpsDocument xps = reportDocument.CreateXpsDocument(data);
                     documentViewer.Document = xps.GetFixedDocumentSequence();
@@ -130,6 +144,13 @@ namespace TPA.Templates.Common
                     busyDecorator.IsBusyIndicatorHidden = true;
                 }
             }));
+        }
+
+        void reportDocument_ImageProcessing(object sender, ImageEventArgs e)
+        {
+            if (e.Image.Name == "Photo") {
+                e.Image.Tag = ReportDocumentValues[e.Image.Name];
+            }
         }
     }
 }

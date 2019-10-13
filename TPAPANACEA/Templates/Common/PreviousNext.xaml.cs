@@ -309,8 +309,8 @@ namespace TPA.Templates.Common
                 //multi parameter question
                 DataSet dsEvalParams = FileReader.ReadFile(FileReader.FileType.EVALUATION_PARAMETER);
                 var questionTemplate = (QuestionTemplates)Enum.Parse(typeof(QuestionTemplates), QuestionContext.QuestionTemplate, true);
-
-                maxPoints = EvaluationManager.PointsByType(dsEvalParams, questionTemplate, "");
+                List<ParameterizedScore> lstParameterizedScore = new List<ParameterizedScore>();
+                maxPoints = EvaluationManager.PointsByType(dsEvalParams, questionTemplate, ref lstParameterizedScore,0, "");
             }
             else
             {

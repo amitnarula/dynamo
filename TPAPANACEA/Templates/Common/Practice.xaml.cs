@@ -90,7 +90,7 @@ namespace TPA.Templates.Common
             Previous
         }
 
-        private void LoadSets(NextPrevious load,int pageSize=5)
+        private void LoadSets(NextPrevious load,int pageSize=10)
         {
             DataSet dsSets;
             string tableKey = string.Empty;
@@ -209,7 +209,8 @@ namespace TPA.Templates.Common
                 //check if user saved something as save and exit
 
                 //check save and exit state
-                var testModeStateForMockTest = TPACache.GetItem("MOCK" + set.Id) as CurrentState;
+                var testModeStateForMockTest = TPACache.GetItem(
+                    "MOCK" + set.Id) as CurrentState;
                 if (testModeStateForMockTest != null)
                 {
                     //we need to check the question type because now Mock mode runs all modules

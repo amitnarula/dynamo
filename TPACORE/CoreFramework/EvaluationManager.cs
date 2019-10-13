@@ -12,6 +12,18 @@ using System.Collections;
 
 namespace TPACORE.CoreFramework
 {
+    public class ParameterizedScore {
+        public ParameterizedScore(string name, decimal score, QuestionTemplates questionTemplate)
+        {
+            ParamScore = score;
+            ParamName = name;
+            QuestionTemplate = questionTemplate;
+        }
+        public decimal ParamScore { get;  private set; }
+        public string ParamName { get;  private set; }
+        public QuestionTemplates QuestionTemplate { get; private set; }
+    }
+
     public class EvaluationManager
     {
         private const string phrase = "myKey123";
@@ -226,7 +238,7 @@ namespace TPACORE.CoreFramework
             }
         }
 
-        public int GetAttempatedPointsByQuestionType(string practiceSetId, QuestionTemplates questionType, QuestionType type , string specificParameter="")
+        public int GetAttempatedPointsByQuestionType(string practiceSetId, QuestionTemplates questionType, QuestionType type ,ref List<ParameterizedScore> parameterizedScore, string specificParameter="")
         {
             
             string[] files = Directory.GetFiles(Path.Combine(baseOutputDirectory,CommonUtilities.ResolveTargetFolder()), "*_" + practiceSetId + "_" + type.ToString() + "_" + questionType.ToString() + "_eval.xml");
@@ -267,6 +279,7 @@ namespace TPACORE.CoreFramework
                                     int attmpt = 0;
                                     int.TryParse(item.Split('=')[1].Split('/')[0], out attmpt);
                                     attempted += attmpt;
+                                    parameterizedScore.Add(new ParameterizedScore(item.Split('=')[0], attmpt, questionType));
                                 }
 
                             }
@@ -310,7 +323,7 @@ namespace TPACORE.CoreFramework
                         evalResult = Convert.ToString(dtResult.Rows[0]["evalDc"]).Split(new char[] { ';' },StringSplitOptions.RemoveEmptyEntries);
 
                 }
-                if (evalResult.Count() > 1)
+                if (evalResult.Count() > 1 || evalResult.Any(x=>x.Contains("Correct or Incorrect")))
                 {
                     foreach (var item in evalResult)
                     {
@@ -324,7 +337,7 @@ namespace TPACORE.CoreFramework
                             ParamMaxScore = paramSubSplit.ElementAtOrDefault(1)
                         });
                     }
-                }
+                } 
                 else if (evalResult.Count() == 1) //not a parameter based question
                 {
                     result.Add(new EvaluationResult() { 
@@ -370,7 +383,7 @@ namespace TPACORE.CoreFramework
 
         }
 
-        public static int PointsByType(DataSet dsEvalParams, QuestionTemplates questionType, string specificParameter)
+        public static int PointsByType(DataSet dsEvalParams, QuestionTemplates questionType,ref List<ParameterizedScore> parameterizedMaxScore,int numberOfQuestions, string specificParameter)
         {
             int total = 0;
             DataRow[] dRows = dsEvalParams.Tables["template"].Select("key='" + questionType.ToString() + "'");
@@ -385,6 +398,7 @@ namespace TPACORE.CoreFramework
                     {
                         var evalParam = prm.Split(',');
                         total += Convert.ToInt32(evalParam[3]);
+                        parameterizedMaxScore.Add(new ParameterizedScore(evalParam[0], Convert.ToDecimal(evalParam[3])*numberOfQuestions, questionType));
 
                     }
                 }
@@ -397,7 +411,7 @@ namespace TPACORE.CoreFramework
             return total;
         }
 
-        public int GetTotalPointsByType(DataSet dsEvalParams, QuestionTemplates questionType, FileReader.FileType fileType, string practiceSetId, string specificParameter="")
+        public int GetTotalPointsByType(DataSet dsEvalParams, QuestionTemplates questionType, FileReader.FileType fileType, string practiceSetId,ref List<ParameterizedScore> parameterizedMaxScore, string specificParameter="")
         {
             if (fileType == FileReader.FileType.QUESTION_WRITING
                 || fileType == FileReader.FileType.QUESTION_SPEAKING
@@ -406,7 +420,11 @@ namespace TPACORE.CoreFramework
                 var numberOfQuestions = NumberOfQuestionsByType(practiceSetId, fileType, questionType);
                 if (numberOfQuestions == 0)
                     return 0;
-                return numberOfQuestions * PointsByType(dsEvalParams, questionType, specificParameter);
+
+                //multiply with number of questions with parameterized maximum scores
+                var totalPoints = numberOfQuestions * PointsByType(dsEvalParams, questionType, ref parameterizedMaxScore, numberOfQuestions, specificParameter);
+
+                return totalPoints;
             }
             return TotalPointsByFileType(fileType, questionType, practiceSetId);
         }
