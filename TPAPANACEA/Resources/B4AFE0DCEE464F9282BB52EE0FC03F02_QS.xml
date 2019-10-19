@@ -6453,7 +6453,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>42122e9b1d01436888a89696948c930d</output>
     <answer>sampleresponse</answer>
@@ -6473,7 +6473,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>e4342456d0f9470b82dea890bbc78065</output>
     <answer>sampleresponse</answer>
@@ -6493,7 +6493,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>b9d1ebf5d9264edd9363bed6db48d690</output>
     <answer>sampleresponse</answer>
@@ -6514,7 +6514,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>a120cd1842b6442ba90a78a70ee8232b</output>
     <answer>sampleresponse</answer>
@@ -6534,7 +6534,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>537457e685914c0d9ae101b63d698326</output>
     <answer>sampleresponse</answer>
@@ -6555,7 +6555,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>56e31d9d369b42b5a2effd3feb73217d</output>
     <answer>sampleresponse</answer>
@@ -6575,7 +6575,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>1b7ed6e274a648c3974ce65d2415e96a</output>
     <answer>sampleresponse</answer>
@@ -6595,7 +6595,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>c046195bf4134ec3beb5afbb8f026d3d</output>
     <answer>sampleresponse</answer>
@@ -6616,7 +6616,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>02b796a72984414796f24ad078b820b9</output>
     <answer>sampleresponse</answer>
@@ -6636,7 +6636,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>e8c16716c5e54626834d6d907cc99806</output>
     <answer>sampleresponse</answer>
@@ -6656,7 +6656,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>7b95c23c71394ab0a812e4ff582f9d7f</output>
     <answer>sampleresponse</answer>
@@ -6676,7 +6676,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>fac3673881df49aea12a3592b008fbbd</output>
     <answer>sampleresponse</answer>
@@ -6881,7 +6881,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>96ffd11ed7f64486a9e1810e92dfb98a</output>
     <answer>sampleresponse</answer>
@@ -6901,7 +6901,7 @@ Answer: Herb</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>7a433c5b514b45a4b51da63f0f42662e</output>
     <answer>sampleresponse</answer>
@@ -6923,7 +6923,7 @@ Answer: Nicotine
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>be9531cb1e2e497789af7944e76945ed</output>
     <answer>sampleresponse</answer>
@@ -6944,7 +6944,7 @@ Answer: Sophomore</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>735aa85da915458ab579e22481e10ce1</output>
     <answer>sampleresponse</answer>
@@ -6965,7 +6965,7 @@ Answer:  One</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>26ddb607740e44bfb9a089e8d744b2fd</output>
     <answer>sampleresponse</answer>
@@ -6986,7 +6986,7 @@ Answer:  Album</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>913ef622e1de46bbbd9ae1bccec3eb7b</output>
     <answer>sampleresponse</answer>
@@ -7007,7 +7007,7 @@ Answer: Enthusiastic</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>fa07113701384ec1beab9eaa724b405a</output>
     <answer>sampleresponse</answer>
@@ -7028,7 +7028,7 @@ Answer:  Wood or Tree</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>35ce7af49f0e46efa6de82717e67ff8e</output>
     <answer>sampleresponse</answer>
@@ -7050,7 +7050,7 @@ Answer: The 21st century
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>588638b0221a4b229a5e9704b810ef1c</output>
     <answer>sampleresponse</answer>
@@ -7072,7 +7072,7 @@ Answer: Alarm Clock
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>1131e516191648f4a670e543d7c649fb</output>
     <answer>sampleresponse</answer>
@@ -7093,7 +7093,7 @@ Answer: Workers</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>918b849852b94c54bbb725851a0b1cfe</output>
     <answer>sampleresponse</answer>
@@ -7114,7 +7114,7 @@ Answer: Knee</transcript>
   <template>
     <description></description>
     <title></title>
-    <delay>00</delay>
+    <delay>02</delay>
     <recordingTime>10</recordingTime>
     <output>4def5c4e9b654b0487bbf8f827c62c40</output>
     <answer>sampleresponse</answer>

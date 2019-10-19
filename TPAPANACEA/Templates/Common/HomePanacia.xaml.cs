@@ -63,7 +63,8 @@ namespace TPA.Templates.Common
             Switcher.Switch(new Practice(), new ModeSetting()
             {
                 QuestionMode = Mode.ANSWER_KEY,
-                TestMode = TestMode.Practice
+                TestMode = TestMode.Practice,
+                SetMode = Mode.ANSWER_KEY
             });
         }
 
@@ -77,7 +78,8 @@ namespace TPA.Templates.Common
             Switcher.Switch(new Practice(), new ModeSetting()
             {
                 QuestionMode = Mode.QUESTION,
-                TestMode = TestMode.Mock
+                TestMode = TestMode.Mock,
+                SetMode = Mode.QUESTION
             });
         }
         
@@ -98,7 +100,8 @@ namespace TPA.Templates.Common
             Switcher.Switch(new Practice(), new ModeSetting()
             {
                 QuestionMode = Mode.ANSWER_KEY,
-                TestMode = TestMode.Mock
+                TestMode = TestMode.Mock,
+                SetMode = Mode.ANSWER_KEY
             });
         }
     }
