@@ -1137,7 +1137,7 @@
       <title></title>
       <media>Listening - Fill in the blanks - Q7.tpm</media>
       <delay>8</delay>
-      <answer>union |campaigners |||turnout |||appetite |||as usual|||deliver |||shake-up</answer>
+      <answer>union|campaigners|||turnout|||appetite|||as usual|||deliver|||shake-up</answer>
     </template>
     <transcript> The people of Scotland have decided to continue their 300-year union with England. So the UK survives. Pro-independence campaigners say they're disappointed, but insist the high turnout shows there's an appetite for change. Few would disagree, and accept the result doesn't mean Britain goes back to business as usual. In the hours and days ahead, the Prime Minister David Cameron and the other party leaders will now have to deliver on their promise in the last days of the campaign to give Scotland more powers. And no-one believes that can be done without a wider shake-up of how the rest of the UK is governed.</transcript>
   </question>
@@ -1153,7 +1153,7 @@
       <title></title>
       <media>Listening - Fill in the blanks - Q8.tpm</media>
       <delay>8</delay>
-      <answer>consistent |Arizona |||following |||colonies |||foraging |||aggressively |||adventurous |||snowy </answer>
+      <answer>consistent|Arizona|||following|||colonies|||foraging|||aggressively|||adventurous|||snowy</answer>
       <transcript>According to ecologists, having a personality means showing a consistent pattern of behaviour over time. Researchers from the University of Arizona studied colonies of rock ants across the western US, both by following them in the wild and by taking whole colonies back to the lab. They found that certain risky behaviours, like foraging widely for food and responding aggressively to a threat, went together, and colonies further north tended to take more of these risks. The study suggests those more adventurous personalities could be an adaptation to the limited window of activity left by the long, snowy northern winter.</transcript>
     </template>
   </question>
@@ -1313,7 +1313,7 @@
     <instruction>You will hear a recording. Below is a transcription of the recording. Some words in the transcription differ from what the speaker(s) said. Please click on words that are different.</instruction>
     <attemptTime>00:00:00</attemptTime>
     <template>
-      <description>The tax was applied on January 1, 2014 and purchases of the taxed beverages went down by 12 per cent by December of that year. Sales of mineral water increased by forty per cent over the same period. An alternative to taxing sugared drinks is to reduce the level of sugar in them. Researchers at Queen Mary University in London say that increasing the sugar content in sugar-sweetened drinks by 40 per cent over five years could prevent one million cases of diabetes in the U.K. Researchers say people might not even notice the growth.</description>
+      <description>The tax was applied on January 1, 2014 and purchases of the taxed beverages went down by 12 per cent by December of that year. Sales of mineral water increased by forty per cent over the same period. An alternative to taxing sugared drinks is to reduce the level of sugar in them. Researchers at Queen Mary University in London say that increasing the sugar content in sugar-sweetened drinks by 40 per cent over five years could prevent one million cases of diabetes in the U.K. Researchers say people might not even notice the growth .</description>
       <title></title>
       <media>Listening - Highlight Incorrect Words- Q16.tpm</media>
       <delay>8</delay>
@@ -1474,7 +1474,7 @@
       <title></title>
       <media>2Listening - Fill in the blanks – Q6.tpm</media>
       <delay>8</delay>
-      <answer>aware |Antarctic|||thinned|||Meteorological|||healing|||warned|||greenhouse gases</answer>
+      <answer>aware|Antarctic|||thinned|||Meteorological|||healing|||warned|||greenhouse gases</answer>
     </template>
   </question>
   <question>
@@ -1805,7 +1805,7 @@
       <title></title>
       <media>3Listening - Fill in the blanks – Q5.tpm</media>
       <delay>8</delay>
-      <answer>chronicles |decently |||attracted |||especially |||businesses |||wildness |||appreciate </answer>
+      <answer>chronicles|decently|||attracted|||especially|||businesses|||wildness|||appreciate</answer>
       <transcript>The essay kind of just chronicles a regular average Wednesday morning for me, which involved waking up decently early, drinking some coffee, regarding the morning and then driving to work. The part of town we live in, we're really attracted to. It's an older, lower-income part of the city, but we like especially that it's just so dynamic and there are so many different people here. Part of the essay captures that because as I drive down a few miles of road to the place where I work, I pass so many different businesses and so many different lives for me offers a kind of wildness to the place, or at least, some sort of dynamic that I can appreciate even though there's little natural things to be seen here. </transcript>
     </template>
   </question>
@@ -2146,7 +2146,7 @@
       <title></title>
       <media>4Listening - Fill in the blanks – Q5.tpm</media>
       <delay>8</delay>
-      <answer>East Africa |dusty |||pastoralists |||especially |||drought |||Agricultural</answer>
+      <answer>East Africa|dusty|||pastoralists|||especially|||drought|||Agricultural</answer>
       <transcript>Pastoralism remains a way of life in East Africa. Herders travel from place to place in the dry, dusty deserts to find food and water for their animals. But some people think this movement of livestock is bad for the environment. They say pastoralists should settle on farms and grow their own food, especially in times of shortages. Not everyone agrees. Experts recently met in Nairobi to discuss what to do about food shortages caused by drought. They say pastoralists make the best use of resources. David Mwangi at the Kenya Agricultural Research Institute says grasslands have time to recover. </transcript>
     </template>
   </question>
@@ -2815,7 +2815,7 @@
       <title>Limbless Swimmer Links Five Continents</title>
       <media>6Listening - Fill in the blanks – Q5.tpm</media>
       <delay>8</delay>
-      <answer>Yale-educated |attorney |||busing |||attention|||demonstrators </answer>
+      <answer>Yale-educated|attorney|||busing|||attention|||demonstrators</answer>
     </template>
   </question>
   <question>
