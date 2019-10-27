@@ -26,9 +26,10 @@ public partial class Activate : System.Web.UI.Page
             return "v1"; //default version of the application
         else
         {
-           var appName = Request.QueryString["app"];
             //decrypt appname
-           return TPALM.CommonUtility.DecryptString(appName).Substring(appName.LastIndexOf("V")+1).ToLower();
+           var appName = TPALM.CommonUtility.DecryptString(Request.QueryString["app"]);
+
+           return "v"+appName.Substring(appName.LastIndexOf("V")+1).ToLower();
         }
     }
 
