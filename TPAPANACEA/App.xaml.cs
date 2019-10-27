@@ -17,7 +17,7 @@ namespace TPA
         FrmActivate activateApplicationForm = null;
         public App()
         {
-            string appName = "TPAV2"; //PTE Panacea App evaluation name alias is : TPAV2
+            string appName = "TPAV3"; //PTE Panacea App evaluation name alias is : TPAV2
 
             // Add the event handler for handling UI thread exceptions to the event.
             this.DispatcherUnhandledException += new System.Windows.Threading.DispatcherUnhandledExceptionEventHandler(App_DispatcherUnhandledException);
