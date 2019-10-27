@@ -26,6 +26,7 @@ namespace TPA.Templates.Common
     {
         Mode CurrentMode;
         TestMode CurrentTestMode;
+        Mode SetMode;
         int PageIndex = 0;
 
         private SetAttemptTime ResolveSetAttemptTime(string attemptTimeExpression)
@@ -90,7 +91,7 @@ namespace TPA.Templates.Common
             Previous
         }
 
-        private void LoadSets(NextPrevious load,int pageSize=5)
+        private void LoadSets(NextPrevious load,int pageSize=10)
         {
             DataSet dsSets;
             string tableKey = string.Empty;
@@ -198,6 +199,7 @@ namespace TPA.Templates.Common
             TPA.Entities.Question question = new Entities.Question();
             question.PracticeSetId = set.Id;
             question.QuestionMode = CurrentMode;
+            question.SetMode = SetMode;
             question.PracticeSetAttemptTime = set.SetAttemptTime;
 
             if (CurrentTestMode == TestMode.Mock)
@@ -209,7 +211,8 @@ namespace TPA.Templates.Common
                 //check if user saved something as save and exit
 
                 //check save and exit state
-                var testModeStateForMockTest = TPACache.GetItem("MOCK" + set.Id) as CurrentState;
+                var testModeStateForMockTest = TPACache.GetItem(
+                    "MOCK" + set.Id) as CurrentState;
                 if (testModeStateForMockTest != null)
                 {
                     //we need to check the question type because now Mock mode runs all modules
@@ -250,15 +253,32 @@ namespace TPA.Templates.Common
 
             if (CurrentMode != Mode.ANSWER_KEY)
             {
-                if (AnswerManager.DoAnswersExist(CommonUtilities.GetFileTypeByQuestionType(question.QuestionType), question.PracticeSetId))
-                {
-                    WinForms.DialogResult result = WinForms.MessageBox.Show("Do you want to restart your test, or continue with the current set?",
-                          "Restart test?", WinForms.MessageBoxButtons.YesNo, WinForms.MessageBoxIcon.Question);
-
-                    if (result == WinForms.DialogResult.Yes)
+                if (CurrentTestMode == TestMode.Mock) {
+                    if (AnswerManager.DoAnswersExist(question.PracticeSetId))
                     {
-                        AnswerManager.DeleteAllUserAnswers(CommonUtilities.GetFileTypeByQuestionType(question.QuestionType),
-                            question.PracticeSetId);
+                        WinForms.DialogResult result = WinForms.MessageBox.Show("Do you want to restart your mock, or continue with the current mock?",
+                              "Restart test?", WinForms.MessageBoxButtons.YesNo, WinForms.MessageBoxIcon.Question);
+
+                        if (result == WinForms.DialogResult.Yes)
+                        {
+                            AnswerManager.DeleteAllUserAnswers(
+                                question.PracticeSetId);
+                        }
+                    }
+                    
+                }
+                else if (CurrentTestMode == TestMode.Practice)
+                {
+                    if (AnswerManager.DoAnswersExist(CommonUtilities.GetFileTypeByQuestionType(question.QuestionType), question.PracticeSetId))
+                    {
+                        WinForms.DialogResult result = WinForms.MessageBox.Show("Do you want to restart your test, or continue with the current set?",
+                              "Restart test?", WinForms.MessageBoxButtons.YesNo, WinForms.MessageBoxIcon.Question);
+
+                        if (result == WinForms.DialogResult.Yes)
+                        {
+                            AnswerManager.DeleteAllUserAnswers(CommonUtilities.GetFileTypeByQuestionType(question.QuestionType),
+                                question.PracticeSetId);
+                        }
                     }
                 }
             }
@@ -271,6 +291,7 @@ namespace TPA.Templates.Common
             var modeSetting = (ModeSetting)state;
             CurrentMode = modeSetting.QuestionMode;
             CurrentTestMode = modeSetting.TestMode;
+            SetMode = modeSetting.SetMode;
 
             if (CurrentTestMode == TestMode.Practice)
             {

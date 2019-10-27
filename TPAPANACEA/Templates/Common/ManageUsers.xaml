@@ -5,36 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TPAPanacea.Templates.Common"
         mc:Ignorable="d"
-        Title="Manage users" Height="334.244" Width="804.867" WindowStartupLocation="CenterScreen"  ShowInTaskbar="False" WindowStyle="None" Topmost="False" Background="#20B2AA" AllowsTransparency="False" ResizeMode="NoResize">
+        Title="Manage users" Height="454" Width="961" WindowStartupLocation="CenterScreen"  ShowInTaskbar="False" WindowStyle="None" Topmost="False" Background="#20B2AA" AllowsTransparency="False" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition />
+            <ColumnDefinition Width="370*" />
+            <ColumnDefinition Width="569*" />
         </Grid.ColumnDefinitions>
-        <Button FontSize="14" FontWeight="Bold" Background="Teal" Foreground="White" x:Name="btnNew" Content="New" HorizontalAlignment="Left" Margin="34.6,288,0,0" VerticalAlignment="Top" Width="87" Height="36" Click="btnNew_Click" Grid.Column="1" />
-        <Button FontSize="14" FontWeight="Bold" Background="Teal" Foreground="White" x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="218.6,288,0,0" VerticalAlignment="Top" Width="87" Height="36" Click="btnSave_Click" Grid.Column="1" />
-        <Button FontSize="14" FontWeight="Bold" Background="Teal" Foreground="White" x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="310.6,288,0,0" VerticalAlignment="Top" Width="82" Height="36" Click="btnCancel_Click" Grid.Column="1" />
-        <Rectangle Grid.ColumnSpan="2" Height="47" HorizontalAlignment="Stretch" Name="rctHead" Stroke="#008080" VerticalAlignment="Top" Fill="Teal" Margin="0,0,-0.4,0"   />
-        <Label Content="Manage users" FontSize="14" FontWeight="Bold" Foreground="White" Height="28" HorizontalAlignment="Center" Margin="247,10,237.6,0" Name="lblHead" VerticalAlignment="Top" Width="101" Grid.ColumnSpan="2" />
-        <ListBox FontSize="14" FontWeight="Bold" x:Name="lbxUsers" HorizontalAlignment="Left" Height="287" Margin="0,47,0,0" VerticalAlignment="Top" Width="370" Grid.ColumnSpan="2" SelectionChanged="lbxUsers_SelectionChanged"/>
-        <Label FontSize="14" FontWeight="Bold" x:Name="lblUsername" Content="Username" HorizontalAlignment="Right" Margin="0,70,325.8,0" VerticalAlignment="Top" Height="30" Width="77" Grid.ColumnSpan="2" />
-        <TextBox FontWeight="Bold" IsReadOnly="True" x:Name="txtUsername" FontSize="14" MaxLength="15" HorizontalAlignment="Left" Height="34" Margin="80.6,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="312" Grid.Column="1" RenderTransformOrigin="0.5,0.5" >
-            <TextBox.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0.122"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </TextBox.RenderTransform>
+        <Button FontSize="14" FontWeight="Bold" Background="Teal" Foreground="White" x:Name="btnNew" Content="New" HorizontalAlignment="Left" Margin="205,372,0,0" VerticalAlignment="Top" Width="87" Height="36" Click="btnNew_Click" Grid.Column="1" />
+        <Button FontSize="14" FontWeight="Bold" Background="Teal" Foreground="White" x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="389,372,0,0" VerticalAlignment="Top" Width="87" Height="36" Click="btnSave_Click" Grid.Column="1" />
+        <Button FontSize="14" FontWeight="Bold" Background="Teal" Foreground="White" x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="481,372,0,0" VerticalAlignment="Top" Width="82" Height="36" Click="btnCancel_Click" Grid.Column="1" />
+        <Rectangle Grid.ColumnSpan="2" Height="47" HorizontalAlignment="Stretch" Name="rctHead" Stroke="#008080" VerticalAlignment="Top" Fill="Teal" />
+        <Label Content="Manage users" FontSize="14" FontWeight="Bold" Foreground="White" Height="28" HorizontalAlignment="Center" Margin="54,10,414,0" Name="lblHead" VerticalAlignment="Top" Width="101" Grid.Column="1" />
+        <ListBox FontSize="14" FontWeight="Bold" x:Name="lbxUsers" HorizontalAlignment="Left" Margin="0,47,0,0" VerticalAlignment="Stretch" Width="370" SelectionChanged="lbxUsers_SelectionChanged"/>
+        <Label FontSize="14" FontWeight="Bold" x:Name="lblUsername" Content="Username" HorizontalAlignment="Right" Margin="0,54,486,0" VerticalAlignment="Top" Height="30" Width="77" Grid.Column="1" />
+        <TextBox FontWeight="Bold" IsReadOnly="True" x:Name="txtUsername" FontSize="14" MaxLength="15" HorizontalAlignment="Left" Height="34" Margin="94,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="312" Grid.Column="1"  >
+            
         </TextBox>
-        <Label FontSize="14" FontWeight="Bold" x:Name="lblFirstname" Content="Firstname" HorizontalAlignment="Right" Margin="0,109,325.8,0" VerticalAlignment="Top" Height="30" Width="77" Grid.ColumnSpan="2" />
-        <TextBox FontWeight="Bold" x:Name="txtFirstname" FontSize="14" MaxLength="15" Height="34" Margin="81.6,104,9.8,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1" />
-        <Label FontSize="14" FontWeight="Bold" x:Name="lblLastname" Content="Lastname" HorizontalAlignment="Right" Margin="0,148,325.8,0" VerticalAlignment="Top" Height="30" Width="77" Grid.ColumnSpan="2" />
-        <TextBox FontWeight="Bold" x:Name="txtLastname" FontSize="14" MaxLength="15" HorizontalAlignment="Left" Height="34" Margin="81.6,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="311" Grid.Column="1" />
-        <Label FontSize="14" FontWeight="Bold" x:Name="lblPassword" Content="Password" HorizontalAlignment="Right" Margin="0,187,325.8,0" VerticalAlignment="Top" Height="30" Width="77" Grid.ColumnSpan="2" />
-        <TextBox FontWeight="Bold" x:Name="txtPassword" FontSize="14" MaxLength="15" HorizontalAlignment="Left" Height="34" Margin="81.6,182,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="311" Grid.Column="1" />
-        <Button FontSize="14" FontWeight="Bold" Background="Teal" Foreground="White" x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="126.6,288,0,0" VerticalAlignment="Top" Width="87" Height="36" Click="btnDelete_Click" Grid.Column="1" />
-
+        <Label FontSize="14" FontWeight="Bold" x:Name="lblFirstname" Content="Firstname" HorizontalAlignment="Right" Margin="0,91,486,0" VerticalAlignment="Top" Height="30" Width="77" Grid.Column="1" />
+        <TextBox FontWeight="Bold" x:Name="txtFirstname" FontSize="14" MaxLength="15" HorizontalAlignment="Left" Height="34" Margin="94,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1" Width="311" />
+        <Label FontSize="14" FontWeight="Bold" x:Name="lblLastname" Content="Lastname" HorizontalAlignment="Right" Margin="0,129,486,0" VerticalAlignment="Top" Height="30" Width="77" Grid.Column="1" />
+        <TextBox FontWeight="Bold" x:Name="txtLastname" FontSize="14" MaxLength="15" HorizontalAlignment="Left" Height="34" Margin="94,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="311" Grid.Column="1" />
+        <Label FontSize="14" FontWeight="Bold" x:Name="lblPassword" Content="Password" HorizontalAlignment="Right" Margin="0,168,486,0" VerticalAlignment="Top" Height="30" Width="77" Grid.Column="1" />
+        <TextBox FontWeight="Bold" x:Name="txtPassword" FontSize="14" MaxLength="15" HorizontalAlignment="Left" Height="34" Margin="94,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="311" Grid.Column="1" />
+        <Button FontSize="14" FontWeight="Bold" Background="Teal" Foreground="White" x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="297,372,0,0" VerticalAlignment="Top" Width="87" Height="36" Click="btnDelete_Click" Grid.Column="1" />
+        <Label Content="Contact" FontSize="14" FontWeight="Bold" Height="30" HorizontalAlignment="Right" Margin="0,206,486,0" Name="lblPhone" VerticalAlignment="Top" Width="77" Grid.Column="1" />
+        <TextBox FontSize="14"  FontWeight="Bold" Height="34" HorizontalAlignment="Left" Margin="94,201,0,0" MaxLength="20" Name="txtContact" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Grid.Column="1" />
+        <Label Content="Email" FontSize="14" FontWeight="Bold" Height="30" HorizontalAlignment="Right" Margin="0,244,486,0" Name="lblEmail" VerticalAlignment="Top" Width="77" Grid.Column="1" />
+        <TextBox FontSize="14" FontWeight="Bold" Height="34" HorizontalAlignment="Left" Margin="94,238,0,0" MaxLength="50" Name="txtEmail" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Grid.Column="1" />
+        <Label Content="DOB" FontSize="14" FontWeight="Bold" Height="30" HorizontalAlignment="Right" Margin="0,282,486,0" Name="lblDOB" VerticalAlignment="Top" Width="77" Grid.Column="1" />
+        <Image Grid.Column="1" Height="150" HorizontalAlignment="Left" Margin="413,51,0,0" Name="imgPhoto" Stretch="Fill" VerticalAlignment="Top" Width="147" />
+        <DatePicker FontSize="14" FontWeight="Bold" Grid.Column="1" Height="34" HorizontalAlignment="Left" Margin="94,275,0,0" Name="dpDOB" VerticalAlignment="Top" Width="311" Padding="2" Background="White" />
+        <Button FontSize="14" FontWeight="Bold" Content="Photo" Grid.Column="1" Height="33" HorizontalAlignment="Left" Margin="94,315,0,0" Name="btnImage" VerticalAlignment="Top" Width="312" Background="White" Click="btnImage_Click" />
     </Grid>
 </Window>
