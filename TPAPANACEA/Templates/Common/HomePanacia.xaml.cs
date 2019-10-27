@@ -63,8 +63,7 @@ namespace TPA.Templates.Common
             Switcher.Switch(new Practice(), new ModeSetting()
             {
                 QuestionMode = Mode.ANSWER_KEY,
-                TestMode = TestMode.Practice,
-                SetMode = Mode.ANSWER_KEY
+                TestMode = TestMode.Practice
             });
         }
 
@@ -78,8 +77,7 @@ namespace TPA.Templates.Common
             Switcher.Switch(new Practice(), new ModeSetting()
             {
                 QuestionMode = Mode.QUESTION,
-                TestMode = TestMode.Mock,
-                SetMode = Mode.QUESTION
+                TestMode = TestMode.Mock
             });
         }
         
@@ -90,18 +88,10 @@ namespace TPA.Templates.Common
                 System.Windows.Forms.MessageBox.Show("You are not logged in, please login to continue.");
                 return;
             }
-
-            if (LoginManager.CheckIfTeacherLoggedIn() && !LoginManager.CheckIfStudentToEvaluateSet()) {
-                EvaluatingStudent studentSetDialog = new EvaluatingStudent();
-                if (!studentSetDialog.ShowDialog().Value)
-                    return;
-            }
-
             Switcher.Switch(new Practice(), new ModeSetting()
             {
                 QuestionMode = Mode.ANSWER_KEY,
-                TestMode = TestMode.Mock,
-                SetMode = Mode.ANSWER_KEY
+                TestMode = TestMode.Mock
             });
         }
     }

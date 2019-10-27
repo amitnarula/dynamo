@@ -39,8 +39,7 @@ namespace TPACORE.CoreFramework
          Lastname =x["lastname"].ToString(),
          Password=x["password"].ToString(),
          Email=x["email"].ToString(),
-         ContactNo=x["contactNo"].ToString(),
-         DOB = x["dob"].ToString()})
+         ContactNo=x["contactNo"].ToString()})
          .ToList();
             result.RemoveAll(x => x.UserId == "default" || x.UserId =="institute");
             return result;
@@ -59,7 +58,6 @@ namespace TPACORE.CoreFramework
                 dRowUser["lastname"] = user.Lastname;
                 dRowUser["email"] = user.Email;
                 dRowUser["contactNo"] = user.ContactNo;
-                dRowUser["dob"] = user.DOB;
                 dtUser.Rows.Add(dRowUser);
                 dtUser.DataSet.WriteXml(baseUserDataFile);
 
@@ -79,9 +77,6 @@ namespace TPACORE.CoreFramework
             dRow["firstname"] = user.Firstname;
             dRow["lastname"] = user.Lastname;
             dRow["password"] = user.Password;
-            dRow["email"] = user.Email;
-            dRow["contactNo"] = user.ContactNo;
-            dRow["dob"] = user.DOB;
             dtUser.DataSet.WriteXml(baseUserDataFile);
             return "updated";
 
@@ -98,8 +93,7 @@ namespace TPACORE.CoreFramework
                 Lastname = x["lastname"].ToString(),
                 Password = x["password"].ToString(),
                 Email = x["email"].ToString(),
-                ContactNo = x["contactNo"].ToString(),
-                DOB = x["dob"].ToString()
+                ContactNo = x["contactNo"].ToString()
             }).SingleOrDefault();
             
         }
@@ -116,8 +110,7 @@ namespace TPACORE.CoreFramework
                 Lastname = x["lastname"].ToString(),
                 Password = x["password"].ToString(),
                 Email = x["email"].ToString(),
-                ContactNo = x["contactNo"].ToString(),
-                DOB = x["dob"].ToString()
+                ContactNo = x["contactNo"].ToString()
             }).SingleOrDefault();
         }
 
@@ -191,6 +184,5 @@ namespace TPACORE.CoreFramework
         public string Lastname { get; set; }
         public string Email { get; set; }
         public string ContactNo { get; set; }
-        public string DOB { get; set; }
     }
 }

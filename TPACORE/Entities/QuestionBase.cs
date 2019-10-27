@@ -18,7 +18,6 @@ namespace TPA.Entities
         public int TotalQuestionsCount { get; set; }
         public string[] CorrectAnswers { get; set; }
         public Mode Mode { get; set; }
-        public Mode SetMode { get; set; }
         public TestMode TestMode { get; set; }
         public string[] UserAnswers { get; set; }
         public TimeSpan AttemptTime { get; set; }

@@ -140,33 +140,6 @@ namespace TPA.CoreFramework
             return doAnswersExists;
         }
 
-        public static bool DoAnswersExist(string setId) {
-            string[] fileTypes = new string[] {"QUESTION_READING",
-            "QUESTION_WRITING",
-            "QUESTION_LISTENING",
-            "QUESTION_SPEAKING"};
-            foreach (var item in fileTypes)
-            {
-                if (DoAnswersExist((FileReader.FileType)Enum.Parse(typeof(FileReader.FileType), item), setId))
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        public static void DeleteAllUserAnswers(string setId) {
-            string[] fileTypes = new string[] {"QUESTION_READING",
-            "QUESTION_WRITING",
-            "QUESTION_LISTENING",
-            "QUESTION_SPEAKING"};
-            foreach (var item in fileTypes)
-            {
-                DeleteAllUserAnswers((FileReader.FileType)Enum.Parse(typeof(FileReader.FileType), item), setId);
-                
-            }
-        }
-
         public static void DeleteAllUserAnswers(FileReader.FileType fileType,string practiceSetId)
         { 
             DataSet dsQuestions = FileReader.ReadFile(fileType);

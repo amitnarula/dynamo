@@ -24,7 +24,7 @@
         </Style>
     </FlowDocument.Resources>
     <xrd:ReportProperties>        
-        <xrd:ReportProperties.ReportTitle>Consolidated analysis module wise</xrd:ReportProperties.ReportTitle>
+        <xrd:ReportProperties.ReportTitle>Time analysis module wise</xrd:ReportProperties.ReportTitle>
     </xrd:ReportProperties>
     <xrd:SectionReportHeader PageHeaderHeight="2" Padding="10,10,10,0" FontSize="12">
         <Table CellSpacing="0">
@@ -35,9 +35,9 @@
             <TableRowGroup>
                 <TableRow>
                     <TableCell>
-                        <Paragraph FontSize="20" FontWeight="Bold">
+                        <Paragraph FontSize="24" FontWeight="Bold">
                             <!--<xrd:InlineContextValue PropertyName="ReportTitle" /> No.-->
-                            Consolidated analsysis : <xrd:InlineDocumentValue PropertyName="ReportTitle" />
+                            <xrd:InlineDocumentValue PropertyName="ReportTitle" />
                         </Paragraph>
                     </TableCell>
                     <TableCell>
@@ -53,7 +53,7 @@
     <Section Padding="80,20,40,10" FontSize="12" BreakPageBefore="True">
         
         <Paragraph FontSize="18" FontWeight="Bold">
-            <!--<xrd:InlineContextValue PropertyName="ReportTitle" />--> 
+            <xrd:InlineContextValue PropertyName="ReportTitle" /> 
         </Paragraph>
         <!--<Paragraph>Time analysis report gives an insight of time spent on each question.</Paragraph>-->
 

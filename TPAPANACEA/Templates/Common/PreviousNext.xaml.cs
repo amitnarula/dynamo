@@ -31,8 +31,7 @@ namespace TPA.Templates.Common
         private bool IsPreviousQuestionSelected { get; set; }
         private int CurrentQuestionIndex { get; set; }
         private int TotalQuestionsCount { get; set; }
-        private Mode QuestionMode { get; set; }
-        private Mode SetMode { get; set; }
+        private Mode CurrentMode { get; set; }
         private TestMode CurrentTestMode { get; set; }
 
         private int TimeSpent { get; set; }
@@ -141,8 +140,7 @@ namespace TPA.Templates.Common
             Entities.Question questionState = new Entities.Question();
             questionState.PracticeSetId = this.CurrentPracticeSetId;
             questionState.QuestionType = this.CurrentQuestionType;
-            questionState.QuestionMode = this.QuestionMode;
-            questionState.SetMode = this.SetMode;
+            questionState.QuestionMode = this.CurrentMode;
             questionState.TestMode = this.CurrentTestMode;
             timer.Stop();
             screenTimer.Stop();
@@ -187,10 +185,9 @@ namespace TPA.Templates.Common
                             Switcher.Switch(new QuestionSwitcher(), new Question()
                             {
                                 PracticeSetId = this.CurrentPracticeSetId,
-                                QuestionMode = QuestionMode,
+                                QuestionMode = CurrentMode,
                                 QuestionType = nextQuestionType,
-                                TestMode = CurrentTestMode,
-                                SetMode = SetMode
+                                TestMode = CurrentTestMode
                             });
                         }
                         else //practice mode go back to home
@@ -246,7 +243,7 @@ namespace TPA.Templates.Common
 
         private void LogUserScreenSpentTime()
         {
-            if (LoginManager.CheckIfStudentLoggedIn() && this.QuestionMode == Mode.QUESTION && (this.CurrentTestMode == TestMode.Mock || this.CurrentTestMode == TestMode.Practice))
+            if (LoginManager.CheckIfStudentLoggedIn() && this.CurrentMode == Mode.QUESTION && (this.CurrentTestMode == TestMode.Mock || this.CurrentTestMode == TestMode.Practice))
             {
                 //log time spent by user here
 
@@ -312,8 +309,8 @@ namespace TPA.Templates.Common
                 //multi parameter question
                 DataSet dsEvalParams = FileReader.ReadFile(FileReader.FileType.EVALUATION_PARAMETER);
                 var questionTemplate = (QuestionTemplates)Enum.Parse(typeof(QuestionTemplates), QuestionContext.QuestionTemplate, true);
-                List<ParameterizedScore> lstParameterizedScore = new List<ParameterizedScore>();
-                maxPoints = EvaluationManager.PointsByType(dsEvalParams, questionTemplate, ref lstParameterizedScore,0, "");
+
+                maxPoints = EvaluationManager.PointsByType(dsEvalParams, questionTemplate, "");
             }
             else
             {
@@ -383,8 +380,7 @@ namespace TPA.Templates.Common
                 this.TotalQuestionsCount = QuestionContext.TotalQuestionsCount;
                 this.CurrentQuestionType = QuestionContext.CurrentQuestionType;
                 this.CurrentPracticeSetId = QuestionContext.CurrentPracticeSetId;
-                this.QuestionMode = QuestionContext.Mode;
-                this.SetMode = QuestionContext.SetMode;
+                this.CurrentMode = QuestionContext.Mode;
                 this.CurrentTestMode = QuestionContext.TestMode;
                 this.AttemptTime = QuestionContext.AttemptTime;
                 this.AttemptTimeType = QuestionContext.AttemptTimeType;
@@ -393,7 +389,7 @@ namespace TPA.Templates.Common
 
                 btnYourResponse.Visibility = Visibility.Hidden;
                 btnEvaluate.Visibility = Visibility.Hidden;
-                if (CurrentTestMode == TestMode.Mock && this.QuestionMode == Mode.QUESTION)
+                if (CurrentTestMode == TestMode.Mock && this.CurrentMode == Mode.QUESTION)
                 {
                     btnSaveAndExit.Margin = btnPrevious.Margin;
                     btnPrevious.Visibility = Visibility.Collapsed; //previous button visiblity and margin fix for save and exit button
@@ -409,11 +405,11 @@ namespace TPA.Templates.Common
                     btnNext.Visibility = Visibility.Hidden;
                     btnSubmit.Visibility = Visibility.Visible;
 
-                    if (this.QuestionMode == Mode.ANSWER_KEY || this.QuestionMode == Mode.TIME_OUT)
+                    if (this.CurrentMode == Mode.ANSWER_KEY || this.CurrentMode == Mode.TIME_OUT)
                     {
                         btnSubmit.IsEnabled = false; //Submit should be disabled when its an answer key or timeout mode
                     }
-                    if(CurrentTestMode == TestMode.Mock && QuestionMode == Mode.ANSWER_KEY)
+                    if(CurrentTestMode == TestMode.Mock && CurrentMode == Mode.ANSWER_KEY)
                     {
                         btnSubmit.IsEnabled = true; // submit button enabled when test is running in mock mode, because next module load is required.
                     }
@@ -428,7 +424,7 @@ namespace TPA.Templates.Common
                 //else
                 //    btnEvaluate.Visibility = Visibility.Hidden;
 
-                if (this.QuestionMode == Mode.ANSWER_KEY)
+                if (this.CurrentMode == Mode.ANSWER_KEY)
                 {
                     btnSaveAndExit.IsEnabled = false; //Save&Exit should be disabled
 
@@ -448,18 +444,18 @@ namespace TPA.Templates.Common
 
                 }
 
-                if (this.QuestionMode == Mode.TIME_OUT)
+                if (this.CurrentMode == Mode.TIME_OUT)
                 {
                     btnYourResponse.Visibility = Visibility.Visible; // if timeout still user answer and correct answer should be shown
                     if (CheckIfEvaluatorLoggedIn())
                         btnEvaluate.Visibility = Visibility.Visible; // if timeout , still it should be evaluated as per teacher logged in status
                     IsTimeOut = true; // set is time out true if question mode is already timeout mode
                 }
-                
-                
+                    
+
                 lblTimer.Content = "Time left : " + AttemptTime.ToString();
 
-                if (this.AttemptTime != TimeSpan.Zero && QuestionMode == Mode.QUESTION) //Some value for timestamp exists
+                if (this.AttemptTime != TimeSpan.Zero && CurrentMode == Mode.QUESTION) //Some value for timestamp exists
                 {
                     delayTimer.Start();
                 }
@@ -470,26 +466,6 @@ namespace TPA.Templates.Common
 
                 lblItemCount.Content = string.Format("Question {0} of {1}", CurrentQuestionIndex + 1, TotalQuestionsCount);
 
-
-                //TODO : refactor in a better way with this.setMode / patch work
-                if (this.QuestionMode == Mode.TIME_OUT && this.CurrentTestMode ==TestMode.Mock) {
-
-                    if (this.SetMode == Mode.QUESTION) {
-                        btnSaveAndExit.Margin = btnPrevious.Margin;
-                        btnPrevious.Visibility = Visibility.Collapsed;
-                        btnYourResponse.Visibility = Visibility.Collapsed;
-                        btnSubmit.IsEnabled = true;
-
-
-                    }
-                    else if (this.SetMode == Mode.ANSWER_KEY) {
-                        btnYourResponse.Visibility = Visibility.Visible;
-                        btnPrevious.Visibility = Visibility.Visible;
-                        if (this.CheckIfEvaluatorLoggedIn()) {
-                            btnEvaluate.Visibility = Visibility.Visible;
-                        }
-                    }
-                }
 
                 //TIMEOUT CASES with obtained and maximum points
 
@@ -508,17 +484,6 @@ namespace TPA.Templates.Common
             lblPoints.Visibility = Visibility.Visible;
             
             var result = EvaluationManager.GetResult(QuestionContext);
-
-            //TODO : refactor in a better way with this.setMode / patch work
-            if (result == null && IsTimeOut) {
-                if (this.SetMode == Mode.QUESTION) {
-                    lblPoints.Content = "Timeout";
-                }
-                else if (this.SetMode == Mode.ANSWER_KEY) {
-                    lblPoints.Content = "Not evaluated (Timeout)";
-                }
-                return;
-            }
 
             int maximumPoints = QuestionContext.CorrectAnswers.Count();
             //Write from dictation, listen and dictate has different point calculation mechanism

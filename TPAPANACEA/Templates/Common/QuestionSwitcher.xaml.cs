@@ -29,7 +29,7 @@ namespace TPA.Templates.Common
     public partial class QuestionSwitcher : UserControl,ISwitchable
     {
 
-        private void ProcessQuestion(DataSet dsQuestions, string practiceSetId, bool isPreviousQuestionSelected, bool isNextQuestionSelected, Mode questionMode, QuestionType questionType, TestMode testMode, Mode setMode)
+        private void ProcessQuestion(DataSet dsQuestions, string practiceSetId , bool isPreviousQuestionSelected, bool isNextQuestionSelected,Mode questionMode, QuestionType questionType,TestMode testMode)
         {
             object currentQuestion = TPACache.GetItem("currentQuestionIndex");
             CurrentState currentState = TPACache.GetItem(practiceSetId+Convert.ToString(questionType)) as CurrentState;
@@ -62,9 +62,6 @@ namespace TPA.Templates.Common
                 if (testModeStateForMockTest != null)
                 {
                     currentQuestionIndex = testModeStateForMockTest.QuestionIndex;
-                    //now remove the state as it has already been consumed to navigate to required question
-                    //so no longer needed
-                    TPACache.RemoveItem("MOCK" + practiceSetId);
                 }
             }
 
@@ -155,7 +152,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -196,7 +192,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -238,7 +233,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -279,7 +273,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -329,7 +322,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -377,7 +369,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -405,7 +396,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -434,7 +424,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -478,7 +467,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -523,7 +511,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.MaxWordCount = Convert.ToInt32(questionTemplateRow["maxWordCount"]);
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
@@ -552,7 +539,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -580,7 +566,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -608,7 +593,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -639,7 +623,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -670,7 +653,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -709,7 +691,6 @@ namespace TPA.Templates.Common
                 question.CorrectAnswers = correctAnswers;
                 question.Mode = questionMode;
                 question.TestMode = testMode;
-                question.SetMode = setMode;
                 question.UserAnswers = userAnswers;
                 question.Instruction = questionInstruction;
                 question.AttemptTime = attemptTime;
@@ -738,28 +719,28 @@ namespace TPA.Templates.Common
 
             }
         }
-        private void LoadReadingQuestions(string practiceSetId, bool isPreviousQuestionSelected, bool isNextQuestionSelected, Mode questionMode, TestMode testMode, Mode setMode)
+        private void LoadReadingQuestions(string practiceSetId, bool isPreviousQuestionSelected, bool isNextQuestionSelected,Mode questionMode, TestMode testMode)
         {
             DataSet dsReadingQuestions = FileReader.ReadFile(FileReader.FileType.QUESTION_READING);
-            ProcessQuestion(dsReadingQuestions, practiceSetId, isPreviousQuestionSelected, isNextQuestionSelected,questionMode,QuestionType.READING,testMode,  setMode);
+            ProcessQuestion(dsReadingQuestions, practiceSetId, isPreviousQuestionSelected, isNextQuestionSelected,questionMode,QuestionType.READING,testMode);
         }
 
-        private void LoadWritingQuestions(string practiceSetId, bool isPreviousQuestionSelected, bool isNextQuestionSelected, Mode questionMode, TestMode testMode, Mode setMode)
+        private void LoadWritingQuestions(string practiceSetId, bool isPreviousQuestionSelected, bool isNextQuestionSelected, Mode questionMode, TestMode testMode)
         {
             DataSet dsWritingQuestions = FileReader.ReadFile(FileReader.FileType.QUESTION_WRITING);
-            ProcessQuestion(dsWritingQuestions, practiceSetId, isPreviousQuestionSelected, isNextQuestionSelected,questionMode,QuestionType.WRITING, testMode,  setMode);
+            ProcessQuestion(dsWritingQuestions, practiceSetId, isPreviousQuestionSelected, isNextQuestionSelected,questionMode,QuestionType.WRITING, testMode);
         }
 
-        private void LoadListeningQuestions(string practiceSetId, bool isPreviousQuestionSelected, bool isNextQuestionSelected, Mode questionMode, TestMode testMode, Mode setMode)
+        private void LoadListeningQuestions(string practiceSetId, bool isPreviousQuestionSelected, bool isNextQuestionSelected, Mode questionMode, TestMode testMode)
         {
             DataSet dsWritingQuestions = FileReader.ReadFile(FileReader.FileType.QUESTION_LISTENING);
-            ProcessQuestion(dsWritingQuestions, practiceSetId, isPreviousQuestionSelected, isNextQuestionSelected,questionMode,QuestionType.LISTENING, testMode,setMode);
+            ProcessQuestion(dsWritingQuestions, practiceSetId, isPreviousQuestionSelected, isNextQuestionSelected,questionMode,QuestionType.LISTENING, testMode);
         }
 
-        private void LoadSpeakingQuestions(string practiceSetId, bool isPreviousQuestionSelected, bool isNextQuestionSelected, Mode questionMode, TestMode testMode, Mode setMode)
+        private void LoadSpeakingQuestions(string practiceSetId, bool isPreviousQuestionSelected, bool isNextQuestionSelected, Mode questionMode, TestMode testMode)
         {
             DataSet dsWritingQuestions = FileReader.ReadFile(FileReader.FileType.QUESTION_SPEAKING);
-            ProcessQuestion(dsWritingQuestions, practiceSetId, isPreviousQuestionSelected, isNextQuestionSelected, questionMode, QuestionType.SPEAKING, testMode,setMode);
+            ProcessQuestion(dsWritingQuestions, practiceSetId, isPreviousQuestionSelected, isNextQuestionSelected, questionMode, QuestionType.SPEAKING, testMode);
         }
 
         private void LoadQuestion(object state)
@@ -768,16 +749,16 @@ namespace TPA.Templates.Common
             switch (question.QuestionType)
             {
                 case QuestionType.READING:
-                    LoadReadingQuestions(question.PracticeSetId, question.IsPreviousQuestionSelected, question.IsNextQuestionSelected,question.QuestionMode, question.TestMode,question.SetMode);
+                    LoadReadingQuestions(question.PracticeSetId, question.IsPreviousQuestionSelected, question.IsNextQuestionSelected,question.QuestionMode, question.TestMode);
                     break;
                 case QuestionType.WRITING:
-                    LoadWritingQuestions(question.PracticeSetId, question.IsPreviousQuestionSelected, question.IsNextQuestionSelected, question.QuestionMode, question.TestMode,question.SetMode);
+                    LoadWritingQuestions(question.PracticeSetId, question.IsPreviousQuestionSelected, question.IsNextQuestionSelected, question.QuestionMode, question.TestMode);
                     break;
                 case QuestionType.SPEAKING:
-                    LoadSpeakingQuestions(question.PracticeSetId, question.IsPreviousQuestionSelected, question.IsNextQuestionSelected, question.QuestionMode, question.TestMode,question.SetMode);
+                    LoadSpeakingQuestions(question.PracticeSetId, question.IsPreviousQuestionSelected, question.IsNextQuestionSelected, question.QuestionMode, question.TestMode);
                     break;
                 case QuestionType.LISTENING:
-                    LoadListeningQuestions(question.PracticeSetId, question.IsPreviousQuestionSelected, question.IsNextQuestionSelected, question.QuestionMode, question.TestMode,question.SetMode);
+                    LoadListeningQuestions(question.PracticeSetId, question.IsPreviousQuestionSelected, question.IsNextQuestionSelected, question.QuestionMode, question.TestMode);
                     break;
                 default:
                     break;

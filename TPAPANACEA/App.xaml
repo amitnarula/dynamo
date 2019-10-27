@@ -7,6 +7,6 @@
         <!--<sys:String x:Key="COMPANY_TITLE">Path Abroad Solutions</sys:String>
         <sys:String x:Key="COPYRIGHT">© Copyright Path Abroad Solutions. All rights reserved.</sys:String>-->
         <sys:String x:Key="COMPANY_TITLE">PTE Panacea</sys:String>
-        <sys:String x:Key="COPYRIGHT">2019</sys:String>
+        <sys:String x:Key="COPYRIGHT">2018</sys:String>
     </Application.Resources>
 </Application>

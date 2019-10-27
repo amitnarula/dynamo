@@ -9,7 +9,6 @@ using System.Windows.Forms;
 using System.IO;
 using System.Reflection;
 using System.Xml.Linq;
-using System.Text.RegularExpressions;
 
 namespace TPAMED
 {
@@ -62,8 +61,7 @@ namespace TPAMED
 
                 //File.Create("output\\" + fileName + ".tpa");
 
-                // File.WriteAllText("output\\" + fileName.Replace("–", "-") + outputExtension, output);
-                File.WriteAllText("output\\" + Regex.Replace(fileName,"[\u001e|\u2011|\u2013|\u2014]","-")  + outputExtension, output);
+                File.WriteAllText("output\\" + fileName.Replace("–", "-") + outputExtension, output);
                 progressBar.Value += 1;
                 count++;
                 worker.ReportProgress(count);
@@ -87,8 +85,7 @@ namespace TPAMED
 
                 //File.Create("output\\" + fileName + ".tpa");
 
-                File.WriteAllText("output\\spk\\" + Regex.Replace(fileName, "[\u001e|\u2011|\u2013|\u2014]", "-") + outputExtension, output);
-                // File.WriteAllText("output\\spk\\" + fileName.Replace("–", "-") + outputExtension, output);
+                File.WriteAllText("output\\spk\\" + fileName.Replace("–", "-") + outputExtension, output);
                 progressBar.Value += 1;
                 count++;
                 worker.ReportProgress(count);

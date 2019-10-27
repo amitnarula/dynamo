@@ -56,15 +56,10 @@ namespace TPA.CoreFramework
 
         public static string GetTempMediaPath(string mediaFileName)
         {
-            //string mediaPath = System.IO.Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory)
-            // + "//Data//Temp//" + mediaFileName;
-
-            // mediaPath = Path.Combine(mediaPath, CommonUtilities.ResolveTargetUserFolder());
-
             string mediaPath = System.IO.Path.GetDirectoryName(System.AppDomain.CurrentDomain.BaseDirectory)
-             + "//Data//Temp//" + CommonUtilities.ResolveTargetUserFolder();
+             + "//Data//Temp//" + mediaFileName;
 
-            mediaPath = Path.Combine(mediaPath, mediaFileName);
+            mediaPath = Path.Combine(mediaPath, CommonUtilities.ResolveTargetUserFolder());
 
             //var result = Assembly.GetExecutingAssembly().GetManifestResourceInfo("TPA.Data." + mediaFileName);
 

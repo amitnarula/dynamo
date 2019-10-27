@@ -36,8 +36,7 @@ namespace TPA
                             Lastname = "institute",
                             Password = "institute",
                             UserId = "institute",
-                            Username = "institute",
-                            DOB="01/01/1970"
+                            Username = "institute"
                         });
                     }
 

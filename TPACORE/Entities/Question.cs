@@ -12,7 +12,6 @@ namespace TPA.Entities
         public bool IsPreviousQuestionSelected { get; set; }
         public bool IsNextQuestionSelected { get; set; }
         public Mode QuestionMode { get; set; }
-        public Mode SetMode { get; set; }
         public TestMode TestMode { get; set; }
         public SetAttemptTime PracticeSetAttemptTime { get; set; }
     }
@@ -44,7 +43,6 @@ namespace TPA.Entities
     {
         public TestMode TestMode { get; set; }
         public Mode QuestionMode { get; set; }
-        public Mode SetMode { get; set; }
     }
 
     public enum QuestionTemplates
