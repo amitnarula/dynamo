@@ -112,7 +112,8 @@ namespace TPA.Templates.Common
                     attemptTime = TimeSpan.Parse(userAnswer.AttemptTime);
 
                     if (questionMode == Mode.TIME_OUT)
-                        questionMode = Mode.QUESTION; //Reset the mode to question mode
+                        questionMode = setMode; //reset the question mode to acutal mode of the whole set
+                        //questionMode = Mode.QUESTION; //Reset the mode to question mode
                 }
             }
 
@@ -132,7 +133,8 @@ namespace TPA.Templates.Common
                         attemptTime = TimeSpan.Parse(practiceSetAttemptTime.AttemptTime); //Attempt time left
 
                     if (questionMode == Mode.TIME_OUT)
-                        questionMode = Mode.QUESTION; //Reset the mode to question mode
+                        questionMode = setMode;//reset the question mode to acutal mode of the whole set
+                        //questionMode = Mode.QUESTION; //Reset the mode to question mode
                 }
             }
 

@@ -12,7 +12,10 @@
             <RowDefinition Height="193*" />
         </Grid.RowDefinitions>
         <TextBlock Height="Auto" HorizontalAlignment="Stretch" Margin="40,35,40,0" Name="txtBlkInstruction" Text="Instruction goes here" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" TextWrapping="Wrap" />
-        <TextBlock Height="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextWrapping="Wrap" Margin="40,100,100,0" Name="txtBlkText" Text="Content goes here" FontSize="14" Grid.RowSpan="2"/>
+        <ScrollViewer Margin="40,100,40,319" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.RowSpan="2">
+            <TextBlock Height="Auto"  TextWrapping="Wrap" Name="txtBlkText" Text="Content goes here" FontSize="14" />
+        </ScrollViewer>
+        
         <TextBox Height="228" BorderBrush="#FF2179AF"  HorizontalAlignment="Stretch" Margin="40,25,40,85" Name="txtSummary" VerticalAlignment="Bottom" Width="Auto" AcceptsReturn="True" TextWrapping="Wrap" FontSize="14" Grid.Row="2" TextChanged="txtSummary_TextChanged" />
         <my:PreviousNext x:Name="prevNext" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Grid.Row="1" />
         <my:BreadCrumb HorizontalAlignment="Stretch" x:Name="breadCrumb" VerticalAlignment="Top" Width="Auto" Height="Auto" />

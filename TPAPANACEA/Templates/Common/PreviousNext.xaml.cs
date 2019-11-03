@@ -485,6 +485,8 @@ namespace TPA.Templates.Common
                     else if (this.SetMode == Mode.ANSWER_KEY) {
                         btnYourResponse.Visibility = Visibility.Visible;
                         btnPrevious.Visibility = Visibility.Visible;
+                        btnSaveAndExit.IsEnabled = false;
+                        btnSubmit.IsEnabled = true;
                         if (this.CheckIfEvaluatorLoggedIn()) {
                             btnEvaluate.Visibility = Visibility.Visible;
                         }

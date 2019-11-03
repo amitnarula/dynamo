@@ -203,9 +203,16 @@ namespace TPAPanacea.Templates.Common
             var item = (ListBox)sender;
             if (item != null)
             {
+                DateTime dtDOB;
+
                 var user = (User)item.SelectedItem;
                 if (user != null)
                 {
+                    if (!DateTime.TryParse(user.DOB, out dtDOB))
+                    {
+                        dtDOB = DateTime.Today;
+                    }
+
                     this.Mode = ScreenMode.Edit;
                     SelectedUser = user;
                     txtFirstname.Text = user.Firstname;
@@ -214,7 +221,7 @@ namespace TPAPanacea.Templates.Common
                     txtUsername.Text = user.Username;
                     txtContact.Text = user.ContactNo;
                     txtEmail.Text = user.Email;
-                    dpDOB.SelectedDate = Convert.ToDateTime(user.DOB);
+                    dpDOB.SelectedDate = dtDOB;
                     BindPhoto(user.UserId);
                     btnImage.IsEnabled = true;
                 }

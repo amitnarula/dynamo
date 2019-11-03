@@ -791,7 +791,8 @@ namespace TPAPanacea.Templates.Common
                 tableReport2.Rows.Add("Written Discourse", Convert.ToInt16((writtenDiscourse/writtenDiscourseTotal)*90));
                 tableReport2.Rows.Add("Vocabulary", Convert.ToInt16((vocabulary/vocabularyTotal)*90));
                 tableReport2.Rows.Add("Spelling", Convert.ToInt16((spelling/spellingTotal)*90));
-                tableReport2.Rows.Add("Pronunciation", Convert.ToInt16(((pronunciation/pronunciationTotal)*Convert.ToInt16((90/1.25)))));
+                //tableReport2.Rows.Add("Pronunciation", Convert.ToInt16(((pronunciation/pronunciationTotal)*Convert.ToInt16((90/1.25))))); //changed as per request
+                tableReport2.Rows.Add("Pronunciation", Convert.ToInt16((pronunciation / pronunciationTotal) * 90));
                 tableReport2.Rows.Add("Oral Fluency", Convert.ToInt16((oralFluency/oralFluencyTotal)*90));
                 tableReport2.Rows.Add("Grammar", Convert.ToInt16((grammar/grammarTotal)*90));
 
