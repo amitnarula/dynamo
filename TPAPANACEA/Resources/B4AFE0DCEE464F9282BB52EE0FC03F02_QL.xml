@@ -1086,7 +1086,7 @@
     <itemType>LISTENING</itemType>
     <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:00:00</attemptTime>
+    <attemptTime>00:10:00</attemptTime>
     <template>
       <description></description>
       <title></title>
@@ -1103,7 +1103,7 @@
     <itemType>LISTENING</itemType>
     <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:00:00</attemptTime>
+    <attemptTime>00:10:00</attemptTime>
     <template>
       <description></description>
       <title></title>
@@ -1775,7 +1775,7 @@
     <itemType>LISTENING</itemType>
     <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:00:00</attemptTime>
+    <attemptTime>00:10:00</attemptTime>
     <template>
       <description></description>
       <title></title>
@@ -1792,7 +1792,7 @@
     <itemType>LISTENING</itemType>
     <instruction>You will hear a short lecture. Write a summary for fellow student who was not present at the lecture. You should write 50-70 words. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points presented in the lecture.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:00:00</attemptTime>
+    <attemptTime>00:10:00</attemptTime>
     <template>
       <description></description>
       <title></title>

@@ -555,7 +555,7 @@ In the United States, another new form of risk comes from nonbank lenders. New r
     <itemType>WRITING</itemType>
     <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:00:00</attemptTime>
+    <attemptTime>00:10:00</attemptTime>
     <template>
       <description>Here's a term you're going to hear much more often: plug-in vehicle, and the acronym PEV. It's what you and many other people will drive to work in, ten years and more from now. At that time, before you drive off in the morning you will first unplug your car - your plug-in vehicle. Its big on board batteries will have been fully charged overnight, with enough power for you to drive 50-100 kilometers through city traffic. When you arrive at work you'll plug in your car once again, this time into a socket that allows power to flow from your car's batteries to the electricity grid. One of the things you did when you bought your car was to sign a contract with your favorite electricity supplier, allowing them to draw a limited amount of power from your car's batteries should they need to, perhaps because of a blackout, or very high wholesale spot power prices. The price you get for the power the distributor buys from your car would not only be most attractive to you, it would be a good deal for them too, their alternative being very expensive power form peaking stations. If, driving home or for some other reason your batteries looked like running flat, a relatively small, but quiet and efficient engine running on petrol, diesel or compressed natural gas, even biofuel, would automatically cut in, driving a generator that supplied the batteries so you could complete your journey. Concerns over 'peak oil', increasing greenhouse gas emissions, and the likelihood that by the middle of this century there could be five times as many motor vehicles registered world-wide as there are now, mean that the world's almost total dependence on petroleum-based fuels for transport is, in every sense of the word, unsustainable.</description>
       <title></title>
@@ -570,11 +570,11 @@ In the United States, another new form of risk comes from nonbank lenders. New r
     <itemType>WRITING</itemType>
     <instruction>Read the passage below and summarize it using one sentence. Type your response in the box at the bottom of the screen. You have 10 minutes to finish this task. Your response will be judged on the quality of your writing and on how well your response presents the key points in the passage.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:00:00</attemptTime>
+    <attemptTime>00:10:00</attemptTime>
     <template>
       <description>When the Rosetta Stone was discovered in 1799, the carved characters that covered its surface were quickly copied. Printer's ink was applied to the Stone and white paper laid over it. When the paper was removed, it revealed an exact copy of the text—but in reverse. Since then, many copies or "facsimiles" have been made using a variety of materials. Inevitably, the surface of the Stone accumulated many layers of material left over from these activities, despite attempts to remove any residue. Once on display, the grease from many thousands of human hands eager to touch the Stone added to the problem.
 
-An opportunity for investigation and cleaning the Rosetta stone arose when this famous object was made the centerpiece of the Cracking Codes exhibition at The British Museum in 1999. When work commenced to remove all but the original, ancient material, the stone was black with white lettering. As treatment progressed, the different substances uncovered were analyzed. Grease from human handling, a coating of carnauba wax from the early 1800s and printer's ink from 1799 were cleaned away using cotton wool swabs and liniment of soap, white spirit, and acetone and purified water. Finally, white paint in the text, applied in 1981, which had been left in place until now as a protective coating, was removed with cotton swabs and purified water. A small square at the bottom left corner of the face of the Stone was left untouched to show the darkened wax and the white infill.
+	An opportunity for investigation and cleaning the Rosetta stone arose when this famous object was made the centerpiece of the Cracking Codes exhibition at The British Museum in 1999. When work commenced to remove all but the original, ancient material, the stone was black with white lettering. As treatment progressed, the different substances uncovered were analyzed. Grease from human handling, a coating of carnauba wax from the early 1800s and printer's ink from 1799 were cleaned away using cotton wool swabs and liniment of soap, white spirit, and acetone and purified water. Finally, white paint in the text, applied in 1981, which had been left in place until now as a protective coating, was removed with cotton swabs and purified water. A small square at the bottom left corner of the face of the Stone was left untouched to show the darkened wax and the white infill.
       </description>
       <title></title>
       <maxWordCount>100</maxWordCount>
@@ -588,7 +588,7 @@ An opportunity for investigation and cleaning the Rosetta stone arose when this 
     <itemType>WRITING</itemType>
     <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:00:00</attemptTime>
+    <attemptTime>00:20:00</attemptTime>
     <template>
       <description>In some countries around the world, voting is compulsory. Do you agree with the notion of compulsory voting? If voting is compulsory in a democratic society, what are some conclusions we can draw about the nature of democracy?</description>
       <title></title>
@@ -603,7 +603,7 @@ An opportunity for investigation and cleaning the Rosetta stone arose when this 
     <itemType>WRITING</itemType>
     <instruction>You will have 20 minutes to plan, write and revise an essay about the topic below. Your response will be judged on how well you develop a position, organize your ideas, present supporting details and control the elements of standard written English. You should write 200-300 words.</instruction>
     <delayTime>00:00:00</delayTime>
-    <attemptTime>00:00:00</attemptTime>
+    <attemptTime>00:20:00</attemptTime>
     <template>
       <description>Education is critical element of the prosperity (success) of any nation. The more educated the people of the country are, more successful their nation become. Support your point of view with reasons and examples from your own experience or observations?</description>
       <title></title>

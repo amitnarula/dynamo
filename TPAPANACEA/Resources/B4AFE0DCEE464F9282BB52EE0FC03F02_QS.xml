@@ -1262,7 +1262,8 @@ Answer:  China</transcript>
     <transcript>More than one and a half billion people around the world live without electricity. Finding better ways to bring light to the poor is the goal of researchers like David Irvine-Halliday. In the late nineteen nineties, the Canadian professor was working in Nepal when his return flight was canceled. A delay gave him time to take a fourteen-day hiking trip in the Himalayas. As he tells it, one day he looked in the window of a school and noticed how dark it was. This is a common problem for millions of children around the world -- and not just at school, but also at home. Many families use kerosene oil lamps. There are many problems with these lamps. They produce only a small amount of light. They are dangerous to breathe. And they are a big fire danger, causing many injuries and deaths each year. Kerosene costs less than other forms of lighting, but it is still costly in poor countries. Professor Irvine-Halliday says many people spend well over one hundred dollars a year on the fuel. When he returned to Canada, he began researching ways to provide safe, clean and affordable lighting. He began experimenting with light-emitting diodes, LEDs, at his laboratory at the University of Calgary in Alberta. As a professor of renewable energy, he already knew about the technology. Light-emitting diodes are small glass lamps that use much less electricity than traditional bulbs and last much longer. Professor Irvine-Halliday used a one-watt bright white L.E.D. made in Japan. He found it on the Internet and connected it to a bicycle-powered generator. He remembers thinking it was so bright, a child could read by the light of a single diode. In two thousand, after much research and many experiments, he returned to Nepal to put the systems into homes. His Light Up the World Foundation has now equipped the homes of twenty-five thousand people in fifty-one countries.
 	Sample Answer : The major goal of Professor David Irvine- Halliday was to equip poor with bright light. In his 14 day hiking trip in the Himalayas, he noticed the problem faced by students in dark schools and even in homes where families used kerosene oil lamps which are associated with many problems. After returning Canada, he started experimenting LED’s and used one- watt L.E.D. and connected to bicycle- powered generator which proved to be successful. His LUTW now equip many homes in 51 countries.</transcript>
   </template>
-</question><question>
+</question>
+<question>
   <id>756f4fd681504d09803638245fde1aee</id>
   <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
   <type>LOOK_SPEAK_LISTEN</type>
@@ -1364,7 +1365,7 @@ Answer: Jupiter </transcript>
     <output>af72630922764bbb974eae76e61827ec</output>
     <answer>sampleresponse</answer>
     <beep>False</beep>
-    <audio>Speaking - Answer Short Question - Q30 Test 3-2.tpm</audio>
+    <audio>Speaking - Answer Short Question - Q31 Test 3-2.tpm</audio>
     <audioDelay>03</audioDelay>
     <transcript>The word disciple means something other than follower. What is its proper meaning? 
 Answer :- pupil, learner, student, apprentice, scholar</transcript>
@@ -1385,7 +1386,7 @@ Answer :- pupil, learner, student, apprentice, scholar</transcript>
     <output>db534695f6394d0d9e1a88b803175759</output>
     <answer>sampleresponse</answer>
     <beep>False</beep>
-    <audio>Speaking - Answer Short Question - Q31 Test 3-2.tpm</audio>
+    <audio>Speaking - Answer Short Question - Q32 Test 3-2.tpm</audio>
     <audioDelay>03</audioDelay>
     <transcript>What is the purpose of an analgesic drug? 
 Answer: Pain killer</transcript>
@@ -1406,7 +1407,7 @@ Answer: Pain killer</transcript>
     <output>6b57f947a2e84532b677fcf09a63353e</output>
     <answer>sampleresponse</answer>
     <beep>False</beep>
-    <audio>Speaking - Answer Short Question - Q32 Test 3-2.tpm</audio>
+    <audio>Speaking - Answer Short Question - Q33 Test 3-2.tpm</audio>
     <audioDelay>03</audioDelay>
     <transcript>What is the world's largest man-made structure? 
 Answer: Great Wall of China</transcript>
@@ -1427,33 +1428,35 @@ Answer: Great Wall of China</transcript>
     <output>c7a135b43f8b492ba13d88eaa898cd8f</output>
     <answer>sampleresponse</answer>
     <beep>False</beep>
-    <audio>Speaking - Answer Short Question - Q33 Test 3-2.tpm</audio>
-    <audioDelay>03</audioDelay>
-    <transcript>Which vitamin can be formed in the skin by the action of sunlight? 
-Answer: Vitamin D</transcript>
-  </template>
-</question><question>
-  <id>8420f15632dc425f9d1cb6b1104f6c8a</id>
-  <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
-  <type>SPEAK_ANSWER_SHORT_QUESTION</type>
-  <itemType>SPEAKING</itemType>
-  <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:00:00</attemptTime>
-  <template>
-    <description></description>
-    <title></title>
-    <delay>01</delay>
-    <recordingTime>10</recordingTime>
-    <output>8420f15632dc425f9d1cb6b1104f6c8a</output>
-    <answer>sampleresponse</answer>
-    <beep>False</beep>
     <audio>Speaking - Answer Short Question - Q34 Test 3-2.tpm</audio>
     <audioDelay>03</audioDelay>
     <transcript>Which vitamin can be formed in the skin by the action of sunlight? 
 Answer: Vitamin D</transcript>
   </template>
-</question><question>
+</question>
+<!-- <question> -->
+  <!-- <id>8420f15632dc425f9d1cb6b1104f6c8a</id> -->
+  <!-- <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet> -->
+  <!-- <type>SPEAK_ANSWER_SHORT_QUESTION</type> -->
+  <!-- <itemType>SPEAKING</itemType> -->
+  <!-- <instruction>You will hear a question. Please give a simple and short answer.  Often just one or a few words is enough.</instruction> -->
+  <!-- <delayTime>00:00:00</delayTime> -->
+  <!-- <attemptTime>00:00:00</attemptTime> -->
+  <!-- <template> -->
+    <!-- <description></description> -->
+    <!-- <title></title> -->
+    <!-- <delay>01</delay> -->
+    <!-- <recordingTime>10</recordingTime> -->
+    <!-- <output>8420f15632dc425f9d1cb6b1104f6c8a</output> -->
+    <!-- <answer>sampleresponse</answer> -->
+    <!-- <beep>False</beep> -->
+    <!-- <audio>Speaking - Answer Short Question - Q34 Test 3-2.tpm</audio> -->
+    <!-- <audioDelay>03</audioDelay> -->
+    <!-- <transcript>Which vitamin can be formed in the skin by the action of sunlight?  -->
+<!-- Answer: Vitamin D</transcript> -->
+  <!-- </template> -->
+<!-- </question> -->
+<question>
   <id>fbe73cd02b75403393caab2faadf81f9</id>
   <practiceSet>7fdd81499d6147a1b4a817e56db88024</practiceSet>
   <type>SPEAK_ANSWER_SHORT_QUESTION</type>
@@ -7149,9 +7152,9 @@ Answer: Rigorous</transcript>
   </template>
 </question>
 <!-- Test 10 -->
-<!-- <question>
+<question>
   <id>734252f7b7ad40a7b6a32acb3d87bbff</id>
-  <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
   <type>SPEAK_READ</type>
   <itemType>SPEAKING</itemType>
   <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
@@ -7170,7 +7173,7 @@ Answer: Rigorous</transcript>
 </question>
 <question>
   <id>bcf96e8b9a274c3595529884f1a59dd8</id>
-  <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
   <type>SPEAK_READ</type>
   <itemType>SPEAKING</itemType>
   <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
@@ -7189,7 +7192,7 @@ Answer: Rigorous</transcript>
 </question>
 <question>
   <id>088e48ef461347809dfda3b496f25338</id>
-  <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
   <type>SPEAK_READ</type>
   <itemType>SPEAKING</itemType>
   <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
@@ -7206,28 +7209,28 @@ Answer: Rigorous</transcript>
     <transcript></transcript>
   </template>
 </question>
-<question>
-  <id>1766d4d940e24a20b8f7ab45ec7fbcbf</id>
-  <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
-  <type>SPEAK_READ</type>
-  <itemType>SPEAKING</itemType>
-  <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
-  <delayTime>00:00:00</delayTime>
-  <attemptTime>00:00:00</attemptTime>
-  <template>
-    <description>Pushpins, also known as thumbtacks for bulletin boards, are very popular in corporate offices. They are used to hang daily office documents. Normally, pushpins have a metal point and a top with a cylindrical shape head whereas bulletin boards are made out of cork. It is a very useful tool for employees and managers as they mainly use it to hang memos, calendars, work manuals, and others.</description>
-    <title></title>
-    <delay>40</delay>
-    <recordingTime>40</recordingTime>
-    <output>1766d4d940e24a20b8f7ab45ec7fbcbf</output>
-    <answer>sampleresponse</answer>
-    <beep>True</beep>
-    <transcript></transcript>
-  </template>
-</question>
+<!-- <question> -->
+  <!-- <id>1766d4d940e24a20b8f7ab45ec7fbcbf</id> -->
+  <!-- <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet> -->
+  <!-- <type>SPEAK_READ</type> -->
+  <!-- <itemType>SPEAKING</itemType> -->
+  <!-- <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction> -->
+  <!-- <delayTime>00:00:00</delayTime> -->
+  <!-- <attemptTime>00:00:00</attemptTime> -->
+  <!-- <template> -->
+    <!-- <description>Pushpins, also known as thumbtacks for bulletin boards, are very popular in corporate offices. They are used to hang daily office documents. Normally, pushpins have a metal point and a top with a cylindrical shape head whereas bulletin boards are made out of cork. It is a very useful tool for employees and managers as they mainly use it to hang memos, calendars, work manuals, and others.</description> -->
+    <!-- <title></title> -->
+    <!-- <delay>40</delay> -->
+    <!-- <recordingTime>40</recordingTime> -->
+    <!-- <output>1766d4d940e24a20b8f7ab45ec7fbcbf</output> -->
+    <!-- <answer>sampleresponse</answer> -->
+    <!-- <beep>True</beep> -->
+    <!-- <transcript></transcript> -->
+  <!-- </template> -->
+<!-- </question> -->
 <question>
   <id>7eead76684334ee29a2eebc3dbd9dfbf</id>
-  <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
   <type>SPEAK_READ</type>
   <itemType>SPEAKING</itemType>
   <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
@@ -7246,7 +7249,7 @@ Answer: Rigorous</transcript>
 </question>
 <question>
   <id>4d9901812a3f4362a53ee27f9577173c</id>
-  <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
   <type>SPEAK_READ</type>
   <itemType>SPEAKING</itemType>
   <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
@@ -7265,7 +7268,7 @@ Answer: Rigorous</transcript>
 </question>
 <question>
   <id>990fdaa40b4c48e89aa0a3869e539fc9</id>
-  <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
   <type>SPEAK_READ</type>
   <itemType>SPEAKING</itemType>
   <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
@@ -7284,7 +7287,7 @@ Answer: Rigorous</transcript>
 </question>
 <question>
   <id>2b5bb70ed7194a148280e23e8bfb697d</id>
-  <practiceSet>94fbb82b4fd1485eb61cc3c671da384d</practiceSet>
+  <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
   <type>SPEAK_READ</type>
   <itemType>SPEAKING</itemType>
   <instruction>Look at the text below. In 40 seconds, you must read this text aloud as naturally and clearly as possible. You have 40 seconds to read aloud.</instruction>
@@ -7300,7 +7303,7 @@ Answer: Rigorous</transcript>
     <beep>True</beep>
     <transcript></transcript>
   </template>
-</question> -->
+</question>
 <question>
   <id>bc3e28bbe587492d899abf35080ba218</id>
   <practiceSet>4e1a53fbe93d491289754abda2ea6984</practiceSet>
