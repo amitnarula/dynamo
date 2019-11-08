@@ -35,9 +35,9 @@
             <TableRowGroup>
                 <TableRow>
                     <TableCell>
-                        <Paragraph FontSize="20" FontWeight="Bold">
+                        <Paragraph FontSize="18" FontWeight="Bold">
                             <!--<xrd:InlineContextValue PropertyName="ReportTitle" /> No.-->
-                            Consolidated analsysis : <xrd:InlineDocumentValue PropertyName="ReportTitle" />
+                            Consolidated analysis : <xrd:InlineDocumentValue PropertyName="ReportTitle" />
                         </Paragraph>
                     </TableCell>
                     <TableCell>
