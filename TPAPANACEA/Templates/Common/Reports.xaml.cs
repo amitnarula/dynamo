@@ -748,11 +748,11 @@ namespace TPAPanacea.Templates.Common
                 tableData.Rows.Add(new object[] { "Speaking", speakingResult });
                 tableData.Rows.Add(new object[] { "Writing", writingResult });
 
-                
-                tableReport.Rows.Add("Writing", resultDic["Writing"]);
-                tableReport.Rows.Add("Speaking", resultDic["Speaking"]);
-                tableReport.Rows.Add("Reading", resultDic["Reading"]);
-                tableReport.Rows.Add("Listening", resultDic["Listening"]);
+
+                tableReport.Rows.Add("Writing", resultDic["Writing"] < 10 ? 10 : resultDic["Writing"]);
+                tableReport.Rows.Add("Speaking", resultDic["Speaking"] < 10 ? 10 : resultDic["Speaking"]);
+                tableReport.Rows.Add("Reading", resultDic["Reading"]<10?10:resultDic["Reading"]);
+                tableReport.Rows.Add("Listening", resultDic["Listening"]<10?10:resultDic["Listening"]);
 
                 var resParameterizedScore = parameterizedScore.GroupBy(x => x.ParamName).Select(g => new {
                    Parameter = g.Key,
@@ -788,13 +788,13 @@ namespace TPAPanacea.Templates.Common
                 grammar=resParameterizedScore.SingleOrDefault(x => x.Parameter == "Grammar").Score;
                 grammarTotal = resParameterizedMaxScore.SingleOrDefault(x => x.Parameter == "Grammar").Score;
 
-                tableReport2.Rows.Add("Written Discourse", Convert.ToInt16((writtenDiscourse/writtenDiscourseTotal)*90));
-                tableReport2.Rows.Add("Vocabulary", Convert.ToInt16((vocabulary/vocabularyTotal)*90));
-                tableReport2.Rows.Add("Spelling", Convert.ToInt16((spelling/spellingTotal)*90));
+                tableReport2.Rows.Add("Written Discourse", Convert.ToInt16((writtenDiscourse / writtenDiscourseTotal) * 90) < 10 ? 10 : Convert.ToInt16((writtenDiscourse / writtenDiscourseTotal) * 90));
+                tableReport2.Rows.Add("Vocabulary", Convert.ToInt16((vocabulary/vocabularyTotal)*90)<10?10:Convert.ToInt16((vocabulary/vocabularyTotal)*90));
+                tableReport2.Rows.Add("Spelling", Convert.ToInt16((spelling/spellingTotal)*90)<10?10:Convert.ToInt16((spelling/spellingTotal)*90));
                 //tableReport2.Rows.Add("Pronunciation", Convert.ToInt16(((pronunciation/pronunciationTotal)*Convert.ToInt16((90/1.25))))); //changed as per request
-                tableReport2.Rows.Add("Pronunciation", Convert.ToInt16((pronunciation / pronunciationTotal) * 90));
-                tableReport2.Rows.Add("Oral Fluency", Convert.ToInt16((oralFluency/oralFluencyTotal)*90));
-                tableReport2.Rows.Add("Grammar", Convert.ToInt16((grammar/grammarTotal)*90));
+                tableReport2.Rows.Add("Pronunciation", Convert.ToInt16((pronunciation / pronunciationTotal) * 90)<10?10:Convert.ToInt16((pronunciation / pronunciationTotal) * 90));
+                tableReport2.Rows.Add("Oral Fluency", Convert.ToInt16((oralFluency/oralFluencyTotal)*90)<10?10:Convert.ToInt16((oralFluency/oralFluencyTotal)*90));
+                tableReport2.Rows.Add("Grammar", Convert.ToInt16((grammar / grammarTotal) * 90) < 10 ? 10 : Convert.ToInt16((grammar / grammarTotal) * 90));
 
 
             }
@@ -823,10 +823,10 @@ namespace TPAPanacea.Templates.Common
             rptView.ReportDocumentValues.Add("Comment", GenerateComment(80));
             rptView.ReportDocumentValues.Add("ExamCenter", ownerInfo==null?"Panacea":ownerInfo.Firstname);
 
-            rptView.ReportDocumentValues.Add("Listening", Convert.ToInt16(resultDic["Listening"]));
-            rptView.ReportDocumentValues.Add("Speaking", Convert.ToInt16(resultDic["Speaking"]));
-            rptView.ReportDocumentValues.Add("Writing", Convert.ToInt16(resultDic["Writing"]));
-            rptView.ReportDocumentValues.Add("Reading", Convert.ToInt16(resultDic["Reading"]));
+            rptView.ReportDocumentValues.Add("Listening", Convert.ToInt16(resultDic["Listening"])<10?10:Convert.ToInt16(resultDic["Listening"]));
+            rptView.ReportDocumentValues.Add("Speaking", Convert.ToInt16(resultDic["Speaking"])<10?10:Convert.ToInt16(resultDic["Speaking"]));
+            rptView.ReportDocumentValues.Add("Writing", Convert.ToInt16(resultDic["Writing"])<10?10:Convert.ToInt16(resultDic["Writing"]));
+            rptView.ReportDocumentValues.Add("Reading", Convert.ToInt16(resultDic["Reading"])<10?10:Convert.ToInt16(resultDic["Reading"]));
 
             var overallScore = GetOverallScore(Convert.ToInt16(resultDic["Listening"]),
                 Convert.ToInt16(resultDic["Speaking"]),
@@ -837,12 +837,12 @@ namespace TPAPanacea.Templates.Common
 
             rptView.ReportDocumentValues.Add("OverallBands", string.Format("Overall {0} Bands", GetOverallBands(Convert.ToInt16(overallScore))));
 
-            rptView.ReportDocumentValues.Add("Grammar", Convert.ToInt16((grammar / grammarTotal) * 90));
-            rptView.ReportDocumentValues.Add("Vocabulary", Convert.ToInt16((vocabulary / vocabularyTotal) * 90));
-            rptView.ReportDocumentValues.Add("WrittenDiscourse", Convert.ToInt16((writtenDiscourse / writtenDiscourseTotal) * 90));
-            rptView.ReportDocumentValues.Add("Spelling", Convert.ToInt16((spelling / spellingTotal) * 90));
-            rptView.ReportDocumentValues.Add("OralFluency", Convert.ToInt16((oralFluency / oralFluencyTotal) * 90));
-            rptView.ReportDocumentValues.Add("Pronunciation", Convert.ToInt16(((pronunciation / pronunciationTotal) * Convert.ToInt16((90 / 1.25)))));
+            rptView.ReportDocumentValues.Add("Grammar", Convert.ToInt16((grammar / grammarTotal) * 90) < 10 ? 10 : Convert.ToInt16((grammar / grammarTotal) * 90));
+            rptView.ReportDocumentValues.Add("Vocabulary", Convert.ToInt16((vocabulary / vocabularyTotal) * 90)<10?10:Convert.ToInt16((vocabulary / vocabularyTotal) * 90));
+            rptView.ReportDocumentValues.Add("WrittenDiscourse", Convert.ToInt16((writtenDiscourse / writtenDiscourseTotal) * 90)<10?10:Convert.ToInt16((writtenDiscourse / writtenDiscourseTotal) * 90));
+            rptView.ReportDocumentValues.Add("Spelling", Convert.ToInt16((spelling / spellingTotal) * 90)<10?10:Convert.ToInt16((spelling / spellingTotal) * 90));
+            rptView.ReportDocumentValues.Add("OralFluency", Convert.ToInt16((oralFluency / oralFluencyTotal) * 90)<10?10:Convert.ToInt16((oralFluency / oralFluencyTotal) * 90));
+            rptView.ReportDocumentValues.Add("Pronunciation", Convert.ToInt16(((pronunciation / pronunciationTotal) * Convert.ToInt16((90 / 1.25))))<10?10:Convert.ToInt16(((pronunciation / pronunciationTotal) * Convert.ToInt16((90 / 1.25)))));
 
             rptView.TemplateType = "detailedanalysis";
             //obj.GenerateReport();

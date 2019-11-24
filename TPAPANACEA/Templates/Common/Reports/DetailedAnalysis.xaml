@@ -354,11 +354,11 @@
                     </TableCell>
                     <TableCell>
                         <Paragraph>
-                            <crcv:StackedBarChart TableName="Score" TableColumns="Module,Score" Width="16cm" Height="5.5cm" UniqueColors="False"  Title="Communicative Skills">
+                            <crcv:StackedBarChart TableName="Score" TableColumns="Module,Score" Width="16cm" Height="5.5cm" UniqueColors="False"  Title="Communicative Skills out of 90">
                             </crcv:StackedBarChart>
                         </Paragraph>
                         <Paragraph>
-                            <crcv:StackedBarChart TableName="Skill" TableColumns="Skill,Score" Width="16cm" Height="5.5cm" UniqueColors="False"  Title="Enabling Skills">
+                            <crcv:StackedBarChart TableName="Skill" TableColumns="Skill,Score" Width="16cm" Height="5.5cm" UniqueColors="False"  Title="Enabling Skills out of 90">
                             </crcv:StackedBarChart>
                         </Paragraph>
                     </TableCell>
