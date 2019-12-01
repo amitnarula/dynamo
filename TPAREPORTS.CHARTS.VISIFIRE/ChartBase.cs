@@ -203,6 +203,9 @@ namespace CodeReason.Reports.Charts.Visifire
             if (!String.IsNullOrEmpty(Title)) Chart.Titles.Add(new global::Visifire.Charts.Title() {Text = Title});
             Chart.UniqueColors = UniqueColors;
             Chart.View3D = View3D;
+            
+            
+            
         }
 
         /// <summary>
@@ -218,18 +221,24 @@ namespace CodeReason.Reports.Charts.Visifire
                 global::Visifire.Charts.DataSeries ds = new global::Visifire.Charts.DataSeries();
                 ds.RenderAs = RenderAs;
                 Chart.Series.Add(ds);
+                Chart.AxesY.Add(new global::Visifire.Charts.Axis()
+                {
+                    AxisMinimum = 10 //TO DO in generic manner
+                });
 
                 foreach (DataRowView rowView in DataView)
                 {
                     global::Visifire.Charts.DataPoint dp = new global::Visifire.Charts.DataPoint();
                     ds.RenderAs = RenderAs;
                     ds.DataPoints.Add(dp);
-
+                    
                     dp.AxisXLabel = rowView[DataColumns[0]].ToString();
+                    
 
                     Type type = DataView.Table.Columns[DataColumns[1]].DataType;
                     try
                     {
+                        
                         dp.YValue = FormatValue(rowView[DataColumns[1]], type);
                     }
                     catch (NotSupportedException)
