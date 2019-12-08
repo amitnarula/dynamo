@@ -548,7 +548,20 @@ namespace TPA.Templates.Common
                 if (result != null)
                 {
                     int max = result.Sum(x => Convert.ToInt16(x.ParamMaxScore));
-                    int obt = result.Sum(x => Convert.ToInt16(x.ParamScore));
+                    int obt = result.Sum(x => Convert.ToInt16(Math.Round(Convert.ToDecimal(x.ParamScore)))); //prevent the crash
+                    //int obt = result.Sum(x =>
+                    //{
+                    //    int i;
+                    //    decimal d;
+                    //    if (int.TryParse(x.ParamScore, out i))
+                    //        return i;
+                    //    else if (decimal.TryParse(x.ParamScore, out d)) {
+                    //        return Convert.ToInt32(Math.Round(d));
+                    //    }
+                    //    else
+                    //        return 0;
+                    //});
+
 
                     lblPoints.Content = string.Format("Maximum Points : {0}      Points Obtained: {1} {2}", max,
                     obt, IsTimeOut ? "(Timeout)" : string.Empty);
